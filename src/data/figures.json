@@ -1802,5 +1802,136 @@
     "fact": "FIT-F046"
    }
   }
+ },
+ {
+  "id": "electroplating/buffing",
+  "shop": "electroplating",
+  "title": "Buffing (polishing) machine",
+  "alt": "Double-ended bench polishing machine with cloth wheels and a compound bar",
+  "labels": {
+   "A": {
+    "part": "Buffing wheel (cloth mop)",
+    "function": "Rotating cloth wheel charged with abrasive compound",
+    "fact": "ELP-F022"
+   },
+   "B": {
+    "part": "Buffing compound bar",
+    "function": "Fine abrasive (alumina, SiC, iron/chromium oxide) in a wax or soap binder",
+    "fact": "ELP-F023"
+   },
+   "C": {
+    "part": "Motor",
+    "function": "Drives the wheels at high speed",
+    "fact": "ELP-F053"
+   }
+  }
+ },
+ {
+  "id": "electroplating/cell",
+  "shop": "electroplating",
+  "title": "Electroplating cell",
+  "alt": "Line diagram of an electroplating cell: DC source with meters, anode, workpiece, electrolyte in a tank, and ion-flow arrows",
+  "labels": {
+   "A": {
+    "part": "Anode (metal to be deposited)",
+    "function": "Connected to the + terminal; dissolves into the bath to replace the metal ions",
+    "fact": "ELP-F004"
+   },
+   "B": {
+    "part": "Cathode (workpiece)",
+    "function": "Connected to the − terminal; metal ions deposit on it",
+    "fact": "ELP-F003"
+   },
+   "C": {
+    "part": "Electrolyte (bath)",
+    "function": "Solution containing ions of the plating metal",
+    "fact": "ELP-F009"
+   },
+   "D": {
+    "part": "DC power source",
+    "function": "Supplies direct current of variable voltage and current",
+    "fact": "ELP-F006"
+   },
+   "E": {
+    "part": "Ammeter",
+    "function": "Connected in series to measure the plating current",
+    "fact": "ELP-F008"
+   },
+   "F": {
+    "part": "Voltmeter",
+    "function": "Connected across the cell to measure voltage",
+    "fact": "ELP-F008"
+   },
+   "G": {
+    "part": "Tank",
+    "function": "Container holding the electrolyte",
+    "fact": "ELP-F007"
+   }
+  }
+ },
+ {
+  "id": "electroplating/electrocleaning",
+  "shop": "electroplating",
+  "title": "Electrochemical cleaning",
+  "alt": "Cell in which the workpiece is connected to the positive terminal and gas bubbles form on it",
+  "labels": {
+   "A": {
+    "part": "Workpiece (made the anode)",
+    "function": "In electro-cleaning the job is the + electrode — the reverse of plating",
+    "fact": "ELP-F027"
+   },
+   "B": {
+    "part": "Oxygen gas bubbles",
+    "function": "O₂ released at the job (4OH⁻ → 2H₂O + O₂ + 4e⁻) scrubs off rust and dirt",
+    "fact": "ELP-F028"
+   },
+   "C": {
+    "part": "Cathode (counter electrode)",
+    "function": "Connected to the − terminal",
+    "fact": "ELP-F027"
+   }
+  }
+ },
+ {
+  "id": "electroplating/process-flow",
+  "shop": "electroplating",
+  "title": "ME-106 electroplating sequence",
+  "alt": "Six blank boxes in a column joined by arrows, each lettered; the steps are not written in the boxes",
+  "labels": {
+   "A": {
+    "part": "Mechanical cleaning",
+    "function": "Removes rust and burrs from the mild-steel job",
+    "fact": "ELP-F056"
+   },
+   "B": {
+    "part": "Polishing / buffing",
+    "function": "Smooths and shines the surface before plating",
+    "fact": "ELP-F056"
+   },
+   "C": {
+    "part": "Chemical cleaning",
+    "function": "Removes grease and contaminants in the cleaning bath",
+    "fact": "ELP-F057"
+   },
+   "D": {
+    "part": "Washing with water and pumice powder",
+    "function": "Removes cleaning chemicals before plating",
+    "fact": "ELP-F057"
+   },
+   "E": {
+    "part": "Copper plating",
+    "function": "Deposits a copper base layer until the job turns reddish",
+    "fact": "ELP-F058"
+   },
+   "F": {
+    "part": "Nickel plating",
+    "function": "Half the job is dipped to deposit a bright nickel layer",
+    "fact": "ELP-F059"
+   }
+  },
+  "ask": {
+   "p": "In the ME-106 electroplating sequence shown, what is step {L}?",
+   "w": "Which box in the sequence is {P}?"
+  }
  }
 ]

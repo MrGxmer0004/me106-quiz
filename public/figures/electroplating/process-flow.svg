@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-label="Figure"><style>.s{fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}.thin{fill:none;stroke:currentColor;stroke-width:1.1}.lead{fill:none;stroke:currentColor;stroke-width:1.2;opacity:.85}.f{fill:currentColor;fill-opacity:.10;stroke:currentColor;stroke-width:2;stroke-linejoin:round}.f2{fill:currentColor;fill-opacity:.22;stroke:currentColor;stroke-width:2;stroke-linejoin:round}.k{fill:currentColor;stroke:none}.d{fill:none;stroke:currentColor;stroke-width:1.5;stroke-dasharray:6 4}.cl{fill:none;stroke:currentColor;stroke-width:1;stroke-dasharray:14 4 3 4;opacity:.7}.acc{fill:none;stroke:#e8590c;stroke-width:2.4;stroke-linecap:round}.accf{fill:#e8590c;stroke:none}.acct{fill:#e8590c;stroke:none}.tx{fill:currentColor;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}</style>
+<rect class="f" x="250.0" y="20.0" width="260.0" height="56.0" rx="10"/>
+<line class="s" x1="380.0" y1="78.0" x2="380.0" y2="100.0"/>
+<polygon class="k" points="380.0,100.0 376.1,90.8 383.9,90.8"/>
+<rect class="f" x="250.0" y="102.0" width="260.0" height="56.0" rx="10"/>
+<line class="s" x1="380.0" y1="160.0" x2="380.0" y2="182.0"/>
+<polygon class="k" points="380.0,182.0 376.1,172.8 383.9,172.8"/>
+<rect class="f" x="250.0" y="184.0" width="260.0" height="56.0" rx="10"/>
+<line class="s" x1="380.0" y1="242.0" x2="380.0" y2="264.0"/>
+<polygon class="k" points="380.0,264.0 376.1,254.8 383.9,254.8"/>
+<rect class="f" x="250.0" y="266.0" width="260.0" height="56.0" rx="10"/>
+<line class="s" x1="380.0" y1="324.0" x2="380.0" y2="346.0"/>
+<polygon class="k" points="380.0,346.0 376.1,336.8 383.9,336.8"/>
+<rect class="f" x="250.0" y="348.0" width="260.0" height="56.0" rx="10"/>
+<line class="s" x1="380.0" y1="406.0" x2="380.0" y2="428.0"/>
+<polygon class="k" points="380.0,428.0 376.1,418.8 383.9,418.8"/>
+<rect class="f" x="250.0" y="430.0" width="260.0" height="56.0" rx="10"/>
+<circle cx="380.0" cy="48.0" r="15" fill="#e8590c"/><text x="380.0" y="49.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">A</text>
+<circle cx="380.0" cy="130.0" r="15" fill="#e8590c"/><text x="380.0" y="131.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">B</text>
+<circle cx="380.0" cy="212.0" r="15" fill="#e8590c"/><text x="380.0" y="213.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">C</text>
+<circle cx="380.0" cy="294.0" r="15" fill="#e8590c"/><text x="380.0" y="295.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">D</text>
+<circle cx="380.0" cy="376.0" r="15" fill="#e8590c"/><text x="380.0" y="377.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">E</text>
+<circle cx="380.0" cy="458.0" r="15" fill="#e8590c"/><text x="380.0" y="459.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">F</text>
+</svg>

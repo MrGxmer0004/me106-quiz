@@ -1,0 +1,2888 @@
+[
+ {
+  "id": "ELP-0001",
+  "shop": "electroplating",
+  "category": "definitions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Electroplating is…",
+  "options": [
+   "Hardening a job by quenching it",
+   "Depositing a thin metal coating on a conducting job",
+   "Joining two metals by melting them",
+   "Removing metal by sparks from a job"
+  ],
+  "answer": 1,
+  "explanation": "Electroplating applies a thin layer of metal on a metallic or other conducting substrate to improve appearance or surface properties.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.2",
+  "tags": [],
+  "facts": [
+   "ELP-F001"
+  ]
+ },
+ {
+  "id": "ELP-0002",
+  "shop": "electroplating",
+  "category": "principle-theory",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Electroplating is based on which process?",
+  "options": [
+   "Electrical discharge",
+   "Induction heating",
+   "Photolithography",
+   "Electrolysis"
+  ],
+  "answer": 3,
+  "explanation": "Electroplating is based on electrolysis.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.2",
+  "tags": [],
+  "facts": [
+   "ELP-F002"
+  ]
+ },
+ {
+  "id": "ELP-0003",
+  "shop": "electroplating",
+  "category": "principle-theory",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "In electroplating, the workpiece to be coated is connected to the…",
+  "options": [
+   "Cathode (negative terminal)",
+   "Anode (positive terminal)",
+   "Earth only",
+   "Voltmeter"
+  ],
+  "answer": 0,
+  "explanation": "The substrate (workpiece) is the cathode; the metal to be deposited is the anode.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.2–3",
+  "tags": [],
+  "facts": [
+   "ELP-F003"
+  ]
+ },
+ {
+  "id": "ELP-0004",
+  "shop": "electroplating",
+  "category": "principle-theory",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "In electroplating, the anode is usually…",
+  "options": [
+   "A block of rubber",
+   "The workpiece itself",
+   "A plate of the metal to be deposited",
+   "A glass rod"
+  ],
+  "answer": 2,
+  "explanation": "The anode is usually the plating metal, connected to the positive terminal.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.2–3",
+  "tags": [],
+  "facts": [
+   "ELP-F004"
+  ]
+ },
+ {
+  "id": "ELP-0005",
+  "shop": "electroplating",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "During plating, the positive metal ions in the bath move towards the…",
+  "options": [
+   "Surface, where they escape as gas",
+   "Tank wall, where they settle",
+   "Anode, where they deposit as metal",
+   "Cathode (workpiece), where they deposit as metal"
+  ],
+  "answer": 3,
+  "explanation": "Metal cations migrate to the cathode, gain electrons and deposit; the anode dissolves to replace them.",
+  "source": "theory",
+  "ref": "Theory: Dini",
+  "tags": [],
+  "facts": [
+   "ELP-F005"
+  ]
+ },
+ {
+  "id": "ELP-0006",
+  "shop": "electroplating",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "What happens to the anode during electroplating?",
+  "options": [
+   "It dissolves into the bath, replacing the metal ions",
+   "It stays completely unchanged",
+   "It gives off oxygen only",
+   "It gets plated with a new layer"
+  ],
+  "answer": 0,
+  "explanation": "The anode metal goes into solution as ions, keeping the bath concentration up.",
+  "source": "theory",
+  "ref": "Theory: Dini",
+  "tags": [],
+  "facts": [
+   "ELP-F005"
+  ]
+ },
+ {
+  "id": "ELP-0007",
+  "shop": "electroplating",
+  "category": "principle-theory",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which type of electric supply is needed for electroplating?",
+  "options": [
+   "High-frequency AC",
+   "Direct current (DC)",
+   "Alternating current (AC)",
+   "Static charge only"
+  ],
+  "answer": 1,
+  "explanation": "Plating needs a DC source of variable voltage and current.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.3",
+  "tags": [],
+  "facts": [
+   "ELP-F006"
+  ]
+ },
+ {
+  "id": "ELP-0008",
+  "shop": "electroplating",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of these is NOT a component of an electroplating cell?",
+  "options": [
+   "Electrolyte in a tank",
+   "DC power source",
+   "Dielectric fluid",
+   "Anode and cathode"
+  ],
+  "answer": 2,
+  "explanation": "A plating cell has a DC source, conductors, meters, cathode, anode and electrolyte (bath) in a tank. Dielectric fluid is used in EDM.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.3",
+  "tags": [],
+  "facts": [
+   "ELP-F007"
+  ]
+ },
+ {
+  "id": "ELP-0009",
+  "shop": "electroplating",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In the plating circuit, how are the ammeter and voltmeter connected?",
+  "options": [
+   "Ammeter in series; voltmeter across the cell",
+   "Ammeter across; voltmeter in series",
+   "Both across the anode only",
+   "Both in series with the cell"
+  ],
+  "answer": 0,
+  "explanation": "Current is measured in series and voltage across the cell.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.3",
+  "tags": [],
+  "facts": [
+   "ELP-F008"
+  ]
+ },
+ {
+  "id": "ELP-0010",
+  "shop": "electroplating",
+  "category": "definitions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "The electrolyte (bath) in electroplating is…",
+  "options": [
+   "Kerosene or other dielectric oil",
+   "A dry powder of the plating metal",
+   "Pure distilled water only",
+   "A solution containing ions of the plating metal"
+  ],
+  "answer": 3,
+  "explanation": "The bath supplies ions of the metal to be deposited.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.3",
+  "tags": [],
+  "facts": [
+   "ELP-F009"
+  ]
+ },
+ {
+  "id": "ELP-0011",
+  "shop": "electroplating",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "According to Faraday's first law, the mass of metal deposited is proportional to…",
+  "options": [
+   "The temperature of the anode",
+   "The voltage only",
+   "The quantity of electricity passed (I × t)",
+   "The size of the tank"
+  ],
+  "answer": 2,
+  "explanation": "m ∝ Q = I × t. Current and time are the most important parameters.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.2",
+  "tags": [],
+  "facts": [
+   "ELP-F010",
+   "ELP-F011"
+  ]
+ },
+ {
+  "id": "ELP-0012",
+  "shop": "electroplating",
+  "category": "process-parameters",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which two parameters mainly decide how much metal is deposited?",
+  "options": [
+   "Colour and temperature",
+   "Current and time",
+   "pH and tank shape",
+   "Voltage and tank size"
+  ],
+  "answer": 1,
+  "explanation": "The amount deposited depends on the quantity of electricity: current × time.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.2",
+  "tags": [],
+  "facts": [
+   "ELP-F011"
+  ]
+ },
+ {
+  "id": "ELP-0013",
+  "shop": "electroplating",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "How much charge is needed to deposit one gram-equivalent of any metal?",
+  "options": [
+   "6.02 × 10²³ coulombs",
+   "9,650 coulombs",
+   "96,500 coulombs (1 faraday)",
+   "1,000 coulombs"
+  ],
+  "answer": 2,
+  "explanation": "1 faraday = 96,500 C deposits one gram-equivalent.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.2",
+  "tags": [],
+  "facts": [
+   "ELP-F012"
+  ]
+ },
+ {
+  "id": "ELP-0014",
+  "shop": "electroplating",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "The mass deposited in electroplating is given by m =…",
+  "options": [
+   "M·I·t / (n·F)",
+   "n·F / (M·I·t)",
+   "M·n·F / (I·t)",
+   "I·t / (M·n·F)"
+  ],
+  "answer": 0,
+  "explanation": "M = atomic mass, n = valency, I = current (A), t = time (s), F = 96,500 C/mol.",
+  "source": "theory",
+  "ref": "Theory: Faraday's laws",
+  "tags": [],
+  "facts": [
+   "ELP-F013"
+  ]
+ },
+ {
+  "id": "ELP-0015",
+  "shop": "electroplating",
+  "category": "principle-theory",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Faraday's second law states that, for the same charge, the masses deposited are proportional to…",
+  "options": [
+   "The voltages applied",
+   "The densities of the metals",
+   "The tank volumes",
+   "The chemical equivalents (M/n) of the metals"
+  ],
+  "answer": 3,
+  "explanation": "Equal charge deposits masses in the ratio of the equivalent weights.",
+  "source": "theory",
+  "ref": "Theory: Faraday's laws",
+  "tags": [],
+  "facts": [
+   "ELP-F014"
+  ]
+ },
+ {
+  "id": "ELP-0016",
+  "shop": "electroplating",
+  "category": "process-parameters",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "For copper, the electroplating lecture gives the mass deposited as about…",
+  "options": [
+   "0.185 × I × t grams",
+   "1.185 × I × t grams (I in A, t in hours)",
+   "11.85 × I × t grams",
+   "1.185 × I × t kilograms"
+  ],
+  "answer": 1,
+  "explanation": "For Cu²⁺: 63.5/(2 × 96,500) × 3600 = 1.185 g per ampere-hour.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.2",
+  "tags": [],
+  "facts": [
+   "ELP-F015"
+  ]
+ },
+ {
+  "id": "ELP-0017",
+  "shop": "electroplating",
+  "category": "numericals",
+  "difficulty": "medium",
+  "type": "numerical",
+  "question": "How much copper is deposited by 2 A flowing for 3 hours?",
+  "options": [
+   "≈ 71.1 g",
+   "≈ 0.59 g",
+   "≈ 7.11 g",
+   "≈ 2.37 g"
+  ],
+  "answer": 2,
+  "explanation": "m = 1.185 × I × t = 1.185 × 2 × 3 = 7.11 g.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.2",
+  "tags": [],
+  "facts": [
+   "ELP-F015"
+  ]
+ },
+ {
+  "id": "ELP-0018",
+  "shop": "electroplating",
+  "category": "numericals",
+  "difficulty": "hard",
+  "type": "numerical",
+  "question": "In the ME-106 copper plating step, about 5 A flows for 30 s. Roughly how much copper is deposited?",
+  "options": [
+   "≈ 0.49 g",
+   "≈ 4.9 g",
+   "≈ 177.8 g",
+   "≈ 0.049 g"
+  ],
+  "answer": 3,
+  "explanation": "t = 30 s = 1/120 h. m = 1.185 × 5 × (1/120) ≈ 0.049 g. Using 30 hours instead of 30 seconds gives 177.8 g.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.2; Electroplating blackboard",
+  "tags": [],
+  "facts": [
+   "ELP-F015",
+   "ELP-F042"
+  ]
+ },
+ {
+  "id": "ELP-0019",
+  "shop": "electroplating",
+  "category": "numericals",
+  "difficulty": "hard",
+  "type": "numerical",
+  "question": "Using m = M·I·t/(n·F), how much copper (M = 63.5, n = 2) is deposited by 2 A in 965 s?",
+  "options": [
+   "≈ 0.318 g",
+   "≈ 0.635 g",
+   "≈ 63.5 g",
+   "≈ 1.27 g"
+  ],
+  "answer": 1,
+  "explanation": "m = 63.5 × 2 × 965 / (2 × 96,500) = 0.635 g. Forgetting n = 2 gives 1.27 g.",
+  "source": "theory",
+  "ref": "Theory: Faraday's laws",
+  "tags": [],
+  "facts": [
+   "ELP-F013"
+  ]
+ },
+ {
+  "id": "ELP-0020",
+  "shop": "electroplating",
+  "category": "numericals",
+  "difficulty": "hard",
+  "type": "numerical",
+  "question": "How long does it take to deposit 1 g of copper (M = 63.5, n = 2) with a current of 2 A?",
+  "options": [
+   "≈ 25 minutes",
+   "≈ 50 minutes",
+   "≈ 12.7 minutes",
+   "≈ 4.2 hours"
+  ],
+  "answer": 0,
+  "explanation": "t = m·n·F / (M·I) = 1 × 2 × 96,500 / (63.5 × 2) ≈ 1520 s ≈ 25.3 min.",
+  "source": "theory",
+  "ref": "Theory: Faraday's laws",
+  "tags": [],
+  "facts": [
+   "ELP-F013"
+  ]
+ },
+ {
+  "id": "ELP-0021",
+  "shop": "electroplating",
+  "category": "numericals",
+  "difficulty": "hard",
+  "type": "numerical",
+  "question": "Nickel plating in the ME-106 lab runs at about 5 A for 6 minutes. Approximately how much nickel is deposited? (≈ 1.095 g per A·h)",
+  "options": [
+   "≈ 32.9 g",
+   "≈ 0.55 g",
+   "≈ 0.055 g",
+   "≈ 5.5 g"
+  ],
+  "answer": 1,
+  "explanation": "t = 6 min = 0.1 h. m = 1.095 × 5 × 0.1 ≈ 0.55 g.",
+  "source": "lab",
+  "ref": "Theory: Faraday's laws; Electroplating blackboard",
+  "tags": [],
+  "facts": [
+   "ELP-F016",
+   "ELP-F049"
+  ]
+ },
+ {
+  "id": "ELP-0022",
+  "shop": "electroplating",
+  "category": "numericals",
+  "difficulty": "medium",
+  "type": "numerical",
+  "question": "What quantity of charge passes when 2 A flows for 30 seconds?",
+  "options": [
+   "15 C",
+   "600 C",
+   "0.067 C",
+   "60 C"
+  ],
+  "answer": 3,
+  "explanation": "Q = I × t = 2 × 30 = 60 coulombs.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.2; Theory: Faraday's laws",
+  "tags": [],
+  "facts": [
+   "ELP-F010",
+   "ELP-F017"
+  ]
+ },
+ {
+  "id": "ELP-0023",
+  "shop": "electroplating",
+  "category": "numericals",
+  "difficulty": "hard",
+  "type": "numerical",
+  "question": "The electrochemical equivalent of copper (Cu²⁺, M = 63.5) is about…",
+  "options": [
+   "3.29 × 10⁻⁴ g/C",
+   "6.58 × 10⁻⁴ g/C",
+   "96,500 g/C",
+   "1.185 g/C"
+  ],
+  "answer": 0,
+  "explanation": "Z = M/(nF) = 63.5/(2 × 96,500) = 3.29 × 10⁻⁴ g per coulomb.",
+  "source": "theory",
+  "ref": "Theory: Faraday's laws",
+  "tags": [],
+  "facts": [
+   "ELP-F017"
+  ]
+ },
+ {
+  "id": "ELP-0024",
+  "shop": "electroplating",
+  "category": "numericals",
+  "difficulty": "hard",
+  "type": "numerical",
+  "question": "0.635 g of copper (density 8.96 g/cm³) is deposited evenly on an area of 10 cm². What is the coating thickness?",
+  "options": [
+   "≈ 0.71 µm",
+   "≈ 7.1 µm",
+   "≈ 71 µm",
+   "≈ 710 µm"
+  ],
+  "answer": 2,
+  "explanation": "Volume = 0.635/8.96 = 0.0709 cm³; thickness = 0.0709/10 = 0.00709 cm ≈ 71 µm.",
+  "source": "theory",
+  "ref": "Theory: Faraday's laws",
+  "tags": [],
+  "facts": [
+   "ELP-F013"
+  ]
+ },
+ {
+  "id": "ELP-0025",
+  "shop": "electroplating",
+  "category": "process-parameters",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Too high a current density during plating usually gives…",
+  "options": [
+   "A thicker, brighter deposit",
+   "No deposit at all",
+   "A deposit on the anode instead",
+   "Burnt, rough or powdery deposits"
+  ],
+  "answer": 3,
+  "explanation": "Excessive current density burns the deposit; the bath and job need the correct current per unit area.",
+  "source": "lab",
+  "ref": "Electroplating blackboard; Theory: Dini",
+  "tags": [],
+  "facts": [
+   "ELP-F018",
+   "ELP-F075"
+  ]
+ },
+ {
+  "id": "ELP-0026",
+  "shop": "electroplating",
+  "category": "procedure",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Why is the job cleaned thoroughly before electroplating?",
+  "options": [
+   "To magnetise the job for holding",
+   "To remove the need for current",
+   "For good adhesion, a smooth surface and good appearance",
+   "To make the job heavier before plating"
+  ],
+  "answer": 2,
+  "explanation": "Cleaning gives better adhesion of the coating, a smooth surface and an aesthetic appearance.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.4",
+  "tags": [],
+  "facts": [
+   "ELP-F019"
+  ]
+ },
+ {
+  "id": "ELP-0027",
+  "shop": "electroplating",
+  "category": "tools-equipment",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which tools are used for mechanical cleaning before plating?",
+  "options": [
+   "Index plate",
+   "Wire (abrasive) brush and emery paper",
+   "Hacksaw and file",
+   "Diamond dresser"
+  ],
+  "answer": 1,
+  "explanation": "Mechanical cleaning removes rust and burrs with a metal abrasive brush or emery paper (scratch brushing).",
+  "source": "lab",
+  "ref": "Electroplating lecture p.4",
+  "tags": [],
+  "facts": [
+   "ELP-F020"
+  ]
+ },
+ {
+  "id": "ELP-0028",
+  "shop": "electroplating",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In the ME-106 lab, polishing before plating is done on a…",
+  "options": [
+   "Cotton mop (buffing wheel) with emery compound",
+   "Grinding wheel with diamond",
+   "Shaper with an HSS tool",
+   "Lathe with a form tool"
+  ],
+  "answer": 0,
+  "explanation": "The board and log sheet: polishing with cotton mop and emery compound on the polishing machine.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.4",
+  "tags": [],
+  "facts": [
+   "ELP-F021"
+  ]
+ },
+ {
+  "id": "ELP-0029",
+  "shop": "electroplating",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Buffing is…",
+  "options": [
+   "Heating the job to remove grease",
+   "Cutting the job on a slitting saw",
+   "Rubbing the job on a rotating cloth wheel with compound",
+   "Dipping the job in acid to etch it"
+  ],
+  "answer": 2,
+  "explanation": "Buffing polishes/smoothens/shines a metal piece using a rotating fabric wheel charged with fine abrasive compound.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.5",
+  "tags": [],
+  "facts": [
+   "ELP-F022"
+  ]
+ },
+ {
+  "id": "ELP-0030",
+  "shop": "electroplating",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Buffing compound consists of…",
+  "options": [
+   "Dielectric oil and graphite",
+   "Fine abrasive particles in a wax, soap or fat binder",
+   "Pure copper powder",
+   "Coarse sand in water"
+  ],
+  "answer": 1,
+  "explanation": "Abrasives: alumina, SiC, iron oxide, chromium oxide; binders: fatty acid, greaseless wax, soap.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.5, p.12",
+  "tags": [],
+  "facts": [
+   "ELP-F023"
+  ]
+ },
+ {
+  "id": "ELP-0031",
+  "shop": "electroplating",
+  "category": "tools-equipment",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Which of these is NOT a type of buffing wheel listed in the electroplating lecture?",
+  "options": [
+   "Vitrified grinding wheel",
+   "Spiral sewn",
+   "Loose buff",
+   "Flannel"
+  ],
+  "answer": 0,
+  "explanation": "Buffing wheels: spiral sewn, loose buffs, concentric sewn and flannel. A vitrified wheel is a grinding wheel.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.12",
+  "tags": [],
+  "facts": [
+   "ELP-F024"
+  ]
+ },
+ {
+  "id": "ELP-0032",
+  "shop": "electroplating",
+  "category": "process-parameters",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In buffing, low pressure on the wheel is used for…",
+  "options": [
+   "Saving time",
+   "Removing deep rust",
+   "Faster metal removal",
+   "A finer finish"
+  ],
+  "answer": 3,
+  "explanation": "More pressure is quicker but wastes compound; low pressure gives a finer finish. Pressure is applied by hand.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.12",
+  "tags": [],
+  "facts": [
+   "ELP-F025"
+  ]
+ },
+ {
+  "id": "ELP-0033",
+  "shop": "electroplating",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "What type of chemical cleaning is used in the electroplating lab?",
+  "options": [
+   "Only cleaning with water",
+   "Only mechanical cleaning",
+   "Only sand blasting",
+   "Electro-chemical cleaning plus chemical cleaning"
+  ],
+  "answer": 3,
+  "explanation": "The lecture: \"actually it's electro-chemical cleaning and chemical cleaning\".",
+  "source": "lab",
+  "ref": "Electroplating lecture p.6",
+  "tags": [],
+  "facts": [
+   "ELP-F026"
+  ]
+ },
+ {
+  "id": "ELP-0034",
+  "shop": "electroplating",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In electrochemical cleaning, the workpiece is made the…",
+  "options": [
+   "Anode (positive)",
+   "Neutral electrode",
+   "Earth",
+   "Cathode (negative)"
+  ],
+  "answer": 0,
+  "explanation": "Electrochemical cleaning is the reverse of electroplating: the job is the anode.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.6",
+  "tags": [],
+  "facts": [
+   "ELP-F027"
+  ]
+ },
+ {
+  "id": "ELP-0035",
+  "shop": "electroplating",
+  "category": "principle-theory",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "In electrochemical cleaning, what removes rust and contaminants from the job?",
+  "options": [
+   "Steam produced by the current",
+   "Hydrogen gas released at the anode tank",
+   "Oxygen gas released at the job surface",
+   "Copper ions plating over the rust"
+  ],
+  "answer": 2,
+  "explanation": "At the job (anode): 4OH⁻ → 2H₂O + O₂ + 4e⁻. The oxygen bubbles scrub the surface.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.6",
+  "tags": [],
+  "facts": [
+   "ELP-F028"
+  ]
+ },
+ {
+  "id": "ELP-0036",
+  "shop": "electroplating",
+  "category": "workpiece-material",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In chemical cleaning, trisodium phosphate is added to…",
+  "options": [
+   "Supply copper ions",
+   "Remove hydrocarbons like grease",
+   "Increase the voltage",
+   "Protect aluminium from soda"
+  ],
+  "answer": 1,
+  "explanation": "Trisodium phosphate removes grease; sodium silicate protects aluminium against soda; sodium carbonate is the base cleaner.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.6",
+  "tags": [],
+  "facts": [
+   "ELP-F029"
+  ]
+ },
+ {
+  "id": "ELP-0037",
+  "shop": "electroplating",
+  "category": "workpiece-material",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In chemical cleaning, sodium silicate is added to…",
+  "options": [
+   "Brighten the copper deposit",
+   "Remove grease from steel",
+   "Supply nickel ions",
+   "Protect aluminium against the soda"
+  ],
+  "answer": 3,
+  "explanation": "Sodium silicate protects aluminium against attack by soda.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.6",
+  "tags": [],
+  "facts": [
+   "ELP-F029"
+  ]
+ },
+ {
+  "id": "ELP-0038",
+  "shop": "electroplating",
+  "category": "workpiece-material",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Which of these chemicals is NOT in the ME-106 chemical-cleaning bath written on the lab board?",
+  "options": [
+   "Sodium carbonate",
+   "Sodium silicate",
+   "Nickel sulphate",
+   "Sodium hydroxide"
+  ],
+  "answer": 2,
+  "explanation": "The board lists Na₂CO₃, NaOH, trisodium phosphate, NaCN, Na₂SiO₃ and water. Nickel sulphate belongs to the nickel bath.",
+  "source": "lab",
+  "ref": "Electroplating blackboard",
+  "tags": [],
+  "facts": [
+   "ELP-F030"
+  ]
+ },
+ {
+  "id": "ELP-0039",
+  "shop": "electroplating",
+  "category": "process-parameters",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "What conditions are used for chemical cleaning in the ME-106 lab (board)?",
+  "options": [
+   "About 230 V AC, for 1 hour",
+   "About 6 V, 10–15 A, for about 5 minutes",
+   "About 1.5 V, 1 A, for 5 seconds",
+   "No current at all, for 1 day"
+  ],
+  "answer": 1,
+  "explanation": "Lab board: voltage 6 V, current 10–15 A, time 5 min.",
+  "source": "lab",
+  "ref": "Electroplating blackboard",
+  "tags": [],
+  "facts": [
+   "ELP-F031"
+  ]
+ },
+ {
+  "id": "ELP-0040",
+  "shop": "electroplating",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "After chemical cleaning in the ME-106 lab, the job is washed with…",
+  "options": [
+   "Water and pumice powder",
+   "Molten salt",
+   "Dilute nickel solution",
+   "Kerosene and wax"
+  ],
+  "answer": 0,
+  "explanation": "The log sheet: dip in the cleaning solution, then wash with water and pumice powder.",
+  "source": "lab",
+  "ref": "Electroplating blackboard",
+  "tags": [],
+  "facts": [
+   "ELP-F032"
+  ]
+ },
+ {
+  "id": "ELP-0041",
+  "shop": "electroplating",
+  "category": "definitions",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "In plating practice, pickling means…",
+  "options": [
+   "Polishing on a cloth mop",
+   "Dipping in dilute acid to remove oxide scale and rust",
+   "Heating the job in oil",
+   "Coating with wax before plating"
+  ],
+  "answer": 1,
+  "explanation": "Degreasing removes oil, pickling (dilute acid dip) removes scale, and rinsing prevents chemical carry-over.",
+  "source": "theory",
+  "ref": "Theory: Dini",
+  "tags": [],
+  "facts": [
+   "ELP-F033"
+  ]
+ },
+ {
+  "id": "ELP-0042",
+  "shop": "electroplating",
+  "category": "applications",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Copper plating is used to…",
+  "options": [
+   "Make the surface magnetic",
+   "Remove burrs from the job",
+   "Harden the steel core",
+   "Give a corrosion-resistant coat and a base for other plating"
+  ],
+  "answer": 3,
+  "explanation": "Copper plating gives corrosion resistance and provides a base for later plating (e.g. nickel).",
+  "source": "lab",
+  "ref": "Electroplating lecture p.7",
+  "tags": [],
+  "facts": [
+   "ELP-F034"
+  ]
+ },
+ {
+  "id": "ELP-0043",
+  "shop": "electroplating",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Copper can be electroplated from which two types of bath?",
+  "options": [
+   "Acid bath or cyanide bath",
+   "Nickel bath or chrome bath",
+   "Salt bath or sand bath",
+   "Oil bath or water bath"
+  ],
+  "answer": 0,
+  "explanation": "Copper is plated by acid plating or cyanide plating; cyanide is popular.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.7",
+  "tags": [],
+  "facts": [
+   "ELP-F035"
+  ]
+ },
+ {
+  "id": "ELP-0044",
+  "shop": "electroplating",
+  "category": "advantages-limitations",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which is an advantage of cyanide copper plating?",
+  "options": [
+   "It needs no cleaning beforehand",
+   "It works without electric current",
+   "Good adhesion and decorative finish on many metals",
+   "It is completely non-toxic"
+  ],
+  "answer": 2,
+  "explanation": "Cyanide copper plates steels, zinc, aluminium, magnesium, nickel and lead with good adherence and decorative finish.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.7",
+  "tags": [],
+  "facts": [
+   "ELP-F036"
+  ]
+ },
+ {
+  "id": "ELP-0045",
+  "shop": "electroplating",
+  "category": "principle-theory",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Why is a cyanide copper layer often applied before acid nickel plating on steel?",
+  "options": [
+   "It makes the nickel layer thinner",
+   "It turns the nickel layer magnetic",
+   "It protects the steel from acid attack in the nickel bath",
+   "It removes the need for cleaning"
+  ],
+  "answer": 2,
+  "explanation": "The cyanide copper strike protects the base metal from acid attack during subsequent acid plating.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.7",
+  "tags": [],
+  "facts": [
+   "ELP-F037"
+  ]
+ },
+ {
+  "id": "ELP-0046",
+  "shop": "electroplating",
+  "category": "workpiece-material",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In the cyanide copper bath, copper cyanide is not soluble in water. What is added to dissolve it?",
+  "options": [
+   "Boric acid",
+   "Sodium or potassium cyanide",
+   "Pumice powder",
+   "Sulphuric acid"
+  ],
+  "answer": 1,
+  "explanation": "NaCN or KCN forms soluble copper complexes; excess cyanide gives good deposits and good anode corrosion.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.8",
+  "tags": [],
+  "facts": [
+   "ELP-F038",
+   "ELP-F039"
+  ]
+ },
+ {
+  "id": "ELP-0047",
+  "shop": "electroplating",
+  "category": "workpiece-material",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Why is excess NaCN/KCN kept in the copper cyanide bath?",
+  "options": [
+   "For good-quality deposits and good anode dissolution",
+   "To raise the bath temperature",
+   "To plate nickel at the same time",
+   "To make the bath acidic"
+  ],
+  "answer": 0,
+  "explanation": "Excess free cyanide gives good-quality deposits and good anode corrosion.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.8",
+  "tags": [],
+  "facts": [
+   "ELP-F039"
+  ]
+ },
+ {
+  "id": "ELP-0048",
+  "shop": "electroplating",
+  "category": "workpiece-material",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Caustic soda (NaOH) is added to the copper cyanide bath to…",
+  "options": [
+   "Lower the pH to acid",
+   "Supply copper ions",
+   "Remove the anode",
+   "Increase conductivity and reduce cyanide decomposition"
+  ],
+  "answer": 3,
+  "explanation": "NaOH/KOH increases conductivity, reduces electrochemical attack on steel containers and reduces decomposition of cyanide.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.8",
+  "tags": [],
+  "facts": [
+   "ELP-F040"
+  ]
+ },
+ {
+  "id": "ELP-0049",
+  "shop": "electroplating",
+  "category": "workpiece-material",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "In the copper cyanide bath, Rochelle salt is used to…",
+  "options": [
+   "Give a fine-grained copper deposit",
+   "Protect aluminium from soda",
+   "Remove excess carbonate",
+   "Supply nickel ions"
+  ],
+  "answer": 0,
+  "explanation": "Rochelle salt gives a fine-grained deposit; lime may be used to remove excess carbonate.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.8",
+  "tags": [],
+  "facts": [
+   "ELP-F041"
+  ]
+ },
+ {
+  "id": "ELP-0050",
+  "shop": "electroplating",
+  "category": "process-parameters",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In the ME-106 copper plating step, what voltage is used?",
+  "options": [
+   "6 to 10 V",
+   "220 V AC",
+   "2 to 6 V",
+   "1.5 to 3 V"
+  ],
+  "answer": 2,
+  "explanation": "Copper plating: 2–6 V for about 25–30 s. (Nickel: 1.5–3 V for 5–7 min.)",
+  "source": "lab",
+  "ref": "Electroplating blackboard",
+  "tags": [],
+  "facts": [
+   "ELP-F042"
+  ]
+ },
+ {
+  "id": "ELP-0051",
+  "shop": "electroplating",
+  "category": "process-parameters",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "For how long is the job kept in the copper bath in the ME-106 lab?",
+  "options": [
+   "About 2 seconds",
+   "About 1 hour",
+   "About 5–7 minutes",
+   "About 25–30 seconds"
+  ],
+  "answer": 3,
+  "explanation": "Copper: 25–30 s; nickel: 5–7 min.",
+  "source": "lab",
+  "ref": "Electroplating blackboard",
+  "tags": [],
+  "facts": [
+   "ELP-F042"
+  ]
+ },
+ {
+  "id": "ELP-0052",
+  "shop": "electroplating",
+  "category": "process-parameters",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Roughly what current is used for copper plating in the ME-106 lab?",
+  "options": [
+   "About 100 A",
+   "A few amperes (about 5–8 A)",
+   "A few milliamperes",
+   "About 1000 A"
+  ],
+  "answer": 1,
+  "explanation": "The log sheet gives 5–8 A (the board 6–8 A).",
+  "source": "lab",
+  "ref": "Electroplating blackboard",
+  "tags": [],
+  "facts": [
+   "ELP-F043"
+  ]
+ },
+ {
+  "id": "ELP-0053",
+  "shop": "electroplating",
+  "category": "procedure",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "In the ME-106 lab, when is the job taken out of the copper bath?",
+  "options": [
+   "When bubbles stop",
+   "When it turns reddish (copper coloured)",
+   "When it turns silvery white",
+   "After exactly one hour"
+  ],
+  "answer": 1,
+  "explanation": "The log sheet: dip in copper solution until the workpiece becomes red, then wash it again.",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F044"
+  ]
+ },
+ {
+  "id": "ELP-0054",
+  "shop": "electroplating",
+  "category": "applications",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Nickel plating is done to improve…",
+  "options": [
+   "Wear and corrosion resistance and bright appearance",
+   "Weldability of the job",
+   "Electrical insulation of the job",
+   "Magnetic softness of the core"
+  ],
+  "answer": 0,
+  "explanation": "Nickel plating improves wear, heat or corrosion resistance and gives a bright decorative appearance.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.10",
+  "tags": [],
+  "facts": [
+   "ELP-F045"
+  ]
+ },
+ {
+  "id": "ELP-0055",
+  "shop": "electroplating",
+  "category": "workpiece-material",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In a Watts nickel bath, the primary source of nickel ions is…",
+  "options": [
+   "Nickel chloride (NiCl₂)",
+   "Boric acid (H₃BO₃)",
+   "Sodium cyanide (NaCN)",
+   "Nickel sulphate (NiSO₄)"
+  ],
+  "answer": 3,
+  "explanation": "NiSO₄ supplies Ni ions; NiCl₂ increases conductivity and helps anode dissolution; boric acid controls pH.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.10",
+  "tags": [],
+  "facts": [
+   "ELP-F046"
+  ]
+ },
+ {
+  "id": "ELP-0056",
+  "shop": "electroplating",
+  "category": "workpiece-material",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Boric acid is added to the nickel bath to…",
+  "options": [
+   "Remove grease",
+   "Make the deposit red",
+   "Control the pH of the solution",
+   "Supply nickel ions"
+  ],
+  "answer": 2,
+  "explanation": "Boric acid (H₃BO₃) buffers the pH.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.10",
+  "tags": [],
+  "facts": [
+   "ELP-F046"
+  ]
+ },
+ {
+  "id": "ELP-0057",
+  "shop": "electroplating",
+  "category": "workpiece-material",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Nickel chloride in the nickel bath…",
+  "options": [
+   "Increases conductivity and helps the anode dissolve",
+   "Lowers the bath temperature",
+   "Removes oxygen bubbles",
+   "Is the main source of copper"
+  ],
+  "answer": 0,
+  "explanation": "NiCl₂ increases conductivity and helps dissolution of the Ni electrode.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.10",
+  "tags": [],
+  "facts": [
+   "ELP-F046"
+  ]
+ },
+ {
+  "id": "ELP-0058",
+  "shop": "electroplating",
+  "category": "workpiece-material",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Why is sulphuric acid added regularly to the nickel bath?",
+  "options": [
+   "To make the bath alkaline",
+   "To dissolve the copper layer",
+   "Hydrogen ions are lost as H₂ gas, so acid is replenished",
+   "To supply nickel ions"
+  ],
+  "answer": 2,
+  "explanation": "As H⁺ ions are liberated as hydrogen gas, H₂SO₄ is added regularly.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.10",
+  "tags": [],
+  "facts": [
+   "ELP-F047"
+  ]
+ },
+ {
+  "id": "ELP-0059",
+  "shop": "electroplating",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In nickel plating, the anode is…",
+  "options": [
+   "The mild-steel workpiece",
+   "Nickel metal (lumps, or pieces in a titanium basket)",
+   "A copper plate",
+   "A carbon rod only"
+  ],
+  "answer": 1,
+  "explanation": "Nickel anodes are lumps of various shapes, or small pieces kept in a titanium basket.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.10",
+  "tags": [],
+  "facts": [
+   "ELP-F048"
+  ]
+ },
+ {
+  "id": "ELP-0060",
+  "shop": "electroplating",
+  "category": "process-parameters",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "What voltage and time are used for nickel plating in the ME-106 lab?",
+  "options": [
+   "6 V for 5 minutes",
+   "2–6 V for 25–30 seconds",
+   "12 V for 1 hour",
+   "1.5–3 V for 5–7 minutes"
+  ],
+  "answer": 3,
+  "explanation": "Nickel: 1.5–3 V, about 5 A, 5–7 min.",
+  "source": "lab",
+  "ref": "Electroplating blackboard",
+  "tags": [],
+  "facts": [
+   "ELP-F049"
+  ]
+ },
+ {
+  "id": "ELP-0061",
+  "shop": "electroplating",
+  "category": "job-dimensions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In the ME-106 electroplating job, how much of the job is nickel plated?",
+  "options": [
+   "Only the threads",
+   "The whole job",
+   "About half of it",
+   "None of it"
+  ],
+  "answer": 2,
+  "explanation": "The log sheet: dip half of the copper-plated workpiece in the nickel solution, so both layers are visible.",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F050"
+  ]
+ },
+ {
+  "id": "ELP-0062",
+  "shop": "electroplating",
+  "category": "workpiece-material",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which ingredients are written on the lab board for the nickel bath?",
+  "options": [
+   "Nickel salts, boric acid and water",
+   "Sodium carbonate and NaOH",
+   "Kerosene and graphite",
+   "Copper cyanide and NaCN"
+  ],
+  "answer": 0,
+  "explanation": "Board: nickel salts, boric acid, water; 1.5–3 V; 5 A/sq ft; 5–7 min.",
+  "source": "lab",
+  "ref": "Electroplating blackboard",
+  "tags": [],
+  "facts": [
+   "ELP-F051"
+  ]
+ },
+ {
+  "id": "ELP-0063",
+  "shop": "electroplating",
+  "category": "workpiece-material",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "What is the workpiece material in the ME-106 electroplating job?",
+  "options": [
+   "Copper",
+   "Aluminium",
+   "Plastic",
+   "Mild steel"
+  ],
+  "answer": 3,
+  "explanation": "Name of operation: electroplating of workpiece (mild steel).",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F052"
+  ]
+ },
+ {
+  "id": "ELP-0064",
+  "shop": "electroplating",
+  "category": "tools-equipment",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which of these is listed as a tool/material on the ME-106 electroplating log sheet?",
+  "options": [
+   "Hacksaw",
+   "Pumice powder",
+   "Index plate",
+   "Grinding wheel"
+  ],
+  "answer": 1,
+  "explanation": "Tools: mild-steel workpiece, emery paper, polishing machine, pumice powder, electroplating solution, wire.",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F053"
+  ]
+ },
+ {
+  "id": "ELP-0065",
+  "shop": "electroplating",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which item is NOT on the ME-106 electroplating tool list?",
+  "options": [
+   "Wire",
+   "Polishing machine",
+   "Dielectric fluid",
+   "Emery paper"
+  ],
+  "answer": 2,
+  "explanation": "Dielectric fluid is used in wire EDM, not plating.",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F053"
+  ]
+ },
+ {
+  "id": "ELP-0066",
+  "shop": "electroplating",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Why is the job tied with wire in the electroplating lab?",
+  "options": [
+   "To hang it in the solution and make the electrical contact",
+   "To stop it rusting",
+   "To measure its length",
+   "To heat it up"
+  ],
+  "answer": 0,
+  "explanation": "The job is tied with wire to dip it in the baths and connect it to the supply.",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F054"
+  ]
+ },
+ {
+  "id": "ELP-0067",
+  "shop": "electroplating",
+  "category": "job-dimensions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "What does the ME-106 electroplating job drawing show?",
+  "options": [
+   "A 10 × 10 × 5 mm square",
+   "A job with a copper-plated part and a nickel-plated part",
+   "A stepped shaft with a thread",
+   "A spur gear with 22 teeth"
+  ],
+  "answer": 1,
+  "explanation": "The drawing shows the workpiece with copper and nickel electroplated regions, the solution box and the polishing machine.",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F055"
+  ]
+ },
+ {
+  "id": "ELP-0068",
+  "shop": "electroplating",
+  "category": "procedure",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "What is the FIRST step of the ME-106 electroplating procedure?",
+  "options": [
+   "Dip the job in the copper bath",
+   "Wash the job with pumice powder",
+   "Dip the job in the nickel bath",
+   "Clean with emery paper and polish on the machine"
+  ],
+  "answer": 3,
+  "explanation": "Step 1 (mechanical cleaning): clean with emery paper, polish with cotton mop and emery compound on the polishing machine.",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F056"
+  ]
+ },
+ {
+  "id": "ELP-0069",
+  "shop": "electroplating",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which step comes immediately AFTER mechanical cleaning and polishing?",
+  "options": [
+   "Copper plating",
+   "Chemical cleaning, then washing with water and pumice",
+   "Drying in an oven",
+   "Nickel plating"
+  ],
+  "answer": 1,
+  "explanation": "Step 2: tie with wire, dip in the cleaning solution, wash with water and pumice powder.",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F057"
+  ]
+ },
+ {
+  "id": "ELP-0070",
+  "shop": "electroplating",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In the ME-106 lab, which plating is done FIRST?",
+  "options": [
+   "Nickel plating",
+   "Zinc plating",
+   "Copper plating",
+   "Chromium plating"
+  ],
+  "answer": 2,
+  "explanation": "Copper (2–6 V, 25–30 s) is plated first; then half the job is nickel plated.",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F058",
+   "ELP-F059"
+  ]
+ },
+ {
+  "id": "ELP-0071",
+  "shop": "electroplating",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "What is done immediately after the copper plating step?",
+  "options": [
+   "The job is polished on a grinding wheel",
+   "The job is cut in half",
+   "The job is heated",
+   "The job is washed again"
+  ],
+  "answer": 3,
+  "explanation": "The log sheet: plate until reddish, then wash it again, then nickel plate.",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F058"
+  ]
+ },
+ {
+  "id": "ELP-0072",
+  "shop": "electroplating",
+  "category": "procedure",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "What is the LAST step of the ME-106 electroplating procedure?",
+  "options": [
+   "Nickel plating half of the job",
+   "Copper plating",
+   "Mechanical cleaning",
+   "Chemical cleaning"
+  ],
+  "answer": 0,
+  "explanation": "Step 4: dip half of it in nickel solution (1.5–3 V, 5 A, 5–7 min); electroplating is done.",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F059"
+  ]
+ },
+ {
+  "id": "ELP-0073",
+  "shop": "electroplating",
+  "category": "procedure",
+  "difficulty": "hard",
+  "type": "sequence",
+  "question": "What is the correct order of the ME-106 electroplating steps?",
+  "options": [
+   "Copper plating → washing → nickel plating → polishing → washing → chemical cleaning → mechanical cleaning",
+   "Mechanical cleaning → polishing → chemical cleaning → washing → copper plating → washing → nickel plating",
+   "Chemical cleaning → copper plating → mechanical cleaning → washing → polishing → washing → nickel plating",
+   "Polishing → nickel plating → chemical cleaning → washing → mechanical cleaning → washing → copper plating"
+  ],
+  "answer": 1,
+  "explanation": "From the log sheet and the lab board.",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F060"
+  ]
+ },
+ {
+  "id": "ELP-0074",
+  "shop": "electroplating",
+  "category": "procedure",
+  "difficulty": "hard",
+  "type": "sequence",
+  "question": "The general industrial sequence for electroplating is…",
+  "options": [
+   "Degreasing → rinsing → pickling → rinsing → plating → rinsing → drying",
+   "Pickling → plating → degreasing → drying → rinsing → rinsing → rinsing",
+   "Drying → rinsing → plating → pickling → degreasing → rinsing → rinsing",
+   "Plating → degreasing → rinsing → pickling → rinsing → drying → rinsing"
+  ],
+  "answer": 0,
+  "explanation": "Clean, rinse, remove scale, rinse, plate, rinse, dry.",
+  "source": "theory",
+  "ref": "Theory: Dini",
+  "tags": [],
+  "facts": [
+   "ELP-F061"
+  ]
+ },
+ {
+  "id": "ELP-0075",
+  "shop": "electroplating",
+  "category": "precautions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which dress precaution appears on the ME-106 electroplating log sheet?",
+  "options": [
+   "Wear sandals for comfort",
+   "Wear no apron near baths",
+   "Wear proper shoes and an apron",
+   "Wear loose sleeves"
+  ],
+  "answer": 2,
+  "explanation": "Precaution 1: wear proper shoes and apron in the workshop.",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F062"
+  ]
+ },
+ {
+  "id": "ELP-0076",
+  "shop": "electroplating",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "According to the ME-106 log sheet, the workpiece should be handled carefully during…",
+  "options": [
+   "Weighing only",
+   "Packing",
+   "Painting",
+   "Cleaning and polishing"
+  ],
+  "answer": 3,
+  "explanation": "Precaution 2: handle the workpiece with care while cleaning and polishing.",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F063"
+  ]
+ },
+ {
+  "id": "ELP-0077",
+  "shop": "electroplating",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which precaution about the equipment is on the ME-106 electroplating log sheet?",
+  "options": [
+   "Touch the bath to check the temperature",
+   "Switch the supply to AC for safety",
+   "Operate the plating machines with caution, at a safe distance",
+   "Lean over the tank to watch closely"
+  ],
+  "answer": 2,
+  "explanation": "Precautions 3–4: operate the electroplating machines with caution and maintain an appropriate distance.",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F064"
+  ]
+ },
+ {
+  "id": "ELP-0078",
+  "shop": "electroplating",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Why must cyanide baths be handled with great care?",
+  "options": [
+   "Cyanide is radioactive",
+   "Cyanide is highly poisonous to use and dispose of",
+   "Cyanide makes the job brittle",
+   "Cyanide is magnetic"
+  ],
+  "answer": 1,
+  "explanation": "Cyanide is highly poisonous; its level in air is limited to 5 mg/m³ over an 8-hour shift.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.9",
+  "tags": [],
+  "facts": [
+   "ELP-F065"
+  ]
+ },
+ {
+  "id": "ELP-0079",
+  "shop": "electroplating",
+  "category": "precautions",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "The amount of cyanide in workshop air should be limited to about…",
+  "options": [
+   "500 mg/m³ at any time",
+   "5 g/m³ per hour",
+   "No limit is needed",
+   "5 mg/m³ averaged over an 8-hour shift"
+  ],
+  "answer": 3,
+  "explanation": "From the electroplating lecture precautions slide.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.9",
+  "tags": [],
+  "facts": [
+   "ELP-F065"
+  ]
+ },
+ {
+  "id": "ELP-0080",
+  "shop": "electroplating",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "When can cyanide dust be produced?",
+  "options": [
+   "When handling cyanide salts or making up solutions",
+   "Only when the bath is cold",
+   "Only during nickel plating",
+   "Never; cyanide is always liquid"
+  ],
+  "answer": 0,
+  "explanation": "Cyanide dust is possible when handling any cyanide salts, making additions or making up new solutions.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.9",
+  "tags": [],
+  "facts": [
+   "ELP-F066"
+  ]
+ },
+ {
+  "id": "ELP-0081",
+  "shop": "electroplating",
+  "category": "precautions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which precaution applies after copper cyanide plating?",
+  "options": [
+   "Taste the bath to check strength",
+   "Dry the job without rinsing",
+   "Rinse the parts thoroughly and wash your hands",
+   "Store the job in the bath"
+  ],
+  "answer": 2,
+  "explanation": "Don't touch the solution; rinse plated parts thoroughly to remove trapped solution; wash hands properly.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.9",
+  "tags": [],
+  "facts": [
+   "ELP-F067"
+  ]
+ },
+ {
+  "id": "ELP-0082",
+  "shop": "electroplating",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Why is copper dust from grinding and polishing a hazard?",
+  "options": [
+   "It is explosive in water",
+   "Copper dust in large quantity is dangerous to breathe",
+   "It turns into cyanide",
+   "It is radioactive"
+  ],
+  "answer": 1,
+  "explanation": "The lecture warns that copper dust in large quantities (from grinding, polishing) is dangerous.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.9",
+  "tags": [],
+  "facts": [
+   "ELP-F068"
+  ]
+ },
+ {
+  "id": "ELP-0083",
+  "shop": "electroplating",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Nickel and nickel salts can cause…",
+  "options": [
+   "Skin dermatitis and lung problems on long exposure",
+   "Radiation sickness",
+   "Instant burns like strong acid",
+   "No health effects at all"
+  ],
+  "answer": 0,
+  "explanation": "Nickel can cause dermatitis through skin contact and may affect lungs during long-term inhalation.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.11",
+  "tags": [],
+  "facts": [
+   "ELP-F069"
+  ]
+ },
+ {
+  "id": "ELP-0084",
+  "shop": "electroplating",
+  "category": "precautions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which protection is mandatory near plating baths?",
+  "options": [
+   "No protection is needed",
+   "Only a cap",
+   "Only ear plugs",
+   "Protective clothing, eye protection and gloves"
+  ],
+  "answer": 3,
+  "explanation": "Mandatory protective clothing, eye protection and gloves; wash immediately after skin contact.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.11",
+  "tags": [],
+  "facts": [
+   "ELP-F070"
+  ]
+ },
+ {
+  "id": "ELP-0085",
+  "shop": "electroplating",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which ventilation is required for plating areas?",
+  "options": [
+   "None; windows must be closed",
+   "Only a ceiling fan",
+   "A heater to warm the room",
+   "Local exhaust ventilation"
+  ],
+  "answer": 3,
+  "explanation": "Local exhaust ventilation removes fumes and mist from the baths.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.11",
+  "tags": [],
+  "facts": [
+   "ELP-F071"
+  ]
+ },
+ {
+  "id": "ELP-0086",
+  "shop": "electroplating",
+  "category": "precautions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Near the plating line you must not…",
+  "options": [
+   "Wear an apron",
+   "Use exhaust fans",
+   "Eat, drink or smoke",
+   "Wear gloves"
+  ],
+  "answer": 2,
+  "explanation": "Avoid smoking, eating and drinking on the plating line.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.11",
+  "tags": [],
+  "facts": [
+   "ELP-F072"
+  ]
+ },
+ {
+  "id": "ELP-0087",
+  "shop": "electroplating",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "When diluting concentrated acid for a bath, you should…",
+  "options": [
+   "Add the acid slowly to water",
+   "Mix them in a closed bottle",
+   "Add water quickly to the acid",
+   "Heat the acid first"
+  ],
+  "answer": 0,
+  "explanation": "Always add acid to water slowly; adding water to acid can boil and splash.",
+  "source": "theory",
+  "ref": "Theory: lab safety",
+  "tags": [],
+  "facts": [
+   "ELP-F073"
+  ]
+ },
+ {
+  "id": "ELP-0088",
+  "shop": "electroplating",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "If the job is not cleaned properly before plating, the coating will…",
+  "options": [
+   "Become magnetic",
+   "Peel off or blister due to poor adhesion",
+   "Be thicker and stronger",
+   "Plate faster"
+  ],
+  "answer": 1,
+  "explanation": "Poor cleaning leads to poor adhesion.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.4",
+  "tags": [],
+  "facts": [
+   "ELP-F074"
+  ]
+ },
+ {
+  "id": "ELP-0089",
+  "shop": "electroplating",
+  "category": "definitions",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Small pits in a plated surface are usually caused by…",
+  "options": [
+   "Using a nickel anode",
+   "Excess polishing",
+   "Too low a current density",
+   "Hydrogen bubbles sticking to the cathode"
+  ],
+  "answer": 3,
+  "explanation": "Anti-pitting agents are added to stop hydrogen bubbles clinging to the job; high current density gives burnt deposits.",
+  "source": "theory",
+  "ref": "Theory: Dini",
+  "tags": [],
+  "facts": [
+   "ELP-F075"
+  ]
+ },
+ {
+  "id": "ELP-0090",
+  "shop": "electroplating",
+  "category": "definitions",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "The \"throwing power\" of a plating bath is its ability to…",
+  "options": [
+   "Remove rust quickly",
+   "Plate at very high voltage",
+   "Deposit a uniform coat on recessed, irregular surfaces",
+   "Throw metal particles at the job"
+  ],
+  "answer": 2,
+  "explanation": "Throwing power = uniformity of deposit on irregular shapes.",
+  "source": "theory",
+  "ref": "Theory: Dini",
+  "tags": [],
+  "facts": [
+   "ELP-F076"
+  ]
+ },
+ {
+  "id": "ELP-0091",
+  "shop": "electroplating",
+  "category": "applications",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which is NOT a purpose of electroplating?",
+  "options": [
+   "Reducing the hardness of the core metal",
+   "Building up worn parts",
+   "Decorative appearance",
+   "Corrosion protection"
+  ],
+  "answer": 0,
+  "explanation": "Plating is used for corrosion protection, decoration, wear resistance, building up worn parts and conductivity. It does not soften the core.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.2, p.7, p.10",
+  "tags": [],
+  "facts": [
+   "ELP-F077"
+  ]
+ },
+ {
+  "id": "ELP-0092",
+  "shop": "electroplating",
+  "category": "applications",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which is a common application of electroplating?",
+  "options": [
+   "Turning shafts",
+   "Decorative coats on bathroom fittings and car parts",
+   "Cutting sheet metal",
+   "Casting engine blocks"
+  ],
+  "answer": 1,
+  "explanation": "Applications: automobile parts, bathroom fittings, utensils, jewellery, electrical contacts.",
+  "source": "theory",
+  "ref": "Theory: Dini",
+  "tags": [],
+  "facts": [
+   "ELP-F078"
+  ]
+ },
+ {
+  "id": "ELP-0093",
+  "shop": "electroplating",
+  "category": "workpiece-material",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of these metals is commonly electroplated?",
+  "options": [
+   "Silicon carbide",
+   "Chromium",
+   "Tungsten carbide",
+   "Graphite"
+  ],
+  "answer": 1,
+  "explanation": "Common plating metals: copper, nickel, chromium, zinc, tin, silver, gold.",
+  "source": "theory",
+  "ref": "Theory: Dini",
+  "tags": [],
+  "facts": [
+   "ELP-F079"
+  ]
+ },
+ {
+  "id": "ELP-0094",
+  "shop": "electroplating",
+  "category": "principle-theory",
+  "difficulty": "hard",
+  "type": "assertion-reason",
+  "question": "Assertion (A): In electroplating, the workpiece is made the cathode.\nReason (R): Positive metal ions are attracted to the negative electrode and deposit there.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is NOT the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "answer": 0,
+  "explanation": "Both true, and R explains A.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.2–3; Theory: Dini",
+  "tags": [],
+  "facts": [
+   "ELP-F003",
+   "ELP-F005"
+  ],
+  "keepOrder": true
+ },
+ {
+  "id": "ELP-0095",
+  "shop": "electroplating",
+  "category": "principle-theory",
+  "difficulty": "hard",
+  "type": "assertion-reason",
+  "question": "Assertion (A): In electrochemical cleaning the workpiece is made the anode.\nReason (R): Electroplating requires an AC supply.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is NOT the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "answer": 2,
+  "explanation": "A is true; R is false — plating and electro-cleaning both use DC.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.6; Electroplating lecture p.3",
+  "tags": [],
+  "facts": [
+   "ELP-F027",
+   "ELP-F006"
+  ],
+  "keepOrder": true
+ },
+ {
+  "id": "ELP-0096",
+  "shop": "electroplating",
+  "category": "principle-theory",
+  "difficulty": "easy",
+  "type": "true-false",
+  "question": "Electroplating can be done with an AC supply.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explanation": "False. A DC supply is needed.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.3",
+  "tags": [],
+  "facts": [
+   "ELP-F006"
+  ],
+  "keepOrder": true
+ },
+ {
+  "id": "ELP-0097",
+  "shop": "electroplating",
+  "category": "process-parameters",
+  "difficulty": "medium",
+  "type": "true-false",
+  "question": "In the ME-106 lab, nickel plating takes longer than copper plating.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explanation": "True: copper ~25–30 s, nickel ~5–7 min.",
+  "source": "lab",
+  "ref": "Electroplating blackboard",
+  "tags": [],
+  "facts": [
+   "ELP-F042",
+   "ELP-F049"
+  ],
+  "keepOrder": true
+ },
+ {
+  "id": "ELP-0098",
+  "shop": "electroplating",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled A?",
+  "options": [
+   "DC power source",
+   "Cathode (workpiece)",
+   "Anode (metal to be deposited)",
+   "Electrolyte (bath)"
+  ],
+  "answer": 2,
+  "explanation": "A = Anode (metal to be deposited). Connected to the + terminal; dissolves into the bath to replace the metal ions.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.2–3",
+  "tags": [],
+  "facts": [
+   "ELP-F004"
+  ],
+  "figure": "electroplating/cell",
+  "label": "A",
+  "ask": "part"
+ },
+ {
+  "id": "ELP-0099",
+  "shop": "electroplating",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled B?",
+  "options": [
+   "Dielectric nozzle",
+   "Electrolyte (bath)",
+   "Tank",
+   "Cathode (workpiece)"
+  ],
+  "answer": 3,
+  "explanation": "B = Cathode (workpiece). Connected to the − terminal; metal ions deposit on it.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.2–3",
+  "tags": [],
+  "facts": [
+   "ELP-F003"
+  ],
+  "figure": "electroplating/cell",
+  "label": "B",
+  "ask": "part"
+ },
+ {
+  "id": "ELP-0100",
+  "shop": "electroplating",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled C?",
+  "options": [
+   "Electrolyte (bath)",
+   "Tank",
+   "Dielectric nozzle",
+   "Cathode (workpiece)"
+  ],
+  "answer": 0,
+  "explanation": "C = Electrolyte (bath). Solution containing ions of the plating metal.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.3",
+  "tags": [],
+  "facts": [
+   "ELP-F009"
+  ],
+  "figure": "electroplating/cell",
+  "label": "C",
+  "ask": "part"
+ },
+ {
+  "id": "ELP-0101",
+  "shop": "electroplating",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled D?",
+  "options": [
+   "Electrolyte (bath)",
+   "Cathode (workpiece)",
+   "Tank",
+   "DC power source"
+  ],
+  "answer": 3,
+  "explanation": "D = DC power source. Supplies direct current of variable voltage and current.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.3",
+  "tags": [],
+  "facts": [
+   "ELP-F006"
+  ],
+  "figure": "electroplating/cell",
+  "label": "D",
+  "ask": "part"
+ },
+ {
+  "id": "ELP-0102",
+  "shop": "electroplating",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled E?",
+  "options": [
+   "Cathode (workpiece)",
+   "Ammeter",
+   "Electrolyte (bath)",
+   "Voltmeter"
+  ],
+  "answer": 1,
+  "explanation": "E = Ammeter. Connected in series to measure the plating current.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.3",
+  "tags": [],
+  "facts": [
+   "ELP-F008"
+  ],
+  "figure": "electroplating/cell",
+  "label": "E",
+  "ask": "part"
+ },
+ {
+  "id": "ELP-0103",
+  "shop": "electroplating",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled F?",
+  "options": [
+   "Electrolyte (bath)",
+   "Tank",
+   "Voltmeter",
+   "Ammeter"
+  ],
+  "answer": 2,
+  "explanation": "F = Voltmeter. Connected across the cell to measure voltage.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.3",
+  "tags": [],
+  "facts": [
+   "ELP-F008"
+  ],
+  "figure": "electroplating/cell",
+  "label": "F",
+  "ask": "part"
+ },
+ {
+  "id": "ELP-0104",
+  "shop": "electroplating",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled G?",
+  "options": [
+   "Tank",
+   "Voltmeter",
+   "DC power source",
+   "Cathode (workpiece)"
+  ],
+  "answer": 0,
+  "explanation": "G = Tank. Container holding the electrolyte.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.3",
+  "tags": [],
+  "facts": [
+   "ELP-F007"
+  ],
+  "figure": "electroplating/cell",
+  "label": "G",
+  "ask": "part"
+ },
+ {
+  "id": "ELP-0105",
+  "shop": "electroplating",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the function of the part labelled A?",
+  "options": [
+   "Connected to the − terminal; metal ions deposit on it",
+   "Connected to the + terminal; dissolves into the bath to replace the metal ions",
+   "Connected across the cell to measure voltage",
+   "Connected in series to measure the plating current"
+  ],
+  "answer": 1,
+  "explanation": "A = Anode (metal to be deposited). Connected to the + terminal; dissolves into the bath to replace the metal ions.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.2–3",
+  "tags": [],
+  "facts": [
+   "ELP-F004"
+  ],
+  "figure": "electroplating/cell",
+  "label": "A",
+  "ask": "function"
+ },
+ {
+  "id": "ELP-0106",
+  "shop": "electroplating",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the function of the part labelled B?",
+  "options": [
+   "Solution containing ions of the plating metal",
+   "Connected to the + terminal; dissolves into the bath to replace the metal ions",
+   "Connected to the − terminal; metal ions deposit on it",
+   "Connected in series to measure the plating current"
+  ],
+  "answer": 2,
+  "explanation": "B = Cathode (workpiece). Connected to the − terminal; metal ions deposit on it.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.2–3",
+  "tags": [],
+  "facts": [
+   "ELP-F003"
+  ],
+  "figure": "electroplating/cell",
+  "label": "B",
+  "ask": "function"
+ },
+ {
+  "id": "ELP-0107",
+  "shop": "electroplating",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the function of the part labelled E?",
+  "options": [
+   "Connected to the − terminal; metal ions deposit on it",
+   "Connected across the cell to measure voltage",
+   "Supplies direct current of variable voltage and current",
+   "Connected in series to measure the plating current"
+  ],
+  "answer": 3,
+  "explanation": "E = Ammeter. Connected in series to measure the plating current.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.3",
+  "tags": [],
+  "facts": [
+   "ELP-F008"
+  ],
+  "figure": "electroplating/cell",
+  "label": "E",
+  "ask": "function"
+ },
+ {
+  "id": "ELP-0108",
+  "shop": "electroplating",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the function of the part labelled F?",
+  "options": [
+   "Connected across the cell to measure voltage",
+   "Supplies direct current of variable voltage and current",
+   "Container holding the electrolyte",
+   "Solution containing ions of the plating metal"
+  ],
+  "answer": 0,
+  "explanation": "F = Voltmeter. Connected across the cell to measure voltage.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.3",
+  "tags": [],
+  "facts": [
+   "ELP-F008"
+  ],
+  "figure": "electroplating/cell",
+  "label": "F",
+  "ask": "function"
+ },
+ {
+  "id": "ELP-0109",
+  "shop": "electroplating",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the electroplating cell shown, the workpiece is connected to which terminal?",
+  "options": [
+   "Positive (+)",
+   "Neither terminal",
+   "Both terminals",
+   "Negative (−)"
+  ],
+  "answer": 3,
+  "explanation": "B, the workpiece, is the cathode, connected to the − terminal of the DC source.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.2–3",
+  "tags": [],
+  "facts": [
+   "ELP-F003"
+  ],
+  "figure": "electroplating/cell"
+ },
+ {
+  "id": "ELP-0110",
+  "shop": "electroplating",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, in which direction do the metal ions (M⁺) move?",
+  "options": [
+   "Up towards the DC source",
+   "From the workpiece towards the anode",
+   "From the anode side towards the workpiece",
+   "Down into the tank wall"
+  ],
+  "answer": 2,
+  "explanation": "Positive metal ions move through the bath towards the cathode (the workpiece) and deposit on it.",
+  "source": "theory",
+  "ref": "Theory: Dini",
+  "tags": [],
+  "facts": [
+   "ELP-F005"
+  ],
+  "figure": "electroplating/cell"
+ },
+ {
+  "id": "ELP-0111",
+  "shop": "electroplating",
+  "category": "principle-theory",
+  "difficulty": "hard",
+  "type": "diagram",
+  "question": "In the figure, which electrode slowly dissolves during plating?",
+  "options": [
+   "G",
+   "A",
+   "C",
+   "B"
+  ],
+  "answer": 1,
+  "explanation": "A is the anode of the plating metal; it dissolves and replenishes the ions deposited on B.",
+  "source": "theory",
+  "ref": "Theory: Dini",
+  "tags": [],
+  "facts": [
+   "ELP-F005"
+  ],
+  "figure": "electroplating/cell"
+ },
+ {
+  "id": "ELP-0112",
+  "shop": "electroplating",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the ME-106 electroplating sequence shown, what is step A?",
+  "options": [
+   "Mechanical cleaning",
+   "Washing with water and pumice powder",
+   "Chemical cleaning",
+   "Polishing / buffing"
+  ],
+  "answer": 0,
+  "explanation": "A = Mechanical cleaning. Removes rust and burrs from the mild-steel job.",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F056"
+  ],
+  "figure": "electroplating/process-flow",
+  "label": "A",
+  "ask": "part"
+ },
+ {
+  "id": "ELP-0113",
+  "shop": "electroplating",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the ME-106 electroplating sequence shown, what is step B?",
+  "options": [
+   "Heat treatment",
+   "Copper plating",
+   "Chemical cleaning",
+   "Polishing / buffing"
+  ],
+  "answer": 3,
+  "explanation": "B = Polishing / buffing. Smooths and shines the surface before plating.",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F056"
+  ],
+  "figure": "electroplating/process-flow",
+  "label": "B",
+  "ask": "part"
+ },
+ {
+  "id": "ELP-0114",
+  "shop": "electroplating",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the ME-106 electroplating sequence shown, what is step C?",
+  "options": [
+   "Washing with water and pumice powder",
+   "Chemical cleaning",
+   "Mechanical cleaning",
+   "Nickel stripping"
+  ],
+  "answer": 1,
+  "explanation": "C = Chemical cleaning. Removes grease and contaminants in the cleaning bath.",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F057"
+  ],
+  "figure": "electroplating/process-flow",
+  "label": "C",
+  "ask": "part"
+ },
+ {
+  "id": "ELP-0115",
+  "shop": "electroplating",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the ME-106 electroplating sequence shown, what is step D?",
+  "options": [
+   "Polishing / buffing",
+   "Heat treatment",
+   "Washing with water and pumice powder",
+   "Nickel plating"
+  ],
+  "answer": 2,
+  "explanation": "D = Washing with water and pumice powder. Removes cleaning chemicals before plating.",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F057"
+  ],
+  "figure": "electroplating/process-flow",
+  "label": "D",
+  "ask": "part"
+ },
+ {
+  "id": "ELP-0116",
+  "shop": "electroplating",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the ME-106 electroplating sequence shown, what is step E?",
+  "options": [
+   "Copper plating",
+   "Mechanical cleaning",
+   "Nickel stripping",
+   "Polishing / buffing"
+  ],
+  "answer": 0,
+  "explanation": "E = Copper plating. Deposits a copper base layer until the job turns reddish.",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F058"
+  ],
+  "figure": "electroplating/process-flow",
+  "label": "E",
+  "ask": "part"
+ },
+ {
+  "id": "ELP-0117",
+  "shop": "electroplating",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the ME-106 electroplating sequence shown, what is step F?",
+  "options": [
+   "Nickel plating",
+   "Polishing / buffing",
+   "Washing with water and pumice powder",
+   "Copper plating"
+  ],
+  "answer": 0,
+  "explanation": "F = Nickel plating. Half the job is dipped to deposit a bright nickel layer.",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F059"
+  ],
+  "figure": "electroplating/process-flow",
+  "label": "F",
+  "ask": "part"
+ },
+ {
+  "id": "ELP-0118",
+  "shop": "electroplating",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "Which box in the sequence is chemical cleaning?",
+  "options": [
+   "A",
+   "D",
+   "C",
+   "E"
+  ],
+  "answer": 2,
+  "explanation": "C = Chemical cleaning. Removes grease and contaminants in the cleaning bath.",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F057"
+  ],
+  "figure": "electroplating/process-flow",
+  "label": "C",
+  "ask": "which"
+ },
+ {
+  "id": "ELP-0119",
+  "shop": "electroplating",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "Which box in the sequence is copper plating?",
+  "options": [
+   "D",
+   "B",
+   "C",
+   "E"
+  ],
+  "answer": 3,
+  "explanation": "E = Copper plating. Deposits a copper base layer until the job turns reddish.",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F058"
+  ],
+  "figure": "electroplating/process-flow",
+  "label": "E",
+  "ask": "which"
+ },
+ {
+  "id": "ELP-0120",
+  "shop": "electroplating",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "Which box in the sequence is nickel plating?",
+  "options": [
+   "E",
+   "F",
+   "C",
+   "A"
+  ],
+  "answer": 1,
+  "explanation": "F = Nickel plating. Half the job is dipped to deposit a bright nickel layer.",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F059"
+  ],
+  "figure": "electroplating/process-flow",
+  "label": "F",
+  "ask": "which"
+ },
+ {
+  "id": "ELP-0121",
+  "shop": "electroplating",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "The figure shows electrochemical cleaning. Why is the workpiece (A) connected to the + terminal?",
+  "options": [
+   "So it becomes magnetic",
+   "Cleaning is the reverse of plating, so the job is the anode",
+   "So that copper plates on it",
+   "Because AC is used"
+  ],
+  "answer": 1,
+  "explanation": "In electro-cleaning the job is made the anode; oxygen released on it scrubs off rust.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.6",
+  "tags": [],
+  "facts": [
+   "ELP-F027"
+  ],
+  "figure": "electroplating/electrocleaning"
+ },
+ {
+  "id": "ELP-0122",
+  "shop": "electroplating",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled A?",
+  "options": [
+   "Cathode (counter electrode)",
+   "Copper deposit",
+   "Oxygen gas bubbles",
+   "Workpiece (made the anode)"
+  ],
+  "answer": 3,
+  "explanation": "A = Workpiece (made the anode). In electro-cleaning the job is the + electrode — the reverse of plating.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.6",
+  "tags": [],
+  "facts": [
+   "ELP-F027"
+  ],
+  "figure": "electroplating/electrocleaning",
+  "label": "A",
+  "ask": "part"
+ },
+ {
+  "id": "ELP-0123",
+  "shop": "electroplating",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled B?",
+  "options": [
+   "Oxygen gas bubbles",
+   "Workpiece (made the anode)",
+   "Cathode (counter electrode)",
+   "Copper deposit"
+  ],
+  "answer": 0,
+  "explanation": "B = Oxygen gas bubbles. O₂ released at the job (4OH⁻ → 2H₂O + O₂ + 4e⁻) scrubs off rust and dirt.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.6",
+  "tags": [],
+  "facts": [
+   "ELP-F028"
+  ],
+  "figure": "electroplating/electrocleaning",
+  "label": "B",
+  "ask": "part"
+ },
+ {
+  "id": "ELP-0124",
+  "shop": "electroplating",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled C?",
+  "options": [
+   "Workpiece (made the anode)",
+   "Copper deposit",
+   "Cathode (counter electrode)",
+   "Hydrogen gas bubbles"
+  ],
+  "answer": 2,
+  "explanation": "C = Cathode (counter electrode). Connected to the − terminal.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.6",
+  "tags": [],
+  "facts": [
+   "ELP-F027"
+  ],
+  "figure": "electroplating/electrocleaning",
+  "label": "C",
+  "ask": "part"
+ },
+ {
+  "id": "ELP-0125",
+  "shop": "electroplating",
+  "category": "tools-equipment",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled A?",
+  "options": [
+   "Wire brush",
+   "Motor",
+   "Buffing compound bar",
+   "Buffing wheel (cloth mop)"
+  ],
+  "answer": 3,
+  "explanation": "A = Buffing wheel (cloth mop). Rotating cloth wheel charged with abrasive compound.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.5",
+  "tags": [],
+  "facts": [
+   "ELP-F022"
+  ],
+  "figure": "electroplating/buffing",
+  "label": "A",
+  "ask": "part"
+ },
+ {
+  "id": "ELP-0126",
+  "shop": "electroplating",
+  "category": "tools-equipment",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled B?",
+  "options": [
+   "Buffing compound bar",
+   "Motor",
+   "Buffing wheel (cloth mop)",
+   "Grinding wheel"
+  ],
+  "answer": 0,
+  "explanation": "B = Buffing compound bar. Fine abrasive (alumina, SiC, iron/chromium oxide) in a wax or soap binder.",
+  "source": "lab",
+  "ref": "Electroplating lecture p.5, p.12",
+  "tags": [],
+  "facts": [
+   "ELP-F023"
+  ],
+  "figure": "electroplating/buffing",
+  "label": "B",
+  "ask": "part"
+ },
+ {
+  "id": "ELP-0127",
+  "shop": "electroplating",
+  "category": "tools-equipment",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled C?",
+  "options": [
+   "Buffing wheel (cloth mop)",
+   "Motor",
+   "Grinding wheel",
+   "Buffing compound bar"
+  ],
+  "answer": 1,
+  "explanation": "C = Motor. Drives the wheels at high speed.",
+  "source": "lab",
+  "ref": "Electroplating Log Sheet",
+  "tags": [],
+  "facts": [
+   "ELP-F053"
+  ],
+  "figure": "electroplating/buffing",
+  "label": "C",
+  "ask": "part"
+ }
+]
