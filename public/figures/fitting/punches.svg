@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Figure"><style>.s{fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}.thin{fill:none;stroke:currentColor;stroke-width:1.1}.lead{fill:none;stroke:currentColor;stroke-width:1.2;opacity:.85}.f{fill:currentColor;fill-opacity:.10;stroke:currentColor;stroke-width:2;stroke-linejoin:round}.f2{fill:currentColor;fill-opacity:.22;stroke:currentColor;stroke-width:2;stroke-linejoin:round}.k{fill:currentColor;stroke:none}.d{fill:none;stroke:currentColor;stroke-width:1.5;stroke-dasharray:6 4}.cl{fill:none;stroke:currentColor;stroke-width:1;stroke-dasharray:14 4 3 4;opacity:.7}.acc{fill:none;stroke:#e8590c;stroke-width:2.4;stroke-linecap:round}.accf{fill:#e8590c;stroke:none}.acct{fill:#e8590c;stroke:none}.tx{fill:currentColor;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}</style>
+<rect class="f" x="144.0" y="50.0" width="32.0" height="200.0" rx="0"/>
+<line class="thin" x1="144.0" y1="70.0" x2="176.0" y2="74.0"/>
+<line class="thin" x1="144.0" y1="78.0" x2="176.0" y2="82.0"/>
+<line class="thin" x1="144.0" y1="86.0" x2="176.0" y2="90.0"/>
+<line class="thin" x1="144.0" y1="94.0" x2="176.0" y2="98.0"/>
+<line class="thin" x1="144.0" y1="102.0" x2="176.0" y2="106.0"/>
+<line class="thin" x1="144.0" y1="110.0" x2="176.0" y2="114.0"/>
+<line class="thin" x1="144.0" y1="118.0" x2="176.0" y2="122.0"/>
+<line class="thin" x1="144.0" y1="126.0" x2="176.0" y2="130.0"/>
+<line class="thin" x1="144.0" y1="134.0" x2="176.0" y2="138.0"/>
+<line class="thin" x1="144.0" y1="142.0" x2="176.0" y2="146.0"/>
+<line class="thin" x1="144.0" y1="150.0" x2="176.0" y2="154.0"/>
+<line class="thin" x1="144.0" y1="158.0" x2="176.0" y2="162.0"/>
+<polygon class="f2" points="144.0,250.0 176.0,250.0 160.0,277.7"/>
+<path class="acc" d="M147.0,255.2 A26,26 0 0 1 173.0,255.2"/>
+<text class="tx" x="160.0" y="329.7" font-size="20" text-anchor="middle" font-weight="bold" dominant-baseline="middle">60°</text>
+<rect class="f" x="464.0" y="50.0" width="32.0" height="200.0" rx="0"/>
+<line class="thin" x1="464.0" y1="70.0" x2="496.0" y2="74.0"/>
+<line class="thin" x1="464.0" y1="78.0" x2="496.0" y2="82.0"/>
+<line class="thin" x1="464.0" y1="86.0" x2="496.0" y2="90.0"/>
+<line class="thin" x1="464.0" y1="94.0" x2="496.0" y2="98.0"/>
+<line class="thin" x1="464.0" y1="102.0" x2="496.0" y2="106.0"/>
+<line class="thin" x1="464.0" y1="110.0" x2="496.0" y2="114.0"/>
+<line class="thin" x1="464.0" y1="118.0" x2="496.0" y2="122.0"/>
+<line class="thin" x1="464.0" y1="126.0" x2="496.0" y2="130.0"/>
+<line class="thin" x1="464.0" y1="134.0" x2="496.0" y2="138.0"/>
+<line class="thin" x1="464.0" y1="142.0" x2="496.0" y2="146.0"/>
+<line class="thin" x1="464.0" y1="150.0" x2="496.0" y2="154.0"/>
+<line class="thin" x1="464.0" y1="158.0" x2="496.0" y2="162.0"/>
+<polygon class="f2" points="464.0,250.0 496.0,250.0 480.0,266.0"/>
+<path class="acc" d="M461.6,247.6 A26,26 0 0 1 498.4,247.6"/>
+<text class="tx" x="480.0" y="318.0" font-size="20" text-anchor="middle" font-weight="bold" dominant-baseline="middle">90°</text>
+<circle cx="40.0" cy="40.0" r="15" fill="#e8590c"/><text x="40.0" y="41.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">A</text>
+<circle cx="360.0" cy="40.0" r="15" fill="#e8590c"/><text x="360.0" y="41.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">B</text>
+</svg>

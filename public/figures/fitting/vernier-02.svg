@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" role="img" aria-label="Figure"><style>.s{fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}.thin{fill:none;stroke:currentColor;stroke-width:1.1}.lead{fill:none;stroke:currentColor;stroke-width:1.2;opacity:.85}.f{fill:currentColor;fill-opacity:.10;stroke:currentColor;stroke-width:2;stroke-linejoin:round}.f2{fill:currentColor;fill-opacity:.22;stroke:currentColor;stroke-width:2;stroke-linejoin:round}.k{fill:currentColor;stroke:none}.d{fill:none;stroke:currentColor;stroke-width:1.5;stroke-dasharray:6 4}.cl{fill:none;stroke:currentColor;stroke-width:1;stroke-dasharray:14 4 3 4;opacity:.7}.acc{fill:none;stroke:#e8590c;stroke-width:2.4;stroke-linecap:round}.accf{fill:#e8590c;stroke:none}.acct{fill:#e8590c;stroke:none}.tx{fill:currentColor;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}</style>
+<rect class="f" x="20.0" y="40.0" width="860.0" height="60.0" rx="0"/>
+<line class="thin" x1="22.5" y1="100.0" x2="22.5" y2="86.0"/>
+<line class="thin" x1="37.5" y1="100.0" x2="37.5" y2="86.0"/>
+<line class="thin" x1="52.5" y1="100.0" x2="52.5" y2="86.0"/>
+<line class="thin" x1="67.5" y1="100.0" x2="67.5" y2="86.0"/>
+<line class="s" x1="82.5" y1="100.0" x2="82.5" y2="70.0"/>
+<text class="tx" x="82.5" y="52.0" font-size="17" text-anchor="middle" font-weight="bold" dominant-baseline="middle">100</text>
+<line class="thin" x1="97.5" y1="100.0" x2="97.5" y2="86.0"/>
+<line class="thin" x1="112.5" y1="100.0" x2="112.5" y2="86.0"/>
+<line class="thin" x1="127.5" y1="100.0" x2="127.5" y2="86.0"/>
+<line class="thin" x1="142.5" y1="100.0" x2="142.5" y2="86.0"/>
+<line class="s" x1="157.5" y1="100.0" x2="157.5" y2="78.0"/>
+<line class="thin" x1="172.5" y1="100.0" x2="172.5" y2="86.0"/>
+<line class="thin" x1="187.5" y1="100.0" x2="187.5" y2="86.0"/>
+<line class="thin" x1="202.5" y1="100.0" x2="202.5" y2="86.0"/>
+<line class="thin" x1="217.5" y1="100.0" x2="217.5" y2="86.0"/>
+<line class="s" x1="232.5" y1="100.0" x2="232.5" y2="70.0"/>
+<text class="tx" x="232.5" y="52.0" font-size="17" text-anchor="middle" font-weight="bold" dominant-baseline="middle">110</text>
+<line class="thin" x1="247.5" y1="100.0" x2="247.5" y2="86.0"/>
+<line class="thin" x1="262.5" y1="100.0" x2="262.5" y2="86.0"/>
+<line class="thin" x1="277.5" y1="100.0" x2="277.5" y2="86.0"/>
+<line class="thin" x1="292.5" y1="100.0" x2="292.5" y2="86.0"/>
+<line class="s" x1="307.5" y1="100.0" x2="307.5" y2="78.0"/>
+<line class="thin" x1="322.5" y1="100.0" x2="322.5" y2="86.0"/>
+<line class="thin" x1="337.5" y1="100.0" x2="337.5" y2="86.0"/>
+<line class="thin" x1="352.5" y1="100.0" x2="352.5" y2="86.0"/>
+<line class="thin" x1="367.5" y1="100.0" x2="367.5" y2="86.0"/>
+<line class="s" x1="382.5" y1="100.0" x2="382.5" y2="70.0"/>
+<text class="tx" x="382.5" y="52.0" font-size="17" text-anchor="middle" font-weight="bold" dominant-baseline="middle">120</text>
+<line class="thin" x1="397.5" y1="100.0" x2="397.5" y2="86.0"/>
+<line class="thin" x1="412.5" y1="100.0" x2="412.5" y2="86.0"/>
+<line class="thin" x1="427.5" y1="100.0" x2="427.5" y2="86.0"/>
+<line class="thin" x1="442.5" y1="100.0" x2="442.5" y2="86.0"/>
+<line class="s" x1="457.5" y1="100.0" x2="457.5" y2="78.0"/>
+<line class="thin" x1="472.5" y1="100.0" x2="472.5" y2="86.0"/>
+<line class="thin" x1="487.5" y1="100.0" x2="487.5" y2="86.0"/>
+<line class="thin" x1="502.5" y1="100.0" x2="502.5" y2="86.0"/>
+<line class="thin" x1="517.5" y1="100.0" x2="517.5" y2="86.0"/>
+<line class="s" x1="532.5" y1="100.0" x2="532.5" y2="70.0"/>
+<text class="tx" x="532.5" y="52.0" font-size="17" text-anchor="middle" font-weight="bold" dominant-baseline="middle">130</text>
+<line class="thin" x1="547.5" y1="100.0" x2="547.5" y2="86.0"/>
+<line class="thin" x1="562.5" y1="100.0" x2="562.5" y2="86.0"/>
+<line class="thin" x1="577.5" y1="100.0" x2="577.5" y2="86.0"/>
+<line class="thin" x1="592.5" y1="100.0" x2="592.5" y2="86.0"/>
+<line class="s" x1="607.5" y1="100.0" x2="607.5" y2="78.0"/>
+<line class="thin" x1="622.5" y1="100.0" x2="622.5" y2="86.0"/>
+<line class="thin" x1="637.5" y1="100.0" x2="637.5" y2="86.0"/>
+<line class="thin" x1="652.5" y1="100.0" x2="652.5" y2="86.0"/>
+<line class="thin" x1="667.5" y1="100.0" x2="667.5" y2="86.0"/>
+<line class="s" x1="682.5" y1="100.0" x2="682.5" y2="70.0"/>
+<text class="tx" x="682.5" y="52.0" font-size="17" text-anchor="middle" font-weight="bold" dominant-baseline="middle">140</text>
+<line class="thin" x1="697.5" y1="100.0" x2="697.5" y2="86.0"/>
+<line class="thin" x1="712.5" y1="100.0" x2="712.5" y2="86.0"/>
+<line class="thin" x1="727.5" y1="100.0" x2="727.5" y2="86.0"/>
+<line class="thin" x1="742.5" y1="100.0" x2="742.5" y2="86.0"/>
+<line class="s" x1="757.5" y1="100.0" x2="757.5" y2="78.0"/>
+<line class="thin" x1="772.5" y1="100.0" x2="772.5" y2="86.0"/>
+<line class="thin" x1="787.5" y1="100.0" x2="787.5" y2="86.0"/>
+<line class="thin" x1="802.5" y1="100.0" x2="802.5" y2="86.0"/>
+<line class="thin" x1="817.5" y1="100.0" x2="817.5" y2="86.0"/>
+<line class="s" x1="832.5" y1="100.0" x2="832.5" y2="70.0"/>
+<text class="tx" x="832.5" y="52.0" font-size="17" text-anchor="middle" font-weight="bold" dominant-baseline="middle">150</text>
+<line class="thin" x1="847.5" y1="100.0" x2="847.5" y2="86.0"/>
+<line class="thin" x1="862.5" y1="100.0" x2="862.5" y2="86.0"/>
+<line class="thin" x1="877.5" y1="100.0" x2="877.5" y2="86.0"/>
+<text class="tx" x="860.0" y="28.0" font-size="13" text-anchor="end" font-weight="normal" dominant-baseline="middle">main scale (mm)</text>
+<rect class="f2" x="45.0" y="100.0" width="765.0" height="60.0" rx="0"/>
+<line class="s" x1="60.0" y1="100.0" x2="60.0" y2="126.0"/>
+<text class="tx" x="60.0" y="140.0" font-size="14" text-anchor="middle" font-weight="normal" dominant-baseline="middle">0</text>
+<line class="thin" x1="74.7" y1="100.0" x2="74.7" y2="115.0"/>
+<line class="thin" x1="89.4" y1="100.0" x2="89.4" y2="115.0"/>
+<line class="thin" x1="104.1" y1="100.0" x2="104.1" y2="115.0"/>
+<line class="thin" x1="118.8" y1="100.0" x2="118.8" y2="115.0"/>
+<line class="s" x1="133.5" y1="100.0" x2="133.5" y2="126.0"/>
+<text class="tx" x="133.5" y="140.0" font-size="14" text-anchor="middle" font-weight="normal" dominant-baseline="middle">1</text>
+<line class="thin" x1="148.2" y1="100.0" x2="148.2" y2="115.0"/>
+<line class="thin" x1="162.9" y1="100.0" x2="162.9" y2="115.0"/>
+<line class="thin" x1="177.6" y1="100.0" x2="177.6" y2="115.0"/>
+<line class="thin" x1="192.3" y1="100.0" x2="192.3" y2="115.0"/>
+<line class="s" x1="207.0" y1="100.0" x2="207.0" y2="126.0"/>
+<text class="tx" x="207.0" y="140.0" font-size="14" text-anchor="middle" font-weight="normal" dominant-baseline="middle">2</text>
+<line class="thin" x1="221.7" y1="100.0" x2="221.7" y2="115.0"/>
+<line class="thin" x1="236.4" y1="100.0" x2="236.4" y2="115.0"/>
+<line class="thin" x1="251.1" y1="100.0" x2="251.1" y2="115.0"/>
+<line class="thin" x1="265.8" y1="100.0" x2="265.8" y2="115.0"/>
+<line class="s" x1="280.5" y1="100.0" x2="280.5" y2="126.0"/>
+<text class="tx" x="280.5" y="140.0" font-size="14" text-anchor="middle" font-weight="normal" dominant-baseline="middle">3</text>
+<line class="thin" x1="295.2" y1="100.0" x2="295.2" y2="115.0"/>
+<line class="thin" x1="309.9" y1="100.0" x2="309.9" y2="115.0"/>
+<line class="thin" x1="324.6" y1="100.0" x2="324.6" y2="115.0"/>
+<line class="thin" x1="339.3" y1="100.0" x2="339.3" y2="115.0"/>
+<line class="s" x1="354.0" y1="100.0" x2="354.0" y2="126.0"/>
+<text class="tx" x="354.0" y="140.0" font-size="14" text-anchor="middle" font-weight="normal" dominant-baseline="middle">4</text>
+<line class="thin" x1="368.7" y1="100.0" x2="368.7" y2="115.0"/>
+<line class="thin" x1="383.4" y1="100.0" x2="383.4" y2="115.0"/>
+<line class="thin" x1="398.1" y1="100.0" x2="398.1" y2="115.0"/>
+<line class="thin" x1="412.8" y1="100.0" x2="412.8" y2="115.0"/>
+<line class="s" x1="427.5" y1="100.0" x2="427.5" y2="126.0"/>
+<text class="tx" x="427.5" y="140.0" font-size="14" text-anchor="middle" font-weight="normal" dominant-baseline="middle">5</text>
+<line class="thin" x1="442.2" y1="100.0" x2="442.2" y2="115.0"/>
+<line class="thin" x1="456.9" y1="100.0" x2="456.9" y2="115.0"/>
+<line class="thin" x1="471.6" y1="100.0" x2="471.6" y2="115.0"/>
+<line class="thin" x1="486.3" y1="100.0" x2="486.3" y2="115.0"/>
+<line class="s" x1="501.0" y1="100.0" x2="501.0" y2="126.0"/>
+<text class="tx" x="501.0" y="140.0" font-size="14" text-anchor="middle" font-weight="normal" dominant-baseline="middle">6</text>
+<line class="thin" x1="515.7" y1="100.0" x2="515.7" y2="115.0"/>
+<line class="thin" x1="530.4" y1="100.0" x2="530.4" y2="115.0"/>
+<line class="thin" x1="545.1" y1="100.0" x2="545.1" y2="115.0"/>
+<line class="thin" x1="559.8" y1="100.0" x2="559.8" y2="115.0"/>
+<line class="s" x1="574.5" y1="100.0" x2="574.5" y2="126.0"/>
+<text class="tx" x="574.5" y="140.0" font-size="14" text-anchor="middle" font-weight="normal" dominant-baseline="middle">7</text>
+<line class="thin" x1="589.2" y1="100.0" x2="589.2" y2="115.0"/>
+<line class="thin" x1="603.9" y1="100.0" x2="603.9" y2="115.0"/>
+<line class="thin" x1="618.6" y1="100.0" x2="618.6" y2="115.0"/>
+<line class="thin" x1="633.3" y1="100.0" x2="633.3" y2="115.0"/>
+<line class="s" x1="648.0" y1="100.0" x2="648.0" y2="126.0"/>
+<text class="tx" x="648.0" y="140.0" font-size="14" text-anchor="middle" font-weight="normal" dominant-baseline="middle">8</text>
+<line class="thin" x1="662.7" y1="100.0" x2="662.7" y2="115.0"/>
+<line class="thin" x1="677.4" y1="100.0" x2="677.4" y2="115.0"/>
+<line class="thin" x1="692.1" y1="100.0" x2="692.1" y2="115.0"/>
+<line class="thin" x1="706.8" y1="100.0" x2="706.8" y2="115.0"/>
+<line class="s" x1="721.5" y1="100.0" x2="721.5" y2="126.0"/>
+<text class="tx" x="721.5" y="140.0" font-size="14" text-anchor="middle" font-weight="normal" dominant-baseline="middle">9</text>
+<line class="thin" x1="736.2" y1="100.0" x2="736.2" y2="115.0"/>
+<line class="thin" x1="750.9" y1="100.0" x2="750.9" y2="115.0"/>
+<line class="thin" x1="765.6" y1="100.0" x2="765.6" y2="115.0"/>
+<line class="thin" x1="780.3" y1="100.0" x2="780.3" y2="115.0"/>
+<line class="s" x1="795.0" y1="100.0" x2="795.0" y2="126.0"/>
+<text class="tx" x="795.0" y="140.0" font-size="14" text-anchor="middle" font-weight="normal" dominant-baseline="middle">10</text>
+<line class="acc" x1="427.5" y1="205.0" x2="427.5" y2="168.0"/>
+<polygon class="accf" points="427.5,168.0 432.2,179.1 422.8,179.1"/>
+<text class="tx" x="427.5" y="222.0" font-size="13" text-anchor="middle" font-weight="normal" dominant-baseline="middle">coincides</text>
+<text class="tx" x="60.0" y="245.0" font-size="13" text-anchor="middle" font-weight="normal" dominant-baseline="middle">vernier 0</text>
+<text class="tx" x="860.0" y="245.0" font-size="13" text-anchor="end" font-weight="normal" dominant-baseline="middle">least count 0.02 mm · vernier numbers are tenths of a mm</text>
+</svg>

@@ -1243,5 +1243,564 @@
     "fact": "SHP-F038"
    }
   }
+ },
+ {
+  "id": "fitting/bench-vice",
+  "shop": "fitting",
+  "title": "Bench vice",
+  "alt": "Side-view line diagram of a bench vice with lettered callouts",
+  "labels": {
+   "A": {
+    "part": "Fixed jaw",
+    "function": "Stationary jaw cast with the body",
+    "fact": "FIT-F026"
+   },
+   "B": {
+    "part": "Movable (sliding) jaw",
+    "function": "Moves in and out on the slide when the handle is turned",
+    "fact": "FIT-F026"
+   },
+   "C": {
+    "part": "Jaw plates",
+    "function": "Hardened, serrated plates screwed to the jaws that grip the work",
+    "fact": "FIT-F027"
+   },
+   "D": {
+    "part": "Screw (spindle)",
+    "function": "Square-threaded screw that moves the movable jaw",
+    "fact": "FIT-F026"
+   },
+   "E": {
+    "part": "Handle (tommy bar)",
+    "function": "Turned to tighten or loosen the vice",
+    "fact": "FIT-F026"
+   },
+   "F": {
+    "part": "Body / slide",
+    "function": "Guides the movable jaw",
+    "fact": "FIT-F026"
+   },
+   "G": {
+    "part": "Base",
+    "function": "Bolted to the work bench",
+    "fact": "FIT-F026"
+   },
+   "H": {
+    "part": "Workpiece",
+    "function": "Job gripped between the jaws, projecting only a little above them",
+    "fact": "FIT-F028"
+   }
+  }
+ },
+ {
+  "id": "fitting/file-parts",
+  "shop": "fitting",
+  "title": "Parts of a file",
+  "alt": "Line diagram of a flat file with lettered parts",
+  "labels": {
+   "A": {
+    "part": "Tang",
+    "function": "Pointed end that fits into the wooden handle",
+    "fact": "FIT-F058"
+   },
+   "B": {
+    "part": "Heel",
+    "function": "Uncut part next to the tang",
+    "fact": "FIT-F058"
+   },
+   "C": {
+    "part": "Face",
+    "function": "Broad cutting surface carrying the teeth",
+    "fact": "FIT-F058"
+   },
+   "D": {
+    "part": "Edge",
+    "function": "Narrow side of the file",
+    "fact": "FIT-F058"
+   },
+   "E": {
+    "part": "Point (tip)",
+    "function": "Far end of the file, opposite the tang",
+    "fact": "FIT-F058"
+   }
+  }
+ },
+ {
+  "id": "fitting/file-sections",
+  "shop": "fitting",
+  "title": "File cross-sections",
+  "alt": "Five file cross-sections, panels A to E",
+  "labels": {
+   "A": {
+    "part": "Flat file",
+    "function": "Filing flat surfaces",
+    "fact": "FIT-F063"
+   },
+   "B": {
+    "part": "Square file",
+    "function": "Filing square slots and holes",
+    "fact": "FIT-F063"
+   },
+   "C": {
+    "part": "Round file",
+    "function": "Enlarging round holes and filing concave curves",
+    "fact": "FIT-F063"
+   },
+   "D": {
+    "part": "Half-round file",
+    "function": "Filing concave curves (round side) and flat surfaces (flat side)",
+    "fact": "FIT-F063"
+   },
+   "E": {
+    "part": "Triangular (three-square) file",
+    "function": "Filing corners and angles less than 90°",
+    "fact": "FIT-F063"
+   }
+  },
+  "ask": {
+   "p": "Which file shape is shown in cross-section {L}?",
+   "w": "Which cross-section is a {P}?",
+   "f": "The file in section {L} is mainly used for…"
+  }
+ },
+ {
+  "id": "fitting/hacksaw",
+  "shop": "fitting",
+  "title": "Hacksaw",
+  "alt": "Line diagram of an adjustable-frame hacksaw with lettered callouts and the cutting direction",
+  "labels": {
+   "A": {
+    "part": "Frame",
+    "function": "Holds the blade in tension",
+    "fact": "FIT-F053"
+   },
+   "B": {
+    "part": "Blade",
+    "function": "Hardened saw blade (high-carbon steel or HSS) with teeth",
+    "fact": "FIT-F057"
+   },
+   "C": {
+    "part": "Handle",
+    "function": "Gripped to push and pull the saw",
+    "fact": "FIT-F053"
+   },
+   "D": {
+    "part": "Wing nut",
+    "function": "Tightens the blade to the correct tension",
+    "fact": "FIT-F053"
+   },
+   "E": {
+    "part": "Teeth",
+    "function": "Point forward, away from the handle, because the saw cuts on the forward stroke",
+    "fact": "FIT-F054"
+   }
+  }
+ },
+ {
+  "id": "fitting/hammers",
+  "shop": "fitting",
+  "title": "Fitting hammers",
+  "alt": "Two hammer heads: panel A and panel B",
+  "labels": {
+   "A": {
+    "part": "Ball-peen hammer",
+    "function": "Flat face for striking; hemispherical peen for riveting and peening",
+    "fact": "FIT-F072"
+   },
+   "B": {
+    "part": "Cross-peen hammer",
+    "function": "Wedge-shaped peen at right angles to the handle",
+    "fact": "FIT-F073"
+   }
+  },
+  "ask": {
+   "p": "Which hammer is shown in panel {L}?",
+   "w": "Which panel shows a {P}?"
+  }
+ },
+ {
+  "id": "fitting/marking-tools",
+  "shop": "fitting",
+  "title": "Marking and holding tools",
+  "alt": "Eight small line drawings of fitting marking and holding tools, each marked with a letter",
+  "labels": {
+   "A": {
+    "part": "Scriber",
+    "function": "Scratch (scribe) fine lines on metal for marking out",
+    "fact": "FIT-F033"
+   },
+   "B": {
+    "part": "Try square",
+    "function": "Check squareness (90°) of edges and surfaces",
+    "fact": "FIT-F021"
+   },
+   "C": {
+    "part": "V-block",
+    "function": "Hold round bars steady for marking or drilling",
+    "fact": "FIT-F029"
+   },
+   "D": {
+    "part": "Surface gauge (scribing block)",
+    "function": "Scribe lines parallel to the surface plate at a set height",
+    "fact": "FIT-F034"
+   },
+   "E": {
+    "part": "Odd-leg (jenny) caliper",
+    "function": "Draw lines parallel to an edge or find the centre of a bar",
+    "fact": "FIT-F035"
+   },
+   "F": {
+    "part": "Divider",
+    "function": "Draw circles and arcs, and transfer distances",
+    "fact": "FIT-F036"
+   },
+   "G": {
+    "part": "Angle plate",
+    "function": "Hold work at 90° to the surface plate",
+    "fact": "FIT-F031"
+   },
+   "H": {
+    "part": "C-clamp",
+    "function": "Clamp work to a table or angle plate",
+    "fact": "FIT-F030"
+   }
+  },
+  "ask": {
+   "p": "Which tool is shown in panel {L}?",
+   "w": "Which panel shows a {P}?",
+   "f": "The tool in panel {L} is used to…"
+  }
+ },
+ {
+  "id": "fitting/micrometer-01",
+  "shop": "fitting",
+  "title": "Micrometer reading #1",
+  "alt": "Enlarged view of a micrometer sleeve and thimble scale",
+  "labels": {}
+ },
+ {
+  "id": "fitting/micrometer-02",
+  "shop": "fitting",
+  "title": "Micrometer reading #2",
+  "alt": "Enlarged view of a micrometer sleeve and thimble scale",
+  "labels": {}
+ },
+ {
+  "id": "fitting/micrometer-03",
+  "shop": "fitting",
+  "title": "Micrometer reading #3",
+  "alt": "Enlarged view of a micrometer sleeve and thimble scale",
+  "labels": {}
+ },
+ {
+  "id": "fitting/micrometer-04",
+  "shop": "fitting",
+  "title": "Micrometer reading #4",
+  "alt": "Enlarged view of a micrometer sleeve and thimble scale",
+  "labels": {}
+ },
+ {
+  "id": "fitting/micrometer-05",
+  "shop": "fitting",
+  "title": "Micrometer reading #5",
+  "alt": "Enlarged view of a micrometer sleeve and thimble scale",
+  "labels": {}
+ },
+ {
+  "id": "fitting/micrometer-06",
+  "shop": "fitting",
+  "title": "Micrometer reading #6",
+  "alt": "Enlarged view of a micrometer sleeve and thimble scale",
+  "labels": {}
+ },
+ {
+  "id": "fitting/micrometer-07",
+  "shop": "fitting",
+  "title": "Micrometer reading #7",
+  "alt": "Enlarged view of a micrometer sleeve and thimble scale",
+  "labels": {}
+ },
+ {
+  "id": "fitting/micrometer-08",
+  "shop": "fitting",
+  "title": "Micrometer reading #8",
+  "alt": "Enlarged view of a micrometer sleeve and thimble scale",
+  "labels": {}
+ },
+ {
+  "id": "fitting/micrometer-09",
+  "shop": "fitting",
+  "title": "Micrometer reading #9",
+  "alt": "Enlarged view of a micrometer sleeve and thimble scale",
+  "labels": {}
+ },
+ {
+  "id": "fitting/micrometer-10",
+  "shop": "fitting",
+  "title": "Micrometer reading #10",
+  "alt": "Enlarged view of a micrometer sleeve and thimble scale",
+  "labels": {}
+ },
+ {
+  "id": "fitting/micrometer-11",
+  "shop": "fitting",
+  "title": "Micrometer reading #11",
+  "alt": "Enlarged view of a micrometer sleeve and thimble scale",
+  "labels": {}
+ },
+ {
+  "id": "fitting/micrometer-12",
+  "shop": "fitting",
+  "title": "Micrometer reading #12",
+  "alt": "Enlarged view of a micrometer sleeve and thimble scale",
+  "labels": {}
+ },
+ {
+  "id": "fitting/micrometer-13",
+  "shop": "fitting",
+  "title": "Micrometer reading #13",
+  "alt": "Enlarged view of a micrometer sleeve and thimble scale",
+  "labels": {}
+ },
+ {
+  "id": "fitting/micrometer-14",
+  "shop": "fitting",
+  "title": "Micrometer reading #14",
+  "alt": "Enlarged view of a micrometer sleeve and thimble scale",
+  "labels": {}
+ },
+ {
+  "id": "fitting/micrometer-parts",
+  "shop": "fitting",
+  "title": "Outside micrometer — parts",
+  "alt": "Line diagram of an outside micrometer with lettered parts",
+  "labels": {
+   "A": {
+    "part": "Frame",
+    "function": "C-shaped body that carries the anvil and barrel",
+    "fact": "FIT-F049"
+   },
+   "B": {
+    "part": "Anvil",
+    "function": "Fixed measuring face",
+    "fact": "FIT-F049"
+   },
+   "C": {
+    "part": "Spindle",
+    "function": "Moving measuring face, advanced by the screw",
+    "fact": "FIT-F049"
+   },
+   "D": {
+    "part": "Sleeve (barrel)",
+    "function": "Carries the main scale in mm and half-mm",
+    "fact": "FIT-F049"
+   },
+   "E": {
+    "part": "Thimble",
+    "function": "Rotating scale with 50 divisions (0.01 mm each)",
+    "fact": "FIT-F049"
+   },
+   "F": {
+    "part": "Ratchet stop",
+    "function": "Slips at a set torque so the measuring pressure is uniform",
+    "fact": "FIT-F050"
+   },
+   "G": {
+    "part": "Lock nut",
+    "function": "Locks the spindle to hold the reading",
+    "fact": "FIT-F049"
+   }
+  }
+ },
+ {
+  "id": "fitting/punches",
+  "shop": "fitting",
+  "title": "Dot punch and centre punch",
+  "alt": "Two punches side by side with their point angles marked; panels A and B",
+  "labels": {
+   "A": {
+    "part": "Dot punch",
+    "function": "Point angle about 60°; light witness marks along scribed lines",
+    "fact": "FIT-F037"
+   },
+   "B": {
+    "part": "Centre punch",
+    "function": "Point angle about 90°; deeper mark to locate the drill",
+    "fact": "FIT-F038"
+   }
+  },
+  "ask": {
+   "p": "Which punch is shown in panel {L}?",
+   "w": "Which panel shows a {P}?"
+  }
+ },
+ {
+  "id": "fitting/vernier-01",
+  "shop": "fitting",
+  "title": "Vernier reading #1",
+  "alt": "Enlarged view of a Vernier caliper scale; the orange arrow marks the coinciding Vernier line",
+  "labels": {}
+ },
+ {
+  "id": "fitting/vernier-02",
+  "shop": "fitting",
+  "title": "Vernier reading #2",
+  "alt": "Enlarged view of a Vernier caliper scale; the orange arrow marks the coinciding Vernier line",
+  "labels": {}
+ },
+ {
+  "id": "fitting/vernier-03",
+  "shop": "fitting",
+  "title": "Vernier reading #3",
+  "alt": "Enlarged view of a Vernier caliper scale; the orange arrow marks the coinciding Vernier line",
+  "labels": {}
+ },
+ {
+  "id": "fitting/vernier-04",
+  "shop": "fitting",
+  "title": "Vernier reading #4",
+  "alt": "Enlarged view of a Vernier caliper scale; the orange arrow marks the coinciding Vernier line",
+  "labels": {}
+ },
+ {
+  "id": "fitting/vernier-05",
+  "shop": "fitting",
+  "title": "Vernier reading #5",
+  "alt": "Enlarged view of a Vernier caliper scale; the orange arrow marks the coinciding Vernier line",
+  "labels": {}
+ },
+ {
+  "id": "fitting/vernier-06",
+  "shop": "fitting",
+  "title": "Vernier reading #6",
+  "alt": "Enlarged view of a Vernier caliper scale; the orange arrow marks the coinciding Vernier line",
+  "labels": {}
+ },
+ {
+  "id": "fitting/vernier-07",
+  "shop": "fitting",
+  "title": "Vernier reading #7",
+  "alt": "Enlarged view of a Vernier caliper scale; the orange arrow marks the coinciding Vernier line",
+  "labels": {}
+ },
+ {
+  "id": "fitting/vernier-08",
+  "shop": "fitting",
+  "title": "Vernier reading #8",
+  "alt": "Enlarged view of a Vernier caliper scale; the orange arrow marks the coinciding Vernier line",
+  "labels": {}
+ },
+ {
+  "id": "fitting/vernier-09",
+  "shop": "fitting",
+  "title": "Vernier reading #9",
+  "alt": "Enlarged view of a Vernier caliper scale; the orange arrow marks the coinciding Vernier line",
+  "labels": {}
+ },
+ {
+  "id": "fitting/vernier-10",
+  "shop": "fitting",
+  "title": "Vernier reading #10",
+  "alt": "Enlarged view of a Vernier caliper scale; the orange arrow marks the coinciding Vernier line",
+  "labels": {}
+ },
+ {
+  "id": "fitting/vernier-11",
+  "shop": "fitting",
+  "title": "Vernier reading #11",
+  "alt": "Enlarged view of a Vernier caliper scale; the orange arrow marks the coinciding Vernier line",
+  "labels": {}
+ },
+ {
+  "id": "fitting/vernier-12",
+  "shop": "fitting",
+  "title": "Vernier reading #12",
+  "alt": "Enlarged view of a Vernier caliper scale; the orange arrow marks the coinciding Vernier line",
+  "labels": {}
+ },
+ {
+  "id": "fitting/vernier-13",
+  "shop": "fitting",
+  "title": "Vernier reading #13",
+  "alt": "Enlarged view of a Vernier caliper scale; the orange arrow marks the coinciding Vernier line",
+  "labels": {}
+ },
+ {
+  "id": "fitting/vernier-14",
+  "shop": "fitting",
+  "title": "Vernier reading #14",
+  "alt": "Enlarged view of a Vernier caliper scale; the orange arrow marks the coinciding Vernier line",
+  "labels": {}
+ },
+ {
+  "id": "fitting/vernier-15",
+  "shop": "fitting",
+  "title": "Vernier reading #15",
+  "alt": "Enlarged view of a Vernier caliper scale; the orange arrow marks the coinciding Vernier line",
+  "labels": {}
+ },
+ {
+  "id": "fitting/vernier-16",
+  "shop": "fitting",
+  "title": "Vernier reading #16",
+  "alt": "Enlarged view of a Vernier caliper scale; the orange arrow marks the coinciding Vernier line",
+  "labels": {}
+ },
+ {
+  "id": "fitting/vernier-17",
+  "shop": "fitting",
+  "title": "Vernier reading #17",
+  "alt": "Enlarged view of a Vernier caliper scale; the orange arrow marks the coinciding Vernier line",
+  "labels": {}
+ },
+ {
+  "id": "fitting/vernier-18",
+  "shop": "fitting",
+  "title": "Vernier reading #18",
+  "alt": "Enlarged view of a Vernier caliper scale; the orange arrow marks the coinciding Vernier line",
+  "labels": {}
+ },
+ {
+  "id": "fitting/vernier-parts",
+  "shop": "fitting",
+  "title": "Vernier caliper — parts",
+  "alt": "Line diagram of a Vernier caliper with lettered parts",
+  "labels": {
+   "A": {
+    "part": "Main scale",
+    "function": "Fixed scale on the beam, graduated in mm",
+    "fact": "FIT-F045"
+   },
+   "B": {
+    "part": "Vernier scale",
+    "function": "Sliding scale; the coinciding line gives the fraction (LC 0.02 mm)",
+    "fact": "FIT-F045"
+   },
+   "C": {
+    "part": "Fixed outside jaw",
+    "function": "Measures outside dimensions together with the movable jaw",
+    "fact": "FIT-F046"
+   },
+   "D": {
+    "part": "Movable outside jaw",
+    "function": "Slides with the vernier to grip the outside of the job",
+    "fact": "FIT-F046"
+   },
+   "E": {
+    "part": "Inside jaws",
+    "function": "Measure inside dimensions such as bores and slots",
+    "fact": "FIT-F046"
+   },
+   "F": {
+    "part": "Locking screw",
+    "function": "Locks the slider so the reading is not lost",
+    "fact": "FIT-F045"
+   },
+   "G": {
+    "part": "Depth rod (blade)",
+    "function": "Measures the depth of holes and steps",
+    "fact": "FIT-F046"
+   }
+  }
  }
 ]

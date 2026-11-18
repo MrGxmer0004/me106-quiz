@@ -1,0 +1,198 @@
+{
+ "vernier": [
+  {
+   "id": "fitting/vernier-01",
+   "reading": 136.42,
+   "msr": 136,
+   "k": 21
+  },
+  {
+   "id": "fitting/vernier-02",
+   "reading": 98.5,
+   "msr": 98,
+   "k": 25
+  },
+  {
+   "id": "fitting/vernier-03",
+   "reading": 22.74,
+   "msr": 22,
+   "k": 37
+  },
+  {
+   "id": "fitting/vernier-04",
+   "reading": 106.32,
+   "msr": 106,
+   "k": 16
+  },
+  {
+   "id": "fitting/vernier-05",
+   "reading": 154.5,
+   "msr": 154,
+   "k": 25
+  },
+  {
+   "id": "fitting/vernier-06",
+   "reading": 29.28,
+   "msr": 29,
+   "k": 14
+  },
+  {
+   "id": "fitting/vernier-07",
+   "reading": 152.1,
+   "msr": 152,
+   "k": 5
+  },
+  {
+   "id": "fitting/vernier-08",
+   "reading": 62.46,
+   "msr": 62,
+   "k": 23
+  },
+  {
+   "id": "fitting/vernier-09",
+   "reading": 151.8,
+   "msr": 151,
+   "k": 40
+  },
+  {
+   "id": "fitting/vernier-10",
+   "reading": 30.46,
+   "msr": 30,
+   "k": 23
+  },
+  {
+   "id": "fitting/vernier-11",
+   "reading": 50.74,
+   "msr": 50,
+   "k": 37
+  },
+  {
+   "id": "fitting/vernier-12",
+   "reading": 152.66,
+   "msr": 152,
+   "k": 33
+  },
+  {
+   "id": "fitting/vernier-13",
+   "reading": 100.94,
+   "msr": 100,
+   "k": 47
+  },
+  {
+   "id": "fitting/vernier-14",
+   "reading": 79.62,
+   "msr": 79,
+   "k": 31
+  },
+  {
+   "id": "fitting/vernier-15",
+   "reading": 91.54,
+   "msr": 91,
+   "k": 27
+  },
+  {
+   "id": "fitting/vernier-16",
+   "reading": 93.86,
+   "msr": 93,
+   "k": 43
+  },
+  {
+   "id": "fitting/vernier-17",
+   "reading": 141.28,
+   "msr": 141,
+   "k": 14
+  },
+  {
+   "id": "fitting/vernier-18",
+   "reading": 127.1,
+   "msr": 127,
+   "k": 5
+  }
+ ],
+ "micrometer": [
+  {
+   "id": "fitting/micrometer-01",
+   "reading": 10.79,
+   "sleeve": 10.5,
+   "thimble": 29
+  },
+  {
+   "id": "fitting/micrometer-02",
+   "reading": 19.13,
+   "sleeve": 19.0,
+   "thimble": 13
+  },
+  {
+   "id": "fitting/micrometer-03",
+   "reading": 9.56,
+   "sleeve": 9.5,
+   "thimble": 6
+  },
+  {
+   "id": "fitting/micrometer-04",
+   "reading": 20.28,
+   "sleeve": 20.0,
+   "thimble": 28
+  },
+  {
+   "id": "fitting/micrometer-05",
+   "reading": 14.58,
+   "sleeve": 14.5,
+   "thimble": 8
+  },
+  {
+   "id": "fitting/micrometer-06",
+   "reading": 10.69,
+   "sleeve": 10.5,
+   "thimble": 19
+  },
+  {
+   "id": "fitting/micrometer-07",
+   "reading": 19.59,
+   "sleeve": 19.5,
+   "thimble": 9
+  },
+  {
+   "id": "fitting/micrometer-08",
+   "reading": 14.91,
+   "sleeve": 14.5,
+   "thimble": 41
+  },
+  {
+   "id": "fitting/micrometer-09",
+   "reading": 18.27,
+   "sleeve": 18.0,
+   "thimble": 27
+  },
+  {
+   "id": "fitting/micrometer-10",
+   "reading": 7.81,
+   "sleeve": 7.5,
+   "thimble": 31
+  },
+  {
+   "id": "fitting/micrometer-11",
+   "reading": 8.71,
+   "sleeve": 8.5,
+   "thimble": 21
+  },
+  {
+   "id": "fitting/micrometer-12",
+   "reading": 10.62,
+   "sleeve": 10.5,
+   "thimble": 12
+  },
+  {
+   "id": "fitting/micrometer-13",
+   "reading": 12.47,
+   "sleeve": 12.0,
+   "thimble": 47
+  },
+  {
+   "id": "fitting/micrometer-14",
+   "reading": 15.05,
+   "sleeve": 15.0,
+   "thimble": 5
+  }
+ ]
+}
