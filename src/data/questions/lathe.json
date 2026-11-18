@@ -251,9 +251,9 @@
   "question": "On a lathe, the tailstock and carriage slide along the…",
   "options": [
    "Guideways (bedways) on top of the bed",
-   "Lead screw threads",
-   "Cross-slide dovetail",
-   "Feed rod keyway"
+   "Threads of the lead screw under the bed",
+   "Keyway cut along the length of the feed rod",
+   "Dovetail slide on top of the cross-slide"
   ],
   "answer": 0,
   "explanation": "The tailstock and carriage move over the guideways machined on the top face of the bed.",
@@ -406,9 +406,9 @@
   "question": "Besides varying spindle speed, the headstock gear box also…",
   "options": [
    "Transmits power to the feed rod and lead screw",
-   "Locks the carriage for parting-off",
-   "Moves the tailstock along the bed",
-   "Holds the dead centre"
+   "Moves the tailstock along the bed guideways",
+   "Locks the carriage in place for parting-off",
+   "Holds the dead centre in line with the spindle"
   ],
   "answer": 0,
   "explanation": "The headstock gear box varies spindle speed and transmits power to the feed rod and lead screw.",
@@ -493,9 +493,9 @@
   "type": "mcq",
   "question": "Which of these is a function of the tailstock?",
   "options": [
-   "Giving speed changes to the spindle",
-   "Engaging the half-nut for threading",
-   "Swivelling the tool for tapers",
+   "Giving the different speed changes to the spindle",
+   "Engaging the half-nut on the lead screw for threading",
+   "Swivelling the tool post to the angle for tapers",
    "Supporting long work and holding drills or reamers"
   ],
   "answer": 3,
@@ -515,10 +515,10 @@
   "type": "mcq",
   "question": "Why can the tailstock be moved along the bed?",
   "options": [
-   "To lock the carriage",
+   "To change the speed of the main spindle",
    "To accommodate workpieces of different lengths",
-   "To set the thread pitch",
-   "To change the spindle speed"
+   "To set the pitch of the thread being cut",
+   "To lock the carriage in position for facing"
   ],
   "answer": 1,
   "explanation": "The tailstock slides on the guideways so work of different lengths can be supported.",
@@ -537,10 +537,10 @@
   "type": "mcq",
   "question": "Which of these is a part of the TAILSTOCK?",
   "options": [
-   "Half-nut lever",
-   "Compound slide",
+   "Half-nut lever (apron)",
+   "Tumbler gears (headstock)",
    "Quill (tailstock spindle)",
-   "Tumbler gears"
+   "Compound slide (top slide)"
   ],
   "answer": 2,
   "explanation": "The tailstock has a body, adjustable base, spindle (quill), feed screw handwheel and a locking lever.",
@@ -714,9 +714,9 @@
   "question": "In taper turning by the compound-rest method, how is the feed given?",
   "options": [
    "By hand, with the compound-slide handwheel",
-   "By setting over the tailstock",
-   "Automatically by the feed rod",
-   "Automatically by the lead screw"
+   "Automatically, through the lead screw and half-nut",
+   "Automatically, through the feed rod and apron",
+   "By setting the tailstock over from the axis"
   ],
   "answer": 0,
   "explanation": "The compound slide has no power feed; its handwheel is turned by hand to feed the tool along the taper.",
@@ -868,9 +868,9 @@
   "type": "mcq",
   "question": "Which part of a lathe collects the chips and coolant that fall from the work?",
   "options": [
-   "Gear box",
-   "Apron",
-   "Saddle",
+   "Saddle (H-shaped slide)",
+   "Gear box (feed box)",
+   "Apron (carriage front)",
    "Chip tray (chip pan)"
   ],
   "answer": 3,
@@ -958,9 +958,9 @@
   "question": "Which of these is NOT used to specify a centre lathe?",
   "options": [
    "Number of teeth on the chuck jaws",
-   "Distance between centres",
-   "Swing over bed",
-   "Length of bed"
+   "Distance between the centres",
+   "Swing diameter over the bed",
+   "Length of the lathe bed"
   ],
   "answer": 0,
   "explanation": "A lathe is specified by bed length, distance between centres, swing over bed and carriage, power, lead-screw pitch, speeds, feeds and bed width.",
@@ -1023,9 +1023,9 @@
   "type": "mcq",
   "question": "When work is turned between centres, what actually drives (rotates) the workpiece?",
   "options": [
-   "Friction at the dead centre",
-   "The lead screw",
-   "The tailstock quill",
+   "Friction between the work and the dead centre",
+   "The lead screw acting through the half-nut",
+   "The tailstock quill pressing on the work end",
    "A lathe dog clamped to the work, driven by the catch plate"
   ],
   "answer": 3,
@@ -1133,10 +1133,10 @@
   "type": "mcq",
   "question": "What is the main drawback of a 4-jaw independent chuck compared with a 3-jaw chuck?",
   "options": [
-   "It cannot be used for facing",
-   "It cannot hold round work",
+   "It grips the work far less firmly than a 3-jaw",
+   "It cannot be used for facing the end of the job",
    "The work must be centred manually, which takes time",
-   "It grips the work less firmly"
+   "It cannot hold round work of any diameter"
   ],
   "answer": 2,
   "explanation": "Because the jaws move independently, the work has to be trued (centred) by hand; a 3-jaw chuck centres automatically.",
@@ -1201,9 +1201,9 @@
   "question": "A collet holds bar stock by…",
   "options": [
    "Being squeezed onto the bar through its slits",
-   "Independent screw-driven jaws",
-   "Magnetic attraction",
-   "Friction at a dead centre"
+   "Magnetic attraction between collet and bar",
+   "Four independent jaws, each worked by a screw",
+   "Friction between the bar and the dead centre"
   ],
   "answer": 0,
   "explanation": "A collet has slits (three in the lecture) so a sleeve can squeeze it onto the bar.",
@@ -1288,9 +1288,9 @@
   "type": "mcq",
   "question": "In the ME-106 lathe lab, the diameter of the job was checked with an…",
   "options": [
-   "Dial indicator only",
-   "Bevel protractor",
-   "Inside micrometer only",
+   "Dial indicator on a magnetic stand",
+   "Bevel protractor and try square",
+   "Inside micrometer and depth gauge",
    "Outside caliper and steel scale"
   ],
   "answer": 3,
@@ -1381,9 +1381,9 @@
   "question": "An outside caliper has no scale. How is the measured diameter read?",
   "options": [
    "By transferring the setting to a steel rule",
-   "Directly from its Vernier",
-   "From its dial",
-   "From the cross-slide dial"
+   "Directly from the Vernier scale on its legs",
+   "From a dial gauge fixed on its hinge",
+   "From the cross-slide dial of the lathe"
   ],
   "answer": 0,
   "explanation": "An outside caliper only transfers a size; you read it by placing the legs against a steel rule.",
@@ -1646,9 +1646,9 @@
   "question": "The angle that prevents the tool flank from rubbing against the work is the…",
   "options": [
    "Clearance (relief) angle",
-   "Rake angle",
-   "Helix angle",
-   "Point angle"
+   "Rake (top) angle",
+   "Point (lip) angle",
+   "Helix (lead) angle"
   ],
   "answer": 0,
   "explanation": "The clearance (relief) angle gives the flank room so it does not rub on the machined surface.",
@@ -1733,10 +1733,10 @@
   "type": "mcq",
   "question": "Which operation reduces the diameter of the work along its whole length?",
   "options": [
-   "Chamfering",
-   "Facing",
+   "Parting-off (cutting off)",
+   "Chamfering at the end",
    "Straight (plain) turning",
-   "Parting-off"
+   "Facing across the end"
   ],
   "answer": 2,
   "explanation": "Straight turning reduces the diameter along the length; the tool is fed parallel to the axis.",
@@ -1799,10 +1799,10 @@
   "type": "mcq",
   "question": "Knurling on a lathe is done to…",
   "options": [
-   "Enlarge a drilled hole",
+   "Cut a helical thread on the surface",
    "Emboss a pattern on the surface for grip",
-   "Cut off the finished job",
-   "Cut a helical thread"
+   "Cut off the finished job from the bar",
+   "Enlarge an already drilled hole to size"
   ],
   "answer": 1,
   "explanation": "A knurling tool is pressed against the rotating work to emboss a diamond or straight pattern, e.g. on handles.",
@@ -1821,10 +1821,10 @@
   "type": "mcq",
   "question": "A narrow recess cut at the end of a thread (as in our job) is made by…",
   "options": [
-   "Chamfering",
-   "Knurling",
+   "Reaming with a hand reamer",
+   "Chamfering with a 45° tool",
    "Grooving with a grooving tool",
-   "Reaming"
+   "Knurling with a knurling tool"
   ],
   "answer": 2,
   "explanation": "Grooving uses a tool shaped to the groove; the ME-106 job has a 5 mm groove next to the thread.",
@@ -1844,9 +1844,9 @@
   "question": "In parting-off on a lathe…",
   "options": [
    "The carriage is locked and the tool is plunged radially",
-   "The tool is fed parallel to the axis",
-   "The lead screw drives the tool",
-   "The compound rest is swivelled"
+   "The tool is fed parallel to the lathe axis",
+   "The compound rest is swivelled to 45° and fed",
+   "The lead screw drives the tool along the work"
   ],
   "answer": 0,
   "explanation": "Parting cuts the job off the bar; longitudinal feed is fixed and the tool is fed in radially until the work separates.",
@@ -1865,9 +1865,9 @@
   "type": "mcq",
   "question": "Why is a centre hole drilled at the end of the workpiece?",
   "options": [
-   "To reduce weight",
-   "To hold a knurling tool",
-   "To start a thread",
+   "To hold the knurling tool during knurling",
+   "To start the thread at the correct pitch",
+   "To reduce the weight of the finished job",
    "So the work can be supported between centres"
   ],
   "answer": 3,
@@ -2044,10 +2044,10 @@
   "type": "mcq",
   "question": "In form turning, the shape produced on the work is obtained by…",
   "options": [
-   "Using the lead screw",
-   "Setting over the tailstock",
+   "Setting over the tailstock from the axis",
+   "Swivelling the compound rest to an angle",
    "A tool ground to the required profile",
-   "Swivelling the compound rest"
+   "Engaging the lead screw and half-nut"
   ],
   "answer": 2,
   "explanation": "Form turning reproduces the tool profile on the work, e.g. convex or concave forms.",
@@ -2088,10 +2088,10 @@
   "type": "mcq",
   "question": "Why is the centre lathe called a versatile machine?",
   "options": [
-   "It works without any cutting tool",
+   "It cuts on both the forward and return strokes",
    "One machine can face, turn, thread, drill, bore and knurl",
-   "It can cut gears with an index plate",
-   "It cuts on both forward and return strokes"
+   "It works without any cutting tool at all",
+   "It cuts gears using an index plate and crank"
   ],
   "answer": 1,
   "explanation": "A single centre lathe performs many operations: facing, turning, taper turning, threading, drilling, boring, knurling and parting.",
@@ -2110,7 +2110,7 @@
   "type": "mcq",
   "question": "For which kind of part is a centre lathe LEAST suitable?",
   "options": [
-   "Shafts and pins",
+   "Round shafts and pins",
    "Bolts and threaded rods",
    "Bushes and collars",
    "Flat rectangular plates with slots"
@@ -2286,10 +2286,10 @@
   "type": "mcq",
   "question": "Square threads are mainly used in…",
   "options": [
-   "Pipe joints",
+   "Spectacle-frame hinge screws",
    "Screw jacks and power screws",
-   "Spectacle frames",
-   "Electrical fittings"
+   "Electrical lamp-holder fittings",
+   "Pipe joints and plumbing fittings"
   ],
   "answer": 1,
   "explanation": "Square threads transmit power with low friction, so they are used in load-lifting devices like screw jacks.",
@@ -2308,10 +2308,10 @@
   "type": "mcq",
   "question": "A buttress thread is used where…",
   "options": [
-   "Equal load in both directions is needed",
-   "Fluid-tight pipe joints are needed",
+   "Fluid-tight joints in pipes are needed",
+   "Only light fastening of thin parts is needed",
    "Heavy load must be transmitted in one direction only",
-   "Light fastening is needed"
+   "Equal load must be carried in both directions"
   ],
   "answer": 2,
   "explanation": "A buttress thread has one steep flank and one inclined flank; it carries heavy one-way loads, e.g. in vices.",
@@ -2330,10 +2330,10 @@
   "type": "mcq",
   "question": "In the ME-106 lathe lab, why was the spindle speed reduced to about 90 rpm for threading?",
   "options": [
-   "The lead screw cannot rotate above 90 rpm",
-   "HSS tools melt above 90 rpm",
-   "The carriage moves one pitch per revolution, so it must be slow enough to stop at the groove",
-   "Facing must be repeated at low speed"
+   "The lead screw cannot be rotated above 90 rpm",
+   "HSS tools soften and melt above 90 rpm",
+   "Slow speed gives time to withdraw the tool at the groove",
+   "Facing has to be repeated at the lower speed"
   ],
   "answer": 2,
   "explanation": "Turning was done at 315 rpm but threading at about 90 rpm. In threading the carriage moves fast (one pitch per revolution), so a low speed gives time to withdraw the tool at the end of each pass.",
@@ -2425,9 +2425,9 @@
   "type": "mcq",
   "question": "In turning, \"feed\" means…",
   "options": [
-   "Number of passes needed",
-   "Surface speed of the work",
    "Thickness of metal removed in one pass",
+   "Surface speed of the work in m/min",
+   "Number of passes needed to finish the job",
    "Distance the tool advances per revolution of the work"
   ],
   "answer": 3,
@@ -2791,10 +2791,10 @@
   "type": "mcq",
   "question": "What is the objective of the ME-106 lathe job?",
   "options": [
-   "To finish a flat surface by grinding",
-   "To cut a spur gear on a disc",
+   "To cut a spur gear on an aluminium disc",
+   "To finish a flat steel surface by grinding",
    "To perform facing, turning and threading on a cylindrical workpiece",
-   "To reduce a block to 38 × 21 × 73 mm"
+   "To reduce a block to 38 × 21 × 73 mm on a shaper"
   ],
   "answer": 2,
   "explanation": "The lathe log sheet objective: perform facing, turning and threading operations on a cylindrical workpiece using a lathe.",
@@ -2903,10 +2903,10 @@
   "type": "sequence",
   "question": "What is the correct order of the first four steps of the ME-106 lathe job?",
   "options": [
-   "Set speed → facing → fix in chuck → measure the bar",
-   "Facing → measure the bar → fix in chuck → set speed",
+   "Mark 115 mm and fix in 4-jaw chuck → facing → measure the bar → set speed",
+   "Set speed → facing → mark 115 mm and fix in 4-jaw chuck → measure the bar",
    "Measure the bar → mark 115 mm and fix in 4-jaw chuck → centre and set speed → facing",
-   "Fix in chuck → facing → measure the bar → set speed"
+   "Facing → measure the bar → mark 115 mm and fix in 4-jaw chuck → set speed"
   ],
   "answer": 2,
   "explanation": "Log sheet steps 1–4: measure length and diameter; mark 115 mm and fix in the four-jaw chuck; check centre and set 315 rpm; perform facing.",
@@ -2929,9 +2929,9 @@
   "question": "What is the FIRST step of the ME-106 lathe procedure?",
   "options": [
    "Measure the length and diameter of the raw workpiece",
-   "Swivel the compound rest",
-   "Perform facing",
-   "Set the spindle to 90 rpm"
+   "Set the spindle to 90 rpm for threading",
+   "Swivel the compound rest to the taper angle",
+   "Perform facing to bring the job to length"
   ],
   "answer": 0,
   "explanation": "Step 1 is to measure the length and diameter of the raw workpiece; then mark and fix it in the chuck.",
@@ -2950,10 +2950,10 @@
   "type": "mcq",
   "question": "In the ME-106 lathe procedure, which step comes immediately AFTER fixing the job in the four-jaw chuck?",
   "options": [
-   "Taper turning",
+   "Thread cutting at 1.5 mm pitch",
    "Check the centring and set the spindle speed",
-   "Thread cutting",
-   "Remove the job and measure it"
+   "Taper turning with the compound rest",
+   "Removing the job to measure it again"
   ],
   "answer": 1,
   "explanation": "After chucking, the centre is checked (4-jaw work is centred manually) and the speed set to 315 rpm, then facing is done.",
@@ -2995,9 +2995,9 @@
   "type": "mcq",
   "question": "Why must the job be checked for centring after fixing it in the four-jaw chuck?",
   "options": [
-   "The tailstock moves automatically",
-   "To set the thread pitch",
-   "The lead screw needs aligning",
+   "The tailstock moves automatically during cutting",
+   "The lead screw has to be aligned with the job",
+   "The thread pitch has to be set from the centre",
    "Its jaws move independently, so the job is not self-centred"
   ],
   "answer": 3,
@@ -3019,9 +3019,9 @@
   "question": "In the ME-106 lathe job, facing is done to…",
   "options": [
    "Bring the job to the desired length",
-   "Cut the thread",
-   "Reduce the diameter",
-   "Make the taper"
+   "Reduce the diameter to Ø34",
+   "Cut the 1.5 mm pitch thread",
+   "Turn the taper at the end"
   ],
   "answer": 0,
   "explanation": "Step 4: perform facing on the workpiece to get the desired length (115 mm).",
@@ -3040,10 +3040,10 @@
   "type": "mcq",
   "question": "In the 2025 ME-106 lathe log sheet, which step comes immediately after facing?",
   "options": [
-   "Knurling",
+   "Thread cutting at 1.5 mm pitch",
    "Grooving and taper turning in the marked areas",
-   "Parting-off",
-   "Thread cutting"
+   "Parting-off the finished job",
+   "Knurling the Ø32 end section"
   ],
   "answer": 1,
   "explanation": "The 2025 sheet: measure → mark & chuck → centre & set rotation → facing → groove and taper turn → threading.",
@@ -3112,9 +3112,9 @@
   "question": "How is the taper on the ME-106 job turned?",
   "options": [
    "By swivelling the compound rest to the half-taper angle",
-   "By setting over the tailstock",
-   "With a form tool plunged in",
-   "By using the lead screw"
+   "By setting the tailstock over from the axis",
+   "With a broad form tool plunged straight in",
+   "By engaging the lead screw and half-nut"
   ],
   "answer": 0,
   "explanation": "The log sheet sets the tool post/compound rest at the calculated angle and turns the taper.",
@@ -3133,9 +3133,9 @@
   "type": "mcq",
   "question": "Before cutting the 1.5 mm pitch thread on the ME-106 job, the operator…",
   "options": [
-   "Engages the feed rod",
-   "Swivels the compound rest to 3.81°",
-   "Removes the four-jaw chuck",
+   "Swivels the compound rest to 3.81° for the taper",
+   "Engages the feed rod for power cross feed",
+   "Removes the four-jaw chuck and fits a collet",
    "Sets the change gears from the chart and reduces speed"
   ],
   "answer": 3,
@@ -3155,9 +3155,9 @@
   "type": "sequence",
   "question": "Which is the correct sequence of steps on the 2025 ME-106 lathe log sheet?",
   "options": [
-   "Measure → threading → facing → groove & taper turning → mark & chuck → centre",
-   "Facing → measure → threading → mark & chuck → groove & taper turning → centre",
-   "Mark & chuck → threading → facing → measure → centre → groove & taper turning",
+   "Mark 115 mm & fix in 4-jaw chuck → threading → facing → measure → centre & set rotation → groove & taper turning",
+   "Measure → threading → facing → groove & taper turning → mark 115 mm & fix in 4-jaw chuck → centre & set rotation",
+   "Facing → measure → threading → mark 115 mm & fix in 4-jaw chuck → groove & taper turning → centre & set rotation",
    "Measure → mark 115 mm & fix in 4-jaw chuck → centre & set rotation → facing → groove & taper turning → threading"
   ],
   "answer": 3,
@@ -3206,10 +3206,10 @@
   "type": "mcq",
   "question": "Which dress precaution is given on the ME-106 lathe log sheet?",
   "options": [
-   "Wear loose clothes for comfort",
+   "Wear loose, comfortable clothes and sandals",
    "Wear the workshop apron, tight-fitting clothes and shoes",
-   "Wear sandals for easy movement",
-   "Wear gloves while the chuck rotates"
+   "Roll up sleeves loosely and wear a tie",
+   "Wear gloves while the chuck is rotating"
   ],
   "answer": 1,
   "explanation": "The log sheet precaution: always wear the manufacturing apron, tight-fitted clothes and shoes.",
@@ -3294,10 +3294,10 @@
   "type": "mcq",
   "question": "Before switching on the lathe, you must always…",
   "options": [
-   "Loosen the tool post",
-   "Engage the half-nut",
+   "Engage the half-nut on the lead screw",
+   "Loosen the tool post clamping screw",
    "Remove the chuck key from the chuck",
-   "Remove the tailstock"
+   "Remove the tailstock from the bed"
   ],
   "answer": 2,
   "explanation": "A chuck key left in the chuck is thrown out violently when the spindle starts.",
@@ -3360,9 +3360,9 @@
   "type": "mcq",
   "question": "Which precaution appears on both ME-106 lathe log sheets?",
   "options": [
-   "Never leave the coolant off",
-   "Keep the dielectric flowing",
-   "Dress the wheel before use",
+   "Never switch the coolant pump off",
+   "Keep the dielectric fluid flowing",
+   "Dress the wheel before every cut",
    "Handle heavy machines and tools with care"
   ],
   "answer": 3,
@@ -5530,9 +5530,9 @@
   "type": "mcq",
   "question": "In the ME-106 lathe job, at what stage is the length of 115 mm marked on the bar?",
   "options": [
-   "After parting-off",
-   "After taper turning",
-   "After thread cutting",
+   "After the thread has been cut",
+   "After the taper has been turned",
+   "After parting the job off the bar",
    "Before fixing the bar in the four-jaw chuck"
   ],
   "answer": 3,
@@ -5599,10 +5599,10 @@
   "type": "mcq",
   "question": "In the ME-106 job, the 5 mm groove is cut…",
   "options": [
-   "Before measuring the bar",
-   "After the thread is finished",
-   "Before facing",
-   "At the end of the thread, before taper turning and threading"
+   "Before the job is faced to length",
+   "Before the raw bar is measured",
+   "After the thread has been finished",
+   "After facing, together with taper turning, before threading"
   ],
   "answer": 3,
   "explanation": "The log sheet cuts the 5 mm groove after step turning, then turns the taper and finally cuts the thread up to the groove.",
@@ -5667,10 +5667,10 @@
   "type": "mcq",
   "question": "Why should the tool overhang from the tool post be kept short?",
   "options": [
-   "To engage the lead screw",
-   "To increase the cutting speed",
+   "To make the taper angle steeper",
+   "To engage the lead screw more easily",
    "To keep the tool rigid and avoid chatter",
-   "To make the taper steeper"
+   "To increase the cutting speed of the work"
   ],
   "answer": 2,
   "explanation": "A long overhang makes the tool spring and vibrate (chatter); keep it short and clamp firmly.",
@@ -5690,9 +5690,9 @@
   "question": "How is a job centred in a four-jaw chuck?",
   "options": [
    "Rotate by hand, check run-out with chalk/surface gauge and adjust opposite jaws",
-   "Run the lathe at high speed and watch the chips",
-   "Tighten all jaws together with one key turn",
-   "Bring up the tailstock and press hard"
+   "Bring up the tailstock and press the job hard",
+   "Run the lathe at high speed and watch the chips form",
+   "Tighten all four jaws together with one key turn"
   ],
   "answer": 0,
   "explanation": "With independent jaws, the job is trued by turning the chuck by hand and adjusting opposite jaws in pairs until run-out is removed.",
@@ -5757,10 +5757,10 @@
   "type": "sequence",
   "question": "Which is the correct order for cutting a thread on a centre lathe?",
   "options": [
-   "Take light cuts → set gear box → engage half-nut → set tool square",
+   "Engage half-nut → set gear box for pitch → set tool square with centre gauge → take one deep cut",
    "Set gear box for pitch → set tool square with centre gauge → engage half-nut → take light successive cuts",
-   "Engage half-nut → set gear box → set tool square → take one deep cut",
-   "Set tool square → take light cuts → set gear box → engage half-nut"
+   "Take light successive cuts → set gear box for pitch → engage half-nut → set tool square with centre gauge",
+   "Set tool square with centre gauge → take light successive cuts → set gear box for pitch → engage half-nut"
   ],
   "answer": 1,
   "explanation": "Set the pitch first, square the 60° tool with a centre gauge, engage the half-nut and take several light cuts, withdrawing the tool after each pass.",
@@ -5801,10 +5801,10 @@
   "type": "mcq",
   "question": "How is the finished thread on the lathe job checked?",
   "options": [
-   "With an outside caliper only",
+   "With a try square held against the flanks",
    "With a screw-pitch gauge or a mating nut",
-   "With a try square",
-   "By its colour"
+   "With an outside caliper and steel rule only",
+   "By comparing its colour with the bar"
   ],
   "answer": 1,
   "explanation": "Pitch is checked with a screw-pitch gauge; fit is checked by running a mating nut on.",
@@ -5914,9 +5914,9 @@
   "question": "What should you do if your hand gets close to the rotating chuck?",
   "options": [
    "Never touch it; never try to stop the chuck by hand",
-   "Use a cloth to brake it",
-   "Slow it down with your palm",
-   "Grab the job to stop it"
+   "Grab the job firmly to stop it",
+   "Use a cloth to brake the chuck gently",
+   "Slow the chuck down with your palm"
   ],
   "answer": 0,
   "explanation": "Never touch the rotating job or chuck, and never stop it by hand. Switch off and let it come to rest.",
@@ -6001,10 +6001,10 @@
   "type": "mcq",
   "question": "Which of these is a safe practice on the lathe?",
   "options": [
-   "Leaving the chuck key in the chuck",
+   "Leaving the chuck key in the chuck between jobs",
    "Keeping the bed ways clear of tools while cutting",
-   "Leaning on the carriage",
-   "Wearing a loose tie"
+   "Leaning on the carriage while it is cutting",
+   "Wearing a loose tie and open sleeves"
   ],
   "answer": 1,
   "explanation": "Do not keep tools on the bed or carriage, do not lean on the machine, and remove the chuck key.",
@@ -6024,9 +6024,9 @@
   "type": "mcq",
   "question": "Why must the tool and job be clamped firmly before starting the lathe?",
   "options": [
-   "To increase the cutting speed",
-   "To reduce the thread pitch",
-   "To cool the tool",
+   "To increase the cutting speed of the job",
+   "To reduce the pitch of the thread cut",
+   "To keep the tool cool during cutting",
    "A loose tool or job can be thrown out or dig in"
   ],
   "answer": 3,
@@ -6071,10 +6071,10 @@
   "type": "mcq",
   "question": "A student leaves the chuck key in the chuck and switches on. What is the danger?",
   "options": [
-   "The lead screw disengages",
-   "The thread pitch changes",
+   "The pitch of the thread changes suddenly",
+   "The lead screw disengages from the half-nut",
    "The key is thrown out with great force",
-   "The tailstock locks"
+   "The tailstock locks itself to the bed"
   ],
   "answer": 2,
   "explanation": "The spinning chuck flings the key out, which can seriously injure people nearby. Always remove the key first.",
@@ -6094,9 +6094,9 @@
   "question": "Tight-fitting clothes are required in the lathe shop because…",
   "options": [
    "Loose clothing can be caught by the rotating chuck or work",
-   "They prevent electric shock",
-   "They help in marking the job",
-   "They keep the coolant off"
+   "They help in marking the job with chalk",
+   "They keep the coolant off the operator",
+   "They protect the operator from electric shock"
   ],
   "answer": 0,
   "explanation": "Loose sleeves, ties or clothes can be pulled into rotating parts.",
@@ -6158,10 +6158,10 @@
   "type": "mcq",
   "question": "Why does the lathe log sheet ask you to move the tailstock carefully?",
   "options": [
-   "It carries the live centre",
-   "It controls spindle speed",
-   "It is heavy and can crash into the carriage or fall off the bed end",
-   "It holds the lead screw"
+   "It carries the live centre that drives the job",
+   "It controls the speed of the main spindle",
+   "It is heavy and can hit the carriage or run off the bed",
+   "It holds the lead screw used for threading"
   ],
   "answer": 2,
   "explanation": "The tailstock is a heavy casting; sliding it roughly can damage the ways, hit the carriage or run off the end of the bed.",
@@ -6182,9 +6182,9 @@
   "question": "Why should measurements on the lathe be taken in proper lighting?",
   "options": [
    "So caliper settings are read accurately",
-   "So the chips cool faster",
-   "So the thread pitch changes",
-   "So the motor runs cooler"
+   "So that the chips cool down faster",
+   "So that the motor runs cooler",
+   "So that the thread pitch does not change"
   ],
   "answer": 0,
   "explanation": "Calipers have no scale; a correct reading against the rule needs good light, as stated on the 2025 log sheet.",
@@ -6204,9 +6204,9 @@
   "type": "mcq",
   "question": "A long, continuous chip is winding around the rotating job. What should you do?",
   "options": [
-   "Increase the speed to break it",
-   "Cut it with pliers while running",
-   "Pull it off by hand quickly",
+   "Pull it off quickly by hand before it tangles",
+   "Cut it with pliers while the lathe keeps running",
+   "Increase the spindle speed so the chip breaks",
    "Stop the lathe, then remove the chip with a hook or brush"
   ],
   "answer": 3,
@@ -6295,10 +6295,10 @@
   "type": "mcq",
   "question": "In the ME-106 lathe job, which marking tools are used in the marking step?",
   "options": [
-   "Scriber and dot punch",
-   "Divider and centre punch",
+   "Scriber, dot punch and hammer",
+   "Divider, centre punch and V-block",
    "Chalk, marker, marking stand and plate",
-   "Surface gauge and V-block"
+   "Surface gauge, angle plate and scriber"
   ],
   "answer": 2,
   "explanation": "The job is marked using chalk/marker with the marking stand and marking plate, then measured with scale and outside caliper.",
@@ -6341,10 +6341,10 @@
   "type": "mcq",
   "question": "Why is threading done LAST in the ME-106 lathe job?",
   "options": [
-   "Threading must be done before facing",
-   "The groove and the other diameters must be finished first so the thread can run up to the groove",
-   "Threading removes the chamfer",
-   "The lead screw only works after facing"
+   "Threading has to be done before facing the ends",
+   "The thread must run up to the groove, which is cut earlier",
+   "The lead screw can be used only after facing",
+   "Threading removes the 1 × 45° chamfer at the end"
   ],
   "answer": 1,
   "explanation": "The thread is cut last, up to the 5 mm groove that was cut earlier; turning after threading would damage the thread.",

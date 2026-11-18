@@ -93,6 +93,13 @@ class Bank:
         self.rng = random.Random('me106-' + shop)
         self.pos = {}
         self.figs = None
+        self.patch = {}
+        try:
+            import importlib
+            self.patch = importlib.import_module('fix_' + shop).PATCH
+        except ModuleNotFoundError:
+            pass
+        self.patched = set()
 
     # ---------- helpers ----------
     def _facts(self, facts):
@@ -141,6 +148,14 @@ class Bank:
     def q(self, cat, diff, question, correct, wrongs, exp, facts, tags=None, type='mcq',
           fig=None, label=None, ask=None, keep=False, answer=None):
         fl, src, ref = self._meta(facts)
+        if question in self.patch and not keep:
+            pt = self.patch[question]
+            if isinstance(pt, dict):
+                correct = pt.get('c', correct)
+                wrongs = pt.get('w', wrongs)
+            else:
+                wrongs = pt
+            self.patched.add(question)
         if keep:
             opts = [correct] + list(wrongs) if answer is None else list(wrongs)
             ans = 0 if answer is None else answer
@@ -228,6 +243,9 @@ class Bank:
 
     # ---------- output ----------
     def save(self):
+        unused = set(self.patch) - self.patched
+        if unused:
+            raise SystemExit('Patch keys not matched: ' + repr(sorted(unused))[:500])
         os.makedirs(QDIR, exist_ok=True)
         out = []
         for d in self.qs:

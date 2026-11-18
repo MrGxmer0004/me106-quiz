@@ -150,6 +150,14 @@ if (!QUIET) {
   const pos = [0, 0, 0, 0];
   for (const q of all) if (!q.keepOrder && q.options.length === 4) pos[q.answer]++;
   console.log('\nCorrect-answer position (4-option, unshuffled data): A=%d B=%d C=%d D=%d', ...pos);
+  // longest-correct-option bias (shuffle-able text options only)
+  const longest = {};
+  for (const q of all) {
+    if (q.keepOrder || q.options.length < 3) continue;
+    const L = q.options.map((o) => o.length), c = L[q.answer], others = L.filter((_, i) => i !== q.answer);
+    if (c > 1.3 * Math.max(...others) && c - Math.max(...others) > 8) longest[q.shop] = (longest[q.shop] || 0) + 1;
+  }
+  console.log('Correct option clearly longest (per shop): ' + Object.entries(longest).map(([k, v]) => `${k} ${v}`).join(', '));
   const tfShare = count((q) => q.type === 'true-false') / (all.length || 1);
   console.log(`True/False share: ${(100 * tfShare).toFixed(1)}%`);
   // procedure/tools/precautions share

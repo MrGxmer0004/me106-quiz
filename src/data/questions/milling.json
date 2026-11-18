@@ -29,10 +29,10 @@
   "type": "mcq",
   "question": "In milling, which element rotates and which is fed?",
   "options": [
-   "Both reciprocate",
+   "The work rotates; the cutter is fed along it",
    "The cutter rotates; the work is fed against it",
-   "The work rotates; the cutter is fed",
-   "Neither moves; the table vibrates"
+   "Both the cutter and the work reciprocate",
+   "Neither rotates; the table only vibrates"
   ],
   "answer": 1,
   "explanation": "The milling cutter rotates at a fixed position while the work (table) is fed into it.",
@@ -73,9 +73,9 @@
   "type": "mcq",
   "question": "How does a milling cutter remove metal?",
   "options": [
-   "Abrasive grains rub it away",
-   "One continuous chip is removed per pass",
-   "Metal is melted by friction",
+   "The metal is melted by friction at the teeth",
+   "Abrasive grains on its face rub the metal away",
+   "One continuous chip is removed in each pass",
    "Each tooth removes a small chip in every revolution"
   ],
   "answer": 3,
@@ -96,9 +96,9 @@
   "question": "Why is the milling machine called one of the most versatile machine tools?",
   "options": [
    "It can produce flat surfaces, slots, gears and complex shapes",
-   "It needs no cutting tool",
-   "It can only produce cylindrical parts",
-   "It removes metal only by grinding"
+   "It can produce only cylindrical parts quickly",
+   "It needs no cutting tool for most operations",
+   "It removes metal only by abrasive grinding"
   ],
   "answer": 0,
   "explanation": "With different cutters and attachments (like the dividing head), a milling machine makes flat surfaces, slots, keyways, gears and contours.",
@@ -140,10 +140,10 @@
   "type": "mcq",
   "question": "Machining (including milling) is best described as a…",
   "options": [
-   "Additive process that builds layers",
+   "Additive process that builds up layers of material",
    "Subtractive process that removes excess material",
-   "Forming process without chips",
-   "Joining process"
+   "Forming process that shapes metal without chips",
+   "Joining process that fuses two parts together"
   ],
   "answer": 1,
   "explanation": "Machining is subtractive: excess material is removed to get the required geometry and finish.",
@@ -251,9 +251,9 @@
   "question": "In down milling, the chip thickness is…",
   "options": [
    "Maximum at the start of the cut and minimum at the end",
-   "Zero at the start and maximum at the end",
-   "Constant throughout",
-   "Zero throughout"
+   "Zero at the start of the cut and maximum at the end",
+   "Constant from the start to the end of the cut",
+   "Zero throughout, since the teeth only rub"
   ],
   "answer": 0,
   "explanation": "In down (climb) milling the tooth enters at maximum chip thickness and leaves at minimum.",
@@ -272,10 +272,10 @@
   "type": "mcq",
   "question": "Which is an ADVANTAGE of up milling?",
   "options": [
-   "It never chatters",
+   "It needs the least clamping force on the work",
    "Scale on the work surface does not affect tool life much",
-   "It gives the best surface finish",
-   "It needs the least clamping"
+   "The cutter never chatters, even with light clamping",
+   "It gives the best surface finish of all methods"
   ],
   "answer": 1,
   "explanation": "In up milling the tooth starts under the scale, so surface scale does not damage the cutter much.",
@@ -339,9 +339,9 @@
   "question": "Why is down milling NOT suitable for workpieces with surface scale?",
   "options": [
    "The tooth hits the hard scale first, reducing tool life",
-   "It needs a dividing head",
-   "Chip thickness becomes zero",
-   "The work is lifted off the table"
+   "The work is lifted off the table by the cutter",
+   "The chip thickness becomes zero at the scale",
+   "It needs a dividing head to be fitted to the table"
   ],
   "answer": 0,
   "explanation": "In down milling each tooth enters at maximum chip thickness through the hard scale, which wears the cutter.",
@@ -383,10 +383,10 @@
   "type": "mcq",
   "question": "Up milling is preferred when the machine has significant backlash in the table feed screw. Why?",
   "options": [
-   "The cutter pulls the table forward",
+   "The cutter pulls the table forward into the cut",
    "The cutting force pushes against the feed, taking up backlash",
-   "It eliminates the need for clamping",
-   "Chip thickness is maximum at entry"
+   "The chip thickness is maximum at entry, which helps",
+   "It removes the need to clamp the work at all"
   ],
   "answer": 1,
   "explanation": "In up milling the cutter opposes the feed, so the table is kept pressed against the screw. In climb milling the cutter can pull the table into the backlash.",
@@ -406,9 +406,9 @@
   "type": "mcq",
   "question": "Plain (slab) milling produces…",
   "options": [
-   "Gear teeth with a form cutter",
-   "A slot with the end of the cutter",
-   "A V-groove with an angle cutter",
+   "A slot, using the end teeth of the cutter",
+   "Gear teeth, using a form cutter on the arbor",
+   "A V-groove, using a double-angle cutter",
    "A flat surface, with teeth on the periphery of the cutter"
   ],
   "answer": 3,
@@ -561,9 +561,9 @@
   "question": "Straddle milling is commonly used to produce…",
   "options": [
    "Square or hexagonal heads (parallel faces)",
-   "Spur gear teeth",
-   "Internal threads",
-   "T-slots in tables"
+   "Spur gear teeth on a blank",
+   "T-slots in machine tables",
+   "Internal threads in a bore"
   ],
   "answer": 0,
   "explanation": "Two parallel faces at a time make square or hexagonal shapes, e.g. bolt heads.",
@@ -714,10 +714,10 @@
   "type": "mcq",
   "question": "Which cutters can be used to cut slots or keyways?",
   "options": [
-   "Face mill only",
+   "Fly cutter only, single-point",
    "End mill, slot drill or side-and-face cutter",
-   "Fly cutter only",
-   "Grinding wheel only"
+   "Face mill only, with inserts",
+   "Grinding wheel only, vitrified"
   ],
   "answer": 1,
   "explanation": "Slots and keyways are cut with end mills, slot drills, side-and-face cutters or slitting saws.",
@@ -979,9 +979,9 @@
   "question": "A roughing end mill has wavy (serrated) cutting edges. It is used for…",
   "options": [
    "Removing a lot of material quickly with a rough finish",
-   "Final finishing of gear teeth",
-   "Polishing surfaces",
-   "Cutting very thin slots"
+   "Final finishing of involute gear teeth",
+   "Cutting very thin slots and parting off",
+   "Polishing surfaces to a mirror finish"
   ],
   "answer": 0,
   "explanation": "Serrated edges break the chips up, allowing heavy stock removal; the finish is rough.",
@@ -1089,9 +1089,9 @@
   "question": "On a milling cutter, the keyway in the bore is used to…",
   "options": [
    "Drive the cutter from the arbor through a key",
-   "Set the helix angle",
-   "Collect chips",
-   "Hold coolant"
+   "Hold the coolant near the teeth",
+   "Set the helix angle of the teeth",
+   "Collect chips during the cut"
   ],
   "answer": 0,
   "explanation": "The key in the cutter keyway and arbor keyway transmits the drive.",
@@ -1133,10 +1133,10 @@
   "type": "mcq",
   "question": "Column-and-knee milling machines are classed as horizontal or vertical according to the…",
   "options": [
-   "Direction of the knee movement",
+   "Type of coolant used on the work",
    "Orientation of the spindle (cutter) axis",
-   "Type of coolant",
-   "Shape of the base"
+   "Shape of the base casting",
+   "Direction in which the knee moves"
   ],
   "answer": 1,
   "explanation": "Horizontal and vertical refer to the axis of the spindle/cutter.",
@@ -1223,9 +1223,9 @@
   "question": "Which statement correctly compares horizontal and vertical milling machines?",
   "options": [
    "Horizontal: higher metal removal; vertical: more versatile for slots and profiles",
-   "Horizontal: more versatile; vertical: heavier cuts",
-   "Vertical machines cannot cut slots",
-   "Both are identical in use"
+   "Horizontal: more versatile for profiles; vertical: heavier metal removal",
+   "Both machines have identical uses and use the same cutters",
+   "Vertical machines cannot cut slots; horizontal machines cannot face"
   ],
   "answer": 0,
   "explanation": "Horizontal mills take heavy cuts on large flat surfaces; vertical mills are more versatile for slots, holes and complex profiles.",
@@ -1421,9 +1421,9 @@
   "type": "mcq",
   "question": "What type of milling machine is used for the gear job in the ME-106 lab?",
   "options": [
-   "Bed-type planer mill",
-   "Hand milling machine",
-   "CNC vertical machining centre",
+   "Hand milling machine without power feed",
+   "CNC vertical machining centre with ATC",
+   "Bed-type (planer-type) milling machine",
    "Universal horizontal (column-and-knee) milling machine"
   ],
   "answer": 3,
@@ -1443,10 +1443,10 @@
   "type": "mcq",
   "question": "Which of these is NOT a main component of a horizontal milling machine?",
   "options": [
-   "Knee",
+   "Arbor (carrying the cutters)",
    "Tool head with clapper box",
-   "Arbor",
-   "Overarm"
+   "Knee (with elevating screw)",
+   "Overarm (overhanging arm)"
   ],
   "answer": 1,
   "explanation": "Horizontal mill parts: base, column, knee, saddle, table, spindle, arbor, overarm, arbor support. The clapper box belongs to a shaper.",
@@ -1465,10 +1465,10 @@
   "type": "mcq",
   "question": "In milling, indexing means…",
   "options": [
-   "Measuring the cutter diameter",
-   "Setting the cutting speed",
+   "Measuring the diameter of the cutter",
+   "Setting the cutting speed of the spindle",
    "Dividing the work periphery into equal divisions",
-   "Clamping the work in a vice"
+   "Clamping the work firmly in the vice"
   ],
   "answer": 2,
   "explanation": "Indexing divides the periphery into equal (or unequal) parts by rotating the work by a precise angle between cuts.",
@@ -1488,9 +1488,9 @@
   "question": "An index plate is…",
   "options": [
    "A plate with circles of equally spaced holes",
-   "A graduated dial on the knee",
-   "A gear with 40 teeth",
-   "A table with T-slots"
+   "A table having T-slots for clamping",
+   "A gear wheel having exactly 40 teeth",
+   "A graduated dial fitted on the knee"
   ],
   "answer": 0,
   "explanation": "The index plate has several hole circles; the index pin engages these holes.",
@@ -1597,10 +1597,10 @@
   "type": "mcq",
   "question": "In direct indexing…",
   "options": [
-   "Two hole circles are used together",
+   "Change gears drive the plate from the spindle",
    "The worm is disengaged and the plate is turned by hand",
-   "Change gears drive the plate",
-   "The worm drives the spindle 40 : 1"
+   "The worm drives the spindle through 40 : 1",
+   "Two hole circles are used one after the other"
   ],
   "answer": 1,
   "explanation": "In direct (rapid) indexing the worm is disengaged; the direct plate (24, 30 or 36 holes) is turned by hand.",
@@ -1730,10 +1730,10 @@
   "type": "mcq",
   "question": "Compound indexing involves…",
   "options": [
-   "Using change gears between spindle and plate",
+   "Disengaging the worm and turning the plate directly by hand",
    "Moving the crank on one circle and then the plate itself on another circle",
-   "Disengaging the worm and turning the plate by hand",
-   "Moving only the sector arms"
+   "Using change gears between the spindle and the index plate",
+   "Moving only the sector arms while the crank stays fixed"
   ],
   "answer": 1,
   "explanation": "Compound indexing combines crank movement on one hole circle with movement of the plate (rear lock pin released) on another.",
@@ -1818,10 +1818,10 @@
   "type": "mcq",
   "question": "What is the purpose of the sector arms on a dividing head?",
   "options": [
-   "To engage the worm",
+   "To change the 40 : 1 ratio of the dividing head",
    "To span the required number of holes so they need not be counted each time",
-   "To change the 40 : 1 ratio",
-   "To lock the work spindle"
+   "To lock the work spindle firmly while cutting",
+   "To engage the worm with the worm wheel when indexing"
   ],
   "answer": 1,
   "explanation": "The sector arms are set to the needed number of hole spaces, which speeds up indexing and avoids counting errors.",
@@ -1841,9 +1841,9 @@
   "question": "While indexing a gear, the index crank should never be turned backwards because…",
   "options": [
    "Backlash in the worm drive will spoil the division",
-   "The coolant will stop",
-   "The cutter will reverse",
-   "The plate will fall off"
+   "The index plate will fall off its shaft",
+   "The cutter rotation will be reversed",
+   "The coolant supply will stop automatically"
   ],
   "answer": 0,
   "explanation": "The 2025 log sheet says not to rotate the index-plate handle in the opposite direction; reversing introduces backlash errors.",
@@ -1973,10 +1973,10 @@
   "type": "mcq",
   "question": "In standard gear terminology, 2.157/DP is the…",
   "options": [
-   "Clearance",
-   "Circular pitch",
+   "Clearance (root gap)",
+   "Addendum (tip height)",
    "Whole depth (addendum + dedendum)",
-   "Addendum"
+   "Circular pitch (arc)"
   ],
   "answer": 2,
   "explanation": "Whole depth = 1/DP + 1.157/DP = 2.157/DP. Standard working depth (two addenda) = 2/DP. Our lab calls 2.157/DP the \"working depth\".",
@@ -2083,10 +2083,10 @@
   "type": "mcq",
   "question": "A spur gear has teeth that are…",
   "options": [
-   "Cut on the inside of a ring",
+   "Cut on the surface of a cone",
    "Straight and parallel to the axis of rotation",
-   "Inclined to the axis",
-   "Cut on a cone"
+   "Cut on the inside of a ring",
+   "Inclined at an angle to the axis"
   ],
   "answer": 1,
   "explanation": "A spur gear is the simplest and most common gear, with straight teeth parallel to the axis.",
@@ -2149,9 +2149,9 @@
   "type": "mcq",
   "question": "Compared with spur gears, helical gears…",
   "options": [
-   "Are noisier and produce no thrust",
-   "Convert rotary to linear motion",
-   "Connect intersecting shafts",
+   "Are noisier and produce no axial thrust",
+   "Connect shafts that intersect at 90°",
+   "Convert rotary motion into linear motion",
    "Run more smoothly and quietly but produce axial thrust"
   ],
   "answer": 3,
@@ -2215,10 +2215,10 @@
   "type": "mcq",
   "question": "A worm and worm wheel connect shafts that are…",
   "options": [
+   "Parallel to each other",
    "Intersecting at 90°",
-   "Parallel",
    "Non-intersecting and at right angles",
-   "Co-axial"
+   "Co-axial (in line)"
   ],
   "answer": 2,
   "explanation": "The worm and worm wheel connect perpendicular, non-intersecting shafts and give a large reduction (40 : 1 in the dividing head).",
@@ -2259,10 +2259,10 @@
   "type": "mcq",
   "question": "In an internal gear…",
   "options": [
-   "Teeth are cut on a cone",
+   "Teeth are cut on the surface of a cone",
    "Teeth are cut on the inside of a ring",
-   "Teeth form a screw thread",
-   "Teeth are on a straight bar"
+   "Teeth form a continuous screw thread",
+   "Teeth are cut along a straight bar"
   ],
   "answer": 1,
   "explanation": "An internal gear has inward-facing teeth and meshes with an external pinion on a parallel shaft.",
@@ -2282,9 +2282,9 @@
   "question": "Crossed helical (spiral) gears are used for shafts that are…",
   "options": [
    "Non-parallel and non-intersecting",
-   "Parallel",
-   "Co-axial",
-   "Intersecting"
+   "Parallel to each other",
+   "Intersecting at 90°",
+   "Co-axial (in a line)"
   ],
   "answer": 0,
   "explanation": "Crossed helical gears connect skew (non-parallel, non-intersecting) shafts.",
@@ -2326,9 +2326,9 @@
   "type": "mcq",
   "question": "What is the objective of the ME-106 milling job?",
   "options": [
-   "To cut a helical gear",
-   "To face-mill a rectangular block",
-   "To cut a keyway in a shaft",
+   "To cut a keyway along a shaft with an end mill",
+   "To face-mill a rectangular block to 73 mm",
+   "To cut a helical gear from a round steel bar",
    "To make a spur gear from a circular workpiece by milling"
   ],
   "answer": 3,
@@ -2734,9 +2734,9 @@
   "question": "How is the ME-106 gear blank held during milling?",
   "options": [
    "On a mandrel between the dividing head and the tailstock",
-   "In a 4-jaw lathe chuck",
-   "On a magnetic chuck",
-   "In a machine vice on the table"
+   "On the magnetic chuck of the table",
+   "In a machine vice clamped to the table",
+   "In a 4-jaw chuck on the milling table"
   ],
   "answer": 0,
   "explanation": "The aluminium blank is mounted on a mandrel (shaft) supported by the dividing head and tailstock.",
@@ -2846,10 +2846,10 @@
   "type": "mcq",
   "question": "Which tools does the notebook list for the milling job?",
   "options": [
-   "Grinding wheel and dresser",
+   "Emery paper, wire and pumice powder",
    "Outside caliper, mandrel and chuck key",
-   "Emery paper and pumice powder",
-   "Hacksaw, file and scriber"
+   "Hacksaw, flat file and scriber",
+   "Grinding wheel, dresser and coolant"
   ],
   "answer": 1,
   "explanation": "The notes list outside caliper, mandrel and chuck key for the milling job.",
@@ -2891,9 +2891,9 @@
   "question": "What is the FIRST step of the ME-106 milling procedure?",
   "options": [
    "Calculate the number of teeth from OD and DP",
-   "Switch on the coolant",
-   "Cut the first tooth space",
-   "Polish the gear with a file"
+   "Switch on the machine and the coolant",
+   "Polish the finished gear with a file",
+   "Cut the first tooth space on the blank"
   ],
   "answer": 0,
   "explanation": "Step 1: calculate the number of teeth using the outside diameter and diametral pitch.",
@@ -2912,10 +2912,10 @@
   "type": "mcq",
   "question": "In the ME-106 milling procedure, what is calculated immediately after the number of teeth?",
   "options": [
-   "The grinding ratio",
-   "The cutting speed of the cutter",
+   "The taper angle for the gear blank",
+   "The grinding ratio of the cutter wear",
    "The working depth (2.157/DP) and the indexing (40/N)",
-   "The taper angle"
+   "The cutting speed of the cutter in m/min"
   ],
   "answer": 2,
   "explanation": "Step 2: calculate the working depth and the index.",
@@ -2934,9 +2934,9 @@
   "type": "mcq",
   "question": "Which step comes immediately after calculating the depth and indexing?",
   "options": [
-   "Polish the gear",
-   "Measure the finished gear",
-   "Remove the mandrel",
+   "Polish the gear with the rough flat file",
+   "Remove the mandrel from the dividing head",
+   "Measure the finished gear with a caliper",
    "Fix the appropriate index plate on the dividing head"
   ],
   "answer": 3,
@@ -2956,10 +2956,10 @@
   "type": "sequence",
   "question": "What is the correct sequence of the ME-106 milling procedure?",
   "options": [
-   "Clamp blank → cut all teeth → calculate N → fix index plate → file the gear → calculate depth",
-   "Fix index plate → file the gear → calculate N → clamp blank → cut teeth → calculate depth",
+   "Clamp blank and start → cut and index repeatedly → calculate N → fix index plate → file the gear → calculate depth & index",
+   "Fix index plate → file the gear → calculate N → clamp blank and start → cut and index repeatedly → calculate depth & index",
    "Calculate N → calculate depth & index → fix index plate → clamp blank and start → cut and index repeatedly → file the gear",
-   "Calculate depth → cut teeth → clamp blank → calculate N → fix index plate → file the gear"
+   "Calculate depth & index → cut and index repeatedly → clamp blank and start → calculate N → fix index plate → file the gear"
   ],
   "answer": 2,
   "explanation": "Log sheet: calculate teeth; calculate working depth and index; fix index plate; clamp workpiece and switch on machine and coolant; cut, return and index, repeat; polish with file.",
@@ -3005,10 +3005,10 @@
   "type": "mcq",
   "question": "How are successive tooth spaces cut on the ME-106 gear?",
   "options": [
-   "Cut all spaces at once with a gang of cutters",
+   "Cut all the spaces at once with a gang of cutters",
    "Cut one space, bring the table back, index the crank, and repeat",
-   "Index first for all teeth, then cut once",
-   "Rotate the blank continuously while cutting"
+   "Rotate the blank continuously while the cutter feeds",
+   "Index for all teeth first, then take one single cut"
   ],
   "answer": 1,
   "explanation": "Feed the blank into the cutter to cut one tooth space, return the table, index, and repeat until all 22 spaces are cut.",
@@ -3049,10 +3049,10 @@
   "type": "mcq",
   "question": "In the ME-106 milling job, how many times is the work indexed to cut all the teeth?",
   "options": [
-   "27 times",
    "33 times",
    "40 times",
-   "22 times (once per tooth)"
+   "27 times",
+   "22 times"
   ],
   "answer": 3,
   "explanation": "One tooth space is cut per indexing move, so a 22-tooth gear needs 22 divisions.",
@@ -3072,10 +3072,10 @@
   "type": "mcq",
   "question": "Why is the table brought back before indexing to the next tooth?",
   "options": [
-   "To cool the coolant",
+   "To reset the depth dial back to zero",
    "So the blank is clear of the cutter while it is rotated",
-   "To change the cutter",
-   "To reset the depth to zero"
+   "To let the coolant cool the blank down",
+   "To change the cutter for the next tooth"
   ],
   "answer": 1,
   "explanation": "The blank must be clear of the rotating cutter before it is indexed, otherwise the cutter would damage the gear.",
@@ -3138,10 +3138,10 @@
   "type": "mcq",
   "question": "Which precaution about the workpiece appears on the 2025 milling log sheet?",
   "options": [
-   "Demagnetise it after use",
+   "Demagnetise the workpiece after use",
    "Fix the workpiece in the machine properly",
-   "Coat it with pumice",
-   "Rinse it in water"
+   "Rinse the workpiece in the plating bath",
+   "Coat the workpiece with pumice powder"
   ],
   "answer": 1,
   "explanation": "Fix (clamp) the workpiece properly in the machine.",
@@ -3160,9 +3160,9 @@
   "type": "mcq",
   "question": "Which precaution is specific to indexing on the dividing head?",
   "options": [
-   "Check the wheel clears the work",
-   "Do not exceed 2 mm depth on the shaper",
-   "Maintain the spark gap",
+   "Do not lower the shaper head more than 2 mm",
+   "Check that the grinding wheel clears the work",
+   "Maintain a constant spark gap with the wire",
    "Do not rotate the index-plate handle in the opposite direction"
   ],
   "answer": 3,
@@ -3204,10 +3204,10 @@
   "type": "mcq",
   "question": "Which electrical precaution appears on the ME-106 milling log sheet?",
   "options": [
-   "Open the control panel",
+   "Switch on the machine only with wet hands",
    "Do not touch any electrical connections",
-   "Always touch the earth wire",
-   "Switch on with wet hands"
+   "Open the control panel to check the wiring",
+   "Always touch the earth wire before starting"
   ],
   "answer": 1,
   "explanation": "The 2022 milling log sheet says not to touch any electrical connections.",
@@ -3227,9 +3227,9 @@
   "question": "Which of these should be avoided while milling, according to the TA slides?",
   "options": [
    "Loose threads, ornaments and wristwatches",
-   "Safety shoes",
-   "Supervision by the instructor",
-   "Apron"
+   "Safety shoes with steel toe caps",
+   "A workshop apron, properly tied",
+   "Supervision by the shop instructor"
   ],
   "answer": 0,
   "explanation": "Loose items can be caught by the rotating cutter or arbor.",
@@ -3248,9 +3248,9 @@
   "type": "mcq",
   "question": "According to the milling TA slides, the machine should NOT be operated…",
   "options": [
-   "With safety shoes",
-   "With coolant on",
-   "With the guard in place",
+   "With the coolant switched on",
+   "While wearing safety shoes",
+   "With the cutter guard in place",
    "Without the shop instructor's supervision"
   ],
   "answer": 3,
@@ -5568,9 +5568,9 @@
   "question": "What is the correct way to set the depth of cut for the gear teeth?",
   "options": [
    "Touch the blank with the rotating cutter → zero the knee dial → move the work clear → raise the knee by the depth",
-   "Move the work clear → raise the knee fully → touch the blank → zero the dial",
-   "Raise the knee by the depth → touch the blank → zero the dial → move clear",
-   "Zero the dial anywhere → raise the knee by the depth → touch the blank"
+   "Zero the knee dial anywhere → raise the knee by the depth → move the work clear → touch the blank with the cutter",
+   "Move the work clear → raise the knee by the depth → touch the blank with the rotating cutter → zero the knee dial",
+   "Raise the knee by the depth → touch the blank with the rotating cutter → zero the knee dial → move the work clear"
   ],
   "answer": 0,
   "explanation": "Touch off (e.g. with a paper strip), zero the knee dial, move clear, then raise by the calculated depth (≈0.1348 in for DP 16).",
@@ -5590,9 +5590,9 @@
   "type": "mcq",
   "question": "Which slide is used to put on the depth of cut for the gear teeth on a horizontal column-and-knee machine?",
   "options": [
-   "Index crank",
-   "Arbor support",
-   "Overarm",
+   "Overarm (on the column)",
+   "Arbor support (on overarm)",
+   "Index crank (dividing head)",
    "Knee (elevating screw)"
   ],
   "answer": 3,
@@ -5613,10 +5613,10 @@
   "type": "mcq",
   "question": "Once the depth is set for gear cutting, which slides are locked?",
   "options": [
-   "Table only",
+   "Table only, leaving knee and saddle free",
    "Knee and saddle, leaving only the table feed free",
-   "Index crank and sector arms",
-   "Overarm and column"
+   "Index crank and sector arms only",
+   "Overarm and column, leaving all slides free"
   ],
   "answer": 1,
   "explanation": "Locking the knee and saddle keeps depth and position constant; only the longitudinal table feed moves the blank under the cutter.",
@@ -5636,9 +5636,9 @@
   "question": "Before cutting the gear, the dividing head and tailstock centres must be…",
   "options": [
    "Aligned with the table travel, with the blank tight on the mandrel",
-   "Loosely held so the blank can slip",
-   "Removed from the table",
-   "Set at 45° to the table"
+   "Removed from the table before the cut starts",
+   "Set at 45° to the table for a straight tooth",
+   "Loosely held so that the blank can slip if needed"
   ],
   "answer": 0,
   "explanation": "Misalignment would make the tooth depth vary along the face; the blank must not slip on the mandrel.",
@@ -5769,10 +5769,10 @@
   "type": "mcq",
   "question": "Which practice is correct on the milling machine?",
   "options": [
-   "Remove the guard for a better view",
+   "Remove the guard so the cutter can be watched closely",
    "Keep the cutter guard in place and use the correct speed and feed",
-   "Feed by hand into a stopped cutter",
-   "Use the highest speed for every material"
+   "Use the highest speed for every work material",
+   "Feed the work by hand into a stopped cutter"
   ],
   "answer": 1,
   "explanation": "Guards protect against contact and chips; the speed and feed must suit the material and cutter.",
@@ -5791,9 +5791,9 @@
   "type": "mcq",
   "question": "Before starting the cut, you should check that the cutter…",
   "options": [
-   "Is wet with dielectric",
-   "Is loose on the arbor",
-   "Is touching the blank at full depth",
+   "Is touching the blank at the full depth",
+   "Is slightly loose on the arbor for safety",
+   "Is wet with dielectric fluid from the tank",
    "Rotates in the correct direction for the set-up"
   ],
   "answer": 3,

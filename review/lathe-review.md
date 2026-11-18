@@ -196,3 +196,44 @@ Pages opened, and what each confirmed. Personal details on the log sheets were n
 - Figures: operations panel B redrawn (reduced diameter behind the tool, original outline dashed); thread V angles corrected to 60° (profiles and nomenclature); flank leader moved off the root vertex; "3 jaws"/"4 jaws" captions removed from the chucks figure.
 - Category fixes: bed-material questions → machine-parts; thread-profile figure questions → definitions.
 - Not changed: the 315/90 rpm and 0.02 mm least-count facts are kept as lab facts (same shop and machine; from the 2022 log sheet), and their refs say so.
+
+## Re-check (round 1)
+
+What I re-checked: the listed IDs, every question citing LAT-F118 or LAT-F121 (0137, 0138, 0139, 0142, 0242, 0255, 0275, 0276), the job questions now on `lathe/job-2025-q` (0230–0238), the category fixes (0013–0015, 0210–0215), and the re-rendered PNGs. I also checked the updated facts F102, F118 and F121.
+
+| Item | Status | Reason |
+|---|---|---|
+| LAT-0120 | OK | The new distractor 1 : 3.75 (= 4 : 15) is wrong. 1 : 7.5 is now the only correct option. |
+| LAT-0156 | OK | The new R ("lead screw used only for thread cutting") is true and does not explain the low speed, so key 1 is clear. The explanation is correct. |
+| LAT-0113 | OK | The stem now states 0.02 mm radial per division. 25 × 0.02 × 2 = 1.0 mm. |
+| LAT-0106 | OK (minor left) | The key now gives the real reason. The distractors are clearly wrong. The key is still noticeably the longest option. |
+| LAT-0243 | OK | "Well above the axis to increase clearance" is clearly wrong (raising the tool reduces clearance). |
+| LAT-0070 | OK | The explanation now flags the notebook's wrong 1.5–2 % value. |
+| LAT-0127 | OK | Now "according to the lathe notes", and F102 is dated 2022–23. Matches NB p.17. |
+| LAT-0128 | OK | Stem says the 120 mm is "as recorded in the lathe notes". 120 − 115 = 5 mm. |
+| LAT-0137 | OK (minor left) | The key "grooving and taper turning" matches CLLS p.1 step 5. **Minor:** F118 now begins "After facing, the smaller diameters are turned", which the 2025 sheet does not say, and it sits oddly with this key ("immediately after facing → groove & taper"). Reword F118 to "The 2025 sheet goes from facing straight to grooving and taper turning; the 2022 sheet had plain and step turning in between". |
+| LAT-0138 | OK | Facing is first among taper, thread and groove on both sheets. |
+| LAT-0139 | OK | "Grooving and taper turning" comes immediately before threading on CLLS p.1. On LS p.2 only the speed and gear setting comes between, and that is not an option. |
+| LAT-0142 | OK (minor left) | The key matches CLLS p.1 steps 1–6. **Minor:** only the key uses the long step names ("mark 115 mm & fix in 4-jaw chuck", "centre & set rotation"); the distractors use short ones. Use the same labels in all four options. |
+| LAT-0242 | **Still wrong (Major)** | Not updated. The explanation still says "after step turning", which is 2022 only. The key "…before taper turning and threading" rests on the 2022 order (LS p.2 steps 10–11). The 2025 sheet, which F121 now cites, lists "groove and taper turn" as one step and gives no order between them. Fix: key "After facing, with the taper turning, before threading"; explanation from CLLS p.1. |
+| LAT-0255 | OK | Thread cutting is last on both sheets, and "25 mm" now has the CLLS ref. |
+| LAT-0275 | OK (minor left) | The new "why is threading last" question is sound, and the explanation is consistent. **Minor:** the key is much longer than the distractors, and "The lead screw only works after facing" is a weak distractor. The reason is standard practice, not stated on a log sheet, so add a theory ref. |
+| LAT-0276 | OK (minor left) | Key is correct. **Minor:** fact F118 and the CLLS p.1 ref do not support a feed-rod question; drop them (F037 and F038 are enough). |
+| LAT-0230–0235 | OK | `job-2025-q` hides all dimension text, including the 1 × 45° callout. The questions now test recall. The chamfer, centre marks, groove and thread hatching are still drawn, which LAT-0237 needs. The leftover "All dimensions in mm" note is harmless. |
+| LAT-0236, 0238 | OK | Arithmetic is correct (35 + 30 + 5 = 70; 30 + 25 = 55). The stems say "from the job drawing", but the new figure shows no numbers; change to "from the job dimensions". |
+| LAT-0237 | OK | Conical centre marks are visible at both ends in `job-2025-q`. |
+| LAT-0013–0015, 0210–0215 categories | OK | Now machine-parts and definitions. |
+| `operations.png` panel B | OK (minor left) | Fixed: the reduced diameter is now behind (right of) the tool, the original outline is dashed, and the feed arrow points left, so it is consistent. **Minor:** mid-pass, B now looks very like panel C (step turning): a shoulder with the tool moving left. LAT-0197's options don't include step turning, so the key is safe. Avoid any future "which panel shows straight/step turning" question unless B is drawn near the chuck end of the pass. Panels F, I, G and J are unchanged (minor notes stand). |
+| `thread-profiles.png` | OK | V tooth: half-pitch 35, height 60.6, so 2·atan(35/60.6) = 60.0°. The 60° arc now fits between the flanks. |
+| `thread-terms.png` | OK | Height 103.9 for half-pitch 60 gives 60.0°. The C leader now goes from (30,160) to a point on the first flank and crosses no vertex. A, B, D, E, F, G are unchanged and correct. |
+| `chucks.png` | OK | "3 jaws"/"4 jaws" captions removed. Jaws and screw sockets are unchanged and correct. |
+| `job-2025-q.png` | OK | Geometry is the same as `job-2025` (scaled and correct); only the dimension text is hidden. |
+
+Result: 1 item still wrong (LAT-0242, Major). Six items are fixed but have small Minor points left (0106, 0137/F118, 0142, 0275, 0276, panel B looking like C). Everything else listed is fixed.
+
+## Fixes applied by the author (round 2)
+- LAT-0242: key is now "After facing, together with taper turning, before threading"; explanation quotes the 2025 sheet.
+- LAT-F118 reworded to the 2025 sheet's single "groove and taper turn" step.
+- LAT-0236/0238: stems now say "In the ME-106 lathe job" (the blank figure has no numbers).
+- LAT-0276: no longer cites LAT-F118.
+- Option-length balancing: distractors rewritten for 55 questions (authoring/fix_lathe.py); 14 flagged remain (6 are figure-label questions).
