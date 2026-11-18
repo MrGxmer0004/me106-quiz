@@ -13,13 +13,13 @@ def wedm():
     f.poly([(365, 160), (395, 160), (388, 178), (372, 178)], 'f')              # upper nozzle
     f.poly([(365, 380), (395, 380), (388, 362), (372, 362)], 'f')              # lower nozzle
     f.rect(240, 230, 280, 100, 'f')                                            # workpiece
-    f.rect(377, 230, 6, 100, 'k')                                              # kerf (cut slot) behind the wire
+    f.raw('<rect x="372" y="231" width="16" height="98" fill="#4dabf7" fill-opacity="0.35" stroke="currentColor" stroke-width="1" stroke-dasharray="3 2"/>')   # kerf slot around the wire
     f.rect(200, 330, 360, 22, 'f2')                                            # X-Y table
     f.arrow(470, 364, 540, 364, 'acc'); f.arrow(540, 364, 470, 364, 'acc')
-    f.rect(600, 200, 130, 80, 'f2', rx=6); f.text(665, 228, 'Pulse', 15, weight='bold'); f.text(665, 250, 'generator', 15, weight='bold')
+    f.rect(600, 200, 130, 80, 'f2', rx=6)
     f.text(612, 300, '−  wire', 14, anchor='start'); f.text(612, 318, '+  work', 14, anchor='start')
     f.line(600, 220, 420, 140, 'thin'); f.line(600, 265, 520, 280, 'thin')
-    f.rect(600, 400, 130, 60, 'f2', rx=6); f.text(665, 430, 'CNC / servo', 15, weight='bold')
+    f.rect(600, 400, 130, 60, 'f2', rx=6)
     f.line(600, 430, 560, 345, 'thin')
     C = f.callout
     C('A', 110, 90, 40, 40, 'Wire supply spool', 'Feeds fresh wire continuously; the wire is used only once', 'UCM-F024')
@@ -43,22 +43,26 @@ def spark_gap():
     f.rect(300, 60, 160, 300, 'thin')                                # kerf boundary
     f.raw('<rect x="301" y="61" width="158" height="298" fill="#4dabf7" fill-opacity="0.18" stroke="none"/>')
     f.circle(380, 210, 55, 'f2')                                     # wire section
-    f.path('M435,210 l12,-8 l-6,16 l14,-10', 'acc')                  # spark
-    for (cx, cy) in [(455, 150), (455, 270), (305, 180), (305, 245)]:
-        f.arc(cx + (5 if cx > 400 else -5), cy, 8, 90 if cx > 400 else -90, 270 if cx > 400 else 90, 's')
+    f.path('M427,175 l12,-8 l-6,16 l14,-10', 'acc')                  # spark
+    f.hdim(426, 460, 245, '', 12)                                     # spark gap g
+    for (cx, cy) in [(460, 140), (460, 290), (300, 130), (300, 290)]:
+        if cx > 400:
+            f.arc(cx, cy, 8, 90, -90, 's')      # pit bulging into the work (right wall)
+        else:
+            f.arc(cx, cy, 8, 90, 270, 's')      # pit bulging into the work (left wall)
     for (x, y) in [(330, 120), (420, 300), (350, 310), (430, 110)]:
         f.circle(x, y, 3, 'k')
     f.hdim(300, 460, 385, '', 14, above=False)
     f.hdim(325, 435, 30, '', 14)
     C = f.callout
-    C('A', 380, 210, 380, 140, 'Wire electrode (diameter d)', 'Moving brass wire; never touches the job', 'UCM-F008')
-    C('B', 447, 210, 560, 120, 'Spark gap (g)', 'Small gap kept constant by the servo; sparks jump across it', 'UCM-F009')
-    C('C', 440, 205, 560, 210, 'Spark (discharge)', 'Pulse of energy that melts and vaporises a tiny bit of metal', 'UCM-F007')
-    C('D', 460, 270, 560, 300, 'Crater', 'Small pit left by each spark on the cut surface', 'UCM-F032')
+    C('A', 380, 210, 380, 140, 'Wire electrode', 'Moving brass wire; never touches the job', 'UCM-F008')
+    C('B', 443, 245, 560, 260, 'Spark gap (g)', 'Small gap kept constant by the servo; sparks jump across it', 'UCM-F009')
+    C('C', 440, 170, 560, 130, 'Spark (discharge)', 'Pulse of energy that melts and vaporises a tiny bit of metal', 'UCM-F007')
+    C('D', 466, 290, 560, 320, 'Crater', 'Small pit left by each spark on the cut surface', 'UCM-F032')
     C('E', 330, 120, 220, 110, 'Debris', 'Eroded particles flushed away by the dielectric', 'UCM-F020')
     C('F', 380, 30, 520, 30, 'Wire diameter (d)', 'Size of the wire electrode', 'UCM-F023')
     C('G', 380, 385, 520, 385, 'Kerf width', 'Kerf = d + 2g', 'UCM-F026')
-    C('H', 320, 330, 200, 330, 'Dielectric (deionised water)', 'Insulates until breakdown, cools and flushes the gap', 'UCM-F018')
+    f.callout('H', 320, 340, 200, 340, 'Dielectric (deionised water)', 'Insulates until breakdown, cools and flushes the gap', 'UCM-F018', dot=False)
     return f
 
 
@@ -68,7 +72,7 @@ def laser_head():
     f.rect(330, 20, 60, 40, 'f2')                                         # fiber connector
     f.poly([(300, 60), (420, 60), (420, 330), (395, 360), (325, 360), (300, 330)], 's')   # head body
     f.raw('<polygon points="352,60 368,60 400,150 400,170 320,170 320,150" fill="#e8590c" fill-opacity="0.18"/>')
-    f.raw('<polygon points="320,190 400,190 362,420 358,420" fill="#e8590c" fill-opacity="0.22"/>')
+    f.raw('<polygon points="320,190 400,190 362,434 358,434" fill="#e8590c" fill-opacity="0.22"/>')
     f.path('M315,150 Q360,135 405,150 Q360,165 315,150 Z', 'f2')          # collimator lens
     f.path('M315,190 Q360,170 405,190 Q360,210 315,190 Z', 'f2')          # focusing lens
     f.poly([(325, 360), (395, 360), (372, 400), (348, 400)], 'f')         # nozzle
@@ -77,7 +81,7 @@ def laser_head():
     f.rect(356, 430, 8, 30, 'k')                                          # kerf
     for k in range(4):
         f.circle(355 + (k % 2) * 10, 470 + k * 10, 3, 'k')                # ejected molten metal
-    f.circle(360, 420, 4, 'k')
+    f.circle(360, 434, 4, 'k')
     f.vdim(250, 400, 430, '', 14)
     C = f.callout
     C('A', 360, 35, 470, 30, 'Optical fiber input', 'Delivers the 1.06 µm beam from the fiber laser source', 'UCM-F043')
@@ -85,7 +89,7 @@ def laser_head():
     C('C', 400, 190, 500, 200, 'Focusing lens', 'Focuses the beam to a tiny, intense spot', 'UCM-F050')
     C('D', 505, 289, 600, 250, 'Assist-gas inlet', 'Supplies O₂, N₂ or air to blow molten metal out of the kerf', 'UCM-F045')
     C('E', 372, 385, 480, 380, 'Nozzle', 'Directs the assist gas coaxially with the beam', 'UCM-F050')
-    C('F', 360, 420, 200, 380, 'Focal point', 'Smallest, most intense spot, set on or just in the sheet', 'UCM-F049')
+    C('F', 360, 434, 200, 380, 'Focal point', 'Smallest, most intense spot, set on or just in the sheet', 'UCM-F049')
     C('G', 250, 415, 140, 410, 'Stand-off distance', 'Gap between the nozzle tip and the sheet surface', 'UCM-F051')
     C('H', 360, 445, 480, 490, 'Kerf', 'Narrow slot (a few tenths of a mm) cut through the sheet', 'UCM-F052')
     C('I', 365, 490, 250, 505, 'Molten metal ejected', 'Blown out by the assist-gas jet', 'UCM-F037')
@@ -94,7 +98,7 @@ def laser_head():
 
 def jobs(blank=False):
     f = Fig('unconventional/jobs' + ('-q' if blank else ''), 720, 340, 'ME-106 unconventional machining jobs' + (' — dimensions hidden' if blank else ''),
-            'Panel A: a square plate cut on wire EDM; panel B: a ring cut on the fiber laser' + ('' if blank else ', with dimensions'),
+            ('Two lab jobs: a square plate (A) and a ring (B)' if blank else 'Panel A: a square plate cut on wire EDM; panel B: a ring cut on the fiber laser, with dimensions'),
             ask={'p': 'Which machine was used for the job in panel {L}?', 'w': 'Which panel shows the job made on the {P}?'})
     f.rect(20, 20, 330, 300, 'thin', rx=8); f.rect(370, 20, 330, 300, 'thin', rx=8)
     k = 15

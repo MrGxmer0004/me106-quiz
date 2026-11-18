@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+
 import { FIGBYID } from '../data';
 
 const cache = new Map<string, string>();
@@ -28,6 +29,12 @@ export function Figure({ id, showLabels, alt }: { id: string; showLabels?: boole
   const [zoom, setZoom] = useState(false);
   const [scale, setScale] = useState(1);
   const entry = FIGBYID[id];
+  useEffect(() => {
+    if (!zoom) return;
+    const h = (e: KeyboardEvent) => { if (e.key === 'Escape') setZoom(false); };
+    window.addEventListener('keydown', h);
+    return () => window.removeEventListener('keydown', h);
+  }, [zoom]);
   const labels = entry ? Object.entries(entry.labels) : [];
   return (
     <div className="figure">

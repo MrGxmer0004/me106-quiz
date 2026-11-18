@@ -34,7 +34,7 @@ q('theory', 'm', 'In most unconventional processes, the tool…',
 q('theory', 'e', 'In wire EDM, material is removed by…',
   'Repeated electric sparks that melt and vaporise metal', ['A rotating abrasive wheel grinding it', 'A wire sawing it by friction', 'Chemicals dissolving it'],
   'Pulsed sparks between the wire and the work cause thermal erosion.', [7])
-q('theory', 'e', 'In wire EDM, the wire electrode and the workpiece…',
+q('theory', 'e', 'During cutting in wire EDM, the wire electrode and the workpiece…',
   'Never touch each other', ['Are pressed firmly together', 'Are welded together first', 'Touch only at the start'],
   'There is no mechanical contact and practically no cutting force.', [8])
 q('theory', 'm', 'What happens if the wire touches the workpiece in wire EDM?',
@@ -69,19 +69,19 @@ q('ops', 'h', 'Wire EDM can cut tapered sides by…',
   'WEDM cuts 2-D through-profiles; offsetting the guides gives a taper.', [17])
 
 # ============================ WEDM elements ============================
-q('wmat', 'e', 'The dielectric commonly used in wire EDM is…',
+q('param', 'e', 'The dielectric commonly used in wire EDM is…',
   'Deionised water', ['Kerosene', 'Compressed air', 'Machine oil'],
   'Wire EDM uses deionised water; die-sinking EDM usually uses a hydrocarbon oil such as kerosene.', [18, 19])
-q('wmat', 'm', 'Die-sinking EDM usually uses which dielectric?',
+q('param', 'm', 'Die-sinking EDM usually uses which dielectric?',
   'A hydrocarbon oil such as kerosene', ['Deionised water', 'Compressed nitrogen', 'Salt water'],
   'Die-sinking EDM: oil (kerosene); wire EDM: deionised water.', [19])
 q('def', 'm', 'Which of these is NOT a function of the dielectric in EDM?',
   'Supplying metal ions to plate the work', ['Insulating the gap until breakdown', 'Cooling the work and wire', 'Flushing away debris'],
   'The dielectric insulates, concentrates the spark, cools and flushes. Supplying metal ions is what a plating bath does.', [20])
-q('wmat', 'm', 'Why is the water in wire EDM continuously deionised?',
+q('param', 'm', 'Why is the water in wire EDM continuously deionised?',
   'Tap water is too conductive for proper sparking', ['To make it heavier', 'To add metal ions', 'To colour the water'],
   'Ions make water conductive; the dielectric must insulate until breakdown, so it is filtered and deionised.', [21])
-q('wmat', 'e', 'The wire electrode in wire EDM is usually made of…',
+q('tmat', 'e', 'The wire electrode in wire EDM is usually made of…',
   'Brass', ['Mild steel', 'Aluminium', 'Plastic'],
   'Brass (often zinc-coated) is common; copper, molybdenum or tungsten are also used.', [22])
 q('param', 'm', 'Typical wire diameter in wire EDM is about…',
@@ -165,10 +165,10 @@ q('adv', 'm', 'Since laser cutting is non-contact, it has…',
   'Non-contact processing: no tool wear, no mechanical force.', [44])
 
 # ============================ laser gas / params ============================
-q('wmat', 'm', 'Which assist gas is normally used for laser cutting mild steel?',
+q('param', 'm', 'Which assist gas is normally used for laser cutting mild steel?',
   'Oxygen', ['Nitrogen', 'Argon', 'Helium'],
   'O₂ reacts exothermically with iron, adding heat for faster/thicker cuts (with an oxide layer on the edge).', [45])
-q('wmat', 'm', 'Which assist gas is used for clean, oxide-free cuts in stainless steel and aluminium?',
+q('param', 'm', 'Which assist gas is used for clean, oxide-free cuts in stainless steel and aluminium?',
   'Nitrogen', ['Oxygen', 'Carbon dioxide', 'Hydrogen'],
   'N₂ is inert; the laser supplies all the energy and the edges stay bright.', [46])
 q('theory', 'h', 'Why does oxygen assist gas allow faster cutting of mild steel?',
@@ -177,7 +177,7 @@ q('theory', 'h', 'Why does oxygen assist gas allow faster cutting of mild steel?
 q('adv', 'h', 'What is the drawback of cutting mild steel with oxygen assist gas?',
   'An oxide layer forms on the cut edge', ['The kerf becomes very wide', 'The cut cannot go through', 'The lens melts at once'],
   'Oxygen leaves an oxidised edge; nitrogen gives oxide-free edges.', [45, 46])
-q('wmat', 'm', 'A cheap assist-gas option for thin sheets is…',
+q('param', 'm', 'A cheap assist-gas option for thin sheets is…',
   'Compressed air', ['Pure argon', 'Liquid helium', 'Steam'],
   'Compressed air is a low-cost option for thin material.', [47])
 q('def', 'm', 'Besides removing molten metal, the assist gas also…',
@@ -229,10 +229,10 @@ q('dims', 'e', 'What job is cut on the wire EDM in the ME-106 lab?',
 q('dims', 'e', 'What job is cut on the fiber laser in the ME-106 lab?',
   'A ring (annulus) from metal sheet', ['A 10 × 10 × 5 mm square', 'A hexagonal nut', 'A spur gear'],
   'The log sheet drawing shows a laser-cut ring.', [60])
-n('dims', 'm', 'What is the volume of the 10 × 10 × 5 mm wire-EDM square?',
+n('num', 'm', 'What is the volume of the 10 × 10 × 5 mm wire-EDM square?',
   '500 mm³', ['100 mm³', '50 mm³', '1000 mm³'],
   '10 × 10 × 5 = 500 mm³.', [59])
-n('num', 'h', 'The 10 × 10 mm EDM square is cut out of a plate along its full perimeter. What length of cut does the wire travel?',
+n('num', 'm', 'The 10 × 10 mm EDM square is cut out of a plate along its full perimeter. What length of cut does the wire travel?',
   '40 mm', ['20 mm', '100 mm', '50 mm'],
   'Perimeter = 4 × 10 = 40 mm.', [59])
 q('tools', 'm', 'Which of these is listed in the ME-106 wire EDM tool list?',
@@ -266,10 +266,10 @@ q('proc', 'm', 'According to the ME-106 log sheet, how is material removed in wi
   'Step 8: material is removed due to the heat generated by the sparks.', [69])
 q('proc', 'e', 'What is the LAST step of the ME-106 wire EDM procedure?',
   'Remove and inspect the machined job', ['Fix and tension the wire', 'Clamp the job', 'Set the parameters'],
-  'Step 10: remove and inspect the machined job.', [71])
-q('proc', 'm', 'In the ME-106 wire EDM procedure, how is the profile completed (step 9)?',
+  'Step 11 (the last): remove and inspect the machined job.', [71])
+q('proc', 'm', 'In the ME-106 wire EDM procedure, how is the profile completed (step 10)?',
   'The wire moves along the programmed profile', ['The operator saws by hand', 'The table rotates the job', 'The job is turned on a lathe'],
-  'Step 9: the wire moves according to the programmed profile and completes the cut.', [70])
+  'Step 10: the wire moves according to the programmed profile and completes the cut.', [70])
 s('proc', 'h', 'What is the correct order of the ME-106 wire EDM procedure?',
   'Clamp job → fix & tension wire → set parameters → supply dielectric → enter profile → keep spark gap → apply pulses → cut → remove & inspect',
   ['Fix & tension wire → clamp job → apply pulses → set parameters → enter profile → supply dielectric → keep spark gap → cut → remove & inspect',
@@ -292,7 +292,7 @@ q('proc', 'm', 'In the ME-106 fiber laser procedure, how is the beam focused on 
   'Step 4: focus the laser beam on the workpiece through the remote.', [75])
 q('proc', 'm', 'Why is a dry run done before laser cutting?',
   'To check the laser will cut at the correct place', ['To clean the lens', 'To heat the sheet', 'To cool the nozzle'],
-  'Step 5: check by dry cutting (dry run) whether the laser will cut in the correct place.', [76])
+  'Step 5 and precaution 6: check by dry cutting (dry run) whether the laser will cut in the correct place.', [76, 84])
 q('proc', 'm', 'Which step comes immediately AFTER the dry run in the fiber laser procedure?',
   'Start the beam and cut along the programmed path', ['Clamp the sheet', 'Set the power and speed', 'Focus the beam'],
   'Step 6: start the laser beam and cut along the programmed path.', [77])
@@ -322,22 +322,18 @@ q('prec', 'm', 'Which electrical settings must be set correctly in wire EDM (log
 q('prec', 'm', 'Which laser precaution is listed on the ME-106 log sheet?',
   'Set correct laser power and cutting speed', ['Look into the beam to focus it', 'Use oil as dielectric', 'Keep the wire slack'],
   'Precaution 5: set the correct laser power and cutting speed.', [83])
-q('prec', 'm', 'How is the cutting accuracy checked before the actual laser cut?',
-  'By a dry (laser) run', ['By tasting the gas', 'By touching the bed', 'By measuring the wire'],
-  'Precaution 6: check accuracy by dry laser cutting.', [84])
 
 # ============================ AR / TF ============================
 ar('theory', 'h', 'Wire EDM can cut hardened tool steel easily.',
    'In EDM the hardness of the workpiece does not affect material removal.', 'a',
    'Both true, and R explains A: removal is by sparks, so only conductivity matters, not hardness.', [14])
-ar('wmat', 'h', 'Fiber lasers are preferred for cutting metal sheet.',
+ar('theory', 'h', 'Fiber lasers are preferred for cutting metal sheet.',
    'The fiber-laser wavelength (10.6 µm) is longer than that of CO₂ lasers.', 'c',
    'A is true but R is false: fiber ≈ 1.06 µm (shorter); CO₂ ≈ 10.6 µm. Metals absorb the shorter wavelength better.', [40, 41])
 ar('param', 'h', 'Nitrogen is used as assist gas for stainless steel.',
    'Nitrogen gives clean, oxide-free cut edges.', 'a', 'Both true and R explains A.', [46])
 tf('theory', 'e', 'In wire EDM, the wire must touch the workpiece to cut it.', False,
    'False. A spark gap is kept; contact would short-circuit.', [8, 9])
-tf('wmat', 'm', 'Wire EDM can be used to cut glass.', False, 'False. The workpiece must be electrically conductive.', [14])
 
 # ============================ diagrams ============================
 B.labels('unconventional/wedm', 'p', cat='parts', diffs={'p': 'e'})
@@ -352,13 +348,13 @@ q('theory', 'm', 'In the spark-gap figure, what fills the gap between the wire a
   'H is the dielectric: it insulates, cools and flushes debris.', [18, 20], fig=SG)
 LH = 'unconventional/laser-head'
 B.labels(LH, 'p', cat='parts', diffs={'p': 'm'})
-B.labels(LH, 'f', cat='parts', only={'f': ['B', 'C', 'D', 'G']}, diffs={'f': 'm'})
+B.labels(LH, 'f', cat='parts', only={'f': ['B', 'C', 'D']}, diffs={'f': 'm'})
 JB = 'unconventional/jobs-q'
 B.labels(JB, 'p', cat='dims', diffs={'p': 'e'}, extra_parts=['Die-sinking EDM', 'CNC milling machine'])
 q('dims', 'm', 'In the figure, what are the dimensions of the job in panel A?', '10 mm × 10 mm × 5 mm', ['10 mm × 5 mm × 5 mm', '20 mm × 20 mm × 5 mm', '10 mm × 10 mm × 10 mm'],
   'Panel A is the wire-EDM square: 10 × 10 mm, 5 mm thick.', [59], fig=JB)
 B.labels('unconventional/edm-compare', 'p', cat='theory', diffs={'p': 'm'}, extra_parts=['Electrochemical machining', 'Laser beam machining'])
-q('theory', 'h', 'In the EDM comparison figure, which panel normally uses deionised water as the dielectric?', 'B', ['A'],
+q('theory', 'm', 'In the EDM comparison figure, which panel normally uses deionised water as the dielectric?', 'B', ['A'],
   'Panel B (wire EDM) uses deionised water; panel A (die-sinking) usually uses kerosene/oil.', [18, 19], fig='unconventional/edm-compare')
 
 B.save()

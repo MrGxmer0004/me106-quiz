@@ -48,6 +48,7 @@ SRCNAME = {
 }
 
 _FACTS = None
+LABKEYS = set(['LS', 'NB', 'CLLS', 'BOARD', 'LEC', 'HO', 'MLS1', 'MLS2', 'CHART', 'TOOLS', 'TA', 'CG', 'GL', 'GP', 'GPPT', 'GR', 'SH', 'PPT', 'EP', 'ELS', 'UCM'])
 
 
 def load_facts():
@@ -67,7 +68,7 @@ def load_facts():
             brackets = re.findall(r'\[([^\[\]]+)\]', rest)
             src = brackets[-1] if brackets else ''
             toks = [t.strip() for t in src.split(';') if t.strip()]
-            lab = any(not t.lower().startswith('theory') for t in toks)
+            lab = any(t.split()[0].rstrip(':,') in LABKEYS for t in toks if t.split())
             facts[fid] = {'text': rest, 'src': src, 'toks': toks, 'lab': lab, 'file': fn}
     _FACTS = facts
     return facts

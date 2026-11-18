@@ -112,3 +112,15 @@ Key uniquely longest:
   - The collimator makes the beam parallel and the focusing lens brings it to a spot. Stand-off is the gap from nozzle tip to work.
   - Cu and brass are reflective and hard to cut.
   - Energy classes: mechanical (USM, AJM, WJM), thermal (EDM, LBM, EBM, PAM), electrochemical (ECM, the reverse of plating), chemical.
+
+---
+## Fixes applied by the author (round 1)
+- WEDM figure: the text inside the pulse-generator and CNC boxes is removed. The kerf is drawn as a dashed slot around the wire, not a solid bar.
+- Spark-gap figure: the spark is moved up and the gap g has its own dimension line (B and C now about 70 px apart). Craters are drawn as pits in the walls. The dielectric label (H) has no anchor dot, so it can't be mistaken for debris. A is renamed "Wire electrode" (no near-synonym with F).
+- Laser head: the focal point is now just inside the sheet surface.
+- WEDM step numbering is aligned to the log sheet's 11 steps (F069–F071 and the step-9/step-10 questions).
+- UCM-0010: now "During cutting…".
+- Duplicates removed: the glass true/false and the dry-run precaution (merged into the dry-run question, which now also cites F084). The stand-off function question is dropped from the figure set.
+- Categories corrected (dielectric and assist-gas questions → process-parameters; wire material → tool-material; volume → numericals). Difficulty lowered on 0072, 0131 and 0151.
+- Source tagging bug fixed bank-wide: multi-book theory tags were being read as lab sources. Lab detection now uses known lab-source keys.
+- Option-length balancing: 44 questions (authoring/fix_unconventional.py).

@@ -131,7 +131,7 @@ export function Quiz({ items, settings, onFinish, onQuit }: {
         <div className={`feedback ${a.correct ? 'ok' : 'bad'}`} aria-live="polite">
           <p className="verdict">{a.correct ? '✓ Correct' : `✗ Not quite — the answer is ${LETTERS[item.answer]}.`}</p>
           <p>{item.q.explanation}</p>
-          <p className="ref">{item.q.source === 'lab' ? 'Lab source' : 'Theory'}: {item.q.ref} · {item.q.id}</p>
+          <p className="ref">{item.q.source === 'lab' ? `Lab source: ${item.q.ref}` : item.q.ref.startsWith('Theory') ? item.q.ref : `Theory: ${item.q.ref}`} · {item.q.id}</p>
           {item.q.figure && <button className="linkish" onClick={() => setShowLabels((v) => !v)}>{showLabels ? 'Hide' : 'Reveal all'} figure labels</button>}
         </div>
       )}

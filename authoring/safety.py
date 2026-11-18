@@ -6,7 +6,7 @@ q, n, s, tf, ar = B.q, B.n, B.s, B.tf, B.ar
 
 q('safety', 'e', 'Which item of PPE must be worn in every ME-106 shop?',
   'Workshop apron', ['Welding helmet', 'Laser goggles', 'Ear muffs'],
-  'Every ME-106 log sheet asks for the workshop apron.', [1])
+  'The ME-106 log sheets and slides for the machine shops, grinding, milling and electroplating all ask for the workshop apron.', [1])
 q('safety', 'e', 'Why are closed safety (leather) shoes required in the workshop?',
   'They protect the feet from falling objects and hot chips', ['They make walking faster', 'They insulate from all electric shock', 'They keep the floor clean'],
   'Proper shoes protect feet from dropped tools, jobs and hot chips.', [2])
@@ -82,23 +82,32 @@ q('safety', 'm', 'In safety colour codes, a solid blue circular sign means…',
 q('safety', 'm', 'In safety colour codes, green indicates…',
   'Safe condition, first aid or exit', ['Danger', 'Mandatory action', 'Caution'],
   'Green = safe condition or first aid.', [24])
-q('safety', 'm', 'Which of these is NOT a correct workshop safety practice?',
-  'Wearing gloves while operating a drill', ['Wearing safety goggles while grinding', 'Tying back long hair', 'Stopping the machine before measuring'],
-  'Gloves can be caught by rotating parts.', [7, 6, 5, 12])
 q('safety', 'm', 'The ME-106 fitting lab summarises safety as…',
   'Skill + Awareness + Discipline', ['Speed + Force + Luck', 'Gloves + Goggles + Guards', 'Time + Effort + Tools'],
   'Safety = Skill + Awareness + Discipline.', [25])
-s('safety', 'm', 'Which is the safe sequence when a job must be measured on a machine?',
-  'Stop the machine → wait for it to come to rest → measure', ['Measure → stop the machine → wait', 'Slow the machine → measure while it turns → stop', 'Measure while running → stop → measure again'],
-  'Never measure a moving job.', [12])
-tf('safety', 'e', 'It is safe to remove chips with bare hands if you are careful.', False, 'False. Use a brush or chip hook after stopping the machine.', [16])
-tf('safety', 'e', 'The chuck key must be removed before the lathe is switched on.', True, 'True. A key left in the chuck is flung out when the spindle starts.', [11])
 ar('safety', 'h', 'Gloves must not be worn near rotating machine parts.',
    'A glove caught by a rotating part can drag the hand in.', 'a', 'Both true, and R explains A.', [7])
-ar('safety', 'h', 'Water must not be used on an electrical fire.',
-   'Water is a good electrical insulator.', 'c', 'A is true; R is false — water conducts electricity.', [23])
+
+q('safety', 'e', 'How should a heavy job be lifted from the floor?',
+  'Bend the knees, keep the back straight, get help if needed', ['Bend the back and lift fast with straight legs', 'Drag it along the floor by one corner', 'Lift it above the head before carrying it'],
+  'Lifting with the legs, not the back, prevents back injury; heavy or awkward loads need help.', [26])
+q('safety', 'm', 'First aid for a minor burn from a hot chip is to…',
+  'Cool it under clean running water for some minutes', ['Rub grease or machine oil on it', 'Cover it tightly with cotton wool', 'Keep working and ignore it'],
+  'Cool the burn with running water; never apply grease or oil, and report it.', [27])
+q('safety', 'm', 'If plating solution splashes into your eye, you should first…',
+  'Rinse the eye with plenty of clean water for 15 minutes', ['Rub the eye hard with your hand', 'Wipe it with a dry cloth and carry on', 'Wait for the stinging to stop by itself'],
+  'Flush immediately and continuously with clean water (eye-wash), then report it.', [28])
+q('safety', 'm', 'Which use of compressed air is UNSAFE in the workshop?',
+  'Blowing chips off clothes or towards other people', ['Driving a pneumatic tool as intended', 'Supplying assist gas to the laser head', 'Operating an air-powered clamp'],
+  'Compressed air can drive particles into eyes and skin; never point it at people or clothes.', [29])
+q('safety', 'e', 'Gangways and emergency exits in the workshop must be…',
+  'Kept clear at all times', ['Used to store jobs and tools', 'Locked while machines are running', 'Blocked with benches for safety'],
+  'Clear exits and gangways allow escape in an emergency.', [30])
+q('safety', 'e', 'While a friend is operating a lathe, you should…',
+  'Not distract or startle them', ['Tap their shoulder to talk', 'Lean on the machine beside them', 'Hand them tools over the chuck'],
+  'Distracting an operator can cause a serious accident.', [31])
 
 B.labels('safety/signs', 'p', cat='safety', diffs={'p': 'e'}, extra_parts=['Fire equipment location', 'Radiation hazard only'])
-B.labels('safety/signs', 'w', cat='safety', only={'w': ['A', 'C']}, diffs={'w': 'm'})
+B.labels('safety/signs', 'w', cat='safety', only={'w': ['D']}, diffs={'w': 'm'})
 
 B.save()

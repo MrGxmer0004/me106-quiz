@@ -32,3 +32,11 @@ Source keys: `LS` = Log Sheets ME-106.pdf; `CLLS` = Central Lathe Log sheet.pdf;
 - [SAF-F023] Fire-extinguisher classes: water for ordinary combustibles; CO₂ or dry powder for electrical and oil fires (never water on electrical or oil fires). [theory: general fire safety]
 - [SAF-F024] Safety colour codes: red = stop/danger/fire equipment; yellow = caution; green = safe/first aid; blue = mandatory instruction. [theory: IS 9457 / ISO 3864]
 - [SAF-F025] Safety = Skill + Awareness + Discipline. [PPT s.13]
+
+## More workshop safety (standard practice)
+- [SAF-F026] Lift heavy jobs by bending the knees and keeping the back straight; get help for heavy or awkward loads. [theory: general workshop safety]
+- [SAF-F027] A minor burn should be cooled under clean running water for several minutes; do not apply grease or oil. [theory: first aid practice]
+- [SAF-F028] If a chemical splashes into the eyes, rinse them at once with plenty of clean water (eye-wash) for at least 15 minutes and report it. [theory: lab safety]
+- [SAF-F029] Never use compressed air to clean clothes or skin, or to blow chips towards people. [theory: general workshop safety]
+- [SAF-F030] Keep gangways and emergency exits clear and know the exit route. [theory: general workshop safety]
+- [SAF-F031] Never distract or startle someone who is operating a machine. [theory: general workshop safety]

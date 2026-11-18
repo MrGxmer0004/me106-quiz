@@ -66,3 +66,14 @@ Key uniquely longest:
 - **Fire.** Water is for ordinary combustibles (class A). CO₂ or dry powder is for electrical fires. Water must never go on electrical, oil or metal fires (water conducts electricity and spreads oil). Matches 0023, 0024 and 0033.
 - **General practice.** No gloves near rotating parts. Remove the chuck key before starting. Stop the machine before measuring or cleaning. Remove chips with a brush or hook. Tie hair back. No loose clothing or jewellery. Goggles where chips or sparks fly. E-stop on trouble. Never leave a machine unattended. Report all injuries. All are consistent with the keys.
 - **"Safety = Skill + Awareness + Discipline"** is taken from SAF-F025 (PPT s.13) as given. I did not re-check it against the PPT.
+
+---
+## Fixes applied by the author (round 1)
+- Prohibition-sign bar now runs top-left to bottom-right (ISO 3864). The figure alt text is corrected.
+- SAF-0001 explanation corrected (not every log sheet mentions the apron).
+- Duplicate clusters reduced:
+  - removed the chuck-key true/false, the chips true/false, the measuring sequence, the gloves NOT-question and the water/insulator A–R;
+  - removed the "which sign" figure questions for A/C (D kept);
+  - figure "part" questions kept.
+- Six new non-overlapping facts and questions added (lifting, burns, eye splash, compressed air, exits, distracting operators).
+- SAF-0005, 0014 and 0016: distractors rewritten; silly distractors replaced (authoring/fix_safety.py).

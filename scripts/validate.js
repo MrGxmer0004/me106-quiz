@@ -32,7 +32,8 @@ for (const fn of fs.readdirSync(KDIR)) {
     if (!m) continue;
     const br = [...m[2].matchAll(/\[([^\[\]]+)\]/g)].map((x) => x[1]);
     const src = br.length ? br[br.length - 1] : '';
-    const lab = src.split(';').map((t) => t.trim()).filter(Boolean).some((t) => !t.toLowerCase().startsWith('theory'));
+    const LABKEYS = new Set(["LS", "NB", "CLLS", "BOARD", "LEC", "HO", "MLS1", "MLS2", "CHART", "TOOLS", "TA", "CG", "GL", "GP", "GPPT", "GR", "SH", "PPT", "EP", "ELS", "UCM"]);
+    const lab = src.split(';').map((t) => t.trim()).filter(Boolean).some((t) => LABKEYS.has(t.split(/\s+/)[0].replace(/[:,]$/, '')));
     if (facts[m[1]]) err(m[1], `duplicate fact ID in ${fn}`);
     facts[m[1]] = { file: fn, lab, text: m[2] };
   }

@@ -11,21 +11,18 @@
 <polygon class="f" points="365.0,160.0 395.0,160.0 388.0,178.0 372.0,178.0"/>
 <polygon class="f" points="365.0,380.0 395.0,380.0 388.0,362.0 372.0,362.0"/>
 <rect class="f" x="240.0" y="230.0" width="280.0" height="100.0" rx="0"/>
-<rect class="k" x="377.0" y="230.0" width="6.0" height="100.0" rx="0"/>
+<rect x="372" y="231" width="16" height="98" fill="#4dabf7" fill-opacity="0.35" stroke="currentColor" stroke-width="1" stroke-dasharray="3 2"/>
 <rect class="f2" x="200.0" y="330.0" width="360.0" height="22.0" rx="0"/>
 <line class="acc" x1="470.0" y1="364.0" x2="540.0" y2="364.0"/>
 <polygon class="accf" points="540.0,364.0 530.8,367.9 530.8,360.1"/>
 <line class="acc" x1="540.0" y1="364.0" x2="470.0" y2="364.0"/>
 <polygon class="accf" points="470.0,364.0 479.2,360.1 479.2,367.9"/>
 <rect class="f2" x="600.0" y="200.0" width="130.0" height="80.0" rx="6"/>
-<text class="tx" x="665.0" y="228.0" font-size="15" text-anchor="middle" font-weight="bold" dominant-baseline="middle">Pulse</text>
-<text class="tx" x="665.0" y="250.0" font-size="15" text-anchor="middle" font-weight="bold" dominant-baseline="middle">generator</text>
 <text class="tx" x="612.0" y="300.0" font-size="14" text-anchor="start" font-weight="normal" dominant-baseline="middle">−  wire</text>
 <text class="tx" x="612.0" y="318.0" font-size="14" text-anchor="start" font-weight="normal" dominant-baseline="middle">+  work</text>
 <line class="thin" x1="600.0" y1="220.0" x2="420.0" y2="140.0"/>
 <line class="thin" x1="600.0" y1="265.0" x2="520.0" y2="280.0"/>
 <rect class="f2" x="600.0" y="400.0" width="130.0" height="60.0" rx="6"/>
-<text class="tx" x="665.0" y="430.0" font-size="15" text-anchor="middle" font-weight="bold" dominant-baseline="middle">CNC / servo</text>
 <line class="thin" x1="600.0" y1="430.0" x2="560.0" y2="345.0"/>
 <line class="lead" x1="110.0" y1="90.0" x2="52.2" y2="48.7"/>
 <circle class="k" cx="110.0" cy="90.0" r="3"/>

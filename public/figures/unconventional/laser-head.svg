@@ -2,7 +2,7 @@
 <rect class="f2" x="330.0" y="20.0" width="60.0" height="40.0" rx="0"/>
 <polygon class="s" points="300.0,60.0 420.0,60.0 420.0,330.0 395.0,360.0 325.0,360.0 300.0,330.0"/>
 <polygon points="352,60 368,60 400,150 400,170 320,170 320,150" fill="#e8590c" fill-opacity="0.18"/>
-<polygon points="320,190 400,190 362,420 358,420" fill="#e8590c" fill-opacity="0.22"/>
+<polygon points="320,190 400,190 362,434 358,434" fill="#e8590c" fill-opacity="0.22"/>
 <path class="f2" d="M315,150 Q360,135 405,150 Q360,165 315,150 Z"/>
 <path class="f2" d="M315,190 Q360,170 405,190 Q360,210 315,190 Z"/>
 <polygon class="f" points="325.0,360.0 395.0,360.0 372.0,400.0 348.0,400.0"/>
@@ -15,7 +15,7 @@
 <circle class="k" cx="365.0" cy="480.0" r="3.0"/>
 <circle class="k" cx="355.0" cy="490.0" r="3.0"/>
 <circle class="k" cx="365.0" cy="500.0" r="3.0"/>
-<circle class="k" cx="360.0" cy="420.0" r="4.0"/>
+<circle class="k" cx="360.0" cy="434.0" r="4.0"/>
 <line class="thin" x1="250.0" y1="400.0" x2="250.0" y2="430.0"/>
 <polygon class="k" points="250.0,400.0 253.1,408.5 246.9,408.5"/>
 <polygon class="k" points="250.0,430.0 246.9,421.5 253.1,421.5"/>
@@ -35,8 +35,8 @@
 <line class="lead" x1="372.0" y1="385.0" x2="465.0" y2="380.7"/>
 <circle class="k" cx="372.0" cy="385.0" r="3"/>
 <circle cx="480.0" cy="380.0" r="15" fill="#e8590c"/><text x="480.0" y="381.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">E</text>
-<line class="lead" x1="360.0" y1="420.0" x2="214.6" y2="383.6"/>
-<circle class="k" cx="360.0" cy="420.0" r="3"/>
+<line class="lead" x1="360.0" y1="434.0" x2="214.2" y2="384.8"/>
+<circle class="k" cx="360.0" cy="434.0" r="3"/>
 <circle cx="200.0" cy="380.0" r="15" fill="#e8590c"/><text x="200.0" y="381.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">F</text>
 <line class="lead" x1="250.0" y1="415.0" x2="155.0" y2="410.7"/>
 <circle class="k" cx="250.0" cy="415.0" r="3"/>

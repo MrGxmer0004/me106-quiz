@@ -55,7 +55,8 @@ export function Revise() {
     const key = Object.keys(notes).find((k) => k.endsWith(`/${FILE[shop]}.md`));
     return key ? clean(notes[key]) : '';
   }, [shop]);
-  const figs = FIGURES.filter((f) => f.shop === shop);
+  // show one example of each generated reading series; the rest are quiz-only
+  const figs = FIGURES.filter((f) => f.shop === shop && !/(vernier|micrometer)-(0[2-9]|[1-9]\d)$/.test(f.id));
   return (
     <main className="page revise">
       <div className="tabs" role="tablist" aria-label="Shop">

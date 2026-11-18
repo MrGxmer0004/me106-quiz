@@ -14,3 +14,4 @@ __pycache__/
 *.png
 !public/icons/*.png
 tsconfig.tsbuildinfo
+.claude/

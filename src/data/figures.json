@@ -1982,7 +1982,7 @@
   "id": "unconventional/jobs-q",
   "shop": "unconventional",
   "title": "ME-106 unconventional machining jobs — dimensions hidden",
-  "alt": "Panel A: a square plate cut on wire EDM; panel B: a ring cut on the fiber laser",
+  "alt": "Two lab jobs: a square plate (A) and a ring (B)",
   "labels": {
    "A": {
     "part": "Wire-cut EDM",
@@ -2060,7 +2060,7 @@
   "alt": "Enlarged section through the wire and the cut: wire, spark gap, dielectric, a spark, craters and debris, with the kerf width dimensioned",
   "labels": {
    "A": {
-    "part": "Wire electrode (diameter d)",
+    "part": "Wire electrode",
     "function": "Moving brass wire; never touches the job",
     "fact": "UCM-F008"
    },
@@ -2168,7 +2168,7 @@
   "id": "safety/signs",
   "shop": "safety",
   "title": "Safety sign shapes and colours",
-  "alt": "Four blank safety signs: a red-ringed circle with a bar, a yellow triangle, a solid blue circle and a green rectangle",
+  "alt": "Four safety signs drawn by shape and colour only: a red ring with a bar, a yellow triangle with an exclamation mark, a solid blue circle and a green rectangle with a cross",
   "labels": {
    "A": {
     "part": "Prohibition (do not)",

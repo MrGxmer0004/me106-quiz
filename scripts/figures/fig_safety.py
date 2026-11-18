@@ -3,9 +3,9 @@ from figlib import Fig
 
 def signs():
     f = Fig('safety/signs', 760, 300, 'Safety sign shapes and colours',
-            'Four blank safety signs: a red-ringed circle with a bar, a yellow triangle, a solid blue circle and a green rectangle',
+            'Four safety signs drawn by shape and colour only: a red ring with a bar, a yellow triangle with an exclamation mark, a solid blue circle and a green rectangle with a cross',
             ask={'p': 'What does sign {L} indicate?', 'w': 'Which sign is used for a {P}?'})
-    f.raw('<circle cx="110" cy="160" r="70" fill="#ffffff" stroke="#e03131" stroke-width="14"/><line x1="62" y1="208" x2="158" y2="112" stroke="#e03131" stroke-width="14"/>')
+    f.raw('<circle cx="110" cy="160" r="70" fill="#ffffff" stroke="#e03131" stroke-width="14"/><line x1="62" y1="112" x2="158" y2="208" stroke="#e03131" stroke-width="14"/>')
     f.raw('<polygon points="300,90 380,230 220,230" fill="#fcc419" stroke="#212529" stroke-width="6" stroke-linejoin="round"/>')
     f.raw('<text x="300" y="200" font-size="60" font-weight="700" text-anchor="middle" fill="#212529">!</text>')
     f.raw('<circle cx="490" cy="160" r="70" fill="#1971c2"/>')
