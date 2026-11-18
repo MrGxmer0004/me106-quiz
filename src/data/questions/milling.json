@@ -3047,7 +3047,7 @@
   "category": "procedure",
   "difficulty": "medium",
   "type": "mcq",
-  "question": "In the ME-106 milling job, how many times is the work indexed to cut all the teeth?",
+  "question": "In the ME-106 milling job, how many tooth spaces are cut (one per indexing position)?",
   "options": [
    "33 times",
    "40 times",
@@ -3092,34 +3092,12 @@
   "category": "precautions",
   "difficulty": "easy",
   "type": "mcq",
-  "question": "Which footwear precaution appears on the ME-106 milling log sheets?",
-  "options": [
-   "Open sandals are allowed",
-   "Canvas sports shoes are enough",
-   "Wear proper (safety) shoes",
-   "Any footwear is acceptable"
-  ],
-  "answer": 2,
-  "explanation": "Both milling log sheets and the TA slides say to wear proper/safety shoes.",
-  "source": "lab",
-  "ref": "Milling Log Sheet #1",
-  "tags": [],
-  "facts": [
-   "MIL-F111"
-  ]
- },
- {
-  "id": "MIL-0141",
-  "shop": "milling",
-  "category": "precautions",
-  "difficulty": "easy",
-  "type": "mcq",
   "question": "While the milling machine is running, you should…",
   "options": [
+   "Lean over the cutter to watch",
    "Hold the blank by hand",
-   "Touch the arbor to check speed",
    "Keep a proper distance from the machine",
-   "Lean over the cutter to watch"
+   "Touch the arbor to check speed"
   ],
   "answer": 2,
   "explanation": "Maintain a proper distance from the machine while it is on.",
@@ -3131,19 +3109,19 @@
   ]
  },
  {
-  "id": "MIL-0142",
+  "id": "MIL-0141",
   "shop": "milling",
   "category": "precautions",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Which precaution about the workpiece appears on the 2025 milling log sheet?",
   "options": [
-   "Demagnetise the workpiece after use",
-   "Fix the workpiece in the machine properly",
+   "Coat the workpiece with pumice powder",
    "Rinse the workpiece in the plating bath",
-   "Coat the workpiece with pumice powder"
+   "Fix the workpiece in the machine properly",
+   "Demagnetise the workpiece after use"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "Fix (clamp) the workpiece properly in the machine.",
   "source": "lab",
   "ref": "Milling Log Sheet #1",
@@ -3153,19 +3131,19 @@
   ]
  },
  {
-  "id": "MIL-0143",
+  "id": "MIL-0142",
   "shop": "milling",
   "category": "precautions",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Which precaution is specific to indexing on the dividing head?",
   "options": [
-   "Do not lower the shaper head more than 2 mm",
    "Check that the grinding wheel clears the work",
+   "Do not rotate the index-plate handle in the opposite direction",
    "Maintain a constant spark gap with the wire",
-   "Do not rotate the index-plate handle in the opposite direction"
+   "Do not lower the shaper head more than 2 mm"
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "Turning the crank backwards introduces backlash errors in the division.",
   "source": "lab",
   "ref": "Milling Log Sheet #1",
@@ -3175,19 +3153,19 @@
   ]
  },
  {
-  "id": "MIL-0144",
+  "id": "MIL-0143",
   "shop": "milling",
   "category": "precautions",
   "difficulty": "easy",
   "type": "mcq",
   "question": "According to the ME-106 milling log sheets, you must stay alert during…",
   "options": [
-   "Fixing and cutting",
    "Only after cutting",
    "Only the calculation",
-   "Only while filing"
+   "Only while filing",
+   "Fixing and cutting"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "Stay alert during fixing and cutting.",
   "source": "lab",
   "ref": "Milling Log Sheet #1",
@@ -3197,19 +3175,19 @@
   ]
  },
  {
-  "id": "MIL-0145",
+  "id": "MIL-0144",
   "shop": "milling",
   "category": "precautions",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Which electrical precaution appears on the ME-106 milling log sheet?",
   "options": [
-   "Reset the main breaker yourself if it trips",
    "Do not touch any electrical connections",
+   "Touch the earth wire before starting",
    "Keep the control-panel door open while working",
-   "Touch the earth wire before starting"
+   "Reset the main breaker yourself if it trips"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "The 2022 milling log sheet says not to touch any electrical connections.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.9",
@@ -3219,63 +3197,19 @@
   ]
  },
  {
-  "id": "MIL-0146",
-  "shop": "milling",
-  "category": "precautions",
-  "difficulty": "medium",
-  "type": "mcq",
-  "question": "Which of these should be avoided while milling, according to the TA slides?",
-  "options": [
-   "Loose threads, ornaments and wristwatches",
-   "Safety shoes with steel toe caps",
-   "A workshop apron, properly tied",
-   "Supervision by the shop instructor"
-  ],
-  "answer": 0,
-  "explanation": "Loose items can be caught by the rotating cutter or arbor.",
-  "source": "lab",
-  "ref": "Milling TA slides s.2",
-  "tags": [],
-  "facts": [
-   "MIL-F117"
-  ]
- },
- {
-  "id": "MIL-0147",
-  "shop": "milling",
-  "category": "precautions",
-  "difficulty": "medium",
-  "type": "mcq",
-  "question": "According to the milling TA slides, the machine should NOT be operated…",
-  "options": [
-   "With the coolant switched on",
-   "While wearing safety shoes",
-   "With the cutter guard in place",
-   "Without the shop instructor's supervision"
-  ],
-  "answer": 3,
-  "explanation": "Do not operate the machine without supervision; clean the machine and workspace after use.",
-  "source": "lab",
-  "ref": "Milling TA slides s.2",
-  "tags": [],
-  "facts": [
-   "MIL-F118"
-  ]
- },
- {
-  "id": "MIL-0148",
+  "id": "MIL-0145",
   "shop": "milling",
   "category": "precautions",
   "difficulty": "medium",
   "type": "mcq",
   "question": "What should you do after finishing work on the milling machine?",
   "options": [
-   "Leave the chips on the table",
-   "Leave the machine running",
+   "Remove the guards",
    "Clean the machine and workspace",
-   "Remove the guards"
+   "Leave the chips on the table",
+   "Leave the machine running"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "The TA slides ask you to clean the machine and workspace after use.",
   "source": "lab",
   "ref": "Milling TA slides s.2",
@@ -3285,29 +3219,7 @@
   ]
  },
  {
-  "id": "MIL-0149",
-  "shop": "milling",
-  "category": "precautions",
-  "difficulty": "medium",
-  "type": "mcq",
-  "question": "Chips on the milling table should be removed…",
-  "options": [
-   "By the coolant only, while running",
-   "With compressed air towards others",
-   "With a brush, after the cutter has stopped",
-   "By hand, while the cutter runs"
-  ],
-  "answer": 2,
-  "explanation": "Never remove chips or measure the job while the cutter is rotating.",
-  "source": "theory",
-  "ref": "Theory: Hajra Choudhury",
-  "tags": [],
-  "facts": [
-   "MIL-F119"
-  ]
- },
- {
-  "id": "MIL-0150",
+  "id": "MIL-0146",
   "shop": "milling",
   "category": "precautions",
   "difficulty": "medium",
@@ -3315,9 +3227,9 @@
   "question": "Which of these is NOT a milling-shop precaution?",
   "options": [
    "Turn the index crank backwards to correct a mistake",
-   "Stay alert during fixing and cutting",
    "Wear safety shoes and apron",
-   "Keep a proper distance from the running machine"
+   "Keep a proper distance from the running machine",
+   "Stay alert during fixing and cutting"
   ],
   "answer": 0,
   "explanation": "Reversing the crank causes backlash errors. The other three are precautions on the milling log sheets.",
@@ -3332,19 +3244,19 @@
   ]
  },
  {
-  "id": "MIL-0151",
+  "id": "MIL-0147",
   "shop": "milling",
   "category": "applications",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Which is a typical application of milling?",
   "options": [
-   "Cutting internal threads by hand",
-   "Cutting gears, keyways and slots",
+   "Electroplating parts",
    "Turning long shafts",
-   "Electroplating parts"
+   "Cutting internal threads by hand",
+   "Cutting gears, keyways and slots"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "Milling is used for gears, keyways, slots, flat surfaces of machine parts and dies.",
   "source": "lab",
   "ref": "Milling TA slides s.15–16",
@@ -3354,7 +3266,7 @@
   ]
  },
  {
-  "id": "MIL-0152",
+  "id": "MIL-0148",
   "shop": "milling",
   "category": "operations",
   "difficulty": "hard",
@@ -3378,7 +3290,7 @@
   "keepOrder": true
  },
  {
-  "id": "MIL-0153",
+  "id": "MIL-0149",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "hard",
@@ -3402,7 +3314,7 @@
   "keepOrder": true
  },
  {
-  "id": "MIL-0154",
+  "id": "MIL-0150",
   "shop": "milling",
   "category": "process-parameters",
   "difficulty": "hard",
@@ -3425,7 +3337,7 @@
   "keepOrder": true
  },
  {
-  "id": "MIL-0155",
+  "id": "MIL-0151",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "medium",
@@ -3447,7 +3359,7 @@
   "keepOrder": true
  },
  {
-  "id": "MIL-0156",
+  "id": "MIL-0152",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "easy",
@@ -3469,7 +3381,7 @@
   "keepOrder": true
  },
  {
-  "id": "MIL-0157",
+  "id": "MIL-0153",
   "shop": "milling",
   "category": "workpiece-material",
   "difficulty": "easy",
@@ -3490,19 +3402,19 @@
   "keepOrder": true
  },
  {
-  "id": "MIL-0158",
+  "id": "MIL-0154",
   "shop": "milling",
   "category": "machine-parts",
   "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled A?",
   "options": [
-   "Arbor",
-   "Arbor support",
-   "Knee",
-   "Base"
+   "Elevating screw",
+   "Spindle",
+   "Base",
+   "Knee"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "A = Base. Heavy foundation casting supporting the whole machine.",
   "source": "lab",
   "ref": "Milling lecture slide 18",
@@ -3515,19 +3427,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0159",
+  "id": "MIL-0155",
   "shop": "milling",
   "category": "machine-parts",
   "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled B?",
   "options": [
-   "Milling cutter",
+   "Elevating screw",
+   "Arbor support",
    "Column",
-   "Saddle",
-   "Arbor"
+   "Knee"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "B = Column. Main vertical casting housing the spindle drive; carries the overarm.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
@@ -3540,16 +3452,16 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0160",
+  "id": "MIL-0156",
   "shop": "milling",
   "category": "machine-parts",
   "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled C?",
   "options": [
-   "Column",
+   "Overarm (overhanging arm)",
    "Arbor support",
-   "Table",
+   "Column",
    "Knee"
   ],
   "answer": 3,
@@ -3565,19 +3477,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0161",
+  "id": "MIL-0157",
   "shop": "milling",
   "category": "machine-parts",
   "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled D?",
   "options": [
+   "Elevating screw",
    "Saddle",
-   "Knee",
-   "Milling cutter",
-   "Elevating screw"
+   "Base",
+   "Knee"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "D = Saddle. Moves on the knee towards or away from the column (cross feed).",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
@@ -3590,19 +3502,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0162",
+  "id": "MIL-0158",
   "shop": "milling",
   "category": "machine-parts",
   "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled E?",
   "options": [
-   "Arbor",
-   "Base",
    "Table",
-   "Arbor support"
+   "Overarm (overhanging arm)",
+   "Column",
+   "Saddle"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "E = Table. Carries the work and moves longitudinally on the saddle.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
@@ -3615,17 +3527,17 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0163",
+  "id": "MIL-0159",
   "shop": "milling",
   "category": "machine-parts",
   "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled F?",
   "options": [
-   "Saddle",
+   "Knee",
    "Arbor",
-   "Column",
-   "Overarm (overhanging arm)"
+   "Elevating screw",
+   "Saddle"
   ],
   "answer": 1,
   "explanation": "F = Arbor. Horizontal shaft on which the milling cutters are mounted.",
@@ -3640,7 +3552,7 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0164",
+  "id": "MIL-0160",
   "shop": "milling",
   "category": "machine-parts",
   "difficulty": "easy",
@@ -3648,9 +3560,9 @@
   "question": "In the figure, what is the part labelled G?",
   "options": [
    "Overarm (overhanging arm)",
-   "Saddle",
-   "Knee",
-   "Elevating screw"
+   "Arbor",
+   "Elevating screw",
+   "Milling cutter"
   ],
   "answer": 0,
   "explanation": "G = Overarm (overhanging arm). Arm on top of the column that carries the arbor support.",
@@ -3665,16 +3577,16 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0165",
+  "id": "MIL-0161",
   "shop": "milling",
   "category": "machine-parts",
   "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled H?",
   "options": [
-   "Table",
-   "Knee",
    "Base",
+   "Milling cutter",
+   "Arbor",
    "Arbor support"
   ],
   "answer": 3,
@@ -3690,15 +3602,15 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0166",
+  "id": "MIL-0162",
   "shop": "milling",
   "category": "machine-parts",
   "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled I?",
   "options": [
-   "Arbor support",
-   "Arbor",
+   "Base",
+   "Elevating screw",
    "Spindle",
    "Knee"
   ],
@@ -3715,19 +3627,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0167",
+  "id": "MIL-0163",
   "shop": "milling",
   "category": "machine-parts",
   "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled J?",
   "options": [
+   "Arbor",
    "Milling cutter",
-   "Base",
-   "Spindle",
-   "Overarm (overhanging arm)"
+   "Knee",
+   "Spindle"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "J = Milling cutter. Rotating multi-point tool that removes metal.",
   "source": "lab",
   "ref": "Milling lecture slide 3",
@@ -3740,19 +3652,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0168",
+  "id": "MIL-0164",
   "shop": "milling",
   "category": "machine-parts",
   "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled K?",
   "options": [
-   "Arbor",
-   "Overarm (overhanging arm)",
-   "Elevating screw",
-   "Column"
+   "Spindle",
+   "Knee",
+   "Arbor support",
+   "Elevating screw"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "K = Elevating screw. Raises and lowers the knee.",
   "source": "lab",
   "ref": "Milling wall chart",
@@ -3765,19 +3677,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0169",
+  "id": "MIL-0165",
   "shop": "milling",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, which label shows the knee?",
   "options": [
-   "A",
-   "D",
-   "I",
-   "C"
+   "F",
+   "H",
+   "C",
+   "I"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "C = Knee. Slides up and down on the column (vertical feed) and carries the saddle and table.",
   "source": "lab",
   "ref": "Milling wall chart",
@@ -3790,19 +3702,19 @@
   "ask": "which"
  },
  {
-  "id": "MIL-0170",
+  "id": "MIL-0166",
   "shop": "milling",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, which label shows the arbor?",
   "options": [
-   "B",
    "F",
-   "H",
-   "I"
+   "C",
+   "E",
+   "G"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "F = Arbor. Horizontal shaft on which the milling cutters are mounted.",
   "source": "lab",
   "ref": "Milling wall chart",
@@ -3815,16 +3727,16 @@
   "ask": "which"
  },
  {
-  "id": "MIL-0171",
+  "id": "MIL-0167",
   "shop": "milling",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, which label shows the overarm (overhanging arm)?",
   "options": [
-   "H",
-   "C",
-   "J",
+   "B",
+   "F",
+   "K",
    "G"
   ],
   "answer": 3,
@@ -3840,19 +3752,19 @@
   "ask": "which"
  },
  {
-  "id": "MIL-0172",
+  "id": "MIL-0168",
   "shop": "milling",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, which label shows the arbor support?",
   "options": [
-   "A",
+   "B",
+   "I",
    "H",
-   "C",
-   "J"
+   "F"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "H = Arbor support. Supports the outer end of the arbor to keep it rigid.",
   "source": "lab",
   "ref": "Milling wall chart",
@@ -3865,19 +3777,19 @@
   "ask": "which"
  },
  {
-  "id": "MIL-0173",
+  "id": "MIL-0169",
   "shop": "milling",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, which label shows the elevating screw?",
   "options": [
-   "B",
-   "G",
    "K",
-   "E"
+   "G",
+   "C",
+   "I"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "K = Elevating screw. Raises and lowers the knee.",
   "source": "lab",
   "ref": "Milling wall chart",
@@ -3890,19 +3802,19 @@
   "ask": "which"
  },
  {
-  "id": "MIL-0174",
+  "id": "MIL-0170",
   "shop": "milling",
   "category": "machine-parts",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, what is the function of the part labelled D?",
   "options": [
+   "Heavy foundation casting supporting the whole machine",
    "Moves on the knee towards or away from the column (cross feed)",
-   "Rotating spindle in the column that drives the arbor and cutter",
-   "Carries the work and moves longitudinally on the saddle",
-   "Arm on top of the column that carries the arbor support"
+   "Supports the outer end of the arbor to keep it rigid",
+   "Raises and lowers the knee"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "D = Saddle. Moves on the knee towards or away from the column (cross feed).",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
@@ -3915,7 +3827,7 @@
   "ask": "function"
  },
  {
-  "id": "MIL-0175",
+  "id": "MIL-0171",
   "shop": "milling",
   "category": "machine-parts",
   "difficulty": "medium",
@@ -3923,9 +3835,9 @@
   "question": "In the figure, what is the function of the part labelled H?",
   "options": [
    "Supports the outer end of the arbor to keep it rigid",
-   "Main vertical casting housing the spindle drive; carries the overarm",
-   "Carries the work and moves longitudinally on the saddle",
-   "Horizontal shaft on which the milling cutters are mounted"
+   "Raises and lowers the knee",
+   "Slides up and down on the column (vertical feed) and carries the saddle and table",
+   "Rotating multi-point tool that removes metal"
   ],
   "answer": 0,
   "explanation": "H = Arbor support. Supports the outer end of the arbor to keep it rigid.",
@@ -3940,19 +3852,19 @@
   "ask": "function"
  },
  {
-  "id": "MIL-0176",
+  "id": "MIL-0172",
   "shop": "milling",
   "category": "machine-parts",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, what is the function of the part labelled F?",
   "options": [
+   "Rotating spindle in the column that drives the arbor and cutter",
    "Moves on the knee towards or away from the column (cross feed)",
-   "Horizontal shaft on which the milling cutters are mounted",
-   "Raises and lowers the knee",
-   "Slides up and down on the column (vertical feed) and carries the saddle and table"
+   "Arm on top of the column that carries the arbor support",
+   "Horizontal shaft on which the milling cutters are mounted"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "F = Arbor. Horizontal shaft on which the milling cutters are mounted.",
   "source": "lab",
   "ref": "Milling wall chart",
@@ -3965,19 +3877,19 @@
   "ask": "function"
  },
  {
-  "id": "MIL-0177",
+  "id": "MIL-0173",
   "shop": "milling",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled A?",
   "options": [
-   "End mill",
-   "Knee",
+   "Ram (overarm)",
    "Milling head",
-   "Base"
+   "Table",
+   "Column"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "A = Milling head. Carries the vertical spindle and its drive.",
   "source": "lab",
   "ref": "Milling lecture slide 19",
@@ -3990,19 +3902,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0178",
+  "id": "MIL-0174",
   "shop": "milling",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled B?",
   "options": [
-   "Table",
-   "Spindle (quill)",
+   "Column",
    "Base",
-   "Ram (overarm)"
+   "Ram (overarm)",
+   "Knee"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "B = Ram (overarm). Arm on the column that carries the head; can be moved in and out.",
   "source": "lab",
   "ref": "Milling lecture slide 19",
@@ -4015,19 +3927,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0179",
+  "id": "MIL-0175",
   "shop": "milling",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled C?",
   "options": [
+   "Knee",
+   "Ram (overarm)",
    "Spindle (quill)",
-   "Base",
-   "Milling head",
    "Table"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "C = Spindle (quill). Vertical spindle that holds and rotates the end mill.",
   "source": "lab",
   "ref": "Milling lecture slide 19",
@@ -4040,19 +3952,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0180",
+  "id": "MIL-0176",
   "shop": "milling",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled I?",
   "options": [
-   "Table",
-   "Ram (overarm)",
    "End mill",
-   "Spindle (quill)"
+   "Spindle (quill)",
+   "Ram (overarm)",
+   "Column"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "I = End mill. Cutter with teeth on its end and periphery, used for slots and faces.",
   "source": "lab",
   "ref": "Milling TA slides s.16",
@@ -4065,19 +3977,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0181",
+  "id": "MIL-0177",
   "shop": "milling",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled F?",
   "options": [
    "Base",
-   "Ram (overarm)",
-   "Saddle",
-   "Knee"
+   "Knee",
+   "Milling head",
+   "Spindle (quill)"
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "F = Knee. Moves vertically on the column to raise or lower the work.",
   "source": "lab",
   "ref": "Milling wall chart",
@@ -4090,19 +4002,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0182",
+  "id": "MIL-0178",
   "shop": "milling",
   "category": "operations",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "Which milling method is shown in panel A?",
   "options": [
-   "Up (conventional) milling",
-   "Down (climb) milling",
+   "Gang milling",
    "Face milling",
-   "Gang milling"
+   "Up (conventional) milling",
+   "Down (climb) milling"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "A = Down (climb) milling. Cutter teeth move in the same direction as the feed at the cut; chip thickness is maximum at the start.",
   "source": "lab",
   "ref": "Milling lecture slide 6",
@@ -4115,19 +4027,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0183",
+  "id": "MIL-0179",
   "shop": "milling",
   "category": "operations",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "Which milling method is shown in panel B?",
   "options": [
    "Gang milling",
-   "Down (climb) milling",
    "Up (conventional) milling",
+   "Down (climb) milling",
    "Face milling"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "B = Up (conventional) milling. Cutter rotation opposes the feed; chip thickness starts at zero and is maximum at the end.",
   "source": "lab",
   "ref": "Milling lecture slide 4",
@@ -4140,19 +4052,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0184",
+  "id": "MIL-0180",
   "shop": "milling",
   "category": "operations",
   "difficulty": "hard",
   "type": "diagram",
   "question": "In panel A of the figure (cutter rotating clockwise), how does the chip thickness vary during each tooth's cut?",
   "options": [
-   "Maximum at entry, decreasing to minimum at exit",
-   "Constant throughout",
    "Zero throughout",
-   "Zero at entry, increasing to maximum at exit"
+   "Constant throughout",
+   "Zero at entry, increasing to maximum at exit",
+   "Maximum at entry, decreasing to minimum at exit"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "Panel A is down (climb) milling: the teeth move with the feed and enter the uncut stock at full chip thickness.",
   "source": "lab",
   "ref": "Milling lecture slide 6",
@@ -4163,19 +4075,19 @@
   "figure": "milling/up-down"
  },
  {
-  "id": "MIL-0185",
+  "id": "MIL-0181",
   "shop": "milling",
   "category": "operations",
   "difficulty": "hard",
   "type": "diagram",
   "question": "In panel B of the figure, the cutter rotates clockwise and the table moves to the right. Why is this up milling?",
   "options": [
-   "At the cut, the teeth move with the table feed",
    "At the cut, the teeth move opposite to the table feed",
-   "The cutter axis is vertical",
-   "Two cutters are used"
+   "At the cut, the teeth move with the table feed",
+   "Two cutters are used",
+   "The cutter axis is vertical"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "With clockwise rotation, the bottom teeth move left while the work feeds right, so the cutter opposes the feed: up (conventional) milling.",
   "source": "lab",
   "ref": "Milling lecture slide 4",
@@ -4186,19 +4098,19 @@
   "figure": "milling/up-down"
  },
  {
-  "id": "MIL-0186",
+  "id": "MIL-0182",
   "shop": "milling",
   "category": "tools-equipment",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "Which milling cutter is shown in panel A?",
   "options": [
    "Ball-nose end mill",
-   "Side-and-face cutter",
-   "Fly cutter",
-   "Plain (slab) helical cutter"
+   "Dovetail cutter",
+   "Plain (slab) helical cutter",
+   "Slitting saw"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "A = Plain (slab) helical cutter. Machining wide flat surfaces with the periphery teeth (slab milling).",
   "source": "lab",
   "ref": "Milling TA slides s.15",
@@ -4211,19 +4123,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0187",
+  "id": "MIL-0183",
   "shop": "milling",
   "category": "tools-equipment",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "Which milling cutter is shown in panel B?",
   "options": [
-   "Side-and-face cutter",
-   "Dovetail cutter",
-   "End mill",
-   "Ball-nose end mill"
+   "T-slot cutter",
+   "Fly cutter",
+   "Slitting saw",
+   "Side-and-face cutter"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "B = Side-and-face cutter. Cutting slots, steps and two parallel faces (straddle milling); cuts on periphery and both sides.",
   "source": "lab",
   "ref": "Milling wall chart",
@@ -4236,15 +4148,15 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0188",
+  "id": "MIL-0184",
   "shop": "milling",
   "category": "tools-equipment",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "Which milling cutter is shown in panel C?",
   "options": [
-   "Slitting saw",
-   "Dovetail cutter",
+   "Ball-nose end mill",
+   "Plain (slab) helical cutter",
    "End mill",
    "Fly cutter"
   ],
@@ -4261,19 +4173,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0189",
+  "id": "MIL-0185",
   "shop": "milling",
   "category": "tools-equipment",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "Which milling cutter is shown in panel D?",
   "options": [
+   "Slitting saw",
    "Dovetail cutter",
-   "T-slot cutter",
-   "Ball-nose end mill",
-   "Slitting saw"
+   "Side-and-face cutter",
+   "Ball-nose end mill"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "D = Slitting saw. Very thin cutter for narrow slots and cutting off.",
   "source": "lab",
   "ref": "Milling TA slides s.15",
@@ -4286,17 +4198,17 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0190",
+  "id": "MIL-0186",
   "shop": "milling",
   "category": "tools-equipment",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "Which milling cutter is shown in panel E?",
   "options": [
-   "Ball-nose end mill",
+   "Slitting saw",
    "T-slot cutter",
-   "Plain (slab) helical cutter",
-   "End mill"
+   "End mill",
+   "Dovetail cutter"
   ],
   "answer": 1,
   "explanation": "E = T-slot cutter. Cutting T-slots such as those in machine tables.",
@@ -4311,19 +4223,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0191",
+  "id": "MIL-0187",
   "shop": "milling",
   "category": "tools-equipment",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "Which milling cutter is shown in panel F?",
   "options": [
-   "T-slot cutter",
-   "Slitting saw",
    "End mill",
-   "Involute gear cutter"
+   "Dovetail cutter",
+   "Involute gear cutter",
+   "Fly cutter"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "F = Involute gear cutter. Form cutter whose tooth profile matches the gear tooth space; used to cut spur gears.",
   "source": "lab",
   "ref": "Milling TA slides s.14",
@@ -4336,7 +4248,7 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0192",
+  "id": "MIL-0188",
   "shop": "milling",
   "category": "tools-equipment",
   "difficulty": "medium",
@@ -4345,8 +4257,8 @@
   "options": [
    "F",
    "C",
-   "A",
-   "B"
+   "B",
+   "A"
   ],
   "answer": 0,
   "explanation": "F is the involute gear (form) cutter; its tooth profile matches the gear tooth space.",
@@ -4359,19 +4271,19 @@
   "figure": "milling/cutters"
  },
  {
-  "id": "MIL-0193",
+  "id": "MIL-0189",
   "shop": "milling",
   "category": "tools-equipment",
   "difficulty": "hard",
   "type": "diagram",
   "question": "Which cutter in the figure is used on a vertical milling machine to cut slots and pockets with its end?",
   "options": [
-   "D",
-   "A",
+   "B",
    "C",
-   "B"
+   "D",
+   "A"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "C is the end mill, which cuts on its end and sides. A (slab) and B (side-and-face) are arbor-mounted cutters for horizontal machines.",
   "source": "lab",
   "ref": "Milling TA slides s.16; Milling lecture slide 19",
@@ -4383,19 +4295,19 @@
   "figure": "milling/cutters"
  },
  {
-  "id": "MIL-0194",
+  "id": "MIL-0190",
   "shop": "milling",
   "category": "tools-equipment",
   "difficulty": "medium",
   "type": "diagram",
   "question": "Which cutter in the figure would be used for slab milling of a wide flat surface?",
   "options": [
-   "C",
-   "A",
    "D",
-   "E"
+   "E",
+   "C",
+   "A"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "A is a helical plain (slab) cutter that cuts with its periphery.",
   "source": "lab",
   "ref": "Milling lecture slide 9; Milling TA slides s.15",
@@ -4407,7 +4319,7 @@
   "figure": "milling/cutters"
  },
  {
-  "id": "MIL-0195",
+  "id": "MIL-0191",
   "shop": "milling",
   "category": "tools-equipment",
   "difficulty": "medium",
@@ -4415,11 +4327,11 @@
   "question": "A pair of the cutters in panel B, mounted with spacers, would be used for which set-up?",
   "options": [
    "Face milling",
-   "End milling",
    "Straddle milling",
-   "Form milling"
+   "Form milling",
+   "End milling"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "Two side-and-face cutters separated by spacing collars machine two parallel faces at once: straddle milling.",
   "source": "lab",
   "ref": "Milling lecture slide 12; Milling wall chart",
@@ -4431,16 +4343,16 @@
   "figure": "milling/cutters"
  },
  {
-  "id": "MIL-0196",
+  "id": "MIL-0192",
   "shop": "milling",
   "category": "operations",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "Which milling set-up is shown in panel A?",
   "options": [
+   "Form milling",
    "Face milling",
    "Gang milling",
-   "Form milling",
    "Straddle milling"
   ],
   "answer": 3,
@@ -4456,19 +4368,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0197",
+  "id": "MIL-0193",
   "shop": "milling",
   "category": "operations",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "Which milling set-up is shown in panel B?",
   "options": [
-   "Gang milling",
+   "Form milling",
    "Straddle milling",
-   "Face milling",
-   "Form milling"
+   "Gang milling",
+   "Face milling"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "B = Gang milling. Several cutters of different sizes on one arbor machine several surfaces simultaneously.",
   "source": "lab",
   "ref": "Milling lecture slide 14",
@@ -4481,19 +4393,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0198",
+  "id": "MIL-0194",
   "shop": "milling",
   "category": "gears-indexing",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled A?",
   "options": [
-   "Index pin (plunger)",
    "Index plate",
+   "Tailstock",
    "Index crank",
-   "Tailstock"
+   "Index pin (plunger)"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "A = Index plate. Plate with circles of equally spaced holes used to count crank movement.",
   "source": "lab",
   "ref": "Milling lecture slide 22",
@@ -4506,19 +4418,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0199",
+  "id": "MIL-0195",
   "shop": "milling",
   "category": "gears-indexing",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled B?",
   "options": [
-   "Worm wheel (40 teeth)",
-   "Work spindle / mandrel",
+   "Sector arms",
    "Index crank",
-   "Worm (single start)"
+   "Worm (single start)",
+   "Worm wheel (40 teeth)"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "B = Index crank. Handle turned to rotate the worm; 40 turns = one turn of the work.",
   "source": "lab",
   "ref": "Manufacturing notes p.3",
@@ -4531,19 +4443,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0200",
+  "id": "MIL-0196",
   "shop": "milling",
   "category": "gears-indexing",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled C?",
   "options": [
-   "Tailstock",
-   "Index pin (plunger)",
+   "Worm wheel (40 teeth)",
    "Index crank",
-   "Worm (single start)"
+   "Tailstock",
+   "Index pin (plunger)"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "C = Index pin (plunger). Engages a hole of the selected circle to lock the crank.",
   "source": "lab",
   "ref": "Milling lecture slide 22",
@@ -4556,19 +4468,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0201",
+  "id": "MIL-0197",
   "shop": "milling",
   "category": "gears-indexing",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled D?",
   "options": [
-   "Worm (single start)",
-   "Tailstock",
-   "Index crank",
-   "Sector arms"
+   "Index plate",
+   "Worm wheel (40 teeth)",
+   "Sector arms",
+   "Index crank"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "D = Sector arms. Set to span the required number of holes so they need not be counted each time.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
@@ -4581,17 +4493,17 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0202",
+  "id": "MIL-0198",
   "shop": "milling",
   "category": "gears-indexing",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled E?",
   "options": [
    "Worm (single start)",
-   "Sector arms",
+   "Index plate",
    "Work spindle / mandrel",
-   "Tailstock"
+   "Worm wheel (40 teeth)"
   ],
   "answer": 0,
   "explanation": "E = Worm (single start). Driven by the crank; turns the worm wheel one tooth per revolution.",
@@ -4606,19 +4518,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0203",
+  "id": "MIL-0199",
   "shop": "milling",
   "category": "gears-indexing",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled F?",
   "options": [
+   "Index crank",
+   "Index pin (plunger)",
    "Worm wheel (40 teeth)",
-   "Sector arms",
-   "Work spindle / mandrel",
    "Index plate"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "F = Worm wheel (40 teeth). Fixed to the work spindle; gives the 40 : 1 reduction.",
   "source": "lab",
   "ref": "Milling lecture slide 22, s.25",
@@ -4631,19 +4543,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0204",
+  "id": "MIL-0200",
   "shop": "milling",
   "category": "gears-indexing",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled G?",
   "options": [
-   "Worm wheel (40 teeth)",
    "Work spindle / mandrel",
-   "Index plate",
-   "Index crank"
+   "Tailstock",
+   "Sector arms",
+   "Worm (single start)"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "G = Work spindle / mandrel. Carries the gear blank and rotates it by the indexed amount.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.9",
@@ -4656,16 +4568,16 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0205",
+  "id": "MIL-0201",
   "shop": "milling",
   "category": "gears-indexing",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled H?",
   "options": [
-   "Worm (single start)",
-   "Index pin (plunger)",
-   "Index plate",
+   "Sector arms",
+   "Worm wheel (40 teeth)",
+   "Work spindle / mandrel",
    "Tailstock"
   ],
   "answer": 3,
@@ -4681,19 +4593,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0206",
+  "id": "MIL-0202",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, what is the function of the part labelled A?",
   "options": [
-   "Handle turned to rotate the worm; 40 turns = one turn of the work",
-   "Supports the outer end of the mandrel",
+   "Driven by the crank; turns the worm wheel one tooth per revolution",
    "Plate with circles of equally spaced holes used to count crank movement",
-   "Carries the gear blank and rotates it by the indexed amount"
+   "Carries the gear blank and rotates it by the indexed amount",
+   "Handle turned to rotate the worm; 40 turns = one turn of the work"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "A = Index plate. Plate with circles of equally spaced holes used to count crank movement.",
   "source": "lab",
   "ref": "Milling lecture slide 22",
@@ -4706,19 +4618,19 @@
   "ask": "function"
  },
  {
-  "id": "MIL-0207",
+  "id": "MIL-0203",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, what is the function of the part labelled B?",
   "options": [
-   "Carries the gear blank and rotates it by the indexed amount",
+   "Fixed to the work spindle; gives the 40 : 1 reduction",
+   "Set to span the required number of holes so they need not be counted each time",
    "Handle turned to rotate the worm; 40 turns = one turn of the work",
-   "Supports the outer end of the mandrel",
-   "Engages a hole of the selected circle to lock the crank"
+   "Carries the gear blank and rotates it by the indexed amount"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "B = Index crank. Handle turned to rotate the worm; 40 turns = one turn of the work.",
   "source": "lab",
   "ref": "Manufacturing notes p.3",
@@ -4731,19 +4643,19 @@
   "ask": "function"
  },
  {
-  "id": "MIL-0208",
+  "id": "MIL-0204",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, what is the function of the part labelled D?",
   "options": [
+   "Carries the gear blank and rotates it by the indexed amount",
    "Set to span the required number of holes so they need not be counted each time",
-   "Engages a hole of the selected circle to lock the crank",
-   "Fixed to the work spindle; gives the 40 : 1 reduction",
-   "Handle turned to rotate the worm; 40 turns = one turn of the work"
+   "Driven by the crank; turns the worm wheel one tooth per revolution",
+   "Plate with circles of equally spaced holes used to count crank movement"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "D = Sector arms. Set to span the required number of holes so they need not be counted each time.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
@@ -4756,7 +4668,7 @@
   "ask": "function"
  },
  {
-  "id": "MIL-0209",
+  "id": "MIL-0205",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "medium",
@@ -4764,11 +4676,11 @@
   "question": "In the figure, what is the function of the part labelled F?",
   "options": [
    "Driven by the crank; turns the worm wheel one tooth per revolution",
-   "Set to span the required number of holes so they need not be counted each time",
-   "Fixed to the work spindle; gives the 40 : 1 reduction",
-   "Carries the gear blank and rotates it by the indexed amount"
+   "Supports the outer end of the mandrel",
+   "Plate with circles of equally spaced holes used to count crank movement",
+   "Fixed to the work spindle; gives the 40 : 1 reduction"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "F = Worm wheel (40 teeth). Fixed to the work spindle; gives the 40 : 1 reduction.",
   "source": "lab",
   "ref": "Milling lecture slide 22, s.25",
@@ -4781,19 +4693,19 @@
   "ask": "function"
  },
  {
-  "id": "MIL-0210",
+  "id": "MIL-0206",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "medium",
   "type": "numerical",
   "question": "The figure shows the 33-hole circle used for the ME-106 22-tooth gear. After the full turn, the sector arms span how many hole spaces?",
   "options": [
+   "27",
    "33",
    "18",
-   "9",
-   "27"
+   "9"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "40/22 = 1 9/11 = 1 27/33, so the sector arms are set to 27 spaces on the 33-hole circle.",
   "source": "lab",
   "ref": "Milling blackboard",
@@ -4804,7 +4716,7 @@
   "figure": "milling/index-plate-33"
  },
  {
-  "id": "MIL-0211",
+  "id": "MIL-0207",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "hard",
@@ -4812,11 +4724,11 @@
   "question": "Using the 33-hole circle in the figure, how many full crank turns are made before the extra hole spaces for each tooth of the ME-106 gear?",
   "options": [
    "2",
-   "1",
    "22",
-   "0"
+   "0",
+   "1"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "40/22 = 1.818…, i.e. 1 full turn plus 27/33 of a turn.",
   "source": "lab",
   "ref": "Milling blackboard; Milling lecture slide 25",
@@ -4828,17 +4740,17 @@
   "figure": "milling/index-plate-33"
  },
  {
-  "id": "MIL-0212",
+  "id": "MIL-0208",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "hard",
   "type": "numerical",
   "question": "If the 33-hole circle in the figure were used for an 11-tooth gear, the move per division would be…",
   "options": [
-   "1 full turn + 27 holes",
+   "4 full turns",
    "3 full turns + 7 holes",
    "3 full turns + 21 holes",
-   "4 full turns"
+   "1 full turn + 27 holes"
   ],
   "answer": 2,
   "explanation": "40/11 = 3 7/11 = 3 21/33, so 3 turns + 21 holes on the 33-hole circle.",
@@ -4852,19 +4764,19 @@
   "figure": "milling/index-plate-33"
  },
  {
-  "id": "MIL-0213",
+  "id": "MIL-0209",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "hard",
   "type": "numerical",
   "question": "The figure shows a 21-hole circle used for a 14-tooth practice gear. How many extra holes beyond the full turns?",
   "options": [
-   "21",
+   "18",
    "14",
    "6",
-   "18"
+   "21"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "40/14 = 2 6/7 = 2 18/21, so 2 full turns + 18 holes.",
   "source": "lab",
   "ref": "Manufacturing notes p.3–4",
@@ -4875,19 +4787,19 @@
   "figure": "milling/index-plate-21"
  },
  {
-  "id": "MIL-0214",
+  "id": "MIL-0210",
   "shop": "milling",
   "category": "gears-indexing",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled A?",
   "options": [
+   "Circular pitch",
    "Addendum",
-   "Dedendum",
-   "Whole depth",
-   "Tooth thickness (on pitch circle)"
+   "Root (dedendum) circle",
+   "Whole depth"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "A = Addendum. Radial height of the tooth above the pitch circle = 1/DP.",
   "source": "theory",
   "ref": "Theory: Machinery's Handbook",
@@ -4900,19 +4812,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0215",
+  "id": "MIL-0211",
   "shop": "milling",
   "category": "gears-indexing",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled B?",
   "options": [
-   "Root (dedendum) circle",
-   "Addendum",
+   "Tooth thickness (on pitch circle)",
    "Dedendum",
-   "Outside (addendum) circle"
+   "Root (dedendum) circle",
+   "Addendum"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "B = Dedendum. Radial depth of the tooth below the pitch circle = 1.157/DP.",
   "source": "theory",
   "ref": "Theory: Machinery's Handbook",
@@ -4925,19 +4837,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0216",
+  "id": "MIL-0212",
   "shop": "milling",
   "category": "gears-indexing",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled C?",
   "options": [
-   "Whole depth",
-   "Dedendum",
    "Addendum",
-   "Pitch circle"
+   "Circular pitch",
+   "Pitch circle",
+   "Outside (addendum) circle"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "C = Pitch circle. Imaginary circle on which mating gears roll; diameter = N/DP.",
   "source": "theory",
   "ref": "Theory: Machinery's Handbook",
@@ -4950,19 +4862,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0217",
+  "id": "MIL-0213",
   "shop": "milling",
   "category": "gears-indexing",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled D?",
   "options": [
-   "Outside (addendum) circle",
-   "Dedendum",
+   "Addendum",
+   "Whole depth",
    "Tooth thickness (on pitch circle)",
-   "Pitch circle"
+   "Outside (addendum) circle"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "D = Outside (addendum) circle. Circle through the tooth tips; diameter OD = (N + 2)/DP.",
   "source": "lab",
   "ref": "Manufacturing notes p.3",
@@ -4975,19 +4887,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0218",
+  "id": "MIL-0214",
   "shop": "milling",
   "category": "gears-indexing",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled E?",
   "options": [
-   "Pitch circle",
    "Root (dedendum) circle",
-   "Dedendum",
-   "Addendum"
+   "Outside (addendum) circle",
+   "Addendum",
+   "Pitch circle"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "E = Root (dedendum) circle. Circle through the bottoms of the tooth spaces.",
   "source": "theory",
   "ref": "Theory: Machinery's Handbook",
@@ -5000,19 +4912,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0219",
+  "id": "MIL-0215",
   "shop": "milling",
   "category": "gears-indexing",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled F?",
   "options": [
-   "Circular pitch",
    "Tooth thickness (on pitch circle)",
-   "Addendum",
-   "Pitch circle"
+   "Whole depth",
+   "Circular pitch",
+   "Dedendum"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "F = Circular pitch. Distance between corresponding points of adjacent teeth along the pitch circle = π/DP.",
   "source": "theory",
   "ref": "Theory: Machinery's Handbook",
@@ -5025,19 +4937,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0220",
+  "id": "MIL-0216",
   "shop": "milling",
   "category": "gears-indexing",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled G?",
   "options": [
    "Root (dedendum) circle",
-   "Addendum",
-   "Whole depth",
-   "Dedendum"
+   "Dedendum",
+   "Pitch circle",
+   "Whole depth"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "G = Whole depth. Total depth of the tooth space = addendum + dedendum = 2.157/DP.",
   "source": "theory",
   "ref": "Theory: Machinery's Handbook",
@@ -5050,19 +4962,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0221",
+  "id": "MIL-0217",
   "shop": "milling",
   "category": "gears-indexing",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled H?",
   "options": [
-   "Dedendum",
-   "Root (dedendum) circle",
+   "Tooth thickness (on pitch circle)",
+   "Pitch circle",
    "Addendum",
-   "Tooth thickness (on pitch circle)"
+   "Whole depth"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "H = Tooth thickness (on pitch circle). Width of a tooth measured along the pitch circle = π/(2·DP).",
   "source": "theory",
   "ref": "Theory: Machinery's Handbook",
@@ -5075,17 +4987,17 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0222",
+  "id": "MIL-0218",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "hard",
   "type": "diagram",
   "question": "In the figure, what is the function of the part labelled A?",
   "options": [
-   "Width of a tooth measured along the pitch circle = π/(2·DP)",
+   "Imaginary circle on which mating gears roll; diameter = N/DP",
    "Radial height of the tooth above the pitch circle = 1/DP",
-   "Circle through the tooth tips; diameter OD = (N + 2)/DP",
-   "Imaginary circle on which mating gears roll; diameter = N/DP"
+   "Width of a tooth measured along the pitch circle = π/(2·DP)",
+   "Radial depth of the tooth below the pitch circle = 1.157/DP"
   ],
   "answer": 1,
   "explanation": "A = Addendum. Radial height of the tooth above the pitch circle = 1/DP.",
@@ -5100,19 +5012,19 @@
   "ask": "function"
  },
  {
-  "id": "MIL-0223",
+  "id": "MIL-0219",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "hard",
   "type": "diagram",
   "question": "In the figure, what is the function of the part labelled B?",
   "options": [
+   "Width of a tooth measured along the pitch circle = π/(2·DP)",
    "Radial depth of the tooth below the pitch circle = 1.157/DP",
-   "Circle through the tooth tips; diameter OD = (N + 2)/DP",
-   "Imaginary circle on which mating gears roll; diameter = N/DP",
-   "Circle through the bottoms of the tooth spaces"
+   "Distance between corresponding points of adjacent teeth along the pitch circle = π/DP",
+   "Circle through the tooth tips; diameter OD = (N + 2)/DP"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "B = Dedendum. Radial depth of the tooth below the pitch circle = 1.157/DP.",
   "source": "theory",
   "ref": "Theory: Machinery's Handbook",
@@ -5125,19 +5037,19 @@
   "ask": "function"
  },
  {
-  "id": "MIL-0224",
+  "id": "MIL-0220",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "hard",
   "type": "diagram",
   "question": "In the figure, what is the function of the part labelled D?",
   "options": [
-   "Circle through the bottoms of the tooth spaces",
-   "Distance between corresponding points of adjacent teeth along the pitch circle = π/DP",
    "Radial height of the tooth above the pitch circle = 1/DP",
-   "Circle through the tooth tips; diameter OD = (N + 2)/DP"
+   "Distance between corresponding points of adjacent teeth along the pitch circle = π/DP",
+   "Circle through the tooth tips; diameter OD = (N + 2)/DP",
+   "Total depth of the tooth space = addendum + dedendum = 2.157/DP"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "D = Outside (addendum) circle. Circle through the tooth tips; diameter OD = (N + 2)/DP.",
   "source": "lab",
   "ref": "Manufacturing notes p.3",
@@ -5150,19 +5062,19 @@
   "ask": "function"
  },
  {
-  "id": "MIL-0225",
+  "id": "MIL-0221",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "hard",
   "type": "diagram",
   "question": "In the figure, what is the function of the part labelled G?",
   "options": [
-   "Imaginary circle on which mating gears roll; diameter = N/DP",
-   "Circle through the tooth tips; diameter OD = (N + 2)/DP",
    "Total depth of the tooth space = addendum + dedendum = 2.157/DP",
-   "Width of a tooth measured along the pitch circle = π/(2·DP)"
+   "Radial depth of the tooth below the pitch circle = 1.157/DP",
+   "Imaginary circle on which mating gears roll; diameter = N/DP",
+   "Radial height of the tooth above the pitch circle = 1/DP"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "G = Whole depth. Total depth of the tooth space = addendum + dedendum = 2.157/DP.",
   "source": "theory",
   "ref": "Theory: Machinery's Handbook",
@@ -5175,19 +5087,19 @@
   "ask": "function"
  },
  {
-  "id": "MIL-0226",
+  "id": "MIL-0222",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "hard",
   "type": "diagram",
   "question": "In the figure, what is the function of the part labelled F?",
   "options": [
+   "Width of a tooth measured along the pitch circle = π/(2·DP)",
    "Radial height of the tooth above the pitch circle = 1/DP",
-   "Distance between corresponding points of adjacent teeth along the pitch circle = π/DP",
    "Radial depth of the tooth below the pitch circle = 1.157/DP",
-   "Width of a tooth measured along the pitch circle = π/(2·DP)"
+   "Distance between corresponding points of adjacent teeth along the pitch circle = π/DP"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "F = Circular pitch. Distance between corresponding points of adjacent teeth along the pitch circle = π/DP.",
   "source": "theory",
   "ref": "Theory: Machinery's Handbook",
@@ -5200,19 +5112,19 @@
   "ask": "function"
  },
  {
-  "id": "MIL-0227",
+  "id": "MIL-0223",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "easy",
   "type": "diagram",
   "question": "Which type of gear drive is shown in panel A?",
   "options": [
-   "Internal gear",
    "Spur gears",
+   "Rack and pinion",
    "Worm and worm wheel",
-   "Crossed helical gears"
+   "Bevel gears"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "A = Spur gears. Parallel shafts; straight teeth parallel to the axis.",
   "source": "theory",
   "ref": "Theory: Machinery's Handbook",
@@ -5225,19 +5137,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0228",
+  "id": "MIL-0224",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "easy",
   "type": "diagram",
   "question": "Which type of gear drive is shown in panel B?",
   "options": [
+   "Internal gear",
+   "Spiral bevel gears",
    "Helical gears",
-   "Bevel gears",
-   "Worm and worm wheel",
-   "Crossed helical gears"
+   "Double-helical (herringbone) gears"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "B = Helical gears. Parallel shafts; teeth inclined to the axis, smoother running with axial thrust.",
   "source": "theory",
   "ref": "Theory: Machinery's Handbook",
@@ -5250,19 +5162,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0229",
+  "id": "MIL-0225",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "easy",
   "type": "diagram",
   "question": "Which type of gear drive is shown in panel C?",
   "options": [
-   "Helical gears",
-   "Spur gears",
+   "Internal gear",
    "Double-helical (herringbone) gears",
-   "Worm and worm wheel"
+   "Worm and worm wheel",
+   "Crossed helical gears"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "C = Double-helical (herringbone) gears. Parallel shafts; opposite helices cancel the axial thrust.",
   "source": "theory",
   "ref": "Theory: Machinery's Handbook",
@@ -5275,16 +5187,16 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0230",
+  "id": "MIL-0226",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "easy",
   "type": "diagram",
   "question": "Which type of gear drive is shown in panel D?",
   "options": [
-   "Helical gears",
-   "Double-helical (herringbone) gears",
-   "Rack and pinion",
+   "Crossed helical gears",
+   "Internal gear",
+   "Spur gears",
    "Bevel gears"
   ],
   "answer": 3,
@@ -5300,19 +5212,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0231",
+  "id": "MIL-0227",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "easy",
   "type": "diagram",
   "question": "Which type of gear drive is shown in panel E?",
   "options": [
-   "Worm and worm wheel",
-   "Spur gears",
    "Double-helical (herringbone) gears",
-   "Internal gear"
+   "Bevel gears",
+   "Worm and worm wheel",
+   "Crossed helical gears"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "E = Worm and worm wheel. Non-intersecting shafts at 90°; large speed reduction.",
   "source": "lab",
   "ref": "Milling lecture slide 22",
@@ -5325,19 +5237,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0232",
+  "id": "MIL-0228",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "easy",
   "type": "diagram",
   "question": "Which type of gear drive is shown in panel F?",
   "options": [
-   "Double-helical (herringbone) gears",
-   "Rack and pinion",
+   "Worm and worm wheel",
+   "Internal gear",
    "Helical gears",
-   "Worm and worm wheel"
+   "Rack and pinion"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "F = Rack and pinion. Converts rotary motion into straight-line motion.",
   "source": "theory",
   "ref": "Theory: Machinery's Handbook",
@@ -5350,19 +5262,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0233",
+  "id": "MIL-0229",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "easy",
   "type": "diagram",
   "question": "Which type of gear drive is shown in panel G?",
   "options": [
-   "Crossed helical gears",
-   "Spur gears",
+   "Helical gears",
    "Internal gear",
-   "Helical gears"
+   "Spiral bevel gears",
+   "Rack and pinion"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "G = Internal gear. Teeth cut on the inside of a ring; meshes with a pinion on a parallel shaft.",
   "source": "theory",
   "ref": "Theory: Machinery's Handbook",
@@ -5375,19 +5287,19 @@
   "ask": "part"
  },
  {
-  "id": "MIL-0234",
+  "id": "MIL-0230",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, which panel shows gears on INTERSECTING shafts?",
   "options": [
-   "E",
+   "D",
    "A",
-   "G",
-   "D"
+   "E",
+   "G"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "D is a pair of bevel gears, whose shafts intersect (usually at 90°).",
   "source": "theory",
   "ref": "Theory: Machinery's Handbook",
@@ -5398,17 +5310,17 @@
   "figure": "milling/gear-types"
  },
  {
-  "id": "MIL-0235",
+  "id": "MIL-0231",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, which panel shows gears on non-intersecting shafts at right angles with a large speed reduction?",
   "options": [
+   "D",
    "F",
-   "B",
    "E",
-   "D"
+   "B"
   ],
   "answer": 2,
   "explanation": "E is a worm and worm wheel, the same type used inside the dividing head (40 : 1).",
@@ -5421,19 +5333,19 @@
   "figure": "milling/gear-types"
  },
  {
-  "id": "MIL-0236",
+  "id": "MIL-0232",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, which panel shows a drive that converts rotation into straight-line motion?",
   "options": [
-   "A",
+   "F",
    "G",
    "C",
-   "F"
+   "A"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "F is a rack and pinion.",
   "source": "theory",
   "ref": "Theory: Machinery's Handbook",
@@ -5444,16 +5356,16 @@
   "figure": "milling/gear-types"
  },
  {
-  "id": "MIL-0237",
+  "id": "MIL-0233",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "hard",
   "type": "diagram",
   "question": "In the figure, which panel shows parallel-shaft gears in which the axial thrust cancels out?",
   "options": [
-   "G",
-   "C",
    "B",
+   "C",
+   "G",
    "A"
   ],
   "answer": 1,
@@ -5468,19 +5380,19 @@
   "figure": "milling/gear-types"
  },
  {
-  "id": "MIL-0238",
+  "id": "MIL-0234",
   "shop": "milling",
   "category": "gears-indexing",
   "difficulty": "medium",
   "type": "diagram",
   "question": "Which panel in the figure shows the type of gear made in the ME-106 milling lab?",
   "options": [
-   "A",
+   "D",
    "E",
    "B",
-   "D"
+   "A"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "The ME-106 job is a spur gear (panel A): straight teeth parallel to the axis.",
   "source": "lab",
   "ref": "Milling TA slides s.19; Log Sheets ME-106 p.9",
@@ -5492,7 +5404,7 @@
   "figure": "milling/gear-types"
  },
  {
-  "id": "MIL-0239",
+  "id": "MIL-0235",
   "shop": "milling",
   "category": "tools-equipment",
   "difficulty": "hard",
@@ -5500,11 +5412,11 @@
   "question": "Which Brown & Sharpe involute cutter number is used for the 22-tooth ME-106 gear?",
   "options": [
    "No. 1 (135 teeth to rack)",
+   "No. 3 (35–54 teeth)",
    "No. 5 (21–25 teeth)",
-   "No. 7 (14–16 teeth)",
-   "No. 3 (35–54 teeth)"
+   "No. 7 (14–16 teeth)"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "Cutter No. 5 covers 21–25 teeth, so it suits the 22-tooth gear. No. 7 would be used for the 14-tooth practice gear.",
   "source": "lab",
   "ref": "Theory: Machinery's Handbook; Milling blackboard",
@@ -5515,19 +5427,19 @@
   ]
  },
  {
-  "id": "MIL-0240",
+  "id": "MIL-0236",
   "shop": "milling",
   "category": "tools-equipment",
   "difficulty": "hard",
   "type": "mcq",
   "question": "For a 14-tooth gear, which Brown & Sharpe involute cutter number is used?",
   "options": [
-   "No. 4 (26–34 teeth)",
-   "No. 1 (135 teeth to rack)",
    "No. 7 (14–16 teeth)",
+   "No. 1 (135 teeth to rack)",
+   "No. 4 (26–34 teeth)",
    "No. 5 (21–25 teeth)"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "Cutter No. 7 covers 14–16 teeth.",
   "source": "lab",
   "ref": "Theory: Machinery's Handbook; Manufacturing notes p.3",
@@ -5538,15 +5450,15 @@
   ]
  },
  {
-  "id": "MIL-0241",
+  "id": "MIL-0237",
   "shop": "milling",
   "category": "procedure",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Before cutting the first tooth space, the involute cutter must be…",
   "options": [
-   "Set below the mandrel axis",
    "Offset to one side of the blank",
+   "Set below the mandrel axis",
    "Tilted at the helix angle",
    "Centred over the axis of the gear blank"
   ],
@@ -5560,19 +5472,19 @@
   ]
  },
  {
-  "id": "MIL-0242",
+  "id": "MIL-0238",
   "shop": "milling",
   "category": "procedure",
   "difficulty": "hard",
   "type": "sequence",
   "question": "What is the correct way to set the depth of cut for the gear teeth?",
   "options": [
-   "Touch the blank with the rotating cutter → zero the knee dial → move the work clear → raise the knee by the depth",
    "Zero the knee dial anywhere → raise the knee by the depth → move the work clear → touch the blank with the cutter",
-   "Move the work clear → raise the knee by the depth → touch the blank with the rotating cutter → zero the knee dial",
-   "Raise the knee by the depth → touch the blank with the rotating cutter → zero the knee dial → move the work clear"
+   "Touch the blank with the rotating cutter → zero the knee dial → move the work clear → raise the knee by the depth",
+   "Raise the knee by the depth → touch the blank with the rotating cutter → zero the knee dial → move the work clear",
+   "Move the work clear → raise the knee by the depth → touch the blank with the rotating cutter → zero the knee dial"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "Touch off (e.g. with a paper strip), zero the knee dial, move clear, then raise by the calculated depth (≈0.1348 in for DP 16).",
   "source": "lab",
   "ref": "Theory: Hajra Choudhury; Milling blackboard",
@@ -5583,7 +5495,7 @@
   ]
  },
  {
-  "id": "MIL-0243",
+  "id": "MIL-0239",
   "shop": "milling",
   "category": "procedure",
   "difficulty": "medium",
@@ -5591,11 +5503,11 @@
   "question": "Which slide is used to put on the depth of cut for the gear teeth on a horizontal column-and-knee machine?",
   "options": [
    "Overarm (on the column)",
-   "Arbor support (on overarm)",
    "Index crank (dividing head)",
-   "Knee (elevating screw)"
+   "Knee (elevating screw)",
+   "Arbor support (on overarm)"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "The knee is raised by the calculated depth using the elevating screw and its dial.",
   "source": "lab",
   "ref": "Theory: Hajra Choudhury; Milling wall chart",
@@ -5606,19 +5518,19 @@
   ]
  },
  {
-  "id": "MIL-0244",
+  "id": "MIL-0240",
   "shop": "milling",
   "category": "procedure",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Once the depth is set for gear cutting, which slides are locked?",
   "options": [
-   "Table only, leaving knee and saddle free",
-   "Knee and saddle, leaving only the table feed free",
+   "Overarm and column, leaving all slides free",
    "Index crank and sector arms only",
-   "Overarm and column, leaving all slides free"
+   "Table only, leaving knee and saddle free",
+   "Knee and saddle, leaving only the table feed free"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "Locking the knee and saddle keeps depth and position constant; only the longitudinal table feed moves the blank under the cutter.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
@@ -5628,19 +5540,19 @@
   ]
  },
  {
-  "id": "MIL-0245",
+  "id": "MIL-0241",
   "shop": "milling",
   "category": "procedure",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Before cutting the gear, the dividing head and tailstock centres must be…",
   "options": [
+   "Set at 45° to the table for a straight tooth",
    "Aligned with the table travel, with the blank tight on the mandrel",
    "Removed from the table before the cut starts",
-   "Set at 45° to the table for a straight tooth",
    "Loosely held so that the blank can slip if needed"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "Misalignment would make the tooth depth vary along the face; the blank must not slip on the mandrel.",
   "source": "lab",
   "ref": "Theory: Hajra Choudhury; Log Sheets ME-106 p.9",
@@ -5651,19 +5563,19 @@
   ]
  },
  {
-  "id": "MIL-0246",
+  "id": "MIL-0242",
   "shop": "milling",
   "category": "procedure",
   "difficulty": "hard",
   "type": "mcq",
   "question": "If the gear blank slips on the mandrel during cutting, what happens to the gear?",
   "options": [
-   "The OD increases",
-   "Nothing, because the index plate corrects it",
    "The tooth spacing becomes uneven",
-   "The teeth become deeper"
+   "Nothing, because the index plate corrects it",
+   "The teeth become deeper",
+   "The OD increases"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "Indexing rotates the mandrel; if the blank slips, it does not rotate by the indexed amount, so the spacing is wrong.",
   "source": "lab",
   "ref": "Theory: Hajra Choudhury; Milling Log Sheet #1",
@@ -5674,19 +5586,19 @@
   ]
  },
  {
-  "id": "MIL-0247",
+  "id": "MIL-0243",
   "shop": "milling",
   "category": "precautions",
   "difficulty": "easy",
   "type": "mcq",
   "question": "While the milling cutter is rotating, you should never…",
   "options": [
-   "Keep the guard in place",
-   "Stand at a proper distance",
    "Reach over or near the cutter",
-   "Watch the feed from the side"
+   "Watch the feed from the side",
+   "Stand at a proper distance",
+   "Keep the guard in place"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "Keep hands away from the cutter path at all times.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
@@ -5696,41 +5608,19 @@
   ]
  },
  {
-  "id": "MIL-0248",
-  "shop": "milling",
-  "category": "precautions",
-  "difficulty": "easy",
-  "type": "mcq",
-  "question": "When should the gear be measured or the chips removed on the milling machine?",
-  "options": [
-   "While the cutter is turning slowly",
-   "Any time, if wearing gloves",
-   "During the cut",
-   "Only after stopping the machine"
-  ],
-  "answer": 3,
-  "explanation": "Stop the machine before measuring, removing chips or adjusting the work.",
-  "source": "theory",
-  "ref": "Theory: Hajra Choudhury",
-  "tags": [],
-  "facts": [
-   "MIL-F128"
-  ]
- },
- {
-  "id": "MIL-0249",
+  "id": "MIL-0244",
   "shop": "milling",
   "category": "precautions",
   "difficulty": "hard",
   "type": "mcq",
   "question": "On a horizontal milling machine, when should the arbor nut be finally tightened?",
   "options": [
-   "After the arbor support is in place",
-   "While the spindle is running",
    "Before mounting the cutters",
+   "While the spindle is running",
+   "After the arbor support is in place",
    "Never; it must stay loose"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "Tightening the nut without the outer support can bend the arbor. Also check the cutter rotation direction.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
@@ -5740,41 +5630,19 @@
   ]
  },
  {
-  "id": "MIL-0250",
-  "shop": "milling",
-  "category": "precautions",
-  "difficulty": "medium",
-  "type": "mcq",
-  "question": "Which eye protection is recommended while milling?",
-  "options": [
-   "Tinted sunglasses",
-   "Safety goggles",
-   "Laser safety goggles",
-   "Welding helmet"
-  ],
-  "answer": 1,
-  "explanation": "Chips fly from the cutter, so wear safety goggles.",
-  "source": "theory",
-  "ref": "Theory: Hajra Choudhury",
-  "tags": [],
-  "facts": [
-   "MIL-F130"
-  ]
- },
- {
-  "id": "MIL-0251",
+  "id": "MIL-0245",
   "shop": "milling",
   "category": "precautions",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Which practice is correct on the milling machine?",
   "options": [
+   "Feed the work by hand into a stopped cutter",
    "Remove the guard so the cutter can be watched closely",
-   "Keep the cutter guard in place and use the correct speed and feed",
    "Use the highest speed for every work material",
-   "Feed the work by hand into a stopped cutter"
+   "Keep the cutter guard in place and use the correct speed and feed"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "Guards protect against contact and chips; the speed and feed must suit the material and cutter.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
@@ -5784,19 +5652,19 @@
   ]
  },
  {
-  "id": "MIL-0252",
+  "id": "MIL-0246",
   "shop": "milling",
   "category": "precautions",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Before starting the cut, you should check that the cutter…",
   "options": [
-   "Is touching the blank at the full depth",
-   "Is slightly loose on the arbor for safety",
    "Has its teeth painted for easy counting",
-   "Rotates in the correct direction for the set-up"
+   "Rotates in the correct direction for the set-up",
+   "Is slightly loose on the arbor for safety",
+   "Is touching the blank at the full depth"
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "Wrong rotation means the teeth rub instead of cut and can damage the cutter or work.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",

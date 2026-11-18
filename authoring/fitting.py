@@ -254,7 +254,7 @@ q('tools', 'm', 'A tap is turned using a…',
   'A tap wrench turns the tap; a die stock holds and turns a die.', [69])
 n('num', 'h', 'What tap-drill size is used for an M10 × 1.5 thread?',
   '8.5 mm', ['10 mm', '11.5 mm', '7.0 mm'],
-  'Tap drill ≈ major diameter − pitch = 10 − 1.5 = 8.5 mm.', [70])
+  'Tap drill ≈ major diameter − pitch = 10 − 1.5 = 8.5 mm. (This is a drilling rule of thumb leaving some thread engagement; the lathe formula Dc = D − 2 × 0.6134p gives the full core diameter.)', [70])
 n('num', 'h', 'What tap-drill size is used for an M8 × 1.25 thread?',
   '6.75 mm (≈ 6.8 mm)', ['8 mm', '9.25 mm', '5.5 mm'],
   'Tap drill ≈ 8 − 1.25 = 6.75 mm (a 6.8 mm drill is used).', [70])
@@ -338,7 +338,7 @@ q('prec', 'e', 'Which of these is a fitting-shop precaution from the lecture?',
   'A clean workspace is one of the listed precautions.', [87])
 q('prec', 'm', 'The fitting-lab safety motto is…',
   'Safety = Skill + Awareness + Discipline', ['Speed = Skill + Force', 'Safety = Gloves + Goggles', 'Accuracy = Force + Time'],
-  'From the fitting lecture safety slide.', [92])
+  'From the fitting lecture safety slide.', [92, 'SAF25'])
 
 # ============================ AR / TF ============================
 ar('tools', 'h', 'A hacksaw blade is fitted with its teeth pointing away from the handle.',

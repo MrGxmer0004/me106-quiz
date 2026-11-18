@@ -440,7 +440,7 @@ q('proc', 'm', 'How are successive tooth spaces cut on the ME-106 gear?',
 q('proc', 'e', 'What is the LAST step of the ME-106 milling procedure?',
   'Polish (deburr) the gear with a file', ['Calculate the number of teeth', 'Fix the index plate', 'Switch on the coolant'],
   'The final step is to polish/finish the job using a file.', [110])
-q('proc', 'm', 'In the ME-106 milling job, how many times is the work indexed to cut all the teeth?',
+q('proc', 'm', 'In the ME-106 milling job, how many tooth spaces are cut (one per indexing position)?',
   '22 times (once per tooth)', ['40 times', '27 times', '33 times'],
   'One tooth space is cut per indexing move, so a 22-tooth gear needs 22 divisions.', [109, 97])
 q('proc', 'm', 'Why is the table brought back before indexing to the next tooth?',

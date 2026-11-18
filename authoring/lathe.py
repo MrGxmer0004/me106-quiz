@@ -256,7 +256,7 @@ q('def', 'm', 'The angle that prevents the tool flank from rubbing against the w
   'The clearance (relief) angle gives the flank room so it does not rub on the machined surface.', [71])
 q('def', 'm', 'Which tool angle mainly helps the chip flow away and reduces the cutting force?',
   'Rake angle', ['Clearance angle', 'Lip angle', 'Taper angle'],
-  'Rake angle is the slope of the tool face; a positive rake eases chip flow and lowers cutting force.', [70])
+  'Rake angle is the slope of the tool face; a positive rake eases chip flow and lowers cutting force.', [70, 'SHP41'])
 
 # ============================ operations ============================
 q('ops', 'e', 'Which lathe operation produces a flat surface at the end of the work and reduces its length?',
@@ -508,7 +508,7 @@ q('prec', 'm', 'Which precaution about measuring is given on the 2025 lathe log 
   'Take good measurements in proper lighting using inner and outer calipers.', [128])
 q('prec', 'e', 'Before switching on the lathe, you must always…',
   'Remove the chuck key from the chuck', ['Engage the half-nut', 'Loosen the tool post', 'Remove the tailstock'],
-  'A chuck key left in the chuck is thrown out violently when the spindle starts.', [129])
+  'A chuck key left in the chuck is thrown out violently when the spindle starts.', [129, 'SAF11'])
 q('prec', 'e', 'When should the lathe job be measured with a caliper?',
   'Only after stopping the machine', ['While the chuck is rotating slowly', 'During thread cutting', 'While feeding the tool'],
   'Always stop the lathe before measuring the job or changing speeds/gears.', [130])

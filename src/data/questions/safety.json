@@ -81,10 +81,12 @@
   "answer": 1,
   "explanation": "Loose accessories can be caught by moving parts.",
   "source": "lab",
-  "ref": "Log Sheets ME-106 p.7",
+  "ref": "Log Sheets ME-106 p.7; Milling TA slides s.2",
   "tags": [],
   "facts": [
-   "SAF-F004"
+   "SAF-F004",
+   "GRD-F099",
+   "MIL-F117"
   ]
  },
  {
@@ -125,10 +127,12 @@
   "answer": 3,
   "explanation": "Grinding, chipping, filing and plating can throw particles or liquids.",
   "source": "lab",
-  "ref": "Fitting lecture s.13",
+  "ref": "Fitting lecture s.13; Theory: Hajra Choudhury",
   "tags": [],
   "facts": [
-   "SAF-F006"
+   "SAF-F006",
+   "FIT-F083",
+   "MIL-F130"
   ]
  },
  {
@@ -169,10 +173,11 @@
   "answer": 2,
   "explanation": "Do not operate the machine without supervision from the shop instructor.",
   "source": "lab",
-  "ref": "Milling TA slides s.2",
+  "ref": "Milling TA slides s.2; Grinding PPT s.2",
   "tags": [],
   "facts": [
-   "SAF-F008"
+   "SAF-F008",
+   "GRD-F104"
   ]
  },
  {
@@ -225,46 +230,25 @@
   "category": "safety-general",
   "difficulty": "easy",
   "type": "mcq",
-  "question": "What must be removed from the lathe chuck before switching on?",
+  "question": "Before measuring or adjusting a job on a machine, you must…",
   "options": [
-   "The workpiece",
-   "The chip tray",
-   "The chuck key",
-   "The tool post"
+   "Engage the feed",
+   "Remove the guard",
+   "Stop the machine",
+   "Increase the speed"
   ],
   "answer": 2,
-  "explanation": "A chuck key left in the chuck flies out when the spindle starts.",
-  "source": "theory",
-  "ref": "Theory: Hajra Choudhury",
+  "explanation": "Always stop the machine before measuring, cleaning, adjusting or changing tools.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.3; Theory: Hajra Choudhury",
   "tags": [],
   "facts": [
-   "SAF-F011"
+   "SAF-F012",
+   "MIL-F128"
   ]
  },
  {
   "id": "SAF-0012",
-  "shop": "safety",
-  "category": "safety-general",
-  "difficulty": "easy",
-  "type": "mcq",
-  "question": "Before measuring or adjusting a job on a machine, you must…",
-  "options": [
-   "Engage the feed",
-   "Stop the machine",
-   "Increase the speed",
-   "Remove the guard"
-  ],
-  "answer": 1,
-  "explanation": "Always stop the machine before measuring, cleaning, adjusting or changing tools.",
-  "source": "lab",
-  "ref": "Log Sheets ME-106 p.3",
-  "tags": [],
-  "facts": [
-   "SAF-F012"
-  ]
- },
- {
-  "id": "SAF-0013",
   "shop": "safety",
   "category": "safety-general",
   "difficulty": "medium",
@@ -272,11 +256,11 @@
   "question": "In case of trouble on a machine, the first thing to do is…",
   "options": [
    "Run to fetch the instructor",
-   "Increase the feed to finish quickly",
+   "Press the emergency stop / switch off",
    "Pull the job out by hand",
-   "Press the emergency stop / switch off"
+   "Increase the feed to finish quickly"
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "Know where the emergency stop is and use it at once.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
@@ -286,19 +270,19 @@
   ]
  },
  {
-  "id": "SAF-0014",
+  "id": "SAF-0013",
   "shop": "safety",
   "category": "safety-general",
   "difficulty": "easy",
   "type": "mcq",
   "question": "Is it acceptable to leave a running machine unattended?",
   "options": [
-   "Only when the coolant is on",
-   "No, never",
    "Only when the job is small",
-   "Only for a minute or two"
+   "Only when the coolant is on",
+   "Only for a minute or two",
+   "No, never"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "Never leave a running machine unattended.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
@@ -308,19 +292,19 @@
   ]
  },
  {
-  "id": "SAF-0015",
+  "id": "SAF-0014",
   "shop": "safety",
   "category": "safety-general",
   "difficulty": "easy",
   "type": "mcq",
   "question": "Before starting the machine, the job and tool must be…",
   "options": [
-   "Clamped firmly",
    "Painted with chalk",
-   "Loosely held for adjustment",
-   "Oiled heavily"
+   "Clamped firmly",
+   "Oiled heavily",
+   "Loosely held for adjustment"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "Loose work or tools can be thrown out.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.7",
@@ -330,29 +314,31 @@
   ]
  },
  {
-  "id": "SAF-0016",
+  "id": "SAF-0015",
   "shop": "safety",
   "category": "safety-general",
   "difficulty": "easy",
   "type": "mcq",
   "question": "Chips and swarf should be removed with…",
   "options": [
-   "Bare hands while the cut is going on",
-   "Compressed air blown towards others",
    "A brush or chip hook, after stopping the machine",
-   "A wet cloth while the job is turning"
+   "Bare hands while the cut is going on",
+   "A wet cloth while the job is turning",
+   "Compressed air blown towards others"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "Chips are sharp and hot.",
   "source": "lab",
-  "ref": "Log Sheets ME-106 p.1",
+  "ref": "Log Sheets ME-106 p.1; Theory: Hajra Choudhury",
   "tags": [],
   "facts": [
-   "SAF-F016"
+   "SAF-F016",
+   "MIL-F119",
+   "SHP-F064"
   ]
  },
  {
-  "id": "SAF-0017",
+  "id": "SAF-0016",
   "shop": "safety",
   "category": "safety-general",
   "difficulty": "medium",
@@ -374,19 +360,19 @@
   ]
  },
  {
-  "id": "SAF-0018",
+  "id": "SAF-0017",
   "shop": "safety",
   "category": "safety-general",
   "difficulty": "easy",
   "type": "mcq",
   "question": "Heavy machine parts and tools should be…",
   "options": [
-   "Handled with care",
    "Moved by one person always",
-   "Thrown onto the bench",
-   "Left on the machine bed"
+   "Left on the machine bed",
+   "Handled with care",
+   "Thrown onto the bench"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "Handle heavy machines and tools with care.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.1",
@@ -396,19 +382,19 @@
   ]
  },
  {
-  "id": "SAF-0019",
+  "id": "SAF-0018",
   "shop": "safety",
   "category": "safety-general",
   "difficulty": "easy",
   "type": "mcq",
   "question": "Why must the floor around machines be kept clean?",
   "options": [
-   "It keeps the machine motor cooler",
-   "It improves the surface finish of jobs",
+   "Oil and chips on the floor cause slips and falls",
    "It reduces the amount of coolant used",
-   "Oil and chips on the floor cause slips and falls"
+   "It keeps the machine motor cooler",
+   "It improves the surface finish of jobs"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "Keep the area free of oil, chips and obstacles.",
   "source": "lab",
   "ref": "Fitting lecture s.13",
@@ -418,7 +404,7 @@
   ]
  },
  {
-  "id": "SAF-0020",
+  "id": "SAF-0019",
   "shop": "safety",
   "category": "safety-general",
   "difficulty": "easy",
@@ -426,11 +412,11 @@
   "question": "After finishing work on a machine, you should…",
   "options": [
    "Leave the chips for the next batch",
-   "Clean it and return the tools to their place",
+   "Leave tools on the bed",
    "Keep the machine running",
-   "Leave tools on the bed"
+   "Clean it and return the tools to their place"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "Clean the machine and workspace after use.",
   "source": "lab",
   "ref": "Milling TA slides s.2",
@@ -440,19 +426,19 @@
   ]
  },
  {
-  "id": "SAF-0021",
+  "id": "SAF-0020",
   "shop": "safety",
   "category": "safety-general",
   "difficulty": "easy",
   "type": "mcq",
   "question": "Which is a basic rule about tools?",
   "options": [
-   "Borrow tools without asking",
-   "Damaged tools are fine for practice",
+   "Any tool will do for any job",
    "Use the right tool and never a damaged one",
-   "Any tool will do for any job"
+   "Borrow tools without asking",
+   "Damaged tools are fine for practice"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "Use the correct tool; do not use damaged tools.",
   "source": "lab",
   "ref": "Fitting lecture s.13",
@@ -462,19 +448,19 @@
   ]
  },
  {
-  "id": "SAF-0022",
+  "id": "SAF-0021",
   "shop": "safety",
   "category": "safety-general",
   "difficulty": "easy",
   "type": "mcq",
   "question": "What should you do if you get even a small cut in the workshop?",
   "options": [
+   "Cover it with chalk to stop the bleeding",
    "Ignore it and keep working until done",
    "Report it to the instructor and get first aid",
-   "Wash it in the coolant tank and carry on",
-   "Cover it with chalk to stop the bleeding"
+   "Wash it in the coolant tank and carry on"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "Report every injury; know where the first-aid box is.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
@@ -484,20 +470,42 @@
   ]
  },
  {
-  "id": "SAF-0023",
+  "id": "SAF-0022",
   "shop": "safety",
   "category": "safety-general",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Which extinguisher should be used on an electrical or oil fire?",
   "options": [
-   "Water",
-   "A wet cloth",
    "Sand mixed with oil",
-   "CO₂ or dry powder"
+   "CO₂ or dry powder",
+   "Water",
+   "A wet cloth"
+  ],
+  "answer": 1,
+  "explanation": "Never use water on electrical or oil fires; water is for ordinary combustibles.",
+  "source": "theory",
+  "ref": "Theory: general fire safety",
+  "tags": [],
+  "facts": [
+   "SAF-F023"
+  ]
+ },
+ {
+  "id": "SAF-0023",
+  "shop": "safety",
+  "category": "safety-general",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Water-type fire extinguishers are suitable only for…",
+  "options": [
+   "Oil and fuel fires",
+   "Burning metal fires",
+   "Electrical equipment fires",
+   "Ordinary combustibles like wood and paper"
   ],
   "answer": 3,
-  "explanation": "Never use water on electrical or oil fires; water is for ordinary combustibles.",
+  "explanation": "Water conducts electricity and spreads oil fires.",
   "source": "theory",
   "ref": "Theory: general fire safety",
   "tags": [],
@@ -511,36 +519,14 @@
   "category": "safety-general",
   "difficulty": "medium",
   "type": "mcq",
-  "question": "Water-type fire extinguishers are suitable only for…",
-  "options": [
-   "Ordinary combustibles like wood and paper",
-   "Electrical equipment fires",
-   "Oil and fuel fires",
-   "Burning metal fires"
-  ],
-  "answer": 0,
-  "explanation": "Water conducts electricity and spreads oil fires.",
-  "source": "theory",
-  "ref": "Theory: general fire safety",
-  "tags": [],
-  "facts": [
-   "SAF-F023"
-  ]
- },
- {
-  "id": "SAF-0025",
-  "shop": "safety",
-  "category": "safety-general",
-  "difficulty": "medium",
-  "type": "mcq",
   "question": "In safety colour codes, a solid blue circular sign means…",
   "options": [
-   "Caution / warning",
+   "A mandatory instruction (must do)",
    "Safe condition / first aid",
    "Danger / stop",
-   "A mandatory instruction (must do)"
+   "Caution / warning"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "Red = stop/prohibition/fire, yellow = caution, green = safe/first aid, blue = mandatory.",
   "source": "theory",
   "ref": "Theory: IS 9457 / ISO 3864",
@@ -550,7 +536,7 @@
   ]
  },
  {
-  "id": "SAF-0026",
+  "id": "SAF-0025",
   "shop": "safety",
   "category": "safety-general",
   "difficulty": "medium",
@@ -558,11 +544,11 @@
   "question": "In safety colour codes, green indicates…",
   "options": [
    "Mandatory action",
-   "Safe condition, first aid or exit",
+   "Danger / prohibition",
    "Caution / warning",
-   "Danger / prohibition"
+   "Safe condition, first aid or exit"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "Green = safe condition or first aid.",
   "source": "theory",
   "ref": "Theory: IS 9457 / ISO 3864",
@@ -572,29 +558,7 @@
   ]
  },
  {
-  "id": "SAF-0027",
-  "shop": "safety",
-  "category": "safety-general",
-  "difficulty": "medium",
-  "type": "mcq",
-  "question": "The ME-106 fitting lab summarises safety as…",
-  "options": [
-   "Skill + Awareness + Discipline",
-   "Speed + Force + Luck",
-   "Gloves + Goggles + Guards",
-   "Time + Effort + Tools"
-  ],
-  "answer": 0,
-  "explanation": "Safety = Skill + Awareness + Discipline.",
-  "source": "lab",
-  "ref": "Fitting lecture s.13",
-  "tags": [],
-  "facts": [
-   "SAF-F025"
-  ]
- },
- {
-  "id": "SAF-0028",
+  "id": "SAF-0026",
   "shop": "safety",
   "category": "safety-general",
   "difficulty": "hard",
@@ -617,19 +581,19 @@
   "keepOrder": true
  },
  {
-  "id": "SAF-0029",
+  "id": "SAF-0027",
   "shop": "safety",
   "category": "safety-general",
   "difficulty": "easy",
   "type": "mcq",
   "question": "How should a heavy job be lifted from the floor?",
   "options": [
-   "Bend the back and lift fast with straight legs",
    "Lift it above the head before carrying it",
    "Bend the knees, keep the back straight, get help if needed",
+   "Bend the back and lift fast with straight legs",
    "Drag it along the floor by one corner"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "Lifting with the legs, not the back, prevents back injury; heavy or awkward loads need help.",
   "source": "theory",
   "ref": "Theory: general workshop safety",
@@ -639,19 +603,19 @@
   ]
  },
  {
-  "id": "SAF-0030",
+  "id": "SAF-0028",
   "shop": "safety",
   "category": "safety-general",
   "difficulty": "medium",
   "type": "mcq",
   "question": "First aid for a minor burn from a hot chip is to…",
   "options": [
-   "Rub grease or machine oil on the burn",
    "Cool it under clean running water for some minutes",
+   "Keep working and ignore it till the end",
    "Cover it tightly with dry cotton wool",
-   "Keep working and ignore it till the end"
+   "Rub grease or machine oil on the burn"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "Cool the burn with running water; never apply grease or oil, and report it.",
   "source": "theory",
   "ref": "Theory: first aid practice",
@@ -661,7 +625,7 @@
   ]
  },
  {
-  "id": "SAF-0031",
+  "id": "SAF-0029",
   "shop": "safety",
   "category": "safety-general",
   "difficulty": "medium",
@@ -669,11 +633,11 @@
   "question": "If plating solution splashes into your eye, you should first…",
   "options": [
    "Rub the eye hard with the back of your hand",
-   "Wipe it with a dry cloth and carry on working",
    "Wait for the stinging to stop on its own",
-   "Rinse the eye with plenty of clean water for 15 minutes"
+   "Rinse the eye with plenty of clean water for 15 minutes",
+   "Wipe it with a dry cloth and carry on working"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "Flush immediately and continuously with clean water (eye-wash), then report it.",
   "source": "theory",
   "ref": "Theory: lab safety",
@@ -683,19 +647,19 @@
   ]
  },
  {
-  "id": "SAF-0032",
+  "id": "SAF-0030",
   "shop": "safety",
   "category": "safety-general",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Which use of compressed air is UNSAFE in the workshop?",
   "options": [
+   "Operating an air-powered clamp",
    "Blowing chips off clothes or towards other people",
-   "Driving a pneumatic tool as intended",
    "Supplying assist gas to the laser head",
-   "Operating an air-powered clamp"
+   "Driving a pneumatic tool as intended"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "Compressed air can drive particles into eyes and skin; never point it at people or clothes.",
   "source": "theory",
   "ref": "Theory: general workshop safety",
@@ -705,7 +669,7 @@
   ]
  },
  {
-  "id": "SAF-0033",
+  "id": "SAF-0031",
   "shop": "safety",
   "category": "safety-general",
   "difficulty": "easy",
@@ -713,11 +677,11 @@
   "question": "Gangways and emergency exits in the workshop must be…",
   "options": [
    "Used to store jobs and tools",
+   "Locked while machines are running",
    "Blocked with benches for safety",
-   "Kept clear at all times",
-   "Locked while machines are running"
+   "Kept clear at all times"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "Clear exits and gangways allow escape in an emergency.",
   "source": "theory",
   "ref": "Theory: general workshop safety",
@@ -727,7 +691,7 @@
   ]
  },
  {
-  "id": "SAF-0034",
+  "id": "SAF-0032",
   "shop": "safety",
   "category": "safety-general",
   "difficulty": "easy",
@@ -735,9 +699,9 @@
   "question": "While a friend is operating a lathe, you should…",
   "options": [
    "Not distract or startle them",
-   "Hand them tools over the chuck",
+   "Tap their shoulder to talk",
    "Lean on the machine beside them",
-   "Tap their shoulder to talk"
+   "Hand them tools over the chuck"
   ],
   "answer": 0,
   "explanation": "Distracting an operator can cause a serious accident.",
@@ -749,19 +713,19 @@
   ]
  },
  {
-  "id": "SAF-0035",
+  "id": "SAF-0033",
   "shop": "safety",
   "category": "safety-general",
   "difficulty": "easy",
   "type": "diagram",
   "question": "What does sign A indicate?",
   "options": [
-   "Mandatory instruction (must do)",
+   "Safe condition / first aid",
    "Warning (caution)",
-   "Radiation hazard only",
-   "Prohibition (do not)"
+   "Prohibition (do not)",
+   "Radiation hazard only"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "A = Prohibition (do not). Red ring with a diagonal bar: forbids an action.",
   "source": "theory",
   "ref": "Theory: IS 9457 / ISO 3864",
@@ -774,17 +738,17 @@
   "ask": "part"
  },
  {
-  "id": "SAF-0036",
+  "id": "SAF-0034",
   "shop": "safety",
   "category": "safety-general",
   "difficulty": "easy",
   "type": "diagram",
   "question": "What does sign B indicate?",
   "options": [
-   "Prohibition (do not)",
+   "Radiation hazard only",
    "Warning (caution)",
    "Fire equipment location",
-   "Radiation hazard only"
+   "Prohibition (do not)"
   ],
   "answer": 1,
   "explanation": "B = Warning (caution). Yellow triangle with black border: warns of a hazard.",
@@ -799,17 +763,17 @@
   "ask": "part"
  },
  {
-  "id": "SAF-0037",
+  "id": "SAF-0035",
   "shop": "safety",
   "category": "safety-general",
   "difficulty": "easy",
   "type": "diagram",
   "question": "What does sign C indicate?",
   "options": [
-   "Radiation hazard only",
-   "Warning (caution)",
+   "Fire equipment location",
+   "Safe condition / first aid",
    "Mandatory instruction (must do)",
-   "Safe condition / first aid"
+   "Prohibition (do not)"
   ],
   "answer": 2,
   "explanation": "C = Mandatory instruction (must do). Solid blue circle: something you must do, e.g. wear goggles.",
@@ -824,19 +788,19 @@
   "ask": "part"
  },
  {
-  "id": "SAF-0038",
+  "id": "SAF-0036",
   "shop": "safety",
   "category": "safety-general",
   "difficulty": "easy",
   "type": "diagram",
   "question": "What does sign D indicate?",
   "options": [
-   "Safe condition / first aid",
-   "Warning (caution)",
+   "Mandatory instruction (must do)",
    "Fire equipment location",
-   "Mandatory instruction (must do)"
+   "Radiation hazard only",
+   "Safe condition / first aid"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "D = Safe condition / first aid. Green rectangle: first aid, emergency exit, safe condition.",
   "source": "theory",
   "ref": "Theory: IS 9457 / ISO 3864",
@@ -849,19 +813,19 @@
   "ask": "part"
  },
  {
-  "id": "SAF-0039",
+  "id": "SAF-0037",
   "shop": "safety",
   "category": "safety-general",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "Which sign is used for a safe condition / first aid?",
   "options": [
-   "A",
-   "C",
    "D",
-   "B"
+   "A",
+   "B",
+   "C"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "D = Safe condition / first aid. Green rectangle: first aid, emergency exit, safe condition.",
   "source": "theory",
   "ref": "Theory: IS 9457 / ISO 3864",

@@ -115,3 +115,10 @@ PATCH = {
  'Why is threading done LAST in the ME-106 lathe job?':
   {'c': 'The thread must run up to the groove, which is cut earlier', 'w': ['Threading has to be done before facing the ends', 'Threading removes the 1 × 45° chamfer at the end', 'The lead screw can be used only after facing']},
 }
+
+# cross-shop review: duplicates dropped
+PATCH['Tight-fitting clothes are required in the lathe shop because…'] = {'drop': True}
+PATCH['The correct way to clear long chips from a lathe is to…'] = {'drop': True}
+PATCH['It is acceptable to measure the lathe job with a caliper while it is rotating slowly.'] = {'drop': True}
+PATCH['Which of these is NOT a part of a single-point cutting tool?'] = {'drop': True}
+PATCH['An outside caliper has no scale. How is the measured diameter read?'] = {'drop': True}

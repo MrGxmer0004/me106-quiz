@@ -143,3 +143,8 @@ PATCH = {
  'An aluminium block is to be surface ground. How should it be held?':
   ['Directly on the magnetic chuck, switched on as usual', 'On a work-rest blade between two wheels', 'Between centres with a lathe dog'],
 }
+
+# cross-shop review: duplicates dropped
+PATCH['According to the grinding slides, the machine should not be operated…'] = {'drop': True}
+PATCH['Which accessories should NOT be worn while grinding?'] = {'drop': True}
+PATCH['What should a student with long hair do before grinding?'] = {'drop': True}

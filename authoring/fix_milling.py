@@ -78,7 +78,7 @@ PATCH = {
    'Calculate depth & index → cut and index repeatedly → clamp blank and start → calculate N → fix index plate → file the gear'],
  'How are successive tooth spaces cut on the ME-106 gear?':
   ['Cut all the spaces at once with a gang of cutters', 'Index for all teeth first, then take one single cut', 'Rotate the blank continuously while the cutter feeds'],
- 'In the ME-106 milling job, how many times is the work indexed to cut all the teeth?':
+ 'In the ME-106 milling job, how many tooth spaces are cut (one per indexing position)?':
   {'c': '22 times', 'w': ['27 times', '33 times', '40 times']},
  'Why is the table brought back before indexing to the next tooth?':
   ['To let the coolant cool the blank down', 'To change the cutter for the next tooth', 'To reset the depth dial back to zero'],
@@ -107,3 +107,11 @@ PATCH = {
  'Before starting the cut, you should check that the cutter…':
   ['Has its teeth painted for easy counting', 'Is slightly loose on the arbor for safety', 'Is touching the blank at the full depth'],
 }
+
+# cross-shop review: duplicates dropped
+PATCH['According to the milling TA slides, the machine should NOT be operated…'] = {'drop': True}
+PATCH['Which eye protection is recommended while milling?'] = {'drop': True}
+PATCH['Which of these should be avoided while milling, according to the TA slides?'] = {'drop': True}
+PATCH['Chips on the milling table should be removed…'] = {'drop': True}
+PATCH['When should the gear be measured or the chips removed on the milling machine?'] = {'drop': True}
+PATCH['Which footwear precaution appears on the ME-106 milling log sheets?'] = {'drop': True}

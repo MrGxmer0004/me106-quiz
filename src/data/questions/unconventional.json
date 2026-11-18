@@ -2524,7 +2524,7 @@
   "id": "UCM-0113",
   "shop": "unconventional",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, which label shows the upper wire guide?",
   "options": [
@@ -2549,7 +2549,7 @@
   "id": "UCM-0114",
   "shop": "unconventional",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, which label shows the dielectric nozzle?",
   "options": [
@@ -2574,7 +2574,7 @@
   "id": "UCM-0115",
   "shop": "unconventional",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, which label shows the CNC / servo control?",
   "options": [
@@ -2599,7 +2599,7 @@
   "id": "UCM-0116",
   "shop": "unconventional",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, which label shows the kerf (cut slot)?",
   "options": [
@@ -2724,7 +2724,7 @@
   "id": "UCM-0121",
   "shop": "unconventional",
   "category": "principle-theory",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled A?",
   "options": [
@@ -2749,7 +2749,7 @@
   "id": "UCM-0122",
   "shop": "unconventional",
   "category": "principle-theory",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled B?",
   "options": [
@@ -2774,7 +2774,7 @@
   "id": "UCM-0123",
   "shop": "unconventional",
   "category": "principle-theory",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled C?",
   "options": [
@@ -2799,7 +2799,7 @@
   "id": "UCM-0124",
   "shop": "unconventional",
   "category": "principle-theory",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled D?",
   "options": [
@@ -2824,7 +2824,7 @@
   "id": "UCM-0125",
   "shop": "unconventional",
   "category": "principle-theory",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled E?",
   "options": [
@@ -2849,7 +2849,7 @@
   "id": "UCM-0126",
   "shop": "unconventional",
   "category": "principle-theory",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled F?",
   "options": [
@@ -2874,7 +2874,7 @@
   "id": "UCM-0127",
   "shop": "unconventional",
   "category": "principle-theory",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled G?",
   "options": [
@@ -2899,7 +2899,7 @@
   "id": "UCM-0128",
   "shop": "unconventional",
   "category": "principle-theory",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled H?",
   "options": [
@@ -2971,7 +2971,7 @@
   "id": "UCM-0131",
   "shop": "unconventional",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled A?",
   "options": [
@@ -2996,7 +2996,7 @@
   "id": "UCM-0132",
   "shop": "unconventional",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled B?",
   "options": [
@@ -3021,7 +3021,7 @@
   "id": "UCM-0133",
   "shop": "unconventional",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled C?",
   "options": [
@@ -3046,7 +3046,7 @@
   "id": "UCM-0134",
   "shop": "unconventional",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled D?",
   "options": [
@@ -3071,7 +3071,7 @@
   "id": "UCM-0135",
   "shop": "unconventional",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled E?",
   "options": [
@@ -3096,7 +3096,7 @@
   "id": "UCM-0136",
   "shop": "unconventional",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled F?",
   "options": [
@@ -3121,7 +3121,7 @@
   "id": "UCM-0137",
   "shop": "unconventional",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled G?",
   "options": [
@@ -3146,7 +3146,7 @@
   "id": "UCM-0138",
   "shop": "unconventional",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled H?",
   "options": [
@@ -3171,7 +3171,7 @@
   "id": "UCM-0139",
   "shop": "unconventional",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled I?",
   "options": [
@@ -3344,7 +3344,7 @@
   "id": "UCM-0146",
   "shop": "unconventional",
   "category": "principle-theory",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "Which process is shown in panel A?",
   "options": [
@@ -3369,7 +3369,7 @@
   "id": "UCM-0147",
   "shop": "unconventional",
   "category": "principle-theory",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "Which process is shown in panel B?",
   "options": [

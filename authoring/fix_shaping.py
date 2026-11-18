@@ -24,3 +24,8 @@ PATCH = {
  'Which is a limitation of the shaper?': ['It needs a diamond tool for every cut', 'It can only cut round work between centres', 'It cannot make flat surfaces at all'],
  'Which job is typically done on a shaper?': ['Grinding crankshaft pins to size', 'Cutting threads on long shafts', 'Electroplating mild-steel parts'],
 }
+
+# cross-shop review: duplicates dropped
+PATCH['Chips on the shaper table should be removed…'] = {'drop': True}
+PATCH['Which tool angle reduces cutting force and helps the chip flow away?'] = {'drop': True}
+PATCH['Which dress precaution appears on the ME-106 shaping log sheet?'] = {'drop': True}

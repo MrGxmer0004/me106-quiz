@@ -2,7 +2,7 @@
 
 A static practice-quiz website for **ME-106 Workshop Practice** at IIT (BHU). It covers the six syllabus activities: centre lathe, milling, fitting & electroplating, shaping, grinding, and unconventional machining (wire-cut EDM and fiber laser), plus general workshop safety.
 
-- About 1,380 MCQs across 8 shops. Each question is tagged with shop, category, difficulty, type, and **lab** or **theory** source.
+- About 1,360 MCQs across 8 shops. Each question is tagged with shop, category, difficulty, type, and **lab** or **theory** source.
 - 85 original SVG figures, including generated Vernier caliper and micrometer reading figures. More than 400 questions use a figure.
 - Practice mode (instant feedback) and test mode (optional timer, full review at the end).
 - Progress, "previously wrong" and bookmarks are stored in your browser (`localStorage`). There is no login and no backend.

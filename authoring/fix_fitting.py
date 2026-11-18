@@ -41,3 +41,6 @@ PATCH = {
  'Which is correct practice when sawing with a hacksaw?': ['Twist the blade in the cut to steer it', 'Use short fast strokes with a loose blade', 'Press hard on the return stroke as well'],
  'The fitting-lab safety motto is…': ['Accuracy = Force + Time + Tools', 'Safety = Gloves + Goggles + Shoes', 'Speed = Skill + Force + Luck'],
 }
+
+# cross-shop review: duplicates dropped
+PATCH['Which PPE is required in the fitting shop according to the lecture?'] = {'drop': True}

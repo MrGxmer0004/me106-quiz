@@ -140,7 +140,7 @@ class Bank:
         return fl, ('lab' if lab else 'theory'), '; '.join(refs[:2])
 
     def _add(self, d):
-        d['id'] = '%s-%04d' % (self.prefix, len(self.qs) + 1)
+        d['id'] = '%s-%04d' % (self.prefix, len(self.qs) + 1)  # IDs are sequential after drops
         d['shop'] = self.shop
         self.qs.append(d)
         return d
@@ -149,6 +149,9 @@ class Bank:
     def q(self, cat, diff, question, correct, wrongs, exp, facts, tags=None, type='mcq',
           fig=None, label=None, ask=None, keep=False, answer=None):
         fl, src, ref = self._meta(facts)
+        if question in self.patch and isinstance(self.patch[question], dict) and self.patch[question].get('drop'):  # works for keepOrder types too
+            self.patched.add(question)
+            return None
         if question in self.patch and not keep:
             pt = self.patch[question]
             if isinstance(pt, dict):
@@ -193,6 +196,8 @@ class Bank:
     def tf(self, cat, diff, statement, truth, exp, facts, tags=None, fig=None):
         d = self.q(cat, diff, statement, 'True', ['False'], exp, facts, tags=tags, type='tf',
                    keep=True, answer=0 if truth else 1, fig=fig)
+        if d is None:
+            return None
         d['options'] = ['True', 'False']
         d['type'] = 'true-false'
         return d
@@ -252,6 +257,11 @@ class Bank:
         os.makedirs(QDIR, exist_ok=True)
         out = []
         for d in self.qs:
+            # consistency rules (cross-shop review): label look-ups are easy; multi-fact calculations/sequences are hard
+            if d.get('ask') in ('part', 'which') and d['difficulty'] == 'medium':
+                d['difficulty'] = 'easy'
+            if d['type'] in ('numerical', 'sequence') and d['difficulty'] == 'medium' and len(d['facts']) >= 3:
+                d['difficulty'] = 'hard'
             o = {k: d[k] for k in ['id', 'shop', 'category', 'difficulty', 'type', 'question', 'options',
                                     'answer', 'explanation', 'source', 'ref', 'tags', 'facts']}
             for k in ['figure', 'label', 'ask', 'keepOrder']:

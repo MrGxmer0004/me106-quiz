@@ -16,3 +16,7 @@ PATCH = {
  'What should a student with long hair do before operating a machine?': ['Leave it loose behind the shoulders', 'Wet it with coolant so it stays down', 'Tuck it under the apron strap only'],
  'Is it acceptable to leave a running machine unattended?': ['Only for a minute or two', 'Only when the job is small', 'Only when the coolant is on'],
 }
+
+# cross-shop review: duplicates dropped
+PATCH['What must be removed from the lathe chuck before switching on?'] = {'drop': True}
+PATCH['The ME-106 fitting lab summarises safety as…'] = {'drop': True}

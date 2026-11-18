@@ -1109,39 +1109,17 @@
  {
   "id": "SHP-0051",
   "shop": "shaping",
-  "category": "definitions",
-  "difficulty": "medium",
-  "type": "mcq",
-  "question": "Which tool angle reduces cutting force and helps the chip flow away?",
-  "options": [
-   "Nose angle",
-   "Clearance angle",
-   "Rake angle",
-   "Helix angle"
-  ],
-  "answer": 2,
-  "explanation": "Rake angle eases chip flow; clearance (relief) angle stops the flank rubbing the work.",
-  "source": "lab",
-  "ref": "Manufacturing notes p.18",
-  "tags": [],
-  "facts": [
-   "SHP-F041"
-  ]
- },
- {
-  "id": "SHP-0052",
-  "shop": "shaping",
   "category": "tool-material",
   "difficulty": "hard",
   "type": "mcq",
   "question": "Why are shaper tools made more robust, with smaller rake angles, than lathe tools?",
   "options": [
-   "They cut on both the forward and return strokes",
-   "They never actually touch the workpiece",
    "They are made of a softer grade of steel",
-   "They take an impact at the start of every cutting stroke"
+   "They cut on both the forward and return strokes",
+   "They take an impact at the start of every cutting stroke",
+   "They never actually touch the workpiece"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "Shaping is an intermittent cut: the tool strikes the work at the beginning of each stroke, so it needs a strong edge.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
@@ -1151,7 +1129,7 @@
   ]
  },
  {
-  "id": "SHP-0053",
+  "id": "SHP-0052",
   "shop": "shaping",
   "category": "job-dimensions",
   "difficulty": "easy",
@@ -1159,11 +1137,11 @@
   "question": "What is the objective of the ME-106 shaping job?",
   "options": [
    "To turn a mild-steel bar down to Ø38 mm",
+   "To grind a flat face to a fine finish",
    "To cut a 22-tooth spur gear on a disc",
-   "To reduce a block to 38 mm × 21 mm × 73 mm",
-   "To grind a flat face to a fine finish"
+   "To reduce a block to 38 mm × 21 mm × 73 mm"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "The shaping log sheet objective: reduce the given block to the desired dimensions 38 × 21 × 73 mm.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.3",
@@ -1173,20 +1151,42 @@
   ]
  },
  {
-  "id": "SHP-0054",
+  "id": "SHP-0053",
   "shop": "shaping",
   "category": "job-dimensions",
   "difficulty": "easy",
   "type": "mcq",
   "question": "What is the finished LENGTH of the ME-106 shaping block?",
   "options": [
-   "73 mm",
-   "21 mm",
    "38 mm",
+   "21 mm",
+   "73 mm",
    "115 mm"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "The block is 73 mm long, 38 mm wide and 21 mm high.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.3",
+  "tags": [],
+  "facts": [
+   "SHP-F044"
+  ]
+ },
+ {
+  "id": "SHP-0054",
+  "shop": "shaping",
+  "category": "job-dimensions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "What is the finished HEIGHT (thickness) of the ME-106 shaping block?",
+  "options": [
+   "21 mm",
+   "73 mm",
+   "38 mm",
+   "25 mm"
+  ],
+  "answer": 0,
+  "explanation": "Height (thickness) = 21 mm; width = 38 mm; length = 73 mm.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.3",
   "tags": [],
@@ -1198,17 +1198,17 @@
   "id": "SHP-0055",
   "shop": "shaping",
   "category": "job-dimensions",
-  "difficulty": "easy",
+  "difficulty": "medium",
   "type": "mcq",
-  "question": "What is the finished HEIGHT (thickness) of the ME-106 shaping block?",
+  "question": "What is the finished WIDTH of the ME-106 shaping block?",
   "options": [
-   "25 mm",
-   "21 mm",
+   "34 mm",
+   "38 mm",
    "73 mm",
-   "38 mm"
+   "21 mm"
   ],
   "answer": 1,
-  "explanation": "Height (thickness) = 21 mm; width = 38 mm; length = 73 mm.",
+  "explanation": "Width = 38 mm.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.3",
   "tags": [],
@@ -1221,16 +1221,16 @@
   "shop": "shaping",
   "category": "job-dimensions",
   "difficulty": "medium",
-  "type": "mcq",
-  "question": "What is the finished WIDTH of the ME-106 shaping block?",
+  "type": "numerical",
+  "question": "What is the volume of the finished ME-106 shaping block?",
   "options": [
-   "34 mm",
-   "73 mm",
-   "21 mm",
-   "38 mm"
+   "132 mm³",
+   "5 825 mm³",
+   "29 127 mm³",
+   "58 254 mm³"
   ],
   "answer": 3,
-  "explanation": "Width = 38 mm.",
+  "explanation": "73 × 38 × 21 = 58 254 mm³. (132 mm is just the sum of the three dimensions.)",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.3",
   "tags": [],
@@ -1241,39 +1241,17 @@
  {
   "id": "SHP-0057",
   "shop": "shaping",
-  "category": "job-dimensions",
-  "difficulty": "medium",
-  "type": "numerical",
-  "question": "What is the volume of the finished ME-106 shaping block?",
-  "options": [
-   "5 825 mm³",
-   "58 254 mm³",
-   "29 127 mm³",
-   "132 mm³"
-  ],
-  "answer": 1,
-  "explanation": "73 × 38 × 21 = 58 254 mm³. (132 mm is just the sum of the three dimensions.)",
-  "source": "lab",
-  "ref": "Log Sheets ME-106 p.3",
-  "tags": [],
-  "facts": [
-   "SHP-F044"
-  ]
- },
- {
-  "id": "SHP-0058",
-  "shop": "shaping",
   "category": "tools-equipment",
   "difficulty": "easy",
   "type": "mcq",
   "question": "Which tools are listed on the ME-106 shaping log sheet?",
   "options": [
+   "Index plate, mandrel, catch pin, worm wheel, shaft and rough flat file",
    "HSS tool, scale with stand, marking block, try square, hammer, chalk, dot punch",
-   "Emery paper, pumice powder, copper wire, polishing machine and solution",
    "Wire electrode, dielectric supply, clamping wire, power supply and part program",
-   "Index plate, mandrel, catch pin, worm wheel, shaft and rough flat file"
+   "Emery paper, pumice powder, copper wire, polishing machine and solution"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "The shaping log sheet lists the HSS single-point tool, scale with base (stand), marking block, try square, hammer, chalk and dot punch.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.3",
@@ -1283,19 +1261,19 @@
   ]
  },
  {
-  "id": "SHP-0059",
+  "id": "SHP-0058",
   "shop": "shaping",
   "category": "tools-equipment",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Which marking tool is used in the ME-106 shaping lab to check that edges are at 90°?",
   "options": [
-   "Outside caliper",
-   "Dividing head",
    "Try square",
-   "Centre gauge"
+   "Outside caliper",
+   "Centre gauge",
+   "Dividing head"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "The try square (written \"tri-square\" on the log sheet) is used while marking the block.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.3",
@@ -1306,7 +1284,7 @@
   ]
  },
  {
-  "id": "SHP-0060",
+  "id": "SHP-0059",
   "shop": "shaping",
   "category": "tools-equipment",
   "difficulty": "medium",
@@ -1314,11 +1292,11 @@
   "question": "In the ME-106 shaping lab, the dot punch and hammer are used to…",
   "options": [
    "Give the depth of cut to the tool",
-   "Change the stroke length of the ram",
    "Hold the block firmly in the vice",
-   "Make the marked lines permanent and clear"
+   "Make the marked lines permanent and clear",
+   "Change the stroke length of the ram"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "After chalk-and-scale marking, punching makes the marking clear (notes: \"punching to make marking clear\").",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.3; Manufacturing notes p.21",
@@ -1329,19 +1307,19 @@
   ]
  },
  {
-  "id": "SHP-0061",
+  "id": "SHP-0060",
   "shop": "shaping",
   "category": "measurement-reading",
   "difficulty": "medium",
   "type": "mcq",
   "question": "What was the least count of the down-feed scale (the wheel above the tool head) on the ME-106 shaper?",
   "options": [
+   "0.5 mm",
    "0.02 mm",
    "0.01 mm",
-   "0.05 mm",
-   "0.5 mm"
+   "0.05 mm"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "The shaping log sheet notes L.C. = 0.05 mm for the scale wheel above the head.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.3",
@@ -1351,7 +1329,7 @@
   ]
  },
  {
-  "id": "SHP-0062",
+  "id": "SHP-0061",
   "shop": "shaping",
   "category": "measurement-reading",
   "difficulty": "medium",
@@ -1359,11 +1337,11 @@
   "question": "With a down-feed least count of 0.05 mm, how many divisions lower the tool by 1 mm?",
   "options": [
    "50 divisions",
-   "20 divisions",
    "5 divisions",
+   "20 divisions",
    "10 divisions"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "1 mm / 0.05 mm = 20 divisions.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.3",
@@ -1374,7 +1352,7 @@
   ]
  },
  {
-  "id": "SHP-0063",
+  "id": "SHP-0062",
   "shop": "shaping",
   "category": "procedure",
   "difficulty": "medium",
@@ -1382,11 +1360,11 @@
   "question": "What is the correct order of the shaping procedure given in the ME-106 notes?",
   "options": [
    "Lock job in vice → start machine → chalk & marking → punching → give depth → align with cross feed",
+   "Chalk & marking → punching → lock job in vice → align with cross feed → give depth → start machine",
    "Punching → chalk & marking → give depth → start machine → lock job in vice → align with cross feed",
-   "Start machine → give depth → chalk & marking → lock job in vice → punching → align with cross feed",
-   "Chalk & marking → punching → lock job in vice → align with cross feed → give depth → start machine"
+   "Start machine → give depth → chalk & marking → lock job in vice → punching → align with cross feed"
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "Notebook procedure: 1 chalk & marking, 2 punching, 3 lock the job in the plain machine vice, 4 align with the cross-feed handle, 5 give depth with the depth handle, 6 start the machine.",
   "source": "lab",
   "ref": "Manufacturing notes p.21",
@@ -1396,19 +1374,19 @@
   ]
  },
  {
-  "id": "SHP-0064",
+  "id": "SHP-0063",
   "shop": "shaping",
   "category": "procedure",
   "difficulty": "easy",
   "type": "mcq",
   "question": "What is the FIRST step of the ME-106 shaping procedure?",
   "options": [
-   "Mark the dimensions on the block",
    "Start the machine with the black button",
    "Lower the tool by 2 mm",
-   "Remove the waste material"
+   "Remove the waste material",
+   "Mark the dimensions on the block"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "Step 1: mark the dimensions using the scale with stand, marking block, try square, hammer and dot punch.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.3; Manufacturing notes p.21",
@@ -1419,7 +1397,7 @@
   ]
  },
  {
-  "id": "SHP-0065",
+  "id": "SHP-0064",
   "shop": "shaping",
   "category": "procedure",
   "difficulty": "easy",
@@ -1441,19 +1419,19 @@
   ]
  },
  {
-  "id": "SHP-0066",
+  "id": "SHP-0065",
   "shop": "shaping",
   "category": "procedure",
   "difficulty": "medium",
   "type": "mcq",
   "question": "In the ME-106 procedure, how is the tool first brought up to the block?",
   "options": [
+   "Using the ratchet-and-crank feed until the tool just touches",
    "By starting the ram at full speed and waiting",
    "By lowering the head 2 mm at once onto the block",
-   "Using the ratchet-and-crank feed until the tool just touches",
    "By swivelling the tool head 90° towards the block"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "Step 3: using the ratchet and crank mechanism, bring the tool near the block so they just touch.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.3",
@@ -1463,7 +1441,7 @@
   ]
  },
  {
-  "id": "SHP-0067",
+  "id": "SHP-0066",
   "shop": "shaping",
   "category": "procedure",
   "difficulty": "medium",
@@ -1471,11 +1449,11 @@
   "question": "For the first cut in the ME-106 shaping job, the tool head is lowered by…",
   "options": [
    "0.05 mm",
-   "5 mm",
    "2.5 mm",
-   "1 mm"
+   "1 mm",
+   "5 mm"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "Step 4: using the wheel above the head, bring the head and tool down by 1 mm on the scale.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.3",
@@ -1485,19 +1463,19 @@
   ]
  },
  {
-  "id": "SHP-0068",
+  "id": "SHP-0067",
   "shop": "shaping",
   "category": "procedure",
   "difficulty": "medium",
   "type": "mcq",
   "question": "In the ME-106 shaping job, by how much is the head lowered for later cuts?",
   "options": [
-   "Exactly 0.05 mm",
-   "0.5 to 1 mm, as required",
+   "3 to 4 mm each time",
    "5 mm per cut",
-   "3 to 4 mm each time"
+   "Exactly 0.05 mm",
+   "0.5 to 1 mm, as required"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "Step 6: after the first removal, bring the head down again by 0.5–1 mm as required (with the machine off).",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.3",
@@ -1507,7 +1485,7 @@
   ]
  },
  {
-  "id": "SHP-0069",
+  "id": "SHP-0068",
   "shop": "shaping",
   "category": "procedure",
   "difficulty": "medium",
@@ -1515,11 +1493,11 @@
   "question": "In the ME-106 shaping procedure, when is the depth of cut increased?",
   "options": [
    "During the cutting stroke",
-   "While the ram is moving fast",
    "With the machine switched off",
-   "Only after all sides are done"
+   "Only after all sides are done",
+   "While the ram is moving fast"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "The log sheet says the head is brought down again with the machine turned off.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.3",
@@ -1530,7 +1508,7 @@
   ]
  },
  {
-  "id": "SHP-0070",
+  "id": "SHP-0069",
   "shop": "shaping",
   "category": "procedure",
   "difficulty": "medium",
@@ -1538,11 +1516,11 @@
   "question": "How is the ME-106 shaping machine started?",
   "options": [
    "By pulling the ram",
-   "With the (black) push button",
    "By turning the bull gear by hand",
+   "With the (black) push button",
    "By tapping the clapper box"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "Step 5: start the machine using the black button.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.3",
@@ -1552,19 +1530,19 @@
   ]
  },
  {
-  "id": "SHP-0071",
+  "id": "SHP-0070",
   "shop": "shaping",
   "category": "procedure",
   "difficulty": "medium",
   "type": "mcq",
   "question": "After one side of the block reaches size, what is done next?",
   "options": [
+   "Leave the machine running and turn the block",
    "Switch off, remove waste, then repeat for the other sides",
-   "Polish the side with a file only",
    "Switch to a grinding wheel",
-   "Leave the machine running and turn the block"
+   "Polish the side with a file only"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "Steps 7–9: once one side is at size, turn off the machine, remove waste, remove the block and repeat steps 2–8 for the other sides.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.3",
@@ -1574,19 +1552,19 @@
   ]
  },
  {
-  "id": "SHP-0072",
+  "id": "SHP-0071",
   "shop": "shaping",
   "category": "procedure",
   "difficulty": "hard",
   "type": "mcq",
   "question": "Why must the crank on the ratchet be readjusted while shaping?",
   "options": [
+   "So the table feeds in the correct direction during the run",
    "So the ram stroke becomes longer with each pass",
-   "So the tool lifts on the cutting stroke instead",
    "So the vice opens automatically after each cut",
-   "So the table feeds in the correct direction during the run"
+   "So the tool lifts on the cutting stroke instead"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "The log sheet: always readjust the crank on the ratchet so the base (table) moves in the correct direction while the machine runs.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.3",
@@ -1596,16 +1574,16 @@
   ]
  },
  {
-  "id": "SHP-0073",
+  "id": "SHP-0072",
   "shop": "shaping",
   "category": "procedure",
   "difficulty": "medium",
   "type": "mcq",
   "question": "In the ME-106 notes, which handle is used to align the job with the tool before cutting?",
   "options": [
-   "Ram locking handle",
    "Motor switch",
    "Down-feed handle",
+   "Ram locking handle",
    "Cross-feed handle"
   ],
   "answer": 3,
@@ -1618,19 +1596,19 @@
   ]
  },
  {
-  "id": "SHP-0074",
+  "id": "SHP-0073",
   "shop": "shaping",
   "category": "procedure",
   "difficulty": "hard",
   "type": "mcq",
   "question": "In the ME-106 notes, which step comes immediately BEFORE starting the machine?",
   "options": [
-   "Punching the marked lines",
-   "Giving the depth of cut with the depth handle",
    "Removing the waste material",
-   "Chalk marking of the block"
+   "Punching the marked lines",
+   "Chalk marking of the block",
+   "Giving the depth of cut with the depth handle"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "Order: … align with cross feed → give depth with depth handle → start machine.",
   "source": "lab",
   "ref": "Manufacturing notes p.21",
@@ -1640,19 +1618,19 @@
   ]
  },
  {
-  "id": "SHP-0075",
+  "id": "SHP-0074",
   "shop": "shaping",
   "category": "procedure",
   "difficulty": "medium",
   "type": "numerical",
   "question": "A face needs 2 mm removed. The first cut is 1 mm and later cuts are 0.5 mm each. How many cuts are needed in total?",
   "options": [
-   "2",
-   "4",
+   "5",
    "3",
-   "5"
+   "2",
+   "4"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "1 mm (first cut) + 0.5 + 0.5 = 2 mm, so 3 cuts.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.3",
@@ -1663,29 +1641,7 @@
   ]
  },
  {
-  "id": "SHP-0076",
-  "shop": "shaping",
-  "category": "precautions",
-  "difficulty": "easy",
-  "type": "mcq",
-  "question": "Which dress precaution appears on the ME-106 shaping log sheet?",
-  "options": [
-   "Wear an apron",
-   "Wear sandals",
-   "Wear loose sleeves",
-   "Wear a wristwatch"
-  ],
-  "answer": 0,
-  "explanation": "Precaution 1: wear an apron.",
-  "source": "lab",
-  "ref": "Log Sheets ME-106 p.4",
-  "tags": [],
-  "facts": [
-   "SHP-F057"
-  ]
- },
- {
-  "id": "SHP-0077",
+  "id": "SHP-0075",
   "shop": "shaping",
   "category": "precautions",
   "difficulty": "easy",
@@ -1693,11 +1649,11 @@
   "question": "While the shaper is running, you should never…",
   "options": [
    "Stand at a safe distance",
-   "Keep the area clear of chips",
    "Watch the feed direction",
-   "Put your hands on the machine"
+   "Put your hands on the machine",
+   "Keep the area clear of chips"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "Precaution 2: never put hands on the machine while it is turned on.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.4",
@@ -1707,19 +1663,19 @@
   ]
  },
  {
-  "id": "SHP-0078",
+  "id": "SHP-0076",
   "shop": "shaping",
   "category": "precautions",
   "difficulty": "medium",
   "type": "mcq",
   "question": "After touching the block, the head should NOT be lowered by more than about…",
   "options": [
-   "20 mm",
    "2 mm",
+   "10 mm",
    "0.05 mm",
-   "10 mm"
+   "20 mm"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "Precaution 3: the head should not be brought down more than 2 mm after touching the block (too deep a cut can break the tool).",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.4",
@@ -1729,19 +1685,19 @@
   ]
  },
  {
-  "id": "SHP-0079",
+  "id": "SHP-0077",
   "shop": "shaping",
   "category": "precautions",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Which precaution about the ratchet appears on the ME-106 shaping log sheet?",
   "options": [
-   "Keep the ratchet disengaged at all times",
    "Oil the ratchet while the cut is on",
-   "Ensure the table moves in the correct direction",
-   "Remove the ratchet before starting"
+   "Remove the ratchet before starting",
+   "Keep the ratchet disengaged at all times",
+   "Ensure the table moves in the correct direction"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "Precaution 4: ensure the ratchet system is configured so the base moves in the correct direction.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.4",
@@ -1751,19 +1707,19 @@
   ]
  },
  {
-  "id": "SHP-0080",
+  "id": "SHP-0078",
   "shop": "shaping",
   "category": "precautions",
   "difficulty": "medium",
   "type": "mcq",
   "question": "When should the depth of cut be changed on the shaper?",
   "options": [
-   "Only when the machine is stopped",
    "Any time, if you are quick",
+   "Only when the machine is stopped",
    "During the cutting stroke",
    "During the return stroke at full speed"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "The log sheet procedure increases depth with the machine turned off.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.3",
@@ -1773,19 +1729,19 @@
   ]
  },
  {
-  "id": "SHP-0081",
+  "id": "SHP-0079",
   "shop": "shaping",
   "category": "precautions",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Before starting a shaper, the stroke length and position must be set so that…",
   "options": [
-   "The tool clears the work at both ends of the stroke",
+   "The tool touches the vice jaws at each end",
    "The tool stays in the middle of the job only",
-   "The ram hits the column at the end of return",
-   "The tool touches the vice jaws at each end"
+   "The tool clears the work at both ends of the stroke",
+   "The ram hits the column at the end of return"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "The tool must overrun the job slightly at both ends; otherwise it hits the work or the vice.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
@@ -1795,19 +1751,19 @@
   ]
  },
  {
-  "id": "SHP-0082",
+  "id": "SHP-0080",
   "shop": "shaping",
   "category": "precautions",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Where should the operator NOT stand while the shaper is running?",
   "options": [
-   "Behind a fixed safety guard",
-   "Beside the table, clear of the ram",
    "In front of the ram, in line with its stroke",
-   "At the side where the feed handle is"
+   "Beside the table, clear of the ram",
+   "At the side where the feed handle is",
+   "Behind a fixed safety guard"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "Never stand in line with the reciprocating ram.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
@@ -1817,41 +1773,19 @@
   ]
  },
  {
-  "id": "SHP-0083",
-  "shop": "shaping",
-  "category": "precautions",
-  "difficulty": "easy",
-  "type": "mcq",
-  "question": "Chips on the shaper table should be removed…",
-  "options": [
-   "By blowing them towards others",
-   "With a brush after stopping the machine",
-   "By hand while the ram moves",
-   "They need not be removed"
-  ],
-  "answer": 1,
-  "explanation": "Clamp firmly and remove chips with a brush, never by hand.",
-  "source": "theory",
-  "ref": "Theory: Hajra Choudhury",
-  "tags": [],
-  "facts": [
-   "SHP-F064"
-  ]
- },
- {
-  "id": "SHP-0084",
+  "id": "SHP-0081",
   "shop": "shaping",
   "category": "precautions",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Which of these is NOT a shaping-lab precaution?",
   "options": [
-   "Never put hands on the running machine",
-   "Check the ratchet feed direction",
+   "Lower the head 5 mm per cut to save time",
    "Wear an apron",
-   "Lower the head 5 mm per cut to save time"
+   "Check the ratchet feed direction",
+   "Never put hands on the running machine"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "The head must not be lowered more than about 2 mm after touching the block.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.4",
@@ -1864,19 +1798,19 @@
   ]
  },
  {
-  "id": "SHP-0085",
+  "id": "SHP-0082",
   "shop": "shaping",
   "category": "advantages-limitations",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Which is an advantage of a shaper?",
   "options": [
-   "Simple, cheap single-point tools and easy set-up",
+   "It has a very high production rate",
    "It cuts metal on both strokes",
-   "It produces cylindrical parts quickly",
-   "It has a very high production rate"
+   "Simple, cheap single-point tools and easy set-up",
+   "It produces cylindrical parts quickly"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "Shapers use inexpensive single-point tools and are easy to set up for small jobs.",
   "source": "theory",
   "ref": "Theory: P.N. Rao",
@@ -1886,7 +1820,7 @@
   ]
  },
  {
-  "id": "SHP-0086",
+  "id": "SHP-0083",
   "shop": "shaping",
   "category": "advantages-limitations",
   "difficulty": "medium",
@@ -1895,8 +1829,8 @@
   "options": [
    "It can only cut round work between centres",
    "It is slow, because it cuts only on one stroke",
-   "It cannot make flat surfaces at all",
-   "It needs a diamond tool for every cut"
+   "It needs a diamond tool for every cut",
+   "It cannot make flat surfaces at all"
   ],
   "answer": 1,
   "explanation": "Cutting takes place only in the forward stroke, so production is slow; it suits small or medium jobs.",
@@ -1908,19 +1842,19 @@
   ]
  },
  {
-  "id": "SHP-0087",
+  "id": "SHP-0084",
   "shop": "shaping",
   "category": "applications",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Which job is typically done on a shaper?",
   "options": [
+   "Cutting threads on long shafts",
    "Electroplating mild-steel parts",
    "Grinding crankshaft pins to size",
-   "Machining keyways, V-blocks and dovetails",
-   "Cutting threads on long shafts"
+   "Machining keyways, V-blocks and dovetails"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "Shapers machine flat horizontal, vertical and inclined surfaces, slots, keyways, V-blocks and dovetails.",
   "source": "lab",
   "ref": "Shaping slides p.5",
@@ -1930,7 +1864,7 @@
   ]
  },
  {
-  "id": "SHP-0088",
+  "id": "SHP-0085",
   "shop": "shaping",
   "category": "principle-theory",
   "difficulty": "hard",
@@ -1954,7 +1888,7 @@
   "keepOrder": true
  },
  {
-  "id": "SHP-0089",
+  "id": "SHP-0086",
   "shop": "shaping",
   "category": "machine-parts",
   "difficulty": "hard",
@@ -1977,7 +1911,7 @@
   "keepOrder": true
  },
  {
-  "id": "SHP-0090",
+  "id": "SHP-0087",
   "shop": "shaping",
   "category": "principle-theory",
   "difficulty": "easy",
@@ -1998,7 +1932,7 @@
   "keepOrder": true
  },
  {
-  "id": "SHP-0091",
+  "id": "SHP-0088",
   "shop": "shaping",
   "category": "process-parameters",
   "difficulty": "medium",
@@ -2020,16 +1954,16 @@
   "keepOrder": true
  },
  {
-  "id": "SHP-0092",
+  "id": "SHP-0089",
   "shop": "shaping",
   "category": "machine-parts",
   "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled A?",
   "options": [
-   "Down-feed handle",
-   "Driving pulley",
+   "Ram locking handle",
    "Table support",
+   "Column (body)",
    "Ram"
   ],
   "answer": 3,
@@ -2045,7 +1979,7 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0093",
+  "id": "SHP-0090",
   "shop": "shaping",
   "category": "machine-parts",
   "difficulty": "easy",
@@ -2054,8 +1988,8 @@
   "options": [
    "Tool head",
    "Down-feed handle",
-   "Base",
-   "Cross rail"
+   "Table support",
+   "Vice"
   ],
   "answer": 0,
   "explanation": "B = Tool head. Mounted at the front of the ram; can swivel; carries the down-feed slide and clapper box.",
@@ -2070,16 +2004,16 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0094",
+  "id": "SHP-0091",
   "shop": "shaping",
   "category": "machine-parts",
   "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled C?",
   "options": [
-   "Ram locking handle",
+   "Cross rail",
    "Down-feed handle",
-   "Base",
+   "Ram",
    "Tool head"
   ],
   "answer": 1,
@@ -2095,19 +2029,19 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0095",
+  "id": "SHP-0092",
   "shop": "shaping",
   "category": "machine-parts",
   "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled D?",
   "options": [
-   "Tool head",
-   "Vice",
-   "Table",
-   "Clapper box"
+   "Table support",
+   "Down-feed handle",
+   "Clapper box",
+   "Vice"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "D = Clapper box. Holds the tool post; its hinged block lets the tool lift on the return stroke.",
   "source": "lab",
   "ref": "Shaper wall chart",
@@ -2120,19 +2054,19 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0096",
+  "id": "SHP-0093",
   "shop": "shaping",
   "category": "machine-parts",
   "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled E?",
   "options": [
-   "Vice",
-   "Table",
-   "Cutting tool",
-   "Driving pulley"
+   "Tool head",
+   "Base",
+   "Down-feed handle",
+   "Cutting tool"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "E = Cutting tool. Single-point HSS tool that cuts on the forward stroke.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.3",
@@ -2145,19 +2079,19 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0097",
+  "id": "SHP-0094",
   "shop": "shaping",
   "category": "machine-parts",
   "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled F?",
   "options": [
-   "Cross rail",
-   "Ram",
+   "Cutting tool",
    "Vice",
-   "Down-feed handle"
+   "Table",
+   "Driving pulley"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "F = Vice. Holds the job on the table.",
   "source": "lab",
   "ref": "Manufacturing notes p.21",
@@ -2170,7 +2104,7 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0098",
+  "id": "SHP-0095",
   "shop": "shaping",
   "category": "machine-parts",
   "difficulty": "easy",
@@ -2178,9 +2112,9 @@
   "question": "In the figure, what is the part labelled G?",
   "options": [
    "Table",
-   "Column (body)",
-   "Base",
-   "Clapper box"
+   "Cross rail",
+   "Ram",
+   "Down-feed handle"
   ],
   "answer": 0,
   "explanation": "G = Table. Carries the vice and work; moved crosswise for feed.",
@@ -2195,19 +2129,19 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0099",
+  "id": "SHP-0096",
   "shop": "shaping",
   "category": "machine-parts",
   "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled H?",
   "options": [
-   "Clapper box",
+   "Column (body)",
+   "Ram locking handle",
    "Cross rail",
-   "Down-feed handle",
-   "Table"
+   "Driving pulley"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "H = Cross rail. Mounted on the column front; carries the table and its cross-feed screw.",
   "source": "lab",
   "ref": "Shaping slides p.6",
@@ -2220,19 +2154,19 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0100",
+  "id": "SHP-0097",
   "shop": "shaping",
   "category": "machine-parts",
   "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled I?",
   "options": [
-   "Driving pulley",
-   "Vice",
-   "Ram locking handle",
-   "Column (body)"
+   "Cutting tool",
+   "Cross rail",
+   "Column (body)",
+   "Clapper box"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "I = Column (body). Box casting housing the drive and carrying the ram guides.",
   "source": "lab",
   "ref": "Shaping slides p.6",
@@ -2245,19 +2179,19 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0101",
+  "id": "SHP-0098",
   "shop": "shaping",
   "category": "machine-parts",
   "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled J?",
   "options": [
-   "Tool head",
-   "Down-feed handle",
-   "Driving pulley",
-   "Base"
+   "Ram locking handle",
+   "Base",
+   "Table",
+   "Vice"
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "J = Base. Supports the whole machine.",
   "source": "lab",
   "ref": "Shaping slides p.6",
@@ -2270,7 +2204,7 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0102",
+  "id": "SHP-0099",
   "shop": "shaping",
   "category": "machine-parts",
   "difficulty": "easy",
@@ -2278,9 +2212,9 @@
   "question": "In the figure, what is the part labelled K?",
   "options": [
    "Table support",
-   "Down-feed handle",
-   "Tool head",
-   "Ram"
+   "Vice",
+   "Column (body)",
+   "Down-feed handle"
   ],
   "answer": 0,
   "explanation": "K = Table support. Front support that steadies the table.",
@@ -2295,19 +2229,19 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0103",
+  "id": "SHP-0100",
   "shop": "shaping",
   "category": "machine-parts",
   "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled L?",
   "options": [
+   "Column (body)",
    "Down-feed handle",
-   "Ram locking handle",
-   "Table",
-   "Clapper box"
+   "Driving pulley",
+   "Ram locking handle"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "L = Ram locking handle. Locks the ram after the stroke position has been adjusted.",
   "source": "lab",
   "ref": "Shaping slides p.6",
@@ -2320,19 +2254,19 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0104",
+  "id": "SHP-0101",
   "shop": "shaping",
   "category": "machine-parts",
   "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled M?",
   "options": [
+   "Clapper box",
    "Table support",
-   "Tool head",
-   "Driving pulley",
-   "Base"
+   "Vice",
+   "Driving pulley"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "M = Driving pulley. Takes power from the motor to drive the bull gear mechanism.",
   "source": "lab",
   "ref": "Shaping slides p.6",
@@ -2345,19 +2279,19 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0105",
+  "id": "SHP-0102",
   "shop": "shaping",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, which label shows the ram?",
   "options": [
+   "B",
    "A",
    "H",
-   "F",
    "D"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "A = Ram. Reciprocating slide that carries the tool head and gives the cutting stroke.",
   "source": "lab",
   "ref": "Shaper wall chart",
@@ -2370,19 +2304,19 @@
   "ask": "which"
  },
  {
-  "id": "SHP-0106",
+  "id": "SHP-0103",
   "shop": "shaping",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, which label shows the clapper box?",
   "options": [
-   "H",
-   "B",
-   "L",
-   "D"
+   "F",
+   "E",
+   "D",
+   "M"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "D = Clapper box. Holds the tool post; its hinged block lets the tool lift on the return stroke.",
   "source": "lab",
   "ref": "Shaper wall chart",
@@ -2395,19 +2329,19 @@
   "ask": "which"
  },
  {
-  "id": "SHP-0107",
+  "id": "SHP-0104",
   "shop": "shaping",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, which label shows the cross rail?",
   "options": [
-   "I",
-   "J",
    "H",
-   "G"
+   "K",
+   "A",
+   "M"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "H = Cross rail. Mounted on the column front; carries the table and its cross-feed screw.",
   "source": "lab",
   "ref": "Shaping slides p.6",
@@ -2420,19 +2354,19 @@
   "ask": "which"
  },
  {
-  "id": "SHP-0108",
+  "id": "SHP-0105",
   "shop": "shaping",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, which label shows the down-feed handle?",
   "options": [
-   "H",
    "C",
-   "M",
-   "G"
+   "H",
+   "L",
+   "M"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "C = Down-feed handle. Lowers the tool to give the depth of cut.",
   "source": "lab",
   "ref": "Shaping slides p.6",
@@ -2445,19 +2379,19 @@
   "ask": "which"
  },
  {
-  "id": "SHP-0109",
+  "id": "SHP-0106",
   "shop": "shaping",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, which label shows the ram locking handle?",
   "options": [
-   "L",
-   "A",
-   "E",
-   "M"
+   "J",
+   "C",
+   "M",
+   "L"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "L = Ram locking handle. Locks the ram after the stroke position has been adjusted.",
   "source": "lab",
   "ref": "Shaping slides p.6",
@@ -2470,19 +2404,19 @@
   "ask": "which"
  },
  {
-  "id": "SHP-0110",
+  "id": "SHP-0107",
   "shop": "shaping",
   "category": "machine-parts",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, what is the function of the part labelled D?",
   "options": [
-   "Mounted at the front of the ram; can swivel; carries the down-feed slide and clapper box",
-   "Box casting housing the drive and carrying the ram guides",
-   "Single-point HSS tool that cuts on the forward stroke",
-   "Holds the tool post; its hinged block lets the tool lift on the return stroke"
+   "Lowers the tool to give the depth of cut",
+   "Holds the tool post; its hinged block lets the tool lift on the return stroke",
+   "Carries the vice and work; moved crosswise for feed",
+   "Front support that steadies the table"
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "D = Clapper box. Holds the tool post; its hinged block lets the tool lift on the return stroke.",
   "source": "lab",
   "ref": "Shaper wall chart",
@@ -2495,17 +2429,17 @@
   "ask": "function"
  },
  {
-  "id": "SHP-0111",
+  "id": "SHP-0108",
   "shop": "shaping",
   "category": "machine-parts",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, what is the function of the part labelled C?",
   "options": [
-   "Locks the ram after the stroke position has been adjusted",
-   "Mounted at the front of the ram; can swivel; carries the down-feed slide and clapper box",
+   "Reciprocating slide that carries the tool head and gives the cutting stroke",
+   "Holds the job on the table",
    "Lowers the tool to give the depth of cut",
-   "Mounted on the column front; carries the table and its cross-feed screw"
+   "Takes power from the motor to drive the bull gear mechanism"
   ],
   "answer": 2,
   "explanation": "C = Down-feed handle. Lowers the tool to give the depth of cut.",
@@ -2520,7 +2454,7 @@
   "ask": "function"
  },
  {
-  "id": "SHP-0112",
+  "id": "SHP-0109",
   "shop": "shaping",
   "category": "machine-parts",
   "difficulty": "medium",
@@ -2528,11 +2462,11 @@
   "question": "In the figure, what is the function of the part labelled H?",
   "options": [
    "Holds the tool post; its hinged block lets the tool lift on the return stroke",
+   "Front support that steadies the table",
    "Mounted on the column front; carries the table and its cross-feed screw",
-   "Lowers the tool to give the depth of cut",
    "Supports the whole machine"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "H = Cross rail. Mounted on the column front; carries the table and its cross-feed screw.",
   "source": "lab",
   "ref": "Shaping slides p.6",
@@ -2545,19 +2479,19 @@
   "ask": "function"
  },
  {
-  "id": "SHP-0113",
+  "id": "SHP-0110",
   "shop": "shaping",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled A?",
   "options": [
-   "Ram",
-   "Crank angle for the return stroke",
    "Bull gear (crank wheel)",
-   "Clapper block"
+   "Crank angle for the cutting stroke",
+   "Sliding block",
+   "Pivot (fulcrum)"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "A = Bull gear (crank wheel). Large gear rotating at constant speed; carries the crank pin.",
   "source": "lab",
   "ref": "Shaper wall chart",
@@ -2570,17 +2504,17 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0114",
+  "id": "SHP-0111",
   "shop": "shaping",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled B?",
   "options": [
-   "Bull gear (crank wheel)",
+   "Pivot (fulcrum)",
    "Crank pin",
    "Ram",
-   "Driving pinion"
+   "Slotted lever (link)"
   ],
   "answer": 1,
   "explanation": "B = Crank pin. Pin on the bull gear whose radius sets the stroke length.",
@@ -2595,19 +2529,19 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0115",
+  "id": "SHP-0112",
   "shop": "shaping",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled C?",
   "options": [
-   "Sliding block",
-   "Bull gear (crank wheel)",
-   "Clapper block",
-   "Ram"
+   "Crank angle for the return stroke",
+   "Slotted lever (link)",
+   "Ram",
+   "Sliding block"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "C = Sliding block. Pivoted on the crank pin; slides in the slot of the lever.",
   "source": "lab",
   "ref": "Shaper wall chart",
@@ -2620,19 +2554,19 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0116",
+  "id": "SHP-0113",
   "shop": "shaping",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled D?",
   "options": [
    "Crank angle for the cutting stroke",
    "Driving pinion",
-   "Bull gear (crank wheel)",
-   "Slotted lever (link)"
+   "Slotted lever (link)",
+   "Bull gear (crank wheel)"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "D = Slotted lever (link). Oscillates about the pivot, converting crank rotation into ram motion.",
   "source": "lab",
   "ref": "Shaper wall chart",
@@ -2645,17 +2579,17 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0117",
+  "id": "SHP-0114",
   "shop": "shaping",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled E?",
   "options": [
-   "Crank angle for the cutting stroke",
+   "Clapper block",
    "Pivot (fulcrum)",
-   "Crank angle for the return stroke",
-   "Index plate"
+   "Sliding block",
+   "Driving pinion"
   ],
   "answer": 1,
   "explanation": "E = Pivot (fulcrum). Fixed point at the lower end about which the slotted lever swings.",
@@ -2670,19 +2604,19 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0118",
+  "id": "SHP-0115",
   "shop": "shaping",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled G?",
   "options": [
-   "Driving pinion",
+   "Slotted lever (link)",
    "Crank angle for the cutting stroke",
-   "Crank pin",
-   "Index plate"
+   "Crank angle for the return stroke",
+   "Driving pinion"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "G = Driving pinion. Small gear from the motor that drives the bull gear.",
   "source": "lab",
   "ref": "Shaper wall chart",
@@ -2695,19 +2629,19 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0119",
+  "id": "SHP-0116",
   "shop": "shaping",
   "category": "process-parameters",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the quick-return figure, which label marks the crank angle of the CUTTING stroke?",
   "options": [
-   "D",
-   "A",
+   "H",
    "I",
-   "H"
+   "D",
+   "A"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "H is the larger (240°) arc of crank rotation, so the cutting stroke is the slow one. I is the 120° return arc.",
   "source": "lab",
   "ref": "Shaper wall chart",
@@ -2720,7 +2654,7 @@
   "ask": "which"
  },
  {
-  "id": "SHP-0120",
+  "id": "SHP-0117",
   "shop": "shaping",
   "category": "numericals",
   "difficulty": "hard",
@@ -2728,11 +2662,11 @@
   "question": "In the figure the crank-pin circle radius is exactly half the distance from the crank centre to the pivot. What is the ratio of cutting time to return time?",
   "options": [
    "3 : 1",
-   "1.5 : 1",
    "2 : 1",
+   "1.5 : 1",
    "1 : 2"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "cos θ = r/d = 0.5 → θ = 60°; return = 120°, cutting = 240°; ratio = 2.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
@@ -2743,19 +2677,19 @@
   "figure": "shaping/quick-return"
  },
  {
-  "id": "SHP-0121",
+  "id": "SHP-0118",
   "shop": "shaping",
   "category": "machine-parts",
   "difficulty": "hard",
   "type": "diagram",
   "question": "In the figure, what happens to the stroke length if the crank pin B is moved nearer the bull-gear centre?",
   "options": [
-   "The stroke length decreases",
+   "Nothing changes",
    "The stroke length increases",
-   "The return becomes slower than the cut",
-   "Nothing changes"
+   "The stroke length decreases",
+   "The return becomes slower than the cut"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "A smaller crank-pin radius makes the slotted lever swing through a smaller angle, so the ram stroke is shorter.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
@@ -2766,19 +2700,19 @@
   "figure": "shaping/quick-return"
  },
  {
-  "id": "SHP-0122",
+  "id": "SHP-0119",
   "shop": "shaping",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled A?",
   "options": [
+   "Clapper block",
+   "Hinge pin",
    "Tool slide",
-   "Tool",
-   "Clapper box",
-   "Workpiece"
+   "Clapper box"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "A = Clapper box. Housing on the tool head in which the clapper block is hinged.",
   "source": "lab",
   "ref": "Shaper wall chart",
@@ -2791,19 +2725,19 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0123",
+  "id": "SHP-0120",
   "shop": "shaping",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled B?",
   "options": [
-   "Workpiece",
-   "Clapper box",
+   "Hinge pin",
    "Tool slide",
-   "Hinge pin"
+   "Clapper block",
+   "Tool"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "B = Hinge pin. Pin about which the clapper block swings forward to lift the tool.",
   "source": "lab",
   "ref": "Shaper wall chart",
@@ -2816,19 +2750,19 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0124",
+  "id": "SHP-0121",
   "shop": "shaping",
   "category": "machine-parts",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled C?",
   "options": [
-   "Ram",
    "Clapper block",
-   "Tool slide",
-   "Tool"
+   "Ram",
+   "Tool",
+   "Workpiece"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "C = Clapper block. Carries the tool post; seated firmly on the cutting stroke, free to lift on the return.",
   "source": "lab",
   "ref": "Shaper wall chart",
@@ -2841,19 +2775,19 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0125",
+  "id": "SHP-0122",
   "shop": "shaping",
   "category": "machine-parts",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In sketch 2 of the figure, why has the tool swung up?",
   "options": [
-   "The tool has broken",
-   "The tool head was swivelled for an angular cut",
    "The depth of cut was increased",
-   "On the return stroke the hinged clapper block lifts so the tool does not drag"
+   "On the return stroke the hinged clapper block lifts so the tool does not drag",
+   "The tool head was swivelled for an angular cut",
+   "The tool has broken"
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "Friction on the return stroke swings the hinged clapper block up, so the tool slides over the work instead of digging in.",
   "source": "lab",
   "ref": "Shaper wall chart",
@@ -2864,19 +2798,19 @@
   "figure": "shaping/clapper-box"
  },
  {
-  "id": "SHP-0126",
+  "id": "SHP-0123",
   "shop": "shaping",
   "category": "tools-equipment",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled A?",
   "options": [
+   "Major (side) flank",
    "End (minor) cutting edge",
-   "Shank",
-   "Face",
-   "Nose"
+   "Minor (end) flank",
+   "Shank"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "A = Shank. Body of the tool, clamped in the tool post.",
   "source": "lab",
   "ref": "Shaping slides p.7",
@@ -2889,17 +2823,17 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0127",
+  "id": "SHP-0124",
   "shop": "shaping",
   "category": "tools-equipment",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled B?",
   "options": [
-   "Land",
-   "Minor (end) flank",
+   "Nose",
+   "Major (side) flank",
    "Face",
-   "Major (side) flank"
+   "Minor (end) flank"
   ],
   "answer": 2,
   "explanation": "B = Face. Top surface over which the chip slides.",
@@ -2914,19 +2848,19 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0128",
+  "id": "SHP-0125",
   "shop": "shaping",
   "category": "tools-equipment",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled C?",
   "options": [
-   "Nose",
-   "Tang",
    "End (minor) cutting edge",
-   "Shank"
+   "Nose",
+   "Shank",
+   "Face"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "C = Nose. Tip where the side and end cutting edges meet.",
   "source": "lab",
   "ref": "Shaping slides p.7",
@@ -2939,19 +2873,19 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0129",
+  "id": "SHP-0126",
   "shop": "shaping",
   "category": "tools-equipment",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled D?",
   "options": [
-   "Face",
-   "Shank",
    "Side (major) cutting edge",
-   "Major (side) flank"
+   "Tang",
+   "End (minor) cutting edge",
+   "Shank"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "D = Side (major) cutting edge. Main cutting edge along the side of the tool.",
   "source": "lab",
   "ref": "Shaping slides p.7",
@@ -2964,19 +2898,19 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0130",
+  "id": "SHP-0127",
   "shop": "shaping",
   "category": "tools-equipment",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled E?",
   "options": [
-   "Land",
-   "End (minor) cutting edge",
-   "Tang",
-   "Side (major) cutting edge"
+   "Face",
+   "Shank",
+   "Major (side) flank",
+   "End (minor) cutting edge"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "E = End (minor) cutting edge. Cutting edge at the end of the tool.",
   "source": "lab",
   "ref": "Shaping slides p.7",
@@ -2989,19 +2923,19 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0131",
+  "id": "SHP-0128",
   "shop": "shaping",
   "category": "tools-equipment",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled F?",
   "options": [
-   "Side (major) cutting edge",
    "Face",
-   "Shank",
-   "Major (side) flank"
+   "Side (major) cutting edge",
+   "Major (side) flank",
+   "Land"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "F = Major (side) flank. Surface below the side cutting edge.",
   "source": "lab",
   "ref": "Shaping slides p.7",
@@ -3014,19 +2948,19 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0132",
+  "id": "SHP-0129",
   "shop": "shaping",
   "category": "tools-equipment",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled G?",
   "options": [
-   "Minor (end) flank",
-   "Tang",
    "Nose",
-   "Major (side) flank"
+   "Land",
+   "Side (major) cutting edge",
+   "Minor (end) flank"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "G = Minor (end) flank. Surface below the end cutting edge.",
   "source": "lab",
   "ref": "Shaping slides p.7",
@@ -3039,19 +2973,19 @@
   "ask": "part"
  },
  {
-  "id": "SHP-0133",
+  "id": "SHP-0130",
   "shop": "shaping",
   "category": "job-dimensions",
   "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure of the ME-106 shaping block, what is the length of edge P?",
   "options": [
-   "73 mm",
-   "21 mm",
    "38 mm",
-   "83 mm"
+   "83 mm",
+   "73 mm",
+   "21 mm"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "P is the length of the block: 73 mm.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.3",
@@ -3063,19 +2997,19 @@
   "label": "P"
  },
  {
-  "id": "SHP-0134",
+  "id": "SHP-0131",
   "shop": "shaping",
   "category": "job-dimensions",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure of the ME-106 shaping block, what is the dimension of edge Q?",
   "options": [
-   "21 mm",
-   "28 mm",
    "73 mm",
-   "38 mm"
+   "38 mm",
+   "28 mm",
+   "21 mm"
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "Q is the width of the block: 38 mm.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.3",
@@ -3087,19 +3021,19 @@
   "label": "Q"
  },
  {
-  "id": "SHP-0135",
+  "id": "SHP-0132",
   "shop": "shaping",
   "category": "job-dimensions",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure of the ME-106 shaping block, what is the dimension of edge R?",
   "options": [
-   "38 mm",
-   "31 mm",
    "21 mm",
-   "12 mm"
+   "12 mm",
+   "38 mm",
+   "31 mm"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "R is the height (thickness): 21 mm.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.3",

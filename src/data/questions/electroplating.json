@@ -380,15 +380,15 @@
   "category": "numericals",
   "difficulty": "hard",
   "type": "numerical",
-  "question": "In the ME-106 copper plating step, about 5 A flows for 30 s. Roughly how much copper is deposited?",
+  "question": "In the ME-106 copper plating step, about 6 A flows for 30 s. Roughly how much copper is deposited?",
   "options": [
-   "≈ 0.49 g",
-   "≈ 4.9 g",
-   "≈ 177.8 g",
-   "≈ 0.049 g"
+   "≈ 0.59 g",
+   "≈ 5.9 g",
+   "≈ 213.3 g",
+   "≈ 0.059 g"
   ],
   "answer": 3,
-  "explanation": "t = 30 s = 1/120 h. m = 1.185 × 5 × (1/120) ≈ 0.049 g. Using 30 hours instead of 30 seconds gives 177.8 g.",
+  "explanation": "t = 30 s = 1/120 h. m = 1.185 × 6 × (1/120) ≈ 0.059 g. Using 30 hours instead of 30 seconds gives 213.3 g.",
   "source": "lab",
   "ref": "Electroplating lecture p.2; Electroplating blackboard",
   "tags": [],
@@ -2491,7 +2491,7 @@
   "id": "ELP-0112",
   "shop": "electroplating",
   "category": "procedure",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the ME-106 electroplating sequence shown, what is step A?",
   "options": [
@@ -2516,7 +2516,7 @@
   "id": "ELP-0113",
   "shop": "electroplating",
   "category": "procedure",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the ME-106 electroplating sequence shown, what is step B?",
   "options": [
@@ -2541,7 +2541,7 @@
   "id": "ELP-0114",
   "shop": "electroplating",
   "category": "procedure",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the ME-106 electroplating sequence shown, what is step C?",
   "options": [
@@ -2566,7 +2566,7 @@
   "id": "ELP-0115",
   "shop": "electroplating",
   "category": "procedure",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the ME-106 electroplating sequence shown, what is step D?",
   "options": [
@@ -2591,7 +2591,7 @@
   "id": "ELP-0116",
   "shop": "electroplating",
   "category": "procedure",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the ME-106 electroplating sequence shown, what is step E?",
   "options": [
@@ -2616,7 +2616,7 @@
   "id": "ELP-0117",
   "shop": "electroplating",
   "category": "procedure",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the ME-106 electroplating sequence shown, what is step F?",
   "options": [
@@ -2641,7 +2641,7 @@
   "id": "ELP-0118",
   "shop": "electroplating",
   "category": "procedure",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the ME-106 electroplating sequence shown, what is step G?",
   "options": [
@@ -2666,7 +2666,7 @@
   "id": "ELP-0119",
   "shop": "electroplating",
   "category": "procedure",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "Which box in the sequence is chemical cleaning?",
   "options": [
@@ -2691,7 +2691,7 @@
   "id": "ELP-0120",
   "shop": "electroplating",
   "category": "procedure",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "Which box in the sequence is copper plating?",
   "options": [
@@ -2716,7 +2716,7 @@
   "id": "ELP-0121",
   "shop": "electroplating",
   "category": "procedure",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "Which box in the sequence is nickel plating?",
   "options": [
@@ -2764,7 +2764,7 @@
   "id": "ELP-0123",
   "shop": "electroplating",
   "category": "principle-theory",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled A?",
   "options": [
@@ -2789,7 +2789,7 @@
   "id": "ELP-0124",
   "shop": "electroplating",
   "category": "principle-theory",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled B?",
   "options": [
@@ -2814,7 +2814,7 @@
   "id": "ELP-0125",
   "shop": "electroplating",
   "category": "principle-theory",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled C?",
   "options": [

@@ -58,9 +58,9 @@ q('param', 'm', 'For copper, the electroplating lecture gives the mass deposited
 n('num', 'm', 'How much copper is deposited by 2 A flowing for 3 hours?',
   '≈ 7.11 g', ['≈ 2.37 g', '≈ 0.59 g', '≈ 71.1 g'],
   'm = 1.185 × I × t = 1.185 × 2 × 3 = 7.11 g.', [15])
-n('num', 'h', 'In the ME-106 copper plating step, about 5 A flows for 30 s. Roughly how much copper is deposited?',
-  '≈ 0.049 g', ['≈ 0.49 g', '≈ 4.9 g', '≈ 177.8 g'],
-  't = 30 s = 1/120 h. m = 1.185 × 5 × (1/120) ≈ 0.049 g. Using 30 hours instead of 30 seconds gives 177.8 g.', [15, 42])
+n('num', 'h', 'In the ME-106 copper plating step, about 6 A flows for 30 s. Roughly how much copper is deposited?',
+  '≈ 0.059 g', ['≈ 0.59 g', '≈ 5.9 g', '≈ 213.3 g'],
+  't = 30 s = 1/120 h. m = 1.185 × 6 × (1/120) ≈ 0.059 g. Using 30 hours instead of 30 seconds gives 213.3 g.', [15, 42])
 n('num', 'h', 'Using m = M·I·t/(n·F), how much copper (M = 63.5, n = 2) is deposited by 2 A in 965 s?',
   '≈ 0.635 g', ['≈ 1.27 g', '≈ 0.318 g', '≈ 63.5 g'],
   'm = 63.5 × 2 × 965 / (2 × 96,500) = 0.635 g. Forgetting n = 2 gives 1.27 g.', [13])

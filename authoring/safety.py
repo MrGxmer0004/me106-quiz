@@ -15,19 +15,19 @@ q('safety', 'e', 'Why must loose clothing be avoided near machines?',
   'Loose sleeves, ties and clothes can be pulled into chucks, cutters and spindles.', [3])
 q('safety', 'e', 'Which of these should be removed before working on a machine?',
   'Rings, bracelets, chains and wristwatches', ['Safety shoes', 'Apron', 'Safety goggles'],
-  'Loose accessories can be caught by moving parts.', [4])
+  'Loose accessories can be caught by moving parts.', [4, 'GRD99', 'MIL117'])
 q('safety', 'e', 'What should a student with long hair do before operating a machine?',
   'Tie it back or cover it', ['Leave it loose', 'Wet it with coolant', 'Nothing'],
   'Long hair can be caught in rotating parts.', [5])
 q('safety', 'e', 'Safety goggles are especially needed when…',
   'Chips, sparks or splashes can fly', ['Reading the log sheet', 'Measuring with a steel rule', 'Writing calculations'],
-  'Grinding, chipping, filing and plating can throw particles or liquids.', [6])
+  'Grinding, chipping, filing and plating can throw particles or liquids.', [6, 'FIT83', 'MIL130'])
 q('safety', 'm', 'Why should gloves NOT be worn near rotating parts such as a lathe chuck?',
   'They can be caught and pull the hand in', ['They reduce the cutting speed', 'They damage the chuck', 'They make the job slippery to measure'],
   'A glove snagged by a rotating part drags the hand in.', [7])
 q('safety', 'e', 'You may operate a workshop machine only…',
   'With the instructor\'s permission and supervision', ['Whenever the shop is open', 'If a friend shows you how', 'After hours when it is quiet'],
-  'Do not operate the machine without supervision from the shop instructor.', [8])
+  'Do not operate the machine without supervision from the shop instructor.', [8, 'GRD104'])
 q('safety', 'e', 'While a machine is running, you should…',
   'Stay alert and avoid talking or fooling around', ['Use your phone between cuts', 'Leave it to fetch tools', 'Lean on it to watch closely'],
   'Stay attentive during fixing and cutting.', [9])
@@ -39,7 +39,7 @@ q('safety', 'e', 'What must be removed from the lathe chuck before switching on?
   'A chuck key left in the chuck flies out when the spindle starts.', [11])
 q('safety', 'e', 'Before measuring or adjusting a job on a machine, you must…',
   'Stop the machine', ['Increase the speed', 'Engage the feed', 'Remove the guard'],
-  'Always stop the machine before measuring, cleaning, adjusting or changing tools.', [12])
+  'Always stop the machine before measuring, cleaning, adjusting or changing tools.', [12, 'MIL128'])
 q('safety', 'm', 'In case of trouble on a machine, the first thing to do is…',
   'Press the emergency stop / switch off', ['Pull the job out by hand', 'Run to fetch the instructor', 'Increase the feed to finish quickly'],
   'Know where the emergency stop is and use it at once.', [13])
@@ -51,7 +51,7 @@ q('safety', 'e', 'Before starting the machine, the job and tool must be…',
   'Loose work or tools can be thrown out.', [15])
 q('safety', 'e', 'Chips and swarf should be removed with…',
   'A brush or chip hook, after stopping the machine', ['Bare hands while cutting', 'By blowing them away', 'A wet cloth while running'],
-  'Chips are sharp and hot.', [16])
+  'Chips are sharp and hot.', [16, 'MIL119', 'SHP64'])
 q('safety', 'm', 'Which electrical safety rule applies in the workshop?',
   'Never touch switches or connections with wet hands', ['Open panels to reset faults yourself', 'Use bare wires for quick connections', 'Bypass the earth wire if it trips'],
   'Water conducts electricity; do not touch electrical connections.', [17])

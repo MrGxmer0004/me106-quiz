@@ -59,7 +59,7 @@ Source keys: `EP` = Electroplating.pdf (= Electroplating for workshop practice.p
 - [ELP-F046] Nickel bath (Watts type): nickel sulphate (main source of Ni ions), nickel chloride (increases conductivity and helps anode dissolution), boric acid (controls pH), plus brighteners and anti-pitting agents. [EP p.10]
 - [ELP-F047] Sulphuric acid is added regularly to the nickel bath because hydrogen ions are lost as H₂ gas. [EP p.10]
 - [ELP-F048] The anode in nickel plating is nickel metal — lumps of various shapes, or small pieces kept in a titanium basket. [EP p.10]
-- [ELP-F049] Lab nickel-plating conditions: about 1.5–3 V, current about 5 A (≈5 A/sq ft on board), for about 5–7 minutes. [BOARD; ELS]
+- [ELP-F049] Lab nickel-plating conditions: about 1.5–3 V and 5–7 minutes; the log sheet gives a current of about 5 A (the board writes the current density as 5 A/sq ft). [BOARD; ELS]
 - [ELP-F050] In the lab job only half of the copper-plated workpiece is dipped in the nickel bath, so the job shows both copper and nickel layers. [ELS]
 - [ELP-F051] Ingredients written for the lab nickel bath include nickel salts, boric acid and water. [BOARD]
 
