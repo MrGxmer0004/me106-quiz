@@ -8,8 +8,7 @@ def shaper():
     f.rect(60, 455, 620, 30, 'f')                        # base
     f.rect(300, 120, 300, 335, 'f')                      # column / body
     f.rect(210, 70, 420, 50, 'f')                        # ram
-    f.rect(612, 125, 30, 14, 's')                        # ram locking handle stem
-    f.line(627, 125, 650, 98); f.circle(652, 95, 5, 'k')
+    f.line(560, 70, 580, 42); f.circle(582, 39, 5, 'k')     # ram locking handle (on the ram)
     f.rect(150, 60, 60, 105, 'f')                        # tool head (swivel + slide)
     f.line(180, 60, 180, 30); f.line(165, 30, 195, 30); f.circle(180, 30, 4, 'k')   # down-feed handle
     f.rect(158, 165, 44, 40, 'f2')                       # clapper box
@@ -22,21 +21,23 @@ def shaper():
     f.rect(270, 290, 30, 90, 'f')                        # cross-rail block (on column face)
     f.rect(140, 360, 40, 95, 's')                        # table support
     f.circle(300, 395, 12, 's')                          # cross-feed handle
-    f.circle(470, 330, 45, 's'); f.circle(470, 330, 6, 'k')   # driving pulley
+    f.circle(540, 330, 30, 's'); f.circle(540, 330, 5, 'k')   # driving pulley
+    f.rect(470, 400, 80, 45, 'f2', rx=4); f.text(510, 422, 'motor', 13)
+    f.line(512, 340, 490, 400, 'thin'); f.line(568, 340, 540, 400, 'thin')   # belt
     C = f.callout
     C('A', 420, 95, 420, 40, 'Ram', 'Reciprocating slide that carries the tool head and gives the cutting stroke', 'SHP-F023')
     C('B', 155, 110, 90, 90, 'Tool head', 'Mounted at the front of the ram; can swivel; carries the down-feed slide and clapper box', 'SHP-F024')
-    C('C', 180, 34, 90, 30, 'Down-feed handle (tool slide)', 'Lowers the tool to give the depth of cut', 'SHP-F025')
+    C('C', 180, 34, 90, 30, 'Down-feed handle', 'Lowers the tool to give the depth of cut', 'SHP-F025')
     C('D', 196, 185, 260, 185, 'Clapper box', 'Holds the tool post; its hinged block lets the tool lift on the return stroke', 'SHP-F026')
     C('E', 182, 230, 260, 228, 'Cutting tool', 'Single-point HSS tool that cuts on the forward stroke', 'SHP-F037')
     C('F', 155, 270, 60, 250, 'Vice', 'Holds the job on the table', 'SHP-F031')
     C('G', 130, 330, 60, 330, 'Table', 'Carries the vice and work; moved crosswise for feed', 'SHP-F027')
     C('H', 285, 330, 340, 260, 'Cross rail', 'Mounted on the column front; carries the table and its cross-feed screw', 'SHP-F028')
-    C('I', 560, 400, 700, 410, 'Column (body)', 'Box casting housing the drive and carrying the ram guides', 'SHP-F029')
+    C('I', 420, 220, 700, 220, 'Column (body)', 'Box casting housing the drive and carrying the ram guides', 'SHP-F029')
     C('J', 660, 470, 730, 470, 'Base', 'Supports the whole machine', 'SHP-F030')
     C('K', 160, 420, 90, 430, 'Table support', 'Front support that steadies the table', 'SHP-F030')
-    C('L', 652, 95, 720, 70, 'Ram locking handle', 'Locks the ram after the stroke position has been adjusted', 'SHP-F020')
-    C('M', 505, 305, 700, 300, 'Driving pulley', 'Takes power from the motor to drive the bull gear mechanism', 'SHP-F021')
+    C('L', 582, 39, 680, 30, 'Ram locking handle', 'Locks the ram after the stroke position has been adjusted', 'SHP-F020')
+    C('M', 566, 318, 700, 300, 'Driving pulley', 'Takes power from the motor to drive the bull gear mechanism', 'SHP-F021')
     return f
 
 
@@ -71,7 +72,11 @@ def quick_return():
     f.rect(140, 10, 440, 22, 'f')
     f.line(P[0], 45, P[0] + 40, 21); f.circle(P[0] + 40, 21, 4, 'k')
     # driving pinion
-    f.circle(O[0] + 160, O[1] + 60, 28, 'f'); f.circle(O[0] + 160, O[1] + 60, 4, 'k')
+    gx, gy = O[0] + 145 * math.cos(math.radians(20)), O[1] + 145 * math.sin(math.radians(20))
+    f.circle(gx, gy, 28, 'f'); f.circle(gx, gy, 4, 'k')
+    for k in range(16):
+        a = 2 * math.pi * k / 16
+        f.line(gx + 28 * math.cos(a), gy + 28 * math.sin(a), gx + 34 * math.cos(a), gy + 34 * math.sin(a), 'thin')
     # stroke arcs (outside bull gear): cutting = large arc over the top, return = small arc at bottom
     R2 = 150
     f.arc(O[0], O[1], R2, -30, 210, 'acc')               # 240 deg through the top
@@ -83,9 +88,9 @@ def quick_return():
     C('D', P[0] + 12, 300, 470, 330, 'Slotted lever (link)', 'Oscillates about the pivot, converting crank rotation into ram motion', 'SHP-F013')
     C('E', P[0] + 9, P[1], 450, 420, 'Pivot (fulcrum)', 'Fixed point at the lower end about which the slotted lever swings', 'SHP-F013')
     C('F', 520, 21, 640, 60, 'Ram', 'Reciprocates and carries the tool', 'SHP-F023')
-    C('G', O[0] + 160, O[1] + 60, 640, 330, 'Driving pinion', 'Small gear from the motor that drives the bull gear', 'SHP-F014')
-    C('H', O[0] - R2 * math.cos(math.radians(30)) - 2, O[1] - R2 * math.sin(math.radians(-30)) - 80, 60, 130, 'Crank angle for the cutting stroke (240°)', 'Larger arc of crank rotation, so the cutting stroke is slower', 'SHP-F016')
-    C('I', O[0] + 162 * math.cos(math.radians(-60)), O[1] + 162 * math.sin(math.radians(60)), 590, 470, 'Crank angle for the return stroke (120°)', 'Smaller arc of crank rotation, so the return stroke is faster', 'SHP-F016')
+    C('G', gx, gy, 640, 330, 'Driving pinion', 'Small gear from the motor that drives the bull gear', 'SHP-F014')
+    C('H', O[0] + R2 * math.cos(math.radians(150)), O[1] - R2 * math.sin(math.radians(150)), 60, 130, 'Crank angle for the cutting stroke', 'Larger arc of crank rotation, so the cutting stroke is slower', 'SHP-F016')
+    C('I', O[0] + 162 * math.cos(math.radians(-60)), O[1] + 162 * math.sin(math.radians(60)), 590, 470, 'Crank angle for the return stroke', 'Smaller arc of crank rotation, so the return stroke is faster', 'SHP-F016')
     return f
 
 
@@ -97,7 +102,7 @@ def clapper():
         f.rect(ox + 110, 60, 80, 90, 'f')                 # clapper box
         f.circle(ox + 125, 72, 5, 'k')                    # hinge pin
         f.rect(ox, 250, 320, 50, 'f')                     # work
-        f.text(ox + 160, 312, 'forward (cutting) stroke' if i == 0 else 'return (idle) stroke', 15)
+        f.text(ox + 160, 312, 'sketch 1' if i == 0 else 'sketch 2', 15)
         if i == 0:
             f.rect(ox + 120, 70, 60, 70, 'f2')            # clapper block seated
             f.rect(ox + 140, 140, 18, 100, 'f2')
@@ -132,12 +137,11 @@ def spt():
     C = f.callout
     C('A', 500, 170, 520, 60, 'Shank', 'Body of the tool, clamped in the tool post', 'SHP-F038')
     C('B', 220, 182, 230, 90, 'Face', 'Top surface over which the chip slides', 'SHP-F038')
-    C('C', 175, 194, 90, 150, 'Nose', 'Tip where the side and end cutting edges meet', 'SHP-F038')
+    C('C', 190, 210, 90, 260, 'Nose', 'Tip where the side and end cutting edges meet', 'SHP-F038')
     C('D', 235, 190, 330, 90, 'Side (major) cutting edge', 'Main cutting edge along the side of the tool', 'SHP-F038')
-    C('E', 182, 202, 90, 230, 'End (minor) cutting edge', 'Cutting edge at the end of the tool', 'SHP-F038')
+    C('E', 178, 198, 90, 150, 'End (minor) cutting edge', 'Cutting edge at the end of the tool', 'SHP-F038')
     C('F', 245, 240, 300, 330, 'Major (side) flank', 'Surface below the side cutting edge', 'SHP-F038')
     C('G', 202, 260, 120, 320, 'Minor (end) flank', 'Surface below the end cutting edge', 'SHP-F038')
-    C('H', 480, 229, 520, 330, 'Base', 'Bottom surface resting on the tool post', 'SHP-F038')
     return f
 
 
@@ -146,7 +150,7 @@ def job(blank=False):
             'Oblique drawing of the rectangular block made on the shaper' + (', edges lettered' if blank else ', fully dimensioned'),
             ask={'p': 'In the shaping job drawing, edge {L} is the block\'s…'})
     k = 4.4
-    L, W, H = 73 * k, 38 * k * 0.6, 21 * k
+    L, W, H = 73 * k, 38 * k * 0.9, 21 * k
     x0, y0 = 120, 260
     dx, dy = W * 0.8, -W * 0.55
     front = [(x0, y0), (x0 + L, y0), (x0 + L, y0 - H), (x0, y0 - H)]

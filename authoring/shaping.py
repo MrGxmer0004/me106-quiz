@@ -44,7 +44,7 @@ q('def', 'h', 'In generating a flat surface on a shaper, the generatrix is the l
 q('def', 'h', 'On a shaper, the directrix is the line produced by the…',
   'Secondary (feed) motion of the table', ['Primary (cutting) motion of the ram', 'Swivelling of the tool head', 'Oscillation of the slotted lever'],
   'The crosswise feed of the table traces the directrix; the ram stroke traces the generatrix.', [11])
-q('theory', 'h', 'In orthogonal cutting, along which plane is metal sheared ahead of the tool?',
+q('theory', 'm', 'In orthogonal cutting, along which plane is metal sheared ahead of the tool?',
   'Shear plane', ['Rake plane', 'Base plane', 'Clearance plane'],
   'The notes sketch the shear plane ahead of the tool where the chip forms; the rake angle is measured on the tool face.', [12])
 
@@ -73,7 +73,7 @@ q('param', 'm', 'On a crank shaper, the length of stroke is changed by…',
 q('param', 'm', 'The position of the stroke (where the ram works relative to the job) is adjusted by…',
   'Shifting the ram relative to its link and locking it', ['Changing the crank-pin radius', 'Changing the motor speed', 'Raising the cross rail'],
   'The ram is moved relative to its connection and locked with the ram locking handle, without changing the stroke length.', [20])
-n('num', 'h', 'In a crank and slotted-lever mechanism, the crank radius is 100 mm and the distance from the crank centre to the lever pivot is 200 mm. What is the quick-return ratio?',
+n('num', 'h', 'In a crank and slotted-lever mechanism, the crank radius is 100 mm and the distance from the crank centre to the lever pivot is 200 mm. What is the ratio of cutting time to return time?',
   '2 : 1', ['1.5 : 1', '3 : 1', '1 : 2'],
   'cos θ = r/d = 0.5, θ = 60°. Return angle = 2θ = 120°, cutting = 240°, so ratio = 240/120 = 2.', [70, 17])
 n('num', 'h', 'For a shaper, the return stroke takes 144° of crank rotation. What is the cutting-to-return time ratio?',
@@ -90,10 +90,10 @@ q('def', 'h', 'The cutting speed of a shaper is given by…',
 n('num', 'h', 'A shaper has a stroke length of 150 mm, makes 40 double strokes per minute and has m = return time/cutting time = 0.5. What is the cutting speed?',
   '9 m/min', ['6 m/min', '12 m/min', '4 m/min'],
   'V = L·N·(1 + m)/1000 = 150 × 40 × 1.5 / 1000 = 9 m/min. Ignoring (1 + m) gives 6 m/min.', [68])
-n('num', 'm', 'The 38 mm wide face of the ME-106 block is shaped with a cross feed of 0.5 mm per stroke. How many strokes are needed for one pass?',
+n('num', 'm', 'The 38 mm wide face of the ME-106 block is shaped with a cross feed of 0.5 mm per double stroke. How many double strokes are needed for one pass?',
   '76', ['19', '38', '152'],
   'Number of strokes = width/feed = 38/0.5 = 76.', [69, 44])
-n('num', 'h', 'If the shaper makes 38 strokes per minute, how long does it take to cover the 38 mm wide face of the ME-106 block once at 0.5 mm feed per stroke?',
+n('num', 'h', 'If the shaper makes 38 double strokes per minute, how long does it take to cover the 38 mm wide face of the ME-106 block once at 0.5 mm feed per double stroke?',
   '2 minutes', ['1 minute', '0.5 minute', '4 minutes'],
   'Strokes = 38/0.5 = 76; time = 76/38 = 2 min.', [69, 44])
 
@@ -122,7 +122,7 @@ q('parts', 'm', 'Which part steadies the front of the shaper table?',
 q('tools', 'e', 'How is the job held on the shaper in the ME-106 lab?',
   'In a machine vice on the table', ['Between centres', 'On a magnetic chuck', 'In a three-jaw chuck'],
   'The notes say to lock the workpiece in the plain machine vice; the log sheet says to fix it tightly using the clamp.', [31])
-q('parts', 'h', 'Which set of parts is shown on the "Parts of a standard shaper" chart in the ME-106 lab?',
+q('parts', 'm', 'Which set of parts is shown on the "Parts of a standard shaper" chart in the ME-106 lab?',
   'Ram, clapper box, tool, table and front support', ['Arbor, overarm, knee and saddle', 'Headstock, tailstock, carriage and apron', 'Wheel head, magnetic chuck and dogs'],
   'The wall chart labels the head (swivelling on the ram), clapper box, tool, ram, table and front support for the table.', [22])
 q('parts', 'm', 'Which of these parts is NOT found on a shaper?',
@@ -130,19 +130,19 @@ q('parts', 'm', 'Which of these parts is NOT found on a shaper?',
   'Lead screw and half-nut are lathe threading parts. Shapers have a ram, tool head, clapper box, table, cross rail, column and base.', [21])
 
 # ============================ classification ============================
-q('parts', 'm', 'Shapers classified by the mechanism that drives the ram are…',
+q('theory', 'm', 'Shapers classified by the mechanism that drives the ram are…',
   'Crank, geared and hydraulic types', ['Standard and universal types', 'Push and draw types', 'Horizontal, vertical and travelling-head types'],
   'By ram drive: crank, geared, hydraulic. By table: standard, universal. By ram position: horizontal, vertical, travelling head. By stroke: push, draw.', [32])
-q('parts', 'm', 'Shapers classified by the design of the table are…',
+q('theory', 'm', 'Shapers classified by the design of the table are…',
   'Standard and universal shapers', ['Crank and hydraulic shapers', 'Push and draw shapers', 'Horizontal and vertical shapers'],
   'A universal shaper\'s table can be swivelled and tilted; a standard shaper\'s cannot.', [33])
-q('parts', 'm', 'Horizontal, vertical and travelling-head shapers are classified by…',
+q('theory', 'm', 'Horizontal, vertical and travelling-head shapers are classified by…',
   'Position and travel of the ram', ['Type of drive mechanism', 'Design of the table', 'Type of cutting stroke'],
   'This classification is by the position and travel of the ram.', [34])
-q('parts', 'm', 'Shapers classified by the type of cutting stroke are…',
+q('theory', 'm', 'Shapers classified by the type of cutting stroke are…',
   'Push type and draw type', ['Crank type and geared type', 'Standard and universal', 'Horizontal and vertical'],
   'In a push type the tool cuts as the ram moves away from the column; in a draw type it cuts on the stroke towards the column.', [35])
-q('parts', 'h', 'In a push-type shaper, cutting takes place when the ram moves…',
+q('theory', 'h', 'In a push-type shaper, cutting takes place when the ram moves…',
   'Away from the column', ['Towards the column', 'In both directions', 'Vertically downwards'],
   'Push type (most common): cuts on the outward stroke. Draw type: cuts on the stroke towards the column.', [36])
 
@@ -185,7 +185,7 @@ q('dims', 'e', 'What is the finished HEIGHT (thickness) of the ME-106 shaping bl
 q('dims', 'm', 'What is the finished WIDTH of the ME-106 shaping block?',
   '38 mm', ['21 mm', '73 mm', '34 mm'],
   'Width = 38 mm.', [44])
-n('dims', 'h', 'What is the volume of the finished ME-106 shaping block?',
+n('dims', 'm', 'What is the volume of the finished ME-106 shaping block?',
   '58 254 mm³', ['29 127 mm³', '5 825 mm³', '132 mm³'],
   '73 × 38 × 21 = 58 254 mm³. (132 mm is just the sum of the three dimensions.)', [44])
 q('tools', 'e', 'Which tools are listed on the ME-106 shaping log sheet?',
@@ -244,7 +244,7 @@ q('proc', 'm', 'In the ME-106 notes, which handle is used to align the job with 
 q('proc', 'h', 'In the ME-106 notes, which step comes immediately BEFORE starting the machine?',
   'Giving the depth of cut with the depth handle', ['Chalk marking', 'Punching', 'Removing waste material'],
   'Order: … align with cross feed → give depth with depth handle → start machine.', [48])
-n('proc', 'h', 'A face needs 2 mm removed. The first cut is 1 mm and later cuts are 0.5 mm each. How many cuts are needed in total?',
+n('proc', 'm', 'A face needs 2 mm removed. The first cut is 1 mm and later cuts are 0.5 mm each. How many cuts are needed in total?',
   '3', ['2', '4', '5'],
   '1 mm (first cut) + 0.5 + 0.5 = 2 mm, so 3 cuts.', [52, 54])
 
@@ -306,11 +306,9 @@ B.labels('shaping/shaper', 'w', only={'w': ['A', 'D', 'H', 'C', 'L']})
 B.labels('shaping/shaper', 'f', only={'f': ['D', 'C', 'H']}, diffs={'f': 'm'})
 QR = 'shaping/quick-return'
 B.labels(QR, 'p', only={'p': ['A', 'B', 'C', 'D', 'E', 'G']}, diffs={'p': 'm'}, extra_parts=['Clapper block', 'Index plate'])
-q('param', 'm', 'In the quick-return figure, which lettered arc corresponds to the CUTTING stroke?', 'H', ['I'],
+q('param', 'm', 'In the quick-return figure, which label marks the crank angle of the CUTTING stroke?', 'H', ['I', 'D', 'A'],
   'H is the larger (240°) arc of crank rotation, so the cutting stroke is the slow one. I is the 120° return arc.', [16], fig=QR, label='H', ask='which')
-q('param', 'm', 'In the quick-return figure, which lettered arc corresponds to the RETURN stroke?', 'I', ['H'],
-  'I is the smaller (120°) arc, so the return is quick.', [16], fig=QR, label='I', ask='which')
-n('num', 'h', 'In the figure the crank-pin circle radius is exactly half the distance from the crank centre to the pivot. What is the quick-return ratio?',
+n('num', 'h', 'In the figure the crank-pin circle radius is exactly half the distance from the crank centre to the pivot. What is the ratio of cutting time to return time?',
   '2 : 1', ['1.5 : 1', '1 : 2', '3 : 1'],
   'cos θ = r/d = 0.5 → θ = 60°; return = 120°, cutting = 240°; ratio = 2.', [70], fig=QR)
 q('parts', 'h', 'In the figure, what happens to the stroke length if the crank pin B is moved nearer the bull-gear centre?',
@@ -318,7 +316,7 @@ q('parts', 'h', 'In the figure, what happens to the stroke length if the crank p
   'A smaller crank-pin radius makes the slotted lever swing through a smaller angle, so the ram stroke is shorter.', [19], fig=QR)
 CB = 'shaping/clapper-box'
 B.labels(CB, 'p', only={'p': ['A', 'B', 'C']}, diffs={'p': 'm'}, extra_parts=['Tool slide', 'Ram'])
-q('parts', 'm', 'In the right-hand sketch of the figure, why has the tool swung up?',
+q('parts', 'm', 'In sketch 2 of the figure, why has the tool swung up?',
   'On the return stroke the hinged clapper block lifts so the tool does not drag', ['The tool has broken', 'The depth of cut was increased', 'The tool head was swivelled for an angular cut'],
   'Friction on the return stroke swings the hinged clapper block up, so the tool slides over the work instead of digging in.', [26], fig=CB)
 B.labels('shaping/spt-tool', 'p', cat='tools', diffs={'p': 'm'}, extra_parts=['Tang', 'Land'])

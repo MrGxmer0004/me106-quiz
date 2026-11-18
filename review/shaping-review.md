@@ -163,3 +163,15 @@ All are checked against LS p.3–4 unless another source is named.
 
   All are correct.
 - **Source typos not used in any question.** The slides say "ideal stroke" (meaning idle) and "Cubic boron nitrate" (meaning nitride). The knowledge base and the questions use the correct terms.
+
+---
+## Fixes applied by the author (round 1)
+- SHP-0023/0121: stems now ask for the "ratio of cutting time to return time".
+- SHP-0028/0029: now "double strokes" throughout.
+- spt-tool: the nose (C) now anchors where the side and end cutting edges meet. The end cutting edge (E) is on its own edge. The ambiguous Base label is removed.
+- Shaper C label renamed "Down-feed handle". The ram locking handle (L) is moved onto the ram. The driving pulley (M) is now a small pulley belted to a motor, and Column (I) is re-anchored.
+- Quick-return: the H anchor is on the cutting arc. The pinion G has teeth and meshes with the bull gear. Labels no longer print 240°/120°. The two inverse 2-option arc questions are merged into one 4-option question.
+- Clapper-box captions are now "sketch 1/2" (they no longer say "return stroke").
+- job-q: the width edge Q is drawn longer, so it is distinct from the height R.
+- Classification questions are recategorised to principle-theory. Difficulty lowered on SHP-0014, 0038, 0057 and 0075.
+- Option-length balancing: 22 questions (authoring/fix_shaping.py).

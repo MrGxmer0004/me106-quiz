@@ -1112,12 +1112,12 @@
     "fact": "SHP-F014"
    },
    "H": {
-    "part": "Crank angle for the cutting stroke (240°)",
+    "part": "Crank angle for the cutting stroke",
     "function": "Larger arc of crank rotation, so the cutting stroke is slower",
     "fact": "SHP-F016"
    },
    "I": {
-    "part": "Crank angle for the return stroke (120°)",
+    "part": "Crank angle for the return stroke",
     "function": "Smaller arc of crank rotation, so the return stroke is faster",
     "fact": "SHP-F016"
    }
@@ -1140,7 +1140,7 @@
     "fact": "SHP-F024"
    },
    "C": {
-    "part": "Down-feed handle (tool slide)",
+    "part": "Down-feed handle",
     "function": "Lowers the tool to give the depth of cut",
     "fact": "SHP-F025"
    },
@@ -1235,11 +1235,6 @@
    "G": {
     "part": "Minor (end) flank",
     "function": "Surface below the end cutting edge",
-    "fact": "SHP-F038"
-   },
-   "H": {
-    "part": "Base",
-    "function": "Bottom surface resting on the tool post",
     "fact": "SHP-F038"
    }
   }

@@ -3,7 +3,7 @@
 <rect class="f" x="130.0" y="60.0" width="80.0" height="90.0" rx="0"/>
 <circle class="k" cx="145.0" cy="72.0" r="5.0"/>
 <rect class="f" x="20.0" y="250.0" width="320.0" height="50.0" rx="0"/>
-<text class="tx" x="180.0" y="312.0" font-size="15" text-anchor="middle" font-weight="normal" dominant-baseline="middle">forward (cutting) stroke</text>
+<text class="tx" x="180.0" y="312.0" font-size="15" text-anchor="middle" font-weight="normal" dominant-baseline="middle">sketch 1</text>
 <rect class="f2" x="140.0" y="70.0" width="60.0" height="70.0" rx="0"/>
 <rect class="f2" x="160.0" y="140.0" width="18.0" height="100.0" rx="0"/>
 <polygon class="f2" points="160.0,240.0 178.0,240.0 160.0,252.0"/>
@@ -13,7 +13,7 @@
 <rect class="f" x="490.0" y="60.0" width="80.0" height="90.0" rx="0"/>
 <circle class="k" cx="505.0" cy="72.0" r="5.0"/>
 <rect class="f" x="380.0" y="250.0" width="320.0" height="50.0" rx="0"/>
-<text class="tx" x="540.0" y="312.0" font-size="15" text-anchor="middle" font-weight="normal" dominant-baseline="middle">return (idle) stroke</text>
+<text class="tx" x="540.0" y="312.0" font-size="15" text-anchor="middle" font-weight="normal" dominant-baseline="middle">sketch 2</text>
 <g transform="rotate(14 505 72)">
 <rect class="f2" x="500.0" y="70.0" width="60.0" height="70.0" rx="0"/>
 <rect class="f2" x="520.0" y="140.0" width="18.0" height="100.0" rx="0"/>
