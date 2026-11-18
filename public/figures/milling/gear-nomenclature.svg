@@ -16,8 +16,8 @@
 <polygon class="k" points="214.4,361.0 211.3,352.5 217.5,352.5"/>
 <text class="tx" x="201.4" y="285.5" font-size="14" text-anchor="middle" font-weight="normal" dominant-baseline="middle" transform="rotate(-90 201.4 285.5)"></text>
 <path class="thin" d="M390.0,180.0 A1000,1000 0 0 1 520.5,188.6"/>
-<line class="thin" x1="390.0" y1="204.0" x2="390.0" y2="170.0"/>
-<line class="thin" x1="517.4" y1="212.3" x2="521.8" y2="178.6"/>
+<line class="thin" x1="390.0" y1="280.0" x2="390.0" y2="170.0"/>
+<line class="thin" x1="507.5" y1="287.7" x2="521.8" y2="178.6"/>
 <path class="acc" d="M243.4,292.0 A900,900 0 0 1 301.8,284.3"/>
 <line class="lead" x1="448.9" y1="245.0" x2="558.5" y2="130.8"/>
 <circle class="k" cx="448.9" cy="245.0" r="3"/>

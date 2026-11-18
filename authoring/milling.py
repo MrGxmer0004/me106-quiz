@@ -88,7 +88,7 @@ q('ops', 'm', 'In straddle milling, the distance between the two cutters is set 
 q('app', 'm', 'Straddle milling is commonly used to produce…',
   'Square or hexagonal heads (parallel faces)', ['Spur gear teeth', 'T-slots in tables', 'Internal threads'],
   'Two parallel faces at a time make square or hexagonal shapes, e.g. bolt heads.', [21])
-q('ops', 'e', 'Using several cutters (same or different) on one arbor to machine several surfaces at once is called…',
+q('ops', 'e', 'Using a set of cutters of different sizes on one arbor to machine several different surfaces in one pass is called…',
   'Gang milling', ['Straddle milling', 'End milling', 'Angular milling'],
   'Gang milling mounts a gang of cutters together on the arbor to machine several surfaces simultaneously.', [22])
 q('adv', 'm', 'Gang milling is widely used because it…',
@@ -157,8 +157,8 @@ q('tools', 'h', 'Why does a set of involute gear cutters contain several cutters
   'Each cutter covers a range of tooth numbers', ['Each cutter is for a different material', 'Each cutter is for a different depth', 'Each cutter is for a different speed'],
   'The tooth-space shape changes with the number of teeth, so each cutter in a set covers a range of tooth numbers.', [43])
 q('tools', 'h', 'Which of these is a term from milling-cutter nomenclature?',
-  'Land', ['Tang', 'Clapper', 'Quill'],
-  'Cutter nomenclature includes outside diameter, hole, keyway, face of tooth, land, rake and clearance angles, depth of tooth, pitch and helix angle. Tang (file), clapper (shaper) and quill (lathe) are other tools.', [44])
+  'Land', ['Clapper block', 'Swing over bed', 'Bastard cut'],
+  'Cutter nomenclature includes outside diameter, hole, keyway, face of tooth, land, rake and clearance angles, depth of tooth, pitch and helix angle. A clapper block belongs to a shaper, swing over bed is a lathe specification, and bastard cut is a file grade.', [44])
 q('tools', 'h', 'On a milling cutter, the keyway in the bore is used to…',
   'Drive the cutter from the arbor through a key', ['Collect chips', 'Hold coolant', 'Set the helix angle'],
   'The key in the cutter keyway and arbor keyway transmits the drive.', [44, 55])
@@ -241,7 +241,7 @@ q('gear', 'm', 'Which hole circles are used on a direct indexing plate?',
 n('gear', 'm', 'Using direct indexing on a 24-hole plate, how many holes are moved for each side of a square?',
   '6 holes', ['4 holes', '24 holes', '96 holes'],
   '24 holes / 4 divisions = 6 holes each time (lecture example).', [66])
-n('gear', 'h', 'Using direct indexing on a 24-hole plate, how many holes are moved for each face of a hexagon?',
+n('gear', 'm', 'Using direct indexing on a 24-hole plate, how many holes are moved for each face of a hexagon?',
   '4 holes', ['6 holes', '3 holes', '144 holes'],
   '24 / 6 = 4 holes per division.', [66, 65])
 q('gear', 'm', 'In simple (plain) indexing, the crank movement per division is…',
@@ -288,8 +288,8 @@ q('gear', 'm', 'In the DP system, the dedendum equals…',
 q('gear', 'h', 'In standard gear terminology, 2.157/DP is the…',
   'Whole depth (addendum + dedendum)', ['Clearance', 'Addendum', 'Circular pitch'],
   'Whole depth = 1/DP + 1.157/DP = 2.157/DP. Standard working depth (two addenda) = 2/DP. Our lab calls 2.157/DP the "working depth".', [78])
-q('gear', 'h', 'In standard (textbook) terminology, the working depth of a gear tooth equals…',
-  '2 / DP', ['2.157 / DP', '1 / DP', '1.157 / DP'],
+q('gear', 'h', 'In textbook gear terminology, the depth of engagement of two mating teeth (two addenda) equals…',
+  '2 / DP', ['π / DP', '1 / DP', '1.157 / DP'],
   'Working depth = sum of the addenda of two mating gears = 2/DP. Whole depth = 2.157/DP (called "working depth" in our lab).', [78])
 q('gear', 'm', 'In the ME-106 milling lab, the depth to which the gear teeth are cut ("working depth") is calculated as…',
   '2.157 / DP', ['π / DP', '(N + 2) / DP', '40 / N'],
@@ -308,7 +308,7 @@ q('gear', 'm', 'Which of these is NOT a spur gear nomenclature term?',
   'Spur gears have straight teeth, so they have no helix angle. Addendum, dedendum, pitch circle, circular pitch and tooth thickness are spur-gear terms.', [83])
 
 # gear types (text)
-q('gear', 'e', 'Spur and helical gears connect shafts that are…',
+q('gear', 'e', 'Spur gears and ordinary (parallel-axis) helical gears connect shafts that are…',
   'Parallel', ['Intersecting', 'Non-intersecting at 90°', 'Co-axial and opposite'],
   'Spur, helical and herringbone gears all connect parallel shafts.', [84])
 q('gear', 'm', 'Compared with spur gears, helical gears…',
@@ -359,8 +359,8 @@ q('gear', 'm', 'Which index plate is used for the ME-106 22-tooth gear?',
   'Plate 2 (contains the 33-hole circle)', ['Plate 1 (15–20 holes)', 'Plate 3 (37–49 holes)', 'Direct plate (24/30/36 holes)'],
   '9/11 = 27/33, and the 33-hole circle is on plate 2.', [98, 71])
 n('num', 'm', 'For the ME-106 gear (DP 16), what depth is set for cutting the teeth, using the lab formula?',
-  '≈ 0.1348 in (≈ 3.4 mm)', ['≈ 0.125 in (≈ 3.2 mm)', '≈ 0.0625 in (≈ 1.6 mm)', '≈ 0.1963 in (≈ 5.0 mm)'],
-  '2.157/16 = 0.1348 in = 3.42 mm. 0.125 in is 2/DP (textbook working depth); 0.0625 is the addendum; 0.1963 is the circular pitch.' + WD_NOTE, [79, 99])
+  '≈ 0.1348 in (≈ 3.4 mm)', ['≈ 0.0723 in (≈ 1.8 mm)', '≈ 0.0625 in (≈ 1.6 mm)', '≈ 0.1963 in (≈ 5.0 mm)'],
+  '2.157/16 = 0.1348 in = 3.42 mm. 0.0723 in is the dedendum alone, 0.0625 in the addendum, and 0.1963 in the circular pitch.' + WD_NOTE, [79, 99])
 n('num', 'h', 'For the ME-106 gear (22 teeth, DP 16), what is the pitch-circle diameter?',
   '1.375 in', ['1.5 in', '1.25 in', '0.727 in'],
   'D_pitch = N/DP = 22/16 = 1.375 in. 1.5 in is the outside diameter.', [76, 97])
@@ -385,7 +385,7 @@ n('num', 'h', 'How many degrees does the work rotate for one full turn of the in
 n('num', 'h', 'Simple indexing for 36 divisions can be done as…',
   '1 full turn + 2 holes on the 18-hole circle', ['1 full turn + 4 holes on the 18-hole circle', '36 full turns', '1 full turn + 1 hole on the 36-hole circle'],
   '40/36 = 1 1/9 = 1 2/18. So 1 turn + 2 holes on the 18-hole circle (plate 1). There is no 36-hole circle on the simple-indexing plates.', [67, 71])
-n('num', 'h', 'For a 40-tooth gear, the index crank movement per tooth is…',
+n('num', 'm', 'For a 40-tooth gear, the index crank movement per tooth is…',
   'Exactly 1 full turn', ['40 full turns', 'Half a turn', '1 turn + 1 hole on any circle'],
   '40/40 = 1 turn per division.', [67])
 n('num', 'h', 'A gear blank of 2 in OD is to be cut with DP 12. How many teeth will the gear have?',
@@ -432,7 +432,7 @@ s('proc', 'h', 'What is the correct sequence of the ME-106 milling procedure?',
    'Calculate depth → cut teeth → clamp blank → calculate N → fix index plate → file the gear'],
   'Log sheet: calculate teeth; calculate working depth and index; fix index plate; clamp workpiece and switch on machine and coolant; cut, return and index, repeat; polish with file.', [105, 106, 107, 108, 109, 110])
 q('proc', 'm', 'After clamping the blank, what is switched on along with the machine?',
-  'Coolant', ['Magnetic chuck', 'Dielectric pump', 'Laser'],
+  'Coolant', ['Magnetic chuck', 'Power feed of the knee', 'Tailstock drive motor'],
   'Step 4: clamp the workpiece tightly, then switch on the machine and the coolant.', [108])
 q('proc', 'm', 'How are successive tooth spaces cut on the ME-106 gear?',
   'Cut one space, bring the table back, index the crank, and repeat', ['Cut all spaces at once with a gang of cutters', 'Rotate the blank continuously while cutting', 'Index first for all teeth, then cut once'],
@@ -443,7 +443,7 @@ q('proc', 'e', 'What is the LAST step of the ME-106 milling procedure?',
 q('proc', 'm', 'In the ME-106 milling job, how many times is the work indexed to cut all the teeth?',
   '22 times (once per tooth)', ['40 times', '27 times', '33 times'],
   'One tooth space is cut per indexing move, so a 22-tooth gear needs 22 divisions.', [109, 97])
-q('proc', 'h', 'Why is the table brought back before indexing to the next tooth?',
+q('proc', 'm', 'Why is the table brought back before indexing to the next tooth?',
   'So the blank is clear of the cutter while it is rotated', ['To change the cutter', 'To reset the depth to zero', 'To cool the coolant'],
   'The blank must be clear of the rotating cutter before it is indexed, otherwise the cutter would damage the gear.', [109])
 
@@ -461,7 +461,7 @@ q('prec', 'm', 'Which precaution is specific to indexing on the dividing head?',
   'Do not rotate the index-plate handle in the opposite direction', ['Do not exceed 2 mm depth on the shaper', 'Check the wheel clears the work', 'Maintain the spark gap'],
   'Turning the crank backwards introduces backlash errors in the division.', [114])
 q('prec', 'e', 'According to the ME-106 milling log sheets, you must stay alert during…',
-  'Fixing and cutting', ['Only the calculation', 'Only after cutting', 'Lunch breaks'],
+  'Fixing and cutting', ['Only the calculation', 'Only after cutting', 'Only while filing'],
   'Stay alert during fixing and cutting.', [115])
 q('prec', 'm', 'Which electrical precaution appears on the ME-106 milling log sheet?',
   'Do not touch any electrical connections', ['Always touch the earth wire', 'Switch on with wet hands', 'Open the control panel'],
@@ -475,7 +475,7 @@ q('prec', 'm', 'According to the milling TA slides, the machine should NOT be op
 q('prec', 'm', 'What should you do after finishing work on the milling machine?',
   'Clean the machine and workspace', ['Leave the chips on the table', 'Leave the machine running', 'Remove the guards'],
   'The TA slides ask you to clean the machine and workspace after use.', [118])
-q('prec', 'h', 'Chips on the milling table should be removed…',
+q('prec', 'm', 'Chips on the milling table should be removed…',
   'With a brush, after the cutter has stopped', ['By hand, while the cutter runs', 'With compressed air towards others', 'By the coolant only, while running'],
   'Never remove chips or measure the job while the cutter is rotating.', [119])
 q('prec', 'm', 'Which of these is NOT a milling-shop precaution?',
@@ -487,8 +487,8 @@ q('app', 'm', 'Which is a typical application of milling?',
 
 # ============================ assertion-reason / T-F ============================
 ar('ops', 'h', 'Down milling gives a better surface finish than up milling.',
-   'In down milling the chip thickness is maximum at the start of the cut.', 'b',
-   'Both are true. The better finish comes from cleaner shearing with no rubbing at the end of the cut. R states a correct fact but is not the explanation given for the finish.', [15, 11])
+   'Down milling is also known as climb milling.', 'b',
+   'Both are true, but R is only another name for the method and explains nothing. The better finish comes from each tooth entering at full chip thickness, so there is no rubbing at entry.', [15, 10])
 ar('gear', 'h', 'A 22-tooth gear cannot be indexed using only full turns of the crank.',
    'In simple indexing the crank turns per division = 40/N.', 'a',
    'Both true, R explains A: 40/22 = 1.818 is not a whole number, so a fraction (27/33) must be taken on a hole circle.', [67, 98])
@@ -515,7 +515,7 @@ q('ops', 'h', 'In panel A of the figure (cutter rotating clockwise), how does th
 q('ops', 'h', 'In panel B of the figure, the cutter rotates clockwise and the table moves to the right. Why is this up milling?',
   'At the cut, the teeth move opposite to the table feed', ['At the cut, the teeth move with the table feed', 'The cutter axis is vertical', 'Two cutters are used'],
   'With clockwise rotation, the bottom teeth move left while the work feeds right, so the cutter opposes the feed: up (conventional) milling.', [8], fig=UD)
-B.labels('milling/cutters', 'p', cat='tools', diffs={'p': 'm'}, extra_parts=['Fly cutter', 'Dovetail cutter', 'Face mill'])
+B.labels('milling/cutters', 'p', cat='tools', diffs={'p': 'm'}, extra_parts=['Fly cutter', 'Dovetail cutter', 'Hollow milling cutter'])
 CU = 'milling/cutters'
 q('tools', 'm', 'Which cutter in the figure is used to cut the spur gear in the ME-106 lab?', 'F', ['A', 'B', 'C'],
   'F is the involute gear (form) cutter; its tooth profile matches the gear tooth space.', [42], fig=CU)
@@ -599,7 +599,7 @@ q('prec', 'm', 'Which eye protection is recommended while milling?',
 q('prec', 'm', 'Which practice is correct on the milling machine?',
   'Keep the cutter guard in place and use the correct speed and feed', ['Remove the guard for a better view', 'Use the highest speed for every material', 'Feed by hand into a stopped cutter'],
   'Guards protect against contact and chips; the speed and feed must suit the material and cutter.', [131])
-q('prec', 'h', 'Before starting the cut, you should check that the cutter…',
+q('prec', 'm', 'Before starting the cut, you should check that the cutter…',
   'Rotates in the correct direction for the set-up', ['Is touching the blank at full depth', 'Is loose on the arbor', 'Is wet with dielectric'],
   'Wrong rotation means the teeth rub instead of cut and can damage the cutter or work.', [129])
 

@@ -126,7 +126,7 @@ def updown():
 
 def cutters():
     f = Fig('milling/cutters', 780, 520, 'Milling cutters',
-            'Seven small line drawings of milling cutters, each marked with a letter',
+            'Six small line drawings of milling cutters, each marked with a letter',
             ask={'p': 'Which milling cutter is shown in panel {L}?', 'w': 'Which panel shows a {P}?',
                  'f': 'The cutter in panel {L} is mainly used for…'})
     cells = [(10, 10), (270, 10), (530, 10), (10, 265), (270, 265), (530, 265)]
@@ -227,9 +227,12 @@ def dividing_head():
             a = 2 * math.pi * k / nh
             f.circle(pcx + rr * math.cos(a), pcy + rr * math.sin(a), 2.6, 'k')
     # crank and pin
-    f.line(pcx, pcy, pcx + 95 * math.cos(-0.9), pcy + 95 * math.sin(-0.9))
+    ca = -0.35
+    ux, uy = math.cos(ca), math.sin(ca)
+    f.poly([(pcx - uy * 7, pcy + ux * 7), (pcx + ux * 95 - uy * 7, pcy + uy * 95 + ux * 7),
+            (pcx + ux * 95 + uy * 7, pcy + uy * 95 - ux * 7), (pcx + uy * 7, pcy - ux * 7)], 'f2')
     f.rect(pcx - 8, pcy - 8, 16, 16, 'f2')
-    pin = (pcx + 95 * math.cos(-0.9), pcy + 95 * math.sin(-0.9))
+    pin = (pcx + 95 * ux, pcy + 95 * uy)
     f.circle(pin[0], pin[1], 8, 'f2')
     # sector arms
     f.line(pcx, pcy, pcx + 105 * math.cos(-0.9), pcy + 105 * math.sin(-0.9), 'acc')
@@ -253,7 +256,7 @@ def dividing_head():
     f.text(440, 30, '40 : 1', 18, weight='bold')
     C = f.callout
     C('A', 70, 290, 40, 360, 'Index plate', 'Plate with circles of equally spaced holes used to count crank movement', 'MIL-F060')
-    C('B', 110, 200, 40, 150, 'Index crank', 'Handle turned to rotate the worm; 40 turns = one turn of the work', 'MIL-F063')
+    C('B', pcx + 55 * ux, pcy + 55 * uy, 40, 150, 'Index crank', 'Handle turned to rotate the worm; 40 turns = one turn of the work', 'MIL-F063')
     C('C', pin[0] + 4, pin[1] - 6, 250, 80, 'Index pin (plunger)', 'Engages a hole of the selected circle to lock the crank', 'MIL-F060')
     C('D', pcx + 100 * math.cos(-0.9 + 5.14), pcy + 100 * math.sin(-0.9 + 5.14), 120, 400, 'Sector arms', 'Set to span the required number of holes so they need not be counted each time', 'MIL-F072')
     C('E', 470, 230, 520, 300, 'Worm (single start)', 'Driven by the crank; turns the worm wheel one tooth per revolution', 'MIL-F062')
@@ -332,7 +335,7 @@ def gear_terms():
     # circular pitch: arc above tips between centres of two adjacent teeth
     f.arc(cx, cy, Ro + 30, 90, 90 - math.degrees(st), 'thin')
     for ang in (-math.pi / 2, -math.pi / 2 + st):
-        a, b = P(Ro + 6, ang), P(Ro + 40, ang)
+        a, b = P(Rp, ang), P(Ro + 40, ang)
         f.line(a[0], a[1], b[0], b[1], 'thin')
     # tooth thickness: accent arc on pitch circle across the tooth left of middle
     tl = -math.pi / 2 - st
@@ -366,10 +369,13 @@ def gear_types():
     f.panel('A', x + 20, y + 20, 'Spur gears', 'Parallel shafts; straight teeth parallel to the axis', 'MIL-F084')
     # B helical: side view rectangles with slanted teeth
     x, y = 270, 10
-    for (xx, w) in ((x + 40, 70), (x + 120, 70)):
+    for j, (xx, w) in enumerate(((x + 40, 70), (x + 120, 70))):
         f.rect(xx, y + 40, w, 110, 'f')
         for k in range(7):
-            f.line(xx, y + 60 + k * 14, xx + w, y + 40 + k * 14, 'thin')
+            if j == 0:
+                f.line(xx, y + 60 + k * 14, xx + w, y + 40 + k * 14, 'thin')
+            else:
+                f.line(xx, y + 40 + k * 14, xx + w, y + 60 + k * 14, 'thin')
     f.panel('B', x + 20, y + 20, 'Helical gears', 'Parallel shafts; teeth inclined to the axis, smoother running with axial thrust', 'MIL-F085')
     # C herringbone
     x, y = 530, 10
@@ -379,11 +385,14 @@ def gear_types():
             yy = y + 48 + k * 14
             f.line(xx, yy, xx + 37, yy + 10, 'thin'); f.line(xx + 37, yy + 10, xx + 75, yy, 'thin')
     f.panel('C', x + 20, y + 20, 'Double-helical (herringbone) gears', 'Parallel shafts; opposite helices cancel the axial thrust', 'MIL-F086')
-    # D bevel: two cones at 90 deg
+    # D bevel: two cone frusta whose apexes meet at the intersection of the axes
     x, y = 10, 190
-    f.poly([(x + 60, y + 150), (x + 150, y + 150), (x + 120, y + 100), (x + 90, y + 100)], 'f')
-    f.poly([(x + 160, y + 140), (x + 160, y + 50), (x + 120, y + 70), (x + 120, y + 110)], 'f')
-    f.line(x + 105, y + 160, x + 105, y + 40, 'cl'); f.line(x + 100, y + 90, x + 220, y + 90, 'cl')
+    ax, ay = x + 150, y + 60
+    f.line(ax, y + 165, ax, y + 35, 'cl'); f.line(x + 40, ay, ax + 30, ay, 'cl')
+    f.poly([(ax - 70, y + 150), (ax + 70, y + 150), (ax + 35, y + 105), (ax - 35, y + 105)], 'f')
+    f.poly([(ax - 90, ay - 70), (ax - 90, ay + 70), (ax - 45, ay + 35), (ax - 45, ay - 35)], 'f')
+    for (px, py) in [(ax - 70, y + 150), (ax + 70, y + 150), (ax - 90, ay - 70), (ax - 90, ay + 70)]:
+        f.line(px, py, ax, ay, 'd')
     f.panel('D', x + 20, y + 20, 'Bevel gears', 'Intersecting shafts, usually at 90°', 'MIL-F087')
     # E worm & wheel
     x, y = 270, 190

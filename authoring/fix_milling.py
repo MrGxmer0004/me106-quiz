@@ -10,6 +10,8 @@ PATCH = {
   ['Additive process that builds up layers of material', 'Forming process that shapes metal without chips', 'Joining process that fuses two parts together'],
  'In down milling, the chip thickness is…':
   ['Zero at the start of the cut and maximum at the end', 'Constant from the start to the end of the cut', 'Zero throughout, since the teeth only rub'],
+ 'Which is a DISADVANTAGE of up milling?':
+  ['It cannot be used at all on work having scale', 'It gives the smoothest finish of all methods', 'It can only be done on a vertical machine'],
  'Which is an ADVANTAGE of up milling?':
   ['The cutter never chatters, even with light clamping', 'It gives the best surface finish of all methods', 'It needs the least clamping force on the work'],
  'Why is down milling NOT suitable for workpieces with surface scale?':
@@ -103,5 +105,5 @@ PATCH = {
  'Which practice is correct on the milling machine?':
   ['Remove the guard so the cutter can be watched closely', 'Feed the work by hand into a stopped cutter', 'Use the highest speed for every work material'],
  'Before starting the cut, you should check that the cutter…':
-  ['Is wet with dielectric fluid from the tank', 'Is slightly loose on the arbor for safety', 'Is touching the blank at the full depth'],
+  ['Has its teeth painted for easy counting', 'Is slightly loose on the arbor for safety', 'Is touching the blank at the full depth'],
 }

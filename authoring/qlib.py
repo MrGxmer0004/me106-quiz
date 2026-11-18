@@ -258,4 +258,15 @@ class Bank:
         p = os.path.join(QDIR, self.shop + '.json')
         json.dump(out, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
         nd = sum(1 for o in out if 'figure' in o)
+        longq = []
+        for o in out:
+            if o.get('keepOrder') or len(o['options']) < 3 or 'figure' in o:
+                continue
+            L = [len(x) for x in o['options']]; c = L[o['answer']]; m = max(L[i] for i in range(len(L)) if i != o['answer'])
+            if c > 1.3 * m and c - m > 8:
+                longq.append(o['question'][:70])
+        if longq:
+            print('  WARNING %d questions with clearly-longest correct option:' % len(longq))
+            for t in longq[:60]:
+                print('    -', t)
         print('%s: %d questions (%d with figures) -> %s' % (self.shop, len(out), nd, os.path.relpath(p, ROOT)))

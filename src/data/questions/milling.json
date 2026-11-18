@@ -294,10 +294,10 @@
   "type": "mcq",
   "question": "Which is a DISADVANTAGE of up milling?",
   "options": [
-   "It puts maximum radial load on the arbor at entry",
-   "It cannot be used on scaled work",
+   "It gives the smoothest finish of all methods",
+   "It cannot be used at all on work having scale",
    "The cutter tends to lift the work, so firm clamping is needed",
-   "It needs a vertical machine"
+   "It can only be done on a vertical machine"
   ],
   "answer": 2,
   "explanation": "In up milling the upward cutting force tends to pull the work up off the table, and the tool tends to chatter.",
@@ -580,7 +580,7 @@
   "category": "operations",
   "difficulty": "easy",
   "type": "mcq",
-  "question": "Using several cutters (same or different) on one arbor to machine several surfaces at once is called…",
+  "question": "Using a set of cutters of different sizes on one arbor to machine several different surfaces in one pass is called…",
   "options": [
    "End milling",
    "Straddle milling",
@@ -1066,13 +1066,13 @@
   "type": "mcq",
   "question": "Which of these is a term from milling-cutter nomenclature?",
   "options": [
-   "Tang",
-   "Clapper",
-   "Quill",
+   "Clapper block",
+   "Swing over bed",
+   "Bastard cut",
    "Land"
   ],
   "answer": 3,
-  "explanation": "Cutter nomenclature includes outside diameter, hole, keyway, face of tooth, land, rake and clearance angles, depth of tooth, pitch and helix angle. Tang (file), clapper (shaper) and quill (lathe) are other tools.",
+  "explanation": "Cutter nomenclature includes outside diameter, hole, keyway, face of tooth, land, rake and clearance angles, depth of tooth, pitch and helix angle. A clapper block belongs to a shaper, swing over bed is a lathe specification, and bastard cut is a file grade.",
   "source": "lab",
   "ref": "Milling lecture slide 16",
   "tags": [],
@@ -1659,7 +1659,7 @@
   "id": "MIL-0076",
   "shop": "milling",
   "category": "gears-indexing",
-  "difficulty": "hard",
+  "difficulty": "medium",
   "type": "numerical",
   "question": "Using direct indexing on a 24-hole plate, how many holes are moved for each face of a hexagon?",
   "options": [
@@ -1993,11 +1993,11 @@
   "category": "gears-indexing",
   "difficulty": "hard",
   "type": "mcq",
-  "question": "In standard (textbook) terminology, the working depth of a gear tooth equals…",
+  "question": "In textbook gear terminology, the depth of engagement of two mating teeth (two addenda) equals…",
   "options": [
    "1.157 / DP",
    "1 / DP",
-   "2.157 / DP",
+   "π / DP",
    "2 / DP"
   ],
   "answer": 3,
@@ -2125,7 +2125,7 @@
   "category": "gears-indexing",
   "difficulty": "easy",
   "type": "mcq",
-  "question": "Spur and helical gears connect shafts that are…",
+  "question": "Spur gears and ordinary (parallel-axis) helical gears connect shafts that are…",
   "options": [
    "Intersecting",
    "Parallel",
@@ -2484,12 +2484,12 @@
   "question": "For the ME-106 gear (DP 16), what depth is set for cutting the teeth, using the lab formula?",
   "options": [
    "≈ 0.1963 in (≈ 5.0 mm)",
-   "≈ 0.125 in (≈ 3.2 mm)",
+   "≈ 0.0723 in (≈ 1.8 mm)",
    "≈ 0.1348 in (≈ 3.4 mm)",
    "≈ 0.0625 in (≈ 1.6 mm)"
   ],
   "answer": 2,
-  "explanation": "2.157/16 = 0.1348 in = 3.42 mm. 0.125 in is 2/DP (textbook working depth); 0.0625 is the addendum; 0.1963 is the circular pitch. (The lab calls 2.157/DP the \"working depth\"; textbooks call it the whole depth.)",
+  "explanation": "2.157/16 = 0.1348 in = 3.42 mm. 0.0723 in is the dedendum alone, 0.0625 in the addendum, and 0.1963 in the circular pitch. (The lab calls 2.157/DP the \"working depth\"; textbooks call it the whole depth.)",
   "source": "lab",
   "ref": "Milling blackboard",
   "tags": [],
@@ -2685,7 +2685,7 @@
   "id": "MIL-0122",
   "shop": "milling",
   "category": "numericals",
-  "difficulty": "hard",
+  "difficulty": "medium",
   "type": "numerical",
   "question": "For a 40-tooth gear, the index crank movement per tooth is…",
   "options": [
@@ -2984,8 +2984,8 @@
   "question": "After clamping the blank, what is switched on along with the machine?",
   "options": [
    "Coolant",
-   "Laser",
-   "Dielectric pump",
+   "Tailstock drive motor",
+   "Power feed of the knee",
    "Magnetic chuck"
   ],
   "answer": 0,
@@ -3068,7 +3068,7 @@
   "id": "MIL-0139",
   "shop": "milling",
   "category": "procedure",
-  "difficulty": "hard",
+  "difficulty": "medium",
   "type": "mcq",
   "question": "Why is the table brought back before indexing to the next tooth?",
   "options": [
@@ -3185,7 +3185,7 @@
    "Fixing and cutting",
    "Only after cutting",
    "Only the calculation",
-   "Lunch breaks"
+   "Only while filing"
   ],
   "answer": 0,
   "explanation": "Stay alert during fixing and cutting.",
@@ -3288,7 +3288,7 @@
   "id": "MIL-0149",
   "shop": "milling",
   "category": "precautions",
-  "difficulty": "hard",
+  "difficulty": "medium",
   "type": "mcq",
   "question": "Chips on the milling table should be removed…",
   "options": [
@@ -3359,7 +3359,7 @@
   "category": "operations",
   "difficulty": "hard",
   "type": "assertion-reason",
-  "question": "Assertion (A): Down milling gives a better surface finish than up milling.\nReason (R): In down milling the chip thickness is maximum at the start of the cut.",
+  "question": "Assertion (A): Down milling gives a better surface finish than up milling.\nReason (R): Down milling is also known as climb milling.",
   "options": [
    "Both A and R are true, and R is the correct explanation of A",
    "Both A and R are true, but R is NOT the correct explanation of A",
@@ -3367,13 +3367,13 @@
    "A is false, but R is true"
   ],
   "answer": 1,
-  "explanation": "Both are true. The better finish comes from cleaner shearing with no rubbing at the end of the cut. R states a correct fact but is not the explanation given for the finish.",
+  "explanation": "Both are true, but R is only another name for the method and explains nothing. The better finish comes from each tooth entering at full chip thickness, so there is no rubbing at entry.",
   "source": "lab",
   "ref": "Milling lecture slide 7; Milling lecture slide 6",
   "tags": [],
   "facts": [
    "MIL-F015",
-   "MIL-F011"
+   "MIL-F010"
   ],
   "keepOrder": true
  },
@@ -4193,7 +4193,7 @@
   "type": "diagram",
   "question": "Which milling cutter is shown in panel A?",
   "options": [
-   "Face mill",
+   "Hollow milling cutter",
    "Side-and-face cutter",
    "Fly cutter",
    "Plain (slab) helical cutter"
@@ -4221,7 +4221,7 @@
    "Side-and-face cutter",
    "Dovetail cutter",
    "End mill",
-   "Face mill"
+   "Hollow milling cutter"
   ],
   "answer": 0,
   "explanation": "B = Side-and-face cutter. Cutting slots, steps and two parallel faces (straddle milling); cuts on periphery and both sides.",
@@ -4270,7 +4270,7 @@
   "options": [
    "Dovetail cutter",
    "T-slot cutter",
-   "Face mill",
+   "Hollow milling cutter",
    "Slitting saw"
   ],
   "answer": 3,
@@ -4293,7 +4293,7 @@
   "type": "diagram",
   "question": "Which milling cutter is shown in panel E?",
   "options": [
-   "Face mill",
+   "Hollow milling cutter",
    "T-slot cutter",
    "Plain (slab) helical cutter",
    "End mill"
@@ -5787,13 +5787,13 @@
   "id": "MIL-0252",
   "shop": "milling",
   "category": "precautions",
-  "difficulty": "hard",
+  "difficulty": "medium",
   "type": "mcq",
   "question": "Before starting the cut, you should check that the cutter…",
   "options": [
    "Is touching the blank at the full depth",
    "Is slightly loose on the arbor for safety",
-   "Is wet with dielectric fluid from the tank",
+   "Has its teeth painted for easy counting",
    "Rotates in the correct direction for the set-up"
   ],
   "answer": 3,

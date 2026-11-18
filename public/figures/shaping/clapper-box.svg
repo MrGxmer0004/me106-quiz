@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-label="Two sketches of the shaper tool in its clapper box: forward stroke with tool seated and cutting, return stroke with tool lifted and sliding over the work"><title>Clapper box action</title><style>.s{fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}.thin{fill:none;stroke:currentColor;stroke-width:1.1}.lead{fill:none;stroke:currentColor;stroke-width:1.2;opacity:.85}.f{fill:currentColor;fill-opacity:.10;stroke:currentColor;stroke-width:2;stroke-linejoin:round}.f2{fill:currentColor;fill-opacity:.22;stroke:currentColor;stroke-width:2;stroke-linejoin:round}.k{fill:currentColor;stroke:none}.d{fill:none;stroke:currentColor;stroke-width:1.5;stroke-dasharray:6 4}.cl{fill:none;stroke:currentColor;stroke-width:1;stroke-dasharray:14 4 3 4;opacity:.7}.acc{fill:none;stroke:#e8590c;stroke-width:2.4;stroke-linecap:round}.accf{fill:#e8590c;stroke:none}.acct{fill:#e8590c;stroke:none}.tx{fill:currentColor;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}</style>
+<rect class="thin" x="20.0" y="30.0" width="320.0" height="290.0" rx="8"/>
+<rect class="f" x="130.0" y="60.0" width="80.0" height="90.0" rx="0"/>
+<circle class="k" cx="145.0" cy="72.0" r="5.0"/>
+<rect class="f" x="20.0" y="250.0" width="320.0" height="50.0" rx="0"/>
+<text class="tx" x="180.0" y="312.0" font-size="15" text-anchor="middle" font-weight="normal" dominant-baseline="middle">forward (cutting) stroke</text>
+<rect class="f2" x="140.0" y="70.0" width="60.0" height="70.0" rx="0"/>
+<rect class="f2" x="160.0" y="140.0" width="18.0" height="100.0" rx="0"/>
+<polygon class="f2" points="160.0,240.0 178.0,240.0 160.0,252.0"/>
+<line class="acc" x1="280.0" y1="200.0" x2="220.0" y2="200.0"/>
+<polygon class="accf" points="220.0,200.0 229.2,196.1 229.2,203.9"/>
+<rect class="thin" x="380.0" y="30.0" width="320.0" height="290.0" rx="8"/>
+<rect class="f" x="490.0" y="60.0" width="80.0" height="90.0" rx="0"/>
+<circle class="k" cx="505.0" cy="72.0" r="5.0"/>
+<rect class="f" x="380.0" y="250.0" width="320.0" height="50.0" rx="0"/>
+<text class="tx" x="540.0" y="312.0" font-size="15" text-anchor="middle" font-weight="normal" dominant-baseline="middle">return (idle) stroke</text>
+<g transform="rotate(14 505 72)">
+<rect class="f2" x="500.0" y="70.0" width="60.0" height="70.0" rx="0"/>
+<rect class="f2" x="520.0" y="140.0" width="18.0" height="100.0" rx="0"/>
+<polygon class="f2" points="520.0,240.0 538.0,240.0 520.0,252.0"/>
+</g>
+<line class="acc" x1="440.0" y1="200.0" x2="500.0" y2="200.0"/>
+<polygon class="accf" points="500.0,200.0 490.8,203.9 490.8,196.1"/>
+<line class="lead" x1="130.0" y1="100.0" x2="74.8" y2="92.1"/>
+<circle class="k" cx="130.0" cy="100.0" r="3"/>
+<circle cx="60.0" cy="90.0" r="15" fill="#e8590c"/><text x="60.0" y="91.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">A</text>
+<line class="lead" x1="145.0" y1="72.0" x2="94.2" y2="54.8"/>
+<circle class="k" cx="145.0" cy="72.0" r="3"/>
+<circle cx="80.0" cy="50.0" r="15" fill="#e8590c"/><text x="80.0" y="51.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">B</text>
+<line class="lead" x1="170.0" y1="110.0" x2="235.4" y2="93.6"/>
+<circle class="k" cx="170.0" cy="110.0" r="3"/>
+<circle cx="250.0" cy="90.0" r="15" fill="#e8590c"/><text x="250.0" y="91.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">C</text>
+<line class="lead" x1="158.0" y1="200.0" x2="236.2" y2="166.0"/>
+<circle class="k" cx="158.0" cy="200.0" r="3"/>
+<circle cx="250.0" cy="160.0" r="15" fill="#e8590c"/><text x="250.0" y="161.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">D</text>
+<line class="lead" x1="60.0" y1="275.0" x2="60.0" y2="245.0"/>
+<circle class="k" cx="60.0" cy="275.0" r="3"/>
+<circle cx="60.0" cy="230.0" r="15" fill="#e8590c"/><text x="60.0" y="231.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">E</text>
+</svg>

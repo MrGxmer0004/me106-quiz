@@ -412,7 +412,7 @@
   "id": "milling/cutters",
   "shop": "milling",
   "title": "Milling cutters",
-  "alt": "Seven small line drawings of milling cutters, each marked with a letter",
+  "alt": "Six small line drawings of milling cutters, each marked with a letter",
   "labels": {
    "A": {
     "part": "Plain (slab) helical cutter",
@@ -1004,6 +1004,249 @@
   "ask": {
    "p": "In the wheel marking shown, what does position {L} indicate?",
    "w": "In the wheel marking, which position gives the {P}?"
+  }
+ },
+ {
+  "id": "shaping/clapper-box",
+  "shop": "shaping",
+  "title": "Clapper box action",
+  "alt": "Two sketches of the shaper tool in its clapper box: forward stroke with tool seated and cutting, return stroke with tool lifted and sliding over the work",
+  "labels": {
+   "A": {
+    "part": "Clapper box",
+    "function": "Housing on the tool head in which the clapper block is hinged",
+    "fact": "SHP-F026"
+   },
+   "B": {
+    "part": "Hinge pin",
+    "function": "Pin about which the clapper block swings forward to lift the tool",
+    "fact": "SHP-F026"
+   },
+   "C": {
+    "part": "Clapper block",
+    "function": "Carries the tool post; seated firmly on the cutting stroke, free to lift on the return",
+    "fact": "SHP-F026"
+   },
+   "D": {
+    "part": "Tool",
+    "function": "Single-point tool that cuts only on the forward stroke",
+    "fact": "SHP-F004"
+   },
+   "E": {
+    "part": "Workpiece",
+    "function": "Job held in the vice under the tool",
+    "fact": "SHP-F031"
+   }
+  }
+ },
+ {
+  "id": "shaping/job",
+  "shop": "shaping",
+  "title": "ME-106 shaping job",
+  "alt": "Oblique drawing of the rectangular block made on the shaper, fully dimensioned",
+  "labels": {},
+  "ask": {
+   "p": "In the shaping job drawing, edge {L} is the block's…"
+  }
+ },
+ {
+  "id": "shaping/job-q",
+  "shop": "shaping",
+  "title": "ME-106 shaping job — dimensions hidden",
+  "alt": "Oblique drawing of the rectangular block made on the shaper, edges lettered",
+  "labels": {
+   "P": {
+    "part": "Length (73 mm)",
+    "function": "73 mm",
+    "fact": "SHP-F044"
+   },
+   "Q": {
+    "part": "Width (38 mm)",
+    "function": "38 mm",
+    "fact": "SHP-F044"
+   },
+   "R": {
+    "part": "Height / thickness (21 mm)",
+    "function": "21 mm",
+    "fact": "SHP-F044"
+   }
+  },
+  "ask": {
+   "p": "In the shaping job drawing, edge {L} is the block's…"
+  }
+ },
+ {
+  "id": "shaping/quick-return",
+  "shop": "shaping",
+  "title": "Crank and slotted-lever quick-return mechanism",
+  "alt": "Line diagram of the crank and slotted-lever mechanism with the crank angles for the cutting and return strokes lettered",
+  "labels": {
+   "A": {
+    "part": "Bull gear (crank wheel)",
+    "function": "Large gear rotating at constant speed; carries the crank pin",
+    "fact": "SHP-F013"
+   },
+   "B": {
+    "part": "Crank pin",
+    "function": "Pin on the bull gear whose radius sets the stroke length",
+    "fact": "SHP-F019"
+   },
+   "C": {
+    "part": "Sliding block",
+    "function": "Pivoted on the crank pin; slides in the slot of the lever",
+    "fact": "SHP-F015"
+   },
+   "D": {
+    "part": "Slotted lever (link)",
+    "function": "Oscillates about the pivot, converting crank rotation into ram motion",
+    "fact": "SHP-F013"
+   },
+   "E": {
+    "part": "Pivot (fulcrum)",
+    "function": "Fixed point at the lower end about which the slotted lever swings",
+    "fact": "SHP-F013"
+   },
+   "F": {
+    "part": "Ram",
+    "function": "Reciprocates and carries the tool",
+    "fact": "SHP-F023"
+   },
+   "G": {
+    "part": "Driving pinion",
+    "function": "Small gear from the motor that drives the bull gear",
+    "fact": "SHP-F014"
+   },
+   "H": {
+    "part": "Crank angle for the cutting stroke (240°)",
+    "function": "Larger arc of crank rotation, so the cutting stroke is slower",
+    "fact": "SHP-F016"
+   },
+   "I": {
+    "part": "Crank angle for the return stroke (120°)",
+    "function": "Smaller arc of crank rotation, so the return stroke is faster",
+    "fact": "SHP-F016"
+   }
+  }
+ },
+ {
+  "id": "shaping/shaper",
+  "shop": "shaping",
+  "title": "Shaping machine (shaper)",
+  "alt": "Side-view line diagram of a standard crank shaper with lettered callouts",
+  "labels": {
+   "A": {
+    "part": "Ram",
+    "function": "Reciprocating slide that carries the tool head and gives the cutting stroke",
+    "fact": "SHP-F023"
+   },
+   "B": {
+    "part": "Tool head",
+    "function": "Mounted at the front of the ram; can swivel; carries the down-feed slide and clapper box",
+    "fact": "SHP-F024"
+   },
+   "C": {
+    "part": "Down-feed handle (tool slide)",
+    "function": "Lowers the tool to give the depth of cut",
+    "fact": "SHP-F025"
+   },
+   "D": {
+    "part": "Clapper box",
+    "function": "Holds the tool post; its hinged block lets the tool lift on the return stroke",
+    "fact": "SHP-F026"
+   },
+   "E": {
+    "part": "Cutting tool",
+    "function": "Single-point HSS tool that cuts on the forward stroke",
+    "fact": "SHP-F037"
+   },
+   "F": {
+    "part": "Vice",
+    "function": "Holds the job on the table",
+    "fact": "SHP-F031"
+   },
+   "G": {
+    "part": "Table",
+    "function": "Carries the vice and work; moved crosswise for feed",
+    "fact": "SHP-F027"
+   },
+   "H": {
+    "part": "Cross rail",
+    "function": "Mounted on the column front; carries the table and its cross-feed screw",
+    "fact": "SHP-F028"
+   },
+   "I": {
+    "part": "Column (body)",
+    "function": "Box casting housing the drive and carrying the ram guides",
+    "fact": "SHP-F029"
+   },
+   "J": {
+    "part": "Base",
+    "function": "Supports the whole machine",
+    "fact": "SHP-F030"
+   },
+   "K": {
+    "part": "Table support",
+    "function": "Front support that steadies the table",
+    "fact": "SHP-F030"
+   },
+   "L": {
+    "part": "Ram locking handle",
+    "function": "Locks the ram after the stroke position has been adjusted",
+    "fact": "SHP-F020"
+   },
+   "M": {
+    "part": "Driving pulley",
+    "function": "Takes power from the motor to drive the bull gear mechanism",
+    "fact": "SHP-F021"
+   }
+  }
+ },
+ {
+  "id": "shaping/spt-tool",
+  "shop": "shaping",
+  "title": "Single-point cutting tool (shaper)",
+  "alt": "Oblique line drawing of a single-point cutting tool with lettered features",
+  "labels": {
+   "A": {
+    "part": "Shank",
+    "function": "Body of the tool, clamped in the tool post",
+    "fact": "SHP-F038"
+   },
+   "B": {
+    "part": "Face",
+    "function": "Top surface over which the chip slides",
+    "fact": "SHP-F038"
+   },
+   "C": {
+    "part": "Nose",
+    "function": "Tip where the side and end cutting edges meet",
+    "fact": "SHP-F038"
+   },
+   "D": {
+    "part": "Side (major) cutting edge",
+    "function": "Main cutting edge along the side of the tool",
+    "fact": "SHP-F038"
+   },
+   "E": {
+    "part": "End (minor) cutting edge",
+    "function": "Cutting edge at the end of the tool",
+    "fact": "SHP-F038"
+   },
+   "F": {
+    "part": "Major (side) flank",
+    "function": "Surface below the side cutting edge",
+    "fact": "SHP-F038"
+   },
+   "G": {
+    "part": "Minor (end) flank",
+    "function": "Surface below the end cutting edge",
+    "fact": "SHP-F038"
+   },
+   "H": {
+    "part": "Base",
+    "function": "Bottom surface resting on the tool post",
+    "fact": "SHP-F038"
+   }
   }
  }
 ]
