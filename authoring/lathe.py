@@ -573,11 +573,11 @@ q('dims', 'm', 'What are the diameter and length of the end section T on the job
   'Section T at the right end is Ø32 mm and 20 mm long.', [109], fig=J, label='T')
 q('dims', 'e', 'What chamfer is specified at the left end of the ME-106 lathe job?', '1 × 45°', ['2 × 30°', '1 × 60°', '5 × 45°'],
   'The drawing calls for a 1 × 45° chamfer at the left end of the Ø38 section.', [105, 76], fig=J)
-n('dims', 'h', 'From the job drawing, how far from the LEFT end does the threaded portion start?', '70 mm', ['65 mm', '95 mm', '35 mm'],
+n('dims', 'h', 'In the ME-106 lathe job, how far from the LEFT end does the threaded portion start?', '70 mm', ['65 mm', '95 mm', '35 mm'],
   'Left end → Ø38 (35) → taper (30) → groove (5): 35 + 30 + 5 = 70 mm. The thread then runs to 95 mm.', [105, 106, 107, 108], fig=J)
 q('dims', 'm', 'The job drawing shows small conical marks at both ends on the axis. They indicate…', 'Centre-drilled holes', ['Chamfers', 'Knurled ends', 'Grooves'],
   'Both ends of the ME-106 job are centre-drilled so the work can be supported on centres.', [110, 80], fig=J)
-n('dims', 'h', 'From the job drawing, what is the sum of the lengths of the taper and the thread?', '55 mm', ['50 mm', '60 mm', '45 mm'],
+n('dims', 'h', 'In the ME-106 lathe job, what is the sum of the lengths of the taper and the thread?', '55 mm', ['50 mm', '60 mm', '45 mm'],
   'Taper 30 mm + thread 25 mm = 55 mm.', [106, 108], fig=J)
 
 # ============================ more procedure (lab + standard practice) ============================
@@ -592,7 +592,7 @@ q('proc', 'h', 'During the threading step of the ME-106 job, what drives the car
   'For threading the half-nut is engaged on the lead screw so the carriage moves exactly one pitch (1.5 mm) per revolution.', [120, 38, 39])
 q('proc', 'm', 'In the ME-106 job, the 5 mm groove is cut…',
   'At the end of the thread, before taper turning and threading', ['After the thread is finished', 'Before facing', 'Before measuring the bar'],
-  'The log sheet cuts the 5 mm groove after step turning, then turns the taper and finally cuts the thread up to the groove.', [119, 121])
+  'The 2025 log sheet: after facing, "groove and taper turn in desired area", then thread to 1.5 mm pitch up to the groove.', [119, 121])
 q('proc', 'm', 'Where is the tool tip set when a lathe tool is clamped in the tool post?',
   'Exactly at centre height (level with the lathe axis)', ['Well above the axis to increase clearance', 'Well below the axis to avoid rubbing', 'At any height'],
   'The tip must be on the lathe axis. Above or below centre changes the effective rake and clearance and leaves a pip when facing.', [133])
@@ -702,6 +702,6 @@ q('proc', 'h', 'Why is threading done LAST in the ME-106 lathe job?',
   'The thread is cut last, up to the 5 mm groove that was cut earlier; turning after threading would damage the thread.', [118, 120, 121])
 q('proc', 'm', 'What is engaged for plain turning but NOT used for threading?',
   'Feed rod (power feed)', ['Lead screw', 'Half-nut', 'Change gears for pitch'],
-  'Ordinary turning feed comes from the feed rod; threading uses the lead screw and half-nut.', [37, 38, 118])
+  'Ordinary turning feed comes from the feed rod; threading uses the lead screw and half-nut.', [37, 38])
 
 B.save()

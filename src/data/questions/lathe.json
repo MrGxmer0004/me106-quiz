@@ -5454,7 +5454,7 @@
   "category": "job-dimensions",
   "difficulty": "hard",
   "type": "numerical",
-  "question": "From the job drawing, how far from the LEFT end does the threaded portion start?",
+  "question": "In the ME-106 lathe job, how far from the LEFT end does the threaded portion start?",
   "options": [
    "65 mm",
    "35 mm",
@@ -5504,7 +5504,7 @@
   "category": "job-dimensions",
   "difficulty": "hard",
   "type": "numerical",
-  "question": "From the job drawing, what is the sum of the lengths of the taper and the thread?",
+  "question": "In the ME-106 lathe job, what is the sum of the lengths of the taper and the thread?",
   "options": [
    "50 mm",
    "55 mm",
@@ -5605,7 +5605,7 @@
    "After facing, together with taper turning, before threading"
   ],
   "answer": 3,
-  "explanation": "The log sheet cuts the 5 mm groove after step turning, then turns the taper and finally cuts the thread up to the groove.",
+  "explanation": "The 2025 log sheet: after facing, \"groove and taper turn in desired area\", then thread to 1.5 mm pitch up to the groove.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.2; Central Lathe Log sheet p.1",
   "tags": [],
@@ -6373,12 +6373,11 @@
   "answer": 3,
   "explanation": "Ordinary turning feed comes from the feed rod; threading uses the lead screw and half-nut.",
   "source": "lab",
-  "ref": "Centre Lathe handout p.7; Central Lathe Log sheet p.1",
+  "ref": "Centre Lathe handout p.7",
   "tags": [],
   "facts": [
    "LAT-F037",
-   "LAT-F038",
-   "LAT-F118"
+   "LAT-F038"
   ]
  }
 ]
