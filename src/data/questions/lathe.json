@@ -1,0 +1,6375 @@
+[
+ {
+  "id": "LAT-0001",
+  "shop": "lathe",
+  "category": "definitions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "A lathe is a machine tool used mainly to produce which kind of objects?",
+  "options": [
+   "Gear teeth on blanks",
+   "Flat rectangular plates",
+   "Internal keyways only",
+   "Cylindrical (round) objects"
+  ],
+  "answer": 3,
+  "explanation": "The lathe is employed generally to produce cylindrical objects by rotating the work against a single-point tool.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F001"
+  ]
+ },
+ {
+  "id": "LAT-0002",
+  "shop": "lathe",
+  "category": "definitions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which machine tool is often called the \"mother of all machine tools\"?",
+  "options": [
+   "Grinding machine",
+   "Lathe",
+   "Milling machine",
+   "Shaper"
+  ],
+  "answer": 1,
+  "explanation": "The handout calls the lathe the mother of all machine tools, because most other machine tools developed from it.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F002"
+  ]
+ },
+ {
+  "id": "LAT-0003",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Turning on a lathe removes excess material from the work to produce which kind of surface?",
+  "options": [
+   "A cylindrical or cone-shaped surface",
+   "A flat horizontal surface only",
+   "A helical gear tooth",
+   "A dovetail slot"
+  ],
+  "answer": 0,
+  "explanation": "Turning produces cylindrical or tapered (cone-shaped) surfaces on rotating work.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F003"
+  ]
+ },
+ {
+  "id": "LAT-0004",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of these is NOT one of the types of lathe listed in the ME-106 lathe handout?",
+  "options": [
+   "Turret lathe",
+   "Speed lathe",
+   "Slotting lathe",
+   "Capstan lathe"
+  ],
+  "answer": 2,
+  "explanation": "The handout lists engine, speed, turret, capstan and CNC lathes. \"Slotting\" is a different machine (a vertical shaper), not a lathe type.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F004"
+  ]
+ },
+ {
+  "id": "LAT-0005",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "The most commonly used general-purpose lathe in engineering workshops is the…",
+  "options": [
+   "Turret lathe",
+   "Speed lathe",
+   "Engine (centre) lathe",
+   "Capstan lathe"
+  ],
+  "answer": 2,
+  "explanation": "The engine lathe (centre lathe) is the general-purpose lathe found in most workshops, including our machine shop.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.2",
+  "tags": [],
+  "facts": [
+   "LAT-F005"
+  ]
+ },
+ {
+  "id": "LAT-0006",
+  "shop": "lathe",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "What is the working principle of a lathe?",
+  "options": [
+   "Both tool and work reciprocate in straight lines",
+   "The work rotates while a single-point tool is fed against it",
+   "The tool rotates while the work is fed against it",
+   "An abrasive wheel rotates against fixed work"
+  ],
+  "answer": 1,
+  "explanation": "On a lathe the workpiece rotates and a single-point cutting tool is given feed motion. In milling and grinding it is the cutter or wheel that rotates.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.2; Manufacturing notes p.11–12",
+  "tags": [],
+  "facts": [
+   "LAT-F006",
+   "LAT-F007"
+  ]
+ },
+ {
+  "id": "LAT-0007",
+  "shop": "lathe",
+  "category": "principle-theory",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "In which of these machines does the WORKPIECE rotate while the tool is fed?",
+  "options": [
+   "Centre lathe",
+   "Surface grinder",
+   "Milling machine",
+   "Shaper"
+  ],
+  "answer": 0,
+  "explanation": "In a lathe the work rotates; in milling and grinding the cutter or wheel rotates, and in a shaper the tool reciprocates.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.11–12",
+  "tags": [],
+  "facts": [
+   "LAT-F007"
+  ]
+ },
+ {
+  "id": "LAT-0008",
+  "shop": "lathe",
+  "category": "principle-theory",
+  "difficulty": "easy",
+  "type": "true-false",
+  "question": "For metal cutting on a lathe there must always be relative motion between the tool and the workpiece.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explanation": "Cutting needs relative motion: the work rotates and the tool is fed, as noted in the lathe notes.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.11",
+  "tags": [],
+  "facts": [
+   "LAT-F008"
+  ],
+  "keepOrder": true
+ },
+ {
+  "id": "LAT-0009",
+  "shop": "lathe",
+  "category": "definitions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Centre-lathe turning belongs to which group of manufacturing processes?",
+  "options": [
+   "Metal joining (welding)",
+   "Casting (melting and solidification)",
+   "Forming (forging)",
+   "Metal removal (machining)"
+  ],
+  "answer": 3,
+  "explanation": "Turning removes metal as chips, so it is a metal-removal (machining) process.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.11",
+  "tags": [],
+  "facts": [
+   "LAT-F009"
+  ]
+ },
+ {
+  "id": "LAT-0010",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which group of parts is mounted on the CARRIAGE of a centre lathe?",
+  "options": [
+   "Tailstock quill, dead centre and handwheel",
+   "Headstock, spindle and change gears",
+   "Lead screw, feed rod and legs",
+   "Saddle, cross-slide, compound rest and tool post"
+  ],
+  "answer": 3,
+  "explanation": "The carriage slides on the bed and carries the saddle, cross-slide, compound rest and tool post (with the apron hanging in front).",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 7; Centre Lathe handout p.4",
+  "tags": [],
+  "facts": [
+   "LAT-F010",
+   "LAT-F026"
+  ]
+ },
+ {
+  "id": "LAT-0011",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which part of a lathe is the main supporting structure on which the headstock, tailstock and carriage are mounted?",
+  "options": [
+   "Apron",
+   "Saddle",
+   "Bed",
+   "Column"
+  ],
+  "answer": 2,
+  "explanation": "The bed is the principal supporting structure; the headstock, tailstock and carriage are all mounted on it.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.3",
+  "tags": [],
+  "facts": [
+   "LAT-F011"
+  ]
+ },
+ {
+  "id": "LAT-0012",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "On a lathe, the tailstock and carriage slide along the…",
+  "options": [
+   "Guideways (bedways) on top of the bed",
+   "Lead screw threads",
+   "Cross-slide dovetail",
+   "Feed rod keyway"
+  ],
+  "answer": 0,
+  "explanation": "The tailstock and carriage move over the guideways machined on the top face of the bed.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.3",
+  "tags": [],
+  "facts": [
+   "LAT-F012"
+  ]
+ },
+ {
+  "id": "LAT-0013",
+  "shop": "lathe",
+  "category": "workpiece-material",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Lathe beds are generally made of which material?",
+  "options": [
+   "Mild steel",
+   "Grey cast iron",
+   "Aluminium alloy",
+   "High-speed steel"
+  ],
+  "answer": 1,
+  "explanation": "The lecture states lathe beds are generally grey cast iron because of its damping, rigidity and self-lubricating qualities.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 13",
+  "tags": [],
+  "facts": [
+   "LAT-F013"
+  ]
+ },
+ {
+  "id": "LAT-0014",
+  "shop": "lathe",
+  "category": "workpiece-material",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Why is grey cast iron used for lathe beds?",
+  "options": [
+   "Good damping, rigidity and self-lubricating quality",
+   "High ductility and weldability",
+   "Low density and high electrical conductivity",
+   "High red hardness at cutting temperatures"
+  ],
+  "answer": 0,
+  "explanation": "Grey cast iron damps vibration well, is rigid, and its graphite gives a self-lubricating surface on the ways.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 13",
+  "tags": [],
+  "facts": [
+   "LAT-F013"
+  ]
+ },
+ {
+  "id": "LAT-0015",
+  "shop": "lathe",
+  "category": "workpiece-material",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "According to the lathe handout, a good lathe bed material should have which two properties?",
+  "options": [
+   "Low hardness and high electrical conductivity",
+   "High compressive strength and high wear resistance",
+   "High ductility and high thermal expansion",
+   "High toughness and low density"
+  ],
+  "answer": 1,
+  "explanation": "The handout says bed material needs high compressive strength and high wear resistance; nickel-chromium alloyed cast iron is a good choice.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.3",
+  "tags": [],
+  "facts": [
+   "LAT-F014"
+  ]
+ },
+ {
+  "id": "LAT-0016",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Lathe bed guideways are of two types. Which pair is correct?",
+  "options": [
+   "Cross ways and compound ways",
+   "Upper ways and lower ways",
+   "Live ways and dead ways",
+   "Inner ways and outer ways"
+  ],
+  "answer": 3,
+  "explanation": "The lecture names the two types of guideways as inner ways and outer ways.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 13",
+  "tags": [],
+  "facts": [
+   "LAT-F015"
+  ]
+ },
+ {
+  "id": "LAT-0017",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "On which side of the lathe bed is the headstock mounted (operator facing the lathe)?",
+  "options": [
+   "Right-hand side",
+   "Middle, under the carriage",
+   "Left-hand side",
+   "Below the bed"
+  ],
+  "answer": 2,
+  "explanation": "The headstock is on the left-hand side of the bed; the tailstock is on the right.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.3; Centre Lathe handout p.4",
+  "tags": [],
+  "facts": [
+   "LAT-F016",
+   "LAT-F021"
+  ]
+ },
+ {
+  "id": "LAT-0018",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which lathe part houses the main spindle, the speed-change gear box and the change gears?",
+  "options": [
+   "Apron",
+   "Headstock",
+   "Tailstock",
+   "Carriage"
+  ],
+  "answer": 1,
+  "explanation": "The headstock houses the main spindle, speed-change mechanism and change gears.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 14",
+  "tags": [],
+  "facts": [
+   "LAT-F017"
+  ]
+ },
+ {
+  "id": "LAT-0019",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Besides varying spindle speed, the headstock gear box also…",
+  "options": [
+   "Transmits power to the feed rod and lead screw",
+   "Locks the carriage for parting-off",
+   "Moves the tailstock along the bed",
+   "Holds the dead centre"
+  ],
+  "answer": 0,
+  "explanation": "The headstock gear box varies spindle speed and transmits power to the feed rod and lead screw.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.3",
+  "tags": [],
+  "facts": [
+   "LAT-F018"
+  ]
+ },
+ {
+  "id": "LAT-0020",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "The chuck or face plate of a lathe is attached to the…",
+  "options": [
+   "Tailstock quill",
+   "Lead screw",
+   "Cross-slide",
+   "Headstock spindle"
+  ],
+  "answer": 3,
+  "explanation": "The chuck or face plate is mounted on the headstock spindle, which grips and rotates the work.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.3",
+  "tags": [],
+  "facts": [
+   "LAT-F019"
+  ]
+ },
+ {
+  "id": "LAT-0021",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which part of the lathe carries the LIVE centre?",
+  "options": [
+   "Compound rest",
+   "Tailstock quill",
+   "Headstock spindle",
+   "Tool post"
+  ],
+  "answer": 2,
+  "explanation": "The live centre sits in the headstock spindle and rotates with the work. The tailstock carries the dead centre.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 14",
+  "tags": [],
+  "facts": [
+   "LAT-F020"
+  ]
+ },
+ {
+  "id": "LAT-0022",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which part of the lathe carries the DEAD centre?",
+  "options": [
+   "Tailstock",
+   "Carriage",
+   "Apron",
+   "Headstock"
+  ],
+  "answer": 0,
+  "explanation": "The tailstock carries the dead centre, which does not rotate; the headstock spindle carries the live centre.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 15",
+  "tags": [],
+  "facts": [
+   "LAT-F024"
+  ]
+ },
+ {
+  "id": "LAT-0023",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of these is a function of the tailstock?",
+  "options": [
+   "Giving speed changes to the spindle",
+   "Engaging the half-nut for threading",
+   "Swivelling the tool for tapers",
+   "Supporting long work and holding drills or reamers"
+  ],
+  "answer": 3,
+  "explanation": "The tailstock supports the free end of the work and holds tools such as drills, reamers and taps.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.4",
+  "tags": [],
+  "facts": [
+   "LAT-F022"
+  ]
+ },
+ {
+  "id": "LAT-0024",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Why can the tailstock be moved along the bed?",
+  "options": [
+   "To lock the carriage",
+   "To accommodate workpieces of different lengths",
+   "To set the thread pitch",
+   "To change the spindle speed"
+  ],
+  "answer": 1,
+  "explanation": "The tailstock slides on the guideways so work of different lengths can be supported.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.4",
+  "tags": [],
+  "facts": [
+   "LAT-F023"
+  ]
+ },
+ {
+  "id": "LAT-0025",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of these is a part of the TAILSTOCK?",
+  "options": [
+   "Half-nut lever",
+   "Compound slide",
+   "Quill (tailstock spindle)",
+   "Tumbler gears"
+  ],
+  "answer": 2,
+  "explanation": "The tailstock has a body, adjustable base, spindle (quill), feed screw handwheel and a locking lever.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 15",
+  "tags": [],
+  "facts": [
+   "LAT-F025"
+  ]
+ },
+ {
+  "id": "LAT-0026",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which part of the lathe supports, moves and controls the cutting tool?",
+  "options": [
+   "Bed",
+   "Carriage",
+   "Tailstock",
+   "Headstock"
+  ],
+  "answer": 1,
+  "explanation": "The carriage serves as the supporting, moving and controlling part of the cutting tool.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.4",
+  "tags": [],
+  "facts": [
+   "LAT-F026"
+  ]
+ },
+ {
+  "id": "LAT-0027",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "The H-shaped part of the carriage that fits over the bed and slides along the ways is the…",
+  "options": [
+   "Compound rest",
+   "Tool post",
+   "Apron",
+   "Saddle"
+  ],
+  "answer": 3,
+  "explanation": "The saddle is H-shaped, fits over the bed, slides along the guideways and can be locked in any position.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 17",
+  "tags": [],
+  "facts": [
+   "LAT-F027"
+  ]
+ },
+ {
+  "id": "LAT-0028",
+  "shop": "lathe",
+  "category": "process-parameters",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Movement of the saddle parallel to the lathe axis gives the…",
+  "options": [
+   "Longitudinal feed",
+   "Cutting speed",
+   "Depth of cut",
+   "Taper angle"
+  ],
+  "answer": 0,
+  "explanation": "Saddle movement along the axis is the (longitudinal) feed; cross-slide movement sets the depth of cut.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.5",
+  "tags": [],
+  "facts": [
+   "LAT-F028"
+  ]
+ },
+ {
+  "id": "LAT-0029",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which part moves the lathe tool at right angles to the lathe axis?",
+  "options": [
+   "Saddle",
+   "Tailstock quill",
+   "Cross-slide",
+   "Feed rod"
+  ],
+  "answer": 2,
+  "explanation": "The cross-slide sits on the saddle and moves the tool perpendicular to the work axis.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.5",
+  "tags": [],
+  "facts": [
+   "LAT-F029"
+  ]
+ },
+ {
+  "id": "LAT-0030",
+  "shop": "lathe",
+  "category": "process-parameters",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "On a lathe, the depth of cut is set by moving the…",
+  "options": [
+   "Tailstock",
+   "Cross-slide",
+   "Lead screw",
+   "Saddle along the bed"
+  ],
+  "answer": 1,
+  "explanation": "The perpendicular distance moved by the cross-slide (via its handwheel) is the depth of cut.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.5",
+  "tags": [],
+  "facts": [
+   "LAT-F030"
+  ]
+ },
+ {
+  "id": "LAT-0031",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "The compound rest is mounted directly on top of the…",
+  "options": [
+   "Bed",
+   "Headstock",
+   "Tailstock",
+   "Cross-slide"
+  ],
+  "answer": 3,
+  "explanation": "The compound rest (top slide) is mounted on the cross-slide, and the tool post sits on the compound rest.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.6",
+  "tags": [],
+  "facts": [
+   "LAT-F031"
+  ]
+ },
+ {
+  "id": "LAT-0032",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which lathe part has a base graduated in degrees and is used for short tapers and angular cuts?",
+  "options": [
+   "Apron",
+   "Cross-slide",
+   "Compound rest",
+   "Tailstock"
+  ],
+  "answer": 2,
+  "explanation": "The compound rest swivels on a base graduated in degrees for angular cuts and tapers.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 19",
+  "tags": [],
+  "facts": [
+   "LAT-F032"
+  ]
+ },
+ {
+  "id": "LAT-0033",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In taper turning by the compound-rest method, how is the feed given?",
+  "options": [
+   "By hand, with the compound-slide handwheel",
+   "By setting over the tailstock",
+   "Automatically by the feed rod",
+   "Automatically by the lead screw"
+  ],
+  "answer": 0,
+  "explanation": "The compound slide has no power feed; its handwheel is turned by hand to feed the tool along the taper.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 19; Centre Lathe lecture slide 21",
+  "tags": [],
+  "facts": [
+   "LAT-F033",
+   "LAT-F043"
+  ]
+ },
+ {
+  "id": "LAT-0034",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which part holds the cutting tool rigidly on a lathe?",
+  "options": [
+   "Tool post",
+   "Quill",
+   "Saddle",
+   "Apron"
+  ],
+  "answer": 0,
+  "explanation": "The tool post is mounted on the compound rest and clamps the tool rigidly.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.6",
+  "tags": [],
+  "facts": [
+   "LAT-F034"
+  ]
+ },
+ {
+  "id": "LAT-0035",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of these is NOT a type of lathe tool post?",
+  "options": [
+   "Four-way tool post",
+   "Twelve-way tool post",
+   "Eight-way tool post",
+   "Single-screw tool post"
+  ],
+  "answer": 1,
+  "explanation": "The lecture lists single-screw, four-way and eight-way tool posts.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 20",
+  "tags": [],
+  "facts": [
+   "LAT-F035"
+  ]
+ },
+ {
+  "id": "LAT-0036",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "The carriage handwheel, half-nut lever and feed lever are located on the…",
+  "options": [
+   "Headstock",
+   "Tailstock",
+   "Compound rest",
+   "Apron"
+  ],
+  "answer": 3,
+  "explanation": "The apron hangs in front of the carriage and contains the carriage handwheel, half-nut lever and feed lever.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 16",
+  "tags": [],
+  "facts": [
+   "LAT-F036"
+  ]
+ },
+ {
+  "id": "LAT-0037",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which shaft drives the carriage or cross-slide for turning, boring and facing (not threading)?",
+  "options": [
+   "Tailstock screw",
+   "Spindle",
+   "Feed rod",
+   "Lead screw"
+  ],
+  "answer": 2,
+  "explanation": "The feed rod transmits power from the feed box to move the carriage or cross-slide for ordinary feeds.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.7",
+  "tags": [],
+  "facts": [
+   "LAT-F037"
+  ]
+ },
+ {
+  "id": "LAT-0038",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "The lead screw of a lathe is used for…",
+  "options": [
+   "Changing spindle speed",
+   "Moving the tailstock",
+   "Thread cutting only",
+   "Facing and turning feeds"
+  ],
+  "answer": 2,
+  "explanation": "The lead screw is a long threaded shaft used only for thread cutting; it is disengaged for normal turning.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.7",
+  "tags": [],
+  "facts": [
+   "LAT-F038"
+  ]
+ },
+ {
+  "id": "LAT-0039",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "For thread cutting, the carriage is connected to the lead screw through the…",
+  "options": [
+   "Chuck key",
+   "Half-nut mechanism",
+   "Tumbler gears",
+   "Tailstock lock"
+  ],
+  "answer": 1,
+  "explanation": "Closing the half-nuts on the lead screw makes the carriage advance exactly one pitch per spindle revolution.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 22",
+  "tags": [],
+  "facts": [
+   "LAT-F039"
+  ]
+ },
+ {
+  "id": "LAT-0040",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which part of a lathe collects the chips and coolant that fall from the work?",
+  "options": [
+   "Gear box",
+   "Apron",
+   "Saddle",
+   "Chip tray (chip pan)"
+  ],
+  "answer": 3,
+  "explanation": "The chip tray (chip pan) under the bed collects chips; the legs support the machine.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.12",
+  "tags": [],
+  "facts": [
+   "LAT-F040"
+  ]
+ },
+ {
+  "id": "LAT-0041",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "On the lathe headstock, the tumbler gears are used to…",
+  "options": [
+   "Reverse or engage/disengage the feed",
+   "Lock the spindle for chuck changing",
+   "Move the tailstock quill",
+   "Set the compound rest angle"
+  ],
+  "answer": 0,
+  "explanation": "The lecture lists tumbler gears for forward/reverse and engage/disengage of the feed drive.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 14",
+  "tags": [],
+  "facts": [
+   "LAT-F041"
+  ]
+ },
+ {
+  "id": "LAT-0042",
+  "shop": "lathe",
+  "category": "process-parameters",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of the three lathe feeds is given ONLY by hand?",
+  "options": [
+   "Longitudinal feed",
+   "Cross feed",
+   "Both longitudinal and cross feed",
+   "Angular feed"
+  ],
+  "answer": 3,
+  "explanation": "Longitudinal and cross feeds can be by hand or power; angular feed (compound slide swivelled) is hand-operated only.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 21",
+  "tags": [],
+  "facts": [
+   "LAT-F042",
+   "LAT-F043"
+  ]
+ },
+ {
+  "id": "LAT-0043",
+  "shop": "lathe",
+  "category": "process-parameters",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Feed given by swivelling the compound slide to the required angle is called…",
+  "options": [
+   "Rapid feed",
+   "Angular feed",
+   "Cross feed",
+   "Longitudinal feed"
+  ],
+  "answer": 1,
+  "explanation": "There are three feeds: longitudinal (parallel to axis), cross (perpendicular) and angular (compound slide swivelled).",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 21",
+  "tags": [],
+  "facts": [
+   "LAT-F042"
+  ]
+ },
+ {
+  "id": "LAT-0044",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of these is NOT used to specify a centre lathe?",
+  "options": [
+   "Number of teeth on the chuck jaws",
+   "Distance between centres",
+   "Swing over bed",
+   "Length of bed"
+  ],
+  "answer": 0,
+  "explanation": "A lathe is specified by bed length, distance between centres, swing over bed and carriage, power, lead-screw pitch, speeds, feeds and bed width.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.13",
+  "tags": [],
+  "facts": [
+   "LAT-F044"
+  ]
+ },
+ {
+  "id": "LAT-0045",
+  "shop": "lathe",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "The \"swing\" of a lathe means…",
+  "options": [
+   "The angle through which the compound rest swivels",
+   "The length of the bed",
+   "The largest work diameter that can rotate over the bed",
+   "The distance moved by the carriage per revolution"
+  ],
+  "answer": 2,
+  "explanation": "Swing is the largest diameter of work that can be swung (rotated) over the lathe bed.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 7",
+  "tags": [],
+  "facts": [
+   "LAT-F045"
+  ]
+ },
+ {
+  "id": "LAT-0046",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of these is NOT a standard way of holding work on a lathe?",
+  "options": [
+   "Between centres with a dog",
+   "Magnetic chuck with table dogs",
+   "In a 4-jaw chuck",
+   "On a face plate"
+  ],
+  "answer": 1,
+  "explanation": "Work is held between centres, on a mandrel, in a chuck, on a face plate/angle plate or in a collet. Magnetic chucks with dogs are a grinding-machine feature.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.8",
+  "tags": [],
+  "facts": [
+   "LAT-F046"
+  ]
+ },
+ {
+  "id": "LAT-0047",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "When work is turned between centres, what actually drives (rotates) the workpiece?",
+  "options": [
+   "Friction at the dead centre",
+   "The lead screw",
+   "The tailstock quill",
+   "A lathe dog clamped to the work, driven by the catch plate"
+  ],
+  "answer": 3,
+  "explanation": "A dog (carrier) is clamped to the work and its tail is driven by the catch (dog) plate on the spindle.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 23",
+  "tags": [],
+  "facts": [
+   "LAT-F047"
+  ]
+ },
+ {
+  "id": "LAT-0048",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "In which chuck do all the jaws move together, so the work is centred automatically?",
+  "options": [
+   "Face plate",
+   "4-jaw chuck",
+   "3-jaw chuck",
+   "Magnetic chuck"
+  ],
+  "answer": 2,
+  "explanation": "In a 3-jaw (self-centring) chuck all three jaws move simultaneously; in a 4-jaw chuck each jaw moves independently.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 24",
+  "tags": [],
+  "facts": [
+   "LAT-F048"
+  ]
+ },
+ {
+  "id": "LAT-0049",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "A 3-jaw self-centring chuck is suitable for holding which work?",
+  "options": [
+   "Round and hexagonal work",
+   "Irregular castings",
+   "Work needing off-centre turning",
+   "Square and rectangular blocks"
+  ],
+  "answer": 0,
+  "explanation": "The 3-jaw chuck holds cylindrical and hexagonal work; irregular shapes need a 4-jaw chuck.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 24",
+  "tags": [],
+  "facts": [
+   "LAT-F048"
+  ]
+ },
+ {
+  "id": "LAT-0050",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "In a 4-jaw chuck the jaws…",
+  "options": [
+   "All move together through a scroll",
+   "Move independently, each by its own screw",
+   "Move only in pairs",
+   "Do not move at all"
+  ],
+  "answer": 1,
+  "explanation": "Each jaw of a 4-jaw (independent) chuck is moved separately, so the work must be centred manually.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 24",
+  "tags": [],
+  "facts": [
+   "LAT-F049"
+  ]
+ },
+ {
+  "id": "LAT-0051",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which chuck is preferred for holding an irregular or square workpiece?",
+  "options": [
+   "4-jaw independent chuck",
+   "3-jaw self-centring chuck",
+   "Collet chuck",
+   "Drill chuck"
+  ],
+  "answer": 0,
+  "explanation": "The independent jaws of a 4-jaw chuck can grip irregular shapes, which a self-centring chuck cannot.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 24",
+  "tags": [],
+  "facts": [
+   "LAT-F049"
+  ]
+ },
+ {
+  "id": "LAT-0052",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "What is the main drawback of a 4-jaw independent chuck compared with a 3-jaw chuck?",
+  "options": [
+   "It cannot be used for facing",
+   "It cannot hold round work",
+   "The work must be centred manually, which takes time",
+   "It grips the work less firmly"
+  ],
+  "answer": 2,
+  "explanation": "Because the jaws move independently, the work has to be trued (centred) by hand; a 3-jaw chuck centres automatically.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 24; Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F049",
+   "LAT-F051"
+  ]
+ },
+ {
+  "id": "LAT-0053",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Which statement about 4-jaw chuck jaws is correct?",
+  "options": [
+   "They are magnetised",
+   "They are fixed and cannot be adjusted",
+   "They can only move together",
+   "They are reversible"
+  ],
+  "answer": 3,
+  "explanation": "The lecture states the jaws of a 4-jaw chuck are reversible and each moves independently.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 24",
+  "tags": [],
+  "facts": [
+   "LAT-F050"
+  ]
+ },
+ {
+  "id": "LAT-0054",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Compared with a 3-jaw chuck, a 4-jaw independent chuck…",
+  "options": [
+   "Cannot be used with HSS tools",
+   "Grips less firmly but centres automatically",
+   "Grips more firmly but is slower to set up",
+   "Can hold only round work"
+  ],
+  "answer": 2,
+  "explanation": "A 4-jaw chuck gives a stronger grip and holds any shape, but centring is manual. A 3-jaw chuck is quick to set because it self-centres.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F051"
+  ]
+ },
+ {
+  "id": "LAT-0055",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "A collet holds bar stock by…",
+  "options": [
+   "Being squeezed onto the bar through its slits",
+   "Independent screw-driven jaws",
+   "Magnetic attraction",
+   "Friction at a dead centre"
+  ],
+  "answer": 0,
+  "explanation": "A collet has slits (three in the lecture) so a sleeve can squeeze it onto the bar.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 25",
+  "tags": [],
+  "facts": [
+   "LAT-F052"
+  ]
+ },
+ {
+  "id": "LAT-0056",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Irregular work that cannot be held in a chuck is clamped to the…",
+  "options": [
+   "Tool post",
+   "Catch plate only",
+   "Compound rest",
+   "Face plate"
+  ],
+  "answer": 3,
+  "explanation": "A face plate is attached to the spindle and work is bolted/clamped to it.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 26",
+  "tags": [],
+  "facts": [
+   "LAT-F053"
+  ]
+ },
+ {
+  "id": "LAT-0057",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Chuck jaws are tightened and loosened using a…",
+  "options": [
+   "Allen key on the tailstock",
+   "Chuck key",
+   "Spanner on the lead screw",
+   "Tap wrench"
+  ],
+  "answer": 1,
+  "explanation": "A chuck key turns the chuck screw (or scroll) to move the jaws; always remove it before starting.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F054"
+  ]
+ },
+ {
+  "id": "LAT-0058",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "In the ME-106 lathe lab, which items were used for MARKING the job?",
+  "options": [
+   "Divider and odd-leg caliper",
+   "Vernier height gauge and angle plate",
+   "Chalk, marker, marking stand and marking plate",
+   "Scriber, dot punch and centre punch"
+  ],
+  "answer": 2,
+  "explanation": "The ME-106 lathe log sheet lists chalk, marking stand, marking plate and marker as the marking tools.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F055"
+  ]
+ },
+ {
+  "id": "LAT-0059",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "In the ME-106 lathe lab, the diameter of the job was checked with an…",
+  "options": [
+   "Dial indicator only",
+   "Bevel protractor",
+   "Inside micrometer only",
+   "Outside caliper and steel scale"
+  ],
+  "answer": 3,
+  "explanation": "The log sheet lists an outside caliper and scale for measuring the job.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1; Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F056",
+   "LAT-F059"
+  ]
+ },
+ {
+  "id": "LAT-0060",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of these is NOT in the list of tools used in the ME-106 lathe lab?",
+  "options": [
+   "Lathe job carrier",
+   "Dividing head",
+   "Marking stand",
+   "Outside caliper"
+  ],
+  "answer": 1,
+  "explanation": "The lathe log sheet lists chalk, marking stand, marking plate, outside caliper, scale, marker, lathe job carrier and catch. A dividing head is a milling accessory.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F055",
+   "LAT-F056",
+   "LAT-F057"
+  ]
+ },
+ {
+  "id": "LAT-0061",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In the ME-106 lathe lab, the job was held in which device?",
+  "options": [
+   "Four-jaw chuck",
+   "Three-jaw chuck",
+   "Machine vice",
+   "Collet"
+  ],
+  "answer": 0,
+  "explanation": "The procedure says to fix the workpiece in the four-jaw chuck after marking 115 mm.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F057",
+   "LAT-F115"
+  ]
+ },
+ {
+  "id": "LAT-0062",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "The 2025 ME-106 lathe log sheet adds which items to the tool list?",
+  "options": [
+   "Hacksaw and file",
+   "Tool holder, wrench and chuck",
+   "Grinding wheel and coolant",
+   "Index plate and mandrel"
+  ],
+  "answer": 1,
+  "explanation": "The 2025 log sheet also lists a lathe tool holder, a wrench and the chuck.",
+  "source": "lab",
+  "ref": "Central Lathe Log sheet p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F058"
+  ]
+ },
+ {
+  "id": "LAT-0063",
+  "shop": "lathe",
+  "category": "measurement-reading",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "An outside caliper has no scale. How is the measured diameter read?",
+  "options": [
+   "By transferring the setting to a steel rule",
+   "Directly from its Vernier",
+   "From its dial",
+   "From the cross-slide dial"
+  ],
+  "answer": 0,
+  "explanation": "An outside caliper only transfers a size; you read it by placing the legs against a steel rule.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F059"
+  ]
+ },
+ {
+  "id": "LAT-0064",
+  "shop": "lathe",
+  "category": "workpiece-material",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "What is the workpiece material of the ME-106 lathe job?",
+  "options": [
+   "Aluminium",
+   "High-speed steel",
+   "Cast iron",
+   "Low-carbon (mild) steel"
+  ],
+  "answer": 3,
+  "explanation": "The lathe notes state the job is low-carbon steel, i.e. mild steel.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.11",
+  "tags": [],
+  "facts": [
+   "LAT-F060"
+  ]
+ },
+ {
+  "id": "LAT-0065",
+  "shop": "lathe",
+  "category": "workpiece-material",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Mild (low-carbon) steel contains approximately…",
+  "options": [
+   "2–4% carbon",
+   "0.6–1.5% carbon",
+   "Less than 0.3% carbon",
+   "About 6.67% carbon"
+  ],
+  "answer": 2,
+  "explanation": "Mild steel is low-carbon steel with less than about 0.3% C. 0.6–1.5% is high-carbon steel and 2–4% C is cast iron.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.16",
+  "tags": [],
+  "facts": [
+   "LAT-F061"
+  ]
+ },
+ {
+  "id": "LAT-0066",
+  "shop": "lathe",
+  "category": "tool-material",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "The cutting tool used on the lathe in the ME-106 lab is made of…",
+  "options": [
+   "Mild steel",
+   "High-speed steel (HSS)",
+   "Grey cast iron",
+   "Aluminium oxide"
+  ],
+  "answer": 1,
+  "explanation": "The lathe notes and log sheets use an HSS single-point tool.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.11, p.17",
+  "tags": [],
+  "facts": [
+   "LAT-F062"
+  ]
+ },
+ {
+  "id": "LAT-0067",
+  "shop": "lathe",
+  "category": "tool-material",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which basic rule applies to the tool and workpiece materials in machining?",
+  "options": [
+   "The tool must be harder than the workpiece",
+   "Both must have equal hardness",
+   "Hardness does not matter in turning",
+   "The workpiece must be harder than the tool"
+  ],
+  "answer": 0,
+  "explanation": "The tool must always be harder than the material it cuts.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.11",
+  "tags": [],
+  "facts": [
+   "LAT-F063"
+  ]
+ },
+ {
+  "id": "LAT-0068",
+  "shop": "lathe",
+  "category": "tool-material",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "The common 18-4-1 high-speed steel contains about…",
+  "options": [
+   "18% Cr, 4% Ni, 1% C",
+   "18% Co, 4% Mo, 1% W",
+   "18% W, 4% Cr, 1% V",
+   "18% C, 4% Mn, 1% Si"
+  ],
+  "answer": 2,
+  "explanation": "18-4-1 HSS has 18% tungsten, 4% chromium and 1% vanadium (with ~0.7% C).",
+  "source": "lab",
+  "ref": "Manufacturing notes p.17",
+  "tags": [],
+  "facts": [
+   "LAT-F064"
+  ]
+ },
+ {
+  "id": "LAT-0069",
+  "shop": "lathe",
+  "category": "tool-material",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Why is high-speed steel called \"high speed\" steel?",
+  "options": [
+   "It is made by a high-speed rolling process",
+   "It cools down quickly after cutting",
+   "It can only be used at high spindle speeds",
+   "It keeps its hardness at high cutting temperatures"
+  ],
+  "answer": 3,
+  "explanation": "HSS retains its hardness (red hardness) at the high temperatures produced by high-speed machining.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.17",
+  "tags": [],
+  "facts": [
+   "LAT-F065"
+  ]
+ },
+ {
+  "id": "LAT-0070",
+  "shop": "lathe",
+  "category": "workpiece-material",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Medium-carbon steel contains about…",
+  "options": [
+   "Less than 0.1% carbon",
+   "2.1–4% carbon",
+   "0.3–0.6% carbon",
+   "1.5–2.0% carbon"
+  ],
+  "answer": 2,
+  "explanation": "Standard ranges: low < 0.3%, medium 0.3–0.6%, high 0.6–1.5% C.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F066"
+  ]
+ },
+ {
+  "id": "LAT-0071",
+  "shop": "lathe",
+  "category": "workpiece-material",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "An iron–carbon alloy with about 3% carbon is classed as…",
+  "options": [
+   "Cast iron",
+   "Medium-carbon steel",
+   "High-carbon steel",
+   "High-speed steel"
+  ],
+  "answer": 0,
+  "explanation": "Steel contains up to about 2.1% C. Above that the alloy is cast iron. 6.67% C corresponds to cementite (Fe₃C).",
+  "source": "theory",
+  "ref": "Theory: Callister",
+  "tags": [],
+  "facts": [
+   "LAT-F067"
+  ]
+ },
+ {
+  "id": "LAT-0072",
+  "shop": "lathe",
+  "category": "workpiece-material",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "High-carbon steel contains about…",
+  "options": [
+   "2.1–4.0% carbon",
+   "6.67% carbon",
+   "0.05–0.3% carbon",
+   "0.6–1.5% carbon"
+  ],
+  "answer": 3,
+  "explanation": "High-carbon steel has roughly 0.6–1.5% C. 6.67% C is cementite, not a steel.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury; Theory: Callister",
+  "tags": [],
+  "facts": [
+   "LAT-F066",
+   "LAT-F067"
+  ]
+ },
+ {
+  "id": "LAT-0073",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of these is NOT a part of a single-point cutting tool?",
+  "options": [
+   "Flank",
+   "Tang",
+   "Shank",
+   "Nose"
+  ],
+  "answer": 1,
+  "explanation": "Single-point tool parts are shank, face, flank, heel, base, nose and point. Tang is part of a file.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.8",
+  "tags": [],
+  "facts": [
+   "LAT-F068"
+  ]
+ },
+ {
+  "id": "LAT-0074",
+  "shop": "lathe",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "On a single-point tool, the surface over which the chip flows is the…",
+  "options": [
+   "Flank",
+   "Heel",
+   "Base",
+   "Face"
+  ],
+  "answer": 3,
+  "explanation": "The face is the top surface over which the chip slides; the flank faces the work below the cutting edge.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F069"
+  ]
+ },
+ {
+  "id": "LAT-0075",
+  "shop": "lathe",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "The angle that prevents the tool flank from rubbing against the work is the…",
+  "options": [
+   "Clearance (relief) angle",
+   "Rake angle",
+   "Helix angle",
+   "Point angle"
+  ],
+  "answer": 0,
+  "explanation": "The clearance (relief) angle gives the flank room so it does not rub on the machined surface.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F071"
+  ]
+ },
+ {
+  "id": "LAT-0076",
+  "shop": "lathe",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which tool angle mainly helps the chip flow away and reduces the cutting force?",
+  "options": [
+   "Lip angle",
+   "Taper angle",
+   "Rake angle",
+   "Clearance angle"
+  ],
+  "answer": 2,
+  "explanation": "Rake angle is the slope of the tool face; a positive rake eases chip flow and lowers cutting force.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F070"
+  ]
+ },
+ {
+  "id": "LAT-0077",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which lathe operation produces a flat surface at the end of the work and reduces its length?",
+  "options": [
+   "Straight turning",
+   "Facing",
+   "Knurling",
+   "Grooving"
+  ],
+  "answer": 1,
+  "explanation": "Facing machines the end of the work flat; the tool is fed perpendicular to the axis.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.9",
+  "tags": [],
+  "facts": [
+   "LAT-F073"
+  ]
+ },
+ {
+  "id": "LAT-0078",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In facing, the tool is fed…",
+  "options": [
+   "Parallel to the lathe axis",
+   "Perpendicular to the lathe axis",
+   "Along a helix",
+   "At the half-taper angle"
+  ],
+  "answer": 1,
+  "explanation": "In facing the tool moves across the face, perpendicular to the axis (cross feed).",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.9",
+  "tags": [],
+  "facts": [
+   "LAT-F073"
+  ]
+ },
+ {
+  "id": "LAT-0079",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which operation reduces the diameter of the work along its whole length?",
+  "options": [
+   "Chamfering",
+   "Facing",
+   "Straight (plain) turning",
+   "Parting-off"
+  ],
+  "answer": 2,
+  "explanation": "Straight turning reduces the diameter along the length; the tool is fed parallel to the axis.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.10",
+  "tags": [],
+  "facts": [
+   "LAT-F074"
+  ]
+ },
+ {
+  "id": "LAT-0080",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Reducing the diameter over only part of the length, leaving shoulders of different diameters, is called…",
+  "options": [
+   "Step turning",
+   "Facing",
+   "Knurling",
+   "Taper turning"
+  ],
+  "answer": 0,
+  "explanation": "Step turning gives steps (shoulders) of different diameters along the job.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.13",
+  "tags": [],
+  "facts": [
+   "LAT-F075"
+  ]
+ },
+ {
+  "id": "LAT-0081",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "The operation of bevelling the sharp end edge of a turned job is…",
+  "options": [
+   "Grooving",
+   "Knurling",
+   "Facing",
+   "Chamfering"
+  ],
+  "answer": 3,
+  "explanation": "Chamfering creates a slope at the end edge to remove burrs and sharp corners; our job has a 1 × 45° chamfer.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.10",
+  "tags": [],
+  "facts": [
+   "LAT-F076"
+  ]
+ },
+ {
+  "id": "LAT-0082",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Knurling on a lathe is done to…",
+  "options": [
+   "Enlarge a drilled hole",
+   "Emboss a pattern on the surface for grip",
+   "Cut off the finished job",
+   "Cut a helical thread"
+  ],
+  "answer": 1,
+  "explanation": "A knurling tool is pressed against the rotating work to emboss a diamond or straight pattern, e.g. on handles.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.11",
+  "tags": [],
+  "facts": [
+   "LAT-F077"
+  ]
+ },
+ {
+  "id": "LAT-0083",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "A narrow recess cut at the end of a thread (as in our job) is made by…",
+  "options": [
+   "Chamfering",
+   "Knurling",
+   "Grooving with a grooving tool",
+   "Reaming"
+  ],
+  "answer": 2,
+  "explanation": "Grooving uses a tool shaped to the groove; the ME-106 job has a 5 mm groove next to the thread.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.14",
+  "tags": [],
+  "facts": [
+   "LAT-F078"
+  ]
+ },
+ {
+  "id": "LAT-0084",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In parting-off on a lathe…",
+  "options": [
+   "The carriage is locked and the tool is plunged radially",
+   "The tool is fed parallel to the axis",
+   "The lead screw drives the tool",
+   "The compound rest is swivelled"
+  ],
+  "answer": 0,
+  "explanation": "Parting cuts the job off the bar; longitudinal feed is fixed and the tool is fed in radially until the work separates.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.11",
+  "tags": [],
+  "facts": [
+   "LAT-F079"
+  ]
+ },
+ {
+  "id": "LAT-0085",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Why is a centre hole drilled at the end of the workpiece?",
+  "options": [
+   "To reduce weight",
+   "To hold a knurling tool",
+   "To start a thread",
+   "So the work can be supported between centres"
+  ],
+  "answer": 3,
+  "explanation": "Centre drilling makes a conical seat so the work can be held on a centre (between centres) in any machine.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.14",
+  "tags": [],
+  "facts": [
+   "LAT-F080"
+  ]
+ },
+ {
+  "id": "LAT-0086",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Which tool is used for centre drilling on a lathe?",
+  "options": [
+   "Centre drill held in the tailstock",
+   "Knurling tool",
+   "Boring bar in the chuck",
+   "Parting tool in the tool post"
+  ],
+  "answer": 0,
+  "explanation": "A combined centre drill is held in a drill chuck in the tailstock and fed into the rotating work.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.14; Centre Lathe handout p.4",
+  "tags": [],
+  "facts": [
+   "LAT-F080",
+   "LAT-F022"
+  ]
+ },
+ {
+  "id": "LAT-0087",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "A uniform decrease in diameter along the length of the work is called a…",
+  "options": [
+   "Chamfer",
+   "Taper",
+   "Knurl",
+   "Groove"
+  ],
+  "answer": 1,
+  "explanation": "A taper is a uniform change of diameter along the length, specified by the difference in diameters over the length.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.12",
+  "tags": [],
+  "facts": [
+   "LAT-F081"
+  ]
+ },
+ {
+  "id": "LAT-0088",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of these is NOT a method of taper turning on a lathe?",
+  "options": [
+   "Tailstock set-over method",
+   "Form-tool method",
+   "Compound-rest method",
+   "Straddle method"
+  ],
+  "answer": 3,
+  "explanation": "Taper-turning methods: compound rest, form tool, tailstock set-over and taper-turning attachment. Straddle is a milling set-up.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 10, s.19",
+  "tags": [],
+  "facts": [
+   "LAT-F082"
+  ]
+ },
+ {
+  "id": "LAT-0089",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Which taper-turning method suits a long, gentle taper on work held between centres?",
+  "options": [
+   "Form-tool method",
+   "Parting-off method",
+   "Tailstock set-over method",
+   "Compound-rest method"
+  ],
+  "answer": 2,
+  "explanation": "Setting the tailstock over suits long, gentle tapers between centres. The compound rest suits short, steep tapers.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F083"
+  ]
+ },
+ {
+  "id": "LAT-0090",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "The compound-rest method of taper turning is best suited for…",
+  "options": [
+   "Short, steep tapers",
+   "Long, gentle tapers",
+   "Internal threads",
+   "Very long shafts between centres"
+  ],
+  "answer": 0,
+  "explanation": "The compound slide has limited travel, so it is used for short tapers with large angles.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F083"
+  ]
+ },
+ {
+  "id": "LAT-0091",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which taper-turning method needs a tool whose cutting edge is ground to the taper angle?",
+  "options": [
+   "Taper attachment",
+   "Form-tool method",
+   "Tailstock set-over method",
+   "Compound-rest method"
+  ],
+  "answer": 1,
+  "explanation": "In the form-tool method a broad tool with an edge at the taper angle is plunged in; it suits very short tapers.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 10, s.19; Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F082",
+   "LAT-F083",
+   "LAT-F086"
+  ]
+ },
+ {
+  "id": "LAT-0092",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Boring on a lathe…",
+  "options": [
+   "Produces a centre hole",
+   "Makes a diamond pattern",
+   "Cuts off the job",
+   "Enlarges an existing hole"
+  ],
+  "answer": 3,
+  "explanation": "Boring enlarges an already-drilled hole; reaming finishes a hole to size.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F085"
+  ]
+ },
+ {
+  "id": "LAT-0093",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "In form turning, the shape produced on the work is obtained by…",
+  "options": [
+   "Using the lead screw",
+   "Setting over the tailstock",
+   "A tool ground to the required profile",
+   "Swivelling the compound rest"
+  ],
+  "answer": 2,
+  "explanation": "Form turning reproduces the tool profile on the work, e.g. convex or concave forms.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 9, s.27",
+  "tags": [],
+  "facts": [
+   "LAT-F086"
+  ]
+ },
+ {
+  "id": "LAT-0094",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of these operations is NOT normally done on a centre lathe?",
+  "options": [
+   "Thread cutting",
+   "Knurling",
+   "Gear hobbing",
+   "Boring"
+  ],
+  "answer": 2,
+  "explanation": "Lathe operations include facing, turning, taper turning, threading, knurling, drilling, boring, reaming and parting. Gear hobbing needs a hobbing machine.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.9",
+  "tags": [],
+  "facts": [
+   "LAT-F072"
+  ]
+ },
+ {
+  "id": "LAT-0095",
+  "shop": "lathe",
+  "category": "advantages-limitations",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Why is the centre lathe called a versatile machine?",
+  "options": [
+   "It works without any cutting tool",
+   "One machine can face, turn, thread, drill, bore and knurl",
+   "It can cut gears with an index plate",
+   "It cuts on both forward and return strokes"
+  ],
+  "answer": 1,
+  "explanation": "A single centre lathe performs many operations: facing, turning, taper turning, threading, drilling, boring, knurling and parting.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.9",
+  "tags": [],
+  "facts": [
+   "LAT-F131"
+  ]
+ },
+ {
+  "id": "LAT-0096",
+  "shop": "lathe",
+  "category": "applications",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "For which kind of part is a centre lathe LEAST suitable?",
+  "options": [
+   "Shafts and pins",
+   "Bolts and threaded rods",
+   "Bushes and collars",
+   "Flat rectangular plates with slots"
+  ],
+  "answer": 3,
+  "explanation": "The lathe suits rotationally symmetric parts. Flat slotted plates are milled or shaped. Lathes are also slow for mass production compared with capstan/turret/CNC.",
+  "source": "theory",
+  "ref": "Theory: P.N. Rao",
+  "tags": [],
+  "facts": [
+   "LAT-F132"
+  ]
+ },
+ {
+  "id": "LAT-0097",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Thread cutting on a lathe produces a…",
+  "options": [
+   "Helical groove on a cylindrical surface",
+   "Straight groove parallel to the axis",
+   "Diamond pattern on the surface",
+   "Conical centre hole"
+  ],
+  "answer": 0,
+  "explanation": "A screw thread is a helical groove; any pitch, shape and size can be cut on a lathe with a single-point tool.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.12",
+  "tags": [],
+  "facts": [
+   "LAT-F087"
+  ]
+ },
+ {
+  "id": "LAT-0098",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "During thread cutting, how far must the tool advance per revolution of the work?",
+  "options": [
+   "Twice the pitch",
+   "Half the pitch",
+   "The depth of the thread",
+   "One pitch of the thread"
+  ],
+  "answer": 3,
+  "explanation": "The lead screw drives the carriage so that the longitudinal feed per revolution equals the pitch.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.13",
+  "tags": [],
+  "facts": [
+   "LAT-F088"
+  ]
+ },
+ {
+  "id": "LAT-0099",
+  "shop": "lathe",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "The distance between corresponding points on adjacent threads, measured along the axis, is the…",
+  "options": [
+   "Depth",
+   "Pitch",
+   "Flank",
+   "Crest"
+  ],
+  "answer": 1,
+  "explanation": "Pitch is the axial distance between adjacent threads; crest is the top, root the bottom and flanks the sides.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.15",
+  "tags": [],
+  "facts": [
+   "LAT-F089"
+  ]
+ },
+ {
+  "id": "LAT-0100",
+  "shop": "lathe",
+  "category": "definitions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "The included angle of a metric (ISO) V-thread is…",
+  "options": [
+   "55°",
+   "90°",
+   "60°",
+   "29°"
+  ],
+  "answer": 2,
+  "explanation": "Metric threads have a 60° included angle. 55° is the Whitworth angle and 29° is the Acme angle.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.15",
+  "tags": [],
+  "facts": [
+   "LAT-F090"
+  ]
+ },
+ {
+  "id": "LAT-0101",
+  "shop": "lathe",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In the thread designation M20 × 1.5, what do 20 and 1.5 stand for?",
+  "options": [
+   "Major diameter 20 mm, pitch 1.5 mm",
+   "Pitch 20 mm, depth 1.5 mm",
+   "Minor diameter 20 mm, angle 1.5°",
+   "Length 20 mm, pitch 1.5 mm"
+  ],
+  "answer": 0,
+  "explanation": "\"M\" means metric; 20 mm is the major (nominal) diameter and 1.5 mm the pitch.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.15",
+  "tags": [],
+  "facts": [
+   "LAT-F091"
+  ]
+ },
+ {
+  "id": "LAT-0102",
+  "shop": "lathe",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "The formula used in our lab for the depth of a metric thread is…",
+  "options": [
+   "d = 0.866 × p",
+   "d = 2 × p",
+   "d = p / 0.6134",
+   "d = 0.6134 × p"
+  ],
+  "answer": 3,
+  "explanation": "The lab log sheets and notes use d = 0.6134 p for the thread depth (depth of cut).",
+  "source": "lab",
+  "ref": "Manufacturing notes p.15",
+  "tags": [],
+  "facts": [
+   "LAT-F092"
+  ]
+ },
+ {
+  "id": "LAT-0103",
+  "shop": "lathe",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "The core (minor) diameter of a thread is given by…",
+  "options": [
+   "Dc = Dm − 2d",
+   "Dc = Dm − d",
+   "Dc = Dm + 2d",
+   "Dc = Dm − p"
+  ],
+  "answer": 0,
+  "explanation": "The core diameter equals the major diameter minus twice the thread depth: Dc = Dm − 2d.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.15",
+  "tags": [],
+  "facts": [
+   "LAT-F093"
+  ]
+ },
+ {
+  "id": "LAT-0104",
+  "shop": "lathe",
+  "category": "applications",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Square threads are mainly used in…",
+  "options": [
+   "Pipe joints",
+   "Screw jacks and power screws",
+   "Spectacle frames",
+   "Electrical fittings"
+  ],
+  "answer": 1,
+  "explanation": "Square threads transmit power with low friction, so they are used in load-lifting devices like screw jacks.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.15",
+  "tags": [],
+  "facts": [
+   "LAT-F094"
+  ]
+ },
+ {
+  "id": "LAT-0105",
+  "shop": "lathe",
+  "category": "applications",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "A buttress thread is used where…",
+  "options": [
+   "Equal load in both directions is needed",
+   "Fluid-tight pipe joints are needed",
+   "Heavy load must be transmitted in one direction only",
+   "Light fastening is needed"
+  ],
+  "answer": 2,
+  "explanation": "A buttress thread has one steep flank and one inclined flank; it carries heavy one-way loads, e.g. in vices.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.16",
+  "tags": [],
+  "facts": [
+   "LAT-F095"
+  ]
+ },
+ {
+  "id": "LAT-0106",
+  "shop": "lathe",
+  "category": "process-parameters",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In the ME-106 lathe lab, why was the spindle speed reduced to 90 rpm for threading?",
+  "options": [
+   "The lead screw cannot rotate above 90 rpm",
+   "HSS tools cannot be used above 90 rpm",
+   "Thread cutting is done at a much lower speed than turning",
+   "To make facing easier"
+  ],
+  "answer": 2,
+  "explanation": "Turning was done at 315 rpm, but threading was done at about 90 rpm. Thread cutting is done slowly so the tool can be withdrawn accurately at the end of each pass.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.2; Log Sheets ME-106 p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F096",
+   "LAT-F116",
+   "LAT-F120"
+  ]
+ },
+ {
+  "id": "LAT-0107",
+  "shop": "lathe",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Cutting speed in turning is calculated as…",
+  "options": [
+   "V = πDN / 1000 m/min",
+   "V = πD / N m/min",
+   "V = 1000 / (πDN) m/min",
+   "V = DN / 1000 m/min"
+  ],
+  "answer": 0,
+  "explanation": "Cutting speed V = πDN/1000 m/min, with D in mm and N in rpm (surface speed of the work).",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F097"
+  ]
+ },
+ {
+  "id": "LAT-0108",
+  "shop": "lathe",
+  "category": "numericals",
+  "difficulty": "medium",
+  "type": "numerical",
+  "question": "In the ME-106 lathe job, a Ø38 mm bar is turned at 315 rpm. What is the cutting speed?",
+  "options": [
+   "≈ 12.0 m/min",
+   "≈ 37.6 m/min",
+   "≈ 376 m/min",
+   "≈ 3.76 m/min"
+  ],
+  "answer": 1,
+  "explanation": "V = πDN/1000 = π × 38 × 315 / 1000 ≈ 37.6 m/min. Forgetting π gives 12.0; mis-dividing gives 376 or 3.76.",
+  "source": "lab",
+  "ref": "Theory: Hajra Choudhury; Log Sheets ME-106 p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F097",
+   "LAT-F116",
+   "LAT-F102"
+  ]
+ },
+ {
+  "id": "LAT-0109",
+  "shop": "lathe",
+  "category": "numericals",
+  "difficulty": "hard",
+  "type": "numerical",
+  "question": "The Ø34 thread of the ME-106 job is cut at 90 rpm. What is the cutting speed?",
+  "options": [
+   "≈ 30.6 m/min",
+   "≈ 3.1 m/min",
+   "≈ 96 m/min",
+   "≈ 9.6 m/min"
+  ],
+  "answer": 3,
+  "explanation": "V = π × 34 × 90 / 1000 ≈ 9.61 m/min. Leaving out π gives 3.06 m/min.",
+  "source": "lab",
+  "ref": "Theory: Hajra Choudhury; Log Sheets ME-106 p.2",
+  "tags": [],
+  "facts": [
+   "LAT-F097",
+   "LAT-F096",
+   "LAT-F108"
+  ]
+ },
+ {
+  "id": "LAT-0110",
+  "shop": "lathe",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In turning, \"feed\" means…",
+  "options": [
+   "Number of passes needed",
+   "Surface speed of the work",
+   "Thickness of metal removed in one pass",
+   "Distance the tool advances per revolution of the work"
+  ],
+  "answer": 3,
+  "explanation": "Feed is measured in mm/rev. Depth of cut is the radial thickness removed in a pass.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F098"
+  ]
+ },
+ {
+  "id": "LAT-0111",
+  "shop": "lathe",
+  "category": "numericals",
+  "difficulty": "medium",
+  "type": "numerical",
+  "question": "A bar is turned from Ø38 mm to Ø34 mm in one pass. What is the depth of cut?",
+  "options": [
+   "4 mm",
+   "1 mm",
+   "2 mm",
+   "36 mm"
+  ],
+  "answer": 2,
+  "explanation": "Depth of cut = (D − d)/2 = (38 − 34)/2 = 2 mm. 4 mm is the reduction in diameter, not the depth of cut.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F099"
+  ]
+ },
+ {
+  "id": "LAT-0112",
+  "shop": "lathe",
+  "category": "measurement-reading",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "What was the least count of the cross-slide dial on the ME-106 lathe?",
+  "options": [
+   "0.01 mm",
+   "0.02 mm",
+   "0.1 mm",
+   "0.05 mm"
+  ],
+  "answer": 1,
+  "explanation": "The lathe log sheet notes the cross-slide least count as 0.02 mm.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F100"
+  ]
+ },
+ {
+  "id": "LAT-0113",
+  "shop": "lathe",
+  "category": "numericals",
+  "difficulty": "hard",
+  "type": "numerical",
+  "question": "The cross-slide dial (least count 0.02 mm) is advanced by 25 divisions for one cut. By how much does the work DIAMETER reduce?",
+  "options": [
+   "1.0 mm",
+   "2.0 mm",
+   "0.5 mm",
+   "0.25 mm"
+  ],
+  "answer": 0,
+  "explanation": "25 × 0.02 = 0.5 mm radial depth of cut. Metal comes off all round, so the diameter reduces by 2 × 0.5 = 1.0 mm.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1; Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F100",
+   "LAT-F099",
+   "LAT-F030"
+  ]
+ },
+ {
+  "id": "LAT-0114",
+  "shop": "lathe",
+  "category": "numericals",
+  "difficulty": "hard",
+  "type": "numerical",
+  "question": "To reduce a diameter from 38 mm to 34 mm with a depth of cut of 0.5 mm per pass, how many passes are needed?",
+  "options": [
+   "8 passes",
+   "6 passes",
+   "2 passes",
+   "4 passes"
+  ],
+  "answer": 3,
+  "explanation": "Radial material = (38 − 34)/2 = 2 mm; 2 / 0.5 = 4 passes. Using the full diameter difference gives 8.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F099"
+  ]
+ },
+ {
+  "id": "LAT-0115",
+  "shop": "lathe",
+  "category": "numericals",
+  "difficulty": "medium",
+  "type": "numerical",
+  "question": "In the formula tan α = (D − d)/2L for taper turning, α is…",
+  "options": [
+   "The helix angle of the thread",
+   "The half taper angle (compound-rest setting)",
+   "The rake angle of the tool",
+   "The full included angle of the cone"
+  ],
+  "answer": 1,
+  "explanation": "α is the half taper angle, which is the angle the compound rest is swivelled to.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.12",
+  "tags": [],
+  "facts": [
+   "LAT-F084"
+  ],
+  "figure": "lathe/taper"
+ },
+ {
+  "id": "LAT-0116",
+  "shop": "lathe",
+  "category": "numericals",
+  "difficulty": "medium",
+  "type": "numerical",
+  "question": "For the ME-106 lathe job, the taper goes from Ø38 to Ø34 over 30 mm. What is tan α?",
+  "options": [
+   "1/15 (≈ 0.0667)",
+   "4/34 (≈ 0.118)",
+   "1/30 (≈ 0.033)",
+   "2/15 (≈ 0.133)"
+  ],
+  "answer": 0,
+  "explanation": "tan α = (38 − 34)/(2 × 30) = 4/60 = 1/15. Forgetting the 2 gives 2/15.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.12; Central Lathe Log sheet p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F084",
+   "LAT-F106",
+   "LAT-F111"
+  ],
+  "figure": "lathe/taper"
+ },
+ {
+  "id": "LAT-0117",
+  "shop": "lathe",
+  "category": "numericals",
+  "difficulty": "hard",
+  "type": "numerical",
+  "question": "At what angle should the compound rest be set to turn the taper on the ME-106 job (Ø38 → Ø34 over 30 mm)?",
+  "options": [
+   "≈ 7.59°",
+   "≈ 7.63°",
+   "≈ 3.81°",
+   "≈ 1.91°"
+  ],
+  "answer": 2,
+  "explanation": "α = tan⁻¹[(38 − 34)/(2 × 30)] = tan⁻¹(0.0667) ≈ 3.81°. Forgetting the 2 gives 7.59°; the full cone angle is 2α ≈ 7.63°.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.12; Central Lathe Log sheet p.2",
+  "tags": [],
+  "facts": [
+   "LAT-F084",
+   "LAT-F111"
+  ]
+ },
+ {
+  "id": "LAT-0118",
+  "shop": "lathe",
+  "category": "numericals",
+  "difficulty": "hard",
+  "type": "numerical",
+  "question": "A taper is turned from Ø50 mm to Ø40 mm over a length of 100 mm. What is the half taper angle?",
+  "options": [
+   "≈ 5.73°",
+   "≈ 2.86°",
+   "≈ 5.71°",
+   "≈ 1.43°"
+  ],
+  "answer": 1,
+  "explanation": "tan α = (50 − 40)/(2 × 100) = 0.05, so α ≈ 2.86°. Forgetting the 2 gives tan α = 0.1, i.e. 5.71°.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.12",
+  "tags": [],
+  "facts": [
+   "LAT-F084"
+  ]
+ },
+ {
+  "id": "LAT-0119",
+  "shop": "lathe",
+  "category": "numericals",
+  "difficulty": "medium",
+  "type": "numerical",
+  "question": "On the ME-106 taper (Ø38 → Ø34), how much material is removed from the RADIUS at the small end?",
+  "options": [
+   "2 mm",
+   "4 mm",
+   "34 mm",
+   "1 mm"
+  ],
+  "answer": 0,
+  "explanation": "Radial reduction = (38 − 34)/2 = 2 mm at the small end; the diameter reduces by 4 mm.",
+  "source": "lab",
+  "ref": "Central Lathe Log sheet p.1; Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F106",
+   "LAT-F099"
+  ]
+ },
+ {
+  "id": "LAT-0120",
+  "shop": "lathe",
+  "category": "numericals",
+  "difficulty": "hard",
+  "type": "numerical",
+  "question": "For the ME-106 job taper (Ø38 → Ø34 over 30 mm), the taper ratio (D − d) : L is…",
+  "options": [
+   "1 : 15",
+   "1 : 30",
+   "1 : 7.5",
+   "2 : 15"
+  ],
+  "answer": 2,
+  "explanation": "(D − d) : L = 4 : 30 = 1 : 7.5. The 1 : 15 figure is tan α, i.e. half of this ratio.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.12; Central Lathe Log sheet p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F081",
+   "LAT-F106"
+  ]
+ },
+ {
+  "id": "LAT-0121",
+  "shop": "lathe",
+  "category": "numericals",
+  "difficulty": "easy",
+  "type": "numerical",
+  "question": "Using d = 0.6134 p, what is the thread depth for the 1.5 mm pitch thread on the ME-106 job?",
+  "options": [
+   "≈ 1.30 mm",
+   "≈ 1.84 mm",
+   "≈ 0.61 mm",
+   "≈ 0.92 mm"
+  ],
+  "answer": 3,
+  "explanation": "d = 0.6134 × 1.5 = 0.920 mm. 1.84 mm is 2d; 0.61 mm is the factor without the pitch.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.15; Central Lathe Log sheet p.2",
+  "tags": [],
+  "facts": [
+   "LAT-F092",
+   "LAT-F112"
+  ]
+ },
+ {
+  "id": "LAT-0122",
+  "shop": "lathe",
+  "category": "numericals",
+  "difficulty": "medium",
+  "type": "numerical",
+  "question": "What is the core diameter of the Ø34 × 1.5 thread on the ME-106 lathe job?",
+  "options": [
+   "≈ 32.16 mm",
+   "≈ 31.00 mm",
+   "≈ 33.08 mm",
+   "≈ 35.84 mm"
+  ],
+  "answer": 0,
+  "explanation": "Dc = Dm − 2d = 34 − 2(0.92) = 32.16 mm. Subtracting d once gives 33.08 mm; adding gives 35.84 mm.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.15; Central Lathe Log sheet p.2",
+  "tags": [],
+  "facts": [
+   "LAT-F093",
+   "LAT-F113",
+   "LAT-F108"
+  ]
+ },
+ {
+  "id": "LAT-0123",
+  "shop": "lathe",
+  "category": "numericals",
+  "difficulty": "hard",
+  "type": "numerical",
+  "question": "For an M20 × 2.5 thread, what is the core diameter (using d = 0.6134 p)?",
+  "options": [
+   "≈ 23.07 mm",
+   "≈ 18.47 mm",
+   "≈ 16.93 mm",
+   "≈ 15.00 mm"
+  ],
+  "answer": 2,
+  "explanation": "d = 0.6134 × 2.5 = 1.534 mm; Dc = 20 − 2(1.534) ≈ 16.93 mm.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.15",
+  "tags": [],
+  "facts": [
+   "LAT-F091",
+   "LAT-F092",
+   "LAT-F093"
+  ]
+ },
+ {
+  "id": "LAT-0124",
+  "shop": "lathe",
+  "category": "numericals",
+  "difficulty": "medium",
+  "type": "numerical",
+  "question": "What is the thread depth for a 2 mm pitch metric thread (d = 0.6134 p)?",
+  "options": [
+   "≈ 2.45 mm",
+   "≈ 1.23 mm",
+   "≈ 3.26 mm",
+   "≈ 0.61 mm"
+  ],
+  "answer": 1,
+  "explanation": "d = 0.6134 × 2 = 1.227 mm.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.15",
+  "tags": [],
+  "facts": [
+   "LAT-F092"
+  ]
+ },
+ {
+  "id": "LAT-0125",
+  "shop": "lathe",
+  "category": "numericals",
+  "difficulty": "hard",
+  "type": "numerical",
+  "question": "On a lathe, a thread of 1.5 mm pitch is being cut. How far does the carriage move in 20 revolutions of the work?",
+  "options": [
+   "1.5 mm",
+   "15 mm",
+   "60 mm",
+   "30 mm"
+  ],
+  "answer": 3,
+  "explanation": "During threading the tool advances one pitch per revolution: 20 × 1.5 = 30 mm.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.13",
+  "tags": [],
+  "facts": [
+   "LAT-F088"
+  ]
+ },
+ {
+  "id": "LAT-0126",
+  "shop": "lathe",
+  "category": "job-dimensions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "What is the objective of the ME-106 lathe job?",
+  "options": [
+   "To finish a flat surface by grinding",
+   "To cut a spur gear on a disc",
+   "To perform facing, turning and threading on a cylindrical workpiece",
+   "To reduce a block to 38 × 21 × 73 mm"
+  ],
+  "answer": 2,
+  "explanation": "The lathe log sheet objective: perform facing, turning and threading operations on a cylindrical workpiece using a lathe.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F101"
+  ]
+ },
+ {
+  "id": "LAT-0127",
+  "shop": "lathe",
+  "category": "job-dimensions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "What was the raw stock size for the ME-106 lathe job?",
+  "options": [
+   "Mild-steel bar about 120 mm long, Ø38 mm",
+   "Mild-steel block 40 × 25 × 80 mm",
+   "Aluminium disc 1½ in diameter",
+   "Ø50 mm bar, 200 mm long"
+  ],
+  "answer": 0,
+  "explanation": "The lathe notes give the workpiece as 120 mm long and 38 mm in diameter.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.17",
+  "tags": [],
+  "facts": [
+   "LAT-F102"
+  ]
+ },
+ {
+  "id": "LAT-0128",
+  "shop": "lathe",
+  "category": "job-dimensions",
+  "difficulty": "medium",
+  "type": "numerical",
+  "question": "In the ME-106 lathe job, a 120 mm bar is finished to 115 mm overall. How much length is removed by facing in total?",
+  "options": [
+   "10 mm",
+   "15 mm",
+   "2.5 mm",
+   "5 mm"
+  ],
+  "answer": 3,
+  "explanation": "Raw length 120 mm − finished 115 mm = 5 mm removed in total by facing (shared between the two ends).",
+  "source": "lab",
+  "ref": "Manufacturing notes p.17; Central Lathe Log sheet p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F102",
+   "LAT-F103",
+   "LAT-F117"
+  ]
+ },
+ {
+  "id": "LAT-0129",
+  "shop": "lathe",
+  "category": "job-dimensions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "What is the overall length of the finished ME-106 lathe job?",
+  "options": [
+   "110 mm",
+   "115 mm",
+   "120 mm",
+   "125 mm"
+  ],
+  "answer": 1,
+  "explanation": "The job drawing shows an overall length of 115 mm (raw bar 120 mm).",
+  "source": "lab",
+  "ref": "Central Lathe Log sheet p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F103"
+  ]
+ },
+ {
+  "id": "LAT-0130",
+  "shop": "lathe",
+  "category": "job-dimensions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Units used on the ME-106 lathe job drawing are…",
+  "options": [
+   "Inches",
+   "Centimetres",
+   "Thou (mils)",
+   "Millimetres"
+  ],
+  "answer": 3,
+  "explanation": "The board drawing states \"All dimensions are in mm\". (The milling gear job uses inches.)",
+  "source": "lab",
+  "ref": "Lathe job blackboard",
+  "tags": [],
+  "facts": [
+   "LAT-F104"
+  ]
+ },
+ {
+  "id": "LAT-0131",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "sequence",
+  "question": "What is the correct order of the first four steps of the ME-106 lathe job?",
+  "options": [
+   "Set speed → facing → fix in chuck → measure the bar",
+   "Facing → measure the bar → fix in chuck → set speed",
+   "Measure the bar → mark 115 mm and fix in 4-jaw chuck → centre and set speed → facing",
+   "Fix in chuck → facing → measure the bar → set speed"
+  ],
+  "answer": 2,
+  "explanation": "Log sheet steps 1–4: measure length and diameter; mark 115 mm and fix in the four-jaw chuck; check centre and set 315 rpm; perform facing.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F114",
+   "LAT-F115",
+   "LAT-F116",
+   "LAT-F117"
+  ]
+ },
+ {
+  "id": "LAT-0132",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "What is the FIRST step of the ME-106 lathe procedure?",
+  "options": [
+   "Measure the length and diameter of the raw workpiece",
+   "Swivel the compound rest",
+   "Perform facing",
+   "Set the spindle to 90 rpm"
+  ],
+  "answer": 0,
+  "explanation": "Step 1 is to measure the length and diameter of the raw workpiece; then mark and fix it in the chuck.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F114"
+  ]
+ },
+ {
+  "id": "LAT-0133",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In the ME-106 lathe procedure, which step comes immediately AFTER fixing the job in the four-jaw chuck?",
+  "options": [
+   "Taper turning",
+   "Check the centring and set the spindle speed",
+   "Thread cutting",
+   "Remove the job and measure it"
+  ],
+  "answer": 1,
+  "explanation": "After chucking, the centre is checked (4-jaw work is centred manually) and the speed set to 315 rpm, then facing is done.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F115",
+   "LAT-F116"
+  ]
+ },
+ {
+  "id": "LAT-0134",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "In the ME-106 lathe lab, the spindle speed set for facing and turning was about…",
+  "options": [
+   "90 rpm",
+   "1500 rpm",
+   "315 rpm",
+   "40 rpm"
+  ],
+  "answer": 2,
+  "explanation": "The log sheet and notes record 315 rpm for turning; threading was done at about 90 rpm.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F116"
+  ]
+ },
+ {
+  "id": "LAT-0135",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Why must the job be checked for centring after fixing it in the four-jaw chuck?",
+  "options": [
+   "The tailstock moves automatically",
+   "To set the thread pitch",
+   "The lead screw needs aligning",
+   "Its jaws move independently, so the job is not self-centred"
+  ],
+  "answer": 3,
+  "explanation": "A 4-jaw chuck does not self-centre, so the job is trued manually before cutting.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1; Centre Lathe lecture slide 24",
+  "tags": [],
+  "facts": [
+   "LAT-F116",
+   "LAT-F049"
+  ]
+ },
+ {
+  "id": "LAT-0136",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "In the ME-106 lathe job, facing is done to…",
+  "options": [
+   "Bring the job to the desired length",
+   "Cut the thread",
+   "Reduce the diameter",
+   "Make the taper"
+  ],
+  "answer": 0,
+  "explanation": "Step 4: perform facing on the workpiece to get the desired length (115 mm).",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F117"
+  ]
+ },
+ {
+  "id": "LAT-0137",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "After facing, which operation is done next in the ME-106 lathe job?",
+  "options": [
+   "Knurling",
+   "Plain (straight) turning to the largest diameter",
+   "Parting-off",
+   "Thread cutting"
+  ],
+  "answer": 1,
+  "explanation": "After facing, the job is plain-turned to the largest diameter, then step-turned to the smaller diameters.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1; Log Sheets ME-106 p.1–2",
+  "tags": [],
+  "facts": [
+   "LAT-F117",
+   "LAT-F118"
+  ]
+ },
+ {
+  "id": "LAT-0138",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In the ME-106 lathe procedure, which comes first?",
+  "options": [
+   "Taper turning",
+   "Step turning",
+   "Thread cutting",
+   "Grooving"
+  ],
+  "answer": 1,
+  "explanation": "Order: facing → plain turning → step turning → grooving → taper turning → threading.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1–2",
+  "tags": [],
+  "facts": [
+   "LAT-F118",
+   "LAT-F121"
+  ]
+ },
+ {
+  "id": "LAT-0139",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Which step comes immediately BEFORE thread cutting in the ME-106 lathe procedure?",
+  "options": [
+   "Facing",
+   "Plain turning",
+   "Taper turning",
+   "Measuring the raw bar"
+  ],
+  "answer": 2,
+  "explanation": "The log sheet sequence ends: … grooving (5 mm) → taper turning with the compound rest → threading at reduced speed.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.2; Log Sheets ME-106 p.1–2",
+  "tags": [],
+  "facts": [
+   "LAT-F119",
+   "LAT-F120",
+   "LAT-F121"
+  ]
+ },
+ {
+  "id": "LAT-0140",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "How is the taper on the ME-106 job turned?",
+  "options": [
+   "By swivelling the compound rest to the half-taper angle",
+   "By setting over the tailstock",
+   "With a form tool plunged in",
+   "By using the lead screw"
+  ],
+  "answer": 0,
+  "explanation": "The log sheet sets the tool post/compound rest at the calculated angle and turns the taper.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.2",
+  "tags": [],
+  "facts": [
+   "LAT-F119"
+  ]
+ },
+ {
+  "id": "LAT-0141",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Before cutting the 1.5 mm pitch thread on the ME-106 job, the operator…",
+  "options": [
+   "Engages the feed rod",
+   "Swivels the compound rest to 3.81°",
+   "Removes the four-jaw chuck",
+   "Sets the change gears from the chart and reduces speed"
+  ],
+  "answer": 3,
+  "explanation": "The log sheet says to look at the table (chart) for 1.5 mm pitch, arrange the gears and set the speed to about 90 rpm.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.2",
+  "tags": [],
+  "facts": [
+   "LAT-F120"
+  ]
+ },
+ {
+  "id": "LAT-0142",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "hard",
+  "type": "sequence",
+  "question": "Which is the correct overall sequence of operations in the ME-106 lathe job?",
+  "options": [
+   "Grooving → facing → step turning → threading → plain turning → taper turning",
+   "Plain turning → facing → threading → grooving → taper turning → step turning",
+   "Facing → threading → taper turning → step turning → plain turning → grooving",
+   "Facing → plain turning → step turning → grooving → taper turning → threading"
+  ],
+  "answer": 3,
+  "explanation": "From the log sheets: after measuring, marking and chucking, the job is faced, plain-turned, step-turned, grooved, taper-turned and then threaded.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1–2",
+  "tags": [],
+  "facts": [
+   "LAT-F121"
+  ]
+ },
+ {
+  "id": "LAT-0143",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Besides facing, turning, taper turning, grooving and threading, which other operations appear on the ME-106 lathe job drawing?",
+  "options": [
+   "Slotting and gear cutting",
+   "Knurling and boring",
+   "Centre drilling and chamfering",
+   "Reaming and parting-off"
+  ],
+  "answer": 2,
+  "explanation": "The drawing shows centre holes at both ends and a 1 × 45° chamfer.",
+  "source": "lab",
+  "ref": "Central Lathe Log sheet p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F122",
+   "LAT-F110",
+   "LAT-F105"
+  ]
+ },
+ {
+  "id": "LAT-0144",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which dress precaution is given on the ME-106 lathe log sheet?",
+  "options": [
+   "Wear loose clothes for comfort",
+   "Wear the workshop apron, tight-fitting clothes and shoes",
+   "Wear sandals for easy movement",
+   "Wear gloves while the chuck rotates"
+  ],
+  "answer": 1,
+  "explanation": "The log sheet precaution: always wear the manufacturing apron, tight-fitted clothes and shoes.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F123"
+  ]
+ },
+ {
+  "id": "LAT-0145",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "According to the ME-106 lathe log sheet, chips should be…",
+  "options": [
+   "Removed in time, to avoid accidents",
+   "Left until the job is finished",
+   "Blown away with the mouth",
+   "Pulled off by hand while cutting"
+  ],
+  "answer": 0,
+  "explanation": "Remove chips timely to avoid accidents — and use a brush or chip hook, never bare hands.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F125"
+  ]
+ },
+ {
+  "id": "LAT-0146",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Why does the 2025 lathe log sheet ask students to stay at a proper distance from the machine?",
+  "options": [
+   "Hot chips may fly off the work",
+   "The lead screw is live electrically",
+   "The tailstock moves on its own",
+   "The bed vibrates heavily"
+  ],
+  "answer": 0,
+  "explanation": "Chips at high temperature can fly off, so stand at a proper distance.",
+  "source": "lab",
+  "ref": "Central Lathe Log sheet p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F127"
+  ]
+ },
+ {
+  "id": "LAT-0147",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which precaution about measuring is given on the 2025 lathe log sheet?",
+  "options": [
+   "Measure only while the job rotates",
+   "Measure in proper lighting with inside and outside calipers",
+   "Measure only after removing the job from the chuck",
+   "Measure with the chuck key left in place"
+  ],
+  "answer": 1,
+  "explanation": "Take good measurements in proper lighting using inner and outer calipers.",
+  "source": "lab",
+  "ref": "Central Lathe Log sheet p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F128"
+  ]
+ },
+ {
+  "id": "LAT-0148",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Before switching on the lathe, you must always…",
+  "options": [
+   "Loosen the tool post",
+   "Engage the half-nut",
+   "Remove the chuck key from the chuck",
+   "Remove the tailstock"
+  ],
+  "answer": 2,
+  "explanation": "A chuck key left in the chuck is thrown out violently when the spindle starts.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F129"
+  ]
+ },
+ {
+  "id": "LAT-0149",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "When should the lathe job be measured with a caliper?",
+  "options": [
+   "While the chuck is rotating slowly",
+   "While feeding the tool",
+   "During thread cutting",
+   "Only after stopping the machine"
+  ],
+  "answer": 3,
+  "explanation": "Always stop the lathe before measuring the job or changing speeds/gears.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F130"
+  ]
+ },
+ {
+  "id": "LAT-0150",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of these is a precaution specific to the ME-106 lathe log sheet?",
+  "options": [
+   "Demagnetise the chuck before removing the job",
+   "Move the tailstock carefully",
+   "Do not rotate the index crank backwards",
+   "Do not touch the plating solution"
+  ],
+  "answer": 1,
+  "explanation": "The lathe log sheet lists: apron/tight clothes/shoes, handle heavy machines with care, remove chips timely, move the tailstock carefully.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F126"
+  ]
+ },
+ {
+  "id": "LAT-0151",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which precaution appears on both ME-106 lathe log sheets?",
+  "options": [
+   "Never leave the coolant off",
+   "Keep the dielectric flowing",
+   "Dress the wheel before use",
+   "Handle heavy machines and tools with care"
+  ],
+  "answer": 3,
+  "explanation": "Both lathe sheets say to handle heavy machines and tools with care.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F124"
+  ]
+ },
+ {
+  "id": "LAT-0152",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of these is UNSAFE practice on the lathe?",
+  "options": [
+   "Removing chips with bare hands while the lathe runs",
+   "Stopping the lathe before measuring",
+   "Removing the chuck key before starting",
+   "Using a brush to clear chips after stopping"
+  ],
+  "answer": 0,
+  "explanation": "Chips are sharp and hot. Clear them with a brush or hook after stopping the machine.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1; Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F125",
+   "LAT-F130"
+  ]
+ },
+ {
+  "id": "LAT-0153",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "hard",
+  "type": "assertion-reason",
+  "question": "Assertion (A): A 3-jaw chuck cannot hold a rectangular block securely.\nReason (R): The jaws of a 3-jaw chuck move together and centre round or hexagonal work.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is NOT the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "answer": 0,
+  "explanation": "Both are true and R explains A: because the three jaws move together on a scroll, they suit only round or hexagonal shapes, so irregular work needs a 4-jaw chuck.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 24",
+  "tags": [],
+  "facts": [
+   "LAT-F048",
+   "LAT-F049"
+  ],
+  "keepOrder": true
+ },
+ {
+  "id": "LAT-0154",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "hard",
+  "type": "assertion-reason",
+  "question": "Assertion (A): The lead screw is disengaged during ordinary plain turning.\nReason (R): The lead screw is used only for thread cutting.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is NOT the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "answer": 0,
+  "explanation": "Both are true and R explains A: the lead screw is reserved for threading (to keep it accurate); the feed rod gives ordinary feeds.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.7",
+  "tags": [],
+  "facts": [
+   "LAT-F038",
+   "LAT-F037"
+  ],
+  "keepOrder": true
+ },
+ {
+  "id": "LAT-0155",
+  "shop": "lathe",
+  "category": "tool-material",
+  "difficulty": "hard",
+  "type": "assertion-reason",
+  "question": "Assertion (A): HSS is used for the lathe tool in the ME-106 lab.\nReason (R): HSS is softer than mild steel, so it does not chip.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is NOT the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "answer": 2,
+  "explanation": "A is true but R is false: HSS is much harder than mild steel. The tool must be harder than the work, and HSS keeps its hardness at cutting temperatures.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.11, p.17; Manufacturing notes p.11",
+  "tags": [],
+  "facts": [
+   "LAT-F062",
+   "LAT-F063",
+   "LAT-F065"
+  ],
+  "keepOrder": true
+ },
+ {
+  "id": "LAT-0156",
+  "shop": "lathe",
+  "category": "process-parameters",
+  "difficulty": "hard",
+  "type": "assertion-reason",
+  "question": "Assertion (A): Threading on the ME-106 lathe was done at a lower spindle speed than turning.\nReason (R): In thread cutting the carriage must advance one pitch per revolution of the work.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is NOT the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "answer": 1,
+  "explanation": "Both are true, but R does not explain A. The pitch relation holds at any speed. The low speed (90 rpm) is used so the operator can control the tool and withdraw it at the end of each pass.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.2; Centre Lathe handout p.13",
+  "tags": [],
+  "facts": [
+   "LAT-F096",
+   "LAT-F088"
+  ],
+  "keepOrder": true
+ },
+ {
+  "id": "LAT-0157",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "true-false",
+  "question": "The tailstock of a lathe carries the live centre.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explanation": "False. The headstock spindle carries the live centre, which rotates with the work. The tailstock carries the dead centre, which does not rotate.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 14; Centre Lathe lecture slide 15",
+  "tags": [],
+  "facts": [
+   "LAT-F020",
+   "LAT-F024"
+  ],
+  "keepOrder": true
+ },
+ {
+  "id": "LAT-0158",
+  "shop": "lathe",
+  "category": "process-parameters",
+  "difficulty": "medium",
+  "type": "true-false",
+  "question": "In turning, the depth of cut equals half the reduction in diameter.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Depth of cut = (D − d)/2, because metal is removed all round the work.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F099"
+  ],
+  "keepOrder": true
+ },
+ {
+  "id": "LAT-0159",
+  "shop": "lathe",
+  "category": "job-dimensions",
+  "difficulty": "medium",
+  "type": "true-false",
+  "question": "In the ME-106 (2025) job, the threaded portion is 25 mm long.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explanation": "True. The Ø34 × 1.5 thread runs for 25 mm, between the 5 mm groove and the Ø32 end section.",
+  "source": "lab",
+  "ref": "Central Lathe Log sheet p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F108"
+  ],
+  "keepOrder": true
+ },
+ {
+  "id": "LAT-0160",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled A?",
+  "options": [
+   "Tailstock quill (spindle)",
+   "Tailstock",
+   "Headstock",
+   "Bed"
+  ],
+  "answer": 2,
+  "explanation": "A = Headstock. Houses the main spindle, speed gear box and change gears; carries the live centre.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 14",
+  "tags": [],
+  "facts": [
+   "LAT-F017"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "A",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0161",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled B?",
+  "options": [
+   "Chuck",
+   "Compound rest",
+   "Feed rod",
+   "Saddle"
+  ],
+  "answer": 0,
+  "explanation": "B = Chuck. Grips and rotates the workpiece; attached to the headstock spindle.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.3",
+  "tags": [],
+  "facts": [
+   "LAT-F019"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "B",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0162",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled C?",
+  "options": [
+   "Leg",
+   "Saddle",
+   "Bed",
+   "Compound rest"
+  ],
+  "answer": 2,
+  "explanation": "C = Bed. Main supporting structure on which headstock, tailstock and carriage are mounted.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.3",
+  "tags": [],
+  "facts": [
+   "LAT-F011"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "C",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0163",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled D?",
+  "options": [
+   "Tailstock handwheel",
+   "Headstock",
+   "Cross-slide",
+   "Tailstock"
+  ],
+  "answer": 3,
+  "explanation": "D = Tailstock. Supports the free end of long work; holds drills and reamers.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.4",
+  "tags": [],
+  "facts": [
+   "LAT-F022"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "D",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0164",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled E?",
+  "options": [
+   "Gear box (feed box)",
+   "Dead centre",
+   "Tool post",
+   "Tailstock handwheel"
+  ],
+  "answer": 1,
+  "explanation": "E = Dead centre. Non-rotating centre in the tailstock that supports the work.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 15",
+  "tags": [],
+  "facts": [
+   "LAT-F024"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "E",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0165",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled F?",
+  "options": [
+   "Tailstock quill (spindle)",
+   "Bed",
+   "Lead screw",
+   "Chip tray"
+  ],
+  "answer": 0,
+  "explanation": "F = Tailstock quill (spindle). Sliding spindle of the tailstock that carries the dead centre or a drill.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 15",
+  "tags": [],
+  "facts": [
+   "LAT-F025"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "F",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0166",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled G?",
+  "options": [
+   "Apron",
+   "Tailstock handwheel",
+   "Tailstock",
+   "Tool post"
+  ],
+  "answer": 1,
+  "explanation": "G = Tailstock handwheel. Moves the tailstock quill in and out.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 15",
+  "tags": [],
+  "facts": [
+   "LAT-F025"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "G",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0167",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled H?",
+  "options": [
+   "Gear box (feed box)",
+   "Leg",
+   "Chuck",
+   "Saddle"
+  ],
+  "answer": 3,
+  "explanation": "H = Saddle. H-shaped part of the carriage that slides along the bed ways.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 17",
+  "tags": [],
+  "facts": [
+   "LAT-F027"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "H",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0168",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled I?",
+  "options": [
+   "Chip tray",
+   "Dead centre",
+   "Cross-slide",
+   "Headstock"
+  ],
+  "answer": 2,
+  "explanation": "I = Cross-slide. Moves the tool at right angles to the lathe axis; sets depth of cut.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.5",
+  "tags": [],
+  "facts": [
+   "LAT-F029"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "I",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0169",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled J?",
+  "options": [
+   "Compound rest",
+   "Leg",
+   "Tailstock quill (spindle)",
+   "Cross-slide"
+  ],
+  "answer": 0,
+  "explanation": "J = Compound rest. Swivelling top slide used for short tapers and angular cuts.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 19",
+  "tags": [],
+  "facts": [
+   "LAT-F032"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "J",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0170",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled K?",
+  "options": [
+   "Headstock",
+   "Bed",
+   "Tool post",
+   "Apron"
+  ],
+  "answer": 2,
+  "explanation": "K = Tool post. Holds the cutting tool rigidly on top of the compound rest.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.6",
+  "tags": [],
+  "facts": [
+   "LAT-F034"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "K",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0171",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled L?",
+  "options": [
+   "Tailstock quill (spindle)",
+   "Apron",
+   "Feed rod",
+   "Tool post"
+  ],
+  "answer": 1,
+  "explanation": "L = Apron. Front of the carriage; contains the carriage handwheel, half-nut and feed levers.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 16",
+  "tags": [],
+  "facts": [
+   "LAT-F036"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "L",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0172",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled M?",
+  "options": [
+   "Bed",
+   "Apron",
+   "Headstock",
+   "Lead screw"
+  ],
+  "answer": 3,
+  "explanation": "M = Lead screw. Long threaded shaft used only for thread cutting.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.7",
+  "tags": [],
+  "facts": [
+   "LAT-F038"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "M",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0173",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled N?",
+  "options": [
+   "Saddle",
+   "Feed rod",
+   "Tool post",
+   "Headstock"
+  ],
+  "answer": 1,
+  "explanation": "N = Feed rod. Plain shaft that drives the carriage for turning and facing feeds.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.7",
+  "tags": [],
+  "facts": [
+   "LAT-F037"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "N",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0174",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled O?",
+  "options": [
+   "Leg",
+   "Tool post",
+   "Chip tray",
+   "Tailstock quill (spindle)"
+  ],
+  "answer": 0,
+  "explanation": "O = Leg. Supports the whole machine on the floor.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.12",
+  "tags": [],
+  "facts": [
+   "LAT-F040"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "O",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0175",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled P?",
+  "options": [
+   "Tailstock",
+   "Lead screw",
+   "Bed",
+   "Gear box (feed box)"
+  ],
+  "answer": 3,
+  "explanation": "P = Gear box (feed box). Gives different feeds and thread pitches; drives the feed rod and lead screw.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.3",
+  "tags": [],
+  "facts": [
+   "LAT-F018"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "P",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0176",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled Q?",
+  "options": [
+   "Chuck",
+   "Headstock",
+   "Chip tray",
+   "Dead centre"
+  ],
+  "answer": 2,
+  "explanation": "Q = Chip tray. Collects chips and coolant falling from the work.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.12",
+  "tags": [],
+  "facts": [
+   "LAT-F040"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "Q",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0177",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, which label shows the tailstock?",
+  "options": [
+   "N",
+   "D",
+   "M",
+   "F"
+  ],
+  "answer": 1,
+  "explanation": "D = Tailstock. Supports the free end of long work; holds drills and reamers.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.4",
+  "tags": [],
+  "facts": [
+   "LAT-F022"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "D",
+  "ask": "which"
+ },
+ {
+  "id": "LAT-0178",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, which label shows the saddle?",
+  "options": [
+   "G",
+   "N",
+   "H",
+   "C"
+  ],
+  "answer": 2,
+  "explanation": "H = Saddle. H-shaped part of the carriage that slides along the bed ways.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 17",
+  "tags": [],
+  "facts": [
+   "LAT-F027"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "H",
+  "ask": "which"
+ },
+ {
+  "id": "LAT-0179",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, which label shows the compound rest?",
+  "options": [
+   "O",
+   "B",
+   "E",
+   "J"
+  ],
+  "answer": 3,
+  "explanation": "J = Compound rest. Swivelling top slide used for short tapers and angular cuts.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 19",
+  "tags": [],
+  "facts": [
+   "LAT-F032"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "J",
+  "ask": "which"
+ },
+ {
+  "id": "LAT-0180",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, which label shows the lead screw?",
+  "options": [
+   "M",
+   "L",
+   "J",
+   "B"
+  ],
+  "answer": 0,
+  "explanation": "M = Lead screw. Long threaded shaft used only for thread cutting.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.7",
+  "tags": [],
+  "facts": [
+   "LAT-F038"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "M",
+  "ask": "which"
+ },
+ {
+  "id": "LAT-0181",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, which label shows the feed rod?",
+  "options": [
+   "C",
+   "M",
+   "N",
+   "E"
+  ],
+  "answer": 2,
+  "explanation": "N = Feed rod. Plain shaft that drives the carriage for turning and facing feeds.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.7",
+  "tags": [],
+  "facts": [
+   "LAT-F037"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "N",
+  "ask": "which"
+ },
+ {
+  "id": "LAT-0182",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, which label shows the apron?",
+  "options": [
+   "J",
+   "C",
+   "O",
+   "L"
+  ],
+  "answer": 3,
+  "explanation": "L = Apron. Front of the carriage; contains the carriage handwheel, half-nut and feed levers.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 16",
+  "tags": [],
+  "facts": [
+   "LAT-F036"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "L",
+  "ask": "which"
+ },
+ {
+  "id": "LAT-0183",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the function of the part labelled A?",
+  "options": [
+   "Houses the main spindle, speed gear box and change gears; carries the live centre",
+   "Plain shaft that drives the carriage for turning and facing feeds",
+   "Collects chips and coolant falling from the work",
+   "Grips and rotates the workpiece; attached to the headstock spindle"
+  ],
+  "answer": 0,
+  "explanation": "A = Headstock. Houses the main spindle, speed gear box and change gears; carries the live centre.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 14",
+  "tags": [],
+  "facts": [
+   "LAT-F017"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "A",
+  "ask": "function"
+ },
+ {
+  "id": "LAT-0184",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the function of the part labelled I?",
+  "options": [
+   "Non-rotating centre in the tailstock that supports the work",
+   "Moves the tool at right angles to the lathe axis; sets depth of cut",
+   "Gives different feeds and thread pitches; drives the feed rod and lead screw",
+   "Sliding spindle of the tailstock that carries the dead centre or a drill"
+  ],
+  "answer": 1,
+  "explanation": "I = Cross-slide. Moves the tool at right angles to the lathe axis; sets depth of cut.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.5",
+  "tags": [],
+  "facts": [
+   "LAT-F029"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "I",
+  "ask": "function"
+ },
+ {
+  "id": "LAT-0185",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the function of the part labelled K?",
+  "options": [
+   "Moves the tailstock quill in and out",
+   "Long threaded shaft used only for thread cutting",
+   "Front of the carriage; contains the carriage handwheel, half-nut and feed levers",
+   "Holds the cutting tool rigidly on top of the compound rest"
+  ],
+  "answer": 3,
+  "explanation": "K = Tool post. Holds the cutting tool rigidly on top of the compound rest.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.6",
+  "tags": [],
+  "facts": [
+   "LAT-F034"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "K",
+  "ask": "function"
+ },
+ {
+  "id": "LAT-0186",
+  "shop": "lathe",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the function of the part labelled P?",
+  "options": [
+   "Gives different feeds and thread pitches; drives the feed rod and lead screw",
+   "Collects chips and coolant falling from the work",
+   "Front of the carriage; contains the carriage handwheel, half-nut and feed levers",
+   "Moves the tailstock quill in and out"
+  ],
+  "answer": 0,
+  "explanation": "P = Gear box (feed box). Gives different feeds and thread pitches; drives the feed rod and lead screw.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.3",
+  "tags": [],
+  "facts": [
+   "LAT-F018"
+  ],
+  "figure": "lathe/lathe-overview",
+  "label": "P",
+  "ask": "function"
+ },
+ {
+  "id": "LAT-0187",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "Which chuck is shown in panel A?",
+  "options": [
+   "Magnetic chuck",
+   "4-jaw (independent) chuck",
+   "3-jaw (self-centring) chuck",
+   "Collet chuck"
+  ],
+  "answer": 2,
+  "explanation": "A = 3-jaw (self-centring) chuck. All three jaws move together through a scroll, so round or hexagonal work is centred automatically.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 24",
+  "tags": [],
+  "facts": [
+   "LAT-F048"
+  ],
+  "figure": "lathe/chucks",
+  "label": "A",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0188",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "Which chuck is shown in panel B?",
+  "options": [
+   "Magnetic chuck",
+   "4-jaw (independent) chuck",
+   "Collet chuck",
+   "3-jaw (self-centring) chuck"
+  ],
+  "answer": 1,
+  "explanation": "B = 4-jaw (independent) chuck. Each jaw has its own screw and moves independently, so irregular work can be held but must be centred manually.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 24",
+  "tags": [],
+  "facts": [
+   "LAT-F049"
+  ],
+  "figure": "lathe/chucks",
+  "label": "B",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0189",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, which chuck must have the work centred manually?",
+  "options": [
+   "B",
+   "A"
+  ],
+  "answer": 0,
+  "explanation": "Panel B is the 4-jaw independent chuck. Each jaw is moved separately, so the job is centred by hand, as was done in our lab.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 24",
+  "tags": [],
+  "facts": [
+   "LAT-F049"
+  ],
+  "figure": "lathe/chucks"
+ },
+ {
+  "id": "LAT-0190",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled A?",
+  "options": [
+   "Tailstock quill",
+   "Live centre",
+   "Catch (driving) plate",
+   "Workpiece"
+  ],
+  "answer": 2,
+  "explanation": "A = Catch (driving) plate. Screwed on the spindle nose; its pin drives the tail of the dog.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 23",
+  "tags": [],
+  "facts": [
+   "LAT-F047"
+  ],
+  "figure": "lathe/centres-dog",
+  "label": "A",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0191",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled B?",
+  "options": [
+   "Tailstock quill",
+   "Live centre",
+   "Workpiece",
+   "Tool post"
+  ],
+  "answer": 1,
+  "explanation": "B = Live centre. Centre in the headstock spindle that rotates with the work.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 14",
+  "tags": [],
+  "facts": [
+   "LAT-F020"
+  ],
+  "figure": "lathe/centres-dog",
+  "label": "B",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0192",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled C?",
+  "options": [
+   "Face plate",
+   "Tailstock quill",
+   "Workpiece",
+   "Lathe dog (carrier)"
+  ],
+  "answer": 3,
+  "explanation": "C = Lathe dog (carrier). Clamped to the work by a set screw and driven by the catch plate.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 23",
+  "tags": [],
+  "facts": [
+   "LAT-F047"
+  ],
+  "figure": "lathe/centres-dog",
+  "label": "C",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0193",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled D?",
+  "options": [
+   "Workpiece",
+   "Tool post",
+   "Lathe dog (carrier)",
+   "Catch (driving) plate"
+  ],
+  "answer": 0,
+  "explanation": "D = Workpiece. Job held and turned between the two centres.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.8",
+  "tags": [],
+  "facts": [
+   "LAT-F046"
+  ],
+  "figure": "lathe/centres-dog",
+  "label": "D",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0194",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled E?",
+  "options": [
+   "Face plate",
+   "Lathe dog (carrier)",
+   "Dead centre",
+   "Live centre"
+  ],
+  "answer": 2,
+  "explanation": "E = Dead centre. Non-rotating centre in the tailstock that supports the free end.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 15",
+  "tags": [],
+  "facts": [
+   "LAT-F024"
+  ],
+  "figure": "lathe/centres-dog",
+  "label": "E",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0195",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled F?",
+  "options": [
+   "Live centre",
+   "Dead centre",
+   "Catch (driving) plate",
+   "Tailstock quill"
+  ],
+  "answer": 3,
+  "explanation": "F = Tailstock quill. Tailstock spindle that carries the dead centre.",
+  "source": "lab",
+  "ref": "Centre Lathe lecture slide 15",
+  "tags": [],
+  "facts": [
+   "LAT-F025"
+  ],
+  "figure": "lathe/centres-dog",
+  "label": "F",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0196",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "Which lathe operation is shown in panel A?",
+  "options": [
+   "Facing",
+   "Straight (plain) turning",
+   "Parting-off",
+   "Step turning"
+  ],
+  "answer": 0,
+  "explanation": "A = Facing. Flat end surface; tool fed perpendicular to the axis; reduces length.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.9",
+  "tags": [],
+  "facts": [
+   "LAT-F073"
+  ],
+  "figure": "lathe/operations",
+  "label": "A",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0197",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "Which lathe operation is shown in panel B?",
+  "options": [
+   "Thread cutting",
+   "Straight (plain) turning",
+   "Parting-off",
+   "Grooving"
+  ],
+  "answer": 1,
+  "explanation": "B = Straight (plain) turning. Diameter reduced along the length; tool fed parallel to the axis.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.10",
+  "tags": [],
+  "facts": [
+   "LAT-F074"
+  ],
+  "figure": "lathe/operations",
+  "label": "B",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0198",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "Which lathe operation is shown in panel C?",
+  "options": [
+   "Taper turning",
+   "Knurling",
+   "Centre drilling",
+   "Step turning"
+  ],
+  "answer": 3,
+  "explanation": "C = Step turning. Diameter reduced over part of the length, leaving a shoulder.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.13",
+  "tags": [],
+  "facts": [
+   "LAT-F075"
+  ],
+  "figure": "lathe/operations",
+  "label": "C",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0199",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "Which lathe operation is shown in panel D?",
+  "options": [
+   "Parting-off",
+   "Taper turning",
+   "Thread cutting",
+   "Facing"
+  ],
+  "answer": 1,
+  "explanation": "D = Taper turning. Uniform change of diameter along the length; tool fed at the half-taper angle.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.12",
+  "tags": [],
+  "facts": [
+   "LAT-F081"
+  ],
+  "figure": "lathe/operations",
+  "label": "D",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0200",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "Which lathe operation is shown in panel E?",
+  "options": [
+   "Grooving",
+   "Thread cutting",
+   "Parting-off",
+   "Chamfering"
+  ],
+  "answer": 0,
+  "explanation": "E = Grooving. Narrow groove cut by plunging a grooving tool radially.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.14",
+  "tags": [],
+  "facts": [
+   "LAT-F078"
+  ],
+  "figure": "lathe/operations",
+  "label": "E",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0201",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "Which lathe operation is shown in panel F?",
+  "options": [
+   "Taper turning",
+   "Grooving",
+   "Parting-off",
+   "Chamfering"
+  ],
+  "answer": 2,
+  "explanation": "F = Parting-off. Tool plunged radially until the finished job is cut off.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.11",
+  "tags": [],
+  "facts": [
+   "LAT-F079"
+  ],
+  "figure": "lathe/operations",
+  "label": "F",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0202",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "Which lathe operation is shown in panel G?",
+  "options": [
+   "Knurling",
+   "Chamfering",
+   "Parting-off",
+   "Centre drilling"
+  ],
+  "answer": 1,
+  "explanation": "G = Chamfering. Bevels the sharp end edge (e.g. 45°) to remove burrs.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.10",
+  "tags": [],
+  "facts": [
+   "LAT-F076"
+  ],
+  "figure": "lathe/operations",
+  "label": "G",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0203",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "Which lathe operation is shown in panel H?",
+  "options": [
+   "Knurling",
+   "Chamfering",
+   "Step turning",
+   "Centre drilling"
+  ],
+  "answer": 3,
+  "explanation": "H = Centre drilling. Conical centre hole drilled from the tailstock so the work can be supported on a centre.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.14",
+  "tags": [],
+  "facts": [
+   "LAT-F080"
+  ],
+  "figure": "lathe/operations",
+  "label": "H",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0204",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "Which lathe operation is shown in panel I?",
+  "options": [
+   "Facing",
+   "Parting-off",
+   "Thread cutting",
+   "Grooving"
+  ],
+  "answer": 2,
+  "explanation": "I = Thread cutting. Helical groove cut by a single-point tool fed one pitch per revolution.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.12",
+  "tags": [],
+  "facts": [
+   "LAT-F087"
+  ],
+  "figure": "lathe/operations",
+  "label": "I",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0205",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "Which lathe operation is shown in panel J?",
+  "options": [
+   "Knurling",
+   "Parting-off",
+   "Grooving",
+   "Straight (plain) turning"
+  ],
+  "answer": 0,
+  "explanation": "J = Knurling. Pattern pressed (embossed) on the surface by knurling rollers.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.11",
+  "tags": [],
+  "facts": [
+   "LAT-F077"
+  ],
+  "figure": "lathe/operations",
+  "label": "J",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0206",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "Which panel shows taper turning?",
+  "options": [
+   "G",
+   "D",
+   "E",
+   "C"
+  ],
+  "answer": 1,
+  "explanation": "D = Taper turning. Uniform change of diameter along the length; tool fed at the half-taper angle.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.12",
+  "tags": [],
+  "facts": [
+   "LAT-F081"
+  ],
+  "figure": "lathe/operations",
+  "label": "D",
+  "ask": "which"
+ },
+ {
+  "id": "LAT-0207",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "Which panel shows parting-off?",
+  "options": [
+   "I",
+   "B",
+   "H",
+   "F"
+  ],
+  "answer": 3,
+  "explanation": "F = Parting-off. Tool plunged radially until the finished job is cut off.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.11",
+  "tags": [],
+  "facts": [
+   "LAT-F079"
+  ],
+  "figure": "lathe/operations",
+  "label": "F",
+  "ask": "which"
+ },
+ {
+  "id": "LAT-0208",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "Which panel shows centre drilling?",
+  "options": [
+   "H",
+   "F",
+   "G",
+   "I"
+  ],
+  "answer": 0,
+  "explanation": "H = Centre drilling. Conical centre hole drilled from the tailstock so the work can be supported on a centre.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.14",
+  "tags": [],
+  "facts": [
+   "LAT-F080"
+  ],
+  "figure": "lathe/operations",
+  "label": "H",
+  "ask": "which"
+ },
+ {
+  "id": "LAT-0209",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "Which panel shows thread cutting?",
+  "options": [
+   "D",
+   "J",
+   "I",
+   "F"
+  ],
+  "answer": 2,
+  "explanation": "I = Thread cutting. Helical groove cut by a single-point tool fed one pitch per revolution.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.12",
+  "tags": [],
+  "facts": [
+   "LAT-F087"
+  ],
+  "figure": "lathe/operations",
+  "label": "I",
+  "ask": "which"
+ },
+ {
+  "id": "LAT-0210",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "Which thread profile is shown in panel A?",
+  "options": [
+   "Buttress thread",
+   "Knuckle thread",
+   "Metric V-thread",
+   "Acme thread"
+  ],
+  "answer": 2,
+  "explanation": "A = Metric V-thread. Fastening threads (bolts, nuts, screws); 60° included angle.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.15",
+  "tags": [],
+  "facts": [
+   "LAT-F090"
+  ],
+  "figure": "lathe/thread-profiles",
+  "label": "A",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0211",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "Which thread profile is shown in panel B?",
+  "options": [
+   "Square thread",
+   "Metric V-thread",
+   "Acme thread",
+   "Knuckle thread"
+  ],
+  "answer": 0,
+  "explanation": "B = Square thread. Power/load transmission such as screw jacks and lead screws.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.15",
+  "tags": [],
+  "facts": [
+   "LAT-F094"
+  ],
+  "figure": "lathe/thread-profiles",
+  "label": "B",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0212",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "Which thread profile is shown in panel C?",
+  "options": [
+   "Knuckle thread",
+   "Square thread",
+   "Metric V-thread",
+   "Buttress thread"
+  ],
+  "answer": 3,
+  "explanation": "C = Buttress thread. Transmits heavy load in one direction only, e.g. vices.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.16",
+  "tags": [],
+  "facts": [
+   "LAT-F095"
+  ],
+  "figure": "lathe/thread-profiles",
+  "label": "C",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0213",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "What is the thread form in panel A typically used for?",
+  "options": [
+   "Pipe joints that must be fluid-tight",
+   "Fastening threads (bolts, nuts, screws); 60° included angle",
+   "Rounded threads for rough use, e.g. railway couplings",
+   "Transmits heavy load in one direction only, e.g. vices"
+  ],
+  "answer": 1,
+  "explanation": "A = Metric V-thread. Fastening threads (bolts, nuts, screws); 60° included angle.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.15",
+  "tags": [],
+  "facts": [
+   "LAT-F090"
+  ],
+  "figure": "lathe/thread-profiles",
+  "label": "A",
+  "ask": "function"
+ },
+ {
+  "id": "LAT-0214",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "What is the thread form in panel B typically used for?",
+  "options": [
+   "Fastening threads (bolts, nuts, screws); 60° included angle",
+   "Pipe joints that must be fluid-tight",
+   "Power/load transmission such as screw jacks and lead screws",
+   "Transmits heavy load in one direction only, e.g. vices"
+  ],
+  "answer": 2,
+  "explanation": "B = Square thread. Power/load transmission such as screw jacks and lead screws.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.15",
+  "tags": [],
+  "facts": [
+   "LAT-F094"
+  ],
+  "figure": "lathe/thread-profiles",
+  "label": "B",
+  "ask": "function"
+ },
+ {
+  "id": "LAT-0215",
+  "shop": "lathe",
+  "category": "operations",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "What is the thread form in panel C typically used for?",
+  "options": [
+   "Transmits heavy load in one direction only, e.g. vices",
+   "Rounded threads for rough use, e.g. railway couplings",
+   "Pipe joints that must be fluid-tight",
+   "Fastening threads (bolts, nuts, screws); 60° included angle"
+  ],
+  "answer": 0,
+  "explanation": "C = Buttress thread. Transmits heavy load in one direction only, e.g. vices.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.16",
+  "tags": [],
+  "facts": [
+   "LAT-F095"
+  ],
+  "figure": "lathe/thread-profiles",
+  "label": "C",
+  "ask": "function"
+ },
+ {
+  "id": "LAT-0216",
+  "shop": "lathe",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled A?",
+  "options": [
+   "Minor (core) diameter (radius shown)",
+   "Crest",
+   "Major diameter (radius shown)",
+   "Pitch"
+  ],
+  "answer": 1,
+  "explanation": "A = Crest. Top surface of the thread.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.15",
+  "tags": [],
+  "facts": [
+   "LAT-F089"
+  ],
+  "figure": "lathe/thread-terms",
+  "label": "A",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0217",
+  "shop": "lathe",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled B?",
+  "options": [
+   "Depth of thread",
+   "Minor (core) diameter (radius shown)",
+   "Flank",
+   "Root"
+  ],
+  "answer": 3,
+  "explanation": "B = Root. Bottom of the groove between two threads.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.15",
+  "tags": [],
+  "facts": [
+   "LAT-F089"
+  ],
+  "figure": "lathe/thread-terms",
+  "label": "B",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0218",
+  "shop": "lathe",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled C?",
+  "options": [
+   "Depth of thread",
+   "Flank",
+   "Minor (core) diameter (radius shown)",
+   "Root"
+  ],
+  "answer": 1,
+  "explanation": "C = Flank. Side surface joining crest and root.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.15",
+  "tags": [],
+  "facts": [
+   "LAT-F089"
+  ],
+  "figure": "lathe/thread-terms",
+  "label": "C",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0219",
+  "shop": "lathe",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled D?",
+  "options": [
+   "Depth of thread",
+   "Minor (core) diameter (radius shown)",
+   "Major diameter (radius shown)",
+   "Pitch"
+  ],
+  "answer": 3,
+  "explanation": "D = Pitch. Axial distance between corresponding points on adjacent threads.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.15",
+  "tags": [],
+  "facts": [
+   "LAT-F089"
+  ],
+  "figure": "lathe/thread-terms",
+  "label": "D",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0220",
+  "shop": "lathe",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled E?",
+  "options": [
+   "Depth of thread",
+   "Pitch",
+   "Minor (core) diameter (radius shown)",
+   "Major diameter (radius shown)"
+  ],
+  "answer": 0,
+  "explanation": "E = Depth of thread. Radial distance between crest and root (d = 0.6134 p for our metric thread).",
+  "source": "lab",
+  "ref": "Manufacturing notes p.15",
+  "tags": [],
+  "facts": [
+   "LAT-F092"
+  ],
+  "figure": "lathe/thread-terms",
+  "label": "E",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0221",
+  "shop": "lathe",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled F?",
+  "options": [
+   "Pitch",
+   "Flank",
+   "Major diameter (radius shown)",
+   "Root"
+  ],
+  "answer": 2,
+  "explanation": "F = Major diameter (radius shown). Largest diameter of the thread, measured over the crests.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.15",
+  "tags": [],
+  "facts": [
+   "LAT-F089"
+  ],
+  "figure": "lathe/thread-terms",
+  "label": "F",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0222",
+  "shop": "lathe",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled G?",
+  "options": [
+   "Minor (core) diameter (radius shown)",
+   "Root",
+   "Pitch",
+   "Major diameter (radius shown)"
+  ],
+  "answer": 0,
+  "explanation": "G = Minor (core) diameter (radius shown). Smallest diameter, at the roots: Dc = Dm − 2d.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.15",
+  "tags": [],
+  "facts": [
+   "LAT-F093"
+  ],
+  "figure": "lathe/thread-terms",
+  "label": "G",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0223",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled A?",
+  "options": [
+   "Base",
+   "Flank",
+   "Clearance (relief) angle",
+   "Shank"
+  ],
+  "answer": 3,
+  "explanation": "A = Shank. Main body of the tool held in the tool post.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.8",
+  "tags": [],
+  "facts": [
+   "LAT-F068"
+  ],
+  "figure": "lathe/spt-tool",
+  "label": "A",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0224",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled B?",
+  "options": [
+   "Flank",
+   "Base",
+   "Nose",
+   "Rake angle"
+  ],
+  "answer": 2,
+  "explanation": "B = Nose. Corner where the side and end cutting edges meet.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.8",
+  "tags": [],
+  "facts": [
+   "LAT-F068"
+  ],
+  "figure": "lathe/spt-tool",
+  "label": "B",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0225",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled C?",
+  "options": [
+   "Nose",
+   "Face",
+   "Shank",
+   "Base"
+  ],
+  "answer": 1,
+  "explanation": "C = Face. Top surface over which the chip flows.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.8",
+  "tags": [],
+  "facts": [
+   "LAT-F068"
+  ],
+  "figure": "lathe/spt-tool",
+  "label": "C",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0226",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled D?",
+  "options": [
+   "Shank",
+   "Flank",
+   "Nose",
+   "Rake angle"
+  ],
+  "answer": 1,
+  "explanation": "D = Flank. Surface below the cutting edge, facing the work.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.8",
+  "tags": [],
+  "facts": [
+   "LAT-F068"
+  ],
+  "figure": "lathe/spt-tool",
+  "label": "D",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0227",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled E?",
+  "options": [
+   "Base",
+   "Rake angle",
+   "Clearance (relief) angle",
+   "Face"
+  ],
+  "answer": 0,
+  "explanation": "E = Base. Bottom surface of the shank that rests on the tool post.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.8",
+  "tags": [],
+  "facts": [
+   "LAT-F068"
+  ],
+  "figure": "lathe/spt-tool",
+  "label": "E",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0228",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled F?",
+  "options": [
+   "Nose",
+   "Clearance (relief) angle",
+   "Base",
+   "Rake angle"
+  ],
+  "answer": 3,
+  "explanation": "F = Rake angle. Slope of the face; eases chip flow and lowers cutting force.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F070"
+  ],
+  "figure": "lathe/spt-tool",
+  "label": "F",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0229",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled G?",
+  "options": [
+   "Nose",
+   "Shank",
+   "Clearance (relief) angle",
+   "Rake angle"
+  ],
+  "answer": 2,
+  "explanation": "G = Clearance (relief) angle. Angle of the flank that stops it rubbing on the work.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F071"
+  ],
+  "figure": "lathe/spt-tool",
+  "label": "G",
+  "ask": "part"
+ },
+ {
+  "id": "LAT-0230",
+  "shop": "lathe",
+  "category": "job-dimensions",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the ME-106 lathe job drawing, what is the diameter of section P?",
+  "options": [
+   "Ø32 mm",
+   "Ø34 mm",
+   "Ø38 mm",
+   "Ø37 mm"
+  ],
+  "answer": 2,
+  "explanation": "Section P is the Ø38 plain section, 35 mm long, with a 1 × 45° chamfer at the left end.",
+  "source": "lab",
+  "ref": "Central Lathe Log sheet p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F105"
+  ],
+  "figure": "lathe/job-2025",
+  "label": "P"
+ },
+ {
+  "id": "LAT-0231",
+  "shop": "lathe",
+  "category": "job-dimensions",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the job drawing, what is the length of the taper Q?",
+  "options": [
+   "30 mm",
+   "20 mm",
+   "35 mm",
+   "25 mm"
+  ],
+  "answer": 0,
+  "explanation": "The taper runs from Ø38 to Ø34 over 30 mm.",
+  "source": "lab",
+  "ref": "Central Lathe Log sheet p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F106"
+  ],
+  "figure": "lathe/job-2025",
+  "label": "Q"
+ },
+ {
+  "id": "LAT-0232",
+  "shop": "lathe",
+  "category": "job-dimensions",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the job drawing, what is the width of the groove R?",
+  "options": [
+   "3 mm",
+   "5 mm",
+   "10 mm",
+   "1.5 mm"
+  ],
+  "answer": 1,
+  "explanation": "A 5 mm groove separates the taper from the thread.",
+  "source": "lab",
+  "ref": "Central Lathe Log sheet p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F107"
+  ],
+  "figure": "lathe/job-2025",
+  "label": "R"
+ },
+ {
+  "id": "LAT-0233",
+  "shop": "lathe",
+  "category": "job-dimensions",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "What is the thread specification of section S on the job drawing?",
+  "options": [
+   "Ø30 × 1.5 mm pitch",
+   "Ø34 × 2 mm pitch",
+   "Ø32 × 1.5 mm pitch",
+   "Ø34 × 1.5 mm pitch"
+  ],
+  "answer": 3,
+  "explanation": "Section S is threaded Ø34 × 1.5 mm pitch, 25 mm long.",
+  "source": "lab",
+  "ref": "Central Lathe Log sheet p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F108"
+  ],
+  "figure": "lathe/job-2025",
+  "label": "S"
+ },
+ {
+  "id": "LAT-0234",
+  "shop": "lathe",
+  "category": "job-dimensions",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "What are the diameter and length of the end section T on the job drawing?",
+  "options": [
+   "Ø30 mm, 20 mm long",
+   "Ø32 mm, 25 mm long",
+   "Ø34 mm, 25 mm long",
+   "Ø32 mm, 20 mm long"
+  ],
+  "answer": 3,
+  "explanation": "Section T at the right end is Ø32 mm and 20 mm long.",
+  "source": "lab",
+  "ref": "Central Lathe Log sheet p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F109"
+  ],
+  "figure": "lathe/job-2025",
+  "label": "T"
+ },
+ {
+  "id": "LAT-0235",
+  "shop": "lathe",
+  "category": "job-dimensions",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "What chamfer is specified at the left end of the ME-106 lathe job?",
+  "options": [
+   "2 × 30°",
+   "1 × 45°",
+   "5 × 45°",
+   "1 × 60°"
+  ],
+  "answer": 1,
+  "explanation": "The drawing calls for a 1 × 45° chamfer at the left end of the Ø38 section.",
+  "source": "lab",
+  "ref": "Central Lathe Log sheet p.1; Centre Lathe handout p.10",
+  "tags": [],
+  "facts": [
+   "LAT-F105",
+   "LAT-F076"
+  ],
+  "figure": "lathe/job-2025"
+ },
+ {
+  "id": "LAT-0236",
+  "shop": "lathe",
+  "category": "job-dimensions",
+  "difficulty": "hard",
+  "type": "numerical",
+  "question": "From the job drawing, how far from the LEFT end does the threaded portion start?",
+  "options": [
+   "65 mm",
+   "35 mm",
+   "70 mm",
+   "95 mm"
+  ],
+  "answer": 2,
+  "explanation": "Left end → Ø38 (35) → taper (30) → groove (5): 35 + 30 + 5 = 70 mm. The thread then runs to 95 mm.",
+  "source": "lab",
+  "ref": "Central Lathe Log sheet p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F105",
+   "LAT-F106",
+   "LAT-F107",
+   "LAT-F108"
+  ],
+  "figure": "lathe/job-2025"
+ },
+ {
+  "id": "LAT-0237",
+  "shop": "lathe",
+  "category": "job-dimensions",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "The job drawing shows small conical marks at both ends on the axis. They indicate…",
+  "options": [
+   "Centre-drilled holes",
+   "Knurled ends",
+   "Chamfers",
+   "Grooves"
+  ],
+  "answer": 0,
+  "explanation": "Both ends of the ME-106 job are centre-drilled so the work can be supported on centres.",
+  "source": "lab",
+  "ref": "Central Lathe Log sheet p.1; Manufacturing notes p.14",
+  "tags": [],
+  "facts": [
+   "LAT-F110",
+   "LAT-F080"
+  ],
+  "figure": "lathe/job-2025"
+ },
+ {
+  "id": "LAT-0238",
+  "shop": "lathe",
+  "category": "job-dimensions",
+  "difficulty": "hard",
+  "type": "numerical",
+  "question": "From the job drawing, what is the sum of the lengths of the taper and the thread?",
+  "options": [
+   "50 mm",
+   "55 mm",
+   "60 mm",
+   "45 mm"
+  ],
+  "answer": 1,
+  "explanation": "Taper 30 mm + thread 25 mm = 55 mm.",
+  "source": "lab",
+  "ref": "Central Lathe Log sheet p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F106",
+   "LAT-F108"
+  ],
+  "figure": "lathe/job-2025"
+ },
+ {
+  "id": "LAT-0239",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In the ME-106 lathe job, at what stage is the length of 115 mm marked on the bar?",
+  "options": [
+   "After parting-off",
+   "After taper turning",
+   "After thread cutting",
+   "Before fixing the bar in the four-jaw chuck"
+  ],
+  "answer": 3,
+  "explanation": "Step 2 of the log sheet: mark 115 mm on the workpiece and fix it in the four-jaw chuck.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F115"
+  ]
+ },
+ {
+  "id": "LAT-0240",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which lathe part is swivelled during the taper-turning step of the ME-106 job?",
+  "options": [
+   "Headstock",
+   "Cross-slide",
+   "Compound rest",
+   "Tailstock"
+  ],
+  "answer": 2,
+  "explanation": "For taper turning the compound rest (tool post slide) is set at the half-taper angle (≈3.81°) and fed by hand.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.2; Centre Lathe lecture slide 19",
+  "tags": [],
+  "facts": [
+   "LAT-F119",
+   "LAT-F032"
+  ]
+ },
+ {
+  "id": "LAT-0241",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "During the threading step of the ME-106 job, what drives the carriage along the work?",
+  "options": [
+   "Lead screw via the half-nut",
+   "Feed rod via the apron gears",
+   "Compound-slide handwheel",
+   "Tailstock handwheel"
+  ],
+  "answer": 0,
+  "explanation": "For threading the half-nut is engaged on the lead screw so the carriage moves exactly one pitch (1.5 mm) per revolution.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.2; Centre Lathe handout p.7",
+  "tags": [],
+  "facts": [
+   "LAT-F120",
+   "LAT-F038",
+   "LAT-F039"
+  ]
+ },
+ {
+  "id": "LAT-0242",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In the ME-106 job, the 5 mm groove is cut…",
+  "options": [
+   "Before measuring the bar",
+   "After the thread is finished",
+   "Before facing",
+   "At the end of the thread, before taper turning and threading"
+  ],
+  "answer": 3,
+  "explanation": "The log sheet cuts the 5 mm groove after step turning, then turns the taper and finally cuts the thread up to the groove.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.2; Log Sheets ME-106 p.1–2",
+  "tags": [],
+  "facts": [
+   "LAT-F119",
+   "LAT-F121"
+  ]
+ },
+ {
+  "id": "LAT-0243",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Where is the tool tip set when a lathe tool is clamped in the tool post?",
+  "options": [
+   "At any height",
+   "Exactly at centre height (level with the lathe axis)",
+   "Slightly above the axis for rough cuts",
+   "Well below the axis to avoid rubbing"
+  ],
+  "answer": 1,
+  "explanation": "The tip must be on the lathe axis. Above or below centre changes the effective rake and clearance and leaves a pip when facing.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F133"
+  ]
+ },
+ {
+  "id": "LAT-0244",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "After facing, a small pip is left at the centre of the job face. What is the likely cause?",
+  "options": [
+   "The tool tip is not at centre height",
+   "The feed rod is engaged",
+   "The chuck has 4 jaws",
+   "The spindle speed is too high"
+  ],
+  "answer": 0,
+  "explanation": "A pip at the centre is the classic sign that the tool is above or below centre height.",
+  "source": "lab",
+  "ref": "Theory: Hajra Choudhury; Centre Lathe handout p.9",
+  "tags": [],
+  "facts": [
+   "LAT-F133",
+   "LAT-F073"
+  ]
+ },
+ {
+  "id": "LAT-0245",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Why should the tool overhang from the tool post be kept short?",
+  "options": [
+   "To engage the lead screw",
+   "To increase the cutting speed",
+   "To keep the tool rigid and avoid chatter",
+   "To make the taper steeper"
+  ],
+  "answer": 2,
+  "explanation": "A long overhang makes the tool spring and vibrate (chatter); keep it short and clamp firmly.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F134"
+  ]
+ },
+ {
+  "id": "LAT-0246",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "How is a job centred in a four-jaw chuck?",
+  "options": [
+   "Rotate by hand, check run-out with chalk/surface gauge and adjust opposite jaws",
+   "Run the lathe at high speed and watch the chips",
+   "Tighten all jaws together with one key turn",
+   "Bring up the tailstock and press hard"
+  ],
+  "answer": 0,
+  "explanation": "With independent jaws, the job is trued by turning the chuck by hand and adjusting opposite jaws in pairs until run-out is removed.",
+  "source": "lab",
+  "ref": "Theory: Hajra Choudhury; Log Sheets ME-106 p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F135",
+   "LAT-F116"
+  ]
+ },
+ {
+  "id": "LAT-0247",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which order of cuts gives the best finish and size control on a lathe?",
+  "options": [
+   "Only one deep cut",
+   "Finishing cut first, then rough cuts",
+   "Rough cuts first, then a light finishing cut",
+   "Alternate deep and light cuts at random"
+  ],
+  "answer": 2,
+  "explanation": "Rough cuts remove most of the metal quickly; a final light cut with fine feed gives finish and accurate size.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F136"
+  ]
+ },
+ {
+  "id": "LAT-0248",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "For a final finishing cut on the lathe you would use…",
+  "options": [
+   "Large depth of cut and coarse feed",
+   "Large depth of cut and fine feed",
+   "Zero feed",
+   "Small depth of cut and fine feed"
+  ],
+  "answer": 3,
+  "explanation": "Finishing cuts are light (small depth) with fine feed for good surface finish.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F136",
+   "LAT-F098"
+  ]
+ },
+ {
+  "id": "LAT-0249",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "hard",
+  "type": "sequence",
+  "question": "Which is the correct order for cutting a thread on a centre lathe?",
+  "options": [
+   "Take light cuts → set gear box → engage half-nut → set tool square",
+   "Set gear box for pitch → set tool square with centre gauge → engage half-nut → take light successive cuts",
+   "Engage half-nut → set gear box → set tool square → take one deep cut",
+   "Set tool square → take light cuts → set gear box → engage half-nut"
+  ],
+  "answer": 1,
+  "explanation": "Set the pitch first, square the 60° tool with a centre gauge, engage the half-nut and take several light cuts, withdrawing the tool after each pass.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F137"
+  ]
+ },
+ {
+  "id": "LAT-0250",
+  "shop": "lathe",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which gauge is used to set a threading tool square to the work and check its 60° angle?",
+  "options": [
+   "Telescopic gauge",
+   "Feeler gauge",
+   "Radius gauge",
+   "Centre (thread) gauge"
+  ],
+  "answer": 3,
+  "explanation": "A centre gauge has 60° notches; it is used to grind the thread tool and set it square to the work.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F138"
+  ]
+ },
+ {
+  "id": "LAT-0251",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "How is the finished thread on the lathe job checked?",
+  "options": [
+   "With an outside caliper only",
+   "With a screw-pitch gauge or a mating nut",
+   "With a try square",
+   "By its colour"
+  ],
+  "answer": 1,
+  "explanation": "Pitch is checked with a screw-pitch gauge; fit is checked by running a mating nut on.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F139"
+  ]
+ },
+ {
+  "id": "LAT-0252",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "At the end of each threading pass, the operator should…",
+  "options": [
+   "Withdraw the tool, then return the carriage for the next cut",
+   "Increase the depth by 2 mm",
+   "Leave the tool in the groove and reverse at full depth",
+   "Disengage the chuck"
+  ],
+  "answer": 0,
+  "explanation": "The tool is withdrawn with the cross-slide at the end of each pass, the carriage is returned, and the next light cut is taken.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F137"
+  ]
+ },
+ {
+  "id": "LAT-0253",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Before switching on the lathe after setting up a job, you should…",
+  "options": [
+   "Remove the tool post",
+   "Switch on at the highest speed to test",
+   "Turn the chuck once by hand to check clearances",
+   "Engage the half-nut"
+  ],
+  "answer": 2,
+  "explanation": "Rotating the chuck by hand confirms that the jaws and job clear the tool and carriage.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F140"
+  ]
+ },
+ {
+  "id": "LAT-0254",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "In the ME-106 lathe procedure, which spindle speeds were used for (i) turning and (ii) threading?",
+  "options": [
+   "(i) 1500 rpm, (ii) 90 rpm",
+   "(i) 315 rpm, (ii) 315 rpm",
+   "(i) 315 rpm, (ii) 90 rpm",
+   "(i) 90 rpm, (ii) 315 rpm"
+  ],
+  "answer": 2,
+  "explanation": "Turning was done at about 315 rpm and threading at a reduced speed of about 90 rpm.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1; Log Sheets ME-106 p.2",
+  "tags": [],
+  "facts": [
+   "LAT-F116",
+   "LAT-F120"
+  ]
+ },
+ {
+  "id": "LAT-0255",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In the ME-106 job, which operation finishes the job last according to the procedure?",
+  "options": [
+   "Step turning",
+   "Measuring the raw bar",
+   "Facing",
+   "Thread cutting"
+  ],
+  "answer": 3,
+  "explanation": "The final step listed on the log sheets is to perform threading over the marked 25 mm length.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.2; Log Sheets ME-106 p.1–2",
+  "tags": [],
+  "facts": [
+   "LAT-F120",
+   "LAT-F121"
+  ]
+ },
+ {
+  "id": "LAT-0256",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "What should you do if your hand gets close to the rotating chuck?",
+  "options": [
+   "Never touch it; never try to stop the chuck by hand",
+   "Use a cloth to brake it",
+   "Slow it down with your palm",
+   "Grab the job to stop it"
+  ],
+  "answer": 0,
+  "explanation": "Never touch the rotating job or chuck, and never stop it by hand. Switch off and let it come to rest.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F141"
+  ]
+ },
+ {
+  "id": "LAT-0257",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "When is it safe to change the spindle speed or gears on the lathe?",
+  "options": [
+   "During thread cutting",
+   "Only when the machine is stopped",
+   "While it is running slowly",
+   "Whenever the job is small"
+  ],
+  "answer": 1,
+  "explanation": "Gears and speed levers are changed only after the spindle has stopped.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F142"
+  ]
+ },
+ {
+  "id": "LAT-0258",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Before drilling with a drill held in the tailstock, you must…",
+  "options": [
+   "Swivel the compound rest",
+   "Engage the lead screw",
+   "Lock the tailstock to the bed",
+   "Remove the tool post"
+  ],
+  "answer": 2,
+  "explanation": "An unlocked tailstock is pushed back by the drilling thrust; lock the tailstock (and quill) first.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F143"
+  ]
+ },
+ {
+  "id": "LAT-0259",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which eye protection should be worn on the lathe?",
+  "options": [
+   "Safety goggles",
+   "No protection is needed",
+   "Laser goggles",
+   "Welding helmet"
+  ],
+  "answer": 0,
+  "explanation": "Flying chips can injure the eyes, so wear safety goggles.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F145"
+  ]
+ },
+ {
+  "id": "LAT-0260",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of these is a safe practice on the lathe?",
+  "options": [
+   "Leaving the chuck key in the chuck",
+   "Keeping the bed ways clear of tools while cutting",
+   "Leaning on the carriage",
+   "Wearing a loose tie"
+  ],
+  "answer": 1,
+  "explanation": "Do not keep tools on the bed or carriage, do not lean on the machine, and remove the chuck key.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F146",
+   "LAT-F129"
+  ]
+ },
+ {
+  "id": "LAT-0261",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Why must the tool and job be clamped firmly before starting the lathe?",
+  "options": [
+   "To increase the cutting speed",
+   "To reduce the thread pitch",
+   "To cool the tool",
+   "A loose tool or job can be thrown out or dig in"
+  ],
+  "answer": 3,
+  "explanation": "Firm clamping prevents the job or tool from loosening, digging in or flying out.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F144"
+  ]
+ },
+ {
+  "id": "LAT-0262",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of these is NOT a lathe-shop precaution?",
+  "options": [
+   "Wear tight-fitting clothes",
+   "Remove the chuck key before starting",
+   "Stop the machine before measuring",
+   "Stop the chuck by hand to save time"
+  ],
+  "answer": 3,
+  "explanation": "Stopping the chuck by hand is dangerous. The others are standard precautions on the lathe log sheets and in workshop practice.",
+  "source": "lab",
+  "ref": "Theory: Hajra Choudhury; Log Sheets ME-106 p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F141",
+   "LAT-F129",
+   "LAT-F130",
+   "LAT-F123"
+  ]
+ },
+ {
+  "id": "LAT-0263",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "A student leaves the chuck key in the chuck and switches on. What is the danger?",
+  "options": [
+   "The lead screw disengages",
+   "The thread pitch changes",
+   "The key is thrown out with great force",
+   "The tailstock locks"
+  ],
+  "answer": 2,
+  "explanation": "The spinning chuck flings the key out, which can seriously injure people nearby. Always remove the key first.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F129"
+  ]
+ },
+ {
+  "id": "LAT-0264",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Tight-fitting clothes are required in the lathe shop because…",
+  "options": [
+   "Loose clothing can be caught by the rotating chuck or work",
+   "They prevent electric shock",
+   "They help in marking the job",
+   "They keep the coolant off"
+  ],
+  "answer": 0,
+  "explanation": "Loose sleeves, ties or clothes can be pulled into rotating parts.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F123"
+  ]
+ },
+ {
+  "id": "LAT-0265",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "The correct way to clear long chips from a lathe is to…",
+  "options": [
+   "Ignore them until the job ends",
+   "Stop the machine and use a brush or chip hook",
+   "Blow them away with your mouth",
+   "Pull them away by hand while cutting"
+  ],
+  "answer": 1,
+  "explanation": "Chips are sharp and hot. Remove them in time with a brush or hook, never with bare hands.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F125"
+  ]
+ },
+ {
+  "id": "LAT-0266",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "easy",
+  "type": "true-false",
+  "question": "It is acceptable to measure the lathe job with a caliper while it is rotating slowly.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Always stop the machine before measuring.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F130"
+  ],
+  "keepOrder": true
+ },
+ {
+  "id": "LAT-0267",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Why does the lathe log sheet ask you to move the tailstock carefully?",
+  "options": [
+   "It carries the live centre",
+   "It controls spindle speed",
+   "It is heavy and can crash into the carriage or fall off the bed end",
+   "It holds the lead screw"
+  ],
+  "answer": 2,
+  "explanation": "The tailstock is a heavy casting; sliding it roughly can damage the ways, hit the carriage or run off the end of the bed.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1; Centre Lathe handout p.4",
+  "tags": [],
+  "facts": [
+   "LAT-F126",
+   "LAT-F023"
+  ]
+ },
+ {
+  "id": "LAT-0268",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Why should measurements on the lathe be taken in proper lighting?",
+  "options": [
+   "So caliper settings are read accurately",
+   "So the chips cool faster",
+   "So the thread pitch changes",
+   "So the motor runs cooler"
+  ],
+  "answer": 0,
+  "explanation": "Calipers have no scale; a correct reading against the rule needs good light, as stated on the 2025 log sheet.",
+  "source": "lab",
+  "ref": "Central Lathe Log sheet p.1; Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F128",
+   "LAT-F059"
+  ]
+ },
+ {
+  "id": "LAT-0269",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "A long, continuous chip is winding around the rotating job. What should you do?",
+  "options": [
+   "Increase the speed to break it",
+   "Cut it with pliers while running",
+   "Pull it off by hand quickly",
+   "Stop the lathe, then remove the chip with a hook or brush"
+  ],
+  "answer": 3,
+  "explanation": "Never handle chips on a running machine. Stop it, then use a chip hook or brush.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1; Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F125",
+   "LAT-F141"
+  ]
+ },
+ {
+  "id": "LAT-0270",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which item of PPE is NOT normally required for the ME-106 lathe practice?",
+  "options": [
+   "Closed shoes",
+   "Laser safety goggles",
+   "Workshop apron",
+   "Safety goggles"
+  ],
+  "answer": 1,
+  "explanation": "Lathe work needs an apron, tight clothes, shoes and eye protection; laser goggles are for the fiber laser.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1; Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F123",
+   "LAT-F145"
+  ]
+ },
+ {
+  "id": "LAT-0271",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Which precaution protects the operator from HOT chips specifically?",
+  "options": [
+   "Stand at a proper distance and wear goggles",
+   "Move the tailstock carefully",
+   "Set the tool at centre height",
+   "Use the lead screw only for threading"
+  ],
+  "answer": 0,
+  "explanation": "Hot chips can fly, so keep a proper distance (2025 log sheet) and protect your eyes.",
+  "source": "lab",
+  "ref": "Central Lathe Log sheet p.1; Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F127",
+   "LAT-F145"
+  ]
+ },
+ {
+  "id": "LAT-0272",
+  "shop": "lathe",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Before starting the lathe, which check prevents the chuck jaws from hitting the carriage?",
+  "options": [
+   "Set the compound to 45°",
+   "Rotate the chuck once by hand",
+   "Lock the tailstock quill",
+   "Engage the half-nut"
+  ],
+  "answer": 1,
+  "explanation": "Hand-rotating the chuck shows whether the jaws or job foul the tool or carriage.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "LAT-F140"
+  ]
+ },
+ {
+  "id": "LAT-0273",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "In the ME-106 lathe job, which marking tools are used in the marking step?",
+  "options": [
+   "Scriber and dot punch",
+   "Divider and centre punch",
+   "Chalk, marker, marking stand and plate",
+   "Surface gauge and V-block"
+  ],
+  "answer": 2,
+  "explanation": "The job is marked using chalk/marker with the marking stand and marking plate, then measured with scale and outside caliper.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F055",
+   "LAT-F115"
+  ]
+ },
+ {
+  "id": "LAT-0274",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which measuring tools are used in step 1 of the ME-106 lathe procedure?",
+  "options": [
+   "Bevel protractor",
+   "Micrometer and dial gauge",
+   "Vernier height gauge",
+   "Steel scale and outside caliper"
+  ],
+  "answer": 3,
+  "explanation": "The raw length and diameter are measured with the steel scale and outside caliper.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1",
+  "tags": [],
+  "facts": [
+   "LAT-F056",
+   "LAT-F114"
+  ]
+ },
+ {
+  "id": "LAT-0275",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "In the ME-106 job, why is step turning done after plain turning?",
+  "options": [
+   "Step turning needs the lead screw first",
+   "Plain turning first sizes the largest diameter; steps are then cut from it",
+   "Step turning removes the chamfer",
+   "Plain turning must come after the thread"
+  ],
+  "answer": 1,
+  "explanation": "The whole bar is first plain-turned to the largest diameter, then the smaller diameters (steps) are turned from it.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.1–2",
+  "tags": [],
+  "facts": [
+   "LAT-F118"
+  ]
+ },
+ {
+  "id": "LAT-0276",
+  "shop": "lathe",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "What is engaged for plain turning but NOT used for threading?",
+  "options": [
+   "Lead screw",
+   "Change gears for pitch",
+   "Half-nut",
+   "Feed rod (power feed)"
+  ],
+  "answer": 3,
+  "explanation": "Ordinary turning feed comes from the feed rod; threading uses the lead screw and half-nut.",
+  "source": "lab",
+  "ref": "Centre Lathe handout p.7; Log Sheets ME-106 p.1–2",
+  "tags": [],
+  "facts": [
+   "LAT-F037",
+   "LAT-F038",
+   "LAT-F118"
+  ]
+ }
+]

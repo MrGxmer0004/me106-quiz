@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" role="img" aria-label="Enlarged V-thread profile with lettered features"><title>Screw thread nomenclature</title><style>.s{fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}.thin{fill:none;stroke:currentColor;stroke-width:1.1}.lead{fill:none;stroke:currentColor;stroke-width:1.2;opacity:.85}.f{fill:currentColor;fill-opacity:.10;stroke:currentColor;stroke-width:2;stroke-linejoin:round}.f2{fill:currentColor;fill-opacity:.22;stroke:currentColor;stroke-width:2;stroke-linejoin:round}.k{fill:currentColor;stroke:none}.d{fill:none;stroke:currentColor;stroke-width:1.5;stroke-dasharray:6 4}.cl{fill:none;stroke:currentColor;stroke-width:1;stroke-dasharray:14 4 3 4;opacity:.7}.acc{fill:none;stroke:#e8590c;stroke-width:2.4;stroke-linecap:round}.accf{fill:#e8590c;stroke:none}.acct{fill:#e8590c;stroke:none}.tx{fill:currentColor;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}</style>
+<polygon class="f" points="60.0,250.0 120.0,130.0 180.0,250.0 240.0,130.0 300.0,250.0 360.0,130.0 420.0,250.0 480.0,130.0 540.0,250.0 540.0,320.0 60.0,320.0"/>
+<line class="d" x1="40.0" y1="130.0" x2="680.0" y2="130.0"/>
+<line class="d" x1="40.0" y1="250.0" x2="680.0" y2="250.0"/>
+<line class="cl" x1="40.0" y1="340.0" x2="680.0" y2="340.0"/>
+<line class="thin" x1="120.0" y1="95.0" x2="240.0" y2="95.0"/>
+<polygon class="k" points="120.0,95.0 128.5,91.9 128.5,98.1"/>
+<polygon class="k" points="240.0,95.0 231.5,98.1 231.5,91.9"/>
+<text class="tx" x="180.0" y="83.0" font-size="16" text-anchor="middle" font-weight="normal" dominant-baseline="middle"></text>
+<line class="thin" x1="600.0" y1="130.0" x2="600.0" y2="250.0"/>
+<polygon class="k" points="600.0,130.0 603.1,138.5 596.9,138.5"/>
+<polygon class="k" points="600.0,250.0 596.9,241.5 603.1,241.5"/>
+<text class="tx" x="613.0" y="190.0" font-size="16" text-anchor="middle" font-weight="normal" dominant-baseline="middle" transform="rotate(-90 613.0 190.0)"></text>
+<line class="thin" x1="640.0" y1="130.0" x2="640.0" y2="340.0"/>
+<polygon class="k" points="640.0,130.0 643.1,138.5 636.9,138.5"/>
+<polygon class="k" points="640.0,340.0 636.9,331.5 643.1,331.5"/>
+<text class="tx" x="653.0" y="235.0" font-size="16" text-anchor="middle" font-weight="normal" dominant-baseline="middle" transform="rotate(-90 653.0 235.0)"></text>
+<line class="thin" x1="670.0" y1="250.0" x2="670.0" y2="340.0"/>
+<polygon class="k" points="670.0,250.0 673.1,258.5 666.9,258.5"/>
+<polygon class="k" points="670.0,340.0 666.9,331.5 673.1,331.5"/>
+<text class="tx" x="683.0" y="295.0" font-size="16" text-anchor="middle" font-weight="normal" dominant-baseline="middle" transform="rotate(-90 683.0 295.0)"></text>
+<line class="lead" x1="360.0" y1="130.0" x2="360.0" y2="85.0"/>
+<circle class="k" cx="360.0" cy="130.0" r="3"/>
+<circle cx="360.0" cy="70.0" r="15" fill="#e8590c"/><text x="360.0" y="71.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">A</text>
+<line class="lead" x1="300.0" y1="250.0" x2="300.0" y2="285.0"/>
+<circle class="k" cx="300.0" cy="250.0" r="3"/>
+<circle cx="300.0" cy="300.0" r="15" fill="#e8590c"/><text x="300.0" y="301.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">B</text>
+<line class="lead" x1="210.0" y1="190.0" x2="161.7" y2="286.6"/>
+<circle class="k" cx="210.0" cy="190.0" r="3"/>
+<circle cx="155.0" cy="300.0" r="15" fill="#e8590c"/><text x="155.0" y="301.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">C</text>
+<line class="lead" x1="180.0" y1="95.0" x2="133.0" y2="67.6"/>
+<circle class="k" cx="180.0" cy="95.0" r="3"/>
+<circle cx="120.0" cy="60.0" r="15" fill="#e8590c"/><text x="120.0" y="61.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">D</text>
+<line class="lead" x1="600.0" y1="190.0" x2="575.0" y2="190.0"/>
+<circle class="k" cx="600.0" cy="190.0" r="3"/>
+<circle cx="560.0" cy="190.0" r="15" fill="#e8590c"/><text x="560.0" y="191.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">E</text>
+<line class="lead" x1="640.0" y1="220.0" x2="700.3" y2="207.9"/>
+<circle class="k" cx="640.0" cy="220.0" r="3"/>
+<circle cx="715.0" cy="205.0" r="15" fill="#e8590c"/><text x="715.0" y="206.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">F</text>
+<line class="lead" x1="670.0" y1="320.0" x2="703.2" y2="345.8"/>
+<circle class="k" cx="670.0" cy="320.0" r="3"/>
+<circle cx="715.0" cy="355.0" r="15" fill="#e8590c"/><text x="715.0" y="356.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">G</text>
+</svg>

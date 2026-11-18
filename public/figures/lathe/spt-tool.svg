@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 385" role="img" aria-label="Line drawing of a single-point lathe tool in plan and side views with lettered features"><title>Single-point cutting tool</title><style>.s{fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}.thin{fill:none;stroke:currentColor;stroke-width:1.1}.lead{fill:none;stroke:currentColor;stroke-width:1.2;opacity:.85}.f{fill:currentColor;fill-opacity:.10;stroke:currentColor;stroke-width:2;stroke-linejoin:round}.f2{fill:currentColor;fill-opacity:.22;stroke:currentColor;stroke-width:2;stroke-linejoin:round}.k{fill:currentColor;stroke:none}.d{fill:none;stroke:currentColor;stroke-width:1.5;stroke-dasharray:6 4}.cl{fill:none;stroke:currentColor;stroke-width:1;stroke-dasharray:14 4 3 4;opacity:.7}.acc{fill:none;stroke:#e8590c;stroke-width:2.4;stroke-linecap:round}.accf{fill:#e8590c;stroke:none}.acct{fill:#e8590c;stroke:none}.tx{fill:currentColor;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}</style>
+<polygon class="f" points="260.0,80.0 640.0,80.0 640.0,150.0 200.0,150.0 140.0,120.0 150.0,95.0"/>
+<text class="tx" x="400.0" y="175.0" font-size="14" text-anchor="middle" font-weight="normal" dominant-baseline="middle">plan view</text>
+<polygon class="f" points="150.0,236.0 270.0,256.0 640.0,256.0 640.0,336.0 182.0,336.0"/>
+<line class="d" x1="150.0" y1="236.0" x2="330.0" y2="236.0"/>
+<line class="d" x1="150.0" y1="236.0" x2="150.0" y2="346.0"/>
+<path class="acc" d="M260.0,236.0 A110,110 0 0 1 258.5,254.2"/>
+<path class="acc" d="M150.0,331.0 A95,95 0 0 0 176.3,327.3"/>
+<text class="tx" x="400.0" y="362.0" font-size="14" text-anchor="middle" font-weight="normal" dominant-baseline="middle">side view</text>
+<line class="lead" x1="500.0" y1="115.0" x2="500.0" y2="50.0"/>
+<circle class="k" cx="500.0" cy="115.0" r="3"/>
+<circle cx="500.0" cy="35.0" r="15" fill="#e8590c"/><text x="500.0" y="36.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">A</text>
+<line class="lead" x1="145.0" y1="107.0" x2="97.8" y2="77.9"/>
+<circle class="k" cx="145.0" cy="107.0" r="3"/>
+<circle cx="85.0" cy="70.0" r="15" fill="#e8590c"/><text x="85.0" y="71.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">B</text>
+<line class="lead" x1="210.0" y1="246.0" x2="206.6" y2="214.9"/>
+<circle class="k" cx="210.0" cy="246.0" r="3"/>
+<circle cx="205.0" cy="200.0" r="15" fill="#e8590c"/><text x="205.0" y="201.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">C</text>
+<line class="lead" x1="165.0" y1="283.0" x2="104.8" y2="272.6"/>
+<circle class="k" cx="165.0" cy="283.0" r="3"/>
+<circle cx="90.0" cy="270.0" r="15" fill="#e8590c"/><text x="90.0" y="271.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">D</text>
+<line class="lead" x1="520.0" y1="336.0" x2="548.3" y2="358.6"/>
+<circle class="k" cx="520.0" cy="336.0" r="3"/>
+<circle cx="560.0" cy="368.0" r="15" fill="#e8590c"/><text x="560.0" y="369.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">E</text>
+<line class="lead" x1="258.0" y1="246.0" x2="289.3" y2="215.5"/>
+<circle class="k" cx="258.0" cy="246.0" r="3"/>
+<circle cx="300.0" cy="205.0" r="15" fill="#e8590c"/><text x="300.0" y="206.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">F</text>
+<line class="lead" x1="163.0" y1="330.0" x2="104.7" y2="342.0"/>
+<circle class="k" cx="163.0" cy="330.0" r="3"/>
+<circle cx="90.0" cy="345.0" r="15" fill="#e8590c"/><text x="90.0" y="346.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">G</text>
+</svg>

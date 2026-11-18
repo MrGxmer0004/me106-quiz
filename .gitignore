@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.render/
+__pycache__/
+*.pyc
+.DS_Store
+# Never commit source lecture material or log sheets
+*.pdf
+*.pptx
+*.key
+*.jpg
+*.jpeg
+*.JPG
+*.png
+!public/icons/*.png
