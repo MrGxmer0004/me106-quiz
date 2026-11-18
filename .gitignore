@@ -13,3 +13,4 @@ __pycache__/
 *.JPG
 *.png
 !public/icons/*.png
+tsconfig.tsbuildinfo
