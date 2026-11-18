@@ -45,7 +45,7 @@ for (const f of figs) {
   const svgp = path.join(ROOT, 'public/figures', f.id + '.svg');
   if (!fs.existsSync(svgp)) { err(f.id, 'figure SVG missing'); continue; }
   const svg = fs.readFileSync(svgp, 'utf8');
-  const tags = new Set([...svg.matchAll(/fill="#ffffff">([A-Z])<\/text>/g)].map((m) => m[1]));
+  const tags = new Set([...svg.matchAll(/fill="#ffffff">([A-Z0-9])<\/text>/g)].map((m) => m[1]));
   for (const L of Object.keys(f.labels || {})) {
     if (!tags.has(L)) err(f.id, `label ${L} in registry but not drawn on figure`);
     if (!facts[f.labels[L].fact]) err(f.id, `label ${L} cites unknown fact ${f.labels[L].fact}`);

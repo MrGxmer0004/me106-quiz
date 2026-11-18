@@ -128,6 +128,15 @@ Source keys: `LS` = Log Sheets ME-106.pdf p.7–8 (grinding log sheet); `NB` = M
 - [GRD-F105] Wear safety goggles and keep the wheel guard in place, as sparks and abrasive particles fly off. [theory: Hajra Choudhury]
 - [GRD-F106] Never exceed the maximum safe speed marked on the wheel, and check the wheel for cracks (ring test) before mounting. [theory: Hajra Choudhury]
 
+## 10. Grinding tools and accessories (standard practice)
+- [GRD-F107] A single-point diamond dresser is used for precise dressing and truing; a star-wheel (Huntington) dresser is used for rough dressing of coarse wheels. [theory: Hajra Choudhury]
+- [GRD-F108] Wheels are balanced on a balancing stand (arbor on knife edges or rollers), shifting balance weights in the flange until the wheel stays in any position. [theory: Hajra Choudhury; GPPT s.15]
+- [GRD-F109] A magnetic chuck holds only ferromagnetic work (steel, cast iron); non-magnetic work such as aluminium or brass must be held in a vice or fixture. [theory: Hajra Choudhury]
+- [GRD-F110] Grinding coolant is usually a water-based soluble-oil emulsion that cools the work, washes away swarf and reduces wheel loading. [theory: Kalpakjian]
+- [GRD-F111] When mounting a wheel, flanges of equal size and soft paper/rubber washers (blotters) are used on both sides, and the nut is tightened only enough to hold the wheel. [theory: Hajra Choudhury]
+- [GRD-F112] The ring test: a vitrified wheel is suspended and tapped lightly with a non-metallic (wooden) mallet; a clear ring means sound, a dull thud indicates a crack. [theory: Hajra Choudhury]
+- [GRD-F113] The work-rest (tool rest) on a bench/pedestal grinder must be kept close to the wheel (about 2–3 mm) so the work cannot be dragged in. [theory: Hajra Choudhury]
+
 ## Figures needed
 - `grinding/surface-grinder` — wheel, guard, wheel head, column, table, magnetic chuck, saddle, handwheels, base.
 - `grinding/cylindrical-grinder` — wheel head, wheel, work head, tailstock, workpiece, upper/lower table, adjustable dogs, base.

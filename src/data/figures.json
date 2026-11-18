@@ -732,5 +732,242 @@
     "fact": "MIL-F036"
    }
   }
+ },
+ {
+  "id": "grinding/cylindrical-grinder",
+  "shop": "grinding",
+  "title": "Plain cylindrical grinding machine",
+  "alt": "Line diagram of a cylindrical grinder: work between headstock and tailstock centres on a reciprocating table, wheel behind, with lettered callouts",
+  "labels": {
+   "A": {
+    "part": "Wheel head",
+    "function": "Carries the grinding wheel and its drive; fed towards the work",
+    "fact": "GRD-F029"
+   },
+   "B": {
+    "part": "Grinding wheel",
+    "function": "Abrasive wheel that grinds the work with its periphery",
+    "fact": "GRD-F031"
+   },
+   "C": {
+    "part": "Headstock (work head)",
+    "function": "Rotates the work slowly; carries one centre",
+    "fact": "GRD-F029"
+   },
+   "D": {
+    "part": "Tailstock",
+    "function": "Supports the other end of the work on a centre",
+    "fact": "GRD-F029"
+   },
+   "E": {
+    "part": "Workpiece",
+    "function": "Cylindrical job held between centres",
+    "fact": "GRD-F029"
+   },
+   "F": {
+    "part": "Upper table",
+    "function": "Carries headstock and tailstock; can be swivelled for tapers",
+    "fact": "GRD-F029"
+   },
+   "G": {
+    "part": "Lower table",
+    "function": "Reciprocates along the base, carrying the upper table",
+    "fact": "GRD-F029"
+   },
+   "H": {
+    "part": "Adjustable table dog",
+    "function": "Set to reverse the table at the ends of its traverse",
+    "fact": "GRD-F030"
+   },
+   "I": {
+    "part": "Base",
+    "function": "Supports the machine and table ways",
+    "fact": "GRD-F029"
+   }
+  }
+ },
+ {
+  "id": "grinding/dressing",
+  "shop": "grinding",
+  "title": "Dressing a grinding wheel",
+  "alt": "Side view of a grinding wheel with a single-point diamond dresser held against its face",
+  "labels": {
+   "A": {
+    "part": "Grinding wheel",
+    "function": "Abrasive wheel whose face is being dressed",
+    "fact": "GRD-F068"
+   },
+   "B": {
+    "part": "Diamond dresser",
+    "function": "Tool that removes the dull, loaded surface to expose sharp grains (dressing) and trues the wheel",
+    "fact": "GRD-F069"
+   },
+   "C": {
+    "part": "Dresser holder",
+    "function": "Rigid holder that feeds the diamond across the wheel face",
+    "fact": "GRD-F068"
+   }
+  }
+ },
+ {
+  "id": "grinding/grinding-ratio",
+  "shop": "grinding",
+  "title": "Grinding ratio set-up",
+  "alt": "Wheel of width d worn from initial diameter Di to final diameter Df while a block of length l and breadth b is reduced in height by Δh",
+  "labels": {}
+ },
+ {
+  "id": "grinding/structure",
+  "shop": "grinding",
+  "title": "Wheel structure: dense vs open",
+  "alt": "Two magnified views of abrasive grains in bond; panel A grains closely packed, panel B grains widely spaced",
+  "labels": {
+   "A": {
+    "part": "Dense structure (low number)",
+    "function": "Grains closely packed; for hard, brittle materials and fine finish",
+    "fact": "GRD-F061"
+   },
+   "B": {
+    "part": "Open structure (high number)",
+    "function": "Grains widely spaced with large pores; for soft ductile materials and rough grinding",
+    "fact": "GRD-F061"
+   }
+  },
+  "ask": {
+   "p": "Which wheel structure is shown in panel {L}?",
+   "w": "Which panel shows a {P}?"
+  }
+ },
+ {
+  "id": "grinding/surface-grinder",
+  "shop": "grinding",
+  "title": "Surface grinding machine",
+  "alt": "Front view line diagram of a horizontal-spindle reciprocating-table surface grinder with lettered callouts",
+  "labels": {
+   "A": {
+    "part": "Grinding wheel",
+    "function": "Rotating abrasive wheel that removes small amounts of metal",
+    "fact": "GRD-F001"
+   },
+   "B": {
+    "part": "Wheel guard",
+    "function": "Covers the wheel to protect the operator from fragments and sparks",
+    "fact": "GRD-F024"
+   },
+   "C": {
+    "part": "Wheel head",
+    "function": "Carries the wheel spindle and motor; moved down to set the depth of cut",
+    "fact": "GRD-F023"
+   },
+   "D": {
+    "part": "Column",
+    "function": "Vertical member on which the wheel head slides up and down",
+    "fact": "GRD-F024"
+   },
+   "E": {
+    "part": "Magnetic chuck",
+    "function": "Holds steel work on the table by magnetism",
+    "fact": "GRD-F089"
+   },
+   "F": {
+    "part": "Table",
+    "function": "Reciprocates back and forth carrying the chuck and work",
+    "fact": "GRD-F023"
+   },
+   "G": {
+    "part": "Saddle",
+    "function": "Moves the table crosswise (cross feed) on the base",
+    "fact": "GRD-F024"
+   },
+   "H": {
+    "part": "Table-traverse handwheel",
+    "function": "Moves the table longitudinally by hand",
+    "fact": "GRD-F024"
+   },
+   "I": {
+    "part": "Cross-feed handwheel",
+    "function": "Moves the saddle and table across under the wheel",
+    "fact": "GRD-F024"
+   },
+   "J": {
+    "part": "Base",
+    "function": "Supports the whole machine",
+    "fact": "GRD-F024"
+   },
+   "K": {
+    "part": "Workpiece",
+    "function": "Flat job being surface ground",
+    "fact": "GRD-F021"
+   }
+  }
+ },
+ {
+  "id": "grinding/types",
+  "shop": "grinding",
+  "title": "Types of grinding",
+  "alt": "Four schematic sketches of grinding operations, panels A to D",
+  "labels": {
+   "A": {
+    "part": "Surface grinding",
+    "function": "Flat surfaces finished by a wheel over a reciprocating table",
+    "fact": "GRD-F021"
+   },
+   "B": {
+    "part": "External cylindrical grinding",
+    "function": "Outside diameter of work between centres ground by the wheel periphery",
+    "fact": "GRD-F026"
+   },
+   "C": {
+    "part": "Internal grinding",
+    "function": "Bore (inside diameter) finished by a small wheel running inside it",
+    "fact": "GRD-F035"
+   },
+   "D": {
+    "part": "Centreless grinding",
+    "function": "Work rests on a blade between the grinding wheel and a regulating wheel, with no centres",
+    "fact": "GRD-F036"
+   }
+  },
+  "ask": {
+   "p": "Which type of grinding is shown in panel {L}?",
+   "w": "Which panel shows {P}?"
+  }
+ },
+ {
+  "id": "grinding/wheel-marking",
+  "shop": "grinding",
+  "title": "Grinding wheel marking",
+  "alt": "The marking A 46 K 5 V with each position numbered 1 to 5 underneath",
+  "labels": {
+   "1": {
+    "part": "Abrasive type",
+    "function": "A = aluminium oxide (C = silicon carbide)",
+    "fact": "GRD-F047"
+   },
+   "2": {
+    "part": "Grain (grit) size",
+    "function": "46 = medium grain",
+    "fact": "GRD-F052"
+   },
+   "3": {
+    "part": "Grade (hardness of bond)",
+    "function": "K = medium grade",
+    "fact": "GRD-F055"
+   },
+   "4": {
+    "part": "Structure (grain spacing)",
+    "function": "5 = fairly dense structure",
+    "fact": "GRD-F060"
+   },
+   "5": {
+    "part": "Bond type",
+    "function": "V = vitrified bond",
+    "fact": "GRD-F062"
+   }
+  },
+  "ask": {
+   "p": "In the wheel marking shown, what does position {L} indicate?",
+   "w": "In the wheel marking, which position gives the {P}?"
+  }
  }
 ]

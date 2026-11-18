@@ -1,0 +1,4575 @@
+[
+ {
+  "id": "GRD-0001",
+  "shop": "grinding",
+  "category": "definitions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Grinding is a machining process in which material is removed by…",
+  "options": [
+   "A reciprocating single-point tool",
+   "Electric sparks",
+   "A rotating abrasive wheel",
+   "A rotating multi-point HSS cutter"
+  ],
+  "answer": 2,
+  "explanation": "A rotating abrasive wheel removes very small amounts of material.",
+  "source": "lab",
+  "ref": "Grinding PPT s.5",
+  "tags": [],
+  "facts": [
+   "GRD-F001"
+  ]
+ },
+ {
+  "id": "GRD-0002",
+  "shop": "grinding",
+  "category": "principle-theory",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "In a grinding wheel, what actually does the cutting?",
+  "options": [
+   "The bond material",
+   "The pores",
+   "The wheel guard",
+   "The abrasive grains, each acting as a tiny cutting edge"
+  ],
+  "answer": 3,
+  "explanation": "Abrasive grains act like thousands of tiny cutting tools; the bond only holds them.",
+  "source": "lab",
+  "ref": "Grinding PPT s.5; Grinding PPT s.13",
+  "tags": [],
+  "facts": [
+   "GRD-F002",
+   "GRD-F042"
+  ]
+ },
+ {
+  "id": "GRD-0003",
+  "shop": "grinding",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Grinding is classed as a finishing process because it…",
+  "options": [
+   "Removes large amounts of material quickly",
+   "Removes small amounts of material to give finish and accuracy",
+   "Joins two parts together",
+   "Adds material to the surface"
+  ],
+  "answer": 1,
+  "explanation": "Machining (turning, milling) does bulk removal (semi-finishing); grinding does small removal (finishing).",
+  "source": "lab",
+  "ref": "Manufacturing notes p.5",
+  "tags": [],
+  "facts": [
+   "GRD-F003"
+  ]
+ },
+ {
+  "id": "GRD-0004",
+  "shop": "grinding",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "sequence",
+  "question": "What is the usual sequence when making a hardened, precise part?",
+  "options": [
+   "Machining → heat treatment (if needed) → grinding",
+   "Machining → grinding → heat treatment",
+   "Heat treatment → grinding → machining",
+   "Grinding → machining → heat treatment"
+  ],
+  "answer": 0,
+  "explanation": "Machining roughs it out, heat treatment hardens it, then grinding finishes it to size (it can cut hardened material).",
+  "source": "lab",
+  "ref": "Grinding Lab slides p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F004"
+  ]
+ },
+ {
+  "id": "GRD-0005",
+  "shop": "grinding",
+  "category": "principle-theory",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Grinding is usually done…",
+  "options": [
+   "Instead of heat treatment",
+   "After turning or milling, when high precision and finish are needed",
+   "Only on soft materials",
+   "Before any other machining"
+  ],
+  "answer": 1,
+  "explanation": "Grinding follows other machining processes when high precision and a smooth finish are required.",
+  "source": "lab",
+  "ref": "Grinding PPT s.5",
+  "tags": [],
+  "facts": [
+   "GRD-F005"
+  ]
+ },
+ {
+  "id": "GRD-0006",
+  "shop": "grinding",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of these is NOT a value-addition process listed in the grinding lecture?",
+  "options": [
+   "Inspection",
+   "Melting and solidification",
+   "Metal addition",
+   "Forming"
+  ],
+  "answer": 0,
+  "explanation": "The four value-addition processes are forming, metal addition, melting and solidification, and metal removal.",
+  "source": "lab",
+  "ref": "Grinding Lab slides p.1",
+  "tags": [],
+  "facts": [
+   "GRD-F006"
+  ]
+ },
+ {
+  "id": "GRD-0007",
+  "shop": "grinding",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Welding belongs to which value-addition group?",
+  "options": [
+   "Forming",
+   "Melting and solidification only",
+   "Metal addition (joining)",
+   "Metal removal"
+  ],
+  "answer": 2,
+  "explanation": "The notes give welding as metal addition, forging as forming, moulding (casting) as melting and solidification, and cutting as metal removal.",
+  "source": "lab",
+  "ref": "Grinding Lab slides p.1",
+  "tags": [],
+  "facts": [
+   "GRD-F006"
+  ]
+ },
+ {
+  "id": "GRD-0008",
+  "shop": "grinding",
+  "category": "principle-theory",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which of these is a metal-removal process?",
+  "options": [
+   "Forging",
+   "Welding",
+   "Casting",
+   "Grinding"
+  ],
+  "answer": 3,
+  "explanation": "Metal-removal processes include turning, shaping, planing, drilling, milling, broaching, gear making, threading and grinding.",
+  "source": "lab",
+  "ref": "Grinding Lab slides p.2",
+  "tags": [],
+  "facts": [
+   "GRD-F007"
+  ]
+ },
+ {
+  "id": "GRD-0009",
+  "shop": "grinding",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In grinding, the abrasive particles are very hard (> 2000 kg/mm²). Cutting speeds are usually…",
+  "options": [
+   "30 m/s or higher",
+   "Below 1 m/s",
+   "About 30 m/min",
+   "About 300 m/s"
+  ],
+  "answer": 0,
+  "explanation": "Chips are very small and cutting speeds high, usually 30 m/s or more.",
+  "source": "lab",
+  "ref": "Cylindrical grinding notes p.1",
+  "tags": [],
+  "facts": [
+   "GRD-F008"
+  ]
+ },
+ {
+  "id": "GRD-0010",
+  "shop": "grinding",
+  "category": "principle-theory",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Grinding is divided into two regimes. They are…",
+  "options": [
+   "Wet grinding and dry grinding",
+   "Stock-removal grinding and form-and-finish grinding",
+   "Hand grinding and machine grinding",
+   "Rough grinding and polishing"
+  ],
+  "answer": 1,
+  "explanation": "The cylindrical-grinding notes divide grinding into stock-removal grinding (SRG) and form-and-finish grinding (FFG).",
+  "source": "lab",
+  "ref": "Cylindrical grinding notes p.1",
+  "tags": [],
+  "facts": [
+   "GRD-F009"
+  ]
+ },
+ {
+  "id": "GRD-0011",
+  "shop": "grinding",
+  "category": "principle-theory",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "In stock-removal grinding (e.g. abrasive cut-off), why is periodic dressing unnecessary?",
+  "options": [
+   "No chips are produced",
+   "The wheel never touches the work",
+   "Wheel wear is so rapid that the wheel is self-sharpening",
+   "The wheel is made of diamond"
+  ],
+  "answer": 2,
+  "explanation": "In SRG the aim is fast removal regardless of finish; wheel wear is so high that fresh grains keep appearing.",
+  "source": "lab",
+  "ref": "Cylindrical grinding notes p.1–2",
+  "tags": [],
+  "facts": [
+   "GRD-F010"
+  ]
+ },
+ {
+  "id": "GRD-0012",
+  "shop": "grinding",
+  "category": "principle-theory",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "In form-and-finish grinding, the wheel must be…",
+  "options": [
+   "Run without coolant",
+   "Never dressed",
+   "Run at low speed only",
+   "Dressed periodically to keep sharp, clean cutting edges"
+  ],
+  "answer": 3,
+  "explanation": "FFG needs good form and finish, so the wheel is dressed periodically to remove wear flats and adhering metal.",
+  "source": "lab",
+  "ref": "Cylindrical grinding notes p.1",
+  "tags": [],
+  "facts": [
+   "GRD-F011"
+  ]
+ },
+ {
+  "id": "GRD-0013",
+  "shop": "grinding",
+  "category": "principle-theory",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "In vertical-spindle surface grinding, grinding is done with the…",
+  "options": [
+   "Face of the wheel",
+   "Periphery of the wheel",
+   "Regulating wheel",
+   "Bore of the wheel"
+  ],
+  "answer": 0,
+  "explanation": "In vertical-spindle surface grinding the work is on a rotary table and grinding takes place on the face of the wheel.",
+  "source": "lab",
+  "ref": "Cylindrical grinding notes p.2",
+  "tags": [],
+  "facts": [
+   "GRD-F012"
+  ]
+ },
+ {
+  "id": "GRD-0014",
+  "shop": "grinding",
+  "category": "definitions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Grinding ratio G is defined as…",
+  "options": [
+   "Volume of wheel wear ÷ volume of work removed",
+   "Volume of work material removed ÷ volume of wheel wear",
+   "Wheel speed ÷ work speed",
+   "Wheel diameter ÷ wheel width"
+  ],
+  "answer": 1,
+  "explanation": "G = V_w / V_s: volume of material removed from the work per unit volume of wheel worn.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.6",
+  "tags": [],
+  "facts": [
+   "GRD-F013"
+  ]
+ },
+ {
+  "id": "GRD-0015",
+  "shop": "grinding",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "For surface grinding a block, the volume of work removed V_w is…",
+  "options": [
+   "π/4 × d × (Di² − Df²)",
+   "π × D × l",
+   "l × b × Δh",
+   "l × b × h"
+  ],
+  "answer": 2,
+  "explanation": "V_w = length × breadth × reduction in height (Δh), as written on the lab board.",
+  "source": "lab",
+  "ref": "Grinding ratio board",
+  "tags": [],
+  "facts": [
+   "GRD-F014"
+  ]
+ },
+ {
+  "id": "GRD-0016",
+  "shop": "grinding",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "The volume of wheel wear V_s is calculated as…",
+  "options": [
+   "π × d × (Di − Df)",
+   "(π/4) × (Di² − Df²)",
+   "(π/4) × d × (Di − Df)²",
+   "(π/4) × d × (Di² − Df²)"
+  ],
+  "answer": 3,
+  "explanation": "The worn volume is the ring between the initial and final diameters times the wheel width d.",
+  "source": "lab",
+  "ref": "Grinding ratio board",
+  "tags": [],
+  "facts": [
+   "GRD-F015"
+  ]
+ },
+ {
+  "id": "GRD-0017",
+  "shop": "grinding",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "A higher grinding ratio means…",
+  "options": [
+   "Lower cutting speed",
+   "A rougher surface finish",
+   "More wheel wear for the same metal removed",
+   "Less wheel wear for the same metal removed"
+  ],
+  "answer": 3,
+  "explanation": "G = V_w/V_s, so a higher G means the wheel lasts longer.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "GRD-F016"
+  ]
+ },
+ {
+  "id": "GRD-0018",
+  "shop": "grinding",
+  "category": "numericals",
+  "difficulty": "medium",
+  "type": "numerical",
+  "question": "A grinding operation removes 6000 mm³ of steel while the wheel loses 300 mm³. What is the grinding ratio?",
+  "options": [
+   "20",
+   "0.05",
+   "200",
+   "5"
+  ],
+  "answer": 0,
+  "explanation": "G = V_w/V_s = 6000/300 = 20. Inverting the ratio gives 0.05.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.6",
+  "tags": [],
+  "facts": [
+   "GRD-F013"
+  ]
+ },
+ {
+  "id": "GRD-0019",
+  "shop": "grinding",
+  "category": "numericals",
+  "difficulty": "hard",
+  "type": "numerical",
+  "question": "A block 100 mm × 50 mm is surface-ground, reducing its height by 2 mm. The wheel (width 20 mm) wears from Ø200 to Ø199.95 mm. What is G (approximately)?",
+  "options": [
+   "≈ 0.03",
+   "≈ 32",
+   "≈ 320",
+   "≈ 25"
+  ],
+  "answer": 1,
+  "explanation": "V_w = 100 × 50 × 2 = 10 000 mm³. V_s = (π/4) × 20 × (200² − 199.95²) = 15.708 × 19.9975 ≈ 314 mm³. G = 10 000/314 ≈ 32. Leaving out π/4 gives ≈ 25.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.6; Grinding ratio board",
+  "tags": [],
+  "facts": [
+   "GRD-F013",
+   "GRD-F014",
+   "GRD-F015"
+  ],
+  "figure": "grinding/grinding-ratio"
+ },
+ {
+  "id": "GRD-0020",
+  "shop": "grinding",
+  "category": "numericals",
+  "difficulty": "medium",
+  "type": "numerical",
+  "question": "In surface grinding, a block 80 mm long and 40 mm wide has its height reduced by 0.5 mm. What volume of work is removed?",
+  "options": [
+   "160 mm³",
+   "120 mm³",
+   "1600 mm³",
+   "3200 mm³"
+  ],
+  "answer": 2,
+  "explanation": "V_w = l × b × Δh = 80 × 40 × 0.5 = 1600 mm³.",
+  "source": "lab",
+  "ref": "Grinding ratio board",
+  "tags": [],
+  "facts": [
+   "GRD-F014"
+  ],
+  "figure": "grinding/grinding-ratio"
+ },
+ {
+  "id": "GRD-0021",
+  "shop": "grinding",
+  "category": "definitions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Specific energy in machining means…",
+  "options": [
+   "Power of the motor",
+   "Energy stored in the wheel",
+   "Energy needed to remove a unit volume (1 mm³) of material",
+   "Energy lost in the coolant"
+  ],
+  "answer": 2,
+  "explanation": "Specific energy is the energy required to remove 1 mm³ of material.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.6",
+  "tags": [],
+  "facts": [
+   "GRD-F017"
+  ]
+ },
+ {
+  "id": "GRD-0022",
+  "shop": "grinding",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "How does the specific energy of grinding compare with conventional machining?",
+  "options": [
+   "About the same",
+   "Much higher (≈ 15–50 J/mm³ vs ≈ 2–5 J/mm³)",
+   "Zero, because grains are self-sharpening",
+   "Much lower"
+  ],
+  "answer": 1,
+  "explanation": "The lab notes give 15–50 J/mm³ for grinding vs 2–5 J/mm³ for normal machining.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.6",
+  "tags": [],
+  "facts": [
+   "GRD-F018"
+  ]
+ },
+ {
+  "id": "GRD-0023",
+  "shop": "grinding",
+  "category": "principle-theory",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Why is the specific energy of grinding so high?",
+  "options": [
+   "The work is always hardened",
+   "The wheel rotates slowly",
+   "Only one grain cuts at a time",
+   "Very small chips, negative rake grains, rubbing and ploughing"
+  ],
+  "answer": 3,
+  "explanation": "Most grains have large negative rake and many only rub or plough, so most energy turns into heat. That is why coolant is essential.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "GRD-F019"
+  ]
+ },
+ {
+  "id": "GRD-0024",
+  "shop": "grinding",
+  "category": "numericals",
+  "difficulty": "hard",
+  "type": "numerical",
+  "question": "Grinding steel at a removal rate of 100 mm³/s with a specific energy of 30 J/mm³ needs a power of about…",
+  "options": [
+   "3 kW",
+   "30 kW",
+   "0.3 kW",
+   "3.33 W"
+  ],
+  "answer": 0,
+  "explanation": "Power = specific energy × removal rate = 30 J/mm³ × 100 mm³/s = 3000 W = 3 kW.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.6",
+  "tags": [],
+  "facts": [
+   "GRD-F017",
+   "GRD-F018"
+  ]
+ },
+ {
+  "id": "GRD-0025",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Conventional grinding machines are broadly classified as…",
+  "options": [
+   "Up, down and climb grinders",
+   "Horizontal, vertical and universal shapers",
+   "Capstan, turret and engine grinders",
+   "Surface, cylindrical and internal grinders"
+  ],
+  "answer": 3,
+  "explanation": "The grinding lecture classifies machines as surface, cylindrical and internal (plus tool-and-cutter and centreless).",
+  "source": "lab",
+  "ref": "Grinding Lab slides p.3",
+  "tags": [],
+  "facts": [
+   "GRD-F020"
+  ]
+ },
+ {
+  "id": "GRD-0026",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "A surface grinding machine is used to finish…",
+  "options": [
+   "Internal bores",
+   "External cylindrical surfaces",
+   "Flat surfaces",
+   "Long slender rods without centres"
+  ],
+  "answer": 2,
+  "explanation": "Surface grinding produces flat surfaces.",
+  "source": "lab",
+  "ref": "Grinding slides p.2–3",
+  "tags": [],
+  "facts": [
+   "GRD-F021"
+  ]
+ },
+ {
+  "id": "GRD-0027",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Surface grinders are of two general types according to the table. They are…",
+  "options": [
+   "Knee-type and bed-type",
+   "Reciprocating-table and rotating-table",
+   "Fixed-table and magnetic-table",
+   "Push-type and draw-type"
+  ],
+  "answer": 1,
+  "explanation": "Surface grinders have a reciprocating table or a rotating table, each with a horizontal or vertical spindle.",
+  "source": "lab",
+  "ref": "Grinding slides p.3",
+  "tags": [],
+  "facts": [
+   "GRD-F022"
+  ]
+ },
+ {
+  "id": "GRD-0028",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In a horizontal-spindle surface grinder, the depth of cut is set by…",
+  "options": [
+   "Moving the wheel head down",
+   "Rotating the work",
+   "Tilting the column",
+   "Moving the table sideways"
+  ],
+  "answer": 0,
+  "explanation": "The table moves back and forth; the wheel above is moved vertically to set the depth of cut.",
+  "source": "lab",
+  "ref": "Grinding PPT s.9",
+  "tags": [],
+  "facts": [
+   "GRD-F023"
+  ]
+ },
+ {
+  "id": "GRD-0029",
+  "shop": "grinding",
+  "category": "applications",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which is a typical application of surface grinding?",
+  "options": [
+   "Sharpening drills",
+   "Finishing crankshafts",
+   "Finishing machine beds, flat tools, gauges and dies",
+   "Grinding long pins without centres"
+  ],
+  "answer": 2,
+  "explanation": "Surface grinding finishes flat items such as machine beds, gauges and dies.",
+  "source": "lab",
+  "ref": "Grinding PPT s.9",
+  "tags": [],
+  "facts": [
+   "GRD-F025"
+  ]
+ },
+ {
+  "id": "GRD-0030",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "A cylindrical grinding machine is used to finish…",
+  "options": [
+   "Flat surfaces only",
+   "Gear teeth",
+   "T-slots",
+   "External cylindrical surfaces"
+  ],
+  "answer": 3,
+  "explanation": "It grinds external cylindrical surfaces, which may be straight, tapered, stepped or profiled.",
+  "source": "lab",
+  "ref": "Cylindrical grinding notes p.3",
+  "tags": [],
+  "facts": [
+   "GRD-F026"
+  ]
+ },
+ {
+  "id": "GRD-0031",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In cylindrical grinding the work is held between centres (or in a chuck), and…",
+  "options": [
+   "The wheel rotates fast while the work rotates slowly",
+   "The work rotates fast while the wheel is stationary",
+   "Only the table rotates",
+   "Neither rotates"
+  ],
+  "answer": 0,
+  "explanation": "The wheel runs at high speed and the work rotates slowly.",
+  "source": "lab",
+  "ref": "Grinding PPT s.10",
+  "tags": [],
+  "facts": [
+   "GRD-F027"
+  ]
+ },
+ {
+  "id": "GRD-0032",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "In a cylindrical grinder, which part is reciprocated (often by a hydraulic drive) to traverse the work past the wheel?",
+  "options": [
+   "The magnetic chuck",
+   "The table carrying the headstock and tailstock",
+   "The regulating wheel",
+   "The wheel head only"
+  ],
+  "answer": 1,
+  "explanation": "The table carrying the headstock, tailstock and work is reciprocated by a hydraulic drive.",
+  "source": "lab",
+  "ref": "Grinding slides p.4",
+  "tags": [],
+  "facts": [
+   "GRD-F028"
+  ]
+ },
+ {
+  "id": "GRD-0033",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "On a cylindrical grinder, the adjustable table dogs are used to…",
+  "options": [
+   "Set the limits (reversal points) of the table traverse",
+   "Balance the wheel",
+   "Hold the work between centres",
+   "Dress the wheel"
+  ],
+  "answer": 0,
+  "explanation": "The dogs on the table trip the reversing mechanism at the ends of the traverse.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.10",
+  "tags": [],
+  "facts": [
+   "GRD-F030"
+  ]
+ },
+ {
+  "id": "GRD-0034",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of these is NOT a part of a cylindrical grinder (from the ME-106 notes)?",
+  "options": [
+   "Headstock (work head)",
+   "Upper table",
+   "Adjustable dogs",
+   "Clapper box"
+  ],
+  "answer": 3,
+  "explanation": "The notes show headstock, workpiece, wheel, tailstock, upper and lower tables, adjustable dogs and base. The clapper box is on a shaper.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.10",
+  "tags": [],
+  "facts": [
+   "GRD-F029"
+  ]
+ },
+ {
+  "id": "GRD-0035",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "A plain centre-type cylindrical grinder is most similar in layout to a…",
+  "options": [
+   "Drilling machine",
+   "Centre lathe",
+   "Shaper",
+   "Milling machine"
+  ],
+  "answer": 1,
+  "explanation": "The work is held between headstock and tailstock centres, much like on a centre lathe, and the disc wheel grinds with its periphery.",
+  "source": "lab",
+  "ref": "Cylindrical grinding notes p.4",
+  "tags": [],
+  "facts": [
+   "GRD-F031"
+  ]
+ },
+ {
+  "id": "GRD-0036",
+  "shop": "grinding",
+  "category": "operations",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In plunge grinding…",
+  "options": [
+   "The work is supported on a rest blade",
+   "The wheel face is used",
+   "The wheel is fed straight in without traverse",
+   "The work traverses past the wheel"
+  ],
+  "answer": 2,
+  "explanation": "Traverse grinding moves the work past the wheel; plunge grinding feeds the wheel straight in.",
+  "source": "lab",
+  "ref": "Cylindrical grinding notes p.4",
+  "tags": [],
+  "facts": [
+   "GRD-F032"
+  ]
+ },
+ {
+  "id": "GRD-0037",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "What extra capability does a universal cylindrical grinder have over a plain one?",
+  "options": [
+   "A regulating wheel",
+   "Swivelling table, headstock and wheel head, plus an internal grinding attachment",
+   "A ram and clapper box",
+   "A magnetic chuck"
+  ],
+  "answer": 1,
+  "explanation": "The universal grinder can grind any taper and has an additional head for internal grinding.",
+  "source": "lab",
+  "ref": "Cylindrical grinding notes p.4",
+  "tags": [],
+  "facts": [
+   "GRD-F033"
+  ]
+ },
+ {
+  "id": "GRD-0038",
+  "shop": "grinding",
+  "category": "applications",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Cylindrical grinding is typically used for…",
+  "options": [
+   "Flat gauges and dies",
+   "Sheet-metal cutting",
+   "Machine table T-slots",
+   "Shafts, rollers and precision bearings"
+  ],
+  "answer": 3,
+  "explanation": "Shafts, rollers and bearing races are ground on cylindrical grinders.",
+  "source": "lab",
+  "ref": "Grinding PPT s.10",
+  "tags": [],
+  "facts": [
+   "GRD-F034"
+  ]
+ },
+ {
+  "id": "GRD-0039",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Internal grinding is used to finish…",
+  "options": [
+   "Threads on bolts",
+   "Flat surfaces",
+   "The inside diameter (bore) of cylindrical work",
+   "Gear teeth"
+  ],
+  "answer": 2,
+  "explanation": "Internal grinding finishes bores with a small wheel running inside the hole.",
+  "source": "lab",
+  "ref": "Grinding slides p.2",
+  "tags": [],
+  "facts": [
+   "GRD-F035"
+  ]
+ },
+ {
+  "id": "GRD-0040",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In centreless grinding, the work is supported by…",
+  "options": [
+   "A work-rest blade between the grinding and regulating wheels",
+   "A magnetic chuck",
+   "A three-jaw chuck",
+   "Two centres"
+  ],
+  "answer": 0,
+  "explanation": "No centres are used; the work rests on a blade and is controlled by the regulating wheel.",
+  "source": "lab",
+  "ref": "Cylindrical grinding notes p.5",
+  "tags": [],
+  "facts": [
+   "GRD-F036"
+  ]
+ },
+ {
+  "id": "GRD-0041",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In centreless grinding, the regulating wheel…",
+  "options": [
+   "Rotates faster than the grinding wheel",
+   "Rotates slower than the grinding wheel and controls the work rotation",
+   "Is a diamond dresser",
+   "Does the actual grinding"
+  ],
+  "answer": 1,
+  "explanation": "The rubber-bonded regulating wheel turns slowly and controls the speed of the work. Both wheels turn in the same direction.",
+  "source": "lab",
+  "ref": "Grinding slides p.5",
+  "tags": [],
+  "facts": [
+   "GRD-F037"
+  ]
+ },
+ {
+  "id": "GRD-0042",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "In through-feed centreless grinding, how is the axial movement of the work produced?",
+  "options": [
+   "By a reciprocating table",
+   "By a lead screw",
+   "By tilting the regulating wheel at a small angle",
+   "By the magnetic chuck"
+  ],
+  "answer": 2,
+  "explanation": "A slight tilt of the regulating wheel gives an axial component that feeds the work through.",
+  "source": "lab",
+  "ref": "Grinding slides p.5",
+  "tags": [],
+  "facts": [
+   "GRD-F038"
+  ]
+ },
+ {
+  "id": "GRD-0043",
+  "shop": "grinding",
+  "category": "applications",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Centreless grinding is best suited for…",
+  "options": [
+   "Large gear teeth",
+   "Cutting tool sharpening",
+   "Single flat plates",
+   "High-volume grinding of long slender rods and pins"
+  ],
+  "answer": 3,
+  "explanation": "It needs no centres or clamping, so it suits mass production of rods, pins and valve spools.",
+  "source": "lab",
+  "ref": "Grinding slides p.2",
+  "tags": [],
+  "facts": [
+   "GRD-F039"
+  ]
+ },
+ {
+  "id": "GRD-0044",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which grinder is used to sharpen drills, milling cutters and gear cutters?",
+  "options": [
+   "Tool-and-cutter grinder",
+   "Surface grinder",
+   "Centreless grinder",
+   "Internal grinder"
+  ],
+  "answer": 0,
+  "explanation": "Tool-and-cutter grinders sharpen and recondition cutting tools.",
+  "source": "lab",
+  "ref": "Grinding PPT s.12",
+  "tags": [],
+  "facts": [
+   "GRD-F040"
+  ]
+ },
+ {
+  "id": "GRD-0045",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "A tool-post grinder is…",
+  "options": [
+   "A hand grinder",
+   "A cylindrical grinder with a tool post",
+   "A self-powered wheel head mounted on a lathe tool post",
+   "A grinder for the shaper tool post"
+  ],
+  "answer": 2,
+  "explanation": "It mounts on the lathe compound rest; the lathe spindle rotates the work and the carriage traverses the wheel.",
+  "source": "lab",
+  "ref": "Cylindrical grinding notes p.5",
+  "tags": [],
+  "facts": [
+   "GRD-F041"
+  ]
+ },
+ {
+  "id": "GRD-0046",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which three things make up a grinding wheel?",
+  "options": [
+   "Shank, face and flank",
+   "Abrasive grains, bond and pores",
+   "Anode, cathode and electrolyte",
+   "Teeth, flutes and shank"
+  ],
+  "answer": 1,
+  "explanation": "Grains cut, the bond holds them, and pores carry chips away and let coolant flow.",
+  "source": "lab",
+  "ref": "Grinding PPT s.13",
+  "tags": [],
+  "facts": [
+   "GRD-F042"
+  ]
+ },
+ {
+  "id": "GRD-0047",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "What is the correct order of a standard grinding-wheel marking?",
+  "options": [
+   "Abrasive – grain size – grade – structure – bond",
+   "Grain size – abrasive – bond – grade – structure",
+   "Structure – bond – grade – grain size – abrasive",
+   "Bond – grade – abrasive – structure – grain size"
+  ],
+  "answer": 0,
+  "explanation": "The standard order is abrasive, grain size, grade, structure, bond (with optional manufacturer's symbols before and after).",
+  "source": "lab",
+  "ref": "Manufacturing notes p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F043"
+  ]
+ },
+ {
+  "id": "GRD-0048",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Decode the wheel marking A 46 K 5 V.",
+  "options": [
+   "SiC, fine grain, hard grade, open structure, resinoid bond",
+   "Al₂O₃, coarse grain, soft grade, open structure, rubber bond",
+   "Diamond, medium grain, medium grade, dense structure, metal bond",
+   "Al₂O₃, medium grain, medium grade, structure 5, vitrified bond"
+  ],
+  "answer": 3,
+  "explanation": "A = aluminium oxide; 46 = medium grit; K = medium grade; 5 = structure number; V = vitrified bond.",
+  "source": "lab",
+  "ref": "Grinding slides p.12",
+  "tags": [],
+  "facts": [
+   "GRD-F044"
+  ]
+ },
+ {
+  "id": "GRD-0049",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "In the marking 51 A 60 K 5 V 05, what do \"51\" and \"05\" represent?",
+  "options": [
+   "Wheel diameter and bore",
+   "Structure and grade",
+   "Manufacturer's abrasive symbol and manufacturer's record (identifier)",
+   "Maximum speed and grit size"
+  ],
+  "answer": 2,
+  "explanation": "The prefix is the manufacturer's mark for the exact abrasive type; the suffix is the manufacturer's identifier.",
+  "source": "lab",
+  "ref": "Grinding Lab slides p.9",
+  "tags": [],
+  "facts": [
+   "GRD-F045"
+  ]
+ },
+ {
+  "id": "GRD-0050",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "The size of a grinding wheel is specified in the order…",
+  "options": [
+   "Diameter × thickness × bore",
+   "Diameter × grade × structure",
+   "Bore × diameter × grit",
+   "Thickness × grade × bond"
+  ],
+  "answer": 0,
+  "explanation": "Wheel size is given as diameter × thickness × bore (e.g. 200 × 25 × 31.75).",
+  "source": "lab",
+  "ref": "Cylindrical grinding notes p.2",
+  "tags": [],
+  "facts": [
+   "GRD-F046"
+  ]
+ },
+ {
+  "id": "GRD-0051",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "In grinding wheel marking, the letter C stands for…",
+  "options": [
+   "Carbon steel",
+   "Silicon carbide",
+   "Cubic boron nitride",
+   "Ceramic bond"
+  ],
+  "answer": 1,
+  "explanation": "A = aluminium oxide, C = silicon carbide, D = diamond; CBN has its own symbol. (The notebook wrongly put CBN under C.)",
+  "source": "lab",
+  "ref": "Manufacturing notes p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F047"
+  ]
+ },
+ {
+  "id": "GRD-0052",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "In grinding wheel marking, the letter A stands for…",
+  "options": [
+   "Abrasive of any type",
+   "Acid-resistant bond",
+   "Aluminium metal",
+   "Aluminium oxide (alumina)"
+  ],
+  "answer": 3,
+  "explanation": "A = aluminium oxide, the most widely used abrasive.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F047"
+  ]
+ },
+ {
+  "id": "GRD-0053",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which abrasive is generally used for grinding steels and other high-tensile ferrous metals?",
+  "options": [
+   "Aluminium oxide",
+   "Boron carbide",
+   "Diamond",
+   "Silicon carbide"
+  ],
+  "answer": 0,
+  "explanation": "Alumina is the most widely used abrasive, for steels, ferrous alloys and high-tensile materials.",
+  "source": "lab",
+  "ref": "Cylindrical grinding notes p.3",
+  "tags": [],
+  "facts": [
+   "GRD-F048"
+  ]
+ },
+ {
+  "id": "GRD-0054",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which abrasive is generally used for grinding cast iron and non-ferrous metals?",
+  "options": [
+   "Cubic boron nitride",
+   "Zirconia–alumina",
+   "Aluminium oxide",
+   "Silicon carbide"
+  ],
+  "answer": 3,
+  "explanation": "SiC is used for cast iron, non-ferrous metals and non-metals (low-tensile, brittle materials).",
+  "source": "lab",
+  "ref": "Cylindrical grinding notes p.3",
+  "tags": [],
+  "facts": [
+   "GRD-F049"
+  ]
+ },
+ {
+  "id": "GRD-0055",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Diamond abrasive wheels are mainly used for…",
+  "options": [
+   "Soft aluminium",
+   "Wood",
+   "Very hard materials like carbides and ceramics",
+   "Mild steel shafts"
+  ],
+  "answer": 2,
+  "explanation": "Diamond is used for ceramics, carbides and final polishing, but it is costly.",
+  "source": "lab",
+  "ref": "Cylindrical grinding notes p.3",
+  "tags": [],
+  "facts": [
+   "GRD-F050"
+  ]
+ },
+ {
+  "id": "GRD-0056",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Which abrasive is preferred for grinding hardened tool steels?",
+  "options": [
+   "Diamond",
+   "Cubic boron nitride (CBN)",
+   "Emery",
+   "Silicon carbide"
+  ],
+  "answer": 1,
+  "explanation": "CBN is a superabrasive suited to very hard ferrous materials such as hardened tool steels (diamond reacts with iron at high temperature).",
+  "source": "lab",
+  "ref": "Grinding slides p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F051"
+  ]
+ },
+ {
+  "id": "GRD-0057",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "The grain (grit) size number of a grinding wheel is based on…",
+  "options": [
+   "Weight of each grain in mg",
+   "Diameter of the wheel",
+   "Number of openings per linear inch of the sieve",
+   "Hardness of the bond"
+  ],
+  "answer": 2,
+  "explanation": "Grit number = sieve openings per linear inch; grains passing a finer sieve get a larger number.",
+  "source": "lab",
+  "ref": "Grinding slides p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F052"
+  ]
+ },
+ {
+  "id": "GRD-0058",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "A larger grit number on a grinding wheel means…",
+  "options": [
+   "Coarser grains",
+   "A harder bond",
+   "A more open structure",
+   "Finer grains"
+  ],
+  "answer": 3,
+  "explanation": "Larger number = finer grain size.",
+  "source": "lab",
+  "ref": "Grinding slides p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F052"
+  ]
+ },
+ {
+  "id": "GRD-0059",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "A wheel of grit size 24 is classed as…",
+  "options": [
+   "Very fine",
+   "Coarse",
+   "Fine",
+   "Medium"
+  ],
+  "answer": 1,
+  "explanation": "Grit 24 is coarse in all the lab sources.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F053"
+  ]
+ },
+ {
+  "id": "GRD-0060",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "A wheel of grit size 60 is classed as…",
+  "options": [
+   "Medium",
+   "Very fine",
+   "Coarse",
+   "Fine"
+  ],
+  "answer": 0,
+  "explanation": "Grit 60 is medium in all the lab sources.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F053"
+  ]
+ },
+ {
+  "id": "GRD-0061",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "A wheel of grit size 180 is classed as…",
+  "options": [
+   "Medium",
+   "Fine",
+   "Very coarse",
+   "Coarse"
+  ],
+  "answer": 1,
+  "explanation": "Grit 180 is fine in all the lab sources.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F053"
+  ]
+ },
+ {
+  "id": "GRD-0062",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "A wheel of grit size 400 is classed as…",
+  "options": [
+   "Coarse",
+   "Fine",
+   "Medium",
+   "Very fine"
+  ],
+  "answer": 3,
+  "explanation": "Grit 400 is very fine.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F053"
+  ]
+ },
+ {
+  "id": "GRD-0063",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "For precision finish grinding, which grain size would you choose?",
+  "options": [
+   "Fine",
+   "It does not matter",
+   "Coarse",
+   "Very coarse"
+  ],
+  "answer": 0,
+  "explanation": "Fine and very fine grains are used for precision grinding; coarse and medium for rough grinding.",
+  "source": "lab",
+  "ref": "Grinding slides p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F054"
+  ]
+ },
+ {
+  "id": "GRD-0064",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "The \"grade\" of a grinding wheel refers to…",
+  "options": [
+   "Hardness of the abrasive grains",
+   "Spacing between the grains",
+   "Strength (hardness) of the bond holding the grains",
+   "Size of the grains"
+  ],
+  "answer": 2,
+  "explanation": "Grade is the bond strength: how easily grains are released. It is not the hardness of the abrasive itself.",
+  "source": "lab",
+  "ref": "Grinding slides p.9",
+  "tags": [],
+  "facts": [
+   "GRD-F055"
+  ]
+ },
+ {
+  "id": "GRD-0065",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Grade letter E indicates a…",
+  "options": [
+   "Hard wheel",
+   "Very fine wheel",
+   "Medium wheel",
+   "Soft wheel"
+  ],
+  "answer": 3,
+  "explanation": "E is soft in every scale used in the lab sources.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F056"
+  ]
+ },
+ {
+  "id": "GRD-0066",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Grade letter K indicates a…",
+  "options": [
+   "Hard wheel",
+   "Soft wheel",
+   "Medium wheel",
+   "Very hard wheel"
+  ],
+  "answer": 2,
+  "explanation": "K is medium grade.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F056"
+  ]
+ },
+ {
+  "id": "GRD-0067",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Grade letter T indicates a…",
+  "options": [
+   "Soft wheel",
+   "Hard wheel",
+   "Fine wheel",
+   "Medium wheel"
+  ],
+  "answer": 1,
+  "explanation": "Grades Q–Z are hard (T falls well inside the hard range).",
+  "source": "lab",
+  "ref": "Manufacturing notes p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F056"
+  ]
+ },
+ {
+  "id": "GRD-0068",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "For grinding a HARD workpiece material, which grade of wheel is used?",
+  "options": [
+   "Soft grade",
+   "Any grade",
+   "Very hard grade",
+   "Hard grade"
+  ],
+  "answer": 0,
+  "explanation": "Soft wheel for hard work, hard wheel for soft work.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F057"
+  ]
+ },
+ {
+  "id": "GRD-0069",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "For grinding a SOFT workpiece material, which grade of wheel is used?",
+  "options": [
+   "Any grade",
+   "Soft grade",
+   "Very soft grade",
+   "Hard grade"
+  ],
+  "answer": 3,
+  "explanation": "Hard wheel for soft work: the grains stay sharp longer on soft material, so a strong bond keeps them in place.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F057"
+  ]
+ },
+ {
+  "id": "GRD-0070",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Why is a soft-grade wheel used on hard work?",
+  "options": [
+   "Grains blunt quickly, so a weak bond releases them and exposes sharp grains",
+   "Soft wheels produce no heat",
+   "A soft wheel cuts faster on any material",
+   "Hard work needs a smoother wheel"
+  ],
+  "answer": 0,
+  "explanation": "On hard work, grains dull quickly. A soft bond lets them break out (self-sharpening) instead of glazing.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "GRD-F058"
+  ]
+ },
+ {
+  "id": "GRD-0071",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Which factor is NOT considered when selecting the grade of a grinding wheel?",
+  "options": [
+   "Hardness of the work material",
+   "Colour of the wheel",
+   "Grinding speed",
+   "Area of contact with the work"
+  ],
+  "answer": 1,
+  "explanation": "Grade selection depends on work hardness, grinding speed, contact area and machine capability.",
+  "source": "lab",
+  "ref": "Grinding slides p.9",
+  "tags": [],
+  "facts": [
+   "GRD-F059"
+  ]
+ },
+ {
+  "id": "GRD-0072",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "The \"structure\" of a grinding wheel refers to…",
+  "options": [
+   "Type of abrasive",
+   "Strength of the bond",
+   "Spacing (porosity) between abrasive grains",
+   "Diameter of the wheel"
+  ],
+  "answer": 2,
+  "explanation": "Structure is how closely the grains are packed; it is shown by a number.",
+  "source": "lab",
+  "ref": "Grinding slides p.10",
+  "tags": [],
+  "facts": [
+   "GRD-F060"
+  ]
+ },
+ {
+  "id": "GRD-0073",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "A higher structure number on a grinding wheel means…",
+  "options": [
+   "Finer grains",
+   "A denser structure",
+   "A more open structure (wider grain spacing)",
+   "A harder bond"
+  ],
+  "answer": 2,
+  "explanation": "Low number = dense; high number = open. (The notebook had this reversed; see corrections.md.)",
+  "source": "lab",
+  "ref": "Grinding slides p.10",
+  "tags": [],
+  "facts": [
+   "GRD-F060"
+  ]
+ },
+ {
+  "id": "GRD-0074",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Structure number 3 indicates a…",
+  "options": [
+   "Dense wheel",
+   "Open wheel",
+   "Coarse wheel",
+   "Soft wheel"
+  ],
+  "answer": 0,
+  "explanation": "Low structure numbers are dense in all sources.",
+  "source": "lab",
+  "ref": "Grinding slides p.10",
+  "tags": [],
+  "facts": [
+   "GRD-F060"
+  ]
+ },
+ {
+  "id": "GRD-0075",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Structure number 12 indicates a…",
+  "options": [
+   "Dense wheel",
+   "Open wheel",
+   "Fine wheel",
+   "Hard wheel"
+  ],
+  "answer": 1,
+  "explanation": "High structure numbers are open.",
+  "source": "lab",
+  "ref": "Grinding slides p.10",
+  "tags": [],
+  "facts": [
+   "GRD-F060"
+  ]
+ },
+ {
+  "id": "GRD-0076",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "An open-structure wheel is recommended for…",
+  "options": [
+   "Hard, brittle materials and fine finish",
+   "Polishing glass",
+   "Diamond dressing",
+   "Rough grinding and soft, ductile materials"
+  ],
+  "answer": 3,
+  "explanation": "Open wheels have room for large chips (less loading). Dense wheels suit hard, brittle materials and fine finish.",
+  "source": "lab",
+  "ref": "Grinding slides p.10",
+  "tags": [],
+  "facts": [
+   "GRD-F061"
+  ]
+ },
+ {
+  "id": "GRD-0077",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "In a grinding wheel, the bond…",
+  "options": [
+   "Does the cutting",
+   "Holds the abrasive grains together in wheel form",
+   "Is the dresser",
+   "Is the coolant"
+  ],
+  "answer": 1,
+  "explanation": "The bond is the adhesive that holds the grains together.",
+  "source": "lab",
+  "ref": "Grinding slides p.11",
+  "tags": [],
+  "facts": [
+   "GRD-F062"
+  ]
+ },
+ {
+  "id": "GRD-0078",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Bond letter V in a wheel marking stands for…",
+  "options": [
+   "Vacuum-brazed metal",
+   "Very hard",
+   "Vitrified",
+   "Vulcanised rubber"
+  ],
+  "answer": 2,
+  "explanation": "V = vitrified, the most common bond.",
+  "source": "lab",
+  "ref": "Grinding slides p.11",
+  "tags": [],
+  "facts": [
+   "GRD-F063"
+  ]
+ },
+ {
+  "id": "GRD-0079",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Bond letter B in a wheel marking stands for…",
+  "options": [
+   "Boron",
+   "Bakelite-free rubber",
+   "Brass",
+   "Resinoid"
+  ],
+  "answer": 3,
+  "explanation": "B = resinoid (resin), R = rubber, E = shellac, S = silicate, M = metal, V = vitrified.",
+  "source": "lab",
+  "ref": "Grinding slides p.11",
+  "tags": [],
+  "facts": [
+   "GRD-F063"
+  ]
+ },
+ {
+  "id": "GRD-0080",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which pairing of bond letter and bond is correct?",
+  "options": [
+   "E – shellac",
+   "S – shellac",
+   "M – rubber",
+   "R – resinoid"
+  ],
+  "answer": 0,
+  "explanation": "E = shellac, R = rubber, S = silicate, M = metal, B = resinoid.",
+  "source": "lab",
+  "ref": "Grinding slides p.11",
+  "tags": [],
+  "facts": [
+   "GRD-F063"
+  ]
+ },
+ {
+  "id": "GRD-0081",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Why is vitrified bond the most widely used?",
+  "options": [
+   "It is the cheapest rubber",
+   "It melts during use to self-sharpen",
+   "It is flexible for thin cut-off wheels",
+   "Strong, rigid, porous, and unaffected by water, oil and acids"
+  ],
+  "answer": 3,
+  "explanation": "Vitrified (glass-like) bonds are strong and porous and resist coolants.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "GRD-F064"
+  ]
+ },
+ {
+  "id": "GRD-0082",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Which bond is used for the regulating wheel of a centreless grinder?",
+  "options": [
+   "Shellac (E)",
+   "Rubber (R)",
+   "Silicate (S)",
+   "Vitrified (V)"
+  ],
+  "answer": 1,
+  "explanation": "The regulating wheel is rubber-bonded, which gives it enough friction to control the work.",
+  "source": "lab",
+  "ref": "Grinding slides p.5",
+  "tags": [],
+  "facts": [
+   "GRD-F065",
+   "GRD-F037"
+  ]
+ },
+ {
+  "id": "GRD-0083",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Thin, high-speed abrasive cut-off wheels are usually made with which bond?",
+  "options": [
+   "Oxychloride",
+   "Silicate",
+   "Resinoid (or rubber)",
+   "Vitrified"
+  ],
+  "answer": 2,
+  "explanation": "Resinoid and rubber bonds are tough and slightly flexible, which suits thin cut-off wheels and high speeds.",
+  "source": "lab",
+  "ref": "Grinding slides p.5",
+  "tags": [],
+  "facts": [
+   "GRD-F065"
+  ]
+ },
+ {
+  "id": "GRD-0084",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In the notebook example \"A 85 I 5 V\", what do A and V denote?",
+  "options": [
+   "Aluminium oxide abrasive and vitrified bond",
+   "Silicon carbide abrasive and resinoid bond",
+   "Diamond abrasive and vitrified bond",
+   "Aluminium oxide abrasive and rubber bond"
+  ],
+  "answer": 0,
+  "explanation": "A = aluminium oxide, V = vitrified. 85 is a fine grit and 5 is the structure number.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F066"
+  ]
+ },
+ {
+  "id": "GRD-0085",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In the notebook example \"C 32 _ 8 B\", what are the abrasive and bond?",
+  "options": [
+   "CBN and resinoid",
+   "Silicon carbide and resinoid",
+   "Silicon carbide and rubber",
+   "Aluminium oxide and vitrified"
+  ],
+  "answer": 1,
+  "explanation": "C = silicon carbide; B = resinoid. (The grade letter is illegible in the notes.)",
+  "source": "lab",
+  "ref": "Manufacturing notes p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F067"
+  ]
+ },
+ {
+  "id": "GRD-0086",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Decode the wheel marking C 60 K 12 B.",
+  "options": [
+   "SiC, coarse grain, soft grade, dense structure, vitrified bond",
+   "CBN, medium grain, medium grade, open structure, metal bond",
+   "Al₂O₃, fine grain, hard grade, dense structure, rubber bond",
+   "SiC, medium grain, medium grade, open structure, resinoid bond"
+  ],
+  "answer": 3,
+  "explanation": "C = silicon carbide; 60 = medium grit; K = medium grade; 12 = open structure; B = resinoid bond.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.7; Grinding slides p.10",
+  "tags": [],
+  "facts": [
+   "GRD-F047",
+   "GRD-F053",
+   "GRD-F056",
+   "GRD-F060",
+   "GRD-F063"
+  ]
+ },
+ {
+  "id": "GRD-0087",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Which marking would suit finish-grinding hardened steel?",
+  "options": [
+   "A 180 E 3 V",
+   "C 24 E 12 R",
+   "C 24 T 12 B",
+   "A 24 T 12 B"
+  ],
+  "answer": 0,
+  "explanation": "Steel → aluminium oxide (A); finish → fine grit (180); hard work → soft grade (E); dense structure (3) for a fine finish; vitrified bond.",
+  "source": "lab",
+  "ref": "Cylindrical grinding notes p.3; Grinding slides p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F048",
+   "GRD-F054",
+   "GRD-F057",
+   "GRD-F061"
+  ]
+ },
+ {
+  "id": "GRD-0088",
+  "shop": "grinding",
+  "category": "definitions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Dressing a grinding wheel means…",
+  "options": [
+   "Balancing the wheel on an arbor",
+   "Changing the bond type",
+   "Removing the dull outer layer to expose fresh sharp grains",
+   "Painting the wheel marking"
+  ],
+  "answer": 2,
+  "explanation": "Dressing sharpens the wheel by removing dull grains and embedded chips with a dresser.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F068"
+  ]
+ },
+ {
+  "id": "GRD-0089",
+  "shop": "grinding",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Truing a grinding wheel means…",
+  "options": [
+   "Removing glazing only",
+   "Restoring its correct shape so it runs concentric",
+   "Checking it for cracks",
+   "Sharpening its grains"
+  ],
+  "answer": 1,
+  "explanation": "Truing makes the wheel round and true to its axis (usually with a diamond); dressing sharpens it.",
+  "source": "lab",
+  "ref": "Grinding PPT s.17",
+  "tags": [],
+  "facts": [
+   "GRD-F069"
+  ]
+ },
+ {
+  "id": "GRD-0090",
+  "shop": "grinding",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Glazing of a grinding wheel is…",
+  "options": [
+   "Grains becoming blunt so the wheel surface turns smooth and shiny",
+   "The wheel cracking",
+   "The bond softening",
+   "Metal chips filling the pores"
+  ],
+  "answer": 0,
+  "explanation": "A glazed wheel has dull, shiny grains that rub instead of cut.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.8–9",
+  "tags": [],
+  "facts": [
+   "GRD-F070"
+  ]
+ },
+ {
+  "id": "GRD-0091",
+  "shop": "grinding",
+  "category": "definitions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "How can you identify a blunt (glazed) grinding wheel?",
+  "options": [
+   "It becomes larger in diameter",
+   "It sparks less brightly only",
+   "Its surface looks shiny and smooth",
+   "It turns red"
+  ],
+  "answer": 2,
+  "explanation": "The notes: a blunt wheel shows a shiny, smooth abrasive surface.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.9",
+  "tags": [],
+  "facts": [
+   "GRD-F071"
+  ]
+ },
+ {
+  "id": "GRD-0092",
+  "shop": "grinding",
+  "category": "definitions",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Glazing is most likely when…",
+  "options": [
+   "The wheel grade is too soft",
+   "The coolant flow is excessive",
+   "The grit is too coarse",
+   "The wheel grade is too hard for the work"
+  ],
+  "answer": 3,
+  "explanation": "A hard bond holds blunt grains too long, so they glaze. The remedy is to dress the wheel or use a softer grade.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "GRD-F072"
+  ]
+ },
+ {
+  "id": "GRD-0093",
+  "shop": "grinding",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Loading of a grinding wheel means…",
+  "options": [
+   "The wheel is overloaded electrically",
+   "The wheel surface becomes shiny from dull grains",
+   "Chips of the work metal clog the pores of the wheel",
+   "The wheel runs out of balance"
+  ],
+  "answer": 2,
+  "explanation": "Loading is clogging by metal particles, common when grinding soft ductile metals. Remedy: dress it and use a more open wheel.",
+  "source": "lab",
+  "ref": "Grinding PPT s.16",
+  "tags": [],
+  "facts": [
+   "GRD-F073"
+  ]
+ },
+ {
+  "id": "GRD-0094",
+  "shop": "grinding",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Self-sharpening of a grinding wheel means…",
+  "options": [
+   "The wheel sharpens itself with coolant",
+   "The dresser is automatic",
+   "The wheel gets harder with use",
+   "Blunt grains break away on their own, exposing new sharp grains"
+  ],
+  "answer": 3,
+  "explanation": "When cutting forces on blunt grains exceed the bond strength, the grains break out and fresh ones take over.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.9",
+  "tags": [],
+  "facts": [
+   "GRD-F074"
+  ]
+ },
+ {
+  "id": "GRD-0095",
+  "shop": "grinding",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Why must a grinding wheel be balanced before use?",
+  "options": [
+   "An unbalanced wheel causes vibration and chatter marks",
+   "To change its grade",
+   "To reduce its diameter",
+   "To make it glaze"
+  ],
+  "answer": 0,
+  "explanation": "Imbalance causes vibration (chatter), poor finish and danger. Wheels are balanced on a balancing stand.",
+  "source": "lab",
+  "ref": "Grinding PPT s.15–16",
+  "tags": [],
+  "facts": [
+   "GRD-F075"
+  ]
+ },
+ {
+  "id": "GRD-0096",
+  "shop": "grinding",
+  "category": "definitions",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Burn marks on a ground surface are usually caused by…",
+  "options": [
+   "Balancing the wheel",
+   "Excessive heat, often from a dull wheel",
+   "Too much coolant",
+   "Too open a structure"
+  ],
+  "answer": 1,
+  "explanation": "Burn marks come from overheating: a dull or glazed wheel, too heavy a cut, or poor coolant.",
+  "source": "lab",
+  "ref": "Grinding PPT s.16",
+  "tags": [],
+  "facts": [
+   "GRD-F076"
+  ]
+ },
+ {
+  "id": "GRD-0097",
+  "shop": "grinding",
+  "category": "definitions",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Chatter (vibration) marks on a ground surface are mainly due to…",
+  "options": [
+   "Soft-grade wheel",
+   "Vitrified bond",
+   "Fine grit size",
+   "Wheel imbalance or a loose set-up"
+  ],
+  "answer": 3,
+  "explanation": "Imbalance or loose machine set-up causes chatter marks.",
+  "source": "lab",
+  "ref": "Grinding PPT s.16; Grinding PPT s.15–16",
+  "tags": [],
+  "facts": [
+   "GRD-F076",
+   "GRD-F075"
+  ]
+ },
+ {
+  "id": "GRD-0098",
+  "shop": "grinding",
+  "category": "advantages-limitations",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which of these is an advantage of grinding?",
+  "options": [
+   "It removes large volumes quickly",
+   "It needs no coolant",
+   "It can finish hard materials to good accuracy and finish",
+   "It is cheap with low power use"
+  ],
+  "answer": 2,
+  "explanation": "Advantages: good surface finish, good dimensional accuracy, and hardness does not matter.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.9",
+  "tags": [],
+  "facts": [
+   "GRD-F077"
+  ]
+ },
+ {
+  "id": "GRD-0099",
+  "shop": "grinding",
+  "category": "advantages-limitations",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of these is a disadvantage of grinding (from the ME-106 notes)?",
+  "options": [
+   "Cannot grind hardened steel",
+   "High specific energy, so high power is needed",
+   "Poor surface finish",
+   "Low dimensional accuracy"
+  ],
+  "answer": 1,
+  "explanation": "Disadvantages: costly, high specific energy (more power), and cooling is a must.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.9",
+  "tags": [],
+  "facts": [
+   "GRD-F078"
+  ]
+ },
+ {
+  "id": "GRD-0100",
+  "shop": "grinding",
+  "category": "advantages-limitations",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Why is coolant essential in grinding?",
+  "options": [
+   "Most of the high grinding energy turns into heat",
+   "To make the wheel heavier",
+   "To magnetise the work",
+   "To lubricate the bond only"
+  ],
+  "answer": 0,
+  "explanation": "High specific energy means a lot of heat; coolant prevents burning, distortion and wheel damage.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.9; Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "GRD-F078",
+   "GRD-F019"
+  ]
+ },
+ {
+  "id": "GRD-0101",
+  "shop": "grinding",
+  "category": "advantages-limitations",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which is NOT a reason for using grinding?",
+  "options": [
+   "Sharpening drills and cutters",
+   "Micron-level accuracy",
+   "Mirror-like surface finish",
+   "Bulk removal of large amounts of material cheaply"
+  ],
+  "answer": 3,
+  "explanation": "Grinding is for finish, accuracy, hard materials, tool sharpening and burr removal, not cheap bulk removal.",
+  "source": "lab",
+  "ref": "Grinding PPT s.7",
+  "tags": [],
+  "facts": [
+   "GRD-F079"
+  ]
+ },
+ {
+  "id": "GRD-0102",
+  "shop": "grinding",
+  "category": "applications",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which is an application of grinding listed in the grinding slides?",
+  "options": [
+   "Finishing turbine blades and landing-gear parts",
+   "Welding pipelines",
+   "Casting engine blocks",
+   "Forging crankshaft blanks"
+  ],
+  "answer": 0,
+  "explanation": "Applications: automobile parts, tool sharpening, aerospace (turbine blades, landing gear), steel scale removal, electronics.",
+  "source": "lab",
+  "ref": "Grinding PPT s.8",
+  "tags": [],
+  "facts": [
+   "GRD-F080"
+  ]
+ },
+ {
+  "id": "GRD-0103",
+  "shop": "grinding",
+  "category": "job-dimensions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "What are the two objectives of the ME-106 grinding job?",
+  "options": [
+   "Sharpen a drill and a lathe tool",
+   "Grind a thread and a cam",
+   "Surface-finish a flat face (surface grinder) and a cylindrical surface (cylindrical grinder)",
+   "Cut a spur gear and a keyway"
+  ],
+  "answer": 2,
+  "explanation": "Objective 1: surface finish on a plane surface (surface grinder). Objective 2: surface finish on a cylindrical surface (cylindrical grinder).",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F081",
+   "GRD-F082"
+  ]
+ },
+ {
+  "id": "GRD-0104",
+  "shop": "grinding",
+  "category": "workpiece-material",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "What workpieces are used in the ME-106 grinding job?",
+  "options": [
+   "A cast-iron bed and a copper plate",
+   "A mild-steel cylindrical rod and a cubical block",
+   "A HSS tool blank only",
+   "An aluminium disc and a brass rod"
+  ],
+  "answer": 1,
+  "explanation": "The grinding log sheet lists a mild-steel cylindrical rod and a cubical block.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F083"
+  ]
+ },
+ {
+  "id": "GRD-0105",
+  "shop": "grinding",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of these is in the ME-106 grinding log-sheet tool list?",
+  "options": [
+   "Index plate",
+   "Dividing head",
+   "Hacksaw",
+   "Vernier caliper"
+  ],
+  "answer": 3,
+  "explanation": "Tools: chuck, MS cylindrical rod, cubical block, Vernier caliper, grinding wheel, coolant and workpiece holder.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F084"
+  ]
+ },
+ {
+  "id": "GRD-0106",
+  "shop": "grinding",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which item is NOT in the ME-106 grinding log-sheet tool list?",
+  "options": [
+   "Coolant",
+   "Involute gear cutter",
+   "Workpiece holder",
+   "Grinding wheel"
+  ],
+  "answer": 1,
+  "explanation": "The involute gear cutter belongs to the milling lab.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F084"
+  ]
+ },
+ {
+  "id": "GRD-0107",
+  "shop": "grinding",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In the ME-106 cylindrical grinding set-up, how is the job held?",
+  "options": [
+   "Between centres (dead centre at the tailstock)",
+   "In a machine vice",
+   "On the magnetic chuck",
+   "On a rest blade"
+  ],
+  "answer": 0,
+  "explanation": "The job drawing shows the cylindrical job held between centres.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F085"
+  ]
+ },
+ {
+  "id": "GRD-0108",
+  "shop": "grinding",
+  "category": "procedure",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "In surface grinding (ME-106 procedure), what must be done before placing the workpiece on the table?",
+  "options": [
+   "Dress the wheel to zero size",
+   "Demagnetise the work",
+   "Clean the table (bed)",
+   "Start the coolant"
+  ],
+  "answer": 2,
+  "explanation": "Step 2: clean the bed before placing the workpiece on it.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F087"
+  ]
+ },
+ {
+  "id": "GRD-0109",
+  "shop": "grinding",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Why are magnetic parallels placed around the workpiece in surface grinding?",
+  "options": [
+   "To cool the work",
+   "To stop the work shifting during grinding",
+   "To dress the wheel",
+   "To measure the height"
+  ],
+  "answer": 1,
+  "explanation": "Step 3: magnetic parallels around the work ensure it does not shift.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F088"
+  ]
+ },
+ {
+  "id": "GRD-0110",
+  "shop": "grinding",
+  "category": "procedure",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "In the ME-106 surface grinding procedure, how is the workpiece held on the table?",
+  "options": [
+   "With a lathe dog",
+   "With clamping wire",
+   "With a 4-jaw chuck",
+   "By switching on the magnetic chuck"
+  ],
+  "answer": 3,
+  "explanation": "Step 4: turn the magnetic chuck on to fix the workpiece.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F089"
+  ]
+ },
+ {
+  "id": "GRD-0111",
+  "shop": "grinding",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Before starting the surface grinder, the wheel is set…",
+  "options": [
+   "About an inch above the work, not touching it",
+   "At the full depth of cut",
+   "Below the table level",
+   "Touching the work firmly"
+  ],
+  "answer": 0,
+  "explanation": "Step 5–6: set the wheel about an inch above the work and make sure it is not in contact before starting.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F090"
+  ]
+ },
+ {
+  "id": "GRD-0112",
+  "shop": "grinding",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In the ME-106 surface grinding procedure, what is started along with the machine?",
+  "options": [
+   "Index head",
+   "Dielectric pump",
+   "Coolant",
+   "Laser"
+  ],
+  "answer": 2,
+  "explanation": "Step 6: adjust the handwheels as required and start the machine with coolant.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F091"
+  ]
+ },
+ {
+  "id": "GRD-0113",
+  "shop": "grinding",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "At the end of surface grinding, what should you do before removing the workpiece?",
+  "options": [
+   "Dress the wheel first",
+   "Remove it with the chuck still magnetised",
+   "Remove it while the wheel runs",
+   "Wait for the wheel to stop, then demagnetise the chuck"
+  ],
+  "answer": 3,
+  "explanation": "Step 7: wait until the wheel stops, then remove the work by demagnetising the plate.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F092"
+  ]
+ },
+ {
+  "id": "GRD-0114",
+  "shop": "grinding",
+  "category": "procedure",
+  "difficulty": "hard",
+  "type": "sequence",
+  "question": "Which is the correct order of the ME-106 surface grinding steps?",
+  "options": [
+   "Place work → start with coolant → clean table → set wheel clear → magnetise chuck",
+   "Clean table → place work with magnetic parallels → magnetise chuck → set wheel clear → start with coolant → stop, demagnetise, remove",
+   "Magnetise chuck → clean table → start machine → place work → demagnetise",
+   "Start with coolant → place work → clean table → magnetise chuck → remove"
+  ],
+  "answer": 1,
+  "explanation": "Log-sheet steps 1–7 in order.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F086",
+   "GRD-F087",
+   "GRD-F088",
+   "GRD-F089",
+   "GRD-F090",
+   "GRD-F091",
+   "GRD-F092"
+  ]
+ },
+ {
+  "id": "GRD-0115",
+  "shop": "grinding",
+  "category": "procedure",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "What is the first step of the ME-106 surface grinding procedure?",
+  "options": [
+   "Take the raw material whose surface is to be finished",
+   "Start the coolant",
+   "Demagnetise the chuck",
+   "Dress the wheel"
+  ],
+  "answer": 0,
+  "explanation": "Step 1: take the raw material for which surface finish is required.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F086"
+  ]
+ },
+ {
+  "id": "GRD-0116",
+  "shop": "grinding",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In the ME-106 cylindrical grinding procedure, the job must be…",
+  "options": [
+   "Hung on a wire",
+   "Clamped in a vice",
+   "Held well centred on the machine",
+   "Placed on the magnetic chuck"
+  ],
+  "answer": 2,
+  "explanation": "Step 2: hold the job well centred.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F093"
+  ]
+ },
+ {
+  "id": "GRD-0117",
+  "shop": "grinding",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In cylindrical grinding (ME-106), which comes first?",
+  "options": [
+   "Make the final cut",
+   "Adjust the wheel position before starting the machine",
+   "Remove the workpiece",
+   "Dress the wheel for fine finish"
+  ],
+  "answer": 1,
+  "explanation": "The wheel position is adjusted, then the coolant is started, before the trial cut.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F094"
+  ]
+ },
+ {
+  "id": "GRD-0118",
+  "shop": "grinding",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "After the trial cut in cylindrical grinding, the size is checked with…",
+  "options": [
+   "A try square",
+   "A surface plate",
+   "An outside micrometer",
+   "A centre gauge"
+  ],
+  "answer": 2,
+  "explanation": "Step 3: take a trial cut and use an outside micrometer to correct the error.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F095"
+  ]
+ },
+ {
+  "id": "GRD-0119",
+  "shop": "grinding",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In the ME-106 cylindrical grinding procedure, the wheel is dressed…",
+  "options": [
+   "Before the final finishing passes, for a fine finish",
+   "Never",
+   "Before placing the job",
+   "After switching off the machine"
+  ],
+  "answer": 0,
+  "explanation": "Step 4: dress the wheel for fine finish, then finish the job.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F096"
+  ]
+ },
+ {
+  "id": "GRD-0120",
+  "shop": "grinding",
+  "category": "procedure",
+  "difficulty": "hard",
+  "type": "sequence",
+  "question": "Which is the correct order for the ME-106 cylindrical grinding procedure?",
+  "options": [
+   "Trial cut → hold job → finish → dress wheel → adjust wheel",
+   "Start coolant → remove job → hold job → dress wheel → trial cut",
+   "Dress wheel → remove job → trial cut → hold job → start coolant",
+   "Hold job centred → adjust wheel → start coolant → trial cut and micrometer check → dress wheel → finish → remove job and switch off"
+  ],
+  "answer": 3,
+  "explanation": "Log-sheet cylindrical grinding steps in order.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F093",
+   "GRD-F094",
+   "GRD-F095",
+   "GRD-F096",
+   "GRD-F097"
+  ]
+ },
+ {
+  "id": "GRD-0121",
+  "shop": "grinding",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "What is the LAST step in the ME-106 cylindrical grinding procedure?",
+  "options": [
+   "Remove the workpiece and switch off the machine",
+   "Take a trial cut",
+   "Dress the wheel",
+   "Adjust the wheel position"
+  ],
+  "answer": 0,
+  "explanation": "After the work is finished, remove the workpiece and turn off the machine.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F097"
+  ]
+ },
+ {
+  "id": "GRD-0122",
+  "shop": "grinding",
+  "category": "precautions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which footwear and clothing does the ME-106 grinding log sheet require?",
+  "options": [
+   "Sandals and loose clothes",
+   "Apron and leather (safety) shoes",
+   "Gloves only",
+   "No special clothing"
+  ],
+  "answer": 1,
+  "explanation": "Always wear an apron and leather shoes for safety.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F098"
+  ]
+ },
+ {
+  "id": "GRD-0123",
+  "shop": "grinding",
+  "category": "precautions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which accessories should NOT be worn while grinding?",
+  "options": [
+   "Safety goggles",
+   "Apron",
+   "Bracelets, chains and wristwatches",
+   "Safety shoes"
+  ],
+  "answer": 2,
+  "explanation": "Loose accessories such as bracelets and neck-chains can be caught.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F099"
+  ]
+ },
+ {
+  "id": "GRD-0124",
+  "shop": "grinding",
+  "category": "precautions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "What should a student with long hair do before grinding?",
+  "options": [
+   "Leave it loose",
+   "Nothing",
+   "Cover the wheel with it",
+   "Tie it back"
+  ],
+  "answer": 3,
+  "explanation": "Long hair must be tied back, as stated on the grinding log sheet.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F100"
+  ]
+ },
+ {
+  "id": "GRD-0125",
+  "shop": "grinding",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Why must the material be fixed firmly on the grinding machine?",
+  "options": [
+   "A loose job can be thrown by the wheel",
+   "To reduce coolant use",
+   "To speed up the wheel",
+   "To improve the bond"
+  ],
+  "answer": 0,
+  "explanation": "Make sure the material is correctly fixed (magnetised or between centres) before grinding.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F101"
+  ]
+ },
+ {
+  "id": "GRD-0126",
+  "shop": "grinding",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Where should you stand when starting a grinding wheel?",
+  "options": [
+   "In front of the guard opening",
+   "Directly in line with the wheel",
+   "Leaning over the wheel",
+   "At a proper distance, to one side of the wheel"
+  ],
+  "answer": 3,
+  "explanation": "Keep a proper distance and stand to one side; if a wheel bursts, fragments fly in the plane of rotation.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F102"
+  ]
+ },
+ {
+  "id": "GRD-0127",
+  "shop": "grinding",
+  "category": "precautions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Before starting the grinder, you must check that…",
+  "options": [
+   "The coolant is off",
+   "The wheel is touching the work",
+   "The wheel clears the work",
+   "The magnetic chuck is off"
+  ],
+  "answer": 2,
+  "explanation": "Check that the wheel clears the work before starting.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F103"
+  ]
+ },
+ {
+  "id": "GRD-0128",
+  "shop": "grinding",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "According to the grinding slides, the machine should not be operated…",
+  "options": [
+   "With safety shoes",
+   "Without the shop instructor's supervision",
+   "With coolant",
+   "With the guard fitted"
+  ],
+  "answer": 1,
+  "explanation": "Stay attentive and never operate without supervision.",
+  "source": "lab",
+  "ref": "Grinding PPT s.2",
+  "tags": [],
+  "facts": [
+   "GRD-F104"
+  ]
+ },
+ {
+  "id": "GRD-0129",
+  "shop": "grinding",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Why must the wheel guard be kept in place and goggles worn while grinding?",
+  "options": [
+   "Sparks and abrasive particles fly off the wheel",
+   "To reduce noise only",
+   "To increase the speed",
+   "To keep the wheel clean"
+  ],
+  "answer": 0,
+  "explanation": "Sparks, grit and (rarely) wheel fragments fly off, so the guard and goggles protect the operator.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "GRD-F105"
+  ]
+ },
+ {
+  "id": "GRD-0130",
+  "shop": "grinding",
+  "category": "precautions",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Before mounting a new grinding wheel, which checks are essential?",
+  "options": [
+   "Grade letter only",
+   "Grit colour and wheel weight",
+   "Coolant temperature",
+   "Ring test for cracks, and maximum safe speed marked on the wheel"
+  ],
+  "answer": 3,
+  "explanation": "A cracked wheel can burst. Tap it (ring test) and never exceed the marked maximum speed.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "GRD-F106"
+  ]
+ },
+ {
+  "id": "GRD-0131",
+  "shop": "grinding",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of these is NOT a grinding-shop precaution?",
+  "options": [
+   "Wear an apron and leather shoes",
+   "Remove the workpiece while the wheel is still running",
+   "Check that the wheel clears the work",
+   "Tie long hair back"
+  ],
+  "answer": 1,
+  "explanation": "Wait until the wheel stops before removing the work. The others are log-sheet precautions.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.8; Log Sheets ME-106 p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F092",
+   "GRD-F098",
+   "GRD-F103",
+   "GRD-F100"
+  ]
+ },
+ {
+  "id": "GRD-0132",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "hard",
+  "type": "assertion-reason",
+  "question": "Assertion (A): A soft-grade wheel is used for grinding hard materials.\nReason (R): In a soft wheel, blunt grains are released easily, exposing fresh sharp grains.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is NOT the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "answer": 0,
+  "explanation": "Both true, and R explains A.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.7; Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "GRD-F057",
+   "GRD-F058"
+  ],
+  "keepOrder": true
+ },
+ {
+  "id": "GRD-0133",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "hard",
+  "type": "assertion-reason",
+  "question": "Assertion (A): A higher structure number means a denser wheel.\nReason (R): Structure describes the spacing between grains.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is NOT the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "answer": 3,
+  "explanation": "A is false: a higher number means more open. R is true.",
+  "source": "lab",
+  "ref": "Grinding slides p.10",
+  "tags": [],
+  "facts": [
+   "GRD-F060"
+  ],
+  "keepOrder": true
+ },
+ {
+  "id": "GRD-0134",
+  "shop": "grinding",
+  "category": "principle-theory",
+  "difficulty": "hard",
+  "type": "assertion-reason",
+  "question": "Assertion (A): Coolant is essential in grinding.\nReason (R): The specific energy of grinding is much higher than that of turning.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is NOT the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "answer": 0,
+  "explanation": "Both true, R explains A: high specific energy becomes heat, which coolant removes.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.9; Manufacturing notes p.6",
+  "tags": [],
+  "facts": [
+   "GRD-F078",
+   "GRD-F018"
+  ],
+  "keepOrder": true
+ },
+ {
+  "id": "GRD-0135",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "easy",
+  "type": "true-false",
+  "question": "In grinding wheel marking, the grade refers to the hardness of the abrasive grains themselves.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Grade refers to the strength of the bond holding the grains.",
+  "source": "lab",
+  "ref": "Grinding slides p.9",
+  "tags": [],
+  "facts": [
+   "GRD-F055"
+  ],
+  "keepOrder": true
+ },
+ {
+  "id": "GRD-0136",
+  "shop": "grinding",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "true-false",
+  "question": "Grinding can finish hardened steel that ordinary cutting tools cannot machine easily.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Hardness does not matter for grinding, which is one of its key advantages.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.9",
+  "tags": [],
+  "facts": [
+   "GRD-F077"
+  ],
+  "keepOrder": true
+ },
+ {
+  "id": "GRD-0137",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "true-false",
+  "question": "In centreless grinding, the grinding wheel and regulating wheel rotate in opposite directions.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Both wheels rotate in the same direction; the regulating wheel turns much slower.",
+  "source": "lab",
+  "ref": "Grinding slides p.5",
+  "tags": [],
+  "facts": [
+   "GRD-F037"
+  ],
+  "keepOrder": true
+ },
+ {
+  "id": "GRD-0138",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled A?",
+  "options": [
+   "Base",
+   "Wheel guard",
+   "Grinding wheel",
+   "Workpiece"
+  ],
+  "answer": 2,
+  "explanation": "A = Grinding wheel. Rotating abrasive wheel that removes small amounts of metal.",
+  "source": "lab",
+  "ref": "Grinding PPT s.5",
+  "tags": [],
+  "facts": [
+   "GRD-F001"
+  ],
+  "figure": "grinding/surface-grinder",
+  "label": "A",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0139",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled B?",
+  "options": [
+   "Wheel guard",
+   "Table-traverse handwheel",
+   "Magnetic chuck",
+   "Cross-feed handwheel"
+  ],
+  "answer": 0,
+  "explanation": "B = Wheel guard. Covers the wheel to protect the operator from fragments and sparks.",
+  "source": "lab",
+  "ref": "Grinding Lab slides p.4",
+  "tags": [],
+  "facts": [
+   "GRD-F024"
+  ],
+  "figure": "grinding/surface-grinder",
+  "label": "B",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0140",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled C?",
+  "options": [
+   "Wheel guard",
+   "Saddle",
+   "Wheel head",
+   "Cross-feed handwheel"
+  ],
+  "answer": 2,
+  "explanation": "C = Wheel head. Carries the wheel spindle and motor; moved down to set the depth of cut.",
+  "source": "lab",
+  "ref": "Grinding PPT s.9",
+  "tags": [],
+  "facts": [
+   "GRD-F023"
+  ],
+  "figure": "grinding/surface-grinder",
+  "label": "C",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0141",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled D?",
+  "options": [
+   "Base",
+   "Table",
+   "Wheel head",
+   "Column"
+  ],
+  "answer": 3,
+  "explanation": "D = Column. Vertical member on which the wheel head slides up and down.",
+  "source": "lab",
+  "ref": "Grinding Lab slides p.4",
+  "tags": [],
+  "facts": [
+   "GRD-F024"
+  ],
+  "figure": "grinding/surface-grinder",
+  "label": "D",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0142",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled E?",
+  "options": [
+   "Table",
+   "Magnetic chuck",
+   "Table-traverse handwheel",
+   "Wheel head"
+  ],
+  "answer": 1,
+  "explanation": "E = Magnetic chuck. Holds steel work on the table by magnetism.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F089"
+  ],
+  "figure": "grinding/surface-grinder",
+  "label": "E",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0143",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled F?",
+  "options": [
+   "Wheel guard",
+   "Table",
+   "Grinding wheel",
+   "Base"
+  ],
+  "answer": 1,
+  "explanation": "F = Table. Reciprocates back and forth carrying the chuck and work.",
+  "source": "lab",
+  "ref": "Grinding PPT s.9",
+  "tags": [],
+  "facts": [
+   "GRD-F023"
+  ],
+  "figure": "grinding/surface-grinder",
+  "label": "F",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0144",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled G?",
+  "options": [
+   "Magnetic chuck",
+   "Column",
+   "Cross-feed handwheel",
+   "Saddle"
+  ],
+  "answer": 3,
+  "explanation": "G = Saddle. Moves the table crosswise (cross feed) on the base.",
+  "source": "lab",
+  "ref": "Grinding Lab slides p.4",
+  "tags": [],
+  "facts": [
+   "GRD-F024"
+  ],
+  "figure": "grinding/surface-grinder",
+  "label": "G",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0145",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled H?",
+  "options": [
+   "Base",
+   "Wheel guard",
+   "Table-traverse handwheel",
+   "Grinding wheel"
+  ],
+  "answer": 2,
+  "explanation": "H = Table-traverse handwheel. Moves the table longitudinally by hand.",
+  "source": "lab",
+  "ref": "Grinding Lab slides p.4",
+  "tags": [],
+  "facts": [
+   "GRD-F024"
+  ],
+  "figure": "grinding/surface-grinder",
+  "label": "H",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0146",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled I?",
+  "options": [
+   "Cross-feed handwheel",
+   "Wheel head",
+   "Column",
+   "Table"
+  ],
+  "answer": 0,
+  "explanation": "I = Cross-feed handwheel. Moves the saddle and table across under the wheel.",
+  "source": "lab",
+  "ref": "Grinding Lab slides p.4",
+  "tags": [],
+  "facts": [
+   "GRD-F024"
+  ],
+  "figure": "grinding/surface-grinder",
+  "label": "I",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0147",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled J?",
+  "options": [
+   "Base",
+   "Column",
+   "Table-traverse handwheel",
+   "Saddle"
+  ],
+  "answer": 0,
+  "explanation": "J = Base. Supports the whole machine.",
+  "source": "lab",
+  "ref": "Grinding Lab slides p.4",
+  "tags": [],
+  "facts": [
+   "GRD-F024"
+  ],
+  "figure": "grinding/surface-grinder",
+  "label": "J",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0148",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled K?",
+  "options": [
+   "Table-traverse handwheel",
+   "Column",
+   "Workpiece",
+   "Table"
+  ],
+  "answer": 2,
+  "explanation": "K = Workpiece. Flat job being surface ground.",
+  "source": "lab",
+  "ref": "Grinding slides p.2–3",
+  "tags": [],
+  "facts": [
+   "GRD-F021"
+  ],
+  "figure": "grinding/surface-grinder",
+  "label": "K",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0149",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, which label shows the wheel head?",
+  "options": [
+   "B",
+   "I",
+   "E",
+   "C"
+  ],
+  "answer": 3,
+  "explanation": "C = Wheel head. Carries the wheel spindle and motor; moved down to set the depth of cut.",
+  "source": "lab",
+  "ref": "Grinding PPT s.9",
+  "tags": [],
+  "facts": [
+   "GRD-F023"
+  ],
+  "figure": "grinding/surface-grinder",
+  "label": "C",
+  "ask": "which"
+ },
+ {
+  "id": "GRD-0150",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, which label shows the magnetic chuck?",
+  "options": [
+   "H",
+   "E",
+   "C",
+   "I"
+  ],
+  "answer": 1,
+  "explanation": "E = Magnetic chuck. Holds steel work on the table by magnetism.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F089"
+  ],
+  "figure": "grinding/surface-grinder",
+  "label": "E",
+  "ask": "which"
+ },
+ {
+  "id": "GRD-0151",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, which label shows the saddle?",
+  "options": [
+   "D",
+   "E",
+   "F",
+   "G"
+  ],
+  "answer": 3,
+  "explanation": "G = Saddle. Moves the table crosswise (cross feed) on the base.",
+  "source": "lab",
+  "ref": "Grinding Lab slides p.4",
+  "tags": [],
+  "facts": [
+   "GRD-F024"
+  ],
+  "figure": "grinding/surface-grinder",
+  "label": "G",
+  "ask": "which"
+ },
+ {
+  "id": "GRD-0152",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, which label shows the cross-feed handwheel?",
+  "options": [
+   "A",
+   "H",
+   "I",
+   "D"
+  ],
+  "answer": 2,
+  "explanation": "I = Cross-feed handwheel. Moves the saddle and table across under the wheel.",
+  "source": "lab",
+  "ref": "Grinding Lab slides p.4",
+  "tags": [],
+  "facts": [
+   "GRD-F024"
+  ],
+  "figure": "grinding/surface-grinder",
+  "label": "I",
+  "ask": "which"
+ },
+ {
+  "id": "GRD-0153",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the function of the part labelled B?",
+  "options": [
+   "Flat job being surface ground",
+   "Covers the wheel to protect the operator from fragments and sparks",
+   "Reciprocates back and forth carrying the chuck and work",
+   "Rotating abrasive wheel that removes small amounts of metal"
+  ],
+  "answer": 1,
+  "explanation": "B = Wheel guard. Covers the wheel to protect the operator from fragments and sparks.",
+  "source": "lab",
+  "ref": "Grinding Lab slides p.4",
+  "tags": [],
+  "facts": [
+   "GRD-F024"
+  ],
+  "figure": "grinding/surface-grinder",
+  "label": "B",
+  "ask": "function"
+ },
+ {
+  "id": "GRD-0154",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the function of the part labelled E?",
+  "options": [
+   "Holds steel work on the table by magnetism",
+   "Flat job being surface ground",
+   "Covers the wheel to protect the operator from fragments and sparks",
+   "Moves the saddle and table across under the wheel"
+  ],
+  "answer": 0,
+  "explanation": "E = Magnetic chuck. Holds steel work on the table by magnetism.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F089"
+  ],
+  "figure": "grinding/surface-grinder",
+  "label": "E",
+  "ask": "function"
+ },
+ {
+  "id": "GRD-0155",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the function of the part labelled C?",
+  "options": [
+   "Moves the table crosswise (cross feed) on the base",
+   "Carries the wheel spindle and motor; moved down to set the depth of cut",
+   "Vertical member on which the wheel head slides up and down",
+   "Covers the wheel to protect the operator from fragments and sparks"
+  ],
+  "answer": 1,
+  "explanation": "C = Wheel head. Carries the wheel spindle and motor; moved down to set the depth of cut.",
+  "source": "lab",
+  "ref": "Grinding PPT s.9",
+  "tags": [],
+  "facts": [
+   "GRD-F023"
+  ],
+  "figure": "grinding/surface-grinder",
+  "label": "C",
+  "ask": "function"
+ },
+ {
+  "id": "GRD-0156",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled A?",
+  "options": [
+   "Magnetic chuck",
+   "Lower table",
+   "Headstock (work head)",
+   "Wheel head"
+  ],
+  "answer": 3,
+  "explanation": "A = Wheel head. Carries the grinding wheel and its drive; fed towards the work.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.10",
+  "tags": [],
+  "facts": [
+   "GRD-F029"
+  ],
+  "figure": "grinding/cylindrical-grinder",
+  "label": "A",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0157",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled B?",
+  "options": [
+   "Grinding wheel",
+   "Wheel head",
+   "Workpiece",
+   "Upper table"
+  ],
+  "answer": 0,
+  "explanation": "B = Grinding wheel. Abrasive wheel that grinds the work with its periphery.",
+  "source": "lab",
+  "ref": "Cylindrical grinding notes p.4",
+  "tags": [],
+  "facts": [
+   "GRD-F031"
+  ],
+  "figure": "grinding/cylindrical-grinder",
+  "label": "B",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0158",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled C?",
+  "options": [
+   "Base",
+   "Regulating wheel",
+   "Headstock (work head)",
+   "Workpiece"
+  ],
+  "answer": 2,
+  "explanation": "C = Headstock (work head). Rotates the work slowly; carries one centre.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.10",
+  "tags": [],
+  "facts": [
+   "GRD-F029"
+  ],
+  "figure": "grinding/cylindrical-grinder",
+  "label": "C",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0159",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled D?",
+  "options": [
+   "Adjustable table dog",
+   "Tailstock",
+   "Base",
+   "Wheel head"
+  ],
+  "answer": 1,
+  "explanation": "D = Tailstock. Supports the other end of the work on a centre.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.10",
+  "tags": [],
+  "facts": [
+   "GRD-F029"
+  ],
+  "figure": "grinding/cylindrical-grinder",
+  "label": "D",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0160",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled E?",
+  "options": [
+   "Wheel head",
+   "Tailstock",
+   "Workpiece",
+   "Upper table"
+  ],
+  "answer": 2,
+  "explanation": "E = Workpiece. Cylindrical job held between centres.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.10",
+  "tags": [],
+  "facts": [
+   "GRD-F029"
+  ],
+  "figure": "grinding/cylindrical-grinder",
+  "label": "E",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0161",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled F?",
+  "options": [
+   "Upper table",
+   "Wheel head",
+   "Headstock (work head)",
+   "Workpiece"
+  ],
+  "answer": 0,
+  "explanation": "F = Upper table. Carries headstock and tailstock; can be swivelled for tapers.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.10",
+  "tags": [],
+  "facts": [
+   "GRD-F029"
+  ],
+  "figure": "grinding/cylindrical-grinder",
+  "label": "F",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0162",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled G?",
+  "options": [
+   "Workpiece",
+   "Upper table",
+   "Wheel head",
+   "Lower table"
+  ],
+  "answer": 3,
+  "explanation": "G = Lower table. Reciprocates along the base, carrying the upper table.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.10",
+  "tags": [],
+  "facts": [
+   "GRD-F029"
+  ],
+  "figure": "grinding/cylindrical-grinder",
+  "label": "G",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0163",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled H?",
+  "options": [
+   "Adjustable table dog",
+   "Headstock (work head)",
+   "Lower table",
+   "Base"
+  ],
+  "answer": 0,
+  "explanation": "H = Adjustable table dog. Set to reverse the table at the ends of its traverse.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.10",
+  "tags": [],
+  "facts": [
+   "GRD-F030"
+  ],
+  "figure": "grinding/cylindrical-grinder",
+  "label": "H",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0164",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled I?",
+  "options": [
+   "Regulating wheel",
+   "Base",
+   "Headstock (work head)",
+   "Adjustable table dog"
+  ],
+  "answer": 1,
+  "explanation": "I = Base. Supports the machine and table ways.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.10",
+  "tags": [],
+  "facts": [
+   "GRD-F029"
+  ],
+  "figure": "grinding/cylindrical-grinder",
+  "label": "I",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0165",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the function of the part labelled H?",
+  "options": [
+   "Carries headstock and tailstock; can be swivelled for tapers",
+   "Supports the other end of the work on a centre",
+   "Set to reverse the table at the ends of its traverse",
+   "Reciprocates along the base, carrying the upper table"
+  ],
+  "answer": 2,
+  "explanation": "H = Adjustable table dog. Set to reverse the table at the ends of its traverse.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.10",
+  "tags": [],
+  "facts": [
+   "GRD-F030"
+  ],
+  "figure": "grinding/cylindrical-grinder",
+  "label": "H",
+  "ask": "function"
+ },
+ {
+  "id": "GRD-0166",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the function of the part labelled F?",
+  "options": [
+   "Rotates the work slowly; carries one centre",
+   "Cylindrical job held between centres",
+   "Carries the grinding wheel and its drive; fed towards the work",
+   "Carries headstock and tailstock; can be swivelled for tapers"
+  ],
+  "answer": 3,
+  "explanation": "F = Upper table. Carries headstock and tailstock; can be swivelled for tapers.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.10",
+  "tags": [],
+  "facts": [
+   "GRD-F029"
+  ],
+  "figure": "grinding/cylindrical-grinder",
+  "label": "F",
+  "ask": "function"
+ },
+ {
+  "id": "GRD-0167",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the function of the part labelled C?",
+  "options": [
+   "Reciprocates along the base, carrying the upper table",
+   "Rotates the work slowly; carries one centre",
+   "Set to reverse the table at the ends of its traverse",
+   "Cylindrical job held between centres"
+  ],
+  "answer": 1,
+  "explanation": "C = Headstock (work head). Rotates the work slowly; carries one centre.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.10",
+  "tags": [],
+  "facts": [
+   "GRD-F029"
+  ],
+  "figure": "grinding/cylindrical-grinder",
+  "label": "C",
+  "ask": "function"
+ },
+ {
+  "id": "GRD-0168",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "Which type of grinding is shown in panel A?",
+  "options": [
+   "Tool-and-cutter grinding",
+   "Creep-feed grinding",
+   "Surface grinding",
+   "External cylindrical grinding"
+  ],
+  "answer": 2,
+  "explanation": "A = Surface grinding. Flat surfaces finished by a wheel over a reciprocating table.",
+  "source": "lab",
+  "ref": "Grinding slides p.2–3",
+  "tags": [],
+  "facts": [
+   "GRD-F021"
+  ],
+  "figure": "grinding/types",
+  "label": "A",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0169",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "Which type of grinding is shown in panel B?",
+  "options": [
+   "Internal grinding",
+   "Centreless grinding",
+   "Tool-and-cutter grinding",
+   "External cylindrical grinding"
+  ],
+  "answer": 3,
+  "explanation": "B = External cylindrical grinding. Outside diameter of work between centres ground by the wheel periphery.",
+  "source": "lab",
+  "ref": "Cylindrical grinding notes p.3",
+  "tags": [],
+  "facts": [
+   "GRD-F026"
+  ],
+  "figure": "grinding/types",
+  "label": "B",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0170",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "Which type of grinding is shown in panel C?",
+  "options": [
+   "Internal grinding",
+   "Surface grinding",
+   "Creep-feed grinding",
+   "Centreless grinding"
+  ],
+  "answer": 0,
+  "explanation": "C = Internal grinding. Bore (inside diameter) finished by a small wheel running inside it.",
+  "source": "lab",
+  "ref": "Grinding slides p.2",
+  "tags": [],
+  "facts": [
+   "GRD-F035"
+  ],
+  "figure": "grinding/types",
+  "label": "C",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0171",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "Which type of grinding is shown in panel D?",
+  "options": [
+   "Internal grinding",
+   "External cylindrical grinding",
+   "Centreless grinding",
+   "Creep-feed grinding"
+  ],
+  "answer": 2,
+  "explanation": "D = Centreless grinding. Work rests on a blade between the grinding wheel and a regulating wheel, with no centres.",
+  "source": "lab",
+  "ref": "Cylindrical grinding notes p.5",
+  "tags": [],
+  "facts": [
+   "GRD-F036"
+  ],
+  "figure": "grinding/types",
+  "label": "D",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0172",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, which panel shows grinding where the work is NOT held between centres or in a chuck?",
+  "options": [
+   "B",
+   "D",
+   "C",
+   "A"
+  ],
+  "answer": 1,
+  "explanation": "D is centreless grinding: the work rests on a blade between the grinding wheel and the regulating wheel.",
+  "source": "lab",
+  "ref": "Cylindrical grinding notes p.5",
+  "tags": [],
+  "facts": [
+   "GRD-F036"
+  ],
+  "figure": "grinding/types"
+ },
+ {
+  "id": "GRD-0173",
+  "shop": "grinding",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, which panel would be used to finish a bore?",
+  "options": [
+   "C",
+   "B",
+   "A",
+   "D"
+  ],
+  "answer": 0,
+  "explanation": "C is internal grinding: a small wheel runs inside the bore.",
+  "source": "lab",
+  "ref": "Grinding slides p.2",
+  "tags": [],
+  "facts": [
+   "GRD-F035"
+  ],
+  "figure": "grinding/types"
+ },
+ {
+  "id": "GRD-0174",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the wheel marking shown, what does position 1 indicate?",
+  "options": [
+   "Bond type",
+   "Grain (grit) size",
+   "Grade (hardness of bond)",
+   "Abrasive type"
+  ],
+  "answer": 3,
+  "explanation": "1 = Abrasive type. A = aluminium oxide (C = silicon carbide).",
+  "source": "lab",
+  "ref": "Manufacturing notes p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F047"
+  ],
+  "figure": "grinding/wheel-marking",
+  "label": "1",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0175",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the wheel marking shown, what does position 2 indicate?",
+  "options": [
+   "Abrasive type",
+   "Grain (grit) size",
+   "Bond type",
+   "Structure (grain spacing)"
+  ],
+  "answer": 1,
+  "explanation": "2 = Grain (grit) size. 46 = medium grain.",
+  "source": "lab",
+  "ref": "Grinding slides p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F052"
+  ],
+  "figure": "grinding/wheel-marking",
+  "label": "2",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0176",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the wheel marking shown, what does position 3 indicate?",
+  "options": [
+   "Structure (grain spacing)",
+   "Bond type",
+   "Grade (hardness of bond)",
+   "Abrasive type"
+  ],
+  "answer": 2,
+  "explanation": "3 = Grade (hardness of bond). K = medium grade.",
+  "source": "lab",
+  "ref": "Grinding slides p.9",
+  "tags": [],
+  "facts": [
+   "GRD-F055"
+  ],
+  "figure": "grinding/wheel-marking",
+  "label": "3",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0177",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the wheel marking shown, what does position 4 indicate?",
+  "options": [
+   "Grain (grit) size",
+   "Abrasive type",
+   "Bond type",
+   "Structure (grain spacing)"
+  ],
+  "answer": 3,
+  "explanation": "4 = Structure (grain spacing). 5 = fairly dense structure.",
+  "source": "lab",
+  "ref": "Grinding slides p.10",
+  "tags": [],
+  "facts": [
+   "GRD-F060"
+  ],
+  "figure": "grinding/wheel-marking",
+  "label": "4",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0178",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the wheel marking shown, what does position 5 indicate?",
+  "options": [
+   "Bond type",
+   "Structure (grain spacing)",
+   "Abrasive type",
+   "Grain (grit) size"
+  ],
+  "answer": 0,
+  "explanation": "5 = Bond type. V = vitrified bond.",
+  "source": "lab",
+  "ref": "Grinding slides p.11",
+  "tags": [],
+  "facts": [
+   "GRD-F062"
+  ],
+  "figure": "grinding/wheel-marking",
+  "label": "5",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0179",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the wheel marking shown, which position would read \"C\" for a silicon carbide wheel?",
+  "options": [
+   "3",
+   "1",
+   "5",
+   "2"
+  ],
+  "answer": 1,
+  "explanation": "Position 1 is the abrasive type (A = aluminium oxide, C = silicon carbide).",
+  "source": "lab",
+  "ref": "Manufacturing notes p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F047",
+   "GRD-F043"
+  ],
+  "figure": "grinding/wheel-marking"
+ },
+ {
+  "id": "GRD-0180",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the wheel marking shown, what does \"5\" at position 4 tell you?",
+  "options": [
+   "The grade",
+   "The bond type",
+   "The grit size",
+   "The structure (grain spacing) number"
+  ],
+  "answer": 3,
+  "explanation": "Position 4 is the structure. A low number like 5 is fairly dense.",
+  "source": "lab",
+  "ref": "Grinding slides p.10",
+  "tags": [],
+  "facts": [
+   "GRD-F060"
+  ],
+  "figure": "grinding/wheel-marking"
+ },
+ {
+  "id": "GRD-0181",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the wheel marking shown, \"K\" at position 3 means the wheel is…",
+  "options": [
+   "Medium grade",
+   "Fine grain",
+   "Soft grade",
+   "Hard grade"
+  ],
+  "answer": 0,
+  "explanation": "Position 3 is grade; K is medium.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.7",
+  "tags": [],
+  "facts": [
+   "GRD-F056"
+  ],
+  "figure": "grinding/wheel-marking"
+ },
+ {
+  "id": "GRD-0182",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "Which wheel structure is shown in panel A?",
+  "options": [
+   "Loaded wheel",
+   "Glazed wheel",
+   "Dense structure (low number)",
+   "Open structure (high number)"
+  ],
+  "answer": 2,
+  "explanation": "A = Dense structure (low number). Grains closely packed; for hard, brittle materials and fine finish.",
+  "source": "lab",
+  "ref": "Grinding slides p.10",
+  "tags": [],
+  "facts": [
+   "GRD-F061"
+  ],
+  "figure": "grinding/structure",
+  "label": "A",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0183",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "Which wheel structure is shown in panel B?",
+  "options": [
+   "Glazed wheel",
+   "Dense structure (low number)",
+   "Open structure (high number)",
+   "Loaded wheel"
+  ],
+  "answer": 2,
+  "explanation": "B = Open structure (high number). Grains widely spaced with large pores; for soft ductile materials and rough grinding.",
+  "source": "lab",
+  "ref": "Grinding slides p.10",
+  "tags": [],
+  "facts": [
+   "GRD-F061"
+  ],
+  "figure": "grinding/structure",
+  "label": "B",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0184",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "hard",
+  "type": "diagram",
+  "question": "Which wheel in the figure is better for rough grinding of a soft ductile metal?",
+  "options": [
+   "A",
+   "B"
+  ],
+  "answer": 1,
+  "explanation": "B is the open structure: large pores hold the chips, so the wheel does not load up.",
+  "source": "lab",
+  "ref": "Grinding slides p.10",
+  "tags": [],
+  "facts": [
+   "GRD-F061"
+  ],
+  "figure": "grinding/structure"
+ },
+ {
+  "id": "GRD-0185",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled A?",
+  "options": [
+   "Dresser holder",
+   "Magnetic parallel",
+   "Diamond dresser",
+   "Grinding wheel"
+  ],
+  "answer": 3,
+  "explanation": "A = Grinding wheel. Abrasive wheel whose face is being dressed.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F068"
+  ],
+  "figure": "grinding/dressing",
+  "label": "A",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0186",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled B?",
+  "options": [
+   "Grinding wheel",
+   "Diamond dresser",
+   "Dresser holder",
+   "Magnetic parallel"
+  ],
+  "answer": 1,
+  "explanation": "B = Diamond dresser. Tool that removes the dull, loaded surface to expose sharp grains (dressing) and trues the wheel.",
+  "source": "lab",
+  "ref": "Grinding PPT s.17",
+  "tags": [],
+  "facts": [
+   "GRD-F069"
+  ],
+  "figure": "grinding/dressing",
+  "label": "B",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0187",
+  "shop": "grinding",
+  "category": "wheel-specification",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled C?",
+  "options": [
+   "Dresser holder",
+   "Diamond dresser",
+   "Work-rest blade",
+   "Grinding wheel"
+  ],
+  "answer": 0,
+  "explanation": "C = Dresser holder. Rigid holder that feeds the diamond across the wheel face.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F068"
+  ],
+  "figure": "grinding/dressing",
+  "label": "C",
+  "ask": "part"
+ },
+ {
+  "id": "GRD-0188",
+  "shop": "grinding",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "What operation is being performed in the figure?",
+  "options": [
+   "Surface grinding a block",
+   "Balancing the grinding wheel",
+   "Centreless grinding",
+   "Dressing the grinding wheel"
+  ],
+  "answer": 3,
+  "explanation": "A diamond dresser is fed across the rotating wheel to remove dull grains and true its face.",
+  "source": "lab",
+  "ref": "Manufacturing notes p.8; Grinding PPT s.17",
+  "tags": [],
+  "facts": [
+   "GRD-F068",
+   "GRD-F069"
+  ],
+  "figure": "grinding/dressing"
+ },
+ {
+  "id": "GRD-0189",
+  "shop": "grinding",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which dresser is used for precise dressing and truing of a grinding wheel?",
+  "options": [
+   "File card",
+   "Star-wheel (Huntington) dresser",
+   "Single-point diamond dresser",
+   "Centre punch"
+  ],
+  "answer": 2,
+  "explanation": "A diamond dresser gives precise truing and dressing; a star-wheel dresser is for rough dressing.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "GRD-F107"
+  ]
+ },
+ {
+  "id": "GRD-0190",
+  "shop": "grinding",
+  "category": "tools-equipment",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "A star-wheel (Huntington) dresser is mainly used for…",
+  "options": [
+   "Precision truing of fine wheels",
+   "Rough dressing of coarse wheels",
+   "Balancing wheels",
+   "Measuring grit size"
+  ],
+  "answer": 1,
+  "explanation": "Star-wheel dressers crush and break out dull grains on coarse wheels; for precision a diamond is used.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "GRD-F107"
+  ]
+ },
+ {
+  "id": "GRD-0191",
+  "shop": "grinding",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "A grinding wheel is balanced using…",
+  "options": [
+   "A balancing stand with balance weights in the flange",
+   "A magnetic chuck",
+   "The table dogs",
+   "A dial on the wheel head"
+  ],
+  "answer": 0,
+  "explanation": "The wheel on its arbor is placed on knife edges or rollers, and the flange weights are moved until it stays put in any position.",
+  "source": "lab",
+  "ref": "Grinding PPT s.15",
+  "tags": [],
+  "facts": [
+   "GRD-F108"
+  ]
+ },
+ {
+  "id": "GRD-0192",
+  "shop": "grinding",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which workpiece CANNOT be held directly on a magnetic chuck?",
+  "options": [
+   "Cast-iron block",
+   "Aluminium block",
+   "Mild-steel block",
+   "Tool-steel plate"
+  ],
+  "answer": 1,
+  "explanation": "Magnetic chucks hold only ferromagnetic materials. Aluminium or brass needs a vice or fixture.",
+  "source": "lab",
+  "ref": "Theory: Hajra Choudhury; Log Sheets ME-106 p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F109",
+   "GRD-F089"
+  ]
+ },
+ {
+  "id": "GRD-0193",
+  "shop": "grinding",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Grinding coolant is usually…",
+  "options": [
+   "Deionised water only",
+   "Molten wax",
+   "Kerosene",
+   "A water-based soluble-oil emulsion"
+  ],
+  "answer": 3,
+  "explanation": "A soluble-oil emulsion cools, washes away swarf and reduces loading. (Deionised water is the dielectric in wire EDM.)",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "GRD-F110"
+  ]
+ },
+ {
+  "id": "GRD-0194",
+  "shop": "grinding",
+  "category": "tools-equipment",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "When mounting a grinding wheel on its spindle, what is placed between the flanges and the wheel?",
+  "options": [
+   "Steel shims",
+   "Magnetic parallels",
+   "Soft paper or rubber washers (blotters)",
+   "Emery paper"
+  ],
+  "answer": 2,
+  "explanation": "Blotters spread the clamping pressure evenly; the flanges must be equal size and the nut only snug.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "GRD-F111"
+  ]
+ },
+ {
+  "id": "GRD-0195",
+  "shop": "grinding",
+  "category": "tools-equipment",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "In the ring test, a sound vitrified wheel tapped with a wooden mallet gives…",
+  "options": [
+   "A clear ringing sound",
+   "A dull thud",
+   "No sound at all",
+   "Sparks"
+  ],
+  "answer": 0,
+  "explanation": "A clear ring means the wheel is sound; a dull sound suggests a crack, so the wheel must not be used.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "GRD-F112",
+   "GRD-F106"
+  ]
+ },
+ {
+  "id": "GRD-0196",
+  "shop": "grinding",
+  "category": "tools-equipment",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which tool is used in the ME-106 cylindrical grinding procedure to check the size after the trial cut?",
+  "options": [
+   "Outside micrometer",
+   "Try square",
+   "Steel rule only",
+   "Dial-less caliper"
+  ],
+  "answer": 0,
+  "explanation": "The log sheet says to take a trial cut and use an outside micrometer to correct the error.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F095"
+  ]
+ },
+ {
+  "id": "GRD-0197",
+  "shop": "grinding",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which accessory keeps a steel block from shifting on the surface grinder in the ME-106 procedure?",
+  "options": [
+   "Lathe dog",
+   "Spacer collars",
+   "Magnetic parallels",
+   "Clapper box"
+  ],
+  "answer": 2,
+  "explanation": "Magnetic parallels are placed around the workpiece on the magnetic chuck.",
+  "source": "lab",
+  "ref": "Log Sheets ME-106 p.8",
+  "tags": [],
+  "facts": [
+   "GRD-F088"
+  ]
+ },
+ {
+  "id": "GRD-0198",
+  "shop": "grinding",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "On a pedestal (bench) grinder, the work rest should be set…",
+  "options": [
+   "Touching the wheel",
+   "Close to the wheel, about 2–3 mm",
+   "Removed for better access",
+   "Far from the wheel, about 25 mm"
+  ],
+  "answer": 1,
+  "explanation": "A large gap lets the work be dragged between the rest and the wheel, which can jam or break the wheel.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "GRD-F113"
+  ]
+ },
+ {
+  "id": "GRD-0199",
+  "shop": "grinding",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "When tightening the spindle nut on a newly mounted grinding wheel, you should…",
+  "options": [
+   "Tighten as hard as possible with an extension bar",
+   "Leave it loose",
+   "Hammer the flange",
+   "Tighten only enough to hold the wheel firmly"
+  ],
+  "answer": 3,
+  "explanation": "Over-tightening can crack the wheel; use equal flanges and blotters.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "GRD-F111"
+  ]
+ },
+ {
+  "id": "GRD-0200",
+  "shop": "grinding",
+  "category": "procedure",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "An aluminium block is to be surface ground. How should it be held?",
+  "options": [
+   "Directly on the magnetic chuck",
+   "In a vice or fixture on the table (not directly on the magnetic chuck)",
+   "On a rest blade",
+   "Between centres"
+  ],
+  "answer": 1,
+  "explanation": "Aluminium is non-magnetic, so the magnetic chuck cannot hold it.",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
+  "tags": [],
+  "facts": [
+   "GRD-F109"
+  ]
+ }
+]

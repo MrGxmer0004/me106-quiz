@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 430" role="img" aria-label="Line diagram of a cylindrical grinder: work between headstock and tailstock centres on a reciprocating table, wheel behind, with lettered callouts"><title>Plain cylindrical grinding machine</title><style>.s{fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}.thin{fill:none;stroke:currentColor;stroke-width:1.1}.lead{fill:none;stroke:currentColor;stroke-width:1.2;opacity:.85}.f{fill:currentColor;fill-opacity:.10;stroke:currentColor;stroke-width:2;stroke-linejoin:round}.f2{fill:currentColor;fill-opacity:.22;stroke:currentColor;stroke-width:2;stroke-linejoin:round}.k{fill:currentColor;stroke:none}.d{fill:none;stroke:currentColor;stroke-width:1.5;stroke-dasharray:6 4}.cl{fill:none;stroke:currentColor;stroke-width:1;stroke-dasharray:14 4 3 4;opacity:.7}.acc{fill:none;stroke:#e8590c;stroke-width:2.4;stroke-linecap:round}.accf{fill:#e8590c;stroke:none}.acct{fill:#e8590c;stroke:none}.tx{fill:currentColor;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}</style>
+<rect class="f" x="50.0" y="360.0" width="680.0" height="40.0" rx="0"/>
+<rect class="f" x="90.0" y="320.0" width="600.0" height="40.0" rx="0"/>
+<rect class="f2" x="120.0" y="290.0" width="540.0" height="30.0" rx="0"/>
+<rect class="f" x="140.0" y="180.0" width="110.0" height="110.0" rx="0"/>
+<rect class="f" x="520.0" y="200.0" width="100.0" height="90.0" rx="0"/>
+<polygon class="f" points="250.0,225.0 268.0,215.0 268.0,235.0"/>
+<polygon class="f" points="520.0,225.0 502.0,215.0 502.0,235.0"/>
+<rect class="f2" x="268.0" y="205.0" width="234.0" height="40.0" rx="0"/>
+<line class="cl" x1="230.0" y1="225.0" x2="540.0" y2="225.0"/>
+<rect class="f" x="300.0" y="40.0" width="200.0" height="70.0" rx="0"/>
+<circle class="f2" cx="400.0" cy="150.0" r="48.0"/>
+<circle class="k" cx="442.6" cy="134.1" r="1.4"/>
+<circle class="k" cx="421.3" cy="146.6" r="1.4"/>
+<circle class="k" cx="392.5" cy="112.3" r="1.4"/>
+<circle class="k" cx="436.9" cy="124.0" r="1.4"/>
+<circle class="k" cx="385.2" cy="127.5" r="1.4"/>
+<circle class="k" cx="431.9" cy="160.2" r="1.4"/>
+<circle class="k" cx="428.5" cy="157.2" r="1.4"/>
+<circle class="k" cx="411.6" cy="185.8" r="1.4"/>
+<circle class="k" cx="406.5" cy="127.7" r="1.4"/>
+<circle class="k" cx="418.1" cy="162.5" r="1.4"/>
+<circle class="k" cx="377.0" cy="140.5" r="1.4"/>
+<circle class="k" cx="386.4" cy="132.6" r="1.4"/>
+<circle class="k" cx="386.7" cy="156.2" r="1.4"/>
+<circle class="k" cx="421.8" cy="144.5" r="1.4"/>
+<circle class="k" cx="399.6" cy="181.5" r="1.4"/>
+<circle class="k" cx="425.2" cy="148.6" r="1.4"/>
+<circle class="k" cx="442.5" cy="140.8" r="1.4"/>
+<circle class="k" cx="393.5" cy="178.5" r="1.4"/>
+<circle class="k" cx="408.5" cy="178.3" r="1.4"/>
+<circle class="k" cx="367.6" cy="164.3" r="1.4"/>
+<circle class="k" cx="393.8" cy="112.5" r="1.4"/>
+<circle class="k" cx="389.2" cy="181.3" r="1.4"/>
+<circle class="k" cx="387.2" cy="184.1" r="1.4"/>
+<circle class="k" cx="376.4" cy="135.9" r="1.4"/>
+<circle class="k" cx="407.0" cy="176.0" r="1.4"/>
+<circle class="k" cx="420.5" cy="120.0" r="1.4"/>
+<circle class="k" cx="443.6" cy="142.5" r="1.4"/>
+<circle class="k" cx="374.8" cy="172.3" r="1.4"/>
+<circle class="k" cx="383.4" cy="179.7" r="1.4"/>
+<circle class="k" cx="368.6" cy="123.8" r="1.4"/>
+<circle class="k" cx="393.6" cy="116.6" r="1.4"/>
+<circle class="k" cx="373.3" cy="118.2" r="1.4"/>
+<circle class="k" cx="402.2" cy="187.3" r="1.4"/>
+<circle class="k" cx="408.4" cy="162.9" r="1.4"/>
+<circle class="k" cx="431.1" cy="121.5" r="1.4"/>
+<circle class="k" cx="402.6" cy="176.0" r="1.4"/>
+<circle class="k" cx="383.7" cy="171.9" r="1.4"/>
+<circle class="k" cx="362.1" cy="138.0" r="1.4"/>
+<circle class="k" cx="364.6" cy="154.8" r="1.4"/>
+<circle class="k" cx="415.5" cy="143.9" r="1.4"/>
+<circle class="k" cx="386.9" cy="182.1" r="1.4"/>
+<circle class="k" cx="416.6" cy="134.1" r="1.4"/>
+<circle class="k" cx="387.3" cy="169.2" r="1.4"/>
+<circle class="k" cx="434.6" cy="140.6" r="1.4"/>
+<circle class="k" cx="390.8" cy="137.0" r="1.4"/>
+<circle class="k" cx="373.2" cy="184.4" r="1.4"/>
+<circle class="k" cx="378.0" cy="186.9" r="1.4"/>
+<circle class="k" cx="419.2" cy="161.6" r="1.4"/>
+<circle class="k" cx="423.4" cy="186.1" r="1.4"/>
+<circle class="k" cx="396.0" cy="166.6" r="1.4"/>
+<circle class="k" cx="433.4" cy="133.2" r="1.4"/>
+<circle class="k" cx="423.4" cy="118.7" r="1.4"/>
+<circle class="k" cx="375.4" cy="114.0" r="1.4"/>
+<circle class="k" cx="406.5" cy="163.9" r="1.4"/>
+<circle class="k" cx="415.8" cy="178.3" r="1.4"/>
+<circle class="k" cx="381.7" cy="136.3" r="1.4"/>
+<circle class="k" cx="432.9" cy="138.2" r="1.4"/>
+<circle class="k" cx="418.3" cy="174.0" r="1.4"/>
+<circle class="k" cx="432.1" cy="164.3" r="1.4"/>
+<circle class="k" cx="383.9" cy="156.5" r="1.4"/>
+<circle class="k" cx="428.5" cy="114.7" r="1.4"/>
+<circle class="k" cx="428.9" cy="139.4" r="1.4"/>
+<circle class="s" cx="400.0" cy="150.0" r="10.6"/>
+<rect class="k" x="192.0" y="278.0" width="16.0" height="12.0" rx="0"/>
+<rect class="k" x="572.0" y="278.0" width="16.0" height="12.0" rx="0"/>
+<line class="acc" x1="300.0" y1="340.0" x2="380.0" y2="340.0"/>
+<polygon class="accf" points="380.0,340.0 370.8,343.9 370.8,336.1"/>
+<line class="acc" x1="380.0" y1="340.0" x2="300.0" y2="340.0"/>
+<polygon class="accf" points="300.0,340.0 309.2,336.1 309.2,343.9"/>
+<path class="acc" d="M299.9,235.9 A32,32 0 0 0 357.7,241.0"/>
+<line class="lead" x1="400.0" y1="75.0" x2="400.0" y2="33.0"/>
+<circle class="k" cx="400.0" cy="75.0" r="3"/>
+<circle cx="400.0" cy="18.0" r="15" fill="#e8590c"/><text x="400.0" y="19.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">A</text>
+<line class="lead" x1="440.0" y1="170.0" x2="546.2" y2="125.8"/>
+<circle class="k" cx="440.0" cy="170.0" r="3"/>
+<circle cx="560.0" cy="120.0" r="15" fill="#e8590c"/><text x="560.0" y="121.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">B</text>
+<line class="lead" x1="170.0" y1="210.0" x2="73.7" y2="166.2"/>
+<circle class="k" cx="170.0" cy="210.0" r="3"/>
+<circle cx="60.0" cy="160.0" r="15" fill="#e8590c"/><text x="60.0" y="161.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">C</text>
+<line class="lead" x1="590.0" y1="220.0" x2="685.9" y2="185.1"/>
+<circle class="k" cx="590.0" cy="220.0" r="3"/>
+<circle cx="700.0" cy="180.0" r="15" fill="#e8590c"/><text x="700.0" y="181.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">D</text>
+<line class="lead" x1="470.0" y1="225.0" x2="477.7" y2="174.8"/>
+<circle class="k" cx="470.0" cy="225.0" r="3"/>
+<circle cx="480.0" cy="160.0" r="15" fill="#e8590c"/><text x="480.0" y="161.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">E</text>
+<line class="lead" x1="640.0" y1="305.0" x2="705.7" y2="284.5"/>
+<circle class="k" cx="640.0" cy="305.0" r="3"/>
+<circle cx="720.0" cy="280.0" r="15" fill="#e8590c"/><text x="720.0" y="281.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">F</text>
+<line class="lead" x1="140.0" y1="340.0" x2="74.6" y2="323.6"/>
+<circle class="k" cx="140.0" cy="340.0" r="3"/>
+<circle cx="60.0" cy="320.0" r="15" fill="#e8590c"/><text x="60.0" y="321.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">G</text>
+<line class="lead" x1="200.0" y1="284.0" x2="218.3" y2="269.4"/>
+<circle class="k" cx="200.0" cy="284.0" r="3"/>
+<circle cx="230.0" cy="260.0" r="15" fill="#e8590c"/><text x="230.0" y="261.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">H</text>
+<line class="lead" x1="690.0" y1="385.0" x2="731.3" y2="403.8"/>
+<circle class="k" cx="690.0" cy="385.0" r="3"/>
+<circle cx="745.0" cy="410.0" r="15" fill="#e8590c"/><text x="745.0" y="411.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">I</text>
+</svg>
