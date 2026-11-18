@@ -149,6 +149,18 @@ Source keys: `LS` = Log Sheets ME-106.pdf p.9 (2022 milling log sheet); `MLS1`/`
 - [MIL-F120] Milling gives high metal-removal rates (multi-point cutter) and can produce flat surfaces, slots, keyways, gears, splines and contours. [LEC s.3; TA s.6]
 - [MIL-F121] Applications of milling include gear cutting, keyways, slots, flat surfaces of machine parts and dies. [TA s.15–16; theory: P.N. Rao]
 
+## 14. Standard milling practice (set-up, cutting and safety)
+- [MIL-F122] Brown & Sharpe involute cutter numbers: No. 1 = 135 teeth to rack, No. 2 = 55–134, No. 3 = 35–54, No. 4 = 26–34, No. 5 = 21–25, No. 6 = 17–20, No. 7 = 14–16, No. 8 = 12–13 teeth. [theory: Machinery's Handbook]
+- [MIL-F123] The gear cutter is centred over the axis of the blank before cutting, so the tooth spaces are symmetrical. [theory: Hajra Choudhury]
+- [MIL-F124] To set the depth, the rotating cutter is brought down to just touch the top of the blank (e.g. with a paper strip), the knee dial is set to zero, the work is moved clear, and the knee is raised by the calculated depth. [theory: Hajra Choudhury]
+- [MIL-F125] The dividing head and tailstock centres must be aligned with the table travel, and the blank must be tight on the mandrel. [theory: Hajra Choudhury]
+- [MIL-F126] After setting the depth, the knee and saddle are locked so only the table (longitudinal) feed moves during the cut. [theory: Hajra Choudhury]
+- [MIL-F127] Never reach over or near the rotating cutter; keep hands away from the cutter path. [theory: Hajra Choudhury]
+- [MIL-F128] Stop the machine before measuring the job, removing chips or adjusting the work. [theory: Hajra Choudhury]
+- [MIL-F129] Check that the cutter rotates in the correct direction and that the arbor nut is tightened only after the arbor support is in place. [theory: Hajra Choudhury]
+- [MIL-F130] Wear safety goggles while milling; chips fly from the cutter. [theory: Hajra Choudhury]
+- [MIL-F131] Keep the cutter guard in position and use the correct cutter speed and feed for the material. [theory: Hajra Choudhury]
+
 ## Figures needed
 - `milling/horizontal-mill` — column, knee, saddle, table, arbor, overarm, arbor support, spindle, base, elevating screw.
 - `milling/vertical-mill` — head, ram, spindle/quill, table, saddle, knee, column, base.

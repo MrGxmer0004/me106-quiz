@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 470" role="img" aria-label="Index plate showing a 33-hole circle, the crank pin start hole and the sector arms spanning 27 hole spaces"><title>Index plate: 22-tooth gear (ME-106 job)</title><style>.s{fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}.thin{fill:none;stroke:currentColor;stroke-width:1.1}.lead{fill:none;stroke:currentColor;stroke-width:1.2;opacity:.85}.f{fill:currentColor;fill-opacity:.10;stroke:currentColor;stroke-width:2;stroke-linejoin:round}.f2{fill:currentColor;fill-opacity:.22;stroke:currentColor;stroke-width:2;stroke-linejoin:round}.k{fill:currentColor;stroke:none}.d{fill:none;stroke:currentColor;stroke-width:1.5;stroke-dasharray:6 4}.cl{fill:none;stroke:currentColor;stroke-width:1;stroke-dasharray:14 4 3 4;opacity:.7}.acc{fill:none;stroke:#e8590c;stroke-width:2.4;stroke-linecap:round}.accf{fill:#e8590c;stroke:none}.acct{fill:#e8590c;stroke:none}.tx{fill:currentColor;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}</style>
+<circle class="f" cx="280.0" cy="235.0" r="205.0"/>
+<circle class="s" cx="280.0" cy="65.0" r="9.0"/>
+<circle class="k" cx="280.0" cy="65.0" r="5.0"/>
+<circle class="k" cx="312.2" cy="68.1" r="4.0"/>
+<circle class="k" cx="343.2" cy="77.2" r="4.0"/>
+<circle class="k" cx="371.9" cy="92.0" r="4.0"/>
+<circle class="k" cx="397.3" cy="112.0" r="4.0"/>
+<circle class="k" cx="418.5" cy="136.4" r="4.0"/>
+<circle class="k" cx="434.6" cy="164.4" r="4.0"/>
+<circle class="k" cx="445.2" cy="194.9" r="4.0"/>
+<circle class="k" cx="449.8" cy="226.9" r="4.0"/>
+<circle class="k" cx="448.3" cy="259.2" r="4.0"/>
+<circle class="k" cx="440.7" cy="290.6" r="4.0"/>
+<circle class="k" cx="427.2" cy="320.0" r="4.0"/>
+<circle class="k" cx="408.5" cy="346.3" r="4.0"/>
+<circle class="k" cx="385.1" cy="368.6" r="4.0"/>
+<circle class="k" cx="357.9" cy="386.1" r="4.0"/>
+<circle class="k" cx="327.9" cy="398.1" r="4.0"/>
+<circle class="k" cx="296.2" cy="404.2" r="4.0"/>
+<circle class="k" cx="263.8" cy="404.2" r="4.0"/>
+<circle class="k" cx="232.1" cy="398.1" r="4.0"/>
+<circle class="k" cx="202.1" cy="386.1" r="4.0"/>
+<circle class="k" cx="174.9" cy="368.6" r="4.0"/>
+<circle class="k" cx="151.5" cy="346.3" r="4.0"/>
+<circle class="k" cx="132.8" cy="320.0" r="4.0"/>
+<circle class="k" cx="119.3" cy="290.6" r="4.0"/>
+<circle class="k" cx="111.7" cy="259.2" r="4.0"/>
+<circle class="k" cx="110.2" cy="226.9" r="4.0"/>
+<circle class="k" cx="114.8" cy="194.9" r="4.0"/>
+<circle class="s" cx="125.4" cy="164.4" r="9.0"/>
+<circle class="acct" cx="125.4" cy="164.4" r="5.0"/>
+<circle class="k" cx="141.5" cy="136.4" r="4.0"/>
+<circle class="k" cx="162.7" cy="112.0" r="4.0"/>
+<circle class="k" cx="188.1" cy="92.0" r="4.0"/>
+<circle class="k" cx="216.8" cy="77.2" r="4.0"/>
+<circle class="k" cx="247.8" cy="68.1" r="4.0"/>
+<line class="acc" x1="280.0" y1="235.0" x2="280.0" y2="40.0"/>
+<line class="acc" x1="280.0" y1="235.0" x2="102.6" y2="154.0"/>
+<path class="acc" d="M280.0,95.0 A140,140 0 1 1 152.7,176.8"/>
+<circle class="f2" cx="280.0" cy="235.0" r="14.0"/>
+<text class="tx" x="280.0" y="275.0" font-size="18" text-anchor="middle" font-weight="bold" dominant-baseline="middle">33-hole circle</text>
+<text class="tx" x="280.0" y="18.0" font-size="14" text-anchor="middle" font-weight="normal" dominant-baseline="middle">start hole</text>
+</svg>

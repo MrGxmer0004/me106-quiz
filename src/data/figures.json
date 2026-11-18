@@ -371,5 +371,366 @@
     "fact": "LAT-F093"
    }
   }
+ },
+ {
+  "id": "milling/cutters",
+  "shop": "milling",
+  "title": "Milling cutters",
+  "alt": "Seven small line drawings of milling cutters, each marked with a letter",
+  "labels": {
+   "A": {
+    "part": "Plain (slab) helical cutter",
+    "function": "Machining wide flat surfaces with the periphery teeth (slab milling)",
+    "fact": "MIL-F032"
+   },
+   "B": {
+    "part": "Side-and-face cutter",
+    "function": "Cutting slots, steps and two parallel faces (straddle milling); cuts on periphery and both sides",
+    "fact": "MIL-F030"
+   },
+   "C": {
+    "part": "End mill",
+    "function": "Cuts on its end and sides; used for slots, pockets and faces on a vertical mill",
+    "fact": "MIL-F036"
+   },
+   "D": {
+    "part": "Slitting saw",
+    "function": "Very thin cutter for narrow slots and cutting off",
+    "fact": "MIL-F033"
+   },
+   "E": {
+    "part": "T-slot cutter",
+    "function": "Cutting T-slots such as those in machine tables",
+    "fact": "MIL-F034"
+   },
+   "F": {
+    "part": "Involute gear cutter",
+    "function": "Form cutter whose tooth profile matches the gear tooth space; used to cut spur gears",
+    "fact": "MIL-F042"
+   }
+  },
+  "ask": {
+   "p": "Which milling cutter is shown in panel {L}?",
+   "w": "Which panel shows a {P}?",
+   "f": "The cutter in panel {L} is mainly used for…"
+  }
+ },
+ {
+  "id": "milling/dividing-head",
+  "shop": "milling",
+  "title": "Universal dividing (indexing) head — schematic",
+  "alt": "Schematic of a dividing head showing index plate, crank, worm and worm wheel driving the work spindle, with lettered callouts",
+  "labels": {
+   "A": {
+    "part": "Index plate",
+    "function": "Plate with circles of equally spaced holes used to count crank movement",
+    "fact": "MIL-F060"
+   },
+   "B": {
+    "part": "Index crank",
+    "function": "Handle turned to rotate the worm; 40 turns = one turn of the work",
+    "fact": "MIL-F063"
+   },
+   "C": {
+    "part": "Index pin (plunger)",
+    "function": "Engages a hole of the selected circle to lock the crank",
+    "fact": "MIL-F060"
+   },
+   "D": {
+    "part": "Sector arms",
+    "function": "Set to span the required number of holes so they need not be counted each time",
+    "fact": "MIL-F072"
+   },
+   "E": {
+    "part": "Worm (single start)",
+    "function": "Driven by the crank; turns the worm wheel one tooth per revolution",
+    "fact": "MIL-F062"
+   },
+   "F": {
+    "part": "Worm wheel (40 teeth)",
+    "function": "Fixed to the work spindle; gives the 40 : 1 reduction",
+    "fact": "MIL-F062"
+   },
+   "G": {
+    "part": "Work spindle / mandrel",
+    "function": "Carries the gear blank and rotates it by the indexed amount",
+    "fact": "MIL-F100"
+   },
+   "H": {
+    "part": "Tailstock",
+    "function": "Supports the outer end of the mandrel",
+    "fact": "MIL-F061"
+   }
+  }
+ },
+ {
+  "id": "milling/gear-nomenclature",
+  "shop": "milling",
+  "title": "Spur gear tooth nomenclature",
+  "alt": "Enlarged view of five spur-gear teeth with outside, pitch and root circles and lettered terms",
+  "labels": {
+   "A": {
+    "part": "Addendum",
+    "function": "Radial height of the tooth above the pitch circle = 1/DP",
+    "fact": "MIL-F077"
+   },
+   "B": {
+    "part": "Dedendum",
+    "function": "Radial depth of the tooth below the pitch circle = 1.157/DP",
+    "fact": "MIL-F077"
+   },
+   "C": {
+    "part": "Pitch circle",
+    "function": "Imaginary circle on which mating gears roll; diameter = N/DP",
+    "fact": "MIL-F076"
+   },
+   "D": {
+    "part": "Outside (addendum) circle",
+    "function": "Circle through the tooth tips; diameter OD = (N + 2)/DP",
+    "fact": "MIL-F075"
+   },
+   "E": {
+    "part": "Root (dedendum) circle",
+    "function": "Circle through the bottoms of the tooth spaces",
+    "fact": "MIL-F083"
+   },
+   "F": {
+    "part": "Circular pitch",
+    "function": "Distance between corresponding points of adjacent teeth along the pitch circle = π/DP",
+    "fact": "MIL-F080"
+   },
+   "G": {
+    "part": "Whole depth",
+    "function": "Total depth of the tooth space = addendum + dedendum = 2.157/DP",
+    "fact": "MIL-F078"
+   },
+   "H": {
+    "part": "Tooth thickness (on pitch circle)",
+    "function": "Width of a tooth measured along the pitch circle = π/(2·DP)",
+    "fact": "MIL-F080"
+   }
+  }
+ },
+ {
+  "id": "milling/gear-types",
+  "shop": "milling",
+  "title": "Types of gears",
+  "alt": "Seven simple line drawings of gear pairs, each marked with a letter",
+  "labels": {
+   "A": {
+    "part": "Spur gears",
+    "function": "Parallel shafts; straight teeth parallel to the axis",
+    "fact": "MIL-F084"
+   },
+   "B": {
+    "part": "Helical gears",
+    "function": "Parallel shafts; teeth inclined to the axis, smoother running with axial thrust",
+    "fact": "MIL-F085"
+   },
+   "C": {
+    "part": "Double-helical (herringbone) gears",
+    "function": "Parallel shafts; opposite helices cancel the axial thrust",
+    "fact": "MIL-F086"
+   },
+   "D": {
+    "part": "Bevel gears",
+    "function": "Intersecting shafts, usually at 90°",
+    "fact": "MIL-F087"
+   },
+   "E": {
+    "part": "Worm and worm wheel",
+    "function": "Non-intersecting shafts at 90°; large speed reduction",
+    "fact": "MIL-F088"
+   },
+   "F": {
+    "part": "Rack and pinion",
+    "function": "Converts rotary motion into straight-line motion",
+    "fact": "MIL-F089"
+   },
+   "G": {
+    "part": "Internal gear",
+    "function": "Teeth cut on the inside of a ring; meshes with a pinion on a parallel shaft",
+    "fact": "MIL-F090"
+   }
+  },
+  "ask": {
+   "p": "Which type of gear drive is shown in panel {L}?",
+   "w": "Which panel shows {P}?",
+   "f": "The gears in panel {L} connect shafts that are…"
+  }
+ },
+ {
+  "id": "milling/horizontal-mill",
+  "shop": "milling",
+  "title": "Horizontal column-and-knee milling machine",
+  "alt": "Side-view line diagram of a horizontal column-and-knee milling machine with lettered callouts",
+  "labels": {
+   "A": {
+    "part": "Base",
+    "function": "Heavy foundation casting supporting the whole machine",
+    "fact": "MIL-F050"
+   },
+   "B": {
+    "part": "Column",
+    "function": "Main vertical casting housing the spindle drive; carries the overarm",
+    "fact": "MIL-F052"
+   },
+   "C": {
+    "part": "Knee",
+    "function": "Slides up and down on the column (vertical feed) and carries the saddle and table",
+    "fact": "MIL-F053"
+   },
+   "D": {
+    "part": "Saddle",
+    "function": "Moves on the knee towards or away from the column (cross feed)",
+    "fact": "MIL-F054"
+   },
+   "E": {
+    "part": "Table",
+    "function": "Carries the work and moves longitudinally on the saddle",
+    "fact": "MIL-F054"
+   },
+   "F": {
+    "part": "Arbor",
+    "function": "Horizontal shaft on which the milling cutters are mounted",
+    "fact": "MIL-F055"
+   },
+   "G": {
+    "part": "Overarm (overhanging arm)",
+    "function": "Arm on top of the column that carries the arbor support",
+    "fact": "MIL-F050"
+   },
+   "H": {
+    "part": "Arbor support",
+    "function": "Supports the outer end of the arbor to keep it rigid",
+    "fact": "MIL-F055"
+   },
+   "I": {
+    "part": "Spindle",
+    "function": "Rotating spindle in the column that drives the arbor and cutter",
+    "fact": "MIL-F050"
+   },
+   "J": {
+    "part": "Milling cutter",
+    "function": "Rotating multi-point tool that removes metal",
+    "fact": "MIL-F001"
+   },
+   "K": {
+    "part": "Elevating screw",
+    "function": "Raises and lowers the knee",
+    "fact": "MIL-F053"
+   }
+  }
+ },
+ {
+  "id": "milling/index-plate-21",
+  "shop": "milling",
+  "title": "Index plate: 14-tooth practice example",
+  "alt": "Index plate showing a 21-hole circle, the crank pin start hole and the sector arms spanning 18 hole spaces",
+  "labels": {}
+ },
+ {
+  "id": "milling/index-plate-33",
+  "shop": "milling",
+  "title": "Index plate: 22-tooth gear (ME-106 job)",
+  "alt": "Index plate showing a 33-hole circle, the crank pin start hole and the sector arms spanning 27 hole spaces",
+  "labels": {}
+ },
+ {
+  "id": "milling/straddle-gang",
+  "shop": "milling",
+  "title": "Straddle and gang milling set-ups",
+  "alt": "Two front views of cutters on a horizontal arbor machining a workpiece; panels A and B",
+  "labels": {
+   "A": {
+    "part": "Straddle milling",
+    "function": "Two side cutters separated by spacer collars machine two parallel faces at once",
+    "fact": "MIL-F021"
+   },
+   "B": {
+    "part": "Gang milling",
+    "function": "Several cutters of different sizes on one arbor machine several surfaces simultaneously",
+    "fact": "MIL-F022"
+   }
+  },
+  "ask": {
+   "p": "Which milling set-up is shown in panel {L}?",
+   "w": "Which panel shows {P}?"
+  }
+ },
+ {
+  "id": "milling/up-down",
+  "shop": "milling",
+  "title": "Up milling and down milling",
+  "alt": "Two sketches of a clockwise-rotating milling cutter on a workpiece with the table feed arrow; panels A and B",
+  "labels": {
+   "A": {
+    "part": "Down (climb) milling",
+    "function": "Cutter teeth move in the same direction as the feed at the cut; chip thickness is maximum at the start",
+    "fact": "MIL-F010"
+   },
+   "B": {
+    "part": "Up (conventional) milling",
+    "function": "Cutter rotation opposes the feed; chip thickness starts at zero and is maximum at the end",
+    "fact": "MIL-F008"
+   }
+  },
+  "ask": {
+   "p": "Which milling method is shown in panel {L}?",
+   "w": "Which panel shows {P}?"
+  }
+ },
+ {
+  "id": "milling/vertical-mill",
+  "shop": "milling",
+  "title": "Vertical milling machine",
+  "alt": "Line diagram of a vertical knee-type milling machine with lettered callouts",
+  "labels": {
+   "A": {
+    "part": "Milling head",
+    "function": "Carries the vertical spindle and its drive",
+    "fact": "MIL-F056"
+   },
+   "B": {
+    "part": "Ram (overarm)",
+    "function": "Arm on the column that carries the head; can be moved in and out",
+    "fact": "MIL-F056"
+   },
+   "C": {
+    "part": "Spindle (quill)",
+    "function": "Vertical spindle that holds and rotates the end mill",
+    "fact": "MIL-F048"
+   },
+   "D": {
+    "part": "Table",
+    "function": "Carries the work; moves longitudinally",
+    "fact": "MIL-F054"
+   },
+   "E": {
+    "part": "Saddle",
+    "function": "Gives cross movement of the table",
+    "fact": "MIL-F054"
+   },
+   "F": {
+    "part": "Knee",
+    "function": "Moves vertically on the column to raise or lower the work",
+    "fact": "MIL-F053"
+   },
+   "G": {
+    "part": "Column",
+    "function": "Main vertical body of the machine",
+    "fact": "MIL-F052"
+   },
+   "H": {
+    "part": "Base",
+    "function": "Supports the machine",
+    "fact": "MIL-F050"
+   },
+   "I": {
+    "part": "End mill",
+    "function": "Cutter with teeth on its end and periphery, used for slots and faces",
+    "fact": "MIL-F036"
+   }
+  }
  }
 ]

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-label="Two front views of cutters on a horizontal arbor machining a workpiece; panels A and B"><title>Straddle and gang milling set-ups</title><style>.s{fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}.thin{fill:none;stroke:currentColor;stroke-width:1.1}.lead{fill:none;stroke:currentColor;stroke-width:1.2;opacity:.85}.f{fill:currentColor;fill-opacity:.10;stroke:currentColor;stroke-width:2;stroke-linejoin:round}.f2{fill:currentColor;fill-opacity:.22;stroke:currentColor;stroke-width:2;stroke-linejoin:round}.k{fill:currentColor;stroke:none}.d{fill:none;stroke:currentColor;stroke-width:1.5;stroke-dasharray:6 4}.cl{fill:none;stroke:currentColor;stroke-width:1;stroke-dasharray:14 4 3 4;opacity:.7}.acc{fill:none;stroke:#e8590c;stroke-width:2.4;stroke-linecap:round}.accf{fill:#e8590c;stroke:none}.acct{fill:#e8590c;stroke:none}.tx{fill:currentColor;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}</style>
+<line class="cl" x1="20.0" y1="90.0" x2="360.0" y2="90.0"/>
+<rect class="f2" x="30.0" y="82.0" width="320.0" height="16.0" rx="0"/>
+<rect class="f" x="130.0" y="40.0" width="22.0" height="100.0" rx="0"/>
+<rect class="f" x="230.0" y="40.0" width="22.0" height="100.0" rx="0"/>
+<rect class="s" x="152.0" y="84.0" width="78.0" height="12.0" rx="0"/>
+<text class="tx" x="191.0" y="70.0" font-size="13" text-anchor="middle" font-weight="normal" dominant-baseline="middle">spacer</text>
+<polygon class="f" points="80.0,290.0 80.0,220.0 152.0,220.0 152.0,128.0 230.0,128.0 230.0,220.0 300.0,220.0 300.0,290.0"/>
+<line class="cl" x1="400.0" y1="90.0" x2="740.0" y2="90.0"/>
+<rect class="f2" x="410.0" y="82.0" width="320.0" height="16.0" rx="0"/>
+<rect class="f" x="460.0" y="50.0" width="60.0" height="80.0" rx="0"/>
+<rect class="f" x="520.0" y="30.0" width="80.0" height="120.0" rx="0"/>
+<rect class="f" x="600.0" y="60.0" width="80.0" height="60.0" rx="0"/>
+<polygon class="f" points="460.0,290.0 460.0,130.0 520.0,130.0 520.0,150.0 600.0,150.0 600.0,120.0 680.0,120.0 680.0,290.0"/>
+<circle cx="40.0" cy="40.0" r="15" fill="#e8590c"/><text x="40.0" y="41.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">A</text>
+<circle cx="420.0" cy="40.0" r="15" fill="#e8590c"/><text x="420.0" y="41.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">B</text>
+</svg>
