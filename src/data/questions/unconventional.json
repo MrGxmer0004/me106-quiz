@@ -1,0 +1,3482 @@
+[
+ {
+  "id": "UCM-0001",
+  "shop": "unconventional",
+  "category": "definitions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Unconventional (non-traditional) machining removes material mainly by…",
+  "options": [
+   "A sharp tool that is harder than the work",
+   "Melting the whole job and recasting it",
+   "Energy forms such as sparks, light, chemicals or jets",
+   "Pressing the work into a shaped die"
+  ],
+  "answer": 2,
+  "explanation": "Non-traditional processes use electrical, thermal, chemical, electrochemical or jet energy instead of a sharp tool in contact.",
+  "source": "theory",
+  "ref": "Theory: P.K. Mishra",
+  "tags": [],
+  "facts": [
+   "UCM-F001"
+  ]
+ },
+ {
+  "id": "UCM-0002",
+  "shop": "unconventional",
+  "category": "advantages-limitations",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which is a main reason for using unconventional machining?",
+  "options": [
+   "Very hard materials and complex shapes with no cutting force",
+   "It works only on soft plastics",
+   "It needs no electricity or energy at all",
+   "It is always cheaper than turning"
+  ],
+  "answer": 0,
+  "explanation": "They suit very hard/brittle materials, complex shapes, tiny holes and delicate parts where tool forces must be avoided.",
+  "source": "theory",
+  "ref": "Theory: P.K. Mishra",
+  "tags": [],
+  "facts": [
+   "UCM-F002"
+  ]
+ },
+ {
+  "id": "UCM-0003",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Unconventional machining processes are classified on the basis of…",
+  "options": [
+   "The number of operators",
+   "The type of energy used to remove material",
+   "The size of the machine",
+   "The colour of the workpiece"
+  ],
+  "answer": 1,
+  "explanation": "Mechanical, thermal (electrothermal), electrochemical and chemical.",
+  "source": "lab",
+  "ref": "P.K. Mishra",
+  "tags": [],
+  "facts": [
+   "UCM-F003"
+  ]
+ },
+ {
+  "id": "UCM-0004",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "EDM and laser-beam machining belong to which energy class?",
+  "options": [
+   "Mechanical",
+   "Chemical",
+   "Electrochemical",
+   "Thermal (electrothermal)"
+  ],
+  "answer": 3,
+  "explanation": "EDM, WEDM, LBM, EBM and PAM remove material by local melting and vaporisation.",
+  "source": "lab",
+  "ref": "P.K. Mishra; Theory: P.K. Mishra",
+  "tags": [],
+  "facts": [
+   "UCM-F003",
+   "UCM-F004"
+  ]
+ },
+ {
+  "id": "UCM-0005",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Ultrasonic machining (USM) and abrasive-jet machining (AJM) are classed as…",
+  "options": [
+   "Thermal processes",
+   "Mechanical processes",
+   "Chemical processes",
+   "Electrochemical processes"
+  ],
+  "answer": 1,
+  "explanation": "USM, AJM and water-jet machining are mechanical processes.",
+  "source": "lab",
+  "ref": "P.K. Mishra",
+  "tags": [],
+  "facts": [
+   "UCM-F003"
+  ]
+ },
+ {
+  "id": "UCM-0006",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "How is material removed in thermal processes like EDM and LBM?",
+  "options": [
+   "By shearing with a sharp edge",
+   "By anodic dissolution",
+   "By chemical etching with masks",
+   "By local melting and vaporisation"
+  ],
+  "answer": 3,
+  "explanation": "Thermal energy is applied to a small zone, which melts and vaporises.",
+  "source": "theory",
+  "ref": "Theory: P.K. Mishra",
+  "tags": [],
+  "facts": [
+   "UCM-F004"
+  ]
+ },
+ {
+  "id": "UCM-0007",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Electrochemical machining (ECM) is described as the reverse of…",
+  "options": [
+   "Casting",
+   "Welding",
+   "Electroplating",
+   "Grinding"
+  ],
+  "answer": 2,
+  "explanation": "ECM removes metal by anodic dissolution, the reverse of plating.",
+  "source": "theory",
+  "ref": "Theory: P.K. Mishra",
+  "tags": [],
+  "facts": [
+   "UCM-F005"
+  ]
+ },
+ {
+  "id": "UCM-0008",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In most unconventional processes, the tool…",
+  "options": [
+   "Need not be harder than the workpiece",
+   "Must be made of diamond",
+   "Must touch the work firmly",
+   "Must be twice as hard as the work"
+  ],
+  "answer": 0,
+  "explanation": "For example, a soft brass wire cuts hardened steel in wire EDM.",
+  "source": "theory",
+  "ref": "Theory: P.K. Mishra",
+  "tags": [],
+  "facts": [
+   "UCM-F006"
+  ]
+ },
+ {
+  "id": "UCM-0009",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "In wire EDM, material is removed by…",
+  "options": [
+   "Repeated electric sparks that melt and vaporise metal",
+   "A wire sawing it by friction",
+   "Chemicals dissolving it",
+   "A rotating abrasive wheel grinding it"
+  ],
+  "answer": 0,
+  "explanation": "Pulsed sparks between the wire and the work cause thermal erosion.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F007"
+  ]
+ },
+ {
+  "id": "UCM-0010",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "In wire EDM, the wire electrode and the workpiece…",
+  "options": [
+   "Are welded together first",
+   "Are pressed firmly together",
+   "Touch only at the start",
+   "Never touch each other"
+  ],
+  "answer": 3,
+  "explanation": "There is no mechanical contact and practically no cutting force.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F008"
+  ]
+ },
+ {
+  "id": "UCM-0011",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "What happens if the wire touches the workpiece in wire EDM?",
+  "options": [
+   "The cutting rate doubles",
+   "The wire becomes harder",
+   "A short circuit occurs and no spark forms",
+   "The kerf becomes narrower"
+  ],
+  "answer": 2,
+  "explanation": "Contact short-circuits the gap, so a small spark gap must be maintained.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F009"
+  ]
+ },
+ {
+  "id": "UCM-0012",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In wire EDM, the spark gap is kept constant by…",
+  "options": [
+   "A magnetic chuck",
+   "A servo control system",
+   "A spring on the table",
+   "The operator by hand"
+  ],
+  "answer": 1,
+  "explanation": "A servo maintains a gap of roughly 0.025–0.075 mm.",
+  "source": "theory",
+  "ref": "Theory: Complete EDM Handbook",
+  "tags": [],
+  "facts": [
+   "UCM-F010"
+  ]
+ },
+ {
+  "id": "UCM-0013",
+  "shop": "unconventional",
+  "category": "process-parameters",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "If the spark gap in EDM is too large…",
+  "options": [
+   "The kerf becomes zero",
+   "No spark forms",
+   "The wire melts at once",
+   "The wire shorts with the work"
+  ],
+  "answer": 1,
+  "explanation": "Too large: no spark. Too small: short circuit.",
+  "source": "theory",
+  "ref": "Theory: P.K. Mishra",
+  "tags": [],
+  "facts": [
+   "UCM-F011"
+  ]
+ },
+ {
+  "id": "UCM-0014",
+  "shop": "unconventional",
+  "category": "process-parameters",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In wire EDM, material is removed during…",
+  "options": [
+   "Flushing only",
+   "Wire threading",
+   "Pulse-on time (Ton)",
+   "Pulse-off time (Toff)"
+  ],
+  "answer": 2,
+  "explanation": "The log sheet: during Ton discharge occurs and material is removed.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F012"
+  ]
+ },
+ {
+  "id": "UCM-0015",
+  "shop": "unconventional",
+  "category": "process-parameters",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "What is the purpose of the pulse-off time (Toff) in EDM?",
+  "options": [
+   "Moves the wire spool faster",
+   "Increases the spark energy",
+   "Heats the workpiece",
+   "Lets the dielectric de-ionise and flushes debris away"
+  ],
+  "answer": 3,
+  "explanation": "During Toff the gap recovers its insulation and debris is flushed; too short a Toff causes arcing.",
+  "source": "theory",
+  "ref": "Theory: P.K. Mishra",
+  "tags": [],
+  "facts": [
+   "UCM-F013"
+  ]
+ },
+ {
+  "id": "UCM-0016",
+  "shop": "unconventional",
+  "category": "workpiece-material",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which condition must a workpiece satisfy to be cut by wire EDM?",
+  "options": [
+   "It must be electrically conductive",
+   "It must be non-metallic",
+   "It must be soft",
+   "It must be transparent"
+  ],
+  "answer": 0,
+  "explanation": "EDM needs a conductive workpiece; hardness does not matter.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F014"
+  ]
+ },
+ {
+  "id": "UCM-0017",
+  "shop": "unconventional",
+  "category": "workpiece-material",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which material CANNOT be cut by wire EDM?",
+  "options": [
+   "Hardened tool steel",
+   "Glass (non-conductor)",
+   "Tungsten carbide",
+   "Titanium alloy"
+  ],
+  "answer": 1,
+  "explanation": "Non-conductors like glass, plastics and most ceramics cannot be EDMed; hard conductive metals can.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F014"
+  ]
+ },
+ {
+  "id": "UCM-0018",
+  "shop": "unconventional",
+  "category": "operations",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In wire EDM, the wire follows the required profile under…",
+  "options": [
+   "Gravity",
+   "A copying template",
+   "Manual hand feed only",
+   "CNC control (part program)"
+  ],
+  "answer": 3,
+  "explanation": "The log sheet step: enter the required profile through part programming.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F015"
+  ]
+ },
+ {
+  "id": "UCM-0019",
+  "shop": "unconventional",
+  "category": "operations",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "To cut an internal profile (closed cavity) by wire EDM, you must first…",
+  "options": [
+   "Drill a start hole to thread the wire through",
+   "Plate the job with copper",
+   "Grind the profile roughly",
+   "Heat the job red hot"
+  ],
+  "answer": 0,
+  "explanation": "The wire must pass through the job, so a start hole is needed for internal shapes.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F016"
+  ]
+ },
+ {
+  "id": "UCM-0020",
+  "shop": "unconventional",
+  "category": "operations",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Wire EDM can cut tapered sides by…",
+  "options": [
+   "Rotating the table at high speed",
+   "Changing the dielectric",
+   "Tilting the upper and lower wire guides",
+   "Bending the wire into a curve"
+  ],
+  "answer": 2,
+  "explanation": "WEDM cuts 2-D through-profiles; offsetting the guides gives a taper.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F017"
+  ]
+ },
+ {
+  "id": "UCM-0021",
+  "shop": "unconventional",
+  "category": "workpiece-material",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "The dielectric commonly used in wire EDM is…",
+  "options": [
+   "Deionised water",
+   "Machine oil",
+   "Kerosene",
+   "Compressed air"
+  ],
+  "answer": 0,
+  "explanation": "Wire EDM uses deionised water; die-sinking EDM usually uses a hydrocarbon oil such as kerosene.",
+  "source": "theory",
+  "ref": "Theory: Makino EDM wire tutorial; Theory: P.K. Mishra",
+  "tags": [],
+  "facts": [
+   "UCM-F018",
+   "UCM-F019"
+  ]
+ },
+ {
+  "id": "UCM-0022",
+  "shop": "unconventional",
+  "category": "workpiece-material",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Die-sinking EDM usually uses which dielectric?",
+  "options": [
+   "Deionised water",
+   "Compressed nitrogen",
+   "A hydrocarbon oil such as kerosene",
+   "Salt water"
+  ],
+  "answer": 2,
+  "explanation": "Die-sinking EDM: oil (kerosene); wire EDM: deionised water.",
+  "source": "theory",
+  "ref": "Theory: P.K. Mishra",
+  "tags": [],
+  "facts": [
+   "UCM-F019"
+  ]
+ },
+ {
+  "id": "UCM-0023",
+  "shop": "unconventional",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of these is NOT a function of the dielectric in EDM?",
+  "options": [
+   "Cooling the work and wire",
+   "Supplying metal ions to plate the work",
+   "Insulating the gap until breakdown",
+   "Flushing away debris"
+  ],
+  "answer": 1,
+  "explanation": "The dielectric insulates, concentrates the spark, cools and flushes. Supplying metal ions is what a plating bath does.",
+  "source": "theory",
+  "ref": "Theory: P.K. Mishra",
+  "tags": [],
+  "facts": [
+   "UCM-F020"
+  ]
+ },
+ {
+  "id": "UCM-0024",
+  "shop": "unconventional",
+  "category": "workpiece-material",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Why is the water in wire EDM continuously deionised?",
+  "options": [
+   "To add metal ions",
+   "To colour the water",
+   "To make it heavier",
+   "Tap water is too conductive for proper sparking"
+  ],
+  "answer": 3,
+  "explanation": "Ions make water conductive; the dielectric must insulate until breakdown, so it is filtered and deionised.",
+  "source": "theory",
+  "ref": "Theory: Complete EDM Handbook",
+  "tags": [],
+  "facts": [
+   "UCM-F021"
+  ]
+ },
+ {
+  "id": "UCM-0025",
+  "shop": "unconventional",
+  "category": "workpiece-material",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "The wire electrode in wire EDM is usually made of…",
+  "options": [
+   "Mild steel",
+   "Aluminium",
+   "Plastic",
+   "Brass"
+  ],
+  "answer": 3,
+  "explanation": "Brass (often zinc-coated) is common; copper, molybdenum or tungsten are also used.",
+  "source": "theory",
+  "ref": "Theory: Complete EDM Handbook",
+  "tags": [],
+  "facts": [
+   "UCM-F022"
+  ]
+ },
+ {
+  "id": "UCM-0026",
+  "shop": "unconventional",
+  "category": "process-parameters",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Typical wire diameter in wire EDM is about…",
+  "options": [
+   "1–3 mm",
+   "0.05–0.3 mm",
+   "0.001–0.005 mm",
+   "5–10 mm"
+  ],
+  "answer": 1,
+  "explanation": "Very thin wires, about 0.05–0.3 mm (commonly 0.25 mm), are used.",
+  "source": "theory",
+  "ref": "Theory: Complete EDM Handbook",
+  "tags": [],
+  "facts": [
+   "UCM-F023"
+  ]
+ },
+ {
+  "id": "UCM-0027",
+  "shop": "unconventional",
+  "category": "process-parameters",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In wire EDM, the wire is…",
+  "options": [
+   "Fed continuously and used only once",
+   "Reused many times after cleaning",
+   "Replaced only once a year",
+   "Kept stationary"
+  ],
+  "answer": 0,
+  "explanation": "The wire erodes, so fresh wire is fed from a spool to a take-up and not reused.",
+  "source": "theory",
+  "ref": "Theory: Makino EDM wire tutorial",
+  "tags": [],
+  "facts": [
+   "UCM-F024"
+  ]
+ },
+ {
+  "id": "UCM-0028",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "The wire in wire EDM is held accurately above and below the job by…",
+  "options": [
+   "A vice and a clamp",
+   "A chuck and a tailstock",
+   "Upper and lower wire guides",
+   "Two centres"
+  ],
+  "answer": 2,
+  "explanation": "Upper and lower guides position the wire; they can be offset for taper cuts.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F025"
+  ]
+ },
+ {
+  "id": "UCM-0029",
+  "shop": "unconventional",
+  "category": "definitions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "The kerf width in wire EDM equals…",
+  "options": [
+   "Wire diameter − spark gap",
+   "Spark gap only",
+   "Wire diameter + 2 × spark gap",
+   "2 × wire diameter"
+  ],
+  "answer": 2,
+  "explanation": "The wire erodes a slot as wide as itself plus a spark gap on each side.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F026"
+  ]
+ },
+ {
+  "id": "UCM-0030",
+  "shop": "unconventional",
+  "category": "numericals",
+  "difficulty": "medium",
+  "type": "numerical",
+  "question": "A 0.25 mm brass wire cuts with a spark gap of 0.03 mm. What is the kerf width?",
+  "options": [
+   "0.31 mm",
+   "0.25 mm",
+   "0.28 mm",
+   "0.56 mm"
+  ],
+  "answer": 0,
+  "explanation": "Kerf = d + 2g = 0.25 + 2(0.03) = 0.31 mm. Forgetting the factor 2 gives 0.28 mm.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F026"
+  ]
+ },
+ {
+  "id": "UCM-0031",
+  "shop": "unconventional",
+  "category": "numericals",
+  "difficulty": "hard",
+  "type": "numerical",
+  "question": "A wire EDM cut produces a kerf of 0.36 mm with a 0.30 mm wire. What is the spark gap?",
+  "options": [
+   "0.33 mm",
+   "0.03 mm",
+   "0.06 mm",
+   "0.12 mm"
+  ],
+  "answer": 1,
+  "explanation": "g = (kerf − d)/2 = (0.36 − 0.30)/2 = 0.03 mm.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F026"
+  ]
+ },
+ {
+  "id": "UCM-0032",
+  "shop": "unconventional",
+  "category": "definitions",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "In wire EDM programming, the wire path is offset from the drawn profile by…",
+  "options": [
+   "Wire diameter + 2 × spark gap",
+   "Spark gap only",
+   "Zero; no offset is needed",
+   "Wire radius + spark gap"
+  ],
+  "answer": 3,
+  "explanation": "The wire centre must stay (radius + gap) away from the finished edge.",
+  "source": "theory",
+  "ref": "Theory: Complete EDM Handbook",
+  "tags": [],
+  "facts": [
+   "UCM-F027"
+  ]
+ },
+ {
+  "id": "UCM-0033",
+  "shop": "unconventional",
+  "category": "numericals",
+  "difficulty": "hard",
+  "type": "numerical",
+  "question": "For a 0.25 mm wire and a 0.025 mm spark gap, what wire offset is programmed?",
+  "options": [
+   "0.15 mm",
+   "0.30 mm",
+   "0.125 mm",
+   "0.275 mm"
+  ],
+  "answer": 0,
+  "explanation": "Offset = r + g = 0.125 + 0.025 = 0.15 mm.",
+  "source": "theory",
+  "ref": "Theory: Complete EDM Handbook",
+  "tags": [],
+  "facts": [
+   "UCM-F027"
+  ]
+ },
+ {
+  "id": "UCM-0034",
+  "shop": "unconventional",
+  "category": "process-parameters",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of these is NOT a wire EDM machining parameter?",
+  "options": [
+   "Pulse-on time (Ton)",
+   "Peak current",
+   "Spindle speed in rpm",
+   "Wire tension"
+  ],
+  "answer": 2,
+  "explanation": "WEDM parameters: Ton, Toff, peak current, voltage, wire tension, wire feed and flushing. There is no rotating spindle.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1–2",
+  "tags": [],
+  "facts": [
+   "UCM-F028"
+  ]
+ },
+ {
+  "id": "UCM-0035",
+  "shop": "unconventional",
+  "category": "process-parameters",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In EDM, increasing the peak current and pulse-on time generally…",
+  "options": [
+   "Decreases cutting rate and improves finish",
+   "Has no effect on the cut",
+   "Stops the sparks completely",
+   "Increases cutting rate but roughens the surface"
+  ],
+  "answer": 3,
+  "explanation": "Higher spark energy removes more metal per spark, giving bigger craters and a rougher surface.",
+  "source": "theory",
+  "ref": "Theory: P.K. Mishra",
+  "tags": [],
+  "facts": [
+   "UCM-F029"
+  ]
+ },
+ {
+  "id": "UCM-0036",
+  "shop": "unconventional",
+  "category": "process-parameters",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "If wire tension in wire EDM is too LOW…",
+  "options": [
+   "The dielectric boils",
+   "The wire vibrates and accuracy suffers",
+   "The kerf becomes zero",
+   "The wire always breaks at once"
+  ],
+  "answer": 1,
+  "explanation": "Low tension causes vibration and inaccuracy; too high causes breakage.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.2",
+  "tags": [],
+  "facts": [
+   "UCM-F030"
+  ]
+ },
+ {
+  "id": "UCM-0037",
+  "shop": "unconventional",
+  "category": "process-parameters",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "A main cause of wire breakage and poor finish in wire EDM is…",
+  "options": [
+   "Cutting conductive steel",
+   "Using a brass wire",
+   "Using deionised water",
+   "Inadequate flushing of the gap"
+  ],
+  "answer": 3,
+  "explanation": "Poor flushing leaves debris, causing arcing and wire breakage.",
+  "source": "theory",
+  "ref": "Theory: Complete EDM Handbook",
+  "tags": [],
+  "facts": [
+   "UCM-F031"
+  ]
+ },
+ {
+  "id": "UCM-0038",
+  "shop": "unconventional",
+  "category": "definitions",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "In EDM, the thin re-solidified layer left on the machined surface is called the…",
+  "options": [
+   "Recast layer",
+   "Plated layer",
+   "Clad layer",
+   "Pickled layer"
+  ],
+  "answer": 0,
+  "explanation": "Each spark leaves a crater; melted metal re-solidifies as a recast layer over a heat-affected zone.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F032"
+  ]
+ },
+ {
+  "id": "UCM-0039",
+  "shop": "unconventional",
+  "category": "advantages-limitations",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which is an advantage of wire EDM?",
+  "options": [
+   "It needs no dielectric fluid",
+   "No cutting force, so thin delicate parts can be cut",
+   "It cuts any material, including glass",
+   "It is the fastest metal-removal process"
+  ],
+  "answer": 1,
+  "explanation": "Advantages: complex 2-D profiles, high accuracy and finish, no burrs, no cutting force, hard materials.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F033"
+  ]
+ },
+ {
+  "id": "UCM-0040",
+  "shop": "unconventional",
+  "category": "advantages-limitations",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which is a limitation of wire EDM?",
+  "options": [
+   "It leaves heavy burrs",
+   "It cannot cut hardened steel",
+   "Only electrically conductive materials can be cut",
+   "It needs a very hard tool"
+  ],
+  "answer": 2,
+  "explanation": "Limitations: conductive materials only, slow removal, recast layer/HAZ, wire cost.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F034"
+  ]
+ },
+ {
+  "id": "UCM-0041",
+  "shop": "unconventional",
+  "category": "applications",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Wire EDM is widely used for making…",
+  "options": [
+   "Glass bottles",
+   "Wooden furniture",
+   "Cast-iron engine blocks",
+   "Press-tool dies, punches and extrusion dies"
+  ],
+  "answer": 3,
+  "explanation": "Tool and die making is the main application; also gears and aerospace/medical parts.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F035"
+  ]
+ },
+ {
+  "id": "UCM-0042",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "How does die-sinking EDM differ from wire EDM?",
+  "options": [
+   "A shaped electrode sinks a 3-D cavity instead of a wire cutting a profile",
+   "It uses a laser beam instead of sparks",
+   "It needs no electric power",
+   "It works without any dielectric"
+  ],
+  "answer": 0,
+  "explanation": "Die-sinking: shaped copper/graphite electrode, usually in oil. Wire EDM: moving wire, 2-D through-profiles, deionised water.",
+  "source": "theory",
+  "ref": "Theory: P.K. Mishra",
+  "tags": [],
+  "facts": [
+   "UCM-F036"
+  ]
+ },
+ {
+  "id": "UCM-0043",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "In laser cutting, material is removed by…",
+  "options": [
+   "A spinning cutter shearing the metal",
+   "A focused beam melting or vaporising the metal",
+   "Chemicals dissolving the metal",
+   "Sparks between a wire and the metal"
+  ],
+  "answer": 1,
+  "explanation": "The beam melts/vaporises a narrow zone; a coaxial assist-gas jet blows the melt out of the kerf.",
+  "source": "lab",
+  "ref": "Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F037"
+  ]
+ },
+ {
+  "id": "UCM-0044",
+  "shop": "unconventional",
+  "category": "definitions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "LASER stands for…",
+  "options": [
+   "Linear Amplified Spark Electric Radiation",
+   "Low-Angle Surface Erosion by Radiation",
+   "Light Amplification by Stimulated Emission of Radiation",
+   "Light And Sound Energy Release"
+  ],
+  "answer": 2,
+  "explanation": "LASER = Light Amplification by Stimulated Emission of Radiation.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F038"
+  ]
+ },
+ {
+  "id": "UCM-0045",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "The gain medium of a fiber laser is…",
+  "options": [
+   "A tube of CO₂ gas",
+   "Deionised water",
+   "An optical fiber doped with ytterbium",
+   "A ruby crystal"
+  ],
+  "answer": 2,
+  "explanation": "Fiber lasers are solid-state lasers with a Yb-doped fiber.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F039"
+  ]
+ },
+ {
+  "id": "UCM-0046",
+  "shop": "unconventional",
+  "category": "process-parameters",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "The wavelength of a fiber laser is about…",
+  "options": [
+   "10.6 µm",
+   "1.06 µm (1064 nm)",
+   "0.5 nm",
+   "1 mm"
+  ],
+  "answer": 1,
+  "explanation": "Fiber ≈ 1.06 µm; CO₂ ≈ 10.6 µm.",
+  "source": "theory",
+  "ref": "Theory: industry sources (GWK, Xometry)",
+  "tags": [],
+  "facts": [
+   "UCM-F040"
+  ]
+ },
+ {
+  "id": "UCM-0047",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Why are fiber lasers preferred over CO₂ lasers for cutting metal sheet?",
+  "options": [
+   "Metals absorb the shorter 1.06 µm wavelength much better",
+   "CO₂ lasers cannot be focused",
+   "Fiber lasers need no assist gas",
+   "Fiber lasers have a longer wavelength"
+  ],
+  "answer": 0,
+  "explanation": "Metals absorb ~1 µm light far better than 10.6 µm light.",
+  "source": "theory",
+  "ref": "Theory: industry sources",
+  "tags": [],
+  "facts": [
+   "UCM-F041"
+  ]
+ },
+ {
+  "id": "UCM-0048",
+  "shop": "unconventional",
+  "category": "applications",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "CO₂ lasers are widely used for cutting…",
+  "options": [
+   "Only hardened tool steel",
+   "Only copper and brass",
+   "Only glass fibres",
+   "Non-metals such as wood, acrylic and plastics"
+  ],
+  "answer": 3,
+  "explanation": "CO₂ lasers (10.6 µm) suit non-metals.",
+  "source": "theory",
+  "ref": "Theory: industry sources",
+  "tags": [],
+  "facts": [
+   "UCM-F042"
+  ]
+ },
+ {
+  "id": "UCM-0049",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In a fiber laser cutting machine, the beam reaches the cutting head through…",
+  "options": [
+   "A water jet",
+   "A copper wire",
+   "A rigid steel pipe of mirrors only",
+   "A flexible optical fiber"
+  ],
+  "answer": 3,
+  "explanation": "The beam is delivered by fiber; the path is CNC-programmed.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.2",
+  "tags": [],
+  "facts": [
+   "UCM-F043"
+  ]
+ },
+ {
+  "id": "UCM-0050",
+  "shop": "unconventional",
+  "category": "advantages-limitations",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Since laser cutting is non-contact, it has…",
+  "options": [
+   "No tool wear and no cutting force",
+   "Very high tool wear",
+   "A need for a sharp cutter",
+   "A large clamping force on the job"
+  ],
+  "answer": 0,
+  "explanation": "Non-contact processing: no tool wear, no mechanical force.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F044"
+  ]
+ },
+ {
+  "id": "UCM-0051",
+  "shop": "unconventional",
+  "category": "workpiece-material",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which assist gas is normally used for laser cutting mild steel?",
+  "options": [
+   "Nitrogen",
+   "Oxygen",
+   "Helium",
+   "Argon"
+  ],
+  "answer": 1,
+  "explanation": "O₂ reacts exothermically with iron, adding heat for faster/thicker cuts (with an oxide layer on the edge).",
+  "source": "theory",
+  "ref": "Theory: Laser Focus World",
+  "tags": [],
+  "facts": [
+   "UCM-F045"
+  ]
+ },
+ {
+  "id": "UCM-0052",
+  "shop": "unconventional",
+  "category": "workpiece-material",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which assist gas is used for clean, oxide-free cuts in stainless steel and aluminium?",
+  "options": [
+   "Hydrogen",
+   "Carbon dioxide",
+   "Nitrogen",
+   "Oxygen"
+  ],
+  "answer": 2,
+  "explanation": "N₂ is inert; the laser supplies all the energy and the edges stay bright.",
+  "source": "theory",
+  "ref": "Theory: Laser Focus World",
+  "tags": [],
+  "facts": [
+   "UCM-F046"
+  ]
+ },
+ {
+  "id": "UCM-0053",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Why does oxygen assist gas allow faster cutting of mild steel?",
+  "options": [
+   "Its exothermic reaction with iron adds extra heat",
+   "It cools the kerf faster",
+   "It increases the laser wavelength",
+   "It is heavier than nitrogen"
+  ],
+  "answer": 0,
+  "explanation": "The iron–oxygen reaction releases heat, supplementing the laser energy.",
+  "source": "theory",
+  "ref": "Theory: Laser Focus World",
+  "tags": [],
+  "facts": [
+   "UCM-F045"
+  ]
+ },
+ {
+  "id": "UCM-0054",
+  "shop": "unconventional",
+  "category": "advantages-limitations",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "What is the drawback of cutting mild steel with oxygen assist gas?",
+  "options": [
+   "The cut cannot go through",
+   "The kerf becomes very wide",
+   "The lens melts at once",
+   "An oxide layer forms on the cut edge"
+  ],
+  "answer": 3,
+  "explanation": "Oxygen leaves an oxidised edge; nitrogen gives oxide-free edges.",
+  "source": "theory",
+  "ref": "Theory: Laser Focus World",
+  "tags": [],
+  "facts": [
+   "UCM-F045",
+   "UCM-F046"
+  ]
+ },
+ {
+  "id": "UCM-0055",
+  "shop": "unconventional",
+  "category": "workpiece-material",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "A cheap assist-gas option for thin sheets is…",
+  "options": [
+   "Steam",
+   "Compressed air",
+   "Liquid helium",
+   "Pure argon"
+  ],
+  "answer": 1,
+  "explanation": "Compressed air is a low-cost option for thin material.",
+  "source": "theory",
+  "ref": "Theory: Laser Focus World",
+  "tags": [],
+  "facts": [
+   "UCM-F047"
+  ]
+ },
+ {
+  "id": "UCM-0056",
+  "shop": "unconventional",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Besides removing molten metal, the assist gas also…",
+  "options": [
+   "Polishes the sheet",
+   "Charges the workpiece",
+   "Protects the lens from spatter and cools the cut",
+   "Supplies the laser light"
+  ],
+  "answer": 2,
+  "explanation": "The coaxial gas jet keeps spatter off the optics and cools the cut zone.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F048"
+  ]
+ },
+ {
+  "id": "UCM-0057",
+  "shop": "unconventional",
+  "category": "process-parameters",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of these is NOT a laser-cutting parameter?",
+  "options": [
+   "Cutting speed",
+   "Laser power",
+   "Focal position",
+   "Number of cutter teeth"
+  ],
+  "answer": 3,
+  "explanation": "Parameters: power, speed, focal position, gas type and pressure, nozzle diameter, stand-off.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.2",
+  "tags": [],
+  "facts": [
+   "UCM-F049"
+  ]
+ },
+ {
+  "id": "UCM-0058",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In the laser cutting head, the beam is focused to a small spot by the…",
+  "options": [
+   "Focusing lens",
+   "Fiber connector",
+   "Collimating lens",
+   "Assist-gas inlet"
+  ],
+  "answer": 0,
+  "explanation": "The collimator makes the beam parallel; the focusing lens concentrates it to a spot.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F050"
+  ]
+ },
+ {
+  "id": "UCM-0059",
+  "shop": "unconventional",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Stand-off distance in laser cutting is the gap between…",
+  "options": [
+   "Two passes of the beam",
+   "The lens and the fiber",
+   "The nozzle tip and the workpiece surface",
+   "The table and the floor"
+  ],
+  "answer": 2,
+  "explanation": "It affects gas flow and focus position.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F051"
+  ]
+ },
+ {
+  "id": "UCM-0060",
+  "shop": "unconventional",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Compared with other thermal cutting, laser cutting gives…",
+  "options": [
+   "A thick recast layer always",
+   "A narrow kerf and a small heat-affected zone",
+   "No kerf at all",
+   "A wide kerf and a large HAZ"
+  ],
+  "answer": 1,
+  "explanation": "Kerf is a few tenths of a mm and the HAZ is small.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F052"
+  ]
+ },
+ {
+  "id": "UCM-0061",
+  "shop": "unconventional",
+  "category": "definitions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In laser cutting, \"dross\" means…",
+  "options": [
+   "The assist-gas pressure",
+   "Re-solidified metal stuck to the bottom edge",
+   "The fiber coating",
+   "The beam wavelength"
+  ],
+  "answer": 1,
+  "explanation": "Dross is melt that did not get blown away; striations are lines on the cut face.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F053"
+  ]
+ },
+ {
+  "id": "UCM-0062",
+  "shop": "unconventional",
+  "category": "process-parameters",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "If the laser cutting speed is too HIGH, the likely result is…",
+  "options": [
+   "Perfect cut with no change",
+   "Burning of the nozzle",
+   "An incomplete cut and dross on the underside",
+   "A very wide kerf and large HAZ"
+  ],
+  "answer": 2,
+  "explanation": "Too fast: the beam cannot cut through, leaving dross. Too slow: wide kerf and big HAZ.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F054"
+  ]
+ },
+ {
+  "id": "UCM-0063",
+  "shop": "unconventional",
+  "category": "advantages-limitations",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which is an advantage of fiber laser cutting?",
+  "options": [
+   "High speed and precision with intricate shapes",
+   "Its equipment is very cheap",
+   "It needs no electricity",
+   "It cuts any thickness easily"
+  ],
+  "answer": 0,
+  "explanation": "Advantages: speed, precision, narrow kerf, small HAZ, no tool wear, intricate shapes.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F055"
+  ]
+ },
+ {
+  "id": "UCM-0064",
+  "shop": "unconventional",
+  "category": "advantages-limitations",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which is a limitation of fiber laser cutting?",
+  "options": [
+   "It always needs a sharp cutter",
+   "It works only on wood",
+   "It cannot cut mild steel",
+   "High equipment cost and a thickness limit"
+  ],
+  "answer": 3,
+  "explanation": "Limitations: high cost, thickness limits, reflective metals can be difficult, fumes.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F056"
+  ]
+ },
+ {
+  "id": "UCM-0065",
+  "shop": "unconventional",
+  "category": "workpiece-material",
+  "difficulty": "hard",
+  "type": "mcq",
+  "question": "Which metals are often difficult to laser cut because they reflect the beam?",
+  "options": [
+   "Mild steel and stainless steel",
+   "Cast iron and wrought iron",
+   "Copper and brass",
+   "Titanium and nickel"
+  ],
+  "answer": 2,
+  "explanation": "Highly reflective metals like copper and brass reflect much of the beam.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F056"
+  ]
+ },
+ {
+  "id": "UCM-0066",
+  "shop": "unconventional",
+  "category": "precautions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which eye protection is required near a fiber laser cutter?",
+  "options": [
+   "No protection is needed",
+   "Laser safety goggles rated for its wavelength",
+   "Ordinary sunglasses",
+   "Welding goggles of any shade"
+  ],
+  "answer": 1,
+  "explanation": "Wear laser goggles of the correct wavelength rating and never look into the beam.",
+  "source": "theory",
+  "ref": "Theory: laser safety practice",
+  "tags": [],
+  "facts": [
+   "UCM-F057"
+  ]
+ },
+ {
+  "id": "UCM-0067",
+  "shop": "unconventional",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which is a laser-cutting safety rule?",
+  "options": [
+   "Keep the enclosure closed and use fume extraction",
+   "Switch off the extraction to save power",
+   "Put hands on the bed to steady the sheet",
+   "Look into the beam to check focus"
+  ],
+  "answer": 0,
+  "explanation": "Keep the enclosure closed, extract fumes, keep hands off the bed, and watch for fire.",
+  "source": "theory",
+  "ref": "Theory: laser safety practice",
+  "tags": [],
+  "facts": [
+   "UCM-F057"
+  ]
+ },
+ {
+  "id": "UCM-0068",
+  "shop": "unconventional",
+  "category": "job-dimensions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "What are the objectives of the ME-106 unconventional machining practice?",
+  "options": [
+   "To study plasma and water-jet cutting",
+   "To study CNC milling and 3D printing",
+   "To study ECM and USM",
+   "To study wire EDM and the fiber laser cutting machine"
+  ],
+  "answer": 3,
+  "explanation": "Objectives: 1 study wire electrical discharge machining; 2 study the fiber laser cutting machine.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F058"
+  ]
+ },
+ {
+  "id": "UCM-0069",
+  "shop": "unconventional",
+  "category": "job-dimensions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "What job is cut on the wire EDM in the ME-106 lab?",
+  "options": [
+   "A ring cut from sheet",
+   "A 22-tooth spur gear",
+   "A stepped shaft",
+   "A square 10 mm × 10 mm, 5 mm thick"
+  ],
+  "answer": 3,
+  "explanation": "The log sheet drawing: EDM square 10 × 10 mm with 5 mm thickness.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F059"
+  ]
+ },
+ {
+  "id": "UCM-0070",
+  "shop": "unconventional",
+  "category": "job-dimensions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "What job is cut on the fiber laser in the ME-106 lab?",
+  "options": [
+   "A hexagonal nut",
+   "A ring (annulus) from metal sheet",
+   "A spur gear",
+   "A 10 × 10 × 5 mm square"
+  ],
+  "answer": 1,
+  "explanation": "The log sheet drawing shows a laser-cut ring.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F060"
+  ]
+ },
+ {
+  "id": "UCM-0071",
+  "shop": "unconventional",
+  "category": "job-dimensions",
+  "difficulty": "medium",
+  "type": "numerical",
+  "question": "What is the volume of the 10 × 10 × 5 mm wire-EDM square?",
+  "options": [
+   "500 mm³",
+   "100 mm³",
+   "50 mm³",
+   "1000 mm³"
+  ],
+  "answer": 0,
+  "explanation": "10 × 10 × 5 = 500 mm³.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F059"
+  ]
+ },
+ {
+  "id": "UCM-0072",
+  "shop": "unconventional",
+  "category": "numericals",
+  "difficulty": "hard",
+  "type": "numerical",
+  "question": "The 10 × 10 mm EDM square is cut out of a plate along its full perimeter. What length of cut does the wire travel?",
+  "options": [
+   "100 mm",
+   "20 mm",
+   "40 mm",
+   "50 mm"
+  ],
+  "answer": 2,
+  "explanation": "Perimeter = 4 × 10 = 40 mm.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F059"
+  ]
+ },
+ {
+  "id": "UCM-0073",
+  "shop": "unconventional",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which of these is listed in the ME-106 wire EDM tool list?",
+  "options": [
+   "Grinding wheel",
+   "Emery paper",
+   "Index plate",
+   "Clamping wire"
+  ],
+  "answer": 3,
+  "explanation": "Tools: wire-cut EDM machine, clamping tool, clamping wire, power supply, dielectric fluid supply, part programming, wire electrode.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F061"
+  ]
+ },
+ {
+  "id": "UCM-0074",
+  "shop": "unconventional",
+  "category": "tools-equipment",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which item is NOT in the ME-106 wire EDM tool list?",
+  "options": [
+   "Assist-gas cylinder",
+   "Part programming",
+   "Dielectric fluid supply",
+   "Wire electrode"
+  ],
+  "answer": 0,
+  "explanation": "Assist gas belongs to laser cutting.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F061"
+  ]
+ },
+ {
+  "id": "UCM-0075",
+  "shop": "unconventional",
+  "category": "procedure",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "What is the FIRST step of the ME-106 wire EDM procedure?",
+  "options": [
+   "Enter the profile in the program",
+   "Apply pulsed voltage to the wire",
+   "Clamp the workpiece properly on the machine",
+   "Remove and inspect the job"
+  ],
+  "answer": 2,
+  "explanation": "Step 1: clamp the workpiece properly on the EDM machine.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F062"
+  ]
+ },
+ {
+  "id": "UCM-0076",
+  "shop": "unconventional",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which step comes immediately after clamping the job in the ME-106 wire EDM procedure?",
+  "options": [
+   "Inspect the finished job",
+   "Fix and tension the wire electrode",
+   "Start the dielectric pump",
+   "Apply pulsed voltage"
+  ],
+  "answer": 1,
+  "explanation": "Step 2: fix and tension the wire electrode.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F063"
+  ]
+ },
+ {
+  "id": "UCM-0077",
+  "shop": "unconventional",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In the ME-106 wire EDM procedure, which step comes before entering the profile through part programming?",
+  "options": [
+   "Applying pulsed voltage",
+   "Supplying the dielectric fluid to the machining zone",
+   "The wire completing the cut",
+   "Removing and inspecting the job"
+  ],
+  "answer": 1,
+  "explanation": "Steps 3–5: set parameters → supply dielectric → enter profile by part programming.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F064",
+   "UCM-F065",
+   "UCM-F066"
+  ]
+ },
+ {
+  "id": "UCM-0078",
+  "shop": "unconventional",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In the ME-106 wire EDM procedure, the machining parameters are set…",
+  "options": [
+   "After the job is removed",
+   "Only after the cut is complete",
+   "After fixing the wire and before supplying dielectric",
+   "Before clamping the job"
+  ],
+  "answer": 2,
+  "explanation": "Step 3: set the required machining parameters.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F064"
+  ]
+ },
+ {
+  "id": "UCM-0079",
+  "shop": "unconventional",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "What must be maintained between the wire and workpiece during the cut (step 6)?",
+  "options": [
+   "A layer of grease",
+   "Firm contact pressure",
+   "A 5 mm air gap",
+   "A small spark gap"
+  ],
+  "answer": 3,
+  "explanation": "Step 6: maintain a small spark gap between wire and workpiece.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F067"
+  ]
+ },
+ {
+  "id": "UCM-0080",
+  "shop": "unconventional",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In step 7 of the ME-106 wire EDM procedure, what is applied between the wire and the job?",
+  "options": [
+   "Pulsed electrical voltage",
+   "Steady AC mains voltage",
+   "A grinding force",
+   "Compressed air"
+  ],
+  "answer": 0,
+  "explanation": "Step 7: apply pulsed electrical voltage between the wire and workpiece.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F068"
+  ]
+ },
+ {
+  "id": "UCM-0081",
+  "shop": "unconventional",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "According to the ME-106 log sheet, how is material removed in wire EDM (step 8)?",
+  "options": [
+   "By the clamping pressure",
+   "By the wire rubbing the job",
+   "By the heat generated by the sparks",
+   "By chemical attack of the water"
+  ],
+  "answer": 2,
+  "explanation": "Step 8: material is removed due to the heat generated by the sparks.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F069"
+  ]
+ },
+ {
+  "id": "UCM-0082",
+  "shop": "unconventional",
+  "category": "procedure",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "What is the LAST step of the ME-106 wire EDM procedure?",
+  "options": [
+   "Set the parameters",
+   "Fix and tension the wire",
+   "Clamp the job",
+   "Remove and inspect the machined job"
+  ],
+  "answer": 3,
+  "explanation": "Step 10: remove and inspect the machined job.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F071"
+  ]
+ },
+ {
+  "id": "UCM-0083",
+  "shop": "unconventional",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In the ME-106 wire EDM procedure, how is the profile completed (step 9)?",
+  "options": [
+   "The wire moves along the programmed profile",
+   "The table rotates the job",
+   "The job is turned on a lathe",
+   "The operator saws by hand"
+  ],
+  "answer": 0,
+  "explanation": "Step 9: the wire moves according to the programmed profile and completes the cut.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F070"
+  ]
+ },
+ {
+  "id": "UCM-0084",
+  "shop": "unconventional",
+  "category": "procedure",
+  "difficulty": "hard",
+  "type": "sequence",
+  "question": "What is the correct order of the ME-106 wire EDM procedure?",
+  "options": [
+   "Fix & tension wire → clamp job → apply pulses → set parameters → enter profile → supply dielectric → keep spark gap → cut → remove & inspect",
+   "Clamp job → fix & tension wire → set parameters → supply dielectric → enter profile → keep spark gap → apply pulses → cut → remove & inspect",
+   "Supply dielectric → set parameters → clamp job → cut → fix & tension wire → enter profile → keep spark gap → apply pulses → remove & inspect",
+   "Enter profile → apply pulses → clamp job → supply dielectric → fix & tension wire → set parameters → keep spark gap → cut → remove & inspect"
+  ],
+  "answer": 1,
+  "explanation": "From the Unconventional log sheet.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F062",
+   "UCM-F063",
+   "UCM-F064",
+   "UCM-F065",
+   "UCM-F066",
+   "UCM-F067",
+   "UCM-F068",
+   "UCM-F070",
+   "UCM-F071"
+  ]
+ },
+ {
+  "id": "UCM-0085",
+  "shop": "unconventional",
+  "category": "procedure",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "What is the FIRST step of the ME-106 fiber laser procedure?",
+  "options": [
+   "Inspect the cut piece",
+   "Start the laser beam",
+   "Clamp the metal sheet properly on the bed",
+   "Do a dry run"
+  ],
+  "answer": 2,
+  "explanation": "Step 1: clamp the metal sheet properly on the machine bed.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.2",
+  "tags": [],
+  "facts": [
+   "UCM-F072"
+  ]
+ },
+ {
+  "id": "UCM-0086",
+  "shop": "unconventional",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Where is the cutting profile set for the fiber laser?",
+  "options": [
+   "On the clamping wire",
+   "In the dielectric tank",
+   "On the index plate",
+   "In the CNC controller"
+  ],
+  "answer": 3,
+  "explanation": "Step 2: set the required cutting profile in the CNC controller.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.2",
+  "tags": [],
+  "facts": [
+   "UCM-F073"
+  ]
+ },
+ {
+  "id": "UCM-0087",
+  "shop": "unconventional",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which settings are made in step 3 of the ME-106 fiber laser procedure?",
+  "options": [
+   "Index plate and crank",
+   "Laser power, cutting speed and assist gas",
+   "Grit, grade and bond",
+   "Ton, Toff and wire tension"
+  ],
+  "answer": 1,
+  "explanation": "Step 3: set laser power, cutting speed and assist gas.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.2",
+  "tags": [],
+  "facts": [
+   "UCM-F074"
+  ]
+ },
+ {
+  "id": "UCM-0088",
+  "shop": "unconventional",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "In the ME-106 fiber laser procedure, how is the beam focused on the job?",
+  "options": [
+   "Using the remote (focus control)",
+   "By moving the sheet by hand",
+   "By changing the gas",
+   "By tilting the bed"
+  ],
+  "answer": 0,
+  "explanation": "Step 4: focus the laser beam on the workpiece through the remote.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.2",
+  "tags": [],
+  "facts": [
+   "UCM-F075"
+  ]
+ },
+ {
+  "id": "UCM-0089",
+  "shop": "unconventional",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Why is a dry run done before laser cutting?",
+  "options": [
+   "To cool the nozzle",
+   "To heat the sheet",
+   "To clean the lens",
+   "To check the laser will cut at the correct place"
+  ],
+  "answer": 3,
+  "explanation": "Step 5: check by dry cutting (dry run) whether the laser will cut in the correct place.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.2",
+  "tags": [],
+  "facts": [
+   "UCM-F076"
+  ]
+ },
+ {
+  "id": "UCM-0090",
+  "shop": "unconventional",
+  "category": "procedure",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which step comes immediately AFTER the dry run in the fiber laser procedure?",
+  "options": [
+   "Set the power and speed",
+   "Clamp the sheet",
+   "Start the beam and cut along the programmed path",
+   "Focus the beam"
+  ],
+  "answer": 2,
+  "explanation": "Step 6: start the laser beam and cut along the programmed path.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.2",
+  "tags": [],
+  "facts": [
+   "UCM-F077"
+  ]
+ },
+ {
+  "id": "UCM-0091",
+  "shop": "unconventional",
+  "category": "procedure",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "What is the LAST step of the ME-106 fiber laser procedure?",
+  "options": [
+   "Remove the cut piece and inspect the profile",
+   "Do a dry run",
+   "Set the assist gas",
+   "Clamp the sheet"
+  ],
+  "answer": 0,
+  "explanation": "Step 7: remove the cut piece and inspect the profile.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.2",
+  "tags": [],
+  "facts": [
+   "UCM-F078"
+  ]
+ },
+ {
+  "id": "UCM-0092",
+  "shop": "unconventional",
+  "category": "procedure",
+  "difficulty": "hard",
+  "type": "sequence",
+  "question": "What is the correct order of the ME-106 fiber laser procedure?",
+  "options": [
+   "Focus beam → cut → clamp sheet → dry run → set profile in CNC → set power, speed & gas → remove & inspect",
+   "Clamp sheet → set profile in CNC → set power, speed & gas → focus beam → dry run → cut → remove & inspect",
+   "Set power, speed & gas → clamp sheet → cut → focus beam → dry run → set profile in CNC → remove & inspect",
+   "Dry run → clamp sheet → set profile in CNC → cut → focus beam → set power, speed & gas → remove & inspect"
+  ],
+  "answer": 1,
+  "explanation": "From the Unconventional log sheet p.2.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.2",
+  "tags": [],
+  "facts": [
+   "UCM-F072",
+   "UCM-F073",
+   "UCM-F074",
+   "UCM-F075",
+   "UCM-F076",
+   "UCM-F077",
+   "UCM-F078"
+  ]
+ },
+ {
+  "id": "UCM-0093",
+  "shop": "unconventional",
+  "category": "precautions",
+  "difficulty": "easy",
+  "type": "mcq",
+  "question": "Which precaution applies to both wire EDM and laser cutting in the ME-106 log sheet?",
+  "options": [
+   "Clamp the workpiece properly",
+   "Dress the wheel before use",
+   "Do not rotate the crank backwards",
+   "Lower the head 1 mm"
+  ],
+  "answer": 0,
+  "explanation": "Precaution 1: clamp the workpiece properly.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.2",
+  "tags": [],
+  "facts": [
+   "UCM-F079"
+  ]
+ },
+ {
+  "id": "UCM-0094",
+  "shop": "unconventional",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which wire EDM precaution is listed on the ME-106 log sheet?",
+  "options": [
+   "Use tap water as dielectric",
+   "Remove the dielectric during cutting",
+   "Maintain correct wire tension and spark gap",
+   "Keep the wire touching the job"
+  ],
+  "answer": 2,
+  "explanation": "Precaution 2: maintain correct wire tension and spark gap.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.2",
+  "tags": [],
+  "facts": [
+   "UCM-F080"
+  ]
+ },
+ {
+  "id": "UCM-0095",
+  "shop": "unconventional",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "What must be ensured about the dielectric during wire EDM?",
+  "options": [
+   "It is heated to boiling",
+   "A continuous supply of dielectric fluid",
+   "It is switched off during the cut",
+   "It is replaced by oxygen"
+  ],
+  "answer": 1,
+  "explanation": "Precaution 3: ensure continuous supply of dielectric fluid.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.2",
+  "tags": [],
+  "facts": [
+   "UCM-F081"
+  ]
+ },
+ {
+  "id": "UCM-0096",
+  "shop": "unconventional",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which electrical settings must be set correctly in wire EDM (log sheet)?",
+  "options": [
+   "Voltage of the plating bath",
+   "Grit, grade and bond",
+   "Feed rod and lead screw",
+   "Ton, Toff and peak current"
+  ],
+  "answer": 3,
+  "explanation": "Precaution 4: set Ton, Toff and peak current correctly.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.2",
+  "tags": [],
+  "facts": [
+   "UCM-F082"
+  ]
+ },
+ {
+  "id": "UCM-0097",
+  "shop": "unconventional",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "Which laser precaution is listed on the ME-106 log sheet?",
+  "options": [
+   "Keep the wire slack",
+   "Set correct laser power and cutting speed",
+   "Look into the beam to focus it",
+   "Use oil as dielectric"
+  ],
+  "answer": 1,
+  "explanation": "Precaution 5: set the correct laser power and cutting speed.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.2",
+  "tags": [],
+  "facts": [
+   "UCM-F083"
+  ]
+ },
+ {
+  "id": "UCM-0098",
+  "shop": "unconventional",
+  "category": "precautions",
+  "difficulty": "medium",
+  "type": "mcq",
+  "question": "How is the cutting accuracy checked before the actual laser cut?",
+  "options": [
+   "By a dry (laser) run",
+   "By touching the bed",
+   "By measuring the wire",
+   "By tasting the gas"
+  ],
+  "answer": 0,
+  "explanation": "Precaution 6: check accuracy by dry laser cutting.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.2",
+  "tags": [],
+  "facts": [
+   "UCM-F084"
+  ]
+ },
+ {
+  "id": "UCM-0099",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "hard",
+  "type": "assertion-reason",
+  "question": "Assertion (A): Wire EDM can cut hardened tool steel easily.\nReason (R): In EDM the hardness of the workpiece does not affect material removal.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is NOT the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "answer": 0,
+  "explanation": "Both true, and R explains A: removal is by sparks, so only conductivity matters, not hardness.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F014"
+  ],
+  "keepOrder": true
+ },
+ {
+  "id": "UCM-0100",
+  "shop": "unconventional",
+  "category": "workpiece-material",
+  "difficulty": "hard",
+  "type": "assertion-reason",
+  "question": "Assertion (A): Fiber lasers are preferred for cutting metal sheet.\nReason (R): The fiber-laser wavelength (10.6 µm) is longer than that of CO₂ lasers.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is NOT the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "answer": 2,
+  "explanation": "A is true but R is false: fiber ≈ 1.06 µm (shorter); CO₂ ≈ 10.6 µm. Metals absorb the shorter wavelength better.",
+  "source": "theory",
+  "ref": "Theory: industry sources (GWK, Xometry); Theory: industry sources",
+  "tags": [],
+  "facts": [
+   "UCM-F040",
+   "UCM-F041"
+  ],
+  "keepOrder": true
+ },
+ {
+  "id": "UCM-0101",
+  "shop": "unconventional",
+  "category": "process-parameters",
+  "difficulty": "hard",
+  "type": "assertion-reason",
+  "question": "Assertion (A): Nitrogen is used as assist gas for stainless steel.\nReason (R): Nitrogen gives clean, oxide-free cut edges.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is NOT the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "answer": 0,
+  "explanation": "Both true and R explains A.",
+  "source": "theory",
+  "ref": "Theory: Laser Focus World",
+  "tags": [],
+  "facts": [
+   "UCM-F046"
+  ],
+  "keepOrder": true
+ },
+ {
+  "id": "UCM-0102",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "easy",
+  "type": "true-false",
+  "question": "In wire EDM, the wire must touch the workpiece to cut it.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explanation": "False. A spark gap is kept; contact would short-circuit.",
+  "source": "lab",
+  "ref": "Theory: Kalpakjian; Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F008",
+   "UCM-F009"
+  ],
+  "keepOrder": true
+ },
+ {
+  "id": "UCM-0103",
+  "shop": "unconventional",
+  "category": "workpiece-material",
+  "difficulty": "medium",
+  "type": "true-false",
+  "question": "Wire EDM can be used to cut glass.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explanation": "False. The workpiece must be electrically conductive.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F014"
+  ],
+  "keepOrder": true
+ },
+ {
+  "id": "UCM-0104",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled A?",
+  "options": [
+   "X–Y worktable",
+   "Workpiece",
+   "Wire supply spool",
+   "CNC / servo control"
+  ],
+  "answer": 2,
+  "explanation": "A = Wire supply spool. Feeds fresh wire continuously; the wire is used only once.",
+  "source": "theory",
+  "ref": "Theory: Makino EDM wire tutorial",
+  "tags": [],
+  "facts": [
+   "UCM-F024"
+  ],
+  "figure": "unconventional/wedm",
+  "label": "A",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0105",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled B?",
+  "options": [
+   "Wire supply spool",
+   "Dielectric nozzle",
+   "Kerf (cut slot)",
+   "Upper wire guide"
+  ],
+  "answer": 3,
+  "explanation": "B = Upper wire guide. Guides the wire accurately above the job (can tilt for taper cuts).",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F025"
+  ],
+  "figure": "unconventional/wedm",
+  "label": "B",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0106",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled C?",
+  "options": [
+   "Upper wire guide",
+   "Lower wire guide",
+   "X–Y worktable",
+   "Dielectric nozzle"
+  ],
+  "answer": 1,
+  "explanation": "C = Lower wire guide. Guides the wire accurately below the job.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F025"
+  ],
+  "figure": "unconventional/wedm",
+  "label": "C",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0107",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled D?",
+  "options": [
+   "CNC / servo control",
+   "Pulse power supply",
+   "X–Y worktable",
+   "Wire electrode"
+  ],
+  "answer": 3,
+  "explanation": "D = Wire electrode. Thin brass wire (≈0.05–0.3 mm) that sparks against the job without touching it.",
+  "source": "theory",
+  "ref": "Theory: Complete EDM Handbook",
+  "tags": [],
+  "facts": [
+   "UCM-F022"
+  ],
+  "figure": "unconventional/wedm",
+  "label": "D",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0108",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled E?",
+  "options": [
+   "X–Y worktable",
+   "Dielectric nozzle",
+   "Workpiece",
+   "Wire supply spool"
+  ],
+  "answer": 2,
+  "explanation": "E = Workpiece. Must be electrically conductive; held on the table.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F014"
+  ],
+  "figure": "unconventional/wedm",
+  "label": "E",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0109",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled F?",
+  "options": [
+   "Dielectric nozzle",
+   "Pulse power supply",
+   "Used-wire take-up",
+   "Wire supply spool"
+  ],
+  "answer": 0,
+  "explanation": "F = Dielectric nozzle. Flushes deionised water through the gap to cool and remove debris.",
+  "source": "theory",
+  "ref": "Theory: P.K. Mishra",
+  "tags": [],
+  "facts": [
+   "UCM-F020"
+  ],
+  "figure": "unconventional/wedm",
+  "label": "F",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0110",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled G?",
+  "options": [
+   "X–Y worktable",
+   "Pulse power supply",
+   "Wire supply spool",
+   "Dielectric nozzle"
+  ],
+  "answer": 0,
+  "explanation": "G = X–Y worktable. Moves the job along the programmed profile under CNC control.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F015"
+  ],
+  "figure": "unconventional/wedm",
+  "label": "G",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0111",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled H?",
+  "options": [
+   "CNC / servo control",
+   "Dielectric nozzle",
+   "Kerf (cut slot)",
+   "Pulse power supply"
+  ],
+  "answer": 3,
+  "explanation": "H = Pulse power supply. Applies pulsed DC voltage between wire and work (Ton / Toff).",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F012"
+  ],
+  "figure": "unconventional/wedm",
+  "label": "H",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0112",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled I?",
+  "options": [
+   "Pulse power supply",
+   "Kerf (cut slot)",
+   "CNC / servo control",
+   "Lower wire guide"
+  ],
+  "answer": 2,
+  "explanation": "I = CNC / servo control. Follows the part program and keeps the spark gap constant.",
+  "source": "theory",
+  "ref": "Theory: Complete EDM Handbook",
+  "tags": [],
+  "facts": [
+   "UCM-F010"
+  ],
+  "figure": "unconventional/wedm",
+  "label": "I",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0113",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled J?",
+  "options": [
+   "Workpiece",
+   "Used-wire take-up",
+   "Kerf (cut slot)",
+   "CNC / servo control"
+  ],
+  "answer": 1,
+  "explanation": "J = Used-wire take-up. Collects the eroded wire, which is not reused.",
+  "source": "theory",
+  "ref": "Theory: Makino EDM wire tutorial",
+  "tags": [],
+  "facts": [
+   "UCM-F024"
+  ],
+  "figure": "unconventional/wedm",
+  "label": "J",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0114",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled K?",
+  "options": [
+   "CNC / servo control",
+   "X–Y worktable",
+   "Kerf (cut slot)",
+   "Workpiece"
+  ],
+  "answer": 2,
+  "explanation": "K = Kerf (cut slot). Width = wire diameter + 2 × spark gap.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F026"
+  ],
+  "figure": "unconventional/wedm",
+  "label": "K",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0115",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, which label shows the upper wire guide?",
+  "options": [
+   "B",
+   "D",
+   "F",
+   "J"
+  ],
+  "answer": 0,
+  "explanation": "B = Upper wire guide. Guides the wire accurately above the job (can tilt for taper cuts).",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F025"
+  ],
+  "figure": "unconventional/wedm",
+  "label": "B",
+  "ask": "which"
+ },
+ {
+  "id": "UCM-0116",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, which label shows the dielectric nozzle?",
+  "options": [
+   "K",
+   "F",
+   "A",
+   "D"
+  ],
+  "answer": 1,
+  "explanation": "F = Dielectric nozzle. Flushes deionised water through the gap to cool and remove debris.",
+  "source": "theory",
+  "ref": "Theory: P.K. Mishra",
+  "tags": [],
+  "facts": [
+   "UCM-F020"
+  ],
+  "figure": "unconventional/wedm",
+  "label": "F",
+  "ask": "which"
+ },
+ {
+  "id": "UCM-0117",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, which label shows the CNC / servo control?",
+  "options": [
+   "B",
+   "K",
+   "D",
+   "I"
+  ],
+  "answer": 3,
+  "explanation": "I = CNC / servo control. Follows the part program and keeps the spark gap constant.",
+  "source": "theory",
+  "ref": "Theory: Complete EDM Handbook",
+  "tags": [],
+  "facts": [
+   "UCM-F010"
+  ],
+  "figure": "unconventional/wedm",
+  "label": "I",
+  "ask": "which"
+ },
+ {
+  "id": "UCM-0118",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, which label shows the kerf (cut slot)?",
+  "options": [
+   "E",
+   "F",
+   "K",
+   "B"
+  ],
+  "answer": 2,
+  "explanation": "K = Kerf (cut slot). Width = wire diameter + 2 × spark gap.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F026"
+  ],
+  "figure": "unconventional/wedm",
+  "label": "K",
+  "ask": "which"
+ },
+ {
+  "id": "UCM-0119",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the function of the part labelled F?",
+  "options": [
+   "Flushes deionised water through the gap to cool and remove debris",
+   "Thin brass wire (≈0.05–0.3 mm) that sparks against the job without touching it",
+   "Must be electrically conductive; held on the table",
+   "Follows the part program and keeps the spark gap constant"
+  ],
+  "answer": 0,
+  "explanation": "F = Dielectric nozzle. Flushes deionised water through the gap to cool and remove debris.",
+  "source": "theory",
+  "ref": "Theory: P.K. Mishra",
+  "tags": [],
+  "facts": [
+   "UCM-F020"
+  ],
+  "figure": "unconventional/wedm",
+  "label": "F",
+  "ask": "function"
+ },
+ {
+  "id": "UCM-0120",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the function of the part labelled I?",
+  "options": [
+   "Guides the wire accurately below the job",
+   "Collects the eroded wire, which is not reused",
+   "Width = wire diameter + 2 × spark gap",
+   "Follows the part program and keeps the spark gap constant"
+  ],
+  "answer": 3,
+  "explanation": "I = CNC / servo control. Follows the part program and keeps the spark gap constant.",
+  "source": "theory",
+  "ref": "Theory: Complete EDM Handbook",
+  "tags": [],
+  "facts": [
+   "UCM-F010"
+  ],
+  "figure": "unconventional/wedm",
+  "label": "I",
+  "ask": "function"
+ },
+ {
+  "id": "UCM-0121",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the function of the part labelled J?",
+  "options": [
+   "Moves the job along the programmed profile under CNC control",
+   "Collects the eroded wire, which is not reused",
+   "Flushes deionised water through the gap to cool and remove debris",
+   "Follows the part program and keeps the spark gap constant"
+  ],
+  "answer": 1,
+  "explanation": "J = Used-wire take-up. Collects the eroded wire, which is not reused.",
+  "source": "theory",
+  "ref": "Theory: Makino EDM wire tutorial",
+  "tags": [],
+  "facts": [
+   "UCM-F024"
+  ],
+  "figure": "unconventional/wedm",
+  "label": "J",
+  "ask": "function"
+ },
+ {
+  "id": "UCM-0122",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the function of the part labelled H?",
+  "options": [
+   "Width = wire diameter + 2 × spark gap",
+   "Follows the part program and keeps the spark gap constant",
+   "Feeds fresh wire continuously; the wire is used only once",
+   "Applies pulsed DC voltage between wire and work (Ton / Toff)"
+  ],
+  "answer": 3,
+  "explanation": "H = Pulse power supply. Applies pulsed DC voltage between wire and work (Ton / Toff).",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F012"
+  ],
+  "figure": "unconventional/wedm",
+  "label": "H",
+  "ask": "function"
+ },
+ {
+  "id": "UCM-0123",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled A?",
+  "options": [
+   "Wire electrode (diameter d)",
+   "Crater",
+   "Debris",
+   "Kerf width"
+  ],
+  "answer": 0,
+  "explanation": "A = Wire electrode (diameter d). Moving brass wire; never touches the job.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F008"
+  ],
+  "figure": "unconventional/spark-gap",
+  "label": "A",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0124",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled B?",
+  "options": [
+   "Dielectric (deionised water)",
+   "Spark gap (g)",
+   "Crater",
+   "Spark (discharge)"
+  ],
+  "answer": 1,
+  "explanation": "B = Spark gap (g). Small gap kept constant by the servo; sparks jump across it.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F009"
+  ],
+  "figure": "unconventional/spark-gap",
+  "label": "B",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0125",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled C?",
+  "options": [
+   "Dielectric (deionised water)",
+   "Debris",
+   "Spark (discharge)",
+   "Spark gap (g)"
+  ],
+  "answer": 2,
+  "explanation": "C = Spark (discharge). Pulse of energy that melts and vaporises a tiny bit of metal.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F007"
+  ],
+  "figure": "unconventional/spark-gap",
+  "label": "C",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0126",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled D?",
+  "options": [
+   "Wire electrode (diameter d)",
+   "Debris",
+   "Crater",
+   "Wire diameter (d)"
+  ],
+  "answer": 2,
+  "explanation": "D = Crater. Small pit left by each spark on the cut surface.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F032"
+  ],
+  "figure": "unconventional/spark-gap",
+  "label": "D",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0127",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled E?",
+  "options": [
+   "Kerf width",
+   "Wire diameter (d)",
+   "Spark gap (g)",
+   "Debris"
+  ],
+  "answer": 3,
+  "explanation": "E = Debris. Eroded particles flushed away by the dielectric.",
+  "source": "theory",
+  "ref": "Theory: P.K. Mishra",
+  "tags": [],
+  "facts": [
+   "UCM-F020"
+  ],
+  "figure": "unconventional/spark-gap",
+  "label": "E",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0128",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled F?",
+  "options": [
+   "Spark gap (g)",
+   "Wire diameter (d)",
+   "Wire electrode (diameter d)",
+   "Dielectric (deionised water)"
+  ],
+  "answer": 1,
+  "explanation": "F = Wire diameter (d). Size of the wire electrode.",
+  "source": "theory",
+  "ref": "Theory: Complete EDM Handbook",
+  "tags": [],
+  "facts": [
+   "UCM-F023"
+  ],
+  "figure": "unconventional/spark-gap",
+  "label": "F",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0129",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled G?",
+  "options": [
+   "Kerf width",
+   "Crater",
+   "Spark gap (g)",
+   "Wire electrode (diameter d)"
+  ],
+  "answer": 0,
+  "explanation": "G = Kerf width. Kerf = d + 2g.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F026"
+  ],
+  "figure": "unconventional/spark-gap",
+  "label": "G",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0130",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled H?",
+  "options": [
+   "Debris",
+   "Dielectric (deionised water)",
+   "Kerf width",
+   "Spark (discharge)"
+  ],
+  "answer": 1,
+  "explanation": "H = Dielectric (deionised water). Insulates until breakdown, cools and flushes the gap.",
+  "source": "theory",
+  "ref": "Theory: Makino EDM wire tutorial",
+  "tags": [],
+  "facts": [
+   "UCM-F018"
+  ],
+  "figure": "unconventional/spark-gap",
+  "label": "H",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0131",
+  "shop": "unconventional",
+  "category": "numericals",
+  "difficulty": "hard",
+  "type": "numerical",
+  "question": "In the spark-gap figure, the wire diameter F is 0.20 mm and gap B is 0.04 mm. What is kerf width G?",
+  "options": [
+   "0.20 mm",
+   "0.40 mm",
+   "0.24 mm",
+   "0.28 mm"
+  ],
+  "answer": 3,
+  "explanation": "Kerf = d + 2g = 0.20 + 0.08 = 0.28 mm.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F026"
+  ],
+  "figure": "unconventional/spark-gap"
+ },
+ {
+  "id": "UCM-0132",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the spark-gap figure, what fills the gap between the wire and the work?",
+  "options": [
+   "Deionised water (dielectric)",
+   "Assist gas (oxygen)",
+   "Molten brass",
+   "Air at atmospheric pressure"
+  ],
+  "answer": 0,
+  "explanation": "H is the dielectric: it insulates, cools and flushes debris.",
+  "source": "theory",
+  "ref": "Theory: Makino EDM wire tutorial; Theory: P.K. Mishra",
+  "tags": [],
+  "facts": [
+   "UCM-F018",
+   "UCM-F020"
+  ],
+  "figure": "unconventional/spark-gap"
+ },
+ {
+  "id": "UCM-0133",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled A?",
+  "options": [
+   "Assist-gas inlet",
+   "Collimating lens",
+   "Optical fiber input",
+   "Kerf"
+  ],
+  "answer": 2,
+  "explanation": "A = Optical fiber input. Delivers the 1.06 µm beam from the fiber laser source.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.2",
+  "tags": [],
+  "facts": [
+   "UCM-F043"
+  ],
+  "figure": "unconventional/laser-head",
+  "label": "A",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0134",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled B?",
+  "options": [
+   "Collimating lens",
+   "Assist-gas inlet",
+   "Stand-off distance",
+   "Focal point"
+  ],
+  "answer": 0,
+  "explanation": "B = Collimating lens. Makes the diverging beam from the fiber parallel.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F050"
+  ],
+  "figure": "unconventional/laser-head",
+  "label": "B",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0135",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled C?",
+  "options": [
+   "Focal point",
+   "Kerf",
+   "Focusing lens",
+   "Molten metal ejected"
+  ],
+  "answer": 2,
+  "explanation": "C = Focusing lens. Focuses the beam to a tiny, intense spot.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F050"
+  ],
+  "figure": "unconventional/laser-head",
+  "label": "C",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0136",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled D?",
+  "options": [
+   "Collimating lens",
+   "Assist-gas inlet",
+   "Optical fiber input",
+   "Focal point"
+  ],
+  "answer": 1,
+  "explanation": "D = Assist-gas inlet. Supplies O₂, N₂ or air to blow molten metal out of the kerf.",
+  "source": "theory",
+  "ref": "Theory: Laser Focus World",
+  "tags": [],
+  "facts": [
+   "UCM-F045"
+  ],
+  "figure": "unconventional/laser-head",
+  "label": "D",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0137",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled E?",
+  "options": [
+   "Assist-gas inlet",
+   "Kerf",
+   "Optical fiber input",
+   "Nozzle"
+  ],
+  "answer": 3,
+  "explanation": "E = Nozzle. Directs the assist gas coaxially with the beam.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F050"
+  ],
+  "figure": "unconventional/laser-head",
+  "label": "E",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0138",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled F?",
+  "options": [
+   "Stand-off distance",
+   "Focusing lens",
+   "Focal point",
+   "Kerf"
+  ],
+  "answer": 2,
+  "explanation": "F = Focal point. Smallest, most intense spot, set on or just in the sheet.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.2",
+  "tags": [],
+  "facts": [
+   "UCM-F049"
+  ],
+  "figure": "unconventional/laser-head",
+  "label": "F",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0139",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled G?",
+  "options": [
+   "Molten metal ejected",
+   "Stand-off distance",
+   "Optical fiber input",
+   "Collimating lens"
+  ],
+  "answer": 1,
+  "explanation": "G = Stand-off distance. Gap between the nozzle tip and the sheet surface.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F051"
+  ],
+  "figure": "unconventional/laser-head",
+  "label": "G",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0140",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled H?",
+  "options": [
+   "Kerf",
+   "Focusing lens",
+   "Nozzle",
+   "Molten metal ejected"
+  ],
+  "answer": 0,
+  "explanation": "H = Kerf. Narrow slot (a few tenths of a mm) cut through the sheet.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F052"
+  ],
+  "figure": "unconventional/laser-head",
+  "label": "H",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0141",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the part labelled I?",
+  "options": [
+   "Optical fiber input",
+   "Stand-off distance",
+   "Focal point",
+   "Molten metal ejected"
+  ],
+  "answer": 3,
+  "explanation": "I = Molten metal ejected. Blown out by the assist-gas jet.",
+  "source": "lab",
+  "ref": "Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F037"
+  ],
+  "figure": "unconventional/laser-head",
+  "label": "I",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0142",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the function of the part labelled B?",
+  "options": [
+   "Directs the assist gas coaxially with the beam",
+   "Gap between the nozzle tip and the sheet surface",
+   "Blown out by the assist-gas jet",
+   "Makes the diverging beam from the fiber parallel"
+  ],
+  "answer": 3,
+  "explanation": "B = Collimating lens. Makes the diverging beam from the fiber parallel.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F050"
+  ],
+  "figure": "unconventional/laser-head",
+  "label": "B",
+  "ask": "function"
+ },
+ {
+  "id": "UCM-0143",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the function of the part labelled C?",
+  "options": [
+   "Smallest, most intense spot, set on or just in the sheet",
+   "Focuses the beam to a tiny, intense spot",
+   "Gap between the nozzle tip and the sheet surface",
+   "Delivers the 1.06 µm beam from the fiber laser source"
+  ],
+  "answer": 1,
+  "explanation": "C = Focusing lens. Focuses the beam to a tiny, intense spot.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F050"
+  ],
+  "figure": "unconventional/laser-head",
+  "label": "C",
+  "ask": "function"
+ },
+ {
+  "id": "UCM-0144",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the function of the part labelled D?",
+  "options": [
+   "Supplies O₂, N₂ or air to blow molten metal out of the kerf",
+   "Makes the diverging beam from the fiber parallel",
+   "Narrow slot (a few tenths of a mm) cut through the sheet",
+   "Directs the assist gas coaxially with the beam"
+  ],
+  "answer": 0,
+  "explanation": "D = Assist-gas inlet. Supplies O₂, N₂ or air to blow molten metal out of the kerf.",
+  "source": "theory",
+  "ref": "Theory: Laser Focus World",
+  "tags": [],
+  "facts": [
+   "UCM-F045"
+  ],
+  "figure": "unconventional/laser-head",
+  "label": "D",
+  "ask": "function"
+ },
+ {
+  "id": "UCM-0145",
+  "shop": "unconventional",
+  "category": "machine-parts",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what is the function of the part labelled G?",
+  "options": [
+   "Supplies O₂, N₂ or air to blow molten metal out of the kerf",
+   "Narrow slot (a few tenths of a mm) cut through the sheet",
+   "Gap between the nozzle tip and the sheet surface",
+   "Focuses the beam to a tiny, intense spot"
+  ],
+  "answer": 2,
+  "explanation": "G = Stand-off distance. Gap between the nozzle tip and the sheet surface.",
+  "source": "theory",
+  "ref": "Theory: Kalpakjian",
+  "tags": [],
+  "facts": [
+   "UCM-F051"
+  ],
+  "figure": "unconventional/laser-head",
+  "label": "G",
+  "ask": "function"
+ },
+ {
+  "id": "UCM-0146",
+  "shop": "unconventional",
+  "category": "job-dimensions",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "Which machine was used for the job in panel A?",
+  "options": [
+   "Fiber laser cutting machine",
+   "CNC milling machine",
+   "Die-sinking EDM",
+   "Wire-cut EDM"
+  ],
+  "answer": 3,
+  "explanation": "A = Wire-cut EDM. Square 10 mm × 10 mm, 5 mm thick.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F059"
+  ],
+  "figure": "unconventional/jobs-q",
+  "label": "A",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0147",
+  "shop": "unconventional",
+  "category": "job-dimensions",
+  "difficulty": "easy",
+  "type": "diagram",
+  "question": "Which machine was used for the job in panel B?",
+  "options": [
+   "Die-sinking EDM",
+   "CNC milling machine",
+   "Fiber laser cutting machine",
+   "Wire-cut EDM"
+  ],
+  "answer": 2,
+  "explanation": "B = Fiber laser cutting machine. Ring (annulus) cut from metal sheet.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F060"
+  ],
+  "figure": "unconventional/jobs-q",
+  "label": "B",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0148",
+  "shop": "unconventional",
+  "category": "job-dimensions",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "In the figure, what are the dimensions of the job in panel A?",
+  "options": [
+   "20 mm × 20 mm × 5 mm",
+   "10 mm × 10 mm × 5 mm",
+   "10 mm × 5 mm × 5 mm",
+   "10 mm × 10 mm × 10 mm"
+  ],
+  "answer": 1,
+  "explanation": "Panel A is the wire-EDM square: 10 × 10 mm, 5 mm thick.",
+  "source": "lab",
+  "ref": "Unconventional log sheet p.1",
+  "tags": [],
+  "facts": [
+   "UCM-F059"
+  ],
+  "figure": "unconventional/jobs-q"
+ },
+ {
+  "id": "UCM-0149",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "Which process is shown in panel A?",
+  "options": [
+   "Die-sinking EDM",
+   "Laser beam machining",
+   "Wire EDM",
+   "Electrochemical machining"
+  ],
+  "answer": 0,
+  "explanation": "A = Die-sinking EDM. Shaped (copper/graphite) electrode sinks a 3-D cavity, usually in oil.",
+  "source": "theory",
+  "ref": "Theory: P.K. Mishra",
+  "tags": [],
+  "facts": [
+   "UCM-F036"
+  ],
+  "figure": "unconventional/edm-compare",
+  "label": "A",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0150",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "medium",
+  "type": "diagram",
+  "question": "Which process is shown in panel B?",
+  "options": [
+   "Laser beam machining",
+   "Die-sinking EDM",
+   "Electrochemical machining",
+   "Wire EDM"
+  ],
+  "answer": 3,
+  "explanation": "B = Wire EDM. Moving thin wire cuts a 2-D through-profile, usually in deionised water.",
+  "source": "theory",
+  "ref": "Theory: P.K. Mishra",
+  "tags": [],
+  "facts": [
+   "UCM-F036"
+  ],
+  "figure": "unconventional/edm-compare",
+  "label": "B",
+  "ask": "part"
+ },
+ {
+  "id": "UCM-0151",
+  "shop": "unconventional",
+  "category": "principle-theory",
+  "difficulty": "hard",
+  "type": "diagram",
+  "question": "In the EDM comparison figure, which panel normally uses deionised water as the dielectric?",
+  "options": [
+   "B",
+   "A"
+  ],
+  "answer": 0,
+  "explanation": "Panel B (wire EDM) uses deionised water; panel A (die-sinking) usually uses kerosene/oil.",
+  "source": "theory",
+  "ref": "Theory: Makino EDM wire tutorial; Theory: P.K. Mishra",
+  "tags": [],
+  "facts": [
+   "UCM-F018",
+   "UCM-F019"
+  ],
+  "figure": "unconventional/edm-compare"
+ }
+]

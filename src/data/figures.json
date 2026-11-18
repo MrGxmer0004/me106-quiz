@@ -1933,5 +1933,267 @@
    "p": "In the ME-106 electroplating sequence shown, what is step {L}?",
    "w": "Which box in the sequence is {P}?"
   }
+ },
+ {
+  "id": "unconventional/edm-compare",
+  "shop": "unconventional",
+  "title": "Die-sinking EDM vs wire EDM",
+  "alt": "Two sketches: a shaped electrode sinking a cavity into a block, and a thin wire cutting a through-profile",
+  "labels": {
+   "A": {
+    "part": "Die-sinking EDM",
+    "function": "Shaped (copper/graphite) electrode sinks a 3-D cavity, usually in oil",
+    "fact": "UCM-F036"
+   },
+   "B": {
+    "part": "Wire EDM",
+    "function": "Moving thin wire cuts a 2-D through-profile, usually in deionised water",
+    "fact": "UCM-F036"
+   }
+  },
+  "ask": {
+   "p": "Which process is shown in panel {L}?",
+   "w": "Which panel shows {P}?"
+  }
+ },
+ {
+  "id": "unconventional/jobs",
+  "shop": "unconventional",
+  "title": "ME-106 unconventional machining jobs",
+  "alt": "Panel A: a square plate cut on wire EDM; panel B: a ring cut on the fiber laser, with dimensions",
+  "labels": {
+   "A": {
+    "part": "Wire-cut EDM",
+    "function": "Square 10 mm × 10 mm, 5 mm thick",
+    "fact": "UCM-F059"
+   },
+   "B": {
+    "part": "Fiber laser cutting machine",
+    "function": "Ring (annulus) cut from metal sheet",
+    "fact": "UCM-F060"
+   }
+  },
+  "ask": {
+   "p": "Which machine was used for the job in panel {L}?",
+   "w": "Which panel shows the job made on the {P}?"
+  }
+ },
+ {
+  "id": "unconventional/jobs-q",
+  "shop": "unconventional",
+  "title": "ME-106 unconventional machining jobs — dimensions hidden",
+  "alt": "Panel A: a square plate cut on wire EDM; panel B: a ring cut on the fiber laser",
+  "labels": {
+   "A": {
+    "part": "Wire-cut EDM",
+    "function": "Square 10 mm × 10 mm, 5 mm thick",
+    "fact": "UCM-F059"
+   },
+   "B": {
+    "part": "Fiber laser cutting machine",
+    "function": "Ring (annulus) cut from metal sheet",
+    "fact": "UCM-F060"
+   }
+  },
+  "ask": {
+   "p": "Which machine was used for the job in panel {L}?",
+   "w": "Which panel shows the job made on the {P}?"
+  }
+ },
+ {
+  "id": "unconventional/laser-head",
+  "shop": "unconventional",
+  "title": "Fiber laser cutting head",
+  "alt": "Section of a laser cutting head: fiber input, collimating lens, focusing lens, assist-gas inlet and nozzle above the sheet, with focal point, stand-off and kerf",
+  "labels": {
+   "A": {
+    "part": "Optical fiber input",
+    "function": "Delivers the 1.06 µm beam from the fiber laser source",
+    "fact": "UCM-F043"
+   },
+   "B": {
+    "part": "Collimating lens",
+    "function": "Makes the diverging beam from the fiber parallel",
+    "fact": "UCM-F050"
+   },
+   "C": {
+    "part": "Focusing lens",
+    "function": "Focuses the beam to a tiny, intense spot",
+    "fact": "UCM-F050"
+   },
+   "D": {
+    "part": "Assist-gas inlet",
+    "function": "Supplies O₂, N₂ or air to blow molten metal out of the kerf",
+    "fact": "UCM-F045"
+   },
+   "E": {
+    "part": "Nozzle",
+    "function": "Directs the assist gas coaxially with the beam",
+    "fact": "UCM-F050"
+   },
+   "F": {
+    "part": "Focal point",
+    "function": "Smallest, most intense spot, set on or just in the sheet",
+    "fact": "UCM-F049"
+   },
+   "G": {
+    "part": "Stand-off distance",
+    "function": "Gap between the nozzle tip and the sheet surface",
+    "fact": "UCM-F051"
+   },
+   "H": {
+    "part": "Kerf",
+    "function": "Narrow slot (a few tenths of a mm) cut through the sheet",
+    "fact": "UCM-F052"
+   },
+   "I": {
+    "part": "Molten metal ejected",
+    "function": "Blown out by the assist-gas jet",
+    "fact": "UCM-F037"
+   }
+  }
+ },
+ {
+  "id": "unconventional/spark-gap",
+  "shop": "unconventional",
+  "title": "Spark gap close-up",
+  "alt": "Enlarged section through the wire and the cut: wire, spark gap, dielectric, a spark, craters and debris, with the kerf width dimensioned",
+  "labels": {
+   "A": {
+    "part": "Wire electrode (diameter d)",
+    "function": "Moving brass wire; never touches the job",
+    "fact": "UCM-F008"
+   },
+   "B": {
+    "part": "Spark gap (g)",
+    "function": "Small gap kept constant by the servo; sparks jump across it",
+    "fact": "UCM-F009"
+   },
+   "C": {
+    "part": "Spark (discharge)",
+    "function": "Pulse of energy that melts and vaporises a tiny bit of metal",
+    "fact": "UCM-F007"
+   },
+   "D": {
+    "part": "Crater",
+    "function": "Small pit left by each spark on the cut surface",
+    "fact": "UCM-F032"
+   },
+   "E": {
+    "part": "Debris",
+    "function": "Eroded particles flushed away by the dielectric",
+    "fact": "UCM-F020"
+   },
+   "F": {
+    "part": "Wire diameter (d)",
+    "function": "Size of the wire electrode",
+    "fact": "UCM-F023"
+   },
+   "G": {
+    "part": "Kerf width",
+    "function": "Kerf = d + 2g",
+    "fact": "UCM-F026"
+   },
+   "H": {
+    "part": "Dielectric (deionised water)",
+    "function": "Insulates until breakdown, cools and flushes the gap",
+    "fact": "UCM-F018"
+   }
+  }
+ },
+ {
+  "id": "unconventional/wedm",
+  "shop": "unconventional",
+  "title": "Wire-cut EDM — schematic",
+  "alt": "Schematic of a wire EDM: wire runs from a supply spool through upper and lower guides past the workpiece to a take-up, with a pulse power supply, dielectric nozzles and an X–Y table",
+  "labels": {
+   "A": {
+    "part": "Wire supply spool",
+    "function": "Feeds fresh wire continuously; the wire is used only once",
+    "fact": "UCM-F024"
+   },
+   "B": {
+    "part": "Upper wire guide",
+    "function": "Guides the wire accurately above the job (can tilt for taper cuts)",
+    "fact": "UCM-F025"
+   },
+   "C": {
+    "part": "Lower wire guide",
+    "function": "Guides the wire accurately below the job",
+    "fact": "UCM-F025"
+   },
+   "D": {
+    "part": "Wire electrode",
+    "function": "Thin brass wire (≈0.05–0.3 mm) that sparks against the job without touching it",
+    "fact": "UCM-F022"
+   },
+   "E": {
+    "part": "Workpiece",
+    "function": "Must be electrically conductive; held on the table",
+    "fact": "UCM-F014"
+   },
+   "F": {
+    "part": "Dielectric nozzle",
+    "function": "Flushes deionised water through the gap to cool and remove debris",
+    "fact": "UCM-F020"
+   },
+   "G": {
+    "part": "X–Y worktable",
+    "function": "Moves the job along the programmed profile under CNC control",
+    "fact": "UCM-F015"
+   },
+   "H": {
+    "part": "Pulse power supply",
+    "function": "Applies pulsed DC voltage between wire and work (Ton / Toff)",
+    "fact": "UCM-F012"
+   },
+   "I": {
+    "part": "CNC / servo control",
+    "function": "Follows the part program and keeps the spark gap constant",
+    "fact": "UCM-F010"
+   },
+   "J": {
+    "part": "Used-wire take-up",
+    "function": "Collects the eroded wire, which is not reused",
+    "fact": "UCM-F024"
+   },
+   "K": {
+    "part": "Kerf (cut slot)",
+    "function": "Width = wire diameter + 2 × spark gap",
+    "fact": "UCM-F026"
+   }
+  }
+ },
+ {
+  "id": "safety/signs",
+  "shop": "safety",
+  "title": "Safety sign shapes and colours",
+  "alt": "Four blank safety signs: a red-ringed circle with a bar, a yellow triangle, a solid blue circle and a green rectangle",
+  "labels": {
+   "A": {
+    "part": "Prohibition (do not)",
+    "function": "Red ring with a diagonal bar: forbids an action",
+    "fact": "SAF-F024"
+   },
+   "B": {
+    "part": "Warning (caution)",
+    "function": "Yellow triangle with black border: warns of a hazard",
+    "fact": "SAF-F024"
+   },
+   "C": {
+    "part": "Mandatory instruction (must do)",
+    "function": "Solid blue circle: something you must do, e.g. wear goggles",
+    "fact": "SAF-F024"
+   },
+   "D": {
+    "part": "Safe condition / first aid",
+    "function": "Green rectangle: first aid, emergency exit, safe condition",
+    "fact": "SAF-F024"
+   }
+  },
+  "ask": {
+   "p": "What does sign {L} indicate?",
+   "w": "Which sign is used for a {P}?"
+  }
  }
 ]

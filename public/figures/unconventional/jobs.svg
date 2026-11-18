@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-label="Figure"><style>.s{fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}.thin{fill:none;stroke:currentColor;stroke-width:1.1}.lead{fill:none;stroke:currentColor;stroke-width:1.2;opacity:.85}.f{fill:currentColor;fill-opacity:.10;stroke:currentColor;stroke-width:2;stroke-linejoin:round}.f2{fill:currentColor;fill-opacity:.22;stroke:currentColor;stroke-width:2;stroke-linejoin:round}.k{fill:currentColor;stroke:none}.d{fill:none;stroke:currentColor;stroke-width:1.5;stroke-dasharray:6 4}.cl{fill:none;stroke:currentColor;stroke-width:1;stroke-dasharray:14 4 3 4;opacity:.7}.acc{fill:none;stroke:#e8590c;stroke-width:2.4;stroke-linecap:round}.accf{fill:#e8590c;stroke:none}.acct{fill:#e8590c;stroke:none}.tx{fill:currentColor;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}</style>
+<rect class="thin" x="20.0" y="20.0" width="330.0" height="300.0" rx="8"/>
+<rect class="thin" x="370.0" y="20.0" width="330.0" height="300.0" rx="8"/>
+<rect class="f" x="110.0" y="90.0" width="150.0" height="150.0" rx="0"/>
+<polygon class="f2" points="260.0,90.0 285.0,72.0 285.0,222.0 260.0,240.0"/>
+<polygon class="f2" points="110.0,90.0 135.0,72.0 285.0,72.0 260.0,90.0"/>
+<line class="thin" x1="110.0" y1="270.0" x2="260.0" y2="270.0"/>
+<polygon class="k" points="110.0,270.0 118.5,266.9 118.5,273.1"/>
+<polygon class="k" points="260.0,270.0 251.5,273.1 251.5,266.9"/>
+<text class="tx" x="185.0" y="284.0" font-size="16" text-anchor="middle" font-weight="normal" dominant-baseline="middle">10</text>
+<line class="thin" x1="90.0" y1="90.0" x2="90.0" y2="240.0"/>
+<polygon class="k" points="90.0,90.0 93.1,98.5 86.9,98.5"/>
+<polygon class="k" points="90.0,240.0 86.9,231.5 93.1,231.5"/>
+<text class="tx" x="77.0" y="165.0" font-size="16" text-anchor="middle" font-weight="normal" dominant-baseline="middle" transform="rotate(-90 77.0 165.0)">10</text>
+<text class="tx" x="305.0" y="160.0" font-size="16" text-anchor="middle" font-weight="normal" dominant-baseline="middle">5</text>
+<circle class="f" cx="535.0" cy="165.0" r="100.0"/>
+<circle cx="535" cy="165" r="55" fill="#ffffff" stroke="currentColor" stroke-width="2"/>
+<circle cx="45.0" cy="45.0" r="15" fill="#e8590c"/><text x="45.0" y="46.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">A</text>
+<circle cx="395.0" cy="45.0" r="15" fill="#e8590c"/><text x="395.0" y="46.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">B</text>
+</svg>

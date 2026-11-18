@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 520" role="img" aria-label="Figure"><style>.s{fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}.thin{fill:none;stroke:currentColor;stroke-width:1.1}.lead{fill:none;stroke:currentColor;stroke-width:1.2;opacity:.85}.f{fill:currentColor;fill-opacity:.10;stroke:currentColor;stroke-width:2;stroke-linejoin:round}.f2{fill:currentColor;fill-opacity:.22;stroke:currentColor;stroke-width:2;stroke-linejoin:round}.k{fill:currentColor;stroke:none}.d{fill:none;stroke:currentColor;stroke-width:1.5;stroke-dasharray:6 4}.cl{fill:none;stroke:currentColor;stroke-width:1;stroke-dasharray:14 4 3 4;opacity:.7}.acc{fill:none;stroke:#e8590c;stroke-width:2.4;stroke-linecap:round}.accf{fill:#e8590c;stroke:none}.acct{fill:#e8590c;stroke:none}.tx{fill:currentColor;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}</style>
+<circle class="f" cx="110.0" cy="90.0" r="45.0"/>
+<circle class="k" cx="110.0" cy="90.0" r="10.0"/>
+<circle class="f" cx="110.0" cy="440.0" r="45.0"/>
+<circle class="k" cx="110.0" cy="440.0" r="10.0"/>
+<line class="s" x1="150.0" y1="75.0" x2="380.0" y2="75.0"/>
+<line class="s" x1="380.0" y1="75.0" x2="380.0" y2="470.0"/>
+<line class="s" x1="380.0" y1="470.0" x2="150.0" y2="455.0"/>
+<rect class="f2" x="350.0" y="120.0" width="60.0" height="40.0" rx="0"/>
+<rect class="f2" x="350.0" y="380.0" width="60.0" height="40.0" rx="0"/>
+<polygon class="f" points="365.0,160.0 395.0,160.0 388.0,178.0 372.0,178.0"/>
+<polygon class="f" points="365.0,380.0 395.0,380.0 388.0,362.0 372.0,362.0"/>
+<rect class="f" x="240.0" y="230.0" width="280.0" height="100.0" rx="0"/>
+<rect class="k" x="377.0" y="230.0" width="6.0" height="100.0" rx="0"/>
+<rect class="f2" x="200.0" y="330.0" width="360.0" height="22.0" rx="0"/>
+<line class="acc" x1="470.0" y1="364.0" x2="540.0" y2="364.0"/>
+<polygon class="accf" points="540.0,364.0 530.8,367.9 530.8,360.1"/>
+<line class="acc" x1="540.0" y1="364.0" x2="470.0" y2="364.0"/>
+<polygon class="accf" points="470.0,364.0 479.2,360.1 479.2,367.9"/>
+<rect class="f2" x="600.0" y="200.0" width="130.0" height="80.0" rx="6"/>
+<text class="tx" x="665.0" y="228.0" font-size="15" text-anchor="middle" font-weight="bold" dominant-baseline="middle">Pulse</text>
+<text class="tx" x="665.0" y="250.0" font-size="15" text-anchor="middle" font-weight="bold" dominant-baseline="middle">generator</text>
+<text class="tx" x="612.0" y="300.0" font-size="14" text-anchor="start" font-weight="normal" dominant-baseline="middle">−  wire</text>
+<text class="tx" x="612.0" y="318.0" font-size="14" text-anchor="start" font-weight="normal" dominant-baseline="middle">+  work</text>
+<line class="thin" x1="600.0" y1="220.0" x2="420.0" y2="140.0"/>
+<line class="thin" x1="600.0" y1="265.0" x2="520.0" y2="280.0"/>
+<rect class="f2" x="600.0" y="400.0" width="130.0" height="60.0" rx="6"/>
+<text class="tx" x="665.0" y="430.0" font-size="15" text-anchor="middle" font-weight="bold" dominant-baseline="middle">CNC / servo</text>
+<line class="thin" x1="600.0" y1="430.0" x2="560.0" y2="345.0"/>
+<line class="lead" x1="110.0" y1="90.0" x2="52.2" y2="48.7"/>
+<circle class="k" cx="110.0" cy="90.0" r="3"/>
+<circle cx="40.0" cy="40.0" r="15" fill="#e8590c"/><text x="40.0" y="41.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">A</text>
+<line class="lead" x1="410.0" y1="140.0" x2="456.6" y2="116.7"/>
+<circle class="k" cx="410.0" cy="140.0" r="3"/>
+<circle cx="470.0" cy="110.0" r="15" fill="#e8590c"/><text x="470.0" y="111.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">B</text>
+<line class="lead" x1="410.0" y1="400.0" x2="457.5" y2="431.7"/>
+<circle class="k" cx="410.0" cy="400.0" r="3"/>
+<circle cx="470.0" cy="440.0" r="15" fill="#e8590c"/><text x="470.0" y="441.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">C</text>
+<line class="lead" x1="380.0" y1="200.0" x2="314.6" y2="183.6"/>
+<circle class="k" cx="380.0" cy="200.0" r="3"/>
+<circle cx="300.0" cy="180.0" r="15" fill="#e8590c"/><text x="300.0" y="181.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">D</text>
+<line class="lead" x1="300.0" y1="280.0" x2="214.7" y2="262.9"/>
+<circle class="k" cx="300.0" cy="280.0" r="3"/>
+<circle cx="200.0" cy="260.0" r="15" fill="#e8590c"/><text x="200.0" y="261.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">E</text>
+<line class="lead" x1="395.0" y1="170.0" x2="455.5" y2="186.1"/>
+<circle class="k" cx="395.0" cy="170.0" r="3"/>
+<circle cx="470.0" cy="190.0" r="15" fill="#e8590c"/><text x="470.0" y="191.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">F</text>
+<line class="lead" x1="540.0" y1="341.0" x2="625.3" y2="357.2"/>
+<circle class="k" cx="540.0" cy="341.0" r="3"/>
+<circle cx="640.0" cy="360.0" r="15" fill="#e8590c"/><text x="640.0" y="361.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">G</text>
+<line class="lead" x1="665.0" y1="240.0" x2="748.5" y2="169.7"/>
+<circle class="k" cx="665.0" cy="240.0" r="3"/>
+<circle cx="760.0" cy="160.0" r="15" fill="#e8590c"/><text x="760.0" y="161.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">H</text>
+<line class="lead" x1="665.0" y1="430.0" x2="747.3" y2="482.0"/>
+<circle class="k" cx="665.0" cy="430.0" r="3"/>
+<circle cx="760.0" cy="490.0" r="15" fill="#e8590c"/><text x="760.0" y="491.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">I</text>
+<line class="lead" x1="110.0" y1="440.0" x2="51.4" y2="490.2"/>
+<circle class="k" cx="110.0" cy="440.0" r="3"/>
+<circle cx="40.0" cy="500.0" r="15" fill="#e8590c"/><text x="40.0" y="501.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">J</text>
+<line class="lead" x1="380.0" y1="290.0" x2="308.8" y2="387.9"/>
+<circle class="k" cx="380.0" cy="290.0" r="3"/>
+<circle cx="300.0" cy="400.0" r="15" fill="#e8590c"/><text x="300.0" y="401.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">K</text>
+</svg>
