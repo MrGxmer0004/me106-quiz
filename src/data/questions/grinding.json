@@ -29,9 +29,9 @@
   "type": "mcq",
   "question": "In a grinding wheel, what actually does the cutting?",
   "options": [
-   "The bond material",
-   "The pores",
-   "The wheel guard",
+   "The bond material that holds the grains",
+   "The pores between the abrasive grains",
+   "The steel flanges that clamp the wheel",
    "The abrasive grains, each acting as a tiny cutting edge"
   ],
   "answer": 3,
@@ -52,10 +52,10 @@
   "type": "mcq",
   "question": "Grinding is classed as a finishing process because it…",
   "options": [
-   "Removes large amounts of material quickly",
+   "Removes large amounts of material very quickly",
    "Removes small amounts of material to give finish and accuracy",
-   "Joins two parts together",
-   "Adds material to the surface"
+   "Adds a thin layer of material to the surface",
+   "Joins two parts together by friction heat"
   ],
   "answer": 1,
   "explanation": "Machining (turning, milling) does bulk removal (semi-finishing); grinding does small removal (finishing).",
@@ -75,9 +75,9 @@
   "question": "What is the usual sequence when making a hardened, precise part?",
   "options": [
    "Machining → heat treatment (if needed) → grinding",
-   "Machining → grinding → heat treatment",
-   "Heat treatment → grinding → machining",
-   "Grinding → machining → heat treatment"
+   "Grinding → machining → heat treatment (if needed)",
+   "Heat treatment (if needed) → grinding → machining",
+   "Machining → grinding → heat treatment (if needed)"
   ],
   "answer": 0,
   "explanation": "Machining roughs it out, heat treatment hardens it, then grinding finishes it to size (it can cut hardened material).",
@@ -96,10 +96,10 @@
   "type": "mcq",
   "question": "Grinding is usually done…",
   "options": [
-   "Instead of heat treatment",
+   "Only on soft materials that cannot be turned",
    "After turning or milling, when high precision and finish are needed",
-   "Only on soft materials",
-   "Before any other machining"
+   "Before any other machining, to rough out the job",
+   "Instead of heat treatment, to harden the surface"
   ],
   "answer": 1,
   "explanation": "Grinding follows other machining processes when high precision and a smooth finish are required.",
@@ -206,10 +206,10 @@
   "type": "mcq",
   "question": "Grinding is divided into two regimes. They are…",
   "options": [
-   "Wet grinding and dry grinding",
+   "Wet grinding and dry grinding with coolant",
    "Stock-removal grinding and form-and-finish grinding",
-   "Hand grinding and machine grinding",
-   "Rough grinding and polishing"
+   "Rough grinding and mirror polishing",
+   "Hand grinding and machine-tool grinding"
   ],
   "answer": 1,
   "explanation": "The cylindrical-grinding notes divide grinding into stock-removal grinding (SRG) and form-and-finish grinding (FFG).",
@@ -228,10 +228,10 @@
   "type": "mcq",
   "question": "In stock-removal grinding (e.g. abrasive cut-off), why is periodic dressing unnecessary?",
   "options": [
-   "No chips are produced",
-   "The wheel never touches the work",
+   "The wheel never actually touches the work",
+   "The wheel is always made of solid diamond",
    "Wheel wear is so rapid that the wheel is self-sharpening",
-   "The wheel is made of diamond"
+   "No chips are produced in this kind of grinding"
   ],
   "answer": 2,
   "explanation": "In SRG the aim is fast removal regardless of finish; wheel wear is so high that fresh grains keep appearing.",
@@ -250,9 +250,9 @@
   "type": "mcq",
   "question": "In form-and-finish grinding, the wheel must be…",
   "options": [
-   "Run without coolant",
-   "Never dressed",
-   "Run at low speed only",
+   "Never dressed, so that its form is kept",
+   "Run without any coolant to avoid loading",
+   "Run at a very low speed, below 1 m/s",
    "Dressed periodically to keep sharp, clean cutting edges"
   ],
   "answer": 3,
@@ -452,10 +452,10 @@
   "type": "mcq",
   "question": "Specific energy in machining means…",
   "options": [
-   "Power of the motor",
-   "Energy stored in the wheel",
+   "Kinetic energy stored in the rotating wheel",
+   "Rated power of the machine motor in kW",
    "Energy needed to remove a unit volume (1 mm³) of material",
-   "Energy lost in the coolant"
+   "Heat energy carried away by the coolant"
   ],
   "answer": 2,
   "explanation": "Specific energy is the energy required to remove 1 mm³ of material.",
@@ -496,9 +496,9 @@
   "type": "mcq",
   "question": "Why is the specific energy of grinding so high?",
   "options": [
-   "The work is always hardened",
-   "The wheel rotates slowly",
-   "Only one grain cuts at a time",
+   "Only one grain cuts at a time on the wheel",
+   "The work is always hardened before grinding",
+   "The wheel rotates slowly, so cutting is slow",
    "Very small chips, negative rake grains, rubbing and ploughing"
   ],
   "answer": 3,
@@ -629,10 +629,10 @@
   "type": "mcq",
   "question": "Which is a typical application of surface grinding?",
   "options": [
-   "Sharpening drills",
-   "Finishing crankshafts",
+   "Grinding long pins without using centres",
+   "Sharpening drills and milling cutters",
    "Finishing machine beds, flat tools, gauges and dies",
-   "Grinding long pins without centres"
+   "Finishing crankshaft pins and journals"
   ],
   "answer": 2,
   "explanation": "Surface grinding finishes flat items such as machine beds, gauges and dies.",
@@ -651,9 +651,9 @@
   "type": "mcq",
   "question": "A cylindrical grinding machine is used to finish…",
   "options": [
-   "Flat surfaces only",
-   "Gear teeth",
-   "T-slots",
+   "Flat surfaces of blocks only",
+   "T-slots of machine tables",
+   "Gear teeth of spur gears",
    "External cylindrical surfaces"
   ],
   "answer": 3,
@@ -695,10 +695,10 @@
   "type": "mcq",
   "question": "In a cylindrical grinder, which part is reciprocated (often by a hydraulic drive) to traverse the work past the wheel?",
   "options": [
-   "The magnetic chuck",
+   "The wheel head, while the table stays fixed",
    "The table carrying the headstock and tailstock",
-   "The regulating wheel",
-   "The wheel head only"
+   "The regulating wheel and rest blade",
+   "The magnetic chuck on the table"
   ],
   "answer": 1,
   "explanation": "The table carrying the headstock, tailstock and work is reciprocated by a hydraulic drive.",
@@ -718,9 +718,9 @@
   "question": "On a cylindrical grinder, the adjustable table dogs are used to…",
   "options": [
    "Set the limits (reversal points) of the table traverse",
-   "Balance the wheel",
-   "Hold the work between centres",
-   "Dress the wheel"
+   "Dress the wheel face with a diamond",
+   "Balance the grinding wheel before use",
+   "Hold the work firmly between the centres"
   ],
   "answer": 0,
   "explanation": "The dogs on the table trip the reversing mechanism at the ends of the traverse.",
@@ -805,10 +805,10 @@
   "type": "mcq",
   "question": "What extra capability does a universal cylindrical grinder have over a plain one?",
   "options": [
-   "A regulating wheel",
+   "A ram and clapper box so that flat surfaces can be shaped",
    "Swivelling table, headstock and wheel head, plus an internal grinding attachment",
-   "A ram and clapper box",
-   "A magnetic chuck"
+   "A magnetic chuck so that flat steel blocks can be surface ground",
+   "A rubber-bonded regulating wheel and a work-rest blade for centreless work"
   ],
   "answer": 1,
   "explanation": "The universal grinder can grind any taper and has an additional head for internal grinding.",
@@ -827,9 +827,9 @@
   "type": "mcq",
   "question": "Cylindrical grinding is typically used for…",
   "options": [
-   "Flat gauges and dies",
-   "Sheet-metal cutting",
-   "Machine table T-slots",
+   "Flat gauges, dies and machine beds",
+   "Machining T-slots in machine tables",
+   "Cutting sheet metal into blanks",
    "Shafts, rollers and precision bearings"
   ],
   "answer": 3,
@@ -849,10 +849,10 @@
   "type": "mcq",
   "question": "Internal grinding is used to finish…",
   "options": [
-   "Threads on bolts",
-   "Flat surfaces",
+   "The teeth of spur gears",
+   "The threads on bolts and studs",
    "The inside diameter (bore) of cylindrical work",
-   "Gear teeth"
+   "The flat surfaces of blocks"
   ],
   "answer": 2,
   "explanation": "Internal grinding finishes bores with a small wheel running inside the hole.",
@@ -872,9 +872,9 @@
   "question": "In centreless grinding, the work is supported by…",
   "options": [
    "A work-rest blade between the grinding and regulating wheels",
-   "A magnetic chuck",
-   "A three-jaw chuck",
-   "Two centres"
+   "Two centres in the headstock and tailstock",
+   "A three-jaw chuck on the work head",
+   "A magnetic chuck on a reciprocating table"
   ],
   "answer": 0,
   "explanation": "No centres are used; the work rests on a blade and is controlled by the regulating wheel.",
@@ -893,10 +893,10 @@
   "type": "mcq",
   "question": "In centreless grinding, the regulating wheel…",
   "options": [
-   "Rotates faster than the grinding wheel",
+   "Rotates much faster than the grinding wheel",
    "Rotates slower than the grinding wheel and controls the work rotation",
-   "Is a diamond dresser",
-   "Does the actual grinding"
+   "Does the actual grinding of the work",
+   "Is a diamond dresser used to true the wheel"
   ],
   "answer": 1,
   "explanation": "The rubber-bonded regulating wheel turns slowly and controls the speed of the work. Both wheels turn in the same direction.",
@@ -915,10 +915,10 @@
   "type": "mcq",
   "question": "In through-feed centreless grinding, how is the axial movement of the work produced?",
   "options": [
-   "By a reciprocating table",
-   "By a lead screw",
+   "By a lead screw and half-nut",
+   "By a reciprocating table under the work",
    "By tilting the regulating wheel at a small angle",
-   "By the magnetic chuck"
+   "By the pull of the magnetic chuck"
   ],
   "answer": 2,
   "explanation": "A slight tilt of the regulating wheel gives an axial component that feeds the work through.",
@@ -937,9 +937,9 @@
   "type": "mcq",
   "question": "Centreless grinding is best suited for…",
   "options": [
-   "Large gear teeth",
-   "Cutting tool sharpening",
-   "Single flat plates",
+   "Sharpening cutting tools such as drills",
+   "Single large flat plates and dies",
+   "Large spur gear teeth one at a time",
    "High-volume grinding of long slender rods and pins"
   ],
   "answer": 3,
@@ -981,10 +981,10 @@
   "type": "mcq",
   "question": "A tool-post grinder is…",
   "options": [
-   "A hand grinder",
-   "A cylindrical grinder with a tool post",
+   "A grinder mounted on the shaper tool post",
+   "A cylindrical grinder that has a tool post",
    "A self-powered wheel head mounted on a lathe tool post",
-   "A grinder for the shaper tool post"
+   "A small hand-held portable grinder"
   ],
   "answer": 2,
   "explanation": "It mounts on the lathe compound rest; the lathe spindle rotates the work and the carriage traverses the wheel.",
@@ -1069,10 +1069,10 @@
   "type": "mcq",
   "question": "In the marking 51 A 60 K 5 V 05, what do \"51\" and \"05\" represent?",
   "options": [
-   "Wheel diameter and bore",
-   "Structure and grade",
+   "Wheel diameter (mm) and bore diameter (mm)",
+   "Maximum safe speed and grit size of the wheel",
    "Manufacturer's abrasive symbol and manufacturer's record (identifier)",
-   "Maximum speed and grit size"
+   "Structure number and grade of the wheel"
   ],
   "answer": 2,
   "explanation": "The prefix is the manufacturer's mark for the exact abrasive type; the suffix is the manufacturer's identifier.",
@@ -1201,10 +1201,10 @@
   "type": "mcq",
   "question": "Diamond abrasive wheels are mainly used for…",
   "options": [
-   "Soft aluminium",
-   "Wood",
+   "Soft aluminium and other light alloys",
+   "Mild-steel shafts and machine parts",
    "Very hard materials like carbides and ceramics",
-   "Mild steel shafts"
+   "Wood and other soft non-metals"
   ],
   "answer": 2,
   "explanation": "Diamond is used for ceramics, carbides and final polishing, but it is costly.",
@@ -1223,10 +1223,10 @@
   "type": "mcq",
   "question": "Which abrasive is preferred for grinding hardened tool steels?",
   "options": [
-   "Diamond",
+   "Natural emery",
    "Cubic boron nitride (CBN)",
-   "Emery",
-   "Silicon carbide"
+   "Silicon carbide (C)",
+   "Diamond (D)"
   ],
   "answer": 1,
   "explanation": "CBN is a superabrasive suited to very hard ferrous materials such as hardened tool steels (diamond reacts with iron at high temperature).",
@@ -1245,10 +1245,10 @@
   "type": "mcq",
   "question": "The grain (grit) size number of a grinding wheel is based on…",
   "options": [
-   "Weight of each grain in mg",
-   "Diameter of the wheel",
+   "Weight of each grain in milligrams",
+   "Outside diameter of the wheel in mm",
    "Number of openings per linear inch of the sieve",
-   "Hardness of the bond"
+   "Hardness of the bond on the A–Z scale"
   ],
   "answer": 2,
   "explanation": "Grit number = sieve openings per linear inch; grains passing a finer sieve get a larger number.",
@@ -1399,10 +1399,10 @@
   "type": "mcq",
   "question": "The \"grade\" of a grinding wheel refers to…",
   "options": [
-   "Hardness of the abrasive grains",
-   "Spacing between the grains",
+   "Hardness of the abrasive grains themselves",
+   "Size of the grains, given by sieve number",
    "Strength (hardness) of the bond holding the grains",
-   "Size of the grains"
+   "Spacing between the grains in the wheel"
   ],
   "answer": 2,
   "explanation": "Grade is the bond strength: how easily grains are released. It is not the hardness of the abrasive itself.",
@@ -1532,9 +1532,9 @@
   "question": "Why is a soft-grade wheel used on hard work?",
   "options": [
    "Grains blunt quickly, so a weak bond releases them and exposes sharp grains",
-   "Soft wheels produce no heat",
-   "A soft wheel cuts faster on any material",
-   "Hard work needs a smoother wheel"
+   "Hard work needs a smoother wheel surface to finish",
+   "Soft wheels produce no heat at all while grinding",
+   "A soft wheel cuts faster than a hard one on any material"
   ],
   "answer": 0,
   "explanation": "On hard work, grains dull quickly. A soft bond lets them break out (self-sharpening) instead of glazing.",
@@ -1575,10 +1575,10 @@
   "type": "mcq",
   "question": "The \"structure\" of a grinding wheel refers to…",
   "options": [
-   "Type of abrasive",
-   "Strength of the bond",
+   "Strength of the bond holding the grains",
+   "Type of abrasive used in the wheel",
    "Spacing (porosity) between abrasive grains",
-   "Diameter of the wheel"
+   "Outside diameter and width of the wheel"
   ],
   "answer": 2,
   "explanation": "Structure is how closely the grains are packed; it is shown by a number.",
@@ -1597,10 +1597,10 @@
   "type": "mcq",
   "question": "A higher structure number on a grinding wheel means…",
   "options": [
-   "Finer grains",
-   "A denser structure",
+   "A harder bond (higher grade)",
+   "Finer grains (smaller grit size)",
    "A more open structure (wider grain spacing)",
-   "A harder bond"
+   "A denser structure (closer grains)"
   ],
   "answer": 2,
   "explanation": "Low number = dense; high number = open. (The notebook had this reversed; see corrections.md.)",
@@ -1685,10 +1685,10 @@
   "type": "mcq",
   "question": "In a grinding wheel, the bond…",
   "options": [
-   "Does the cutting",
+   "Does the actual cutting of the metal",
    "Holds the abrasive grains together in wheel form",
-   "Is the dresser",
-   "Is the coolant"
+   "Acts as the coolant during grinding",
+   "Acts as the dresser for the wheel face"
   ],
   "answer": 1,
   "explanation": "The bond is the adhesive that holds the grains together.",
@@ -1773,9 +1773,9 @@
   "type": "mcq",
   "question": "Why is vitrified bond the most widely used?",
   "options": [
-   "It is the cheapest rubber",
-   "It melts during use to self-sharpen",
-   "It is flexible for thin cut-off wheels",
+   "It melts during use, so the wheel self-sharpens",
+   "It is flexible enough for very thin cut-off wheels",
+   "It is a cheap rubber that bends without breaking",
    "Strong, rigid, porous, and unaffected by water, oil and acids"
   ],
   "answer": 3,
@@ -1818,10 +1818,10 @@
   "type": "mcq",
   "question": "Thin, high-speed abrasive cut-off wheels are usually made with which bond?",
   "options": [
-   "Oxychloride",
-   "Silicate",
+   "Vitrified (V)",
+   "Silicate (S)",
    "Resinoid (or rubber)",
-   "Vitrified"
+   "Oxychloride (O)"
   ],
   "answer": 2,
   "explanation": "Resinoid and rubber bonds are tough and slightly flexible, which suits thin cut-off wheels and high speeds.",
@@ -1935,10 +1935,10 @@
   "type": "mcq",
   "question": "Dressing a grinding wheel means…",
   "options": [
-   "Balancing the wheel on an arbor",
-   "Changing the bond type",
+   "Balancing the wheel on an arbor and stand",
+   "Painting the marking on the wheel side",
    "Removing the dull outer layer to expose fresh sharp grains",
-   "Painting the wheel marking"
+   "Changing the bond type of the wheel"
   ],
   "answer": 2,
   "explanation": "Dressing sharpens the wheel by removing dull grains and embedded chips with a dresser.",
@@ -1957,10 +1957,10 @@
   "type": "mcq",
   "question": "Truing a grinding wheel means…",
   "options": [
-   "Removing glazing only",
+   "Checking it for cracks by tapping",
    "Restoring its correct shape so it runs concentric",
-   "Checking it for cracks",
-   "Sharpening its grains"
+   "Sharpening its grains with coolant",
+   "Removing the glazed layer only"
   ],
   "answer": 1,
   "explanation": "Truing makes the wheel round and true to its axis (usually with a diamond); dressing sharpens it.",
@@ -1980,9 +1980,9 @@
   "question": "Glazing of a grinding wheel is…",
   "options": [
    "Grains becoming blunt so the wheel surface turns smooth and shiny",
-   "The wheel cracking",
-   "The bond softening",
-   "Metal chips filling the pores"
+   "The bond softening because of coolant",
+   "Metal chips filling the pores of the wheel",
+   "The wheel cracking from excess pressure"
   ],
   "answer": 0,
   "explanation": "A glazed wheel has dull, shiny grains that rub instead of cut.",
@@ -2024,8 +2024,8 @@
   "question": "Glazing is most likely when…",
   "options": [
    "The wheel grade is too soft",
+   "The grit is too coarse for the job",
    "The coolant flow is excessive",
-   "The grit is too coarse",
    "The wheel grade is too hard for the work"
   ],
   "answer": 3,
@@ -2067,9 +2067,9 @@
   "type": "mcq",
   "question": "Self-sharpening of a grinding wheel means…",
   "options": [
-   "The wheel sharpens itself with coolant",
-   "The dresser is automatic",
-   "The wheel gets harder with use",
+   "The wheel is sharpened by the coolant stream",
+   "An automatic dresser sharpens it during use",
+   "The wheel gets harder the longer it is used",
    "Blunt grains break away on their own, exposing new sharp grains"
   ],
   "answer": 3,
@@ -2090,9 +2090,9 @@
   "question": "Why must a grinding wheel be balanced before use?",
   "options": [
    "An unbalanced wheel causes vibration and chatter marks",
-   "To change its grade",
-   "To reduce its diameter",
-   "To make it glaze"
+   "To change its grade from soft to hard",
+   "To make its surface glaze for finishing",
+   "To reduce its diameter to the right size"
   ],
   "answer": 0,
   "explanation": "Imbalance causes vibration (chatter), poor finish and danger. Wheels are balanced on a balancing stand.",
@@ -2111,10 +2111,10 @@
   "type": "mcq",
   "question": "Burn marks on a ground surface are usually caused by…",
   "options": [
-   "Balancing the wheel",
+   "A wheel with too open a structure",
    "Excessive heat, often from a dull wheel",
-   "Too much coolant",
-   "Too open a structure"
+   "Balancing the wheel too accurately",
+   "Using too much coolant on the work"
   ],
   "answer": 1,
   "explanation": "Burn marks come from overheating: a dull or glazed wheel, too heavy a cut, or poor coolant.",
@@ -2133,9 +2133,9 @@
   "type": "mcq",
   "question": "Chatter (vibration) marks on a ground surface are mainly due to…",
   "options": [
-   "Soft-grade wheel",
-   "Vitrified bond",
-   "Fine grit size",
+   "A vitrified bond",
+   "A fine grit size",
+   "A soft-grade wheel",
    "Wheel imbalance or a loose set-up"
   ],
   "answer": 3,
@@ -2156,10 +2156,10 @@
   "type": "mcq",
   "question": "Which of these is an advantage of grinding?",
   "options": [
-   "It removes large volumes quickly",
-   "It needs no coolant",
+   "It is cheap and uses very little power",
+   "It needs no coolant at any cutting speed",
    "It can finish hard materials to good accuracy and finish",
-   "It is cheap with low power use"
+   "It removes large volumes of metal quickly"
   ],
   "answer": 2,
   "explanation": "Advantages: good surface finish, good dimensional accuracy, and hardness does not matter.",
@@ -2178,10 +2178,10 @@
   "type": "mcq",
   "question": "Which of these is a disadvantage of grinding (from the ME-106 notes)?",
   "options": [
-   "Cannot grind hardened steel",
+   "It gives a poor surface finish",
    "High specific energy, so high power is needed",
-   "Poor surface finish",
-   "Low dimensional accuracy"
+   "It cannot grind hardened steel parts",
+   "It gives low dimensional accuracy"
   ],
   "answer": 1,
   "explanation": "Disadvantages: costly, high specific energy (more power), and cooling is a must.",
@@ -2201,9 +2201,9 @@
   "question": "Why is coolant essential in grinding?",
   "options": [
    "Most of the high grinding energy turns into heat",
-   "To make the wheel heavier",
-   "To magnetise the work",
-   "To lubricate the bond only"
+   "To make the wheel heavier and steadier",
+   "To lubricate the bond so it lasts longer",
+   "To magnetise the work on the table"
   ],
   "answer": 0,
   "explanation": "High specific energy means a lot of heat; coolant prevents burning, distortion and wheel damage.",
@@ -2223,9 +2223,9 @@
   "type": "mcq",
   "question": "Which is NOT a reason for using grinding?",
   "options": [
-   "Sharpening drills and cutters",
-   "Micron-level accuracy",
-   "Mirror-like surface finish",
+   "Getting a smooth, mirror-like surface finish",
+   "Sharpening drills and milling cutters",
+   "Achieving micron-level dimensional accuracy",
    "Bulk removal of large amounts of material cheaply"
   ],
   "answer": 3,
@@ -2246,9 +2246,9 @@
   "question": "Which is an application of grinding listed in the grinding slides?",
   "options": [
    "Finishing turbine blades and landing-gear parts",
-   "Welding pipelines",
-   "Casting engine blocks",
-   "Forging crankshaft blanks"
+   "Casting engine blocks in sand moulds",
+   "Welding long gas pipelines in the field",
+   "Forging crankshaft blanks from billets"
   ],
   "answer": 0,
   "explanation": "Applications: automobile parts, tool sharpening, aerospace (turbine blades, landing gear), steel scale removal, electronics.",
@@ -2267,10 +2267,10 @@
   "type": "mcq",
   "question": "What are the two objectives of the ME-106 grinding job?",
   "options": [
-   "Sharpen a drill and a lathe tool",
-   "Grind a thread and a cam",
+   "Grind a screw thread and a cam profile on a universal grinder",
+   "Cut a spur gear and a keyway on a horizontal milling machine",
    "Surface-finish a flat face (surface grinder) and a cylindrical surface (cylindrical grinder)",
-   "Cut a spur gear and a keyway"
+   "Sharpen a twist drill and a single-point lathe tool on a tool grinder"
   ],
   "answer": 2,
   "explanation": "Objective 1: surface finish on a plane surface (surface grinder). Objective 2: surface finish on a cylindrical surface (cylindrical grinder).",
@@ -2290,10 +2290,10 @@
   "type": "mcq",
   "question": "What workpieces are used in the ME-106 grinding job?",
   "options": [
-   "A cast-iron bed and a copper plate",
+   "A single HSS tool blank only",
    "A mild-steel cylindrical rod and a cubical block",
-   "A HSS tool blank only",
-   "An aluminium disc and a brass rod"
+   "An aluminium disc and a brass rod",
+   "A cast-iron bed and a copper plate"
   ],
   "answer": 1,
   "explanation": "The grinding log sheet lists a mild-steel cylindrical rod and a cubical block.",
@@ -2357,9 +2357,9 @@
   "question": "In the ME-106 cylindrical grinding set-up, how is the job held?",
   "options": [
    "Between centres (dead centre at the tailstock)",
-   "In a machine vice",
-   "On the magnetic chuck",
-   "On a rest blade"
+   "In a machine vice on the table",
+   "On the magnetic chuck of the table",
+   "On a rest blade between two wheels"
   ],
   "answer": 0,
   "explanation": "The job drawing shows the cylindrical job held between centres.",
@@ -2400,10 +2400,10 @@
   "type": "mcq",
   "question": "Why are magnetic parallels placed around the workpiece in surface grinding?",
   "options": [
-   "To cool the work",
+   "To dress the wheel while it runs",
    "To stop the work shifting during grinding",
-   "To dress the wheel",
-   "To measure the height"
+   "To cool the work during grinding",
+   "To measure the height of the work"
   ],
   "answer": 1,
   "explanation": "Step 3: magnetic parallels around the work ensure it does not shift.",
@@ -2422,9 +2422,9 @@
   "type": "mcq",
   "question": "In the ME-106 surface grinding procedure, how is the workpiece held on the table?",
   "options": [
-   "With a lathe dog",
-   "With clamping wire",
-   "With a 4-jaw chuck",
+   "With a lathe dog and catch plate",
+   "With a 4-jaw independent chuck",
+   "With clamping wire and a clamping tool",
    "By switching on the magnetic chuck"
   ],
   "answer": 3,
@@ -2445,9 +2445,9 @@
   "question": "Before starting the surface grinder, the wheel is set…",
   "options": [
    "About an inch above the work, not touching it",
-   "At the full depth of cut",
-   "Below the table level",
-   "Touching the work firmly"
+   "Below the table level, out of the way",
+   "Touching the work firmly before starting",
+   "At the full depth of cut into the work"
   ],
   "answer": 0,
   "explanation": "Step 5–6: set the wheel about an inch above the work and make sure it is not in contact before starting.",
@@ -2488,9 +2488,9 @@
   "type": "mcq",
   "question": "At the end of surface grinding, what should you do before removing the workpiece?",
   "options": [
-   "Dress the wheel first",
+   "Remove it quickly while the wheel still runs",
    "Remove it with the chuck still magnetised",
-   "Remove it while the wheel runs",
+   "Dress the wheel first, then lift the work off",
    "Wait for the wheel to stop, then demagnetise the chuck"
   ],
   "answer": 3,
@@ -2510,10 +2510,10 @@
   "type": "sequence",
   "question": "Which is the correct order of the ME-106 surface grinding steps?",
   "options": [
-   "Place work → start with coolant → clean table → set wheel clear → magnetise chuck",
+   "Start with coolant → place work with magnetic parallels → clean table → magnetise chuck → set wheel clear → stop, demagnetise, remove",
    "Clean table → place work with magnetic parallels → magnetise chuck → set wheel clear → start with coolant → stop, demagnetise, remove",
-   "Magnetise chuck → clean table → start machine → place work → demagnetise",
-   "Start with coolant → place work → clean table → magnetise chuck → remove"
+   "Place work with magnetic parallels → start with coolant → clean table → set wheel clear → magnetise chuck → stop, demagnetise, remove",
+   "Magnetise chuck → clean table → start with coolant → place work with magnetic parallels → set wheel clear → stop, demagnetise, remove"
   ],
   "answer": 1,
   "explanation": "Log-sheet steps 1–7 in order.",
@@ -2539,9 +2539,9 @@
   "question": "What is the first step of the ME-106 surface grinding procedure?",
   "options": [
    "Take the raw material whose surface is to be finished",
-   "Start the coolant",
-   "Demagnetise the chuck",
-   "Dress the wheel"
+   "Dress the wheel with the diamond",
+   "Start the coolant and the wheel",
+   "Demagnetise the magnetic chuck"
   ],
   "answer": 0,
   "explanation": "Step 1: take the raw material for which surface finish is required.",
@@ -2582,10 +2582,10 @@
   "type": "mcq",
   "question": "In cylindrical grinding (ME-106), which comes first?",
   "options": [
-   "Make the final cut",
+   "Dress the wheel for the fine finish",
    "Adjust the wheel position before starting the machine",
-   "Remove the workpiece",
-   "Dress the wheel for fine finish"
+   "Remove the workpiece from centres",
+   "Make the final finishing cut"
   ],
   "answer": 1,
   "explanation": "The wheel position is adjusted, then the coolant is started, before the trial cut.",
@@ -2627,9 +2627,9 @@
   "question": "In the ME-106 cylindrical grinding procedure, the wheel is dressed…",
   "options": [
    "Before the final finishing passes, for a fine finish",
-   "Never",
-   "Before placing the job",
-   "After switching off the machine"
+   "After the machine has been switched off",
+   "Before the job is placed on centres",
+   "Never, since it is self-sharpening"
   ],
   "answer": 0,
   "explanation": "Step 4: dress the wheel for fine finish, then finish the job.",
@@ -2648,9 +2648,9 @@
   "type": "sequence",
   "question": "Which is the correct order for the ME-106 cylindrical grinding procedure?",
   "options": [
-   "Trial cut → hold job → finish → dress wheel → adjust wheel",
-   "Start coolant → remove job → hold job → dress wheel → trial cut",
-   "Dress wheel → remove job → trial cut → hold job → start coolant",
+   "Start coolant → remove job and switch off → hold job centred → dress wheel → trial cut and micrometer check → adjust wheel → finish",
+   "Dress wheel → remove job and switch off → trial cut and micrometer check → hold job centred → start coolant → adjust wheel → finish",
+   "Trial cut and micrometer check → hold job centred → finish → dress wheel → adjust wheel → start coolant → remove job and switch off",
    "Hold job centred → adjust wheel → start coolant → trial cut and micrometer check → dress wheel → finish → remove job and switch off"
   ],
   "answer": 3,
@@ -2675,9 +2675,9 @@
   "question": "What is the LAST step in the ME-106 cylindrical grinding procedure?",
   "options": [
    "Remove the workpiece and switch off the machine",
-   "Take a trial cut",
-   "Dress the wheel",
-   "Adjust the wheel position"
+   "Take a trial cut and check with a micrometer",
+   "Dress the wheel for a fine finish",
+   "Adjust the wheel position before starting"
   ],
   "answer": 0,
   "explanation": "After the work is finished, remove the workpiece and turn off the machine.",
@@ -2718,10 +2718,10 @@
   "type": "mcq",
   "question": "Which accessories should NOT be worn while grinding?",
   "options": [
-   "Safety goggles",
-   "Apron",
+   "Leather safety shoes",
+   "A workshop apron, tied properly",
    "Bracelets, chains and wristwatches",
-   "Safety shoes"
+   "Safety goggles with side shields"
   ],
   "answer": 2,
   "explanation": "Loose accessories such as bracelets and neck-chains can be caught.",
@@ -2763,9 +2763,9 @@
   "question": "Why must the material be fixed firmly on the grinding machine?",
   "options": [
    "A loose job can be thrown by the wheel",
-   "To reduce coolant use",
-   "To speed up the wheel",
-   "To improve the bond"
+   "To improve the strength of the bond",
+   "To reduce the amount of coolant used",
+   "To speed up the grinding wheel"
   ],
   "answer": 0,
   "explanation": "Make sure the material is correctly fixed (magnetised or between centres) before grinding.",
@@ -2784,9 +2784,9 @@
   "type": "mcq",
   "question": "Where should you stand when starting a grinding wheel?",
   "options": [
-   "In front of the guard opening",
-   "Directly in line with the wheel",
-   "Leaning over the wheel",
+   "Leaning over the wheel to watch it",
+   "Directly in front of the guard opening",
+   "Directly in line with the wheel face",
    "At a proper distance, to one side of the wheel"
   ],
   "answer": 3,
@@ -2828,10 +2828,10 @@
   "type": "mcq",
   "question": "According to the grinding slides, the machine should not be operated…",
   "options": [
-   "With safety shoes",
+   "With the coolant switched on",
    "Without the shop instructor's supervision",
-   "With coolant",
-   "With the guard fitted"
+   "While wearing safety shoes",
+   "With the wheel guard fitted"
   ],
   "answer": 1,
   "explanation": "Stay attentive and never operate without supervision.",
@@ -2851,9 +2851,9 @@
   "question": "Why must the wheel guard be kept in place and goggles worn while grinding?",
   "options": [
    "Sparks and abrasive particles fly off the wheel",
-   "To reduce noise only",
-   "To increase the speed",
-   "To keep the wheel clean"
+   "To keep the wheel face clean of dust",
+   "To increase the speed of the wheel",
+   "To reduce the noise of the wheel only"
   ],
   "answer": 0,
   "explanation": "Sparks, grit and (rarely) wheel fragments fly off, so the guard and goggles protect the operator.",
@@ -2872,9 +2872,9 @@
   "type": "mcq",
   "question": "Before mounting a new grinding wheel, which checks are essential?",
   "options": [
-   "Grade letter only",
-   "Grit colour and wheel weight",
-   "Coolant temperature",
+   "Grit colour and the weight of the wheel",
+   "Grade letter only, as printed on the label",
+   "Coolant temperature and the bond colour",
    "Ring test for cracks, and maximum safe speed marked on the wheel"
   ],
   "answer": 3,
@@ -2894,10 +2894,10 @@
   "type": "mcq",
   "question": "Which of these is NOT a grinding-shop precaution?",
   "options": [
-   "Wear an apron and leather shoes",
+   "Wear an apron and leather shoes at all times",
    "Remove the workpiece while the wheel is still running",
-   "Check that the wheel clears the work",
-   "Tie long hair back"
+   "Check that the wheel clears the work first",
+   "Tie long hair back before starting the grinder"
   ],
   "answer": 1,
   "explanation": "Wait until the wheel stops before removing the work. The others are log-sheet precautions.",
@@ -4359,9 +4359,9 @@
   "question": "A grinding wheel is balanced using…",
   "options": [
    "A balancing stand with balance weights in the flange",
-   "A magnetic chuck",
-   "The table dogs",
-   "A dial on the wheel head"
+   "A magnetic chuck and magnetic parallels",
+   "A graduated dial on the wheel head",
+   "The adjustable table dogs on the table"
   ],
   "answer": 0,
   "explanation": "The wheel on its arbor is placed on knife edges or rollers, and the flange weights are moved until it stays put in any position.",
@@ -4403,9 +4403,9 @@
   "type": "mcq",
   "question": "Grinding coolant is usually…",
   "options": [
-   "Deionised water only",
-   "Molten wax",
-   "Kerosene",
+   "Molten wax at a high temperature",
+   "Kerosene, as used in die-sinking",
+   "Deionised water only, filtered",
    "A water-based soluble-oil emulsion"
   ],
   "answer": 3,
@@ -4425,10 +4425,10 @@
   "type": "mcq",
   "question": "When mounting a grinding wheel on its spindle, what is placed between the flanges and the wheel?",
   "options": [
-   "Steel shims",
+   "Hardened steel shims",
    "Magnetic parallels",
    "Soft paper or rubber washers (blotters)",
-   "Emery paper"
+   "Strips of emery paper"
   ],
   "answer": 2,
   "explanation": "Blotters spread the clamping pressure evenly; the flanges must be equal size and the nut only snug.",
@@ -4558,10 +4558,10 @@
   "type": "mcq",
   "question": "An aluminium block is to be surface ground. How should it be held?",
   "options": [
-   "Directly on the magnetic chuck",
+   "Directly on the magnetic chuck, switched on as usual",
    "In a vice or fixture on the table (not directly on the magnetic chuck)",
-   "On a rest blade",
-   "Between centres"
+   "Between centres with a lathe dog",
+   "On a work-rest blade between two wheels"
   ],
   "answer": 1,
   "explanation": "Aluminium is non-magnetic, so the magnetic chuck cannot hold it.",
