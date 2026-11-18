@@ -134,7 +134,7 @@ class Fig:
                  'text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}')
         body = '\n'.join(self.el + self.top)
         return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {self.w} {self.h}" role="img" '
-                f'aria-label="{esc(self.alt)}"><title>{esc(self.title)}</title><style>{style}</style>\n{body}\n</svg>\n')
+                f'aria-label="Figure"><style>{style}</style>\n{body}\n</svg>\n')
 
     def entry(self):
         e = {'id': self.id, 'shop': self.shop, 'title': self.title, 'alt': self.alt, 'labels': self.labels}

@@ -920,11 +920,6 @@
     "function": "Moves the table longitudinally by hand",
     "fact": "GRD-F024"
    },
-   "I": {
-    "part": "Cross-feed handwheel",
-    "function": "Moves the saddle and table across under the wheel",
-    "fact": "GRD-F024"
-   },
    "J": {
     "part": "Base",
     "function": "Supports the whole machine",

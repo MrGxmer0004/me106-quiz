@@ -75,7 +75,7 @@ Source keys: `LS` = Log Sheets ME-106.pdf p.7–8 (grinding log sheet); `NB` = M
 - [GRD-F064] Vitrified (V) bond is the most common bond: strong, rigid, porous and unaffected by water, oils and acids. [theory: Hajra Choudhury]
 - [GRD-F065] Resinoid (B) bonds are used for high-speed wheels and cut-off wheels; rubber (R) bonds for thin cut-off wheels and regulating wheels of centreless grinders. [theory: Hajra Choudhury; GP p.5]
 - [GRD-F066] Example A 85 I 5 V (notebook): aluminium oxide, fine grain (85), medium grade (I), structure 5, vitrified bond. [NB p.8]
-- [GRD-F067] Example C 32 _ 8 B (notebook): silicon carbide, medium grain (32), structure 8, resinoid bond. [NB p.8] (grade letter illegible — not used)
+- [GRD-F067] Example C 32 _ 8 B (notebook): silicon carbide, grit 32, structure 8, resinoid bond. [NB p.8] (grade letter illegible; the notes call it a hard grade; not used)
 
 ## 5. Wheel condition: dressing, truing, glazing, loading, balancing
 - [GRD-F068] Dressing removes the dull outer layer of grains and embedded chips from the wheel face to expose fresh sharp grains, using a dresser. [NB p.8; GPPT s.17]

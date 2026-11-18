@@ -1625,7 +1625,7 @@
    "Soft wheel"
   ],
   "answer": 0,
-  "explanation": "Low structure numbers are dense in all sources.",
+  "explanation": "Low structure numbers are dense in all the printed lab sources (the notebook had the scale reversed; see corrections.md #8).",
   "source": "lab",
   "ref": "Grinding slides p.10",
   "tags": [],
@@ -1846,7 +1846,7 @@
    "Aluminium oxide abrasive and rubber bond"
   ],
   "answer": 0,
-  "explanation": "A = aluminium oxide, V = vitrified. 85 is a fine grit and 5 is the structure number.",
+  "explanation": "A = aluminium oxide, V = vitrified. 85 is the grit number (fine in the notebook scale) and 5 is the structure number.",
   "source": "lab",
   "ref": "Manufacturing notes p.8",
   "tags": [],
@@ -1862,7 +1862,7 @@
   "type": "mcq",
   "question": "In the notebook example \"C 32 _ 8 B\", what are the abrasive and bond?",
   "options": [
-   "CBN and resinoid",
+   "Diamond and resinoid",
    "Silicon carbide and resinoid",
    "Silicon carbide and rubber",
    "Aluminium oxide and vitrified"
@@ -3078,12 +3078,12 @@
   "type": "diagram",
   "question": "In the figure, what is the part labelled B?",
   "options": [
-   "Wheel guard",
-   "Table-traverse handwheel",
+   "Base",
    "Magnetic chuck",
-   "Cross-feed handwheel"
+   "Wheel guard",
+   "Table"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "B = Wheel guard. Covers the wheel to protect the operator from fragments and sparks.",
   "source": "lab",
   "ref": "Grinding Lab slides p.4",
@@ -3103,12 +3103,12 @@
   "type": "diagram",
   "question": "In the figure, what is the part labelled C?",
   "options": [
-   "Wheel guard",
-   "Saddle",
    "Wheel head",
-   "Cross-feed handwheel"
+   "Base",
+   "Grinding wheel",
+   "Table-traverse handwheel"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "C = Wheel head. Carries the wheel spindle and motor; moved down to set the depth of cut.",
   "source": "lab",
   "ref": "Grinding PPT s.9",
@@ -3128,9 +3128,9 @@
   "type": "diagram",
   "question": "In the figure, what is the part labelled D?",
   "options": [
-   "Base",
+   "Workpiece",
+   "Table-traverse handwheel",
    "Table",
-   "Wheel head",
    "Column"
   ],
   "answer": 3,
@@ -3153,10 +3153,10 @@
   "type": "diagram",
   "question": "In the figure, what is the part labelled E?",
   "options": [
-   "Table",
+   "Column",
    "Magnetic chuck",
-   "Table-traverse handwheel",
-   "Wheel head"
+   "Grinding wheel",
+   "Base"
   ],
   "answer": 1,
   "explanation": "E = Magnetic chuck. Holds steel work on the table by magnetism.",
@@ -3178,9 +3178,9 @@
   "type": "diagram",
   "question": "In the figure, what is the part labelled F?",
   "options": [
-   "Wheel guard",
-   "Table",
    "Grinding wheel",
+   "Table",
+   "Saddle",
    "Base"
   ],
   "answer": 1,
@@ -3205,7 +3205,7 @@
   "options": [
    "Magnetic chuck",
    "Column",
-   "Cross-feed handwheel",
+   "Base",
    "Saddle"
   ],
   "answer": 3,
@@ -3228,12 +3228,12 @@
   "type": "diagram",
   "question": "In the figure, what is the part labelled H?",
   "options": [
-   "Base",
-   "Wheel guard",
    "Table-traverse handwheel",
-   "Grinding wheel"
+   "Grinding wheel",
+   "Column",
+   "Base"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "H = Table-traverse handwheel. Moves the table longitudinally by hand.",
   "source": "lab",
   "ref": "Grinding Lab slides p.4",
@@ -3251,39 +3251,14 @@
   "category": "machine-parts",
   "difficulty": "easy",
   "type": "diagram",
-  "question": "In the figure, what is the part labelled I?",
-  "options": [
-   "Cross-feed handwheel",
-   "Wheel head",
-   "Column",
-   "Table"
-  ],
-  "answer": 0,
-  "explanation": "I = Cross-feed handwheel. Moves the saddle and table across under the wheel.",
-  "source": "lab",
-  "ref": "Grinding Lab slides p.4",
-  "tags": [],
-  "facts": [
-   "GRD-F024"
-  ],
-  "figure": "grinding/surface-grinder",
-  "label": "I",
-  "ask": "part"
- },
- {
-  "id": "GRD-0147",
-  "shop": "grinding",
-  "category": "machine-parts",
-  "difficulty": "easy",
-  "type": "diagram",
   "question": "In the figure, what is the part labelled J?",
   "options": [
+   "Wheel guard",
+   "Workpiece",
    "Base",
-   "Column",
-   "Table-traverse handwheel",
-   "Saddle"
+   "Column"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "J = Base. Supports the whole machine.",
   "source": "lab",
   "ref": "Grinding Lab slides p.4",
@@ -3296,19 +3271,19 @@
   "ask": "part"
  },
  {
-  "id": "GRD-0148",
+  "id": "GRD-0147",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "easy",
   "type": "diagram",
   "question": "In the figure, what is the part labelled K?",
   "options": [
-   "Table-traverse handwheel",
+   "Saddle",
+   "Magnetic chuck",
    "Column",
-   "Workpiece",
-   "Table"
+   "Workpiece"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "K = Workpiece. Flat job being surface ground.",
   "source": "lab",
   "ref": "Grinding slides p.2–3",
@@ -3321,19 +3296,19 @@
   "ask": "part"
  },
  {
-  "id": "GRD-0149",
+  "id": "GRD-0148",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, which label shows the wheel head?",
   "options": [
-   "B",
-   "I",
-   "E",
-   "C"
+   "C",
+   "J",
+   "G",
+   "A"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "C = Wheel head. Carries the wheel spindle and motor; moved down to set the depth of cut.",
   "source": "lab",
   "ref": "Grinding PPT s.9",
@@ -3346,17 +3321,17 @@
   "ask": "which"
  },
  {
-  "id": "GRD-0150",
+  "id": "GRD-0149",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, which label shows the magnetic chuck?",
   "options": [
-   "H",
+   "J",
    "E",
-   "C",
-   "I"
+   "D",
+   "H"
   ],
   "answer": 1,
   "explanation": "E = Magnetic chuck. Holds steel work on the table by magnetism.",
@@ -3371,19 +3346,19 @@
   "ask": "which"
  },
  {
-  "id": "GRD-0151",
+  "id": "GRD-0150",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, which label shows the saddle?",
   "options": [
-   "D",
-   "E",
-   "F",
-   "G"
+   "J",
+   "K",
+   "G",
+   "B"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "G = Saddle. Moves the table crosswise (cross feed) on the base.",
   "source": "lab",
   "ref": "Grinding Lab slides p.4",
@@ -3396,20 +3371,20 @@
   "ask": "which"
  },
  {
-  "id": "GRD-0152",
+  "id": "GRD-0151",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "medium",
   "type": "diagram",
-  "question": "In the figure, which label shows the cross-feed handwheel?",
+  "question": "In the figure, which label shows the table-traverse handwheel?",
   "options": [
-   "A",
    "H",
-   "I",
-   "D"
+   "C",
+   "A",
+   "G"
   ],
-  "answer": 2,
-  "explanation": "I = Cross-feed handwheel. Moves the saddle and table across under the wheel.",
+  "answer": 0,
+  "explanation": "H = Table-traverse handwheel. Moves the table longitudinally by hand.",
   "source": "lab",
   "ref": "Grinding Lab slides p.4",
   "tags": [],
@@ -3417,23 +3392,23 @@
    "GRD-F024"
   ],
   "figure": "grinding/surface-grinder",
-  "label": "I",
+  "label": "H",
   "ask": "which"
  },
  {
-  "id": "GRD-0153",
+  "id": "GRD-0152",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, what is the function of the part labelled B?",
   "options": [
-   "Flat job being surface ground",
-   "Covers the wheel to protect the operator from fragments and sparks",
+   "Vertical member on which the wheel head slides up and down",
+   "Rotating abrasive wheel that removes small amounts of metal",
    "Reciprocates back and forth carrying the chuck and work",
-   "Rotating abrasive wheel that removes small amounts of metal"
+   "Covers the wheel to protect the operator from fragments and sparks"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "B = Wheel guard. Covers the wheel to protect the operator from fragments and sparks.",
   "source": "lab",
   "ref": "Grinding Lab slides p.4",
@@ -3446,19 +3421,19 @@
   "ask": "function"
  },
  {
-  "id": "GRD-0154",
+  "id": "GRD-0153",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, what is the function of the part labelled E?",
   "options": [
-   "Holds steel work on the table by magnetism",
-   "Flat job being surface ground",
    "Covers the wheel to protect the operator from fragments and sparks",
-   "Moves the saddle and table across under the wheel"
+   "Holds steel work on the table by magnetism",
+   "Supports the whole machine",
+   "Rotating abrasive wheel that removes small amounts of metal"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "E = Magnetic chuck. Holds steel work on the table by magnetism.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.8",
@@ -3471,19 +3446,19 @@
   "ask": "function"
  },
  {
-  "id": "GRD-0155",
+  "id": "GRD-0154",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, what is the function of the part labelled C?",
   "options": [
-   "Moves the table crosswise (cross feed) on the base",
+   "Reciprocates back and forth carrying the chuck and work",
+   "Rotating abrasive wheel that removes small amounts of metal",
    "Carries the wheel spindle and motor; moved down to set the depth of cut",
-   "Vertical member on which the wheel head slides up and down",
-   "Covers the wheel to protect the operator from fragments and sparks"
+   "Vertical member on which the wheel head slides up and down"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "C = Wheel head. Carries the wheel spindle and motor; moved down to set the depth of cut.",
   "source": "lab",
   "ref": "Grinding PPT s.9",
@@ -3496,19 +3471,19 @@
   "ask": "function"
  },
  {
-  "id": "GRD-0156",
+  "id": "GRD-0155",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, what is the part labelled A?",
   "options": [
-   "Magnetic chuck",
-   "Lower table",
+   "Regulating wheel",
+   "Wheel head",
    "Headstock (work head)",
-   "Wheel head"
+   "Base"
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "A = Wheel head. Carries the grinding wheel and its drive; fed towards the work.",
   "source": "lab",
   "ref": "Manufacturing notes p.10",
@@ -3521,19 +3496,19 @@
   "ask": "part"
  },
  {
-  "id": "GRD-0157",
+  "id": "GRD-0156",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, what is the part labelled B?",
   "options": [
-   "Grinding wheel",
    "Wheel head",
-   "Workpiece",
-   "Upper table"
+   "Tailstock",
+   "Lower table",
+   "Grinding wheel"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "B = Grinding wheel. Abrasive wheel that grinds the work with its periphery.",
   "source": "lab",
   "ref": "Cylindrical grinding notes p.4",
@@ -3546,19 +3521,19 @@
   "ask": "part"
  },
  {
-  "id": "GRD-0158",
+  "id": "GRD-0157",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, what is the part labelled C?",
   "options": [
-   "Base",
-   "Regulating wheel",
    "Headstock (work head)",
-   "Workpiece"
+   "Upper table",
+   "Magnetic chuck",
+   "Lower table"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "C = Headstock (work head). Rotates the work slowly; carries one centre.",
   "source": "lab",
   "ref": "Manufacturing notes p.10",
@@ -3571,19 +3546,19 @@
   "ask": "part"
  },
  {
-  "id": "GRD-0159",
+  "id": "GRD-0158",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, what is the part labelled D?",
   "options": [
-   "Adjustable table dog",
+   "Upper table",
+   "Regulating wheel",
    "Tailstock",
-   "Base",
-   "Wheel head"
+   "Workpiece"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "D = Tailstock. Supports the other end of the work on a centre.",
   "source": "lab",
   "ref": "Manufacturing notes p.10",
@@ -3596,7 +3571,7 @@
   "ask": "part"
  },
  {
-  "id": "GRD-0160",
+  "id": "GRD-0159",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "medium",
@@ -3606,7 +3581,7 @@
    "Wheel head",
    "Tailstock",
    "Workpiece",
-   "Upper table"
+   "Headstock (work head)"
   ],
   "answer": 2,
   "explanation": "E = Workpiece. Cylindrical job held between centres.",
@@ -3621,7 +3596,7 @@
   "ask": "part"
  },
  {
-  "id": "GRD-0161",
+  "id": "GRD-0160",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "medium",
@@ -3629,9 +3604,9 @@
   "question": "In the figure, what is the part labelled F?",
   "options": [
    "Upper table",
-   "Wheel head",
-   "Headstock (work head)",
-   "Workpiece"
+   "Grinding wheel",
+   "Workpiece",
+   "Tailstock"
   ],
   "answer": 0,
   "explanation": "F = Upper table. Carries headstock and tailstock; can be swivelled for tapers.",
@@ -3646,19 +3621,19 @@
   "ask": "part"
  },
  {
-  "id": "GRD-0162",
+  "id": "GRD-0161",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, what is the part labelled G?",
   "options": [
-   "Workpiece",
    "Upper table",
-   "Wheel head",
-   "Lower table"
+   "Lower table",
+   "Workpiece",
+   "Magnetic chuck"
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "G = Lower table. Reciprocates along the base, carrying the upper table.",
   "source": "lab",
   "ref": "Manufacturing notes p.10",
@@ -3671,19 +3646,19 @@
   "ask": "part"
  },
  {
-  "id": "GRD-0163",
+  "id": "GRD-0162",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, what is the part labelled H?",
   "options": [
-   "Adjustable table dog",
    "Headstock (work head)",
-   "Lower table",
-   "Base"
+   "Workpiece",
+   "Base",
+   "Adjustable table dog"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "H = Adjustable table dog. Set to reverse the table at the ends of its traverse.",
   "source": "lab",
   "ref": "Manufacturing notes p.10",
@@ -3696,19 +3671,19 @@
   "ask": "part"
  },
  {
-  "id": "GRD-0164",
+  "id": "GRD-0163",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, what is the part labelled I?",
   "options": [
-   "Regulating wheel",
    "Base",
-   "Headstock (work head)",
-   "Adjustable table dog"
+   "Lower table",
+   "Wheel head",
+   "Upper table"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "I = Base. Supports the machine and table ways.",
   "source": "lab",
   "ref": "Manufacturing notes p.10",
@@ -3721,17 +3696,17 @@
   "ask": "part"
  },
  {
-  "id": "GRD-0165",
+  "id": "GRD-0164",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, what is the function of the part labelled H?",
   "options": [
+   "Cylindrical job held between centres",
    "Carries headstock and tailstock; can be swivelled for tapers",
-   "Supports the other end of the work on a centre",
    "Set to reverse the table at the ends of its traverse",
-   "Reciprocates along the base, carrying the upper table"
+   "Supports the machine and table ways"
   ],
   "answer": 2,
   "explanation": "H = Adjustable table dog. Set to reverse the table at the ends of its traverse.",
@@ -3746,19 +3721,19 @@
   "ask": "function"
  },
  {
-  "id": "GRD-0166",
+  "id": "GRD-0165",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, what is the function of the part labelled F?",
   "options": [
-   "Rotates the work slowly; carries one centre",
-   "Cylindrical job held between centres",
-   "Carries the grinding wheel and its drive; fed towards the work",
-   "Carries headstock and tailstock; can be swivelled for tapers"
+   "Set to reverse the table at the ends of its traverse",
+   "Carries headstock and tailstock; can be swivelled for tapers",
+   "Supports the machine and table ways",
+   "Reciprocates along the base, carrying the upper table"
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "F = Upper table. Carries headstock and tailstock; can be swivelled for tapers.",
   "source": "lab",
   "ref": "Manufacturing notes p.10",
@@ -3771,19 +3746,19 @@
   "ask": "function"
  },
  {
-  "id": "GRD-0167",
+  "id": "GRD-0166",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, what is the function of the part labelled C?",
   "options": [
+   "Cylindrical job held between centres",
+   "Carries the grinding wheel and its drive; fed towards the work",
    "Reciprocates along the base, carrying the upper table",
-   "Rotates the work slowly; carries one centre",
-   "Set to reverse the table at the ends of its traverse",
-   "Cylindrical job held between centres"
+   "Rotates the work slowly; carries one centre"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "C = Headstock (work head). Rotates the work slowly; carries one centre.",
   "source": "lab",
   "ref": "Manufacturing notes p.10",
@@ -3796,7 +3771,7 @@
   "ask": "function"
  },
  {
-  "id": "GRD-0168",
+  "id": "GRD-0167",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "easy",
@@ -3804,11 +3779,11 @@
   "question": "Which type of grinding is shown in panel A?",
   "options": [
    "Tool-and-cutter grinding",
-   "Creep-feed grinding",
-   "Surface grinding",
-   "External cylindrical grinding"
+   "Internal grinding",
+   "Abrasive cut-off",
+   "Surface grinding"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "A = Surface grinding. Flat surfaces finished by a wheel over a reciprocating table.",
   "source": "lab",
   "ref": "Grinding slides p.2–3",
@@ -3821,19 +3796,19 @@
   "ask": "part"
  },
  {
-  "id": "GRD-0169",
+  "id": "GRD-0168",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "easy",
   "type": "diagram",
   "question": "Which type of grinding is shown in panel B?",
   "options": [
-   "Internal grinding",
-   "Centreless grinding",
+   "Surface grinding",
    "Tool-and-cutter grinding",
-   "External cylindrical grinding"
+   "External cylindrical grinding",
+   "Internal grinding"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "B = External cylindrical grinding. Outside diameter of work between centres ground by the wheel periphery.",
   "source": "lab",
   "ref": "Cylindrical grinding notes p.3",
@@ -3846,19 +3821,19 @@
   "ask": "part"
  },
  {
-  "id": "GRD-0170",
+  "id": "GRD-0169",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "easy",
   "type": "diagram",
   "question": "Which type of grinding is shown in panel C?",
   "options": [
+   "Tool-and-cutter grinding",
    "Internal grinding",
-   "Surface grinding",
-   "Creep-feed grinding",
-   "Centreless grinding"
+   "Abrasive cut-off",
+   "Surface grinding"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "C = Internal grinding. Bore (inside diameter) finished by a small wheel running inside it.",
   "source": "lab",
   "ref": "Grinding slides p.2",
@@ -3871,19 +3846,19 @@
   "ask": "part"
  },
  {
-  "id": "GRD-0171",
+  "id": "GRD-0170",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "easy",
   "type": "diagram",
   "question": "Which type of grinding is shown in panel D?",
   "options": [
-   "Internal grinding",
-   "External cylindrical grinding",
    "Centreless grinding",
-   "Creep-feed grinding"
+   "External cylindrical grinding",
+   "Internal grinding",
+   "Tool-and-cutter grinding"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "D = Centreless grinding. Work rests on a blade between the grinding wheel and a regulating wheel, with no centres.",
   "source": "lab",
   "ref": "Cylindrical grinding notes p.5",
@@ -3896,19 +3871,19 @@
   "ask": "part"
  },
  {
-  "id": "GRD-0172",
+  "id": "GRD-0171",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "medium",
   "type": "diagram",
-  "question": "In the figure, which panel shows grinding where the work is NOT held between centres or in a chuck?",
+  "question": "In the figure, which panel shows the work resting on a blade and controlled by a regulating wheel?",
   "options": [
-   "B",
-   "D",
+   "A",
    "C",
-   "A"
+   "D",
+   "B"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "D is centreless grinding: the work rests on a blade between the grinding wheel and the regulating wheel.",
   "source": "lab",
   "ref": "Cylindrical grinding notes p.5",
@@ -3919,19 +3894,19 @@
   "figure": "grinding/types"
  },
  {
-  "id": "GRD-0173",
+  "id": "GRD-0172",
   "shop": "grinding",
   "category": "machine-parts",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, which panel would be used to finish a bore?",
   "options": [
-   "C",
-   "B",
+   "D",
    "A",
-   "D"
+   "B",
+   "C"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "C is internal grinding: a small wheel runs inside the bore.",
   "source": "lab",
   "ref": "Grinding slides p.2",
@@ -3942,19 +3917,19 @@
   "figure": "grinding/types"
  },
  {
-  "id": "GRD-0174",
+  "id": "GRD-0173",
   "shop": "grinding",
   "category": "wheel-specification",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the wheel marking shown, what does position 1 indicate?",
   "options": [
+   "Abrasive type",
    "Bond type",
    "Grain (grit) size",
-   "Grade (hardness of bond)",
-   "Abrasive type"
+   "Grade (hardness of bond)"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "1 = Abrasive type. A = aluminium oxide (C = silicon carbide).",
   "source": "lab",
   "ref": "Manufacturing notes p.7",
@@ -3967,7 +3942,7 @@
   "ask": "part"
  },
  {
-  "id": "GRD-0175",
+  "id": "GRD-0174",
   "shop": "grinding",
   "category": "wheel-specification",
   "difficulty": "medium",
@@ -3976,7 +3951,7 @@
   "options": [
    "Abrasive type",
    "Grain (grit) size",
-   "Bond type",
+   "Grade (hardness of bond)",
    "Structure (grain spacing)"
   ],
   "answer": 1,
@@ -3992,19 +3967,19 @@
   "ask": "part"
  },
  {
-  "id": "GRD-0176",
+  "id": "GRD-0175",
   "shop": "grinding",
   "category": "wheel-specification",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the wheel marking shown, what does position 3 indicate?",
   "options": [
-   "Structure (grain spacing)",
-   "Bond type",
+   "Abrasive type",
    "Grade (hardness of bond)",
-   "Abrasive type"
+   "Structure (grain spacing)",
+   "Bond type"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "3 = Grade (hardness of bond). K = medium grade.",
   "source": "lab",
   "ref": "Grinding slides p.9",
@@ -4017,19 +3992,19 @@
   "ask": "part"
  },
  {
-  "id": "GRD-0177",
+  "id": "GRD-0176",
   "shop": "grinding",
   "category": "wheel-specification",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the wheel marking shown, what does position 4 indicate?",
   "options": [
-   "Grain (grit) size",
-   "Abrasive type",
+   "Grade (hardness of bond)",
    "Bond type",
-   "Structure (grain spacing)"
+   "Structure (grain spacing)",
+   "Abrasive type"
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "4 = Structure (grain spacing). 5 = fairly dense structure.",
   "source": "lab",
   "ref": "Grinding slides p.10",
@@ -4042,19 +4017,19 @@
   "ask": "part"
  },
  {
-  "id": "GRD-0178",
+  "id": "GRD-0177",
   "shop": "grinding",
   "category": "wheel-specification",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the wheel marking shown, what does position 5 indicate?",
   "options": [
-   "Bond type",
+   "Grain (grit) size",
    "Structure (grain spacing)",
    "Abrasive type",
-   "Grain (grit) size"
+   "Bond type"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "5 = Bond type. V = vitrified bond.",
   "source": "lab",
   "ref": "Grinding slides p.11",
@@ -4067,19 +4042,19 @@
   "ask": "part"
  },
  {
-  "id": "GRD-0179",
+  "id": "GRD-0178",
   "shop": "grinding",
   "category": "wheel-specification",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the wheel marking shown, which position would read \"C\" for a silicon carbide wheel?",
   "options": [
-   "3",
    "1",
    "5",
+   "3",
    "2"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "Position 1 is the abrasive type (A = aluminium oxide, C = silicon carbide).",
   "source": "lab",
   "ref": "Manufacturing notes p.7",
@@ -4091,42 +4066,19 @@
   "figure": "grinding/wheel-marking"
  },
  {
-  "id": "GRD-0180",
-  "shop": "grinding",
-  "category": "wheel-specification",
-  "difficulty": "medium",
-  "type": "diagram",
-  "question": "In the wheel marking shown, what does \"5\" at position 4 tell you?",
-  "options": [
-   "The grade",
-   "The bond type",
-   "The grit size",
-   "The structure (grain spacing) number"
-  ],
-  "answer": 3,
-  "explanation": "Position 4 is the structure. A low number like 5 is fairly dense.",
-  "source": "lab",
-  "ref": "Grinding slides p.10",
-  "tags": [],
-  "facts": [
-   "GRD-F060"
-  ],
-  "figure": "grinding/wheel-marking"
- },
- {
-  "id": "GRD-0181",
+  "id": "GRD-0179",
   "shop": "grinding",
   "category": "wheel-specification",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the wheel marking shown, \"K\" at position 3 means the wheel is…",
   "options": [
-   "Medium grade",
    "Fine grain",
-   "Soft grade",
-   "Hard grade"
+   "Hard grade",
+   "Medium grade",
+   "Soft grade"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "Position 3 is grade; K is medium.",
   "source": "lab",
   "ref": "Manufacturing notes p.7",
@@ -4137,19 +4089,19 @@
   "figure": "grinding/wheel-marking"
  },
  {
-  "id": "GRD-0182",
+  "id": "GRD-0180",
   "shop": "grinding",
   "category": "wheel-specification",
   "difficulty": "medium",
   "type": "diagram",
   "question": "Which wheel structure is shown in panel A?",
   "options": [
-   "Loaded wheel",
    "Glazed wheel",
-   "Dense structure (low number)",
-   "Open structure (high number)"
+   "Open structure (high number)",
+   "Loaded wheel",
+   "Dense structure (low number)"
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "A = Dense structure (low number). Grains closely packed; for hard, brittle materials and fine finish.",
   "source": "lab",
   "ref": "Grinding slides p.10",
@@ -4162,19 +4114,19 @@
   "ask": "part"
  },
  {
-  "id": "GRD-0183",
+  "id": "GRD-0181",
   "shop": "grinding",
   "category": "wheel-specification",
   "difficulty": "medium",
   "type": "diagram",
   "question": "Which wheel structure is shown in panel B?",
   "options": [
-   "Glazed wheel",
-   "Dense structure (low number)",
+   "Loaded wheel",
    "Open structure (high number)",
-   "Loaded wheel"
+   "Dense structure (low number)",
+   "Glazed wheel"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "B = Open structure (high number). Grains widely spaced with large pores; for soft ductile materials and rough grinding.",
   "source": "lab",
   "ref": "Grinding slides p.10",
@@ -4187,17 +4139,17 @@
   "ask": "part"
  },
  {
-  "id": "GRD-0184",
+  "id": "GRD-0182",
   "shop": "grinding",
   "category": "wheel-specification",
   "difficulty": "hard",
   "type": "diagram",
   "question": "Which wheel in the figure is better for rough grinding of a soft ductile metal?",
   "options": [
-   "A",
-   "B"
+   "B",
+   "A"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "B is the open structure: large pores hold the chips, so the wheel does not load up.",
   "source": "lab",
   "ref": "Grinding slides p.10",
@@ -4208,19 +4160,19 @@
   "figure": "grinding/structure"
  },
  {
-  "id": "GRD-0185",
+  "id": "GRD-0183",
   "shop": "grinding",
   "category": "wheel-specification",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, what is the part labelled A?",
   "options": [
+   "Grinding wheel",
    "Dresser holder",
-   "Magnetic parallel",
    "Diamond dresser",
-   "Grinding wheel"
+   "Magnetic parallel"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "A = Grinding wheel. Abrasive wheel whose face is being dressed.",
   "source": "lab",
   "ref": "Manufacturing notes p.8",
@@ -4233,7 +4185,7 @@
   "ask": "part"
  },
  {
-  "id": "GRD-0186",
+  "id": "GRD-0184",
   "shop": "grinding",
   "category": "wheel-specification",
   "difficulty": "medium",
@@ -4241,11 +4193,11 @@
   "question": "In the figure, what is the part labelled B?",
   "options": [
    "Grinding wheel",
-   "Diamond dresser",
-   "Dresser holder",
-   "Magnetic parallel"
+   "Magnetic parallel",
+   "Work-rest blade",
+   "Diamond dresser"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "B = Diamond dresser. Tool that removes the dull, loaded surface to expose sharp grains (dressing) and trues the wheel.",
   "source": "lab",
   "ref": "Grinding PPT s.17",
@@ -4258,19 +4210,19 @@
   "ask": "part"
  },
  {
-  "id": "GRD-0187",
+  "id": "GRD-0185",
   "shop": "grinding",
   "category": "wheel-specification",
   "difficulty": "medium",
   "type": "diagram",
   "question": "In the figure, what is the part labelled C?",
   "options": [
-   "Dresser holder",
    "Diamond dresser",
-   "Work-rest blade",
+   "Magnetic parallel",
+   "Dresser holder",
    "Grinding wheel"
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "C = Dresser holder. Rigid holder that feeds the diamond across the wheel face.",
   "source": "lab",
   "ref": "Manufacturing notes p.8",
@@ -4283,19 +4235,19 @@
   "ask": "part"
  },
  {
-  "id": "GRD-0188",
+  "id": "GRD-0186",
   "shop": "grinding",
   "category": "definitions",
   "difficulty": "medium",
   "type": "diagram",
   "question": "What operation is being performed in the figure?",
   "options": [
-   "Surface grinding a block",
-   "Balancing the grinding wheel",
+   "Dressing the grinding wheel",
+   "Ring-testing the wheel for cracks",
    "Centreless grinding",
-   "Dressing the grinding wheel"
+   "Balancing the grinding wheel"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "A diamond dresser is fed across the rotating wheel to remove dull grains and true its face.",
   "source": "lab",
   "ref": "Manufacturing notes p.8; Grinding PPT s.17",
@@ -4307,7 +4259,7 @@
   "figure": "grinding/dressing"
  },
  {
-  "id": "GRD-0189",
+  "id": "GRD-0187",
   "shop": "grinding",
   "category": "tools-equipment",
   "difficulty": "medium",
@@ -4315,11 +4267,11 @@
   "question": "Which dresser is used for precise dressing and truing of a grinding wheel?",
   "options": [
    "File card",
-   "Star-wheel (Huntington) dresser",
    "Single-point diamond dresser",
-   "Centre punch"
+   "Centre punch",
+   "Star-wheel (Huntington) dresser"
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "A diamond dresser gives precise truing and dressing; a star-wheel dresser is for rough dressing.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
@@ -4329,7 +4281,7 @@
   ]
  },
  {
-  "id": "GRD-0190",
+  "id": "GRD-0188",
   "shop": "grinding",
   "category": "tools-equipment",
   "difficulty": "hard",
@@ -4338,8 +4290,8 @@
   "options": [
    "Precision truing of fine wheels",
    "Rough dressing of coarse wheels",
-   "Balancing wheels",
-   "Measuring grit size"
+   "Measuring grit size",
+   "Balancing wheels"
   ],
   "answer": 1,
   "explanation": "Star-wheel dressers crush and break out dull grains on coarse wheels; for precision a diamond is used.",
@@ -4351,19 +4303,19 @@
   ]
  },
  {
-  "id": "GRD-0191",
+  "id": "GRD-0189",
   "shop": "grinding",
   "category": "tools-equipment",
   "difficulty": "medium",
   "type": "mcq",
   "question": "A grinding wheel is balanced using…",
   "options": [
-   "A balancing stand with balance weights in the flange",
-   "A magnetic chuck and magnetic parallels",
    "A graduated dial on the wheel head",
-   "The adjustable table dogs on the table"
+   "The adjustable table dogs on the table",
+   "A magnetic chuck and magnetic parallels",
+   "A balancing stand with balance weights in the flange"
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "The wheel on its arbor is placed on knife edges or rollers, and the flange weights are moved until it stays put in any position.",
   "source": "lab",
   "ref": "Grinding PPT s.15",
@@ -4373,19 +4325,19 @@
   ]
  },
  {
-  "id": "GRD-0192",
+  "id": "GRD-0190",
   "shop": "grinding",
   "category": "tools-equipment",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Which workpiece CANNOT be held directly on a magnetic chuck?",
   "options": [
-   "Cast-iron block",
-   "Aluminium block",
+   "Tool-steel plate",
    "Mild-steel block",
-   "Tool-steel plate"
+   "Aluminium block",
+   "Cast-iron block"
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "Magnetic chucks hold only ferromagnetic materials. Aluminium or brass needs a vice or fixture.",
   "source": "lab",
   "ref": "Theory: Hajra Choudhury; Log Sheets ME-106 p.8",
@@ -4396,19 +4348,19 @@
   ]
  },
  {
-  "id": "GRD-0193",
+  "id": "GRD-0191",
   "shop": "grinding",
   "category": "tools-equipment",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Grinding coolant is usually…",
   "options": [
+   "A water-based soluble-oil emulsion",
    "Molten wax at a high temperature",
-   "Kerosene, as used in die-sinking",
    "Deionised water only, filtered",
-   "A water-based soluble-oil emulsion"
+   "Kerosene, as used in die-sinking"
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "A soluble-oil emulsion cools, washes away swarf and reduces loading. (Deionised water is the dielectric in wire EDM.)",
   "source": "theory",
   "ref": "Theory: Kalpakjian",
@@ -4418,19 +4370,19 @@
   ]
  },
  {
-  "id": "GRD-0194",
+  "id": "GRD-0192",
   "shop": "grinding",
   "category": "tools-equipment",
   "difficulty": "hard",
   "type": "mcq",
   "question": "When mounting a grinding wheel on its spindle, what is placed between the flanges and the wheel?",
   "options": [
+   "Soft paper or rubber washers (blotters)",
    "Hardened steel shims",
    "Magnetic parallels",
-   "Soft paper or rubber washers (blotters)",
    "Strips of emery paper"
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "Blotters spread the clamping pressure evenly; the flanges must be equal size and the nut only snug.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
@@ -4440,19 +4392,19 @@
   ]
  },
  {
-  "id": "GRD-0195",
+  "id": "GRD-0193",
   "shop": "grinding",
   "category": "tools-equipment",
   "difficulty": "hard",
   "type": "mcq",
   "question": "In the ring test, a sound vitrified wheel tapped with a wooden mallet gives…",
   "options": [
-   "A clear ringing sound",
-   "A dull thud",
    "No sound at all",
-   "Sparks"
+   "A clear ringing sound",
+   "Sparks",
+   "A dull thud"
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "A clear ring means the wheel is sound; a dull sound suggests a crack, so the wheel must not be used.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
@@ -4463,39 +4415,17 @@
   ]
  },
  {
-  "id": "GRD-0196",
-  "shop": "grinding",
-  "category": "tools-equipment",
-  "difficulty": "easy",
-  "type": "mcq",
-  "question": "Which tool is used in the ME-106 cylindrical grinding procedure to check the size after the trial cut?",
-  "options": [
-   "Outside micrometer",
-   "Try square",
-   "Steel rule only",
-   "Dial-less caliper"
-  ],
-  "answer": 0,
-  "explanation": "The log sheet says to take a trial cut and use an outside micrometer to correct the error.",
-  "source": "lab",
-  "ref": "Log Sheets ME-106 p.8",
-  "tags": [],
-  "facts": [
-   "GRD-F095"
-  ]
- },
- {
-  "id": "GRD-0197",
+  "id": "GRD-0194",
   "shop": "grinding",
   "category": "tools-equipment",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Which accessory keeps a steel block from shifting on the surface grinder in the ME-106 procedure?",
   "options": [
+   "Clapper box",
    "Lathe dog",
-   "Spacer collars",
    "Magnetic parallels",
-   "Clapper box"
+   "Spacer collars"
   ],
   "answer": 2,
   "explanation": "Magnetic parallels are placed around the workpiece on the magnetic chuck.",
@@ -4507,7 +4437,7 @@
   ]
  },
  {
-  "id": "GRD-0198",
+  "id": "GRD-0195",
   "shop": "grinding",
   "category": "precautions",
   "difficulty": "medium",
@@ -4515,11 +4445,11 @@
   "question": "On a pedestal (bench) grinder, the work rest should be set…",
   "options": [
    "Touching the wheel",
-   "Close to the wheel, about 2–3 mm",
+   "Far from the wheel, about 25 mm",
    "Removed for better access",
-   "Far from the wheel, about 25 mm"
+   "Close to the wheel, about 2–3 mm"
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "A large gap lets the work be dragged between the rest and the wheel, which can jam or break the wheel.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
@@ -4529,7 +4459,7 @@
   ]
  },
  {
-  "id": "GRD-0199",
+  "id": "GRD-0196",
   "shop": "grinding",
   "category": "precautions",
   "difficulty": "medium",
@@ -4537,11 +4467,11 @@
   "question": "When tightening the spindle nut on a newly mounted grinding wheel, you should…",
   "options": [
    "Tighten as hard as possible with an extension bar",
+   "Tighten only enough to hold the wheel firmly",
    "Leave it loose",
-   "Hammer the flange",
-   "Tighten only enough to hold the wheel firmly"
+   "Hammer the flange"
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "Over-tightening can crack the wheel; use equal flanges and blotters.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
@@ -4551,19 +4481,19 @@
   ]
  },
  {
-  "id": "GRD-0200",
+  "id": "GRD-0197",
   "shop": "grinding",
   "category": "procedure",
   "difficulty": "hard",
   "type": "mcq",
   "question": "An aluminium block is to be surface ground. How should it be held?",
   "options": [
-   "Directly on the magnetic chuck, switched on as usual",
    "In a vice or fixture on the table (not directly on the magnetic chuck)",
+   "Directly on the magnetic chuck, switched on as usual",
    "Between centres with a lathe dog",
    "On a work-rest blade between two wheels"
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "Aluminium is non-magnetic, so the magnetic chuck cannot hold it.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",

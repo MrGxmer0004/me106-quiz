@@ -2868,9 +2868,9 @@
   "type": "mcq",
   "question": "Which item was photographed among the ME-106 milling lab tools?",
   "options": [
-   "Hacksaw",
-   "Magnetic parallels",
-   "Dielectric filter",
+   "Hacksaw frame",
+   "Centre punch",
+   "Magnetic V-block",
    "Involute gear cutter"
   ],
   "answer": 3,
@@ -3094,10 +3094,10 @@
   "type": "mcq",
   "question": "Which footwear precaution appears on the ME-106 milling log sheets?",
   "options": [
-   "Wear sandals for comfort",
-   "Work barefoot near the machine",
+   "Open sandals are allowed",
+   "Canvas sports shoes are enough",
    "Wear proper (safety) shoes",
-   "Wear any footwear"
+   "Any footwear is acceptable"
   ],
   "answer": 2,
   "explanation": "Both milling log sheets and the TA slides say to wear proper/safety shoes.",
@@ -3204,10 +3204,10 @@
   "type": "mcq",
   "question": "Which electrical precaution appears on the ME-106 milling log sheet?",
   "options": [
-   "Switch on the machine only with wet hands",
+   "Reset the main breaker yourself if it trips",
    "Do not touch any electrical connections",
-   "Open the control panel to check the wiring",
-   "Always touch the earth wire before starting"
+   "Keep the control-panel door open while working",
+   "Touch the earth wire before starting"
   ],
   "answer": 1,
   "explanation": "The 2022 milling log sheet says not to touch any electrical connections.",
@@ -4193,7 +4193,7 @@
   "type": "diagram",
   "question": "Which milling cutter is shown in panel A?",
   "options": [
-   "Hollow milling cutter",
+   "Ball-nose end mill",
    "Side-and-face cutter",
    "Fly cutter",
    "Plain (slab) helical cutter"
@@ -4221,7 +4221,7 @@
    "Side-and-face cutter",
    "Dovetail cutter",
    "End mill",
-   "Hollow milling cutter"
+   "Ball-nose end mill"
   ],
   "answer": 0,
   "explanation": "B = Side-and-face cutter. Cutting slots, steps and two parallel faces (straddle milling); cuts on periphery and both sides.",
@@ -4270,7 +4270,7 @@
   "options": [
    "Dovetail cutter",
    "T-slot cutter",
-   "Hollow milling cutter",
+   "Ball-nose end mill",
    "Slitting saw"
   ],
   "answer": 3,
@@ -4293,7 +4293,7 @@
   "type": "diagram",
   "question": "Which milling cutter is shown in panel E?",
   "options": [
-   "Hollow milling cutter",
+   "Ball-nose end mill",
    "T-slot cutter",
    "Plain (slab) helical cutter",
    "End mill"
@@ -5747,10 +5747,10 @@
   "type": "mcq",
   "question": "Which eye protection is recommended while milling?",
   "options": [
-   "Sunglasses",
+   "Tinted sunglasses",
    "Safety goggles",
-   "Laser goggles",
-   "Welding shield"
+   "Laser safety goggles",
+   "Welding helmet"
   ],
   "answer": 1,
   "explanation": "Chips fly from the cutter, so wear safety goggles.",

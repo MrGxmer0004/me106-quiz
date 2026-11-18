@@ -379,19 +379,20 @@ def gear_types():
     f.panel('B', x + 20, y + 20, 'Helical gears', 'Parallel shafts; teeth inclined to the axis, smoother running with axial thrust', 'MIL-F085')
     # C herringbone
     x, y = 530, 10
-    for xx in (x + 40, x + 125):
+    for j, xx in enumerate((x + 40, x + 125)):
         f.rect(xx, y + 40, 75, 110, 'f')
         for k in range(7):
             yy = y + 48 + k * 14
-            f.line(xx, yy, xx + 37, yy + 10, 'thin'); f.line(xx + 37, yy + 10, xx + 75, yy, 'thin')
+            d = 10 if j == 0 else -10
+            f.line(xx, yy + (0 if j == 0 else 10), xx + 37, yy + (10 if j == 0 else 0), 'thin'); f.line(xx + 37, yy + (10 if j == 0 else 0), xx + 75, yy + (0 if j == 0 else 10), 'thin')
     f.panel('C', x + 20, y + 20, 'Double-helical (herringbone) gears', 'Parallel shafts; opposite helices cancel the axial thrust', 'MIL-F086')
     # D bevel: two cone frusta whose apexes meet at the intersection of the axes
     x, y = 10, 190
-    ax, ay = x + 150, y + 60
-    f.line(ax, y + 165, ax, y + 35, 'cl'); f.line(x + 40, ay, ax + 30, ay, 'cl')
-    f.poly([(ax - 70, y + 150), (ax + 70, y + 150), (ax + 35, y + 105), (ax - 35, y + 105)], 'f')
-    f.poly([(ax - 90, ay - 70), (ax - 90, ay + 70), (ax - 45, ay + 35), (ax - 45, ay - 35)], 'f')
-    for (px, py) in [(ax - 70, y + 150), (ax + 70, y + 150), (ax - 90, ay - 70), (ax - 90, ay + 70)]:
+    ax, ay = x + 150, y + 85                    # apex where the axes cross; both pitch cones have 45° half-angles
+    f.line(ax, y + 160, ax, y + 40, 'cl'); f.line(x + 50, ay, ax + 40, ay, 'cl')
+    f.poly([(ax - 30, ay + 30), (ax + 30, ay + 30), (ax + 65, ay + 65), (ax - 65, ay + 65)], 'f')    # gear on vertical axis
+    f.poly([(ax - 30, ay - 30), (ax - 30, ay + 30), (ax - 65, ay + 65), (ax - 65, ay - 65)], 'f')    # gear on horizontal axis
+    for (px, py) in [(ax + 65, ay + 65), (ax - 65, ay - 65), (ax - 65, ay + 65)]:
         f.line(px, py, ax, ay, 'd')
     f.panel('D', x + 20, y + 20, 'Bevel gears', 'Intersecting shafts, usually at 90°', 'MIL-F087')
     # E worm & wheel

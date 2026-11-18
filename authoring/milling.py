@@ -412,7 +412,7 @@ q('tools', 'm', 'Which tools does the notebook list for the milling job?',
   'Outside caliper, mandrel and chuck key', ['Hacksaw, file and scriber', 'Grinding wheel and dresser', 'Emery paper and pumice powder'],
   'The notes list outside caliper, mandrel and chuck key for the milling job.', [102])
 q('tools', 'm', 'Which item was photographed among the ME-106 milling lab tools?',
-  'Involute gear cutter', ['Hacksaw', 'Magnetic parallels', 'Dielectric filter'],
+  'Involute gear cutter', ['Hacksaw frame', 'Centre punch', 'Magnetic V-block'],
   'The milling tools photo shows a flat file, outside caliper, index plate, steel rule, involute gear cutter, double-ended spanner, finished gears and a gear-train model.', [103])
 
 # ============================ procedure ============================
@@ -449,7 +449,7 @@ q('proc', 'm', 'Why is the table brought back before indexing to the next tooth?
 
 # ============================ precautions ============================
 q('prec', 'e', 'Which footwear precaution appears on the ME-106 milling log sheets?',
-  'Wear proper (safety) shoes', ['Wear sandals for comfort', 'Work barefoot near the machine', 'Wear any footwear'],
+  'Wear proper (safety) shoes', ['Open sandals are allowed', 'Canvas sports shoes are enough', 'Any footwear is acceptable'],
   'Both milling log sheets and the TA slides say to wear proper/safety shoes.', [111])
 q('prec', 'e', 'While the milling machine is running, you should…',
   'Keep a proper distance from the machine', ['Lean over the cutter to watch', 'Hold the blank by hand', 'Touch the arbor to check speed'],
@@ -515,7 +515,7 @@ q('ops', 'h', 'In panel A of the figure (cutter rotating clockwise), how does th
 q('ops', 'h', 'In panel B of the figure, the cutter rotates clockwise and the table moves to the right. Why is this up milling?',
   'At the cut, the teeth move opposite to the table feed', ['At the cut, the teeth move with the table feed', 'The cutter axis is vertical', 'Two cutters are used'],
   'With clockwise rotation, the bottom teeth move left while the work feeds right, so the cutter opposes the feed: up (conventional) milling.', [8], fig=UD)
-B.labels('milling/cutters', 'p', cat='tools', diffs={'p': 'm'}, extra_parts=['Fly cutter', 'Dovetail cutter', 'Hollow milling cutter'])
+B.labels('milling/cutters', 'p', cat='tools', diffs={'p': 'm'}, extra_parts=['Fly cutter', 'Dovetail cutter', 'Ball-nose end mill'])
 CU = 'milling/cutters'
 q('tools', 'm', 'Which cutter in the figure is used to cut the spur gear in the ME-106 lab?', 'F', ['A', 'B', 'C'],
   'F is the involute gear (form) cutter; its tooth profile matches the gear tooth space.', [42], fig=CU)
@@ -594,7 +594,7 @@ q('prec', 'h', 'On a horizontal milling machine, when should the arbor nut be fi
   'After the arbor support is in place', ['Before mounting the cutters', 'While the spindle is running', 'Never; it must stay loose'],
   'Tightening the nut without the outer support can bend the arbor. Also check the cutter rotation direction.', [129])
 q('prec', 'm', 'Which eye protection is recommended while milling?',
-  'Safety goggles', ['Laser goggles', 'Welding shield', 'Sunglasses'],
+  'Safety goggles', ['Laser safety goggles', 'Welding helmet', 'Tinted sunglasses'],
   'Chips fly from the cutter, so wear safety goggles.', [130])
 q('prec', 'm', 'Which practice is correct on the milling machine?',
   'Keep the cutter guard in place and use the correct speed and feed', ['Remove the guard for a better view', 'Use the highest speed for every material', 'Feed by hand into a stopped cutter'],

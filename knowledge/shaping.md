@@ -87,6 +87,11 @@ Source keys: `LS` = Log Sheets ME-106.pdf p.3–4 (shaping log sheet); `NB` = Ma
 - [SHP-F066] Limitations: slow (cutting only in one stroke), low production rate, mainly suited to small/medium work. [SH p.11; theory: P.N. Rao]
 - [SHP-F067] Applications: machining flat horizontal, vertical and inclined surfaces, V-blocks, keyways, slots and dovetails. [SH p.5; theory: Hajra Choudhury]
 
+## 10. Shaper numericals (standard)
+- [SHP-F068] Shaper cutting speed V = L·N·(1 + m) / 1000 m/min, where L = stroke length (mm), N = number of double strokes per minute, and m = return time ÷ cutting time. [theory: Hajra Choudhury]
+- [SHP-F069] Number of strokes needed = width of the surface ÷ feed per stroke; machining time = number of strokes ÷ strokes per minute. [theory: Hajra Choudhury]
+- [SHP-F070] With constant crank speed, the cutting and return angles are 360° − 2θ and 2θ, where cos θ = r/d (r = crank-pin radius, d = distance between crank centre and slotted-lever pivot). [theory: Hajra Choudhury]
+
 ## Figures needed
 - `shaping/shaper` — ram, tool head, clapper box, down-feed screw, tool post, vice, table, cross rail, column, base, ram-adjust handle, driving pulley.
 - `shaping/quick-return` — bull gear, crank pin, sliding block, slotted lever, pivot, link, ram; cutting (240°) and return (120°) angles.

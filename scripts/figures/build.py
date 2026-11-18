@@ -15,9 +15,14 @@ REG = os.path.join(ROOT, 'src', 'data', 'figures.json')
 
 def main(shops):
     reg = json.load(open(REG, encoding='utf-8')) if os.path.exists(REG) else []
-    reg = [e for e in reg if e['shop'] not in shops]
+    present = [sh for sh in shops if os.path.exists(os.path.join(HERE, 'fig_' + sh + '.py'))]
+    reg = [e for e in reg if e['shop'] not in present]
     for shop in shops:
-        mod = importlib.import_module('fig_' + shop)
+        try:
+            mod = importlib.import_module('fig_' + shop)
+        except ModuleNotFoundError:
+            print('skip (no figure module):', shop)
+            continue
         for fn in mod.FIGS:
             figs = fn()
             for f in (figs if isinstance(figs, list) else [figs]):

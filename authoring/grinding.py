@@ -233,7 +233,7 @@ q('wheel', 'm', 'A higher structure number on a grinding wheel means…',
   'Low number = dense; high number = open. (The notebook had this reversed; see corrections.md.)', [60])
 q('wheel', 'm', 'Structure number 3 indicates a…',
   'Dense wheel', ['Open wheel', 'Soft wheel', 'Coarse wheel'],
-  'Low structure numbers are dense in all sources.', [60])
+  'Low structure numbers are dense in all the printed lab sources (the notebook had the scale reversed; see corrections.md #8).', [60])
 q('wheel', 'm', 'Structure number 12 indicates a…',
   'Open wheel', ['Dense wheel', 'Hard wheel', 'Fine wheel'],
   'High structure numbers are open.', [60])
@@ -263,9 +263,9 @@ q('wheel', 'h', 'Thin, high-speed abrasive cut-off wheels are usually made with 
   'Resinoid and rubber bonds are tough and slightly flexible, which suits thin cut-off wheels and high speeds.', [65])
 q('wheel', 'm', 'In the notebook example "A 85 I 5 V", what do A and V denote?',
   'Aluminium oxide abrasive and vitrified bond', ['Silicon carbide abrasive and resinoid bond', 'Diamond abrasive and vitrified bond', 'Aluminium oxide abrasive and rubber bond'],
-  'A = aluminium oxide, V = vitrified. 85 is a fine grit and 5 is the structure number.', [66])
+  'A = aluminium oxide, V = vitrified. 85 is the grit number (fine in the notebook scale) and 5 is the structure number.', [66])
 q('wheel', 'm', 'In the notebook example "C 32 _ 8 B", what are the abrasive and bond?',
-  'Silicon carbide and resinoid', ['Aluminium oxide and vitrified', 'CBN and resinoid', 'Silicon carbide and rubber'],
+  'Silicon carbide and resinoid', ['Aluminium oxide and vitrified', 'Diamond and resinoid', 'Silicon carbide and rubber'],
   'C = silicon carbide; B = resinoid. (The grade letter is illegible in the notes.)', [67])
 q('wheel', 'h', 'Decode the wheel marking C 60 K 12 B.',
   'SiC, medium grain, medium grade, open structure, resinoid bond', ['Al₂O₃, fine grain, hard grade, dense structure, rubber bond', 'SiC, coarse grain, soft grade, dense structure, vitrified bond', 'CBN, medium grain, medium grade, open structure, metal bond'],
@@ -441,13 +441,13 @@ tf('parts', 'm', 'In centreless grinding, the grinding wheel and regulating whee
 
 # ============================ diagrams ============================
 B.labels('grinding/surface-grinder', 'p', diffs={'p': 'e'})
-B.labels('grinding/surface-grinder', 'w', only={'w': ['C', 'E', 'G', 'I']})
+B.labels('grinding/surface-grinder', 'w', only={'w': ['C', 'E', 'G', 'H']})
 B.labels('grinding/surface-grinder', 'f', only={'f': ['B', 'E', 'C']}, diffs={'f': 'm'})
 B.labels('grinding/cylindrical-grinder', 'p', diffs={'p': 'm'}, extra_parts=['Magnetic chuck', 'Regulating wheel'])
 B.labels('grinding/cylindrical-grinder', 'f', only={'f': ['H', 'F', 'C']}, diffs={'f': 'm'})
-B.labels('grinding/types', 'p', cat='parts', diffs={'p': 'e'}, extra_parts=['Tool-and-cutter grinding', 'Creep-feed grinding'])
+B.labels('grinding/types', 'p', cat='parts', diffs={'p': 'e'}, extra_parts=['Tool-and-cutter grinding', 'Abrasive cut-off'])
 TY = 'grinding/types'
-q('parts', 'm', 'In the figure, which panel shows grinding where the work is NOT held between centres or in a chuck?', 'D', ['A', 'B', 'C'],
+q('parts', 'm', 'In the figure, which panel shows the work resting on a blade and controlled by a regulating wheel?', 'D', ['A', 'B', 'C'],
   'D is centreless grinding: the work rests on a blade between the grinding wheel and the regulating wheel.', [36], fig=TY)
 q('parts', 'm', 'In the figure, which panel would be used to finish a bore?', 'C', ['A', 'B', 'D'],
   'C is internal grinding: a small wheel runs inside the bore.', [35], fig=TY)
@@ -455,15 +455,13 @@ B.labels('grinding/wheel-marking', 'p', cat='wheel', diffs={'p': 'm'})
 WM = 'grinding/wheel-marking'
 q('wheel', 'm', 'In the wheel marking shown, which position would read "C" for a silicon carbide wheel?', '1', ['2', '3', '5'],
   'Position 1 is the abrasive type (A = aluminium oxide, C = silicon carbide).', [47, 43], fig=WM)
-q('wheel', 'm', 'In the wheel marking shown, what does "5" at position 4 tell you?', 'The structure (grain spacing) number', ['The grit size', 'The grade', 'The bond type'],
-  'Position 4 is the structure. A low number like 5 is fairly dense.', [60], fig=WM)
 q('wheel', 'm', 'In the wheel marking shown, "K" at position 3 means the wheel is…', 'Medium grade', ['Soft grade', 'Hard grade', 'Fine grain'],
   'Position 3 is grade; K is medium.', [56], fig=WM)
 B.labels('grinding/structure', 'p', cat='wheel', diffs={'p': 'm'}, extra_parts=['Glazed wheel', 'Loaded wheel'])
 q('wheel', 'h', 'Which wheel in the figure is better for rough grinding of a soft ductile metal?', 'B', ['A'],
   'B is the open structure: large pores hold the chips, so the wheel does not load up.', [61], fig='grinding/structure')
 B.labels('grinding/dressing', 'p', cat='wheel', diffs={'p': 'm'}, extra_parts=['Magnetic parallel', 'Work-rest blade'])
-q('def', 'm', 'What operation is being performed in the figure?', 'Dressing the grinding wheel', ['Balancing the grinding wheel', 'Surface grinding a block', 'Centreless grinding'],
+q('def', 'm', 'What operation is being performed in the figure?', 'Dressing the grinding wheel', ['Balancing the grinding wheel', 'Ring-testing the wheel for cracks', 'Centreless grinding'],
   'A diamond dresser is fed across the rotating wheel to remove dull grains and true its face.', [68, 69], fig='grinding/dressing')
 
 # ============================ tools & accessories (standard) ============================
@@ -488,9 +486,6 @@ q('tools', 'h', 'When mounting a grinding wheel on its spindle, what is placed b
 q('tools', 'h', 'In the ring test, a sound vitrified wheel tapped with a wooden mallet gives…',
   'A clear ringing sound', ['A dull thud', 'No sound at all', 'Sparks'],
   'A clear ring means the wheel is sound; a dull sound suggests a crack, so the wheel must not be used.', [112, 106])
-q('tools', 'e', 'Which tool is used in the ME-106 cylindrical grinding procedure to check the size after the trial cut?',
-  'Outside micrometer', ['Steel rule only', 'Try square', 'Dial-less caliper'],
-  'The log sheet says to take a trial cut and use an outside micrometer to correct the error.', [95])
 q('tools', 'm', 'Which accessory keeps a steel block from shifting on the surface grinder in the ME-106 procedure?',
   'Magnetic parallels', ['Lathe dog', 'Spacer collars', 'Clapper box'],
   'Magnetic parallels are placed around the workpiece on the magnetic chuck.', [88])

@@ -87,7 +87,7 @@ PATCH = {
  'Which precaution is specific to indexing on the dividing head?':
   ['Check that the grinding wheel clears the work', 'Do not lower the shaper head more than 2 mm', 'Maintain a constant spark gap with the wire'],
  'Which electrical precaution appears on the ME-106 milling log sheet?':
-  ['Open the control panel to check the wiring', 'Always touch the earth wire before starting', 'Switch on the machine only with wet hands'],
+  ['Keep the control-panel door open while working', 'Touch the earth wire before starting', 'Reset the main breaker yourself if it trips'],
  'Which of these should be avoided while milling, according to the TA slides?':
   ['Safety shoes with steel toe caps', 'Supervision by the shop instructor', 'A workshop apron, properly tied'],
  'According to the milling TA slides, the machine should NOT be operated…':

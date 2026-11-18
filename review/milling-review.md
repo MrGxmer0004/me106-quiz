@@ -102,3 +102,30 @@ Overall, the keys are sound. Every numerical answer is correct, and no indexing 
   - gear-nomenclature: the circular-pitch extension lines start at the pitch circle.
   - cutters: alt text now says six drawings.
 - corrections.md #23 added (the notebook's straddle-milling definition).
+
+## Re-check (round 1)
+
+| Item | Status | Note |
+|---|---|---|
+| MIL-0152 | OK | R is now "also known as climb milling": true and unrelated, so key 1 is unambiguous. The explanation is now correct (full-thickness entry, no rubbing). |
+| MIL-0091 | OK | Stem asks for "two addenda", and 2.157/DP is gone; the options (1.157/DP, 1/DP, π/DP, 2/DP) have one correct answer. The explanation still says "Working depth = 2/DP", but it gives the lab name too, which is acceptable. |
+| MIL-0113 | OK | 0.0723 in (1.157/16 = 0.0723 in = 1.84 mm ≈ 1.8 mm) replaces 2/DP. No 2/DP remains in this lab-job question. Explanation correct. |
+| MIL-0027 | OK | "Different sizes … several different surfaces in one pass" now rules out straddle (identical cutters, two parallel faces). |
+| MIL-0014 | OK | All three distractors are plainly false (smoothest finish; "cannot be used at all" on scale, when up milling is in fact preferred for scale; vertical machine only). |
+| MIL-0049 | OK | Clapper block (shaper), swing over bed (lathe) and bastard cut (file) are all clearly not cutter nomenclature. Explanation matches. |
+| MIL-0097 | OK | "Ordinary (parallel-axis) helical" removes the crossed-helical clash. |
+| MIL-0190 | Still weak | Face mill is gone, but the new distractor "Hollow milling cutter" is also a shank plus a wider short cylindrical head in side view, so it can again be read as panel E. Use Dovetail cutter, Fly cutter or Slitting saw instead. |
+| MIL-0252 | OK | Dielectric removed; one correct option; medium is acceptable (easy would also be fine). |
+| MIL-0135 ("Power feed of the knee") | OK | "Tailstock drive motor" and "Power feed of the knee" are plausible and wrong. "Magnetic chuck" is still cross-shop, but harmless. |
+| MIL-0144 ("Only while filing") | OK | |
+| Difficulty MIL-0076, 0122, 0139, 0149 | OK | All are now medium (easy would be more accurate for 0076, 0122 and 0149, but this is not an error). |
+| Other silly distractors from my Minor list | Not done | Still present: MIL-0130 "Dielectric filter", MIL-0140 "Work barefoot", MIL-0145 "Switch on with wet hands", MIL-0250 "Laser goggles". These are Minor only. |
+| Figure `dividing-head` | OK | The crank is now a distinct grey arm ending in the pin knob at (239, 197). B's leader ends on the arm, C's on the pin, and nothing overlaps the sector arms. Minor realism point: the pin sits outside the span of the two sector arms; normally it rests against one arm. Optional. |
+| Figure `gear-types` B (helical) | OK | The two gears now have opposite hands. |
+| Figure `gear-types` C (herringbone) | Still wrong (Minor) | Both gears still show the same chevron direction. Mirror one of them. |
+| Figure `gear-types` D (bevel) | Partly OK (Minor) | Both apices now meet at the axis crossing (160, 250). Two problems remain. (1) The upper-left cone overflows the panel: its vertex at y = 180 is above panel D's top edge (y = 190) and touches panel A's frame. (2) The cone half-angles are 38° + 38° = 76°, not 90°, so the pitch cones show a gap instead of touching along a common line. For 90° shafts, use 45° half-angles (miter pair) and shift the left cone down by at least 10. |
+| Figure `gear-nomenclature` | OK | The circular-pitch extension lines now drop to the pitch circle at corresponding tooth centres (x ≈ 450 and ≈ 590). The dimension arc is drawn outside, which is standard dimensioning. |
+| figures.json `milling/cutters` alt | OK | Now says "Six". |
+| corrections.md #23 | OK | The notebook's straddle definition is recorded. |
+
+Round-1 result: MIL-0190 is still weak (new lookalike distractor). There are two Minor figure leftovers (herringbone hands; the bevel cone overflows its panel and the cones don't touch) and four leftover silly distractors. Everything else is fixed.

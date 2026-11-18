@@ -17,8 +17,8 @@ def surface():
     f.rect(60, 430, 620, 30, 'f')                         # base
     f.rect(500, 60, 120, 370, 'f')                        # column
     f.rect(260, 80, 240, 80, 'f')                         # wheel head
-    _wheel_side(f, 330, 210, 55)                          # wheel
-    f.path('M265,210 A65,65 0 0 1 395,210 L395,160 L265,160 Z', 'f')  # guard (top half)
+    _wheel_side(f, 330, 203, 55)                          # wheel (touches work top at y=258)
+    f.path('M265,203 A65,65 0 0 1 395,203 L395,160 L265,160 Z', 'f')  # guard (top half)
     f.rect(140, 340, 330, 40, 'f')                        # saddle
     f.rect(90, 300, 400, 40, 'f')                         # table
     f.rect(170, 280, 280, 20, 'f2')                       # magnetic chuck
@@ -26,19 +26,17 @@ def surface():
         f.line(x, 280, x, 300, 'thin')
     f.rect(270, 258, 120, 22, 'f')                        # workpiece
     f.circle(110, 395, 22, 's'); f.line(110, 395, 88, 395)    # table traverse handwheel
-    f.circle(470, 395, 16, 's')                           # cross feed handwheel
     f.circle(560, 130, 18, 's')                           # down feed handwheel
     f.arrow(160, 318, 230, 318, 'acc'); f.arrow(230, 318, 160, 318, 'acc')
     C = f.callout
-    C('A', 360, 240, 420, 250, 'Grinding wheel', 'Rotating abrasive wheel that removes small amounts of metal', 'GRD-F001')
-    C('B', 300, 168, 220, 190, 'Wheel guard', 'Covers the wheel to protect the operator from fragments and sparks', 'GRD-F024')
+    C('A', 360, 235, 420, 250, 'Grinding wheel', 'Rotating abrasive wheel that removes small amounts of metal', 'GRD-F001')
+    C('B', 284, 157, 220, 190, 'Wheel guard', 'Covers the wheel to protect the operator from fragments and sparks', 'GRD-F024')
     C('C', 380, 100, 380, 35, 'Wheel head', 'Carries the wheel spindle and motor; moved down to set the depth of cut', 'GRD-F023')
     C('D', 560, 200, 680, 200, 'Column', 'Vertical member on which the wheel head slides up and down', 'GRD-F024')
     C('E', 430, 290, 470, 245, 'Magnetic chuck', 'Holds steel work on the table by magnetism', 'GRD-F089')
     C('F', 120, 318, 45, 290, 'Table', 'Reciprocates back and forth carrying the chuck and work', 'GRD-F023')
     C('G', 300, 360, 250, 405, 'Saddle', 'Moves the table crosswise (cross feed) on the base', 'GRD-F024')
     C('H', 110, 395, 45, 405, 'Table-traverse handwheel', 'Moves the table longitudinally by hand', 'GRD-F024')
-    C('I', 484, 398, 560, 405, 'Cross-feed handwheel', 'Moves the saddle and table across under the wheel', 'GRD-F024')
     C('J', 640, 445, 700, 480, 'Base', 'Supports the whole machine', 'GRD-F024')
     C('K', 330, 266, 220, 245, 'Workpiece', 'Flat job being surface ground', 'GRD-F021')
     return f
@@ -56,9 +54,9 @@ def cylindrical():
     f.rect(268, 205, 234, 40, 'f2')                        # workpiece
     f.line(230, 225, 540, 225, 'cl')
     f.rect(300, 40, 200, 70, 'f')                          # wheel head
-    _wheel_side(f, 400, 150, 48)                           # wheel (touching work from above in this view)
-    for x in (200, 580):
-        f.rect(x - 8, 278, 16, 12, 'k')                    # adjustable dogs
+    _wheel_side(f, 400, 157, 48)                           # wheel touching the work
+    for x in (150, 630):
+        f.rect(x - 8, 326, 16, 16, 'k')                    # adjustable dogs on the front of the lower table
     f.arrow(300, 340, 380, 340, 'acc'); f.arrow(380, 340, 300, 340, 'acc')
     f.arc(330, 225, 32, 200, 330, 'acc')
     C = f.callout
@@ -68,8 +66,8 @@ def cylindrical():
     C('D', 590, 220, 700, 180, 'Tailstock', 'Supports the other end of the work on a centre', 'GRD-F029')
     C('E', 470, 225, 480, 160, 'Workpiece', 'Cylindrical job held between centres', 'GRD-F029')
     C('F', 640, 305, 720, 280, 'Upper table', 'Carries headstock and tailstock; can be swivelled for tapers', 'GRD-F029')
-    C('G', 140, 340, 60, 320, 'Lower table', 'Reciprocates along the base, carrying the upper table', 'GRD-F029')
-    C('H', 200, 284, 230, 260, 'Adjustable table dog', 'Set to reverse the table at the ends of its traverse', 'GRD-F030')
+    C('G', 300, 352, 250, 412, 'Lower table', 'Reciprocates along the base, carrying the upper table', 'GRD-F029')
+    C('H', 150, 334, 110, 290, 'Adjustable table dog', 'Set to reverse the table at the ends of its traverse', 'GRD-F030')
     C('I', 690, 385, 745, 410, 'Base', 'Supports the machine and table ways', 'GRD-F029')
     return f
 
@@ -88,8 +86,8 @@ def types():
     # B cylindrical external: wheel beside rotating cylinder (end view)
     x, y = 400, 10
     _wheel_side(f, x + 120, y + 125, 70)
-    f.circle(x + 245, y + 125, 50, 'f'); f.circle(x + 245, y + 125, 4, 'k')
-    f.arc(x + 245, y + 125, 66, 120, 30, 'acc')
+    f.circle(x + 240, y + 125, 50, 'f'); f.circle(x + 240, y + 125, 4, 'k')
+    f.arc(x + 240, y + 125, 66, 120, 30, 'acc')
     f.panel('B', x + 25, y + 25, 'External cylindrical grinding', 'Outside diameter of work between centres ground by the wheel periphery', 'GRD-F026')
     # C internal: small wheel inside a bore (end view)
     x, y = 10, 265
@@ -180,13 +178,14 @@ def gratio():
     f.hdim(115, 345, 22, 'Di (new wheel)', 15)
     f.hdim(130, 330, 285, 'Df (worn wheel)', 15, above=False)
     f.text(230, 325, 'wheel width = d', 15)
-    f.poly([(420, 230), (640, 230), (680, 200), (460, 200)], 'f')
-    f.poly([(420, 230), (640, 230), (640, 290), (420, 290)], 'f')
-    f.poly([(640, 230), (680, 200), (680, 260), (640, 290)], 'f')
-    f.line(420, 218, 640, 218, 'd')
+    f.poly([(420, 244), (640, 244), (680, 214), (460, 214)], 'f')
+    f.poly([(420, 244), (640, 244), (640, 290), (420, 290)], 'f')
+    f.poly([(640, 244), (680, 214), (680, 260), (640, 290)], 'f')
+    f.poly([(420, 230), (640, 230), (680, 200), (460, 200)], 'd')   # original top before grinding
+    f.line(420, 230, 420, 244, 'd'); f.line(640, 230, 640, 244, 'd'); f.line(680, 200, 680, 214, 'd')
     f.hdim(420, 640, 312, 'l', 16, above=False)
     f.text(672, 285, 'b', 16)
-    f.text(405, 224, 'Δh', 15, anchor='end')
+    f.text(410, 237, 'Δh', 15, anchor='end')
     f.text(560, 120, 'G = Vw / Vs', 20, weight='bold')
     return f
 
