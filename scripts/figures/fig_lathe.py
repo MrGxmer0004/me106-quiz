@@ -106,7 +106,6 @@ def chucks():
     for a in (30, 150, 270):  # single key socket set
         r = math.radians(a)
         f.rect(cx + 95 * math.cos(r) - 5, cy - 95 * math.sin(r) - 5, 10, 10, 's')
-    f.text(cx, 305, '3 jaws', 18)
     # B: 4-jaw independent
     cx = 480
     f.circle(cx, cy, 110, 'f'); f.circle(cx, cy, 22, 's')
@@ -120,7 +119,6 @@ def chucks():
         f.poly(pts, 'f2')
         sx, sy = cx + ux * 97, cy + uy * 97
         f.rect(sx - 6, sy - 6, 12, 12, 's')  # each jaw has its own screw square
-    f.text(cx, 305, '4 jaws', 18)
     f.panel('A', 40, 40, '3-jaw (self-centring) chuck', 'All three jaws move together through a scroll, so round or hexagonal work is centred automatically', 'LAT-F048')
     f.panel('B', 360, 40, '4-jaw (independent) chuck', 'Each jaw has its own screw and moves independently, so irregular work can be held but must be centred manually', 'LAT-F049')
     return f
@@ -187,10 +185,11 @@ def _op_cell(f, ox, oy, kind):
         tool(ox + 182, y - r - 2, 300, 48)
         f.arrow(ox + 205, y - 40, ox + 205, y - 5)
     elif kind == 'straight':
-        f.rect(ox + 30, y - r, 180, 2 * r, 'f')
-        f.rect(ox + 30, y - r, 120, 8, 'f2')
-        tool(ox + 150, y - r + 8, 270, 45)
-        f.arrow(ox + 165, oy + 22, ox + 115, oy + 22)
+        f.rect(ox + 30, y - r, 30, 2 * r, 'f')
+        f.rect(ox + 60, y - r + 8, 150, 2 * r - 16, 'f')
+        f.line(ox + 60, y - r, ox + 210, y - r, 'd'); f.line(ox + 60, y + r, ox + 210, y + r, 'd'); f.line(ox + 210, y - r, ox + 210, y + r, 'd')
+        tool(ox + 60, y - r + 8, 270, 45)
+        f.arrow(ox + 130, oy + 22, ox + 75, oy + 22)
     elif kind == 'step':
         f.rect(ox + 30, y - r, 100, 2 * r, 'f')
         f.rect(ox + 130, y - 18, 80, 36, 'f')
@@ -281,10 +280,10 @@ def threads():
     p = 70
     for k in range(3):
         x = ox + k * p
-        pts += [(x + p * 0.5, base - 70), (x + p, base)]
+        pts += [(x + p * 0.5, base - 60.6), (x + p, base)]
     f.poly(pts + [(ox + 3 * p, base + 30), (ox, base + 30)], 'f')
-    f.arc(ox + p * 1.5, base - 70, 40, 240, 300, 'acc')
-    f.text(ox + p * 1.5, base - 110, '60°', 17)
+    f.arc(ox + p * 1.5, base - 60.6, 34, 240, 300, 'acc')
+    f.text(ox + p * 1.5, base - 90, '60°', 17)
     # B square
     ox = 290
     pts = [(ox, base)]
@@ -310,7 +309,8 @@ def threads():
 def thread_terms():
     f = Fig('lathe/thread-terms', 760, 380, 'Screw thread nomenclature',
             'Enlarged V-thread profile with lettered features')
-    base, top, p = 250, 130, 120
+    base, p = 250, 120
+    top = base - 103.9
     pts = [(60, base)]
     for k in range(4):
         x = 60 + k * p
@@ -325,7 +325,7 @@ def thread_terms():
     C = f.callout
     C('A', 60 + 2.5 * p, top, 60 + 2.5 * p, 70, 'Crest', 'Top surface of the thread', 'LAT-F089')
     C('B', 60 + 2 * p, base, 60 + 2 * p, 300, 'Root', 'Bottom of the groove between two threads', 'LAT-F089')
-    C('C', 60 + 1.25 * p, (top + base) / 2, 155, 300, 'Flank', 'Side surface joining crest and root', 'LAT-F089')
+    C('C', 60 + 0.25 * p, (top + base) / 2, 30, 160, 'Flank', 'Side surface joining crest and root', 'LAT-F089')
     C('D', 60 + p, 95, 120, 60, 'Pitch', 'Axial distance between corresponding points on adjacent threads', 'LAT-F089')
     C('E', 600, 190, 560, 190, 'Depth of thread', 'Radial distance between crest and root (d = 0.6134 p for our metric thread)', 'LAT-F092')
     C('F', 640, 220, 715, 205, 'Major diameter (radius shown)', 'Largest diameter of the thread, measured over the crests', 'LAT-F089')
@@ -383,9 +383,9 @@ JOB = {'chamfer': '1 × 45°',
        'thread': 'Ø34 × 1.5 pitch'}
 
 
-def job():
-    f = Fig('lathe/job-2025', 780, 360, 'ME-106 lathe job (2025 drawing)',
-            'Dimensioned drawing of the stepped, tapered and threaded lathe job; segments lettered P to T',
+def job(blank=False):
+    f = Fig('lathe/job-2025' + ('-q' if blank else ''), 780, 360, 'ME-106 lathe job (2025 drawing)' + (' — dimensions hidden' if blank else ''),
+            'Drawing of the stepped, tapered and threaded lathe job; segments lettered P to T' + (', dimensions not shown' if blank else ', fully dimensioned'),
             ask={'p': 'In the lathe job drawing, which feature is segment {L}?'})
     sx, y0, k = 80, 170, 5.4  # scale px/mm
     x = sx
@@ -403,13 +403,13 @@ def job():
                 f.line(xx, y0 - h1, xx + 4, y0 - h1 + 6, 'thin'); f.line(xx, y0 + h1, xx + 4, y0 + h1 - 6, 'thin')
                 xx += 8
             f.line(x, y0 - h1 + 6, x2, y0 - h1 + 6, 'thin'); f.line(x, y0 + h1 - 6, x2, y0 + h1 - 6, 'thin')
-        f.hdim(x, x2, 280, str(L), 16, above=False)
+        f.hdim(x, x2, 280, '' if blank else str(L), 16, above=False)
         ty = 60 if tag != 'R' else 32
         f.tag(tag, (x + x2) / 2, ty)
         f.line((x + x2) / 2, ty + 15, (x + x2) / 2, y0 - max(h1, h2) - 2, 'lead')
         x = x2
     f.line(sx - 20, y0, x + 20, y0, 'cl')
-    f.hdim(sx, x, 330, '115', 17, above=False)
+    f.hdim(sx, x, 330, '' if blank else '115', 17, above=False)
     # centre holes
     for xx, s in ((sx, 1), (x, -1)):
         f.poly([(xx, y0 - 5), (xx + 10 * s, y0), (xx, y0 + 5)], 's')
@@ -420,6 +420,8 @@ def job():
     for t, (n, fa) in names.items():
         f.labels[t] = {'part': n, 'function': n, 'fact': fa}
     # diameter notes under the drawing
+    if blank:
+        return f
     f.text(80 + 17.5 * k, y0 - 30, 'Ø38', 16)
     f.text(80 + 50 * k, y0 - 30, 'Ø38 → Ø34', 15)
     f.text(80 + (70 + 12.5) * k, y0 - 30, 'Ø34 × 1.5', 15)
@@ -428,4 +430,4 @@ def job():
     return f
 
 
-FIGS = [overview, chucks, centres, operations, threads, thread_terms, spt, taper, job]
+FIGS = [overview, chucks, centres, operations, threads, thread_terms, spt, taper, job, lambda: job(True)]

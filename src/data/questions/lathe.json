@@ -267,7 +267,7 @@
  {
   "id": "LAT-0013",
   "shop": "lathe",
-  "category": "workpiece-material",
+  "category": "machine-parts",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Lathe beds are generally made of which material?",
@@ -289,7 +289,7 @@
  {
   "id": "LAT-0014",
   "shop": "lathe",
-  "category": "workpiece-material",
+  "category": "machine-parts",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Why is grey cast iron used for lathe beds?",
@@ -311,7 +311,7 @@
  {
   "id": "LAT-0015",
   "shop": "lathe",
-  "category": "workpiece-material",
+  "category": "machine-parts",
   "difficulty": "hard",
   "type": "mcq",
   "question": "According to the lathe handout, a good lathe bed material should have which two properties?",
@@ -1540,7 +1540,7 @@
    "1.5–2.0% carbon"
   ],
   "answer": 2,
-  "explanation": "Standard ranges: low < 0.3%, medium 0.3–0.6%, high 0.6–1.5% C.",
+  "explanation": "Standard ranges: low < 0.3%, medium 0.3–0.6%, high 0.6–1.5% C. (The class notebook says 1.5–2% for medium-carbon steel. That is wrong; see corrections.md #1.)",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
   "tags": [],
@@ -2328,22 +2328,23 @@
   "category": "process-parameters",
   "difficulty": "medium",
   "type": "mcq",
-  "question": "In the ME-106 lathe lab, why was the spindle speed reduced to 90 rpm for threading?",
+  "question": "In the ME-106 lathe lab, why was the spindle speed reduced to about 90 rpm for threading?",
   "options": [
    "The lead screw cannot rotate above 90 rpm",
-   "HSS tools cannot be used above 90 rpm",
-   "Thread cutting is done at a much lower speed than turning",
-   "To make facing easier"
+   "HSS tools melt above 90 rpm",
+   "The carriage moves one pitch per revolution, so it must be slow enough to stop at the groove",
+   "Facing must be repeated at low speed"
   ],
   "answer": 2,
-  "explanation": "Turning was done at 315 rpm, but threading was done at about 90 rpm. Thread cutting is done slowly so the tool can be withdrawn accurately at the end of each pass.",
+  "explanation": "Turning was done at 315 rpm but threading at about 90 rpm. In threading the carriage moves fast (one pitch per revolution), so a low speed gives time to withdraw the tool at the end of each pass.",
   "source": "lab",
   "ref": "Log Sheets ME-106 p.2; Log Sheets ME-106 p.1",
   "tags": [],
   "facts": [
    "LAT-F096",
    "LAT-F116",
-   "LAT-F120"
+   "LAT-F120",
+   "LAT-F088"
   ]
  },
  {
@@ -2488,7 +2489,7 @@
   "category": "numericals",
   "difficulty": "hard",
   "type": "numerical",
-  "question": "The cross-slide dial (least count 0.02 mm) is advanced by 25 divisions for one cut. By how much does the work DIAMETER reduce?",
+  "question": "Each division of the cross-slide dial moves the tool 0.02 mm radially. The dial is advanced by 25 divisions for one cut. By how much does the work DIAMETER reduce?",
   "options": [
    "1.0 mm",
    "2.0 mm",
@@ -2655,7 +2656,7 @@
    "1 : 15",
    "1 : 30",
    "1 : 7.5",
-   "2 : 15"
+   "1 : 3.75"
   ],
   "answer": 2,
   "explanation": "(D − d) : L = 4 : 30 = 1 : 7.5. The 1 : 15 figure is tan α, i.e. half of this ratio.",
@@ -2810,7 +2811,7 @@
   "category": "job-dimensions",
   "difficulty": "easy",
   "type": "mcq",
-  "question": "What was the raw stock size for the ME-106 lathe job?",
+  "question": "According to the ME-106 lathe notes, what was the raw stock size?",
   "options": [
    "Mild-steel bar about 120 mm long, Ø38 mm",
    "Mild-steel block 40 × 25 × 80 mm",
@@ -2832,7 +2833,7 @@
   "category": "job-dimensions",
   "difficulty": "medium",
   "type": "numerical",
-  "question": "In the ME-106 lathe job, a 120 mm bar is finished to 115 mm overall. How much length is removed by facing in total?",
+  "question": "A 120 mm bar (as recorded in the lathe notes) is faced to the 115 mm overall length. How much length is removed by facing in total?",
   "options": [
    "10 mm",
    "15 mm",
@@ -3037,21 +3038,22 @@
   "category": "procedure",
   "difficulty": "medium",
   "type": "mcq",
-  "question": "After facing, which operation is done next in the ME-106 lathe job?",
+  "question": "In the 2025 ME-106 lathe log sheet, which step comes immediately after facing?",
   "options": [
    "Knurling",
-   "Plain (straight) turning to the largest diameter",
+   "Grooving and taper turning in the marked areas",
    "Parting-off",
    "Thread cutting"
   ],
   "answer": 1,
-  "explanation": "After facing, the job is plain-turned to the largest diameter, then step-turned to the smaller diameters.",
+  "explanation": "The 2025 sheet: measure → mark & chuck → centre & set rotation → facing → groove and taper turn → threading.",
   "source": "lab",
-  "ref": "Log Sheets ME-106 p.1; Log Sheets ME-106 p.1–2",
+  "ref": "Log Sheets ME-106 p.1; Central Lathe Log sheet p.1",
   "tags": [],
   "facts": [
    "LAT-F117",
-   "LAT-F118"
+   "LAT-F118",
+   "LAT-F121"
   ]
  },
  {
@@ -3060,20 +3062,20 @@
   "category": "procedure",
   "difficulty": "medium",
   "type": "mcq",
-  "question": "In the ME-106 lathe procedure, which comes first?",
+  "question": "In the ME-106 lathe procedure, which of these is done first?",
   "options": [
    "Taper turning",
-   "Step turning",
+   "Facing",
    "Thread cutting",
    "Grooving"
   ],
   "answer": 1,
-  "explanation": "Order: facing → plain turning → step turning → grooving → taper turning → threading.",
+  "explanation": "Facing to length comes before grooving, taper turning and threading.",
   "source": "lab",
-  "ref": "Log Sheets ME-106 p.1–2",
+  "ref": "Log Sheets ME-106 p.1; Central Lathe Log sheet p.1",
   "tags": [],
   "facts": [
-   "LAT-F118",
+   "LAT-F117",
    "LAT-F121"
   ]
  },
@@ -3086,14 +3088,14 @@
   "question": "Which step comes immediately BEFORE thread cutting in the ME-106 lathe procedure?",
   "options": [
    "Facing",
-   "Plain turning",
-   "Taper turning",
-   "Measuring the raw bar"
+   "Measuring the raw bar",
+   "Grooving and taper turning",
+   "Fixing the job in the chuck"
   ],
   "answer": 2,
-  "explanation": "The log sheet sequence ends: … grooving (5 mm) → taper turning with the compound rest → threading at reduced speed.",
+  "explanation": "The log sheet sequence ends: … groove (5 mm) and taper turning with the compound rest → threading at reduced speed.",
   "source": "lab",
-  "ref": "Log Sheets ME-106 p.2; Log Sheets ME-106 p.1–2",
+  "ref": "Log Sheets ME-106 p.2; Central Lathe Log sheet p.1",
   "tags": [],
   "facts": [
    "LAT-F119",
@@ -3151,20 +3153,25 @@
   "category": "procedure",
   "difficulty": "hard",
   "type": "sequence",
-  "question": "Which is the correct overall sequence of operations in the ME-106 lathe job?",
+  "question": "Which is the correct sequence of steps on the 2025 ME-106 lathe log sheet?",
   "options": [
-   "Grooving → facing → step turning → threading → plain turning → taper turning",
-   "Plain turning → facing → threading → grooving → taper turning → step turning",
-   "Facing → threading → taper turning → step turning → plain turning → grooving",
-   "Facing → plain turning → step turning → grooving → taper turning → threading"
+   "Measure → threading → facing → groove & taper turning → mark & chuck → centre",
+   "Facing → measure → threading → mark & chuck → groove & taper turning → centre",
+   "Mark & chuck → threading → facing → measure → centre → groove & taper turning",
+   "Measure → mark 115 mm & fix in 4-jaw chuck → centre & set rotation → facing → groove & taper turning → threading"
   ],
   "answer": 3,
-  "explanation": "From the log sheets: after measuring, marking and chucking, the job is faced, plain-turned, step-turned, grooved, taper-turned and then threaded.",
+  "explanation": "The 2025 log sheet lists these six steps in this order.",
   "source": "lab",
-  "ref": "Log Sheets ME-106 p.1–2",
+  "ref": "Central Lathe Log sheet p.1; Log Sheets ME-106 p.1",
   "tags": [],
   "facts": [
-   "LAT-F121"
+   "LAT-F121",
+   "LAT-F114",
+   "LAT-F115",
+   "LAT-F116",
+   "LAT-F117",
+   "LAT-F120"
   ]
  },
  {
@@ -3469,7 +3476,7 @@
   "category": "process-parameters",
   "difficulty": "hard",
   "type": "assertion-reason",
-  "question": "Assertion (A): Threading on the ME-106 lathe was done at a lower spindle speed than turning.\nReason (R): In thread cutting the carriage must advance one pitch per revolution of the work.",
+  "question": "Assertion (A): Threading on the ME-106 lathe was done at a lower spindle speed than turning.\nReason (R): The lead screw is used only for thread cutting.",
   "options": [
    "Both A and R are true, and R is the correct explanation of A",
    "Both A and R are true, but R is NOT the correct explanation of A",
@@ -3477,13 +3484,13 @@
    "A is false, but R is true"
   ],
   "answer": 1,
-  "explanation": "Both are true, but R does not explain A. The pitch relation holds at any speed. The low speed (90 rpm) is used so the operator can control the tool and withdraw it at the end of each pass.",
+  "explanation": "Both are true, but R does not explain A. The low speed is used because the carriage advances one pitch per revolution, which is fast at turning speeds, so the operator could not withdraw the tool in time at the groove.",
   "source": "lab",
-  "ref": "Log Sheets ME-106 p.2; Centre Lathe handout p.13",
+  "ref": "Log Sheets ME-106 p.2; Centre Lathe handout p.7",
   "tags": [],
   "facts": [
    "LAT-F096",
-   "LAT-F088"
+   "LAT-F038"
   ],
   "keepOrder": true
  },
@@ -4800,7 +4807,7 @@
  {
   "id": "LAT-0210",
   "shop": "lathe",
-  "category": "operations",
+  "category": "definitions",
   "difficulty": "medium",
   "type": "diagram",
   "question": "Which thread profile is shown in panel A?",
@@ -4825,7 +4832,7 @@
  {
   "id": "LAT-0211",
   "shop": "lathe",
-  "category": "operations",
+  "category": "definitions",
   "difficulty": "medium",
   "type": "diagram",
   "question": "Which thread profile is shown in panel B?",
@@ -4850,7 +4857,7 @@
  {
   "id": "LAT-0212",
   "shop": "lathe",
-  "category": "operations",
+  "category": "definitions",
   "difficulty": "medium",
   "type": "diagram",
   "question": "Which thread profile is shown in panel C?",
@@ -4875,7 +4882,7 @@
  {
   "id": "LAT-0213",
   "shop": "lathe",
-  "category": "operations",
+  "category": "definitions",
   "difficulty": "medium",
   "type": "diagram",
   "question": "What is the thread form in panel A typically used for?",
@@ -4900,7 +4907,7 @@
  {
   "id": "LAT-0214",
   "shop": "lathe",
-  "category": "operations",
+  "category": "definitions",
   "difficulty": "medium",
   "type": "diagram",
   "question": "What is the thread form in panel B typically used for?",
@@ -4925,7 +4932,7 @@
  {
   "id": "LAT-0215",
   "shop": "lathe",
-  "category": "operations",
+  "category": "definitions",
   "difficulty": "medium",
   "type": "diagram",
   "question": "What is the thread form in panel C typically used for?",
@@ -5318,7 +5325,7 @@
   "facts": [
    "LAT-F105"
   ],
-  "figure": "lathe/job-2025",
+  "figure": "lathe/job-2025-q",
   "label": "P"
  },
  {
@@ -5342,7 +5349,7 @@
   "facts": [
    "LAT-F106"
   ],
-  "figure": "lathe/job-2025",
+  "figure": "lathe/job-2025-q",
   "label": "Q"
  },
  {
@@ -5366,7 +5373,7 @@
   "facts": [
    "LAT-F107"
   ],
-  "figure": "lathe/job-2025",
+  "figure": "lathe/job-2025-q",
   "label": "R"
  },
  {
@@ -5390,7 +5397,7 @@
   "facts": [
    "LAT-F108"
   ],
-  "figure": "lathe/job-2025",
+  "figure": "lathe/job-2025-q",
   "label": "S"
  },
  {
@@ -5414,7 +5421,7 @@
   "facts": [
    "LAT-F109"
   ],
-  "figure": "lathe/job-2025",
+  "figure": "lathe/job-2025-q",
   "label": "T"
  },
  {
@@ -5439,7 +5446,7 @@
    "LAT-F105",
    "LAT-F076"
   ],
-  "figure": "lathe/job-2025"
+  "figure": "lathe/job-2025-q"
  },
  {
   "id": "LAT-0236",
@@ -5465,7 +5472,7 @@
    "LAT-F107",
    "LAT-F108"
   ],
-  "figure": "lathe/job-2025"
+  "figure": "lathe/job-2025-q"
  },
  {
   "id": "LAT-0237",
@@ -5489,7 +5496,7 @@
    "LAT-F110",
    "LAT-F080"
   ],
-  "figure": "lathe/job-2025"
+  "figure": "lathe/job-2025-q"
  },
  {
   "id": "LAT-0238",
@@ -5513,7 +5520,7 @@
    "LAT-F106",
    "LAT-F108"
   ],
-  "figure": "lathe/job-2025"
+  "figure": "lathe/job-2025-q"
  },
  {
   "id": "LAT-0239",
@@ -5600,7 +5607,7 @@
   "answer": 3,
   "explanation": "The log sheet cuts the 5 mm groove after step turning, then turns the taper and finally cuts the thread up to the groove.",
   "source": "lab",
-  "ref": "Log Sheets ME-106 p.2; Log Sheets ME-106 p.1–2",
+  "ref": "Log Sheets ME-106 p.2; Central Lathe Log sheet p.1",
   "tags": [],
   "facts": [
    "LAT-F119",
@@ -5617,7 +5624,7 @@
   "options": [
    "At any height",
    "Exactly at centre height (level with the lathe axis)",
-   "Slightly above the axis for rough cuts",
+   "Well above the axis to increase clearance",
    "Well below the axis to avoid rubbing"
   ],
   "answer": 1,
@@ -5891,7 +5898,7 @@
   "answer": 3,
   "explanation": "The final step listed on the log sheets is to perform threading over the marked 25 mm length.",
   "source": "lab",
-  "ref": "Log Sheets ME-106 p.2; Log Sheets ME-106 p.1–2",
+  "ref": "Log Sheets ME-106 p.2; Central Lathe Log sheet p.1",
   "tags": [],
   "facts": [
    "LAT-F120",
@@ -6332,20 +6339,22 @@
   "category": "procedure",
   "difficulty": "hard",
   "type": "mcq",
-  "question": "In the ME-106 job, why is step turning done after plain turning?",
+  "question": "Why is threading done LAST in the ME-106 lathe job?",
   "options": [
-   "Step turning needs the lead screw first",
-   "Plain turning first sizes the largest diameter; steps are then cut from it",
-   "Step turning removes the chamfer",
-   "Plain turning must come after the thread"
+   "Threading must be done before facing",
+   "The groove and the other diameters must be finished first so the thread can run up to the groove",
+   "Threading removes the chamfer",
+   "The lead screw only works after facing"
   ],
   "answer": 1,
-  "explanation": "The whole bar is first plain-turned to the largest diameter, then the smaller diameters (steps) are turned from it.",
+  "explanation": "The thread is cut last, up to the 5 mm groove that was cut earlier; turning after threading would damage the thread.",
   "source": "lab",
-  "ref": "Log Sheets ME-106 p.1–2",
+  "ref": "Central Lathe Log sheet p.1; Log Sheets ME-106 p.2",
   "tags": [],
   "facts": [
-   "LAT-F118"
+   "LAT-F118",
+   "LAT-F120",
+   "LAT-F121"
   ]
  },
  {
@@ -6364,7 +6373,7 @@
   "answer": 3,
   "explanation": "Ordinary turning feed comes from the feed rod; threading uses the lead screw and half-nut.",
   "source": "lab",
-  "ref": "Centre Lathe handout p.7; Log Sheets ME-106 p.1–2",
+  "ref": "Centre Lathe handout p.7; Central Lathe Log sheet p.1",
   "tags": [],
   "facts": [
    "LAT-F037",

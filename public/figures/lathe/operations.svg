@@ -9,11 +9,14 @@
 <rect class="thin" x="260.0" y="10.0" width="240.0" height="165.0" rx="8"/>
 <rect class="f" x="268.0" y="50.0" width="22.0" height="90.0" rx="0"/>
 <line class="cl" x1="268.0" y1="95.0" x2="492.0" y2="95.0"/>
-<rect class="f" x="290.0" y="65.0" width="180.0" height="60.0" rx="0"/>
-<rect class="f2" x="290.0" y="65.0" width="120.0" height="8.0" rx="0"/>
-<polygon class="f2" points="410.0,73.0 419.0,59.0 419.0,28.0 401.0,28.0 401.0,59.0"/>
-<line class="acc" x1="425.0" y1="32.0" x2="375.0" y2="32.0"/>
-<polygon class="accf" points="375.0,32.0 384.2,28.1 384.2,35.9"/>
+<rect class="f" x="290.0" y="65.0" width="30.0" height="60.0" rx="0"/>
+<rect class="f" x="320.0" y="73.0" width="150.0" height="44.0" rx="0"/>
+<line class="d" x1="320.0" y1="65.0" x2="470.0" y2="65.0"/>
+<line class="d" x1="320.0" y1="125.0" x2="470.0" y2="125.0"/>
+<line class="d" x1="470.0" y1="65.0" x2="470.0" y2="125.0"/>
+<polygon class="f2" points="320.0,73.0 329.0,59.0 329.0,28.0 311.0,28.0 311.0,59.0"/>
+<line class="acc" x1="390.0" y1="32.0" x2="335.0" y2="32.0"/>
+<polygon class="accf" points="335.0,32.0 344.2,28.1 344.2,35.9"/>
 <rect class="thin" x="510.0" y="10.0" width="240.0" height="165.0" rx="8"/>
 <rect class="f" x="518.0" y="50.0" width="22.0" height="90.0" rx="0"/>
 <line class="cl" x1="518.0" y1="95.0" x2="742.0" y2="95.0"/>

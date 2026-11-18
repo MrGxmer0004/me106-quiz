@@ -42,14 +42,14 @@ q('parts', 'e', 'Which part of a lathe is the main supporting structure on which
 q('parts', 'm', 'On a lathe, the tailstock and carriage slide along the…',
   'Guideways (bedways) on top of the bed', ['Lead screw threads', 'Feed rod keyway', 'Cross-slide dovetail'],
   'The tailstock and carriage move over the guideways machined on the top face of the bed.', [12])
-q('wmat', 'm', 'Lathe beds are generally made of which material?',
+q('parts', 'm', 'Lathe beds are generally made of which material?',
   'Grey cast iron', ['Mild steel', 'High-speed steel', 'Aluminium alloy'],
   'The lecture states lathe beds are generally grey cast iron because of its damping, rigidity and self-lubricating qualities.', [13])
-q('wmat', 'm', 'Why is grey cast iron used for lathe beds?',
+q('parts', 'm', 'Why is grey cast iron used for lathe beds?',
   'Good damping, rigidity and self-lubricating quality', ['High ductility and weldability',
   'Low density and high electrical conductivity', 'High red hardness at cutting temperatures'],
   'Grey cast iron damps vibration well, is rigid, and its graphite gives a self-lubricating surface on the ways.', [13])
-q('wmat', 'h', 'According to the lathe handout, a good lathe bed material should have which two properties?',
+q('parts', 'h', 'According to the lathe handout, a good lathe bed material should have which two properties?',
   'High compressive strength and high wear resistance', ['High ductility and high thermal expansion',
   'Low hardness and high electrical conductivity', 'High toughness and low density'],
   'The handout says bed material needs high compressive strength and high wear resistance; nickel-chromium alloyed cast iron is a good choice.', [14])
@@ -236,7 +236,7 @@ q('tmat', 'm', 'Why is high-speed steel called "high speed" steel?',
   'HSS retains its hardness (red hardness) at the high temperatures produced by high-speed machining.', [65])
 q('wmat', 'm', 'Medium-carbon steel contains about…',
   '0.3–0.6% carbon', ['Less than 0.1% carbon', '1.5–2.0% carbon', '2.1–4% carbon'],
-  'Standard ranges: low < 0.3%, medium 0.3–0.6%, high 0.6–1.5% C.', [66])
+  'Standard ranges: low < 0.3%, medium 0.3–0.6%, high 0.6–1.5% C. (The class notebook says 1.5–2% for medium-carbon steel. That is wrong; see corrections.md #1.)', [66])
 q('wmat', 'h', 'An iron–carbon alloy with about 3% carbon is classed as…',
   'Cast iron', ['High-carbon steel', 'Medium-carbon steel', 'High-speed steel'],
   'Steel contains up to about 2.1% C. Above that the alloy is cast iron. 6.67% C corresponds to cementite (Fe₃C).', [67])
@@ -353,10 +353,10 @@ q('app', 'm', 'A buttress thread is used where…',
   'Heavy load must be transmitted in one direction only', ['Light fastening is needed',
   'Equal load in both directions is needed', 'Fluid-tight pipe joints are needed'],
   'A buttress thread has one steep flank and one inclined flank; it carries heavy one-way loads, e.g. in vices.', [95])
-q('param', 'm', 'In the ME-106 lathe lab, why was the spindle speed reduced to 90 rpm for threading?',
-  'Thread cutting is done at a much lower speed than turning', ['The lead screw cannot rotate above 90 rpm',
-  'HSS tools cannot be used above 90 rpm', 'To make facing easier'],
-  'Turning was done at 315 rpm, but threading was done at about 90 rpm. Thread cutting is done slowly so the tool can be withdrawn accurately at the end of each pass.', [96, 116, 120])
+q('param', 'm', 'In the ME-106 lathe lab, why was the spindle speed reduced to about 90 rpm for threading?',
+  'The carriage moves one pitch per revolution, so it must be slow enough to stop at the groove', ['The lead screw cannot rotate above 90 rpm',
+  'HSS tools melt above 90 rpm', 'Facing must be repeated at low speed'],
+  'Turning was done at 315 rpm but threading at about 90 rpm. In threading the carriage moves fast (one pitch per revolution), so a low speed gives time to withdraw the tool at the end of each pass.', [96, 116, 120, 88])
 
 # ============================ parameters / numericals ============================
 q('def', 'm', 'Cutting speed in turning is calculated as…',
@@ -378,7 +378,7 @@ n('num', 'm', 'A bar is turned from Ø38 mm to Ø34 mm in one pass. What is the 
 q('meas', 'm', 'What was the least count of the cross-slide dial on the ME-106 lathe?',
   '0.02 mm', ['0.01 mm', '0.05 mm', '0.1 mm'],
   'The lathe log sheet notes the cross-slide least count as 0.02 mm.', [100])
-n('num', 'h', 'The cross-slide dial (least count 0.02 mm) is advanced by 25 divisions for one cut. By how much does the work DIAMETER reduce?',
+n('num', 'h', 'Each division of the cross-slide dial moves the tool 0.02 mm radially. The dial is advanced by 25 divisions for one cut. By how much does the work DIAMETER reduce?',
   '1.0 mm', ['0.5 mm', '0.25 mm', '2.0 mm'],
   '25 × 0.02 = 0.5 mm radial depth of cut. Metal comes off all round, so the diameter reduces by 2 × 0.5 = 1.0 mm.', [100, 99, 30])
 n('num', 'h', 'To reduce a diameter from 38 mm to 34 mm with a depth of cut of 0.5 mm per pass, how many passes are needed?',
@@ -403,7 +403,7 @@ n('num', 'm', 'On the ME-106 taper (Ø38 → Ø34), how much material is removed
   '2 mm', ['4 mm', '1 mm', '34 mm'],
   'Radial reduction = (38 − 34)/2 = 2 mm at the small end; the diameter reduces by 4 mm.', [106, 99])
 n('num', 'h', 'For the ME-106 job taper (Ø38 → Ø34 over 30 mm), the taper ratio (D − d) : L is…',
-  '1 : 7.5', ['1 : 15', '1 : 30', '2 : 15'],
+  '1 : 7.5', ['1 : 15', '1 : 30', '1 : 3.75'],
   '(D − d) : L = 4 : 30 = 1 : 7.5. The 1 : 15 figure is tan α, i.e. half of this ratio.', [81, 106])
 
 # ============================ thread numericals ============================
@@ -428,10 +428,10 @@ q('dims', 'e', 'What is the objective of the ME-106 lathe job?',
   'To perform facing, turning and threading on a cylindrical workpiece', ['To cut a spur gear on a disc',
   'To finish a flat surface by grinding', 'To reduce a block to 38 × 21 × 73 mm'],
   'The lathe log sheet objective: perform facing, turning and threading operations on a cylindrical workpiece using a lathe.', [101])
-q('dims', 'e', 'What was the raw stock size for the ME-106 lathe job?',
+q('dims', 'e', 'According to the ME-106 lathe notes, what was the raw stock size?',
   'Mild-steel bar about 120 mm long, Ø38 mm', ['Aluminium disc 1½ in diameter', 'Mild-steel block 40 × 25 × 80 mm', 'Ø50 mm bar, 200 mm long'],
   'The lathe notes give the workpiece as 120 mm long and 38 mm in diameter.', [102])
-n('dims', 'm', 'In the ME-106 lathe job, a 120 mm bar is finished to 115 mm overall. How much length is removed by facing in total?',
+n('dims', 'm', 'A 120 mm bar (as recorded in the lathe notes) is faced to the 115 mm overall length. How much length is removed by facing in total?',
   '5 mm', ['2.5 mm', '10 mm', '15 mm'],
   'Raw length 120 mm − finished 115 mm = 5 mm removed in total by facing (shared between the two ends).', [102, 103, 117])
 q('dims', 'e', 'What is the overall length of the finished ME-106 lathe job?',
@@ -464,15 +464,15 @@ q('proc', 'm', 'Why must the job be checked for centring after fixing it in the 
 q('proc', 'e', 'In the ME-106 lathe job, facing is done to…',
   'Bring the job to the desired length', ['Reduce the diameter', 'Cut the thread', 'Make the taper'],
   'Step 4: perform facing on the workpiece to get the desired length (115 mm).', [117])
-q('proc', 'm', 'After facing, which operation is done next in the ME-106 lathe job?',
-  'Plain (straight) turning to the largest diameter', ['Thread cutting', 'Parting-off', 'Knurling'],
-  'After facing, the job is plain-turned to the largest diameter, then step-turned to the smaller diameters.', [117, 118])
-q('proc', 'm', 'In the ME-106 lathe procedure, which comes first?',
-  'Step turning', ['Taper turning', 'Thread cutting', 'Grooving'],
-  'Order: facing → plain turning → step turning → grooving → taper turning → threading.', [118, 121])
+q('proc', 'm', 'In the 2025 ME-106 lathe log sheet, which step comes immediately after facing?',
+  'Grooving and taper turning in the marked areas', ['Thread cutting', 'Parting-off', 'Knurling'],
+  'The 2025 sheet: measure → mark & chuck → centre & set rotation → facing → groove and taper turn → threading.', [117, 118, 121])
+q('proc', 'm', 'In the ME-106 lathe procedure, which of these is done first?',
+  'Facing', ['Taper turning', 'Thread cutting', 'Grooving'],
+  'Facing to length comes before grooving, taper turning and threading.', [117, 121])
 q('proc', 'h', 'Which step comes immediately BEFORE thread cutting in the ME-106 lathe procedure?',
-  'Taper turning', ['Facing', 'Plain turning', 'Measuring the raw bar'],
-  'The log sheet sequence ends: … grooving (5 mm) → taper turning with the compound rest → threading at reduced speed.', [119, 120, 121])
+  'Grooving and taper turning', ['Facing', 'Measuring the raw bar', 'Fixing the job in the chuck'],
+  'The log sheet sequence ends: … groove (5 mm) and taper turning with the compound rest → threading at reduced speed.', [119, 120, 121])
 q('proc', 'm', 'How is the taper on the ME-106 job turned?',
   'By swivelling the compound rest to the half-taper angle', ['By setting over the tailstock',
   'With a form tool plunged in', 'By using the lead screw'],
@@ -481,12 +481,12 @@ q('proc', 'm', 'Before cutting the 1.5 mm pitch thread on the ME-106 job, the op
   'Sets the change gears from the chart and reduces speed', ['Swivels the compound rest to 3.81°',
   'Engages the feed rod', 'Removes the four-jaw chuck'],
   'The log sheet says to look at the table (chart) for 1.5 mm pitch, arrange the gears and set the speed to about 90 rpm.', [120])
-s('proc', 'h', 'Which is the correct overall sequence of operations in the ME-106 lathe job?',
-  'Facing → plain turning → step turning → grooving → taper turning → threading',
-  ['Plain turning → facing → threading → grooving → taper turning → step turning',
-   'Facing → threading → taper turning → step turning → plain turning → grooving',
-   'Grooving → facing → step turning → threading → plain turning → taper turning'],
-  'From the log sheets: after measuring, marking and chucking, the job is faced, plain-turned, step-turned, grooved, taper-turned and then threaded.', [121])
+s('proc', 'h', 'Which is the correct sequence of steps on the 2025 ME-106 lathe log sheet?',
+  'Measure → mark 115 mm & fix in 4-jaw chuck → centre & set rotation → facing → groove & taper turning → threading',
+  ['Facing → measure → threading → mark & chuck → groove & taper turning → centre',
+   'Mark & chuck → threading → facing → measure → centre → groove & taper turning',
+   'Measure → threading → facing → groove & taper turning → mark & chuck → centre'],
+  'The 2025 log sheet lists these six steps in this order.', [121, 114, 115, 116, 117, 120])
 q('proc', 'm', 'Besides facing, turning, taper turning, grooving and threading, which other operations appear on the ME-106 lathe job drawing?',
   'Centre drilling and chamfering', ['Knurling and boring', 'Reaming and parting-off', 'Slotting and gear cutting'],
   'The drawing shows centre holes at both ends and a 1 × 45° chamfer.', [122, 110, 105])
@@ -535,8 +535,8 @@ ar('tmat', 'h', 'HSS is used for the lathe tool in the ME-106 lab.',
    'HSS is softer than mild steel, so it does not chip.', 'c',
    'A is true but R is false: HSS is much harder than mild steel. The tool must be harder than the work, and HSS keeps its hardness at cutting temperatures.', [62, 63, 65])
 ar('param', 'h', 'Threading on the ME-106 lathe was done at a lower spindle speed than turning.',
-   'In thread cutting the carriage must advance one pitch per revolution of the work.', 'b',
-   'Both are true, but R does not explain A. The pitch relation holds at any speed. The low speed (90 rpm) is used so the operator can control the tool and withdraw it at the end of each pass.', [96, 88])
+   'The lead screw is used only for thread cutting.', 'b',
+   'Both are true, but R does not explain A. The low speed is used because the carriage advances one pitch per revolution, which is fast at turning speeds, so the operator could not withdraw the tool in time at the groove.', [96, 38])
 tf('parts', 'm', 'The tailstock of a lathe carries the live centre.', False,
    'False. The headstock spindle carries the live centre, which rotates with the work. The tailstock carries the dead centre, which does not rotate.', [20, 24])
 tf('param', 'm', 'In turning, the depth of cut equals half the reduction in diameter.', True,
@@ -555,12 +555,12 @@ q('tools', 'm', 'In the figure, which chuck must have the work centred manually?
 B.labels('lathe/centres-dog', 'p', diffs={'p': 'm'}, cat='tools', extra_parts=['Face plate', 'Tool post'])
 B.labels('lathe/operations', 'p', cat='ops', diffs={'p': 'e'})
 B.labels('lathe/operations', 'w', cat='ops', only={'w': ['D', 'F', 'H', 'I']})
-B.labels('lathe/thread-profiles', 'pf', cat='ops', diffs={'p': 'm', 'f': 'm'}, extra_parts=['Acme thread', 'Knuckle thread'],
+B.labels('lathe/thread-profiles', 'pf', cat='def', diffs={'p': 'm', 'f': 'm'}, extra_parts=['Acme thread', 'Knuckle thread'],
          extra_funcs=['Pipe joints that must be fluid-tight', 'Rounded threads for rough use, e.g. railway couplings'])
 B.labels('lathe/thread-terms', 'p', cat='def', diffs={'p': 'm'})
 B.labels('lathe/spt-tool', 'p', cat='tools', diffs={'p': 'm'})
 
-J = 'lathe/job-2025'
+J = 'lathe/job-2025-q'
 q('dims', 'e', 'In the ME-106 lathe job drawing, what is the diameter of section P?', 'Ø38 mm', ['Ø34 mm', 'Ø32 mm', 'Ø37 mm'],
   'Section P is the Ø38 plain section, 35 mm long, with a 1 × 45° chamfer at the left end.', [105], fig=J, label='P')
 q('dims', 'm', 'In the job drawing, what is the length of the taper Q?', '30 mm', ['35 mm', '25 mm', '20 mm'],
@@ -594,7 +594,7 @@ q('proc', 'm', 'In the ME-106 job, the 5 mm groove is cut…',
   'At the end of the thread, before taper turning and threading', ['After the thread is finished', 'Before facing', 'Before measuring the bar'],
   'The log sheet cuts the 5 mm groove after step turning, then turns the taper and finally cuts the thread up to the groove.', [119, 121])
 q('proc', 'm', 'Where is the tool tip set when a lathe tool is clamped in the tool post?',
-  'Exactly at centre height (level with the lathe axis)', ['Slightly above the axis for rough cuts', 'Well below the axis to avoid rubbing', 'At any height'],
+  'Exactly at centre height (level with the lathe axis)', ['Well above the axis to increase clearance', 'Well below the axis to avoid rubbing', 'At any height'],
   'The tip must be on the lathe axis. Above or below centre changes the effective rake and clearance and leaves a pip when facing.', [133])
 q('proc', 'h', 'After facing, a small pip is left at the centre of the job face. What is the likely cause?',
   'The tool tip is not at centre height', ['The spindle speed is too high', 'The chuck has 4 jaws', 'The feed rod is engaged'],
@@ -696,10 +696,10 @@ q('proc', 'e', 'In the ME-106 lathe job, which marking tools are used in the mar
 q('proc', 'm', 'Which measuring tools are used in step 1 of the ME-106 lathe procedure?',
   'Steel scale and outside caliper', ['Micrometer and dial gauge', 'Vernier height gauge', 'Bevel protractor'],
   'The raw length and diameter are measured with the steel scale and outside caliper.', [56, 114])
-q('proc', 'h', 'In the ME-106 job, why is step turning done after plain turning?',
-  'Plain turning first sizes the largest diameter; steps are then cut from it', ['Step turning needs the lead screw first',
-  'Plain turning must come after the thread', 'Step turning removes the chamfer'],
-  'The whole bar is first plain-turned to the largest diameter, then the smaller diameters (steps) are turned from it.', [118])
+q('proc', 'h', 'Why is threading done LAST in the ME-106 lathe job?',
+  'The groove and the other diameters must be finished first so the thread can run up to the groove', ['Threading must be done before facing',
+  'The lead screw only works after facing', 'Threading removes the chamfer'],
+  'The thread is cut last, up to the 5 mm groove that was cut earlier; turning after threading would damage the thread.', [118, 120, 121])
 q('proc', 'm', 'What is engaged for plain turning but NOT used for threading?',
   'Feed rod (power feed)', ['Lead screw', 'Half-nut', 'Change gears for pitch'],
   'Ordinary turning feed comes from the feed rod; threading uses the lead screw and half-nut.', [37, 38, 118])

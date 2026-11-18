@@ -63,7 +63,43 @@
   "id": "lathe/job-2025",
   "shop": "lathe",
   "title": "ME-106 lathe job (2025 drawing)",
-  "alt": "Dimensioned drawing of the stepped, tapered and threaded lathe job; segments lettered P to T",
+  "alt": "Drawing of the stepped, tapered and threaded lathe job; segments lettered P to T, fully dimensioned",
+  "labels": {
+   "P": {
+    "part": "Ø38 plain section, 35 mm long",
+    "function": "Ø38 plain section, 35 mm long",
+    "fact": "LAT-F105"
+   },
+   "Q": {
+    "part": "Taper from Ø38 to Ø34, 30 mm long",
+    "function": "Taper from Ø38 to Ø34, 30 mm long",
+    "fact": "LAT-F106"
+   },
+   "R": {
+    "part": "Groove, 5 mm wide",
+    "function": "Groove, 5 mm wide",
+    "fact": "LAT-F107"
+   },
+   "S": {
+    "part": "Thread Ø34 × 1.5 mm pitch, 25 mm long",
+    "function": "Thread Ø34 × 1.5 mm pitch, 25 mm long",
+    "fact": "LAT-F108"
+   },
+   "T": {
+    "part": "Ø32 end section, 20 mm long",
+    "function": "Ø32 end section, 20 mm long",
+    "fact": "LAT-F109"
+   }
+  },
+  "ask": {
+   "p": "In the lathe job drawing, which feature is segment {L}?"
+  }
+ },
+ {
+  "id": "lathe/job-2025-q",
+  "shop": "lathe",
+  "title": "ME-106 lathe job (2025 drawing) — dimensions hidden",
+  "alt": "Drawing of the stepped, tapered and threaded lathe job; segments lettered P to T, dimensions not shown",
   "labels": {
    "P": {
     "part": "Ø38 plain section, 35 mm long",

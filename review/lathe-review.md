@@ -181,3 +181,18 @@ Pages opened, and what each confirmed. Personal details on the log sheets were n
   - s.25: collet with three slits.
   - s.26: face plate with 4 clamps.
   - s.27: operations.
+
+---
+## Fixes applied by the author (round 1)
+- LAT-0120: distractor "2 : 15" replaced with "1 : 3.75".
+- LAT-0156: reason replaced with "The lead screw is used only for thread cutting" (key: both true, R not the explanation); explanation rewritten.
+- LAT-0113: stem now says each division moves the tool 0.02 mm radially.
+- LAT-0106: the key now gives the real reason (carriage moves one pitch per rev, so a low speed leaves time to withdraw the tool at the groove).
+- LAT-0243: distractor changed to "Well above the axis to increase clearance".
+- LAT-0070: explanation flags the notebook's wrong 1.5–2% value.
+- LAT-0127/0128: reworded as "according to the lathe notes"; fact LAT-F102 now says it is from the 2022–23 notes and not restated on the 2025 sheet.
+- LAT-0137, LAT-0275 and the sequence/order questions: rewritten to the 2025 log-sheet procedure (facing → groove & taper → threading). Facts LAT-F118/F121 updated.
+- Job questions (LAT-0230 onward) now use a new figure `lathe/job-2025-q` with dimensions hidden. The dimensioned drawing stays for the revision gallery.
+- Figures: operations panel B redrawn (reduced diameter behind the tool, original outline dashed); thread V angles corrected to 60° (profiles and nomenclature); flank leader moved off the root vertex; "3 jaws"/"4 jaws" captions removed from the chucks figure.
+- Category fixes: bed-material questions → machine-parts; thread-profile figure questions → definitions.
+- Not changed: the 315/90 rpm and 0.02 mm least-count facts are kept as lab facts (same shop and machine; from the 2022 log sheet), and their refs say so.

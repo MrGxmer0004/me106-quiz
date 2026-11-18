@@ -16,7 +16,6 @@
 <rect class="s" x="237.3" y="112.5" width="10.0" height="10.0" rx="0"/>
 <rect class="s" x="72.7" y="112.5" width="10.0" height="10.0" rx="0"/>
 <rect class="s" x="155.0" y="255.0" width="10.0" height="10.0" rx="0"/>
-<text class="tx" x="160.0" y="305.0" font-size="18" text-anchor="middle" font-weight="normal" dominant-baseline="middle">3 jaws</text>
 <circle class="f" cx="480.0" cy="165.0" r="110.0"/>
 <circle class="s" cx="480.0" cy="165.0" r="22.0"/>
 <circle class="thin" cx="480.0" cy="165.0" r="50.0"/>
@@ -29,7 +28,6 @@
 <rect class="s" x="377.0" y="159.0" width="12.0" height="12.0" rx="0"/>
 <polygon class="f2" points="493.0,193.0 493.0,245.0 467.0,245.0 467.0,193.0"/>
 <rect class="s" x="474.0" y="256.0" width="12.0" height="12.0" rx="0"/>
-<text class="tx" x="480.0" y="305.0" font-size="18" text-anchor="middle" font-weight="normal" dominant-baseline="middle">4 jaws</text>
 <circle cx="40.0" cy="40.0" r="15" fill="#e8590c"/><text x="40.0" y="41.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">A</text>
 <circle cx="360.0" cy="40.0" r="15" fill="#e8590c"/><text x="360.0" y="41.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">B</text>
 </svg>

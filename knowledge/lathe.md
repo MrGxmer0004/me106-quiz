@@ -128,7 +128,7 @@ Source keys: `LS` = Log Sheets ME-106.pdf (2022 batch log sheets); `CLLS` = Cent
 
 ## 9. The ME-106 lab job (2025 drawing — confirmed as current batch)
 - [LAT-F101] Objective of the lathe job: to perform facing, turning and threading operations on a cylindrical workpiece using a lathe. [LS p.1; CLLS p.1]
-- [LAT-F102] Raw stock for the lathe job: a mild-steel bar about 120 mm long and Ø38 mm. [NB p.17]
+- [LAT-F102] The lathe notes record the raw stock as a mild-steel bar about 120 mm long and Ø38 mm (2022–23 notes; the 2025 sheet does not restate it). [NB p.17]
 - [LAT-F103] Overall length of the finished lathe job: 115 mm. [CLLS p.1; BOARD]
 - [LAT-F104] All dimensions on the lathe job drawing are in millimetres. [BOARD]
 - [LAT-F105] Lathe job (2025): the first (left) section is Ø38 mm and 35 mm long, with a 1 × 45° chamfer at the left end. [CLLS p.1; BOARD]
@@ -146,10 +146,10 @@ Source keys: `LS` = Log Sheets ME-106.pdf (2022 batch log sheets); `CLLS` = Cent
 - [LAT-F115] Step 2: mark 115 mm on the workpiece and fix it in the four-jaw chuck. [LS p.1; CLLS p.1]
 - [LAT-F116] Step 3: check the centring of the work and set the spindle speed (315 rpm for turning). [LS p.1; NB p.17]
 - [LAT-F117] Step 4: perform facing to bring the job to the desired length. [LS p.1; CLLS p.1]
-- [LAT-F118] Then plain (straight) turning to the largest diameter, then step turning of the smaller diameters. [LS p.1–2]
+- [LAT-F118] After facing, the smaller diameters are turned; the 2025 log sheet then lists grooving and taper turning in the marked areas (the 2022 sheet also had a plain-turning pass over the whole length first). [CLLS p.1; LS p.1–2]
 - [LAT-F119] Then grooving (5 mm) and taper turning with the compound rest swivelled to the calculated half-taper angle. [LS p.2; CLLS p.1]
 - [LAT-F120] For threading, the speed is reduced (90 rpm), the change gears are arranged from the chart for 1.5 mm pitch, and the thread is cut over the marked length. [LS p.2; CLLS p.1]
-- [LAT-F121] Correct overall order of operations in the lathe job: measure → mark & chuck → centre & set speed → facing → plain turning → step turning → grooving → taper turning → threading. [LS p.1–2; CLLS p.1]
+- [LAT-F121] Order of steps on the 2025 lathe log sheet: measure → mark 115 mm & fix in 4-jaw chuck → check centre & set rotation → facing → grooving and taper turning → threading (1.5 mm pitch over 25 mm). [CLLS p.1]
 - [LAT-F122] Centre drilling and chamfering are also done on the lathe job (both ends centre-drilled; ends chamfered). [CLLS p.1; BOARD]
 
 ## 11. Precautions (lathe shop)
