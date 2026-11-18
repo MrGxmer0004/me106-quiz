@@ -153,6 +153,8 @@ class Bank:
             if isinstance(pt, dict):
                 correct = pt.get('c', correct)
                 wrongs = pt.get('w', wrongs)
+                cat = pt.get('cat', cat)
+                diff = pt.get('d', diff)
             else:
                 wrongs = pt
             self.patched.add(question)

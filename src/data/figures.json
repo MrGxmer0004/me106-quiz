@@ -1849,7 +1849,7 @@
    },
    "E": {
     "part": "Ammeter",
-    "function": "Connected in series to measure the plating current",
+    "function": "Meter connected in series to measure the plating current",
     "fact": "ELP-F008"
    },
    "F": {
@@ -1891,7 +1891,7 @@
   "id": "electroplating/process-flow",
   "shop": "electroplating",
   "title": "ME-106 electroplating sequence",
-  "alt": "Six blank boxes in a column joined by arrows, each lettered; the steps are not written in the boxes",
+  "alt": "Seven blank boxes in a column joined by arrows, each lettered; the steps are not written in the boxes",
   "labels": {
    "A": {
     "part": "Mechanical cleaning",
@@ -1919,6 +1919,11 @@
     "fact": "ELP-F058"
    },
    "F": {
+    "part": "Washing again",
+    "function": "Rinses off the copper solution before nickel plating",
+    "fact": "ELP-F058"
+   },
+   "G": {
     "part": "Nickel plating",
     "function": "Half the job is dipped to deposit a bright nickel layer",
     "fact": "ELP-F059"

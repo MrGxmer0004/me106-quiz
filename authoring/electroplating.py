@@ -27,8 +27,8 @@ q('theory', 'e', 'Which type of electric supply is needed for electroplating?',
   'Direct current (DC)', ['Alternating current (AC)', 'High-frequency AC', 'Static charge only'],
   'Plating needs a DC source of variable voltage and current.', [6])
 q('parts', 'm', 'Which of these is NOT a component of an electroplating cell?',
-  'Dielectric fluid', ['DC power source', 'Anode and cathode', 'Electrolyte in a tank'],
-  'A plating cell has a DC source, conductors, meters, cathode, anode and electrolyte (bath) in a tank. Dielectric fluid is used in EDM.', [7])
+  'Magnetic chuck', ['DC power source', 'Anode and cathode', 'Electrolyte in a tank'],
+  'A plating cell has a DC source, conductors, meters, cathode, anode and electrolyte (bath) in a tank. A magnetic chuck belongs to a surface grinder.', [7])
 q('parts', 'm', 'In the plating circuit, how are the ammeter and voltmeter connected?',
   'Ammeter in series; voltmeter across the cell', ['Ammeter across; voltmeter in series', 'Both in series with the cell', 'Both across the anode only'],
   'Current is measured in series and voltage across the cell.', [8])
@@ -114,13 +114,13 @@ q('theory', 'm', 'In electrochemical cleaning, the workpiece is made the…',
 q('theory', 'h', 'In electrochemical cleaning, what removes rust and contaminants from the job?',
   'Oxygen gas released at the job surface', ['Hydrogen gas released at the anode tank', 'Copper ions plating over the rust', 'Steam produced by the current'],
   'At the job (anode): 4OH⁻ → 2H₂O + O₂ + 4e⁻. The oxygen bubbles scrub the surface.', [28])
-q('wmat', 'm', 'In chemical cleaning, trisodium phosphate is added to…',
+q('theory', 'm', 'In chemical cleaning, trisodium phosphate is added to…',
   'Remove hydrocarbons like grease', ['Protect aluminium from soda', 'Supply copper ions', 'Increase the voltage'],
   'Trisodium phosphate removes grease; sodium silicate protects aluminium against soda; sodium carbonate is the base cleaner.', [29])
-q('wmat', 'm', 'In chemical cleaning, sodium silicate is added to…',
+q('theory', 'm', 'In chemical cleaning, sodium silicate is added to…',
   'Protect aluminium against the soda', ['Remove grease from steel', 'Supply nickel ions', 'Brighten the copper deposit'],
   'Sodium silicate protects aluminium against attack by soda.', [29])
-q('wmat', 'h', 'Which of these chemicals is NOT in the ME-106 chemical-cleaning bath written on the lab board?',
+q('theory', 'h', 'Which of these chemicals is NOT in the ME-106 chemical-cleaning bath written on the lab board?',
   'Nickel sulphate', ['Sodium carbonate', 'Sodium hydroxide', 'Sodium silicate'],
   'The board lists Na₂CO₃, NaOH, trisodium phosphate, NaCN, Na₂SiO₃ and water. Nickel sulphate belongs to the nickel bath.', [30])
 q('param', 'm', 'What conditions are used for chemical cleaning in the ME-106 lab (board)?',
@@ -146,16 +146,16 @@ q('adv', 'm', 'Which is an advantage of cyanide copper plating?',
 q('theory', 'h', 'Why is a cyanide copper layer often applied before acid nickel plating on steel?',
   'It protects the steel from acid attack in the nickel bath', ['It makes the nickel layer thinner', 'It removes the need for cleaning', 'It turns the nickel layer magnetic'],
   'The cyanide copper strike protects the base metal from acid attack during subsequent acid plating.', [37])
-q('wmat', 'm', 'In the cyanide copper bath, copper cyanide is not soluble in water. What is added to dissolve it?',
+q('theory', 'm', 'In the cyanide copper bath, copper cyanide is not soluble in water. What is added to dissolve it?',
   'Sodium or potassium cyanide', ['Sulphuric acid', 'Boric acid', 'Pumice powder'],
   'NaCN or KCN forms soluble copper complexes; excess cyanide gives good deposits and good anode corrosion.', [38, 39])
-q('wmat', 'h', 'Why is excess NaCN/KCN kept in the copper cyanide bath?',
+q('theory', 'h', 'Why is excess NaCN/KCN kept in the copper cyanide bath?',
   'For good-quality deposits and good anode dissolution', ['To make the bath acidic', 'To raise the bath temperature', 'To plate nickel at the same time'],
   'Excess free cyanide gives good-quality deposits and good anode corrosion.', [39])
-q('wmat', 'm', 'Caustic soda (NaOH) is added to the copper cyanide bath to…',
+q('theory', 'm', 'Caustic soda (NaOH) is added to the copper cyanide bath to…',
   'Increase conductivity and reduce cyanide decomposition', ['Supply copper ions', 'Lower the pH to acid', 'Remove the anode'],
   'NaOH/KOH increases conductivity, reduces electrochemical attack on steel containers and reduces decomposition of cyanide.', [40])
-q('wmat', 'h', 'In the copper cyanide bath, Rochelle salt is used to…',
+q('theory', 'h', 'In the copper cyanide bath, Rochelle salt is used to…',
   'Give a fine-grained copper deposit', ['Remove excess carbonate', 'Protect aluminium from soda', 'Supply nickel ions'],
   'Rochelle salt gives a fine-grained deposit; lime may be used to remove excess carbonate.', [41])
 q('param', 'm', 'In the ME-106 copper plating step, what voltage is used?',
@@ -175,16 +175,16 @@ q('proc', 'e', 'In the ME-106 lab, when is the job taken out of the copper bath?
 q('app', 'm', 'Nickel plating is done to improve…',
   'Wear and corrosion resistance and bright appearance', ['Electrical insulation of the job', 'Magnetic softness of the core', 'Weldability of the job'],
   'Nickel plating improves wear, heat or corrosion resistance and gives a bright decorative appearance.', [45])
-q('wmat', 'm', 'In a Watts nickel bath, the primary source of nickel ions is…',
+q('theory', 'm', 'In a Watts nickel bath, the primary source of nickel ions is…',
   'Nickel sulphate (NiSO₄)', ['Nickel chloride (NiCl₂)', 'Boric acid (H₃BO₃)', 'Sodium cyanide (NaCN)'],
   'NiSO₄ supplies Ni ions; NiCl₂ increases conductivity and helps anode dissolution; boric acid controls pH.', [46])
-q('wmat', 'm', 'Boric acid is added to the nickel bath to…',
+q('theory', 'm', 'Boric acid is added to the nickel bath to…',
   'Control the pH of the solution', ['Supply nickel ions', 'Remove grease', 'Make the deposit red'],
   'Boric acid (H₃BO₃) buffers the pH.', [46])
-q('wmat', 'm', 'Nickel chloride in the nickel bath…',
+q('theory', 'm', 'Nickel chloride in the nickel bath…',
   'Increases conductivity and helps the anode dissolve', ['Is the main source of copper', 'Removes oxygen bubbles', 'Lowers the bath temperature'],
   'NiCl₂ increases conductivity and helps dissolution of the Ni electrode.', [46])
-q('wmat', 'h', 'Why is sulphuric acid added regularly to the nickel bath?',
+q('theory', 'h', 'Why is sulphuric acid added regularly to the nickel bath?',
   'Hydrogen ions are lost as H₂ gas, so acid is replenished', ['To dissolve the copper layer', 'To make the bath alkaline', 'To supply nickel ions'],
   'As H⁺ ions are liberated as hydrogen gas, H₂SO₄ is added regularly.', [47])
 q('parts', 'm', 'In nickel plating, the anode is…',
@@ -196,7 +196,7 @@ q('param', 'm', 'What voltage and time are used for nickel plating in the ME-106
 q('dims', 'm', 'In the ME-106 electroplating job, how much of the job is nickel plated?',
   'About half of it', ['The whole job', 'None of it', 'Only the threads'],
   'The log sheet: dip half of the copper-plated workpiece in the nickel solution, so both layers are visible.', [50])
-q('wmat', 'm', 'Which ingredients are written on the lab board for the nickel bath?',
+q('theory', 'm', 'Which ingredients are written on the lab board for the nickel bath?',
   'Nickel salts, boric acid and water', ['Copper cyanide and NaCN', 'Sodium carbonate and NaOH', 'Kerosene and graphite'],
   'Board: nickel salts, boric acid, water; 1.5–3 V; 5 A/sq ft; 5–7 min.', [51])
 
@@ -208,8 +208,8 @@ q('tools', 'e', 'Which of these is listed as a tool/material on the ME-106 elect
   'Pumice powder', ['Index plate', 'Grinding wheel', 'Hacksaw'],
   'Tools: mild-steel workpiece, emery paper, polishing machine, pumice powder, electroplating solution, wire.', [53])
 q('tools', 'm', 'Which item is NOT on the ME-106 electroplating tool list?',
-  'Dielectric fluid', ['Emery paper', 'Polishing machine', 'Wire'],
-  'Dielectric fluid is used in wire EDM, not plating.', [53])
+  'Vernier height gauge', ['Emery paper', 'Polishing machine', 'Wire'],
+  'Tools: mild-steel workpiece, emery paper, polishing machine, pumice powder, electroplating solution, wire.', [53])
 q('tools', 'm', 'Why is the job tied with wire in the electroplating lab?',
   'To hang it in the solution and make the electrical contact', ['To measure its length', 'To stop it rusting', 'To heat it up'],
   'The job is tied with wire to dip it in the baths and connect it to the supply.', [54])
@@ -233,15 +233,15 @@ q('proc', 'm', 'What is done immediately after the copper plating step?',
 q('proc', 'e', 'What is the LAST step of the ME-106 electroplating procedure?',
   'Nickel plating half of the job', ['Mechanical cleaning', 'Chemical cleaning', 'Copper plating'],
   'Step 4: dip half of it in nickel solution (1.5–3 V, 5 A, 5–7 min); electroplating is done.', [59])
-s('proc', 'h', 'What is the correct order of the ME-106 electroplating steps?',
+s('proc', 'm', 'What is the correct order of the ME-106 electroplating steps?',
   'Mechanical cleaning → polishing → chemical cleaning → washing → copper plating → washing → nickel plating',
   ['Polishing → nickel plating → chemical cleaning → washing → mechanical cleaning → washing → copper plating',
    'Chemical cleaning → copper plating → mechanical cleaning → washing → polishing → washing → nickel plating',
    'Copper plating → washing → nickel plating → polishing → washing → chemical cleaning → mechanical cleaning'],
   'From the log sheet and the lab board.', [60])
-s('proc', 'h', 'The general industrial sequence for electroplating is…',
+s('proc', 'm', 'The general industrial sequence for electroplating is…',
   'Degreasing → rinsing → pickling → rinsing → plating → rinsing → drying',
-  ['Plating → degreasing → rinsing → pickling → rinsing → drying → rinsing', 'Pickling → plating → degreasing → drying → rinsing → rinsing → rinsing', 'Drying → rinsing → plating → pickling → degreasing → rinsing → rinsing'],
+  ['Plating → rinsing → degreasing → rinsing → pickling → drying → rinsing', 'Pickling → rinsing → plating → degreasing → rinsing → drying → rinsing', 'Degreasing → plating → rinsing → pickling → drying → rinsing → rinsing'],
   'Clean, rinse, remove scale, rinse, plate, rinse, dry.', [61])
 
 # ============================ precautions ============================
@@ -315,20 +315,20 @@ tf('param', 'm', 'In the ME-106 lab, nickel plating takes longer than copper pla
    'True: copper ~25–30 s, nickel ~5–7 min.', [42, 49])
 
 # ============================ diagrams ============================
-B.labels('electroplating/cell', 'p', cat='parts', diffs={'p': 'e'}, extra_parts=['Dielectric nozzle'])
+B.labels('electroplating/cell', 'p', cat='parts', diffs={'p': 'e'}, extra_parts=['Buffing wheel'])
 B.labels('electroplating/cell', 'f', cat='parts', only={'f': ['A', 'B', 'E', 'F']}, diffs={'f': 'm'})
 CL = 'electroplating/cell'
 q('theory', 'm', 'In the electroplating cell shown, the workpiece is connected to which terminal?', 'Negative (−)', ['Positive (+)', 'Neither terminal', 'Both terminals'],
   'B, the workpiece, is the cathode, connected to the − terminal of the DC source.', [3], fig=CL)
 q('theory', 'm', 'In the figure, in which direction do the metal ions (M⁺) move?', 'From the anode side towards the workpiece', ['From the workpiece towards the anode', 'Up towards the DC source', 'Down into the tank wall'],
   'Positive metal ions move through the bath towards the cathode (the workpiece) and deposit on it.', [5], fig=CL)
-q('theory', 'h', 'In the figure, which electrode slowly dissolves during plating?', 'A', ['B', 'C', 'G'],
+q('theory', 'm', 'In the figure, which electrode slowly dissolves during plating?', 'A', ['B', 'C', 'G'],
   'A is the anode of the plating metal; it dissolves and replenishes the ions deposited on B.', [5], fig=CL)
 FL = 'electroplating/process-flow'
 B.labels(FL, 'p', cat='proc', diffs={'p': 'm'}, extra_parts=['Nickel stripping', 'Heat treatment'])
-B.labels(FL, 'w', cat='proc', only={'w': ['C', 'E', 'F']}, diffs={'w': 'm'})
+B.labels(FL, 'w', cat='proc', only={'w': ['C', 'E', 'G']}, diffs={'w': 'm'})
 EC = 'electroplating/electrocleaning'
-q('theory', 'm', 'The figure shows electrochemical cleaning. Why is the workpiece (A) connected to the + terminal?', 'Cleaning is the reverse of plating, so the job is the anode', ['So that copper plates on it', 'So it becomes magnetic', 'Because AC is used'],
+q('theory', 'm', 'The figure shows electrochemical cleaning. Why is the workpiece (A) connected the way it is?', 'Cleaning is the reverse of plating, so the job is the anode', ['So that copper plates on it as the cathode', 'So that the job becomes magnetic', 'Because an AC supply is used here'],
   'In electro-cleaning the job is made the anode; oxygen released on it scrubs off rust.', [27], fig=EC)
 B.labels(EC, 'p', cat='theory', diffs={'p': 'm'}, extra_parts=['Hydrogen gas bubbles', 'Copper deposit'])
 B.labels('electroplating/buffing', 'p', cat='tools', diffs={'p': 'e'}, extra_parts=['Grinding wheel', 'Wire brush'])

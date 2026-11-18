@@ -118,3 +118,15 @@ Reviewed: `src/data/questions/electroplating.json` (127 questions, ELP-0001 to E
 - p.10: Ni gives wear, heat and corrosion resistance and a bright finish; NiSO₄ is the primary Ni source; NiCl₂ increases conductivity and anode dissolution; H₂SO₄ is added because H⁺ is lost as H₂; boric acid controls pH; brighteners and anti-pitting agents; anodes are Ni lumps or pieces in a Ti basket. ✓
 - p.11: dermatitis, lungs on long-term inhalation; protective clothing, eye protection and gloves are mandatory; local exhaust; care during bath make-up and maintenance; no smoking, eating or drinking. ✓
 - p.12: wheel types are spiral sewn, loose, concentric sewn and flannel; compound comes as solid bars (alumina, SiC, FeO, CrO in fatty acid, greaseless wax or soap); pressure is applied by hand, with more pressure faster but wasteful and low pressure finer. ✓
+
+---
+## Fixes applied by the author (round 1)
+- Cell figure: the Tank (G) anchor is moved onto the tank wall above the liquid. The "A"/"V" letters are removed from the meter circles, so the ammeter/voltmeter questions test series vs parallel connection.
+- ELP-0121: the stem no longer states the polarity.
+- ELP-0016: every option now carries the same units.
+- All "dielectric" distractors are replaced (ELP-0008, 0010, 0030, 0065, 0099/0100).
+- The silly sequence distractor ("rinsing → rinsing → rinsing") and other silly distractors are replaced.
+- Process flow now has 7 boxes, including the wash after copper plating.
+- Bath-chemistry questions are recategorised from workpiece-material to principle-theory, and the defect questions to principle-theory.
+- Difficulty lowered on 0031, 0041, 0073, 0074, 0079 and 0111.
+- Option-length balancing: about 50 questions (authoring/fix_electroplating.py).

@@ -7,9 +7,7 @@
 <text class="tx" x="322.0" y="118.0" font-size="24" text-anchor="middle" font-weight="bold" dominant-baseline="middle">+</text>
 <text class="tx" x="440.0" y="118.0" font-size="24" text-anchor="middle" font-weight="bold" dominant-baseline="middle">−</text>
 <circle class="s" cx="250.0" cy="70.0" r="18.0"/>
-<text class="tx" x="250.0" y="70.0" font-size="16" text-anchor="middle" font-weight="bold" dominant-baseline="middle">A</text>
 <circle class="s" cx="380.0" cy="150.0" r="18.0"/>
-<text class="tx" x="380.0" y="150.0" font-size="16" text-anchor="middle" font-weight="bold" dominant-baseline="middle">V</text>
 <rect class="f2" x="200.0" y="190.0" width="40.0" height="200.0" rx="0"/>
 <rect class="f" x="500.0" y="200.0" width="30.0" height="170.0" rx="0"/>
 <line class="s" x1="345.0" y1="100.0" x2="345.0" y2="70.0"/>
@@ -50,7 +48,7 @@
 <line class="lead" x1="394.0" y1="162.0" x2="455.0" y2="164.4"/>
 <circle class="k" cx="394.0" cy="162.0" r="3"/>
 <circle cx="470.0" cy="165.0" r="15" fill="#e8590c"/><text x="470.0" y="166.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">F</text>
-<line class="lead" x1="140.0" y1="410.0" x2="74.6" y2="426.4"/>
-<circle class="k" cx="140.0" cy="410.0" r="3"/>
-<circle cx="60.0" cy="430.0" r="15" fill="#e8590c"/><text x="60.0" y="431.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">G</text>
+<line class="lead" x1="120.0" y1="205.0" x2="73.8" y2="185.8"/>
+<circle class="k" cx="120.0" cy="205.0" r="3"/>
+<circle cx="60.0" cy="180.0" r="15" fill="#e8590c"/><text x="60.0" y="181.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">G</text>
 </svg>

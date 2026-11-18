@@ -10,8 +10,8 @@ def cell():
     f.rect(330, 40, 100, 60, 'f2', rx=6)                                           # DC source
     f.text(380, 70, 'DC', 20, weight='bold')
     f.text(322, 118, '+', 24, weight='bold'); f.text(440, 118, '−', 24, weight='bold')
-    f.circle(250, 70, 18, 's'); f.text(250, 70, 'A', 16, weight='bold')            # ammeter (in series, + lead)
-    f.circle(380, 150, 18, 's'); f.text(380, 150, 'V', 16, weight='bold')          # voltmeter across
+    f.circle(250, 70, 18, 's')                                                       # ammeter (in series, + lead)
+    f.circle(380, 150, 18, 's')                                                      # voltmeter across
     f.rect(200, 190, 40, 200, 'f2')                                                 # anode (left)
     f.rect(500, 200, 30, 170, 'f')                                                  # cathode workpiece (right)
     f.line(345, 100, 345, 70); f.line(330, 70, 268, 70); f.line(232, 70, 220, 70); f.line(220, 70, 220, 190)
@@ -25,9 +25,9 @@ def cell():
     C('B', 515, 300, 690, 300, 'Cathode (workpiece)', 'Connected to the − terminal; metal ions deposit on it', 'ELP-F003')
     C('C', 600, 380, 700, 420, 'Electrolyte (bath)', 'Solution containing ions of the plating metal', 'ELP-F009')
     C('D', 428, 50, 520, 25, 'DC power source', 'Supplies direct current of variable voltage and current', 'ELP-F006')
-    C('E', 250, 52, 170, 30, 'Ammeter', 'Connected in series to measure the plating current', 'ELP-F008')
+    C('E', 250, 52, 170, 30, 'Ammeter', 'Meter connected in series to measure the plating current', 'ELP-F008')
     C('F', 394, 162, 470, 165, 'Voltmeter', 'Connected across the cell to measure voltage', 'ELP-F008')
-    C('G', 140, 410, 60, 430, 'Tank', 'Container holding the electrolyte', 'ELP-F007')
+    C('G', 120, 205, 60, 180, 'Tank', 'Container holding the electrolyte', 'ELP-F007')
     return f
 
 
@@ -37,17 +37,18 @@ def flow():
              ('Chemical cleaning (6 V, 10–15 A, ~5 min)', 'Removes grease and contaminants in the cleaning bath', 'ELP-F057'),
              ('Washing with water and pumice powder', 'Removes cleaning chemicals before plating', 'ELP-F057'),
              ('Copper plating (2–6 V, 25–30 s)', 'Deposits a copper base layer until the job turns reddish', 'ELP-F058'),
+             ('Washing again', 'Rinses off the copper solution before nickel plating', 'ELP-F058'),
              ('Nickel plating (1.5–3 V, 5–7 min)', 'Half the job is dipped to deposit a bright nickel layer', 'ELP-F059')]
-    f = Fig('electroplating/process-flow', 760, 520, 'ME-106 electroplating sequence',
-            'Six blank boxes in a column joined by arrows, each lettered; the steps are not written in the boxes',
+    f = Fig('electroplating/process-flow', 760, 600, 'ME-106 electroplating sequence',
+            'Seven blank boxes in a column joined by arrows, each lettered; the steps are not written in the boxes',
             ask={'p': 'In the ME-106 electroplating sequence shown, what is step {L}?', 'w': 'Which box in the sequence is {P}?'})
     for i, (nm, fn, fa) in enumerate(steps):
-        y = 20 + i * 82
+        y = 14 + i * 82
         f.rect(250, y, 260, 56, 'f', rx=10)
-        L = 'ABCDEF'[i]
+        L = 'ABCDEFG'[i]
         f.tag(L, 380, y + 28)
         f.labels[L] = {'part': nm.split(' (')[0], 'function': fn, 'fact': fa}
-        if i < 5:
+        if i < 6:
             f.arrow(380, y + 58, 380, y + 80, 's')
     return f
 
