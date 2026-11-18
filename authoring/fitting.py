@@ -47,16 +47,16 @@ q('app', 'm', 'A gear pressed onto a shaft so that it cannot slip is an example 
 q('wmat', 'e', 'What material is used for the ME-106 fitting job?',
   'Mild-steel plate', ['Aluminium disc', 'Cast-iron block', 'Brass rod'],
   'The fitting lecture states the material is mild-steel plate, as per the workshop drawing.', [11])
-q('dims', 'm', 'In the ME-106 fitting tasks, to what accuracy is the metal block filed in Task 1?',
+q('proc', 'm', 'In the ME-106 fitting tasks, to what accuracy is the metal block filed in Task 1?',
   '±0.1 mm', ['±1 mm', '±0.001 mm', '±5 mm'],
   'Task 1: file a metal block to exact dimensions (±0.1 mm), to understand sawing and filing.', [12])
-q('dims', 'm', 'Which ME-106 fitting task is meant to "prepare for assembly"?',
+q('proc', 'm', 'Which ME-106 fitting task is meant to "prepare for assembly"?',
   'Drill and tap a hole', ['File a block to ±0.1 mm', 'Create a square/triangle shape', 'Assemble and inspect the fit'],
   'Task 3: drill and tap a hole — prepare for assembly.', [14])
-q('dims', 'm', 'What is the final task (Task 4) of the ME-106 fitting lab?',
+q('proc', 'm', 'What is the final task (Task 4) of the ME-106 fitting lab?',
   'Assemble and inspect the fit', ['Drill and tap a hole', 'File a block to size', 'Mark out with a scriber'],
   'Task 4: assemble and inspect fit — the final project.', [15])
-q('dims', 'm', 'Task 2 of the ME-106 fitting lab — creating a square/triangle shape — mainly develops…',
+q('proc', 'm', 'Task 2 of the ME-106 fitting lab — creating a square/triangle shape — mainly develops…',
   'Accuracy with files', ['Speed with power tools', 'Skill in electroplating', 'Use of the lathe'],
   'Task 2: create a square/triangle shape — accuracy with files.', [13])
 q('def', 'm', 'What is the stated objective of the ME-106 fitting lab?',
@@ -113,7 +113,7 @@ q('tools', 'm', 'An L-shaped block used to hold work at 90° to the surface plat
 q('tools', 'e', 'A surface plate provides…',
   'A true flat reference surface for marking and checking flatness', ['A sharp edge for scribing', 'A magnetic surface for holding', 'A scale for measuring'],
   'The surface plate (cast iron, granite or hardened steel) is the flat datum for marking out and checking flatness.', [32])
-q('wmat', 'm', 'Surface plates are commonly made of…',
+q('tmat', 'm', 'Surface plates are commonly made of…',
   'Cast iron (or granite)', ['Aluminium', 'Copper', 'Wood'],
   'Surface plates are made of cast iron, granite or hardened steel.', [32])
 q('tools', 'e', 'A hardened steel pointed tool used to scratch lines on metal is a…',
@@ -345,7 +345,7 @@ ar('tools', 'h', 'A hacksaw blade is fitted with its teeth pointing away from th
    'A hacksaw cuts on the forward stroke.', 'a', 'Both true, and R explains A.', [54])
 ar('tools', 'h', 'A centre punch is used before drilling.',
    'A centre punch has a 60° point angle.', 'c', 'A is true, but R is false: a centre punch is about 90°; the dot punch is about 60°.', [38, 37])
-tf('tools', 'e', 'A try square is used to check the squareness (90°) of edges.', True, 'True. That is its main use.', [21])
+tf('tools', 'e', 'A try square is used to measure diameters to 0.02 mm.', False, 'False. A try square checks squareness (90°); diameters to 0.02 mm are measured with a Vernier caliper.', [21, 42])
 tf('meas', 'm', 'A micrometer has a finer least count than a Vernier caliper.', True, 'True: 0.01 mm vs 0.02 mm.', [42, 47])
 
 # ============================ diagrams ============================
@@ -360,7 +360,7 @@ q('tools', 'm', 'In the hacksaw figure, in which direction must pressure be appl
 B.labels('fitting/file-parts', 'p', cat='tools', diffs={'p': 'e'}, extra_parts=['Shank', 'Ferrule'])
 B.labels('fitting/file-sections', 'p', cat='tools', diffs={'p': 'e'}, extra_parts=['Knife-edge file', 'Warding file'])
 B.labels('fitting/file-sections', 'f', cat='tools', only={'f': ['C', 'E', 'D']}, diffs={'f': 'm'})
-B.labels('fitting/hammers', 'p', cat='tools', diffs={'p': 'm'}, extra_parts=['Straight-peen hammer', 'Claw hammer'])
+B.labels('fitting/hammers', 'p', cat='tools', diffs={'p': 'm'}, extra_parts=['Sledge hammer', 'Claw hammer'])
 B.labels('fitting/vernier-parts', 'p', cat='meas', diffs={'p': 'e'})
 B.labels('fitting/vernier-parts', 'f', cat='meas', only={'f': ['B', 'G', 'E']}, diffs={'f': 'm'})
 B.labels('fitting/micrometer-parts', 'p', cat='meas', diffs={'p': 'e'}, extra_parts=['Depth rod', 'Vernier scale'])
@@ -371,24 +371,24 @@ G = json.load(open(os.path.join(ROOT, 'authoring', 'generated_readings.json')))
 fmt = lambda v: f'{v:.2f} mm'
 for i, v in enumerate(G['vernier']):
     r, M, k = v['reading'], v['msr'], v['k']
-    cands = [round(M + k * 0.01, 2), round(M + k * 0.1, 2), round(M + 1 + k * 0.02, 2), round(M + (k + 1) * 0.02, 2), round(M - 1 + k * 0.02, 2)]
+    cands = [round(M + k * 0.01, 2), round(M + 1 + k * 0.02, 2), round(M + (k + 1) * 0.02, 2), round(M + (k - 1) * 0.02, 2), round(M - 1 + k * 0.02, 2)]
     wr = []
     for c in cands:
         if c != r and c > 0 and fmt(c) not in [fmt(x) for x in wr] and len(wr) < 3:
             wr.append(c)
-    q('meas', 'm' if i % 3 else 'h', 'Read the Vernier caliper shown (least count 0.02 mm). The orange arrow marks the coinciding Vernier line.',
+    q('meas', 'm', 'Read the Vernier caliper shown (least count 0.02 mm). The orange arrow marks the coinciding Vernier line.',
       fmt(r), [fmt(x) for x in wr],
-      f'The Vernier zero lies just past {M} mm on the main scale, so MSR = {M} mm. The coinciding line is division {k} (label {k // 5}, then {k % 5} small divisions), so {k} × 0.02 = {k * 0.02:.2f} mm. Reading = {M} + {k * 0.02:.2f} = {r:.2f} mm.',
+      f'The Vernier zero lies just past {M} mm on the main scale, so MSR = {M} mm. The coinciding line is division {k} (label {k // 5}, then {k % 5} small division{'s' if k % 5 != 1 else ''}), so {k} × 0.02 = {k * 0.02:.2f} mm. Reading = {M} + {k * 0.02:.2f} = {r:.2f} mm.',
       [44, 42], fig=v['id'], tags=['generated', 'vernier'])
 for i, v in enumerate(G['micrometer']):
     r, sl, th = v['reading'], v['sleeve'], v['thimble']
     half = (sl % 1) == 0.5
-    cands = [round(sl - 0.5 + th * 0.01, 2) if half else round(sl + 0.5 + th * 0.01, 2), round(sl + th * 0.001, 3), round(int(sl) + th * 0.1, 2), round(sl + (th + 1) * 0.01, 2)]
+    cands = [round(sl - 0.5 + th * 0.01, 2) if half else round(sl + 0.5 + th * 0.01, 2), round(sl + (th + 1) * 0.01, 2), round(sl + (th - 1) * 0.01, 2), round(sl + 1 + th * 0.01, 2)]
     wr = []
     for c in cands:
         if abs(c - r) > 1e-6 and c > 0 and f'{c:.2f} mm' not in [w for w in wr] and len(wr) < 3:
             wr.append(f'{c:.2f} mm')
-    q('meas', 'm' if i % 3 else 'h', 'Read the micrometer shown (least count 0.01 mm).', fmt(r), wr,
+    q('meas', 'm', 'Read the micrometer shown (least count 0.01 mm).', fmt(r), wr,
       f'The last visible sleeve line is {sl:.1f} mm ({"a half-mm line below the datum is visible" if half else "no half-mm line is visible past the last whole mm"}). The thimble division on the datum line is {th}, so {th} × 0.01 = {th * 0.01:.2f} mm. Reading = {sl:.1f} + {th * 0.01:.2f} = {r:.2f} mm.',
       [48, 47], fig=v['id'], tags=['generated', 'micrometer'])
 

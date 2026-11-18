@@ -13,7 +13,7 @@ def bench_vice():
     f.rect(206, 150, 10, 60, 'f2'); f.rect(326, 150, 10, 60, 'f2')   # jaw plates
     for yy in range(154, 208, 8):
         f.line(206, yy, 216, yy + 4, 'thin'); f.line(326, yy, 336, yy + 4, 'thin')
-    f.rect(216, 170, 110, 40, 'f2')                               # workpiece
+    f.rect(216, 136, 110, 44, 'f2')                               # workpiece, projecting a little above the jaws
     f.rect(410, 268, 230, 14, 's')                                # screw
     for xx in range(416, 636, 9):
         f.line(xx, 268, xx + 5, 282, 'thin')
@@ -27,14 +27,14 @@ def bench_vice():
     C('E', 650, 330, 720, 330, 'Handle (tommy bar)', 'Turned to tighten or loosen the vice', 'FIT-F026')
     C('F', 300, 290, 300, 350, 'Body / slide', 'Guides the movable jaw', 'FIT-F026')
     C('G', 120, 345, 50, 300, 'Base', 'Bolted to the work bench', 'FIT-F026')
-    C('H', 270, 190, 270, 120, 'Workpiece', 'Job gripped between the jaws, projecting only a little above them', 'FIT-F028')
+    C('H', 270, 150, 270, 100, 'Workpiece', 'Job gripped between the jaws, projecting only a little above them', 'FIT-F028')
     return f
 
 
 def marking_tools():
     f = Fig('fitting/marking-tools', 780, 520, 'Marking and holding tools',
             'Eight small line drawings of fitting marking and holding tools, each marked with a letter',
-            ask={'p': 'Which tool is shown in panel {L}?', 'w': 'Which panel shows a {P}?', 'f': 'The tool in panel {L} is used to…'})
+            ask={'p': 'Which tool is shown in panel {L}?', 'w': 'Which panel shows the {P}?', 'f': 'The tool in panel {L} is used to…'})
     cells = [(10 + (i % 4) * 192, 10 + (i // 4) * 255) for i in range(8)]
     for (x, y) in cells:
         f.rect(x, y, 182, 245, 'thin', rx=8)
@@ -49,8 +49,8 @@ def marking_tools():
     f.panel('B', x + 20, y + 20, 'Try square', 'Check squareness (90°) of edges and surfaces', 'FIT-F021')
     # C V-block with round bar
     x, y = cells[2]
-    f.poly([(x + 30, y + 200), (x + 30, y + 110), (x + 70, y + 110), (x + 91, y + 150), (x + 112, y + 110), (x + 152, y + 110), (x + 152, y + 200)], 'f')
-    f.circle(x + 91, y + 128, 26, 'f2')
+    f.poly([(x + 30, y + 200), (x + 30, y + 110), (x + 60, y + 110), (x + 91, y + 141), (x + 122, y + 110), (x + 152, y + 110), (x + 152, y + 200)], 'f')   # 90° V
+    f.circle(x + 91, y + 141 - 24 * 1.4142, 24, 'f2')   # bar resting on both flanks
     f.panel('C', x + 20, y + 20, 'V-block', 'Hold round bars steady for marking or drilling', 'FIT-F029')
     # D surface gauge (scribing block)
     x, y = cells[3]
@@ -112,8 +112,6 @@ def hacksaw():
         x += 10
     f.path('M60,140 Q60,110 90,110 L140,110 L140,200 L95,200 Q60,200 60,170 Z', 'f')   # handle
     f.circle(655, 230, 10, 'f'); f.line(660, 220, 680, 205); f.line(660, 240, 680, 255)   # wing nut
-    f.arrow(320, 290, 470, 290, 'acc')
-    f.text(395, 315, 'cutting stroke', 15)
     C = f.callout
     C('A', 400, 90, 400, 40, 'Frame', 'Holds the blade in tension', 'FIT-F053')
     C('B', 300, 229, 260, 290, 'Blade', 'Hardened saw blade (high-carbon steel or HSS) with teeth', 'FIT-F057')
@@ -285,7 +283,7 @@ def micrometer_reading(idx, reading):
     th = round((reading - whole_half) / MIC_LC)       # thimble division 0..49
     s = 40.0                                          # px per mm on sleeve
     edge = 560                                        # thimble edge x
-    z = edge - whole_half * s - 8                     # screen x of 0 mm (thimble edge slightly past the last visible line)
+    z = edge - reading * s                            # screen x of 0 mm: the thimble edge sits at the true reading
     datum = 150
     f.rect(40, 110, edge - 40, 80, 'f')               # sleeve
     f.line(40, datum, edge, datum, 's')               # datum line
@@ -296,7 +294,7 @@ def micrometer_reading(idx, reading):
             break
         if x >= 40:
             f.line(x, datum, x, datum - 22, 's')
-            if mm % 5 == 0:
+            if mm % 5 == 0 and x < edge - 18:
                 f.text(x, datum - 34, str(mm), 16, weight='bold')
         xh = x + s / 2
         if 40 <= xh < edge - 2:

@@ -56,9 +56,6 @@
 <circle class="f" cx="655.0" cy="230.0" r="10.0"/>
 <line class="s" x1="660.0" y1="220.0" x2="680.0" y2="205.0"/>
 <line class="s" x1="660.0" y1="240.0" x2="680.0" y2="255.0"/>
-<line class="acc" x1="320.0" y1="290.0" x2="470.0" y2="290.0"/>
-<polygon class="accf" points="470.0,290.0 460.8,293.9 460.8,286.1"/>
-<text class="tx" x="395.0" y="315.0" font-size="15" text-anchor="middle" font-weight="normal" dominant-baseline="middle">cutting stroke</text>
 <line class="lead" x1="400.0" y1="90.0" x2="400.0" y2="55.0"/>
 <circle class="k" cx="400.0" cy="90.0" r="3"/>
 <circle cx="400.0" cy="40.0" r="15" fill="#e8590c"/><text x="400.0" y="41.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">A</text>

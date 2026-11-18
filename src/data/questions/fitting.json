@@ -7,10 +7,10 @@
   "type": "mcq",
   "question": "Fitting in the workshop is best defined as…",
   "options": [
-   "Removing metal with a rotating multi-point cutter",
-   "Joining parts permanently by melting them",
+   "Removing metal with a rotating multi-point milling cutter",
+   "Joining two parts permanently by melting them together",
    "Shaping, finishing and assembling parts by hand tools to accurate size",
-   "Coating parts with a thin metal layer"
+   "Coating parts with a thin electro-deposited metal layer"
   ],
   "answer": 2,
   "explanation": "Fitting is manual bench work: shaping, finishing and assembling components with hand tools to accurate dimensions.",
@@ -73,9 +73,9 @@
   "type": "mcq",
   "question": "Why is fitting still taught when CNC machines exist?",
   "options": [
-   "It replaces all machining",
-   "It is faster than CNC for every job",
-   "It needs no measuring tools",
+   "It needs no measuring tools or drawings at all",
+   "It completely replaces every machining process",
+   "It is faster than CNC for every kind of job",
    "It builds manual precision for prototyping, repair and maintenance"
   ],
   "answer": 3,
@@ -95,10 +95,10 @@
   "type": "mcq",
   "question": "Which skill is the fitting lab mainly meant to develop?",
   "options": [
-   "CNC part programming",
-   "Electroplating chemistry",
+   "CNC part programming with G and M codes",
+   "Electroplating chemistry and bath control",
    "Dimensional accuracy, tolerance awareness and surface finishing",
-   "Laser-beam alignment"
+   "Laser-beam alignment and focusing skills"
   ],
   "answer": 2,
   "explanation": "The fitting lecture lists precision handwork, tolerance control, surface finishing and tool control.",
@@ -139,10 +139,10 @@
   "type": "mcq",
   "question": "Which is a real-world application of manual fitting given in the fitting lecture?",
   "options": [
-   "Electroplating car bumpers",
+   "Laser-cutting large sheets of metal",
    "Fitting turbine blades and repairing gear housings",
-   "Laser-cutting sheet metal",
-   "Mass-producing bolts on a CNC lathe"
+   "Mass-producing bolts on a CNC lathe",
+   "Electroplating car bumpers with nickel"
   ],
   "answer": 1,
   "explanation": "Aerospace, automotive, tool design and defence: e.g. fitting turbine blades, repairing shafts and gear housings.",
@@ -206,9 +206,9 @@
   "question": "In an interference fit…",
   "options": [
    "The shaft is slightly larger, so force is needed to assemble",
-   "No assembly is possible",
-   "The shaft is smaller, so it rotates freely",
-   "There is always a large gap"
+   "There is always a large gap between the parts",
+   "No assembly is possible at all between the parts",
+   "The shaft is smaller, so it rotates freely inside"
   ],
   "answer": 0,
   "explanation": "Interference fit: shaft slightly larger than the hole, pressed in (e.g. a gear pressed onto a shaft).",
@@ -288,7 +288,7 @@
  {
   "id": "FIT-0014",
   "shop": "fitting",
-  "category": "job-dimensions",
+  "category": "procedure",
   "difficulty": "medium",
   "type": "mcq",
   "question": "In the ME-106 fitting tasks, to what accuracy is the metal block filed in Task 1?",
@@ -310,7 +310,7 @@
  {
   "id": "FIT-0015",
   "shop": "fitting",
-  "category": "job-dimensions",
+  "category": "procedure",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Which ME-106 fitting task is meant to \"prepare for assembly\"?",
@@ -332,7 +332,7 @@
  {
   "id": "FIT-0016",
   "shop": "fitting",
-  "category": "job-dimensions",
+  "category": "procedure",
   "difficulty": "medium",
   "type": "mcq",
   "question": "What is the final task (Task 4) of the ME-106 fitting lab?",
@@ -354,7 +354,7 @@
  {
   "id": "FIT-0017",
   "shop": "fitting",
-  "category": "job-dimensions",
+  "category": "procedure",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Task 2 of the ME-106 fitting lab — creating a square/triangle shape — mainly develops…",
@@ -381,9 +381,9 @@
   "type": "mcq",
   "question": "What is the stated objective of the ME-106 fitting lab?",
   "options": [
-   "Learn laser cutting of sheet",
-   "Learn to cut spur gears",
-   "Learn CNC programming of a mill",
+   "Learn CNC programming of a milling machine",
+   "Learn to cut spur gears on a milling machine",
+   "Learn laser cutting of thin metal sheet",
    "Learn manual accuracy and verify dimensions with measuring tools"
   ],
   "answer": 3,
@@ -403,10 +403,10 @@
   "type": "mcq",
   "question": "Which tools are listed for the ME-106 fitting lab?",
   "options": [
-   "Wire electrode, dielectric, power supply",
-   "Index plate, mandrel, catch pin, worm wheel",
+   "Grinding wheel, dresser, magnetic chuck, coolant, parallels",
+   "Wire electrode, dielectric supply, clamping wire, power supply",
    "Hacksaw, files, hammer, try square, centre punch, Vernier, bench vice",
-   "Grinding wheel, dresser, magnetic chuck"
+   "Index plate, mandrel, catch pin, worm wheel, tailstock"
   ],
   "answer": 2,
   "explanation": "The fitting lecture lists hacksaw; flat, round, half-round, triangular and square files; hammer; try square; centre punch; Vernier caliper; bench vice.",
@@ -447,10 +447,10 @@
   "type": "mcq",
   "question": "In fitting, the hacksaw is used for…",
   "options": [
-   "Measuring diameter",
-   "Smooth finishing",
+   "Checking 90° accuracy",
+   "Measuring the diameter",
    "Cutting metal (rough cutting)",
-   "Checking 90°"
+   "Smooth final finishing"
   ],
   "answer": 2,
   "explanation": "Hacksaw — rough cutting of metal.",
@@ -535,10 +535,10 @@
   "type": "mcq",
   "question": "According to the fitting lecture, the hammer is used for…",
   "options": [
-   "Checking squareness",
+   "Tightening the bench vice handle",
    "Chipping and shaping (and striking punches)",
-   "Tightening the vice",
-   "Measuring surface finish"
+   "Measuring the surface finish",
+   "Checking the squareness of edges"
   ],
   "answer": 1,
   "explanation": "Hammer — used for chipping and shaping.",
@@ -587,7 +587,7 @@
   "answer": 3,
   "explanation": "Bench vice: fixed jaw, movable jaw, jaw plates, screw, handle, body/slide and base. The tang is part of a file.",
   "source": "lab",
-  "ref": "Fitting lecture s.8",
+  "ref": "Fitting lecture s.8 (labelled vice image)",
   "tags": [],
   "facts": [
    "FIT-F026"
@@ -601,10 +601,10 @@
   "type": "mcq",
   "question": "Why are soft (copper or aluminium) jaw caps fitted over the vice jaws?",
   "options": [
-   "To measure the job",
-   "To conduct heat away",
+   "To make the jaws grip the job much harder",
+   "To conduct heat away from the job quickly",
    "To protect finished surfaces from the serrated jaws",
-   "To make the jaws grip harder"
+   "To measure the size of the job directly"
   ],
   "answer": 2,
   "explanation": "The vice jaws carry hardened, serrated plates; soft caps prevent marks on finished work.",
@@ -624,8 +624,8 @@
   "question": "When holding a job in a vice for filing, it should project…",
   "options": [
    "Only a little above the jaws, to avoid vibration",
-   "Below the jaws",
    "Far above the jaws for easy access",
+   "Well below the jaws, hidden inside",
    "At an angle of 45° to the jaws"
   ],
   "answer": 0,
@@ -667,9 +667,9 @@
   "type": "mcq",
   "question": "Which holding device is used to hold very small jobs or drills in the hand?",
   "options": [
-   "Bench vice",
-   "V-block",
-   "Angle plate",
+   "Bench vice (on the bench)",
+   "Angle plate (90° block)",
+   "V-block (with clamp)",
    "Pin vice (or hand vice)"
   ],
   "answer": 3,
@@ -712,9 +712,9 @@
   "question": "A surface plate provides…",
   "options": [
    "A true flat reference surface for marking and checking flatness",
-   "A magnetic surface for holding",
-   "A sharp edge for scribing",
-   "A scale for measuring"
+   "A sharp hardened edge for scribing lines",
+   "A magnetic surface for holding steel jobs",
+   "A graduated scale for measuring lengths"
   ],
   "answer": 0,
   "explanation": "The surface plate (cast iron, granite or hardened steel) is the flat datum for marking out and checking flatness.",
@@ -728,15 +728,15 @@
  {
   "id": "FIT-0034",
   "shop": "fitting",
-  "category": "workpiece-material",
+  "category": "tool-material",
   "difficulty": "medium",
   "type": "mcq",
   "question": "Surface plates are commonly made of…",
   "options": [
-   "Wood",
+   "Cast aluminium",
    "Cast iron (or granite)",
-   "Copper",
-   "Aluminium"
+   "Rolled copper",
+   "Seasoned wood"
   ],
   "answer": 1,
   "explanation": "Surface plates are made of cast iron, granite or hardened steel.",
@@ -777,10 +777,10 @@
   "type": "mcq",
   "question": "Which tool scribes lines parallel to the surface plate at a set height?",
   "options": [
-   "Odd-leg caliper",
-   "Centre punch",
+   "Centre punch (90°)",
+   "Try square (90°)",
    "Surface gauge (scribing block)",
-   "Try square"
+   "Odd-leg (jenny) caliper"
   ],
   "answer": 2,
   "explanation": "The surface gauge (marking block) carries a scriber on an adjustable pillar.",
@@ -872,8 +872,8 @@
   ],
   "answer": 3,
   "explanation": "A centre punch has a 90° point to make a deeper mark for locating the drill.",
-  "source": "lab",
-  "ref": "Fitting lecture s.12",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
   "tags": [],
   "facts": [
    "FIT-F038"
@@ -894,8 +894,8 @@
   ],
   "answer": 0,
   "explanation": "Witness marks along scribed lines use the 60° dot punch; drill points are marked deeper with the 90° centre punch.",
-  "source": "lab",
-  "ref": "Theory: Hajra Choudhury; Fitting lecture s.12",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
   "tags": [],
   "facts": [
    "FIT-F037",
@@ -910,9 +910,9 @@
   "type": "mcq",
   "question": "Which instrument is used for precise marking and height measurement from a surface plate?",
   "options": [
-   "Try square",
-   "Steel rule",
-   "Pin vice",
+   "Steel rule (scale)",
+   "Try square (blade)",
+   "Pin vice (holder)",
    "Vernier height gauge"
   ],
   "answer": 3,
@@ -1064,10 +1064,10 @@
   "type": "mcq",
   "question": "The reading of a Vernier caliper is…",
   "options": [
-   "Main-scale reading × coinciding division",
-   "Coinciding division × 0.5 mm",
+   "Main-scale reading × coinciding Vernier division",
+   "Coinciding Vernier division × 0.5 mm only",
    "Main-scale reading + (coinciding Vernier division × least count)",
-   "Main-scale reading − least count"
+   "Main-scale reading − least count of the Vernier"
   ],
   "answer": 2,
   "explanation": "Total = MSR + (k × LC).",
@@ -1174,10 +1174,10 @@
   "type": "mcq",
   "question": "The reading of a micrometer is…",
   "options": [
-   "Sleeve reading × 0.01 mm",
+   "Thimble division × 0.5 mm per division",
    "Sleeve reading + (thimble division × 0.01 mm)",
-   "Sleeve reading − thimble division",
-   "Thimble division × 0.5 mm"
+   "Sleeve reading − thimble division value",
+   "Sleeve reading × 0.01 mm per division"
   ],
   "answer": 1,
   "explanation": "Total = sleeve (mm + 0.5 mm if visible) + thimble division × LC.",
@@ -1240,10 +1240,10 @@
   "type": "mcq",
   "question": "Outside and inside calipers are read by…",
   "options": [
-   "Reading a dial",
+   "Counting thimble divisions on the leg",
    "Transferring the setting to a steel rule",
-   "Counting thimble divisions",
-   "Reading their built-in Vernier"
+   "Reading their own built-in Vernier",
+   "Reading a dial fitted on the hinge"
   ],
   "answer": 1,
   "explanation": "Plain calipers transfer a size; they have no scale of their own.",
@@ -1335,8 +1335,8 @@
   ],
   "answer": 2,
   "explanation": "The hacksaw cuts on the forward stroke, so the teeth must point forward.",
-  "source": "lab",
-  "ref": "Fitting lecture s.12",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
   "tags": [],
   "facts": [
    "FIT-F054"
@@ -1394,9 +1394,9 @@
   "type": "mcq",
   "question": "Hacksaw blades are generally made of…",
   "options": [
-   "Mild steel",
-   "Cast iron",
-   "Aluminium",
+   "Mild steel (low carbon)",
+   "Hard aluminium alloy",
+   "Grey cast iron",
    "High-carbon steel or HSS"
   ],
   "answer": 3,
@@ -1438,10 +1438,10 @@
   "type": "mcq",
   "question": "Files are classified by…",
   "options": [
-   "Speed of use",
-   "Hardness of the handle",
+   "Colour, weight and brand name",
+   "Hardness of the wooden handle",
    "Length, grade of cut, cross-section and type of cut",
-   "Colour and weight"
+   "Speed of use and length of handle"
   ],
   "answer": 2,
   "explanation": "Files are specified by length, grade (cut), cross-sectional shape and single/double cut.",
@@ -1505,14 +1505,14 @@
   "question": "Which file would you use to finish an internal corner of less than 90°?",
   "options": [
    "Triangular (three-square) file",
-   "Round file",
-   "Half-round file",
-   "Flat file"
+   "Round (rat-tail) file",
+   "Flat (hand) file",
+   "Half-round file"
   ],
   "answer": 0,
   "explanation": "Triangular files reach acute corners; round files enlarge holes; flat files do flat surfaces.",
   "source": "lab",
-  "ref": "Fitting lecture s.12; Fitting lecture s.8",
+  "ref": "Theory: Hajra Choudhury; Fitting lecture s.8",
   "tags": [],
   "facts": [
    "FIT-F063",
@@ -1534,8 +1534,8 @@
   ],
   "answer": 1,
   "explanation": "The half-round file has one flat side and one curved side.",
-  "source": "lab",
-  "ref": "Fitting lecture s.12",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
   "tags": [],
   "facts": [
    "FIT-F063"
@@ -1557,7 +1557,7 @@
   "answer": 2,
   "explanation": "The fitting procedure: flat file for flat surfaces, round/half-round for curves.",
   "source": "lab",
-  "ref": "Fitting lecture s.12",
+  "ref": "Theory: Hajra Choudhury; Fitting lecture s.12",
   "tags": [],
   "facts": [
    "FIT-F063",
@@ -1572,9 +1572,9 @@
   "type": "mcq",
   "question": "Files are made of…",
   "options": [
-   "Aluminium alloy",
-   "Mild steel, annealed",
-   "Grey cast iron",
+   "Grey cast iron, as cast",
+   "Aluminium alloy, anodised",
+   "Mild steel, annealed soft",
    "High-carbon steel, hardened and tempered"
   ],
   "answer": 3,
@@ -1595,9 +1595,9 @@
   "question": "Draw filing is done to…",
   "options": [
    "Give a fine finish by pushing the file sideways along the work",
-   "Mark a line on the job",
-   "Remove metal quickly across the work",
-   "Cut a slot in the job"
+   "Cut a narrow slot in the job with the file tip",
+   "Mark a line on the job with the file edge",
+   "Remove metal quickly by filing across the work"
   ],
   "answer": 0,
   "explanation": "Cross filing removes metal; draw filing (file held crosswise, moved along the work) gives a fine finish.",
@@ -1616,9 +1616,9 @@
   "type": "mcq",
   "question": "Filings that clog the teeth of a file (pinning) are removed with a…",
   "options": [
-   "Scriber",
-   "Try square",
-   "Dot punch",
+   "Scriber point",
+   "Dot punch tip",
+   "Try square blade",
    "File card (file cleaner)"
   ],
   "answer": 3,
@@ -1683,9 +1683,9 @@
   "type": "sequence",
   "question": "In what order are the taps of a set used?",
   "options": [
-   "Intermediate tap → bottoming tap → taper tap",
-   "Bottoming tap → intermediate tap → taper tap",
-   "Bottoming tap → taper tap → intermediate tap",
+   "Bottoming tap → intermediate (second/plug) tap → taper tap",
+   "Bottoming tap → taper tap → intermediate (second/plug) tap",
+   "Intermediate (second/plug) tap → bottoming tap → taper tap",
    "Taper tap → intermediate (second/plug) tap → bottoming tap"
   ],
   "answer": 3,
@@ -1750,9 +1750,9 @@
   "question": "What tap-drill size is used for an M8 × 1.25 thread?",
   "options": [
    "6.75 mm (≈ 6.8 mm)",
-   "9.25 mm",
-   "5.5 mm",
-   "8 mm"
+   "5.50 mm (≈ 5.5 mm)",
+   "8.00 mm (= 8 mm)",
+   "9.25 mm (≈ 9.3 mm)"
   ],
   "answer": 0,
   "explanation": "Tap drill ≈ 8 − 1.25 = 6.75 mm (a 6.8 mm drill is used).",
@@ -1771,9 +1771,9 @@
   "type": "mcq",
   "question": "Before drilling a hole in fitting, the drill point is first…",
   "options": [
-   "Chamfered with a chisel",
-   "Polished",
-   "Filed flat",
+   "Polished with emery paper",
+   "Filed flat with a smooth file",
+   "Chamfered with a cold chisel",
    "Centre-punched so the drill does not wander"
   ],
   "answer": 3,
@@ -1882,10 +1882,10 @@
   "type": "mcq",
   "question": "What is the FIRST step of the ME-106 fitting procedure?",
   "options": [
-   "Cutting with a hacksaw",
+   "Cutting along the lines with a hacksaw",
    "Safety check, then clamp the work firmly in the vice",
-   "Filing the edges",
-   "Submitting for inspection"
+   "Filing the edges with a flat file",
+   "Submitting the job for inspection"
   ],
   "answer": 1,
   "explanation": "Step 1: safety check — apron and goggles, tools in good condition, workpiece clamped firmly in the bench vice.",
@@ -1904,10 +1904,10 @@
   "type": "mcq",
   "question": "In the ME-106 fitting procedure, which tools are used for marking?",
   "options": [
-   "Micrometer and ratchet",
-   "Hammer and chisel",
+   "Hammer and cold chisel",
+   "Hacksaw and flat file",
    "Steel rule, scriber and try square",
-   "Hacksaw and file"
+   "Micrometer and its ratchet"
   ],
   "answer": 2,
   "explanation": "Step 2: mark dimensions using the steel rule and scriber; use the try square to keep 90° edges.",
@@ -1926,9 +1926,9 @@
   "type": "mcq",
   "question": "Why are punch marks made at drill points (step 3 of the fitting procedure)?",
   "options": [
-   "To file the edge",
-   "To measure the hole depth",
-   "To harden the metal",
+   "To harden the metal at that point",
+   "To measure the hole depth later",
+   "To file the edge more easily",
    "To prevent the drill bit from slipping"
   ],
   "answer": 3,
@@ -1993,9 +1993,9 @@
   "type": "mcq",
   "question": "What is done in the \"checking\" step of the ME-106 fitting procedure?",
   "options": [
-   "Polish with emery and pumice",
-   "Plate the job with nickel",
-   "Harden the job in a furnace",
+   "Polish with emery paper and pumice powder",
+   "Plate the job with a thin layer of nickel",
+   "Harden the job in a furnace and quench it",
    "Measure with Vernier and try square; re-file if necessary"
   ],
   "answer": 3,
@@ -2015,10 +2015,10 @@
   "type": "mcq",
   "question": "What is the LAST step of the ME-106 fitting procedure?",
   "options": [
-   "Safety check",
-   "Centre punching",
+   "Marking with scriber and rule",
+   "Centre punching drill points",
    "Fitment and inspection by the instructor",
-   "Marking"
+   "Safety check at the bench"
   ],
   "answer": 2,
   "explanation": "Step 7: assemble and check the fit; submit the piece for the instructor's inspection.",
@@ -2066,10 +2066,10 @@
   "type": "mcq",
   "question": "In the fitting procedure, why is marking done BEFORE cutting?",
   "options": [
-   "The hacksaw needs chalk to cut",
-   "Marking is optional",
+   "Marking is optional and can be done later",
+   "Marking hardens the metal along the line",
    "The cutting and filing must follow the marked lines",
-   "Marking hardens the cutting line"
+   "The hacksaw needs chalk on the job to cut"
   ],
   "answer": 2,
   "explanation": "Marking (scriber, rule, try square) sets out the lines that the saw and files then follow.",
@@ -2089,10 +2089,10 @@
   "type": "mcq",
   "question": "Which PPE is required in the fitting shop according to the lecture?",
   "options": [
-   "No PPE needed for hand tools",
+   "Laser goggles and a welding apron",
    "Safety goggles, apron and closed shoes",
-   "Gloves only",
-   "Laser goggles"
+   "No PPE, since only hand tools are used",
+   "Gloves only, worn on both hands"
   ],
   "answer": 1,
   "explanation": "Always wear safety goggles, apron and closed shoes.",
@@ -2111,9 +2111,9 @@
   "type": "mcq",
   "question": "Which precaution about the bench vice is given in the fitting lecture?",
   "options": [
-   "Hammer the vice handle to tighten it",
-   "Never use a vice",
-   "Keep the jaws loose for easy filing",
+   "Never use a vice for holding any job",
+   "Keep the jaws loose for easier filing",
+   "Hammer the vice handle to tighten it fully",
    "Keep the jaws tight and parallel; clamp the job securely"
   ],
   "answer": 3,
@@ -2177,10 +2177,10 @@
   "type": "mcq",
   "question": "Why must a file never be used without a handle?",
   "options": [
-   "The file will bend",
-   "The file will cut slower",
+   "The teeth will clog quickly",
+   "The file will bend in use",
    "The pointed tang can pierce the hand",
-   "The teeth will clog"
+   "The file will cut slower"
   ],
   "answer": 2,
   "explanation": "Never use a file without a handle — the tang can injure the palm.",
@@ -2200,9 +2200,9 @@
   "question": "How should filings be cleared from the bench?",
   "options": [
    "With a brush, not by blowing or with bare hands",
-   "By leaving them",
-   "By blowing them away",
-   "By wiping with the palm"
+   "By wiping them off with the bare palm",
+   "By leaving them on the bench for later",
+   "By blowing them away with the mouth"
   ],
   "answer": 0,
   "explanation": "Blowing sends particles into eyes; bare hands get splinters.",
@@ -2221,10 +2221,10 @@
   "type": "mcq",
   "question": "Which is correct practice when sawing with a hacksaw?",
   "options": [
-   "Twist the blade in the cut",
-   "Use short fast strokes with a loose blade",
+   "Press hard on the return stroke as well",
+   "Twist the blade in the cut to steer it",
    "Use steady, full-length strokes with correct blade tension",
-   "Press hard on the return stroke"
+   "Use short fast strokes with a loose blade"
   ],
   "answer": 2,
   "explanation": "Use the full blade length, steady strokes and correct tension; ease off near the end of the cut.",
@@ -2288,10 +2288,10 @@
   "type": "mcq",
   "question": "The fitting-lab safety motto is…",
   "options": [
-   "Accuracy = Force + Time",
+   "Speed = Skill + Force + Luck",
    "Safety = Skill + Awareness + Discipline",
-   "Safety = Gloves + Goggles",
-   "Speed = Skill + Force"
+   "Safety = Gloves + Goggles + Shoes",
+   "Accuracy = Force + Time + Tools"
   ],
   "answer": 1,
   "explanation": "From the fitting lecture safety slide.",
@@ -2317,8 +2317,8 @@
   ],
   "answer": 0,
   "explanation": "Both true, and R explains A.",
-  "source": "lab",
-  "ref": "Fitting lecture s.12",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
   "tags": [],
   "facts": [
    "FIT-F054"
@@ -2340,8 +2340,8 @@
   ],
   "answer": 2,
   "explanation": "A is true, but R is false: a centre punch is about 90°; the dot punch is about 60°.",
-  "source": "lab",
-  "ref": "Fitting lecture s.12; Theory: Hajra Choudhury",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
   "tags": [],
   "facts": [
    "FIT-F038",
@@ -2355,18 +2355,19 @@
   "category": "tools-equipment",
   "difficulty": "easy",
   "type": "true-false",
-  "question": "A try square is used to check the squareness (90°) of edges.",
+  "question": "A try square is used to measure diameters to 0.02 mm.",
   "options": [
    "True",
    "False"
   ],
-  "answer": 0,
-  "explanation": "True. That is its main use.",
+  "answer": 1,
+  "explanation": "False. A try square checks squareness (90°); diameters to 0.02 mm are measured with a Vernier caliper.",
   "source": "lab",
-  "ref": "Fitting lecture s.9",
+  "ref": "Fitting lecture s.9; Theory: Hajra Choudhury",
   "tags": [],
   "facts": [
-   "FIT-F021"
+   "FIT-F021",
+   "FIT-F042"
   ],
   "keepOrder": true
  },
@@ -2408,7 +2409,7 @@
   "answer": 1,
   "explanation": "A = Fixed jaw. Stationary jaw cast with the body.",
   "source": "lab",
-  "ref": "Fitting lecture s.8",
+  "ref": "Fitting lecture s.8 (labelled vice image)",
   "tags": [],
   "facts": [
    "FIT-F026"
@@ -2433,7 +2434,7 @@
   "answer": 2,
   "explanation": "B = Movable (sliding) jaw. Moves in and out on the slide when the handle is turned.",
   "source": "lab",
-  "ref": "Fitting lecture s.8",
+  "ref": "Fitting lecture s.8 (labelled vice image)",
   "tags": [],
   "facts": [
    "FIT-F026"
@@ -2483,7 +2484,7 @@
   "answer": 3,
   "explanation": "D = Screw (spindle). Square-threaded screw that moves the movable jaw.",
   "source": "lab",
-  "ref": "Fitting lecture s.8",
+  "ref": "Fitting lecture s.8 (labelled vice image)",
   "tags": [],
   "facts": [
    "FIT-F026"
@@ -2508,7 +2509,7 @@
   "answer": 1,
   "explanation": "E = Handle (tommy bar). Turned to tighten or loosen the vice.",
   "source": "lab",
-  "ref": "Fitting lecture s.8",
+  "ref": "Fitting lecture s.8 (labelled vice image)",
   "tags": [],
   "facts": [
    "FIT-F026"
@@ -2533,7 +2534,7 @@
   "answer": 3,
   "explanation": "F = Body / slide. Guides the movable jaw.",
   "source": "lab",
-  "ref": "Fitting lecture s.8",
+  "ref": "Fitting lecture s.8 (labelled vice image)",
   "tags": [],
   "facts": [
    "FIT-F026"
@@ -2558,7 +2559,7 @@
   "answer": 0,
   "explanation": "G = Base. Bolted to the work bench.",
   "source": "lab",
-  "ref": "Fitting lecture s.8",
+  "ref": "Fitting lecture s.8 (labelled vice image)",
   "tags": [],
   "facts": [
    "FIT-F026"
@@ -2633,7 +2634,7 @@
   "answer": 3,
   "explanation": "D = Screw (spindle). Square-threaded screw that moves the movable jaw.",
   "source": "lab",
-  "ref": "Fitting lecture s.8",
+  "ref": "Fitting lecture s.8 (labelled vice image)",
   "tags": [],
   "facts": [
    "FIT-F026"
@@ -2658,7 +2659,7 @@
   "answer": 1,
   "explanation": "B = Movable (sliding) jaw. Moves in and out on the slide when the handle is turned.",
   "source": "lab",
-  "ref": "Fitting lecture s.8",
+  "ref": "Fitting lecture s.8 (labelled vice image)",
   "tags": [],
   "facts": [
    "FIT-F026"
@@ -2873,7 +2874,7 @@
   "category": "tools-equipment",
   "difficulty": "medium",
   "type": "diagram",
-  "question": "Which panel shows a surface gauge (scribing block)?",
+  "question": "Which panel shows the surface gauge (scribing block)?",
   "options": [
    "D",
    "H",
@@ -2898,7 +2899,7 @@
   "category": "tools-equipment",
   "difficulty": "medium",
   "type": "diagram",
-  "question": "Which panel shows a odd-leg (jenny) caliper?",
+  "question": "Which panel shows the odd-leg (jenny) caliper?",
   "options": [
    "F",
    "E",
@@ -2923,7 +2924,7 @@
   "category": "tools-equipment",
   "difficulty": "medium",
   "type": "diagram",
-  "question": "Which panel shows a angle plate?",
+  "question": "Which panel shows the angle plate?",
   "options": [
    "C",
    "B",
@@ -2982,8 +2983,8 @@
   ],
   "answer": 2,
   "explanation": "B = Centre punch. Point angle about 90°; deeper mark to locate the drill.",
-  "source": "lab",
-  "ref": "Fitting lecture s.12",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
   "tags": [],
   "facts": [
    "FIT-F038"
@@ -3107,8 +3108,8 @@
   ],
   "answer": 3,
   "explanation": "E = Teeth. Point forward, away from the handle, because the saw cuts on the forward stroke.",
-  "source": "lab",
-  "ref": "Fitting lecture s.12",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
   "tags": [],
   "facts": [
    "FIT-F054"
@@ -3133,7 +3134,7 @@
   "answer": 2,
   "explanation": "The teeth (E) point away from the handle, so the saw cuts and is pressed only on the forward stroke.",
   "source": "lab",
-  "ref": "Fitting lecture s.12",
+  "ref": "Theory: Hajra Choudhury; Fitting lecture s.12",
   "tags": [],
   "facts": [
    "FIT-F054",
@@ -3281,8 +3282,8 @@
   ],
   "answer": 2,
   "explanation": "A = Flat file. Filing flat surfaces.",
-  "source": "lab",
-  "ref": "Fitting lecture s.12",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
   "tags": [],
   "facts": [
    "FIT-F063"
@@ -3306,8 +3307,8 @@
   ],
   "answer": 1,
   "explanation": "B = Square file. Filing square slots and holes.",
-  "source": "lab",
-  "ref": "Fitting lecture s.12",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
   "tags": [],
   "facts": [
    "FIT-F063"
@@ -3331,8 +3332,8 @@
   ],
   "answer": 3,
   "explanation": "C = Round file. Enlarging round holes and filing concave curves.",
-  "source": "lab",
-  "ref": "Fitting lecture s.12",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
   "tags": [],
   "facts": [
    "FIT-F063"
@@ -3356,8 +3357,8 @@
   ],
   "answer": 0,
   "explanation": "D = Half-round file. Filing concave curves (round side) and flat surfaces (flat side).",
-  "source": "lab",
-  "ref": "Fitting lecture s.12",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
   "tags": [],
   "facts": [
    "FIT-F063"
@@ -3381,8 +3382,8 @@
   ],
   "answer": 2,
   "explanation": "E = Triangular (three-square) file. Filing corners and angles less than 90°.",
-  "source": "lab",
-  "ref": "Fitting lecture s.12",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
   "tags": [],
   "facts": [
    "FIT-F063"
@@ -3406,8 +3407,8 @@
   ],
   "answer": 3,
   "explanation": "C = Round file. Enlarging round holes and filing concave curves.",
-  "source": "lab",
-  "ref": "Fitting lecture s.12",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
   "tags": [],
   "facts": [
    "FIT-F063"
@@ -3431,8 +3432,8 @@
   ],
   "answer": 0,
   "explanation": "E = Triangular (three-square) file. Filing corners and angles less than 90°.",
-  "source": "lab",
-  "ref": "Fitting lecture s.12",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
   "tags": [],
   "facts": [
    "FIT-F063"
@@ -3456,8 +3457,8 @@
   ],
   "answer": 1,
   "explanation": "D = Half-round file. Filing concave curves (round side) and flat surfaces (flat side).",
-  "source": "lab",
-  "ref": "Fitting lecture s.12",
+  "source": "theory",
+  "ref": "Theory: Hajra Choudhury",
   "tags": [],
   "facts": [
    "FIT-F063"
@@ -3475,7 +3476,7 @@
   "question": "Which hammer is shown in panel A?",
   "options": [
    "Claw hammer",
-   "Straight-peen hammer",
+   "Sledge hammer",
    "Ball-peen hammer",
    "Cross-peen hammer"
   ],
@@ -3502,7 +3503,7 @@
    "Cross-peen hammer",
    "Ball-peen hammer",
    "Claw hammer",
-   "Straight-peen hammer"
+   "Sledge hammer"
   ],
   "answer": 0,
   "explanation": "B = Cross-peen hammer. Wedge-shaped peen at right angles to the handle.",
@@ -3995,17 +3996,17 @@
   "id": "FIT-0173",
   "shop": "fitting",
   "category": "measurement-reading",
-  "difficulty": "hard",
+  "difficulty": "medium",
   "type": "diagram",
   "question": "Read the Vernier caliper shown (least count 0.02 mm). The orange arrow marks the coinciding Vernier line.",
   "options": [
    "136.21 mm",
-   "138.10 mm",
    "137.42 mm",
+   "136.44 mm",
    "136.42 mm"
   ],
   "answer": 3,
-  "explanation": "The Vernier zero lies just past 136 mm on the main scale, so MSR = 136 mm. The coinciding line is division 21 (label 4, then 1 small divisions), so 21 × 0.02 = 0.42 mm. Reading = 136 + 0.42 = 136.42 mm.",
+  "explanation": "The Vernier zero lies just past 136 mm on the main scale, so MSR = 136 mm. The coinciding line is division 21 (label 4, then 1 small division), so 21 × 0.02 = 0.42 mm. Reading = 136 + 0.42 = 136.42 mm.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
   "tags": [
@@ -4027,9 +4028,9 @@
   "question": "Read the Vernier caliper shown (least count 0.02 mm). The orange arrow marks the coinciding Vernier line.",
   "options": [
    "98.50 mm",
-   "100.50 mm",
+   "99.50 mm",
    "98.25 mm",
-   "99.50 mm"
+   "98.52 mm"
   ],
   "answer": 0,
   "explanation": "The Vernier zero lies just past 98 mm on the main scale, so MSR = 98 mm. The coinciding line is division 25 (label 5, then 0 small divisions), so 25 × 0.02 = 0.50 mm. Reading = 98 + 0.50 = 98.50 mm.",
@@ -4053,9 +4054,9 @@
   "type": "diagram",
   "question": "Read the Vernier caliper shown (least count 0.02 mm). The orange arrow marks the coinciding Vernier line.",
   "options": [
-   "25.70 mm",
-   "22.74 mm",
    "23.74 mm",
+   "22.74 mm",
+   "22.76 mm",
    "22.37 mm"
   ],
   "answer": 1,
@@ -4076,17 +4077,17 @@
   "id": "FIT-0176",
   "shop": "fitting",
   "category": "measurement-reading",
-  "difficulty": "hard",
+  "difficulty": "medium",
   "type": "diagram",
   "question": "Read the Vernier caliper shown (least count 0.02 mm). The orange arrow marks the coinciding Vernier line.",
   "options": [
    "106.16 mm",
-   "107.60 mm",
+   "107.32 mm",
    "106.32 mm",
-   "107.32 mm"
+   "106.34 mm"
   ],
   "answer": 2,
-  "explanation": "The Vernier zero lies just past 106 mm on the main scale, so MSR = 106 mm. The coinciding line is division 16 (label 3, then 1 small divisions), so 16 × 0.02 = 0.32 mm. Reading = 106 + 0.32 = 106.32 mm.",
+  "explanation": "The Vernier zero lies just past 106 mm on the main scale, so MSR = 106 mm. The coinciding line is division 16 (label 3, then 1 small division), so 16 × 0.02 = 0.32 mm. Reading = 106 + 0.32 = 106.32 mm.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
   "tags": [
@@ -4109,8 +4110,8 @@
   "options": [
    "154.50 mm",
    "154.25 mm",
-   "156.50 mm",
-   "155.50 mm"
+   "155.50 mm",
+   "154.52 mm"
   ],
   "answer": 0,
   "explanation": "The Vernier zero lies just past 154 mm on the main scale, so MSR = 154 mm. The coinciding line is division 25 (label 5, then 0 small divisions), so 25 × 0.02 = 0.50 mm. Reading = 154 + 0.50 = 154.50 mm.",
@@ -4134,9 +4135,9 @@
   "type": "diagram",
   "question": "Read the Vernier caliper shown (least count 0.02 mm). The orange arrow marks the coinciding Vernier line.",
   "options": [
-   "30.28 mm",
+   "29.30 mm",
    "29.14 mm",
-   "30.40 mm",
+   "30.28 mm",
    "29.28 mm"
   ],
   "answer": 3,
@@ -4157,14 +4158,14 @@
   "id": "FIT-0179",
   "shop": "fitting",
   "category": "measurement-reading",
-  "difficulty": "hard",
+  "difficulty": "medium",
   "type": "diagram",
   "question": "Read the Vernier caliper shown (least count 0.02 mm). The orange arrow marks the coinciding Vernier line.",
   "options": [
    "152.05 mm",
    "152.10 mm",
-   "153.10 mm",
-   "152.50 mm"
+   "152.12 mm",
+   "153.10 mm"
   ],
   "answer": 1,
   "explanation": "The Vernier zero lies just past 152 mm on the main scale, so MSR = 152 mm. The coinciding line is division 5 (label 1, then 0 small divisions), so 5 × 0.02 = 0.10 mm. Reading = 152 + 0.10 = 152.10 mm.",
@@ -4188,10 +4189,10 @@
   "type": "diagram",
   "question": "Read the Vernier caliper shown (least count 0.02 mm). The orange arrow marks the coinciding Vernier line.",
   "options": [
-   "63.46 mm",
+   "62.48 mm",
    "62.23 mm",
    "62.46 mm",
-   "64.30 mm"
+   "63.46 mm"
   ],
   "answer": 2,
   "explanation": "The Vernier zero lies just past 62 mm on the main scale, so MSR = 62 mm. The coinciding line is division 23 (label 4, then 3 small divisions), so 23 × 0.02 = 0.46 mm. Reading = 62 + 0.46 = 62.46 mm.",
@@ -4215,10 +4216,10 @@
   "type": "diagram",
   "question": "Read the Vernier caliper shown (least count 0.02 mm). The orange arrow marks the coinciding Vernier line.",
   "options": [
-   "155.00 mm",
+   "152.80 mm",
    "151.80 mm",
    "151.40 mm",
-   "152.80 mm"
+   "151.82 mm"
   ],
   "answer": 1,
   "explanation": "The Vernier zero lies just past 151 mm on the main scale, so MSR = 151 mm. The coinciding line is division 40 (label 8, then 0 small divisions), so 40 × 0.02 = 0.80 mm. Reading = 151 + 0.80 = 151.80 mm.",
@@ -4238,13 +4239,13 @@
   "id": "FIT-0182",
   "shop": "fitting",
   "category": "measurement-reading",
-  "difficulty": "hard",
+  "difficulty": "medium",
   "type": "diagram",
   "question": "Read the Vernier caliper shown (least count 0.02 mm). The orange arrow marks the coinciding Vernier line.",
   "options": [
    "30.46 mm",
+   "30.48 mm",
    "31.46 mm",
-   "32.30 mm",
    "30.23 mm"
   ],
   "answer": 0,
@@ -4269,8 +4270,8 @@
   "type": "diagram",
   "question": "Read the Vernier caliper shown (least count 0.02 mm). The orange arrow marks the coinciding Vernier line.",
   "options": [
+   "50.76 mm",
    "51.74 mm",
-   "53.70 mm",
    "50.37 mm",
    "50.74 mm"
   ],
@@ -4296,8 +4297,8 @@
   "type": "diagram",
   "question": "Read the Vernier caliper shown (least count 0.02 mm). The orange arrow marks the coinciding Vernier line.",
   "options": [
+   "152.68 mm",
    "153.66 mm",
-   "155.30 mm",
    "152.66 mm",
    "152.33 mm"
   ],
@@ -4319,13 +4320,13 @@
   "id": "FIT-0185",
   "shop": "fitting",
   "category": "measurement-reading",
-  "difficulty": "hard",
+  "difficulty": "medium",
   "type": "diagram",
   "question": "Read the Vernier caliper shown (least count 0.02 mm). The orange arrow marks the coinciding Vernier line.",
   "options": [
-   "101.94 mm",
+   "100.96 mm",
    "100.47 mm",
-   "104.70 mm",
+   "101.94 mm",
    "100.94 mm"
   ],
   "answer": 3,
@@ -4350,13 +4351,13 @@
   "type": "diagram",
   "question": "Read the Vernier caliper shown (least count 0.02 mm). The orange arrow marks the coinciding Vernier line.",
   "options": [
-   "80.62 mm",
+   "79.64 mm",
    "79.31 mm",
    "79.62 mm",
-   "82.10 mm"
+   "80.62 mm"
   ],
   "answer": 2,
-  "explanation": "The Vernier zero lies just past 79 mm on the main scale, so MSR = 79 mm. The coinciding line is division 31 (label 6, then 1 small divisions), so 31 × 0.02 = 0.62 mm. Reading = 79 + 0.62 = 79.62 mm.",
+  "explanation": "The Vernier zero lies just past 79 mm on the main scale, so MSR = 79 mm. The coinciding line is division 31 (label 6, then 1 small division), so 31 × 0.02 = 0.62 mm. Reading = 79 + 0.62 = 79.62 mm.",
   "source": "theory",
   "ref": "Theory: Hajra Choudhury",
   "tags": [
@@ -4378,9 +4379,9 @@
   "question": "Read the Vernier caliper shown (least count 0.02 mm). The orange arrow marks the coinciding Vernier line.",
   "options": [
    "91.54 mm",
-   "92.54 mm",
+   "91.56 mm",
    "91.27 mm",
-   "93.70 mm"
+   "92.54 mm"
   ],
   "answer": 0,
   "explanation": "The Vernier zero lies just past 91 mm on the main scale, so MSR = 91 mm. The coinciding line is division 27 (label 5, then 2 small divisions), so 27 × 0.02 = 0.54 mm. Reading = 91 + 0.54 = 91.54 mm.",
@@ -4400,14 +4401,14 @@
   "id": "FIT-0188",
   "shop": "fitting",
   "category": "measurement-reading",
-  "difficulty": "hard",
+  "difficulty": "medium",
   "type": "diagram",
   "question": "Read the Vernier caliper shown (least count 0.02 mm). The orange arrow marks the coinciding Vernier line.",
   "options": [
    "93.43 mm",
    "93.86 mm",
-   "97.30 mm",
-   "94.86 mm"
+   "94.86 mm",
+   "93.88 mm"
   ],
   "answer": 1,
   "explanation": "The Vernier zero lies just past 93 mm on the main scale, so MSR = 93 mm. The coinciding line is division 43 (label 8, then 3 small divisions), so 43 × 0.02 = 0.86 mm. Reading = 93 + 0.86 = 93.86 mm.",
@@ -4431,8 +4432,8 @@
   "type": "diagram",
   "question": "Read the Vernier caliper shown (least count 0.02 mm). The orange arrow marks the coinciding Vernier line.",
   "options": [
+   "141.30 mm",
    "142.28 mm",
-   "142.40 mm",
    "141.28 mm",
    "141.14 mm"
   ],
@@ -4460,8 +4461,8 @@
   "options": [
    "127.05 mm",
    "127.10 mm",
-   "127.50 mm",
-   "128.10 mm"
+   "128.10 mm",
+   "127.12 mm"
   ],
   "answer": 1,
   "explanation": "The Vernier zero lies just past 127 mm on the main scale, so MSR = 127 mm. The coinciding line is division 5 (label 1, then 0 small divisions), so 5 × 0.02 = 0.10 mm. Reading = 127 + 0.10 = 127.10 mm.",
@@ -4481,12 +4482,12 @@
   "id": "FIT-0191",
   "shop": "fitting",
   "category": "measurement-reading",
-  "difficulty": "hard",
+  "difficulty": "medium",
   "type": "diagram",
   "question": "Read the micrometer shown (least count 0.01 mm).",
   "options": [
-   "10.53 mm",
-   "12.90 mm",
+   "10.80 mm",
+   "10.78 mm",
    "10.29 mm",
    "10.79 mm"
   ],
@@ -4513,9 +4514,9 @@
   "question": "Read the micrometer shown (least count 0.01 mm).",
   "options": [
    "19.13 mm",
-   "19.01 mm",
+   "19.14 mm",
    "19.63 mm",
-   "20.30 mm"
+   "19.12 mm"
   ],
   "answer": 0,
   "explanation": "The last visible sleeve line is 19.0 mm (no half-mm line is visible past the last whole mm). The thimble division on the datum line is 13, so 13 × 0.01 = 0.13 mm. Reading = 19.0 + 0.13 = 19.13 mm.",
@@ -4539,9 +4540,9 @@
   "type": "diagram",
   "question": "Read the micrometer shown (least count 0.01 mm).",
   "options": [
-   "9.60 mm",
+   "9.55 mm",
    "9.06 mm",
-   "9.51 mm",
+   "9.57 mm",
    "9.56 mm"
   ],
   "answer": 3,
@@ -4562,14 +4563,14 @@
   "id": "FIT-0194",
   "shop": "fitting",
   "category": "measurement-reading",
-  "difficulty": "hard",
+  "difficulty": "medium",
   "type": "diagram",
   "question": "Read the micrometer shown (least count 0.01 mm).",
   "options": [
    "20.28 mm",
-   "22.80 mm",
+   "20.27 mm",
    "20.78 mm",
-   "20.03 mm"
+   "20.29 mm"
   ],
   "answer": 0,
   "explanation": "The last visible sleeve line is 20.0 mm (no half-mm line is visible past the last whole mm). The thimble division on the datum line is 28, so 28 × 0.01 = 0.28 mm. Reading = 20.0 + 0.28 = 20.28 mm.",
@@ -4593,9 +4594,9 @@
   "type": "diagram",
   "question": "Read the micrometer shown (least count 0.01 mm).",
   "options": [
-   "14.51 mm",
+   "14.59 mm",
    "14.58 mm",
-   "14.80 mm",
+   "14.57 mm",
    "14.08 mm"
   ],
   "answer": 1,
@@ -4620,8 +4621,8 @@
   "type": "diagram",
   "question": "Read the micrometer shown (least count 0.01 mm).",
   "options": [
-   "11.90 mm",
-   "10.52 mm",
+   "10.68 mm",
+   "10.70 mm",
    "10.69 mm",
    "10.19 mm"
   ],
@@ -4643,13 +4644,13 @@
   "id": "FIT-0197",
   "shop": "fitting",
   "category": "measurement-reading",
-  "difficulty": "hard",
+  "difficulty": "medium",
   "type": "diagram",
   "question": "Read the micrometer shown (least count 0.01 mm).",
   "options": [
-   "19.90 mm",
+   "19.58 mm",
    "19.09 mm",
-   "19.51 mm",
+   "19.60 mm",
    "19.59 mm"
   ],
   "answer": 3,
@@ -4674,8 +4675,8 @@
   "type": "diagram",
   "question": "Read the micrometer shown (least count 0.01 mm).",
   "options": [
-   "14.54 mm",
-   "18.10 mm",
+   "14.92 mm",
+   "14.90 mm",
    "14.91 mm",
    "14.41 mm"
   ],
@@ -4702,9 +4703,9 @@
   "question": "Read the micrometer shown (least count 0.01 mm).",
   "options": [
    "18.27 mm",
-   "18.03 mm",
+   "18.28 mm",
    "18.77 mm",
-   "20.70 mm"
+   "18.26 mm"
   ],
   "answer": 0,
   "explanation": "The last visible sleeve line is 18.0 mm (no half-mm line is visible past the last whole mm). The thimble division on the datum line is 27, so 27 × 0.01 = 0.27 mm. Reading = 18.0 + 0.27 = 18.27 mm.",
@@ -4724,14 +4725,14 @@
   "id": "FIT-0200",
   "shop": "fitting",
   "category": "measurement-reading",
-  "difficulty": "hard",
+  "difficulty": "medium",
   "type": "diagram",
   "question": "Read the micrometer shown (least count 0.01 mm).",
   "options": [
    "7.31 mm",
    "7.81 mm",
-   "7.53 mm",
-   "10.10 mm"
+   "7.82 mm",
+   "7.80 mm"
   ],
   "answer": 1,
   "explanation": "The last visible sleeve line is 7.5 mm (a half-mm line below the datum is visible). The thimble division on the datum line is 31, so 31 × 0.01 = 0.31 mm. Reading = 7.5 + 0.31 = 7.81 mm.",
@@ -4755,10 +4756,10 @@
   "type": "diagram",
   "question": "Read the micrometer shown (least count 0.01 mm).",
   "options": [
-   "8.52 mm",
+   "8.72 mm",
    "8.21 mm",
    "8.71 mm",
-   "10.10 mm"
+   "8.70 mm"
   ],
   "answer": 2,
   "explanation": "The last visible sleeve line is 8.5 mm (a half-mm line below the datum is visible). The thimble division on the datum line is 21, so 21 × 0.01 = 0.21 mm. Reading = 8.5 + 0.21 = 8.71 mm.",
@@ -4784,8 +4785,8 @@
   "options": [
    "10.62 mm",
    "10.12 mm",
-   "10.51 mm",
-   "11.20 mm"
+   "10.63 mm",
+   "10.61 mm"
   ],
   "answer": 0,
   "explanation": "The last visible sleeve line is 10.5 mm (a half-mm line below the datum is visible). The thimble division on the datum line is 12, so 12 × 0.01 = 0.12 mm. Reading = 10.5 + 0.12 = 10.62 mm.",
@@ -4805,13 +4806,13 @@
   "id": "FIT-0203",
   "shop": "fitting",
   "category": "measurement-reading",
-  "difficulty": "hard",
+  "difficulty": "medium",
   "type": "diagram",
   "question": "Read the micrometer shown (least count 0.01 mm).",
   "options": [
-   "16.70 mm",
+   "12.46 mm",
    "12.97 mm",
-   "12.05 mm",
+   "12.48 mm",
    "12.47 mm"
   ],
   "answer": 3,
@@ -4836,10 +4837,10 @@
   "type": "diagram",
   "question": "Read the micrometer shown (least count 0.01 mm).",
   "options": [
-   "15.01 mm",
+   "15.06 mm",
    "15.05 mm",
    "15.55 mm",
-   "15.50 mm"
+   "15.04 mm"
   ],
   "answer": 1,
   "explanation": "The last visible sleeve line is 15.0 mm (no half-mm line is visible past the last whole mm). The thimble division on the datum line is 5, so 5 × 0.01 = 0.05 mm. Reading = 15.0 + 0.05 = 15.05 mm.",

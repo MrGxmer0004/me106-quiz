@@ -35,7 +35,7 @@ Source keys: `PPT` = Fitting lab lecture final.pptx (slide numbers). (Notebook p
 - [FIT-F024] Vernier caliper / steel rule — used for precise measurement. [PPT s.9]
 
 ## 5. Holding tools
-- [FIT-F026] Bench vice parts: fixed (stationary) jaw, movable (sliding) jaw, jaw plates, screw, handle, body/slide and base. [PPT s.8; theory: Hajra Choudhury]
+- [FIT-F026] Bench vice parts: fixed (stationary) jaw, movable (sliding) jaw, jaw plates, screw, handle, body/slide and base. [PPT s.8 (labelled vice image); theory: Hajra Choudhury]
 - [FIT-F027] The bench vice jaws are fitted with hardened, serrated jaw plates; soft (copper/aluminium) jaw caps protect finished surfaces. [theory: Hajra Choudhury]
 - [FIT-F028] The job should be held in the vice with the part to be filed or sawn projecting only a little above the jaws, to avoid vibration. [theory: Hajra Choudhury]
 - [FIT-F029] A V-block has V-grooves and is used to hold round bars while marking or drilling. [theory: Hajra Choudhury]
@@ -49,7 +49,7 @@ Source keys: `PPT` = Fitting lab lecture final.pptx (slide numbers). (Notebook p
 - [FIT-F035] An odd-leg (jenny) caliper has one bent leg and one pointed leg and is used to draw lines parallel to an edge or to find the centre of a bar. [theory: Hajra Choudhury]
 - [FIT-F036] A divider (with two pointed legs) is used to draw circles and arcs and to transfer distances. [theory: Hajra Choudhury]
 - [FIT-F037] A dot punch has a point angle of about 60° and makes light witness marks along scribed lines. [theory: Hajra Choudhury]
-- [FIT-F038] A centre punch has a point angle of about 90° and makes a deeper mark to locate the drill point, so the drill does not slip (wander). [theory: Hajra Choudhury; PPT s.12]
+- [FIT-F038] A centre punch has a point angle of about 90° and makes a deeper mark to locate the drill point, so the drill does not slip (wander). [theory: Hajra Choudhury]
 - [FIT-F039] A Vernier height gauge is used for precise marking and height measurement from the surface plate. [theory: Hajra Choudhury]
 - [FIT-F040] Before scribing, the surface is often coated with chalk or marking blue so lines show clearly. [theory: Hajra Choudhury]
 
@@ -69,7 +69,7 @@ Source keys: `PPT` = Fitting lab lecture final.pptx (slide numbers). (Notebook p
 
 ## 8. Cutting tools
 - [FIT-F053] A hacksaw has a frame (fixed or adjustable), a handle, a blade, and a wing nut for blade tension. [theory: Hajra Choudhury]
-- [FIT-F054] The hacksaw blade is fitted with its teeth pointing forward (away from the handle), because it cuts on the forward stroke. [theory: Hajra Choudhury; PPT s.12]
+- [FIT-F054] The hacksaw blade is fitted with its teeth pointing forward (away from the handle), because it cuts on the forward stroke. [theory: Hajra Choudhury]
 - [FIT-F055] While sawing, pressure is applied only on the forward stroke; it is released on the return stroke. [PPT s.12]
 - [FIT-F056] Hacksaw blades are usually 250–300 mm long; finer pitch (more teeth per inch) is used for thin or hard sections and coarser pitch for soft, thick sections. [theory: Hajra Choudhury]
 - [FIT-F057] Hacksaw blades are made of high-carbon steel or HSS. [theory: Hajra Choudhury]
@@ -78,7 +78,7 @@ Source keys: `PPT` = Fitting lab lecture final.pptx (slide numbers). (Notebook p
 - [FIT-F060] File grades from coarsest to finest: rough, bastard, second cut, smooth, dead smooth. [theory: Hajra Choudhury]
 - [FIT-F061] A bastard file is used for fast removal (rough work); a smooth or dead-smooth file for final finishing. [theory: Hajra Choudhury]
 - [FIT-F062] File shapes: flat, square, round, half-round, triangular (three-square) and knife-edge. [PPT s.8; theory: Hajra Choudhury]
-- [FIT-F063] A flat file is used for flat surfaces; round and half-round files for curved surfaces and holes; triangular files for corners and angles < 90°; square files for square slots. [PPT s.12; theory: Hajra Choudhury]
+- [FIT-F063] A flat file is used for flat surfaces; round and half-round files for curved surfaces and holes; triangular files for corners and angles < 90°; square files for square slots. [theory: Hajra Choudhury]
 - [FIT-F064] Files are made of high-carbon steel, hardened and tempered. [theory: Hajra Choudhury]
 - [FIT-F065] Cross filing is filing across the work in straight strokes; draw filing pushes and pulls the file sideways along the work for a fine finish. [theory: Hajra Choudhury]
 - [FIT-F066] A file cleaner (file card) removes filings that clog the teeth (pinning). [theory: Hajra Choudhury]

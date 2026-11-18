@@ -1462,7 +1462,7 @@
   },
   "ask": {
    "p": "Which tool is shown in panel {L}?",
-   "w": "Which panel shows a {P}?",
+   "w": "Which panel shows the {P}?",
    "f": "The tool in panel {L} is used to…"
   }
  },

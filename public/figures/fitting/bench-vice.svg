@@ -20,7 +20,7 @@
 <line class="thin" x1="326.0" y1="194.0" x2="336.0" y2="198.0"/>
 <line class="thin" x1="206.0" y1="202.0" x2="216.0" y2="206.0"/>
 <line class="thin" x1="326.0" y1="202.0" x2="336.0" y2="206.0"/>
-<rect class="f2" x="216.0" y="170.0" width="110.0" height="40.0" rx="0"/>
+<rect class="f2" x="216.0" y="136.0" width="110.0" height="44.0" rx="0"/>
 <rect class="s" x="410.0" y="268.0" width="230.0" height="14.0" rx="0"/>
 <line class="thin" x1="416.0" y1="268.0" x2="421.0" y2="282.0"/>
 <line class="thin" x1="425.0" y1="268.0" x2="430.0" y2="282.0"/>
@@ -70,7 +70,7 @@
 <line class="lead" x1="120.0" y1="345.0" x2="62.6" y2="308.1"/>
 <circle class="k" cx="120.0" cy="345.0" r="3"/>
 <circle cx="50.0" cy="300.0" r="15" fill="#e8590c"/><text x="50.0" y="301.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">G</text>
-<line class="lead" x1="270.0" y1="190.0" x2="270.0" y2="135.0"/>
-<circle class="k" cx="270.0" cy="190.0" r="3"/>
-<circle cx="270.0" cy="120.0" r="15" fill="#e8590c"/><text x="270.0" y="121.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">H</text>
+<line class="lead" x1="270.0" y1="150.0" x2="270.0" y2="115.0"/>
+<circle class="k" cx="270.0" cy="150.0" r="3"/>
+<circle cx="270.0" cy="100.0" r="15" fill="#e8590c"/><text x="270.0" y="101.0" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">H</text>
 </svg>

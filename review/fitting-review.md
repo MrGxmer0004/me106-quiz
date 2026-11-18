@@ -121,3 +121,14 @@ None.
   - Cold chisel about 60° for mild steel (texts give 55–60°; the options are unambiguous).
   - Cross-peen is perpendicular to the handle, straight-peen parallel to it.
   - Steel rule about 0.5 mm; files and blades are high-carbon steel (or HSS for blades).
+
+---
+## Fixes applied by the author (round 1)
+- FIT-0116/0029 (major): bench-vice figure redrawn; the job now projects a little above the jaws.
+- Generated readings: the giveaway distractors (×0.1 vernier and int+×0.1 micrometer) are replaced with realistic misreads (±1 division, 0.01 vs 0.02 LC, MSR ±1, wrong half-mm). All readings are now medium difficulty. "1 small divisions" grammar fixed.
+- Micrometer figures: the thimble edge is drawn at the true reading position, and sleeve labels too close to the thimble are omitted (the lines are still countable).
+- Hacksaw figure: the "cutting stroke" arrow is removed. V-block redrawn with a true 90° V and the bar resting on both flanks.
+- Refs: FIT-F038, F054 and F063 are now theory-only (the PPT does not show the angles, tooth direction or file uses). F026 notes the labelled vice image on s.8.
+- FIT-0153: "Straight-peen hammer" distractor removed.
+- Categories: surface-plate material → tool-material; Tasks 1–4 → procedure. One T/F now has a False key. Template grammar fixed ("the odd-leg…").
+- Option-length balancing: 40 questions (authoring/fix_fitting.py).
