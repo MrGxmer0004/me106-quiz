@@ -1,5 +1,6 @@
 import type { Question, RunItem, Settings } from './types';
 import type { Progress } from './storage';
+import { ESSENTIALS } from './data';
 
 export function shuffle<T>(a: T[]): T[] {
   const r = a.slice();
@@ -12,7 +13,17 @@ export function shuffle<T>(a: T[]): T[] {
 
 export function filterQuestions(all: Question[], s: Settings, progress: Progress, bookmarks: string[]): Question[] {
   const bm = new Set(bookmarks);
+  const ess = s.set === 'essentials';
   return all.filter((q) => {
+    if (ess && !ESSENTIALS.has(q.id)) return false;
+    if (s.shops.length && !s.shops.includes(q.shop)) return false;
+    if (ess) {
+      const st0 = progress[q.id];
+      if (s.pool === 'unseen' && st0 && st0.seen > 0) return false;
+      if (s.pool === 'wrong' && !(st0 && !st0.lastCorrect)) return false;
+      if (s.pool === 'bookmarked' && !bm.has(q.id)) return false;
+      return true;
+    }
     if (s.shops.length && !s.shops.includes(q.shop)) return false;
     if (s.categories.length && !s.categories.includes(q.category)) return false;
     if (s.difficulty !== 'mixed' && q.difficulty !== s.difficulty) return false;

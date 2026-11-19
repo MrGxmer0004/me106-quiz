@@ -19,7 +19,7 @@ function write(k: string, v: unknown) {
 }
 
 export const DEFAULT_SETTINGS: Settings = {
-  count: 20, shops: [], categories: [], difficulty: 'mixed', source: 'both', qtype: 'all',
+  set: 'full', count: 20, shops: [], categories: [], difficulty: 'mixed', source: 'both', qtype: 'all',
   mode: 'practice', pool: 'all', shuffleQuestions: true, shuffleOptions: true, timer: 'off', secondsPerQuestion: 45,
 };
 export const loadSettings = (): Settings => ({ ...DEFAULT_SETTINGS, ...read<Partial<Settings>>(KEY.settings, {}) });

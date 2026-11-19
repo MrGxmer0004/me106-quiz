@@ -1,5 +1,6 @@
 import type { Question, FigureEntry, Shop } from './types';
 import figuresJson from './data/figures.json';
+import essentialsJson from './data/essentials.json';
 
 const modules = import.meta.glob('./data/questions/*.json', { eager: true, import: 'default' }) as Record<string, Question[]>;
 
@@ -43,4 +44,5 @@ export const QUESTIONS: Question[] = Object.values(modules)
   .sort((a, b) => order.indexOf(a.shop) - order.indexOf(b.shop) || a.id.localeCompare(b.id));
 export const QBYID: Record<string, Question> = Object.fromEntries(QUESTIONS.map((q) => [q.id, q]));
 export const FIGURES = figuresJson as FigureEntry[];
+export const ESSENTIALS = new Set(Object.entries(essentialsJson as Record<string, unknown>).filter(([k]) => k !== '_check').flatMap(([, v]) => v as string[]));
 export const FIGBYID: Record<string, FigureEntry> = Object.fromEntries(FIGURES.map((f) => [f.id, f]));

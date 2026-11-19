@@ -102,6 +102,27 @@ for (const shop of SHOPS) {
   }
 }
 
+// ---------- essentials set
+const ESSP = path.join(ROOT, 'src/data/essentials.json');
+if (fs.existsSync(ESSP)) {
+  const ess = JSON.parse(fs.readFileSync(ESSP, 'utf8'));
+  const byId = Object.fromEntries(all.map((q) => [q.id, q]));
+  let n = 0;
+  const check = ess._check || {};
+  for (const [shop, idsE] of Object.entries(ess)) {
+    if (shop === '_check') continue;
+    for (const id of idsE) {
+      n++;
+      const q = byId[id];
+      if (!q) { err(id, 'essentials: unknown question ID (re-run python3 authoring/essentials.py)'); continue; }
+      if (q.shop !== shop) err(id, 'essentials: wrong shop');
+      if (check[id] && !q.question.startsWith(check[id])) err(id, 'essentials: question text changed (IDs shifted) — re-run python3 authoring/essentials.py');
+      if (q.difficulty === 'hard' || !['mcq', 'diagram'].includes(q.type)) err(id, 'essentials: must be an easy/medium single-answer MCQ');
+    }
+  }
+  if (!QUIET) console.log(`Essentials set: ${n} questions (${Object.entries(ess).filter(([k]) => k !== '_check').map(([k, v]) => `${k} ${v.length}`).join(', ')})`);
+}
+
 // ---------- near-duplicates (token Jaccard on normalised question text) ----------
 const norm = (s) => s.toLowerCase().replace(/[^a-z0-9ø°.\s]/g, ' ').split(/\s+/).filter((w) => w.length > 2);
 const toks = all.map((q) => new Set(norm(q.question + ' || ' + q.options[q.answer])));

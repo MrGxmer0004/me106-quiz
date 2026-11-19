@@ -30,7 +30,10 @@ export type TypeFilter = 'all' | 'diagram' | 'nodiagram' | 'numerical';
 export type SourceFilter = 'both' | 'lab' | 'theory';
 export type DiffFilter = 'mixed' | Difficulty;
 
+export type QSet = 'full' | 'essentials';
+
 export interface Settings {
+  set: QSet;
   count: number | 'all';
   shops: Shop[];          // empty = all
   categories: string[];   // empty = all

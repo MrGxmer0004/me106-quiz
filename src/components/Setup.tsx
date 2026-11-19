@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { CATEGORIES, QUESTIONS, SHOPS } from '../data';
+import { CATEGORIES, ESSENTIALS, QUESTIONS, SHOPS } from '../data';
 import { filterQuestions } from '../quiz';
 import { loadBookmarks, loadProgress } from '../storage';
 import type { Settings, Shop } from '../types';
@@ -38,6 +38,13 @@ export function Setup({ settings, onChange, onStart }: { settings: Settings; onC
   return (
     <main className="page setup">
       <section className="card">
+        <h2>Question set</h2>
+        <Seg label="Question set" value={s.set} onChange={(v) => set({ set: v })} options={[['full', `Full bank (${QUESTIONS.length})`], ['essentials', `Essentials (${ESSENTIALS.size})`]]} />
+        <p className="hint">{s.set === 'essentials'
+          ? 'Essentials: 10–24 simple MCQs per shop on the practical basics — machine parts, tools, materials, the lab job, procedure and precautions. No numericals or hard questions.'
+          : 'Full bank: every question, with filters for category, difficulty, source and type.'}</p>
+      </section>
+      <section className="card">
         <h2>Number of questions</h2>
         <div className="chips">
           {PRESETS.map((n) => (
@@ -61,10 +68,10 @@ export function Setup({ settings, onChange, onStart }: { settings: Settings; onC
             <button key={sh.id} className={`chip ${s.shops.includes(sh.id) ? 'on' : ''}`} aria-pressed={s.shops.includes(sh.id)} onClick={() => toggleShop(sh.id)}>{sh.name}</button>
           ))}
         </div>
-        <button className="linkish" aria-expanded={showCats} onClick={() => setShowCats((v) => !v)}>
+        {s.set === 'full' && <button className="linkish" aria-expanded={showCats} onClick={() => setShowCats((v) => !v)}>
           {showCats ? '▾' : '▸'} Categories {s.categories.length ? `(${s.categories.length} selected)` : '(all)'}
-        </button>
-        {showCats && (
+        </button>}
+        {s.set === 'full' && showCats && (
           <div className="chips small">
             <button className={`chip ${s.categories.length === 0 ? 'on' : ''}`} aria-pressed={s.categories.length === 0} onClick={() => set({ categories: [] })}>All</button>
             {CATEGORIES.map((c) => (
@@ -75,9 +82,11 @@ export function Setup({ settings, onChange, onStart }: { settings: Settings; onC
       </section>
 
       <section className="card grid2">
+        {s.set === 'full' && <>
         <div><h3>Difficulty</h3><Seg label="Difficulty" value={s.difficulty} onChange={(v) => set({ difficulty: v })} options={[['mixed', 'Mixed'], ['easy', 'Easy'], ['medium', 'Medium'], ['hard', 'Hard']]} /></div>
         <div><h3>Source</h3><Seg label="Source" value={s.source} onChange={(v) => set({ source: v })} options={[['both', 'Both'], ['lab', 'Lab-specific'], ['theory', 'Theory']]} /></div>
         <div><h3>Question type</h3><Seg label="Question type" value={s.qtype} onChange={(v) => set({ qtype: v })} options={[['all', 'All'], ['diagram', 'Diagram only'], ['nodiagram', 'No diagrams'], ['numerical', 'Numericals']]} /></div>
+        </>}
         <div><h3>Pool</h3><Seg label="Pool" value={s.pool} onChange={(v) => set({ pool: v })} options={[['all', 'All'], ['unseen', 'Unseen'], ['wrong', 'Previously wrong'], ['bookmarked', 'Bookmarked']]} /></div>
       </section>
 

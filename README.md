@@ -6,6 +6,7 @@ A static practice-quiz website for **ME-106 Workshop Practice** at IIT (BHU). It
 - 85 original SVG figures, including generated Vernier caliper and micrometer reading figures. More than 400 questions use a figure.
 - Practice mode (instant feedback) and test mode (optional timer, full review at the end).
 - Progress, "previously wrong" and bookmarks are stored in your browser (`localStorage`). There is no login and no backend.
+- An **Essentials** set (143 questions, 10–24 per shop): simple single-answer MCQs on the practical basics (parts, tools, materials, the lab job, procedure, precautions). Pick it under "Question set" on the setup page.
 - A **Revise** page with clean notes for each shop and a figure gallery listing every label.
 
 ## Run locally
@@ -62,6 +63,8 @@ Each entry in `src/data/questions/<shop>.json` looks like this:
 - Do not use "All/None of the above".
 
 You can edit the JSON directly for small fixes. If you re-run `python3 authoring/<shop>.py`, that shop's JSON is regenerated from the authoring script, so put lasting changes there or in `authoring/fix_<shop>.py`.
+
+After regenerating any shop's JSON, re-run `python3 authoring/essentials.py` so the Essentials list (`src/data/essentials.json`) points at the right IDs. The validator stops the build if it is out of date.
 
 Always check your changes with:
 
